@@ -153,6 +153,12 @@ operation and cannot be gated on an optional dependency.
 | `review_sources.py` | The review's source list: 148 `(key, title)` entries, optionally with a Europe PMC constraint for papers whose titles are too generic to rank. **Titles, not citations** — nothing here is a reference until it resolves. |
 | `s0_review_refs.py` | Resolves every source title against Europe PMC and writes `results/s0_baseline/references.tsv` with the returned PMID, DOI, year, journal and authors. A record is accepted only if its title is ≥ 90 % similar to the one requested, so a misremembered paper fails loudly instead of becoming a plausible bibliography entry. Exits non-zero on any failure. |
 | `s0_review_build.py` | Assembles `docs/channel_review_2026.md` from `docs/review/*.md`, renumbers citations, renders the bibliography; `--check` validates without writing, `--pdf` typesets via pandoc + xelatex. |
+| `s0_domain_map.py` | Fetches InterPro match **coordinates** for the 22 proteins the review's architecture figures compare → `results/s0_baseline/domain_positions.tsv`. `exemplar_architecture.tsv` records *which* domains a protein carries; this records *where*. |
+| `s0_filter_atlas.py` | Extracts the two selectivity-filter alignments from real sequences → `filter_k.tsv` (TxGYG located directly, no alignment used) and `filter_four_repeat.tsv` (the four-repeat locus projected from Nav1.5 by MAFFT). Records near misses explicitly, so *Bacillus* NaK's TVGDG appears as what it is rather than as a blank. |
+| `review_figlib.py` | Drawing primitives shared by the review figures: coloured sequence rows, membrane cartoons, β-strands, stoichiometry top-views, scale domain bars, and the one superfamily short-name map every figure uses. |
+| `s0_review_fig_filters.py` | Review figures 2 and 3 — the two filter alignments. |
+| `s0_review_fig_domains.py` | Review figures 4, 5 and 8 — length range, the shared-signature matrix, and the architecture traps to scale. |
+| `s0_review_fig_folds.py` | Review figures 1, 6 and 7 — the fold gallery (schematic), the real Cys-loop ML tree drawn from its Newick with bootstrap support, and the forest-not-a-tree diagram. |
 | `s0_report.py` | **S0** — renders `results/s0_baseline/report.md` purely from those tables (D13). |
 | `s1_toolchain.py` | **S1 step 1** — probes every external binary and Python package, writes `results/toolchain_manifest.txt`. |
 | `s1_benchmark.py` | **S1 driver** — verifies the filter anchor, loads the reference panel, classifies the control panel, writes recall / confusion / hazard / coverage tables. |

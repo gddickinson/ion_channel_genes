@@ -154,6 +154,30 @@ coverage floor, the superfamily-scoped reference search, and the prefilter
 length rule — and the first of them turned a false positive into a correct
 rejection.
 
+### Review figures
+Eight figures added, six rendered from committed tables and two labelled
+schematics. New scripts: `s0_domain_map.py` (InterPro match coordinates for
+the 22 proteins the architecture figures compare), `s0_filter_atlas.py` (the
+two filter alignments, extracted from real sequences), `review_figlib.py`
+(shared drawing primitives) and three `s0_review_fig_*.py` renderers.
+
+Two things the figures taught, both fixed:
+
+- **The first fold gallery was misleading.** It drew three subunits per
+  panel and truncated the helix count to fit, so a panel labelled "6 TM"
+  showed four. Rewritten to draw one subunit at its true count with a
+  stoichiometry top-view beside it.
+- **`s0_review_build.py --pdf` was silently producing a figure-less PDF.**
+  Pandoc resolves image paths against the working directory, not the input
+  file. Fixed with `--resource-path`, and the build now warns if a PDF with
+  figures comes out implausibly small — the failure mode was a clean exit
+  code and a wrong document.
+
+The atlas also recorded a useful negative: *Bacillus* NaK is the one panel
+member that fails the TxGYG test, and its filter reads **TVGDG** — the
+single substitution that makes it non-selective. It is drawn as a labelled
+negative control rather than dropped.
+
 ### Next session
 **S2** — the uncapped enumeration. Read
 `results/benchmark_controls/report.md` first; the three findings it hands S2

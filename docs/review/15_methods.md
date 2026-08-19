@@ -32,6 +32,23 @@ rather than literature, and the queries that produced them are in
 that section, and the S0 report is rendered from the tables rather than
 written alongside them.
 
+### The figures
+
+Six of the eight figures are rendered from committed tables and none is
+drawn by hand: `s0_filter_atlas.py` extracts the two filter alignments from
+real sequences, `s0_domain_map.py` fetches the InterPro coordinates behind
+the architecture diagrams, and `s0_review_fig_*.py` render them through the
+project's single figure style. Re-running the scripts regenerates every
+panel from the same tables the text quotes, so a figure and its sentence
+cannot drift apart.
+
+Figures 1 and 7 are schematics and are labelled as such in their legends.
+Figure 1 carries transmembrane counts, pore-loop counts and stoichiometry
+and nothing else; an earlier version drew three subunits side by side and
+silently truncated the helix count, so that a panel labelled "6 TM" showed
+four, and it was replaced. Figure 7 is a diagram of a rule rather than of
+data.
+
 ### The computational toolchain
 
 Where this review reports its own measurements, the tools are: MAFFT for

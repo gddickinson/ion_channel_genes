@@ -18,6 +18,13 @@ checked claims, and build the reference panel the classifier needs.
 1. `python3 -m src.catalogue` and `python3 scripts/selftest.py` — both clean.
 2. `python3 scripts/s0_catalogue_verify.py` (~40 min, ~800 live requests).
 3. `python3 scripts/s0_report.py` and `python3 scripts/s0_figures.py`.
+3a. The review and its figures:
+   `python3 scripts/s0_review_refs.py` (resolve every citation),
+   `python3 scripts/s0_domain_map.py`, `python3 scripts/s0_filter_atlas.py`,
+   then `s0_review_fig_filters.py`, `s0_review_fig_domains.py`,
+   `s0_review_fig_folds.py`, then
+   `python3 scripts/s0_review_build.py --pdf`. **Look at every figure you
+   regenerate** (D11).
 4. Read `results/s0_baseline/report.md` end to end. For every flagged row
    decide: is the catalogue wrong, or is the database? Fix the catalogue,
    or add a note to the family's `notes` saying why the mismatch is

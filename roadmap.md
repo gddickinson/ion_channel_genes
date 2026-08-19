@@ -85,6 +85,13 @@ tracks the tool.
   ~90 s → ~9 s, and the shortlists became the right ones: connexin-26 now
   shortlists connexin-43, not RYR2.
 
+- **v2.10** The literature review and its figure set: `review_sources.py`
+  + `s0_review_refs.py` (Europe PMC resolution, ≥90 % title match, 148/148),
+  `s0_review_build.py` (assembly, renumbering, bibliography, `--check`,
+  `--pdf`), and eight figures — six rendered from committed tables, two
+  labelled schematics — through `review_figlib.py` and the existing figure
+  style.
+
 ## Known gaps
 
 - `src/analysis/alignment.py` still imports Biopython at module level, so

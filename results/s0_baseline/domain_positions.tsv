@@ -1,0 +1,100 @@
+accession	gene	length_aa	pfam	pfam_name	start	end	copy	role
+Q14524	SCN5A	2016	PF00520	Ion transport protein	130	422	1	Nav: Ion_trans x4 + Na_trans_assoc
+Q14524	SCN5A	2016	PF11933	Cytoplasmic domain of voltage-gated Na+ ion channel	508	667	1	Nav: Ion_trans x4 + Na_trans_assoc
+Q14524	SCN5A	2016	PF00520	Ion transport protein	717	945	2	Nav: Ion_trans x4 + Na_trans_assoc
+Q14524	SCN5A	2016	PF06512	Sodium ion transport-associated	953	1200	1	Nav: Ion_trans x4 + Na_trans_assoc
+Q14524	SCN5A	2016	PF00520	Ion transport protein	1204	1479	3	Nav: Ion_trans x4 + Na_trans_assoc
+Q14524	SCN5A	2016	PF00520	Ion transport protein	1528	1782	4	Nav: Ion_trans x4 + Na_trans_assoc
+Q14524	SCN5A	2016	PF24609	SCN5A-like, C-terminal IQ motif	1894	1926	1	Nav: Ion_trans x4 + Na_trans_assoc
+Q13936	CACNA1C	2221	PF00520	Ion transport protein	124	415	1	Cav1: Ion_trans x4 + Ca_chan_IQ
+Q13936	CACNA1C	2221	PF00520	Ion transport protein	524	761	2	Cav1: Ion_trans x4 + Ca_chan_IQ
+Q13936	CACNA1C	2221	PF00520	Ion transport protein	952	1196	3	Cav1: Ion_trans x4 + Ca_chan_IQ
+Q13936	CACNA1C	2221	PF00520	Ion transport protein	1239	1322	4	Cav1: Ion_trans x4 + Ca_chan_IQ
+Q13936	CACNA1C	2221	PF00520	Ion transport protein	1324	1534	5	Cav1: Ion_trans x4 + Ca_chan_IQ
+Q13936	CACNA1C	2221	PF16905	Voltage-dependent L-type calcium channel, IQ-associated	1544	1597	1	Cav1: Ion_trans x4 + Ca_chan_IQ
+Q13936	CACNA1C	2221	PF08763	Voltage gated calcium channel IQ domain	1607	1681	1	Cav1: Ion_trans x4 + Ca_chan_IQ
+Q13936	CACNA1C	2221	PF16885	Voltage-gated calcium channel subunit alpha, C-term	1947	2170	1	Cav1: Ion_trans x4 + Ca_chan_IQ
+O43497	CACNA1G	2377	PF00520	Ion transport protein	80	405	1	Cav3: Ion_trans x4 and nothing else
+O43497	CACNA1G	2377	PF00520	Ion transport protein	743	970	2	Cav3: Ion_trans x4 and nothing else
+O43497	CACNA1G	2377	PF00520	Ion transport protein	1275	1547	3	Cav3: Ion_trans x4 and nothing else
+O43497	CACNA1G	2377	PF00520	Ion transport protein	1611	1861	4	Cav3: Ion_trans x4 and nothing else
+Q8IZF0	NALCN	1738	PF00520	Ion transport protein	36	331	1	leak: Ion_trans x4 and nothing else
+Q8IZF0	NALCN	1738	PF00520	Ion transport protein	384	604	2	leak: Ion_trans x4 and nothing else
+Q8IZF0	NALCN	1738	PF00520	Ion transport protein	887	1163	3	leak: Ion_trans x4 and nothing else
+Q8IZF0	NALCN	1738	PF00520	Ion transport protein	1209	1457	4	leak: Ion_trans x4 and nothing else
+Q8NEC5	CATSPER1	780	PF00520	Ion transport protein	448	676	1	one 6TM subunit of a heterotetramer
+P13569	CFTR	1480	PF00664	ABC transporter transmembrane region	82	350	1	ABC fold + the R domain
+P13569	CFTR	1480	PF00005	ABC transporter	441	575	1	ABC fold + the R domain
+P13569	CFTR	1480	PF14396	Cystic fibrosis TM conductance regulator (CFTR), regulator domain	639	849	1	ABC fold + the R domain
+P13569	CFTR	1480	PF00664	ABC transporter transmembrane region	863	1147	2	ABC fold + the R domain
+P13569	CFTR	1480	PF00005	ABC transporter	1227	1373	2	ABC fold + the R domain
+Q09428	ABCC8	1581	PF00664	ABC transporter transmembrane region	304	590	1	the same ABC fold, no R domain, not a channel
+Q09428	ABCC8	1581	PF00005	ABC transporter	696	856	1	the same ABC fold, no R domain, not a channel
+Q09428	ABCC8	1581	PF00664	ABC transporter transmembrane region	1014	1292	2	the same ABC fold, no R domain, not a channel
+Q09428	ABCC8	1581	PF00005	ABC transporter	1361	1509	2	the same ABC fold, no R domain, not a channel
+Q5XXA6	ANO1	986	PF16178	Anoctamin, dimerisation domain	54	317	1	channel
+Q5XXA6	ANO1	986	PF04547	Calcium-activated chloride channel	320	926	1	channel
+Q4KMQ2	ANO6	910	PF16178	Anoctamin, dimerisation domain	61	284	1	scramblase, identical architecture
+Q4KMQ2	ANO6	910	PF04547	Calcium-activated chloride channel	287	870	1	scramblase, identical architecture
+Q9GZU1	MCOLN1	580	PF21381	Mucolipin, extracytosolic domain	91	285	1	TRPML
+Q9GZU1	MCOLN1	580	PF08016	Polycystin cation channel	385	524	1	TRPML
+Q13563	PKD2	968	PF20519	Polycystin domain	269	463	1	TRPP
+Q13563	PKD2	968	PF08016	Polycystin cation channel	464	687	1	TRPP
+Q13563	PKD2	968	PF18109	Ferredoxin I 4Fe-4S cluster domain	834	868	1	TRPP
+P98161	PKD1	4303	PF13855	Leucine rich repeat	71	126	1	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF01822	WSC domain	180	252	1	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	274	352	1	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00059	Lectin C-type domain	426	531	1	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	950	1013	2	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	1021	1122	3	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	1130	1208	4	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	1214	1291	5	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	1303	1369	6	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	1383	1462	7	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	1472	1544	8	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	1550	1628	9	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	1634	1713	10	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	1721	1798	11	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	1805	1882	12	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	1889	1967	13	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	1973	2057	14	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF00801	PKD domain	2068	2141	15	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF02010	REJ domain	2171	2614	1	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF01477	PLAT/LH2 domain	3120	3223	1	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF20519	Polycystin domain	3714	3890	1	polycystin-1: same domain, not a pore
+P98161	PKD1	4303	PF08016	Polycystin cation channel	3895	4112	1	polycystin-1: same domain, not a pore
+Q09470	KCNA1	495	PF02214	BTB/POZ domain	39	129	1	Kv: Ion_trans + the T1 domain
+Q09470	KCNA1	495	PF00520	Ion transport protein	167	418	1	Kv: Ion_trans + the T1 domain
+Q719H9	KCTD1	257	PF02214	BTB/POZ domain	32	122	1	the T1 domain without a channel
+Q719H9	KCTD1	257	PF20871	BTB/POZ domain-containing protein KCTD1/15, C-terminal domain	141	237	1	the T1 domain without a channel
+P42261	GRIA1	906	PF01094	Receptor family ligand binding region	38	373	1	iGluR: clamshell + pore
+P42261	GRIA1	906	PF10613	Ligated ion channel L-glutamate- and glycine-binding site	408	522	1	iGluR: clamshell + pore
+P42261	GRIA1	906	PF00060	Ligand-gated ion channel	537	817	1	iGluR: clamshell + pore
+Q13255	GRM1	1194	PF01094	Receptor family ligand binding region	79	486	1	the same clamshell, seven-TM, not ionotropic
+Q13255	GRM1	1194	PF07562	Nine Cysteines Domain of family 3 GPCR	520	571	1	the same clamshell, seven-TM, not ionotropic
+Q13255	GRM1	1194	PF00003	7 transmembrane sweet-taste receptor of 3 GCPR	586	834	1	the same clamshell, seven-TM, not ionotropic
+Q13255	GRM1	1194	PF10606	Homer-binding domain of metabotropic glutamate receptor	1144	1194	1	the same clamshell, seven-TM, not ionotropic
+P02708	CHRNA1	457	PF02931	Neurotransmitter-gated ion-channel ligand binding domain	24	230	1	Cys-loop: LBD + TM
+P02708	CHRNA1	457	PF02932	Neurotransmitter-gated ion-channel transmembrane region	238	446	1	Cys-loop: LBD + TM
+P58154	AChBP	229	PF02931	Neurotransmitter-gated ion-channel ligand binding domain	35	223	1	the same LBD, soluble
+Q96D96	HVCN1	273	PF00520	Ion transport protein	100	216	1	a channel with no pore domain
+Q96D96	HVCN1	273	PF16799	C-terminal membrane-localisation domain of ion-channel, VCN1	226	273	1	a channel with no pore domain
+P56180	TPTE	551	PF00520	Ion transport protein	92	219	1	the same pore annotation, a phosphatase
+P56180	TPTE	551	PF22785	Polymorphic toxin system, DSP-PTPase phosphatase	298	355	1	the same pore annotation, a phosphatase
+P56180	TPTE	551	PF10409	C2 domain of PTEN tumour-suppressor protein	409	539	1	the same pore annotation, a phosphatase
+P21817	RYR1	5038	PF08709	Inositol 1,4,5-trisphosphate/ryanodine receptor	9	209	1	5,038 aa — the largest
+P21817	RYR1	5038	PF02815	MIR domain	211	389	1	5,038 aa — the largest
+P21817	RYR1	5038	PF01365	RIH domain	443	636	1	5,038 aa — the largest
+P21817	RYR1	5038	PF00622	SPRY domain	660	794	1	5,038 aa — the largest
+P21817	RYR1	5038	PF02026	RyR domain	850	939	1	5,038 aa — the largest
+P21817	RYR1	5038	PF02026	RyR domain	964	1053	2	5,038 aa — the largest
+P21817	RYR1	5038	PF00622	SPRY domain	1086	1205	2	5,038 aa — the largest
+P21817	RYR1	5038	PF00622	SPRY domain	1432	1568	3	5,038 aa — the largest
+P21817	RYR1	5038	PF21119	Ryanodine receptor junctional solenoid repeat	1662	2126	1	5,038 aa — the largest
+P21817	RYR1	5038	PF01365	RIH domain	2160	2368	2	5,038 aa — the largest
+P21817	RYR1	5038	PF02026	RyR domain	2735	2825	3	5,038 aa — the largest
+P21817	RYR1	5038	PF02026	RyR domain	2855	2939	4	5,038 aa — the largest
+P21817	RYR1	5038	PF08454	RyR and IP3R Homology associated	3876	3991	1	5,038 aa — the largest
+P21817	RYR1	5038	PF06459	Ryanodine Receptor TM 4-6	4383	4671	1	5,038 aa — the largest
+P21817	RYR1	5038	PF00520	Ion transport protein	4790	4948	1	5,038 aa — the largest
+P0A742	mscL	136	PF01741	Large-conductance mechanosensitive channel, MscL	3	130	1	136 aa — the smallest

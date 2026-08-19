@@ -134,8 +134,14 @@ def to_pdf() -> int:
     if not OUT_MD.exists():
         print("[review] build the markdown first")
         return 1
+    # --resource-path: pandoc resolves image paths against the working
+    # directory, not against the input file, so `figures/fig1.png` in
+    # docs/channel_review_2026.md is only found if docs/ is on the path.
+    # Without it the build succeeds and silently produces a PDF with no
+    # figures in it, which is the worst of the available outcomes.
     cmd = ["pandoc", str(OUT_MD), "-o", str(OUT_PDF),
            "--pdf-engine=xelatex", "--toc", "--toc-depth=2",
+           f"--resource-path={OUT_MD.parent}",
            "-V", "geometry:a4paper,margin=2.2cm",
            "-V", "fontsize=10pt", "-V", "linkcolor=blue",
            "-V", "mainfont=Helvetica Neue"]
@@ -143,8 +149,14 @@ def to_pdf() -> int:
     if p.returncode != 0:
         print(f"[review] pandoc failed: {p.stderr.strip()[:400]}")
         return 1
-    print(f"[review] wrote {OUT_PDF} "
-          f"({OUT_PDF.stat().st_size / 1e6:.2f} MB)")
+    size_mb = OUT_PDF.stat().st_size / 1e6
+    n_figs = len(re.findall(r"^!\[", OUT_MD.read_text(), flags=re.M))
+    print(f"[review] wrote {OUT_PDF} ({size_mb:.2f} MB, {n_figs} figures)")
+    if n_figs and size_mb < 0.5:
+        print("[review] WARNING: the PDF is small for a document with "
+              f"{n_figs} figures — check that pandoc resolved the image "
+              "paths rather than dropping them silently")
+        return 1
     return 0
 
 

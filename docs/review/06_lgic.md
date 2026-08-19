@@ -30,6 +30,19 @@ from vertebrates — the ivermectin target — and one of them provided the
 first eukaryotic structure of the superfamily [hibbs2011]. Human structures
 followed for GABA_A and glycine receptors [miller2014, du2015].
 
+![](figures/fig6_cysloop_tree.png)
+
+**Figure 6 | A tier-2 tree that behaves.** Maximum-likelihood tree of the
+Cys-loop reference proteins — MAFFT, trimAl, IQ-TREE 2 with ModelFinder
+(LG+G4) and 1000 ultrafast bootstrap replicates — rooted on the two
+bacterial channels. Numbers are bootstrap support. The anion-selective GABA
+and glycine receptors form a clade at 100 %, the cation-selective receptors
+another, and **AChBP — which is not a channel — sisters the cationic group
+at 100 %**, exactly where its cholinergic ligand-binding chemistry says it
+should sit. This is the superfamily the review calls the most tractable
+phylogenetic unit in the subject, and the tree is what that claim looks
+like. Run recorded in `results/phylogeny/tier2_cysloop/cysloop.run.json`.
+
 ### 6.2 Ionotropic glutamate receptors
 
 Four subunits, each with an amino-terminal clamshell, a second clamshell

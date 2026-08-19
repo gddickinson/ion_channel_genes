@@ -29,25 +29,9 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import figstyle as fs
+import review_figlib as R
 from scripts.s0_lib import read_tsv
 from src.catalogue import CATALOGUE, SUPERFAMILIES, census_families
-
-
-#: Display names. The catalogue's names are precise and too long for a
-#: 3-inch axis; these are the short forms used in every figure so a reader
-#: tracks the same label across panels.
-SHORT = {
-    "ploop": "P-loop (VGIC)", "cysloop": "Cys-loop (pLGIC)",
-    "iglur": "iGluR", "tmem16_like": "TMEM16 / OSCA / TMC",
-    "connexin": "connexins", "deg_enac": "DEG / ENaC",
-    "innexin_like": "innexin / pannexin / LRRC8", "p2x": "P2X",
-    "ca_release": "ITPR / RYR", "calhm": "CALHM", "clic": "CLIC",
-    "bestrophin": "bestrophins", "clc": "CLC", "orai": "ORAI",
-    "otopetrin": "otopetrins", "porin": "VDAC / porins",
-    "tweety": "tweety", "mcu": "MCU", "piezo": "Piezo", "tric": "TRIC",
-    "abc_channel": "CFTR (ABC fold)", "hv": "Hv1", "tmem175": "TMEM175",
-    "msc": "MscL / MscS", "viroporin": "viroporins", "": "(no superfamily)",
-}
 
 
 def panel_a(ax) -> None:
@@ -72,7 +56,7 @@ def panel_a(ax) -> None:
         ax.text(genes.get(k, 0) + 2, i, label,
                 va="center", fontsize=fs.FS_TICK - 0.6, color=fs.MUTED)
     ax.set_yticks(list(y))
-    ax.set_yticklabels([SUPERFAMILies_name(k) for k in order],
+    ax.set_yticklabels([R.superfamily_label(k) for k in order],
                        fontsize=fs.FS_TICK - 0.4)
     ax.invert_yaxis()
     ax.set_xlabel("human pore-forming genes  (right: census + control families)",
@@ -82,7 +66,7 @@ def panel_a(ax) -> None:
     fs.hgrid(ax, axis="x")
 
 
-def SUPERFAMILies_name(key: str) -> str:
+def _unused_name(key: str) -> str:
     if key in SHORT:
         return SHORT[key]
     sf = SUPERFAMILIES.get(key)

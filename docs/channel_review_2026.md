@@ -41,6 +41,23 @@ by the domain rules that define their own superfamilies. These are not
 database errors. They are what a set of models built from well-studied
 proteins looks like when it is asked about the proteins nobody studied.
 
+## Figures
+
+| | |
+|---|---|
+| **1** | the folds, one subunit each — *schematic* |
+| **2** | the potassium filter across the branch — *measured, no alignment used* |
+| **3** | the four-repeat locus, DEKA / EEEE / EEDD / EEKE — *measured* |
+| **4** | length range by superfamily — *measured* |
+| **5** | which families carry which shared domain — *measured* |
+| **6** | a rooted ML tree of the Cys-loop receptors — *measured* |
+| **7** | the forest, and the four superfamilies that get no tree — *schematic of a rule* |
+| **8** | the architecture traps, to scale — *measured* |
+
+Six of the eight are rendered from committed tables in
+`results/s0_baseline/` and `results/phylogeny/`; the two schematics say so
+in their legends and carry no data beyond the counts they display.
+
 ## Key points
 
 - **"Ion channel" is a functional class, not a clade.** Any statement of the
@@ -139,6 +156,16 @@ and is absent from families that are.
 
 ## 2. The folds
 
+![](figures/fig1_folds.png)
+
+**Figure 1 | The folds.** One subunit of each architecture, drawn at the
+transmembrane count the catalogue records, with the subunit stoichiometry
+below it and the pore loops marked where the fold has them. *This panel is a
+schematic*: it carries helix counts, pore-loop counts and stoichiometry, and
+nothing about helix packing, tilt or pore geometry should be read from it.
+The four P-loop rows are the same fold at four topologies, which is the
+subject of §5.1; the remaining eight are unrelated to it and to each other.
+
 A useful way to organise the subject is by the architecture of the pore
 itself, because that is what is genuinely inherited. At least ten unrelated
 folds solve the problem, and the boundaries between them are the boundaries
@@ -230,6 +257,19 @@ recognisable in *Streptomyces* KcsA, in *Drosophila* Shaker and in human
 Kv1.1, and it is the one motif in this review that can be found in a raw
 sequence with no reference and no annotation [39].
 
+![](figures/fig2_potassium_filter.png)
+
+**Figure 2 | One motif, one billion years.** The T-x-G-Y-G filter located
+directly in each sequence — no alignment was performed — with seven residues
+of context on each side, from the *Streptomyces* prototype through
+*Drosophila* Shaker to the human families. Residues are coloured by
+chemistry. Two rows carry the argument. *Bacillus* **NaK** is the only panel
+member that fails the test, and its filter reads TVGDG: a single Y→D
+substitution, and it is not potassium-selective. **GluR0**, a cyanobacterial
+*glutamate receptor*, carries a perfect TVGYG — which is the inverted-P-loop
+relationship of §2 visible in a sequence rather than in a structure.
+Rendered from `results/s0_baseline/filter_k.tsv`.
+
 ### 3.2 The four-repeat locus
 
 The sodium and calcium channels arrived at selectivity differently. Both are
@@ -250,6 +290,20 @@ which is a real difference within a family rather than an error.
 Several of the families whose filters are least well characterised are also
 the primary transducers of noxious stimuli, which is where much of their
 pharmacological interest lies [42].
+
+![](figures/fig3_four_repeat_filter.png)
+
+**Figure 3 | Four residues, three ions.** The selectivity locus of the
+four-repeat channels, projected from human Nav1.5 by MAFFT and shown with
+its context in each query (decision **D26**). The projected residue is
+boxed; the signature is given at the right. The two sodium channels read
+DEKA, the L-type calcium channel EEEE, the T-type channel **EEDD** — a real
+difference within a family, not an error — and the sodium leak channel
+NALCN reads EEKE, a calcium-channel filter carrying the sodium channel's
+lysine in repeat III. TPC1 and CatSper1 are included because they have two
+repeats and one: the method declines rather than guessing, and a figure
+showing only its successes would misrepresent it. Rendered from
+`results/s0_baseline/filter_four_repeat.tsv`.
 
 ### 3.3 Selectivity that is not in the family
 
@@ -381,6 +435,17 @@ cryo-EM at near-atomic resolution and effectively started that era
 vomeronasal channel in mice, which makes it a useful test of whether a
 census makes per-lineage presence calls correctly [85].
 
+![](figures/fig4_length_range.png)
+
+**Figure 4 | Why a superfamily tree cannot use full-length sequence.** Every
+reference protein in the catalogue, by superfamily, on a log axis. The
+P-loop superfamily alone runs from the 114-residue *Bacillus* NaK channel to
+CACNA1G at 2,377, and the calcium-release channels reach RYR1 at 5,038 —
+a 44-fold range within one fold. Almost all of that difference is cytosolic
+machinery with no counterpart in the other families, which is why a tier-2
+tree is built on the pore module and labelled as one (**D27**). Rendered
+from `results/s0_baseline/exemplars_resolved.tsv`.
+
 ### 5.4 The intracellular calcium-release channels
 
 The IP₃ and ryanodine receptors belong here structurally — their C-terminal
@@ -422,6 +487,19 @@ Invertebrates add glutamate- and histamine-gated *chloride* channels absent
 from vertebrates — the ivermectin target — and one of them provided the
 first eukaryotic structure of the superfamily [89]. Human structures
 followed for GABA_A and glycine receptors [90,91].
+
+![](figures/fig6_cysloop_tree.png)
+
+**Figure 6 | A tier-2 tree that behaves.** Maximum-likelihood tree of the
+Cys-loop reference proteins — MAFFT, trimAl, IQ-TREE 2 with ModelFinder
+(LG+G4) and 1000 ultrafast bootstrap replicates — rooted on the two
+bacterial channels. Numbers are bootstrap support. The anion-selective GABA
+and glycine receptors form a clade at 100 %, the cation-selective receptors
+another, and **AChBP — which is not a channel — sisters the cationic group
+at 100 %**, exactly where its cholinergic ligand-binding chemistry says it
+should sit. This is the superfamily the review calls the most tractable
+phylogenetic unit in the subject, and the tree is what that claim looks
+like. Run recorded in `results/phylogeny/tier2_cysloop/cysloop.run.json`.
 
 ### 6.2 Ionotropic glutamate receptors
 
@@ -755,6 +833,17 @@ the detection limit further, and the TMEM16/OSCA/TMC clan — three families
 assigned separate domain models that turned out to share a fold — is the
 warning that they sometimes do.
 
+![](figures/fig7_forest.png)
+
+**Figure 7 | A forest, not a tree.** Every superfamily with a census family,
+drawn as a unit that gets its own tree. Four are marked *no tree*: the
+catalogue records them as non-alignable — their member families share a fold
+with no detectable sequence homology — and `build_tier2()` raises rather
+than producing an alignment artefact. Violet lines are the structural
+relationships §11.3 discusses, drawn as network edges with no branch length
+and no ancestor implied. There is no panel spanning two boxes, and no code
+path that would draw one (**D27**). *Schematic of a rule, not a result.*
+
 ### 11.4 What a phylogeny of ion channels can and cannot be
 
 There is no alignment containing a nicotinic receptor and a Kv channel, so
@@ -816,6 +905,15 @@ consequential annotation fact we measured, and it is not a database error:
 the models were built family by family from the best-characterised members,
 and behave accordingly.
 
+![](figures/fig5_domain_matrix.png)
+
+**Figure 5 | The shared signatures.** Presence of each widely shared domain
+accession across the catalogued families, ordered by how many families carry
+it. Blue marks an ion-channel family and red one the catalogue does not count
+as a channel. The first column is `PF00520`, reaching twenty families and
+including two red rows. Rendered from
+`results/s0_baseline/exemplar_architecture.tsv`.
+
 ### 12.3 Domain models do not track topology
 
 The small-conductance calcium-activated potassium channels are 6TM proteins,
@@ -845,6 +943,21 @@ functionally distinct:
 The third row is the uncomfortable one: ANO1 and ANO6 have identical
 architectures, ~40 % identity and different functions, and no
 sequence-level test yet separates them.
+
+![](figures/fig8_architecture_traps.png)
+
+**Figure 8 | What domain composition cannot separate.** Scale diagrams from
+measured InterPro coordinates. *Top:* four channels with the same four
+copies of `PF00520` and three different permeant ions — separated only by
+the residues in figure 3. *Second:* CFTR and the sulfonylurea receptor,
+which differ by one accession, `PF14396`. *Third:* a chloride channel and a
+lipid scramblase carrying the same two accessions in the same order. *Fourth:* `PF08016`
+across TRPML, TRPP and polycystin-1, which is not a pore. *Bottom:* four
+pairs in which the shared domain exists outside channels entirely — the Kv
+T1 domain in a ubiquitin-ligase adaptor, the iGluR clamshell in a
+metabotropic receptor, the Cys-loop ligand-binding domain in a soluble snail
+protein, and the pore-module annotation on a phosphatase. Rendered from
+`results/s0_baseline/domain_positions.tsv`.
 
 ### 12.5 Signatures shared with non-channels
 
@@ -1030,6 +1143,23 @@ rather than literature, and the queries that produced them are in
 `results/s0_baseline/`. Re-running the script re-derives every number in
 that section, and the S0 report is rendered from the tables rather than
 written alongside them.
+
+### The figures
+
+Six of the eight figures are rendered from committed tables and none is
+drawn by hand: `s0_filter_atlas.py` extracts the two filter alignments from
+real sequences, `s0_domain_map.py` fetches the InterPro coordinates behind
+the architecture diagrams, and `s0_review_fig_*.py` render them through the
+project's single figure style. Re-running the scripts regenerates every
+panel from the same tables the text quotes, so a figure and its sentence
+cannot drift apart.
+
+Figures 1 and 7 are schematics and are labelled as such in their legends.
+Figure 1 carries transmembrane counts, pore-loop counts and stoichiometry
+and nothing else; an earlier version drew three subunits side by side and
+silently truncated the helix count, so that a panel labelled "6 TM" showed
+four, and it was replaced. Figure 7 is a diagram of a rule rather than of
+data.
 
 ### The computational toolchain
 

@@ -174,6 +174,17 @@ connexin-43, its actual relative** — and was duly called a ryanodine
 receptor. Requiring the alignment to cover 30 % of the longer sequence fixed
 it, and specificity went from 24/25 to 25/25.
 
+**Two things became visible only once they were drawn.** The potassium
+filter alignment (review fig. 2) puts *Streptomyces* KcsA, *Drosophila*
+Shaker and human Kv1.1 in the same five columns, and the two rows that carry
+the argument are the exceptions: *Bacillus* NaK, whose TVGDG differs from
+the signature by one residue and is not potassium-selective, and GluR0 — a
+cyanobacterial **glutamate receptor** — carrying a textbook TVGYG. The
+second is the four-repeat locus (fig. 3), where DEKA, EEEE, EEDD and EEKE
+sit in visibly similar sequence context: the residues that decide which ion
+a channel conducts are four positions in a stretch that otherwise looks the
+same.
+
 *(pending: S2 — whether these recall figures hold when the panel is the whole
 census rather than one member per family, and S3 — whether profile methods
 recover the families sequence identity cannot.)*

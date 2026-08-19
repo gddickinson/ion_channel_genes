@@ -1,5 +1,15 @@
 ## 2. The folds
 
+![](figures/fig1_folds.png)
+
+**Figure 1 | The folds.** One subunit of each architecture, drawn at the
+transmembrane count the catalogue records, with the subunit stoichiometry
+below it and the pore loops marked where the fold has them. *This panel is a
+schematic*: it carries helix counts, pore-loop counts and stoichiometry, and
+nothing about helix packing, tilt or pore geometry should be read from it.
+The four P-loop rows are the same fold at four topologies, which is the
+subject of §5.1; the remaining eight are unrelated to it and to each other.
+
 A useful way to organise the subject is by the architecture of the pore
 itself, because that is what is genuinely inherited. At least ten unrelated
 folds solve the problem, and the boundaries between them are the boundaries

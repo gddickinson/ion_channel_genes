@@ -41,6 +41,23 @@ by the domain rules that define their own superfamilies. These are not
 database errors. They are what a set of models built from well-studied
 proteins looks like when it is asked about the proteins nobody studied.
 
+## Figures
+
+| | |
+|---|---|
+| **1** | the folds, one subunit each — *schematic* |
+| **2** | the potassium filter across the branch — *measured, no alignment used* |
+| **3** | the four-repeat locus, DEKA / EEEE / EEDD / EEKE — *measured* |
+| **4** | length range by superfamily — *measured* |
+| **5** | which families carry which shared domain — *measured* |
+| **6** | a rooted ML tree of the Cys-loop receptors — *measured* |
+| **7** | the forest, and the four superfamilies that get no tree — *schematic of a rule* |
+| **8** | the architecture traps, to scale — *measured* |
+
+Six of the eight are rendered from committed tables in
+`results/s0_baseline/` and `results/phylogeny/`; the two schematics say so
+in their legends and carry no data beyond the counts they display.
+
 ## Key points
 
 - **"Ion channel" is a functional class, not a clade.** Any statement of the

@@ -43,6 +43,15 @@ consequential annotation fact we measured, and it is not a database error:
 the models were built family by family from the best-characterised members,
 and behave accordingly.
 
+![](figures/fig5_domain_matrix.png)
+
+**Figure 5 | The shared signatures.** Presence of each widely shared domain
+accession across the catalogued families, ordered by how many families carry
+it. Blue marks an ion-channel family and red one the catalogue does not count
+as a channel. The first column is `PF00520`, reaching twenty families and
+including two red rows. Rendered from
+`results/s0_baseline/exemplar_architecture.tsv`.
+
 ### 12.3 Domain models do not track topology
 
 The small-conductance calcium-activated potassium channels are 6TM proteins,
@@ -72,6 +81,21 @@ functionally distinct:
 The third row is the uncomfortable one: ANO1 and ANO6 have identical
 architectures, ~40 % identity and different functions, and no
 sequence-level test yet separates them.
+
+![](figures/fig8_architecture_traps.png)
+
+**Figure 8 | What domain composition cannot separate.** Scale diagrams from
+measured InterPro coordinates. *Top:* four channels with the same four
+copies of `PF00520` and three different permeant ions — separated only by
+the residues in figure 3. *Second:* CFTR and the sulfonylurea receptor,
+which differ by one accession, `PF14396`. *Third:* a chloride channel and a
+lipid scramblase carrying the same two accessions in the same order. *Fourth:* `PF08016`
+across TRPML, TRPP and polycystin-1, which is not a pore. *Bottom:* four
+pairs in which the shared domain exists outside channels entirely — the Kv
+T1 domain in a ubiquitin-ligase adaptor, the iGluR clamshell in a
+metabotropic receptor, the Cys-loop ligand-binding domain in a soluble snail
+protein, and the pore-module annotation on a phosphatase. Rendered from
+`results/s0_baseline/domain_positions.tsv`.
 
 ### 12.5 Signatures shared with non-channels
 

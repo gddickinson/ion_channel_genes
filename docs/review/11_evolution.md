@@ -58,6 +58,17 @@ the detection limit further, and the TMEM16/OSCA/TMC clan — three families
 assigned separate domain models that turned out to share a fold — is the
 warning that they sometimes do.
 
+![](figures/fig7_forest.png)
+
+**Figure 7 | A forest, not a tree.** Every superfamily with a census family,
+drawn as a unit that gets its own tree. Four are marked *no tree*: the
+catalogue records them as non-alignable — their member families share a fold
+with no detectable sequence homology — and `build_tier2()` raises rather
+than producing an alignment artefact. Violet lines are the structural
+relationships §11.3 discusses, drawn as network edges with no branch length
+and no ancestor implied. There is no panel spanning two boxes, and no code
+path that would draw one (**D27**). *Schematic of a rule, not a result.*
+
 ### 11.4 What a phylogeny of ion channels can and cannot be
 
 There is no alignment containing a nicotinic receptor and a Kv channel, so

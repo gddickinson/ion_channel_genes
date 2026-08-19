@@ -48,6 +48,17 @@ cryo-EM at near-atomic resolution and effectively started that era
 vomeronasal channel in mice, which makes it a useful test of whether a
 census makes per-lineage presence calls correctly [liman1999].
 
+![](figures/fig4_length_range.png)
+
+**Figure 4 | Why a superfamily tree cannot use full-length sequence.** Every
+reference protein in the catalogue, by superfamily, on a log axis. The
+P-loop superfamily alone runs from the 114-residue *Bacillus* NaK channel to
+CACNA1G at 2,377, and the calcium-release channels reach RYR1 at 5,038 —
+a 44-fold range within one fold. Almost all of that difference is cytosolic
+machinery with no counterpart in the other families, which is why a tier-2
+tree is built on the pore module and labelled as one (**D27**). Rendered
+from `results/s0_baseline/exemplars_resolved.tsv`.
+
 ### 5.4 The intracellular calcium-release channels
 
 The IP₃ and ryanodine receptors belong here structurally — their C-terminal
