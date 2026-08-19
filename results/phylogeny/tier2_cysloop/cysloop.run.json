@@ -1,0 +1,27 @@
+{
+  "unit": "cysloop",
+  "tier": 2,
+  "n_sequences": 8,
+  "alignment_path": "/Users/george/claude_test/ion_channel_genes/results/phylogeny/tier2_cysloop/cysloop.aln.fasta",
+  "trimmed_path": "/Users/george/claude_test/ion_channel_genes/results/phylogeny/tier2_cysloop/cysloop.trimal.fasta",
+  "tree_path": "/Users/george/claude_test/ion_channel_genes/results/phylogeny/tier2_cysloop/cysloop.treefile",
+  "newick": "(((((Hs_CHRNA1:0.0999570994,Tm_nAChR_a:0.1438550704)100:0.7924533535,Hs_HTR3A:0.8712249065)60:0.1287016998,Ls_AChBP:1.2163238120)100:0.5808624912,(Hs_GABRA1:0.7067807352,Hs_GLRA1:0.5570765139)100:0.5697132722)56:0.1839719866,Gv_GLIC:1.2729475573,Ec_ELIC:1.2316378350);",
+  "outgroup": [
+    "Gv_GLIC",
+    "Ec_ELIC"
+  ],
+  "module_based": false,
+  "tools": {
+    "mafft": "v7.526 (2024/Apr/26)",
+    "trimal": "/opt/homebrew/bin/trimal",
+    "iqtree2": "/opt/homebrew/bin/iqtree2"
+  },
+  "commands": [
+    "mafft --auto",
+    "/opt/homebrew/bin/trimal -in /Users/george/claude_test/ion_channel_genes/results/phylogeny/tier2_cysloop/cysloop.aln.fasta -out /Users/george/claude_test/ion_channel_genes/results/phylogeny/tier2_cysloop/cysloop.trimal.fasta -automated1",
+    "/opt/homebrew/bin/iqtree2 -s /Users/george/claude_test/ion_channel_genes/results/phylogeny/tier2_cysloop/cysloop.trimal.fasta -m MFP -B 1000 --prefix /Users/george/claude_test/ion_channel_genes/results/phylogeny/tier2_cysloop/cysloop -T AUTO --quiet -redo -o Gv_GLIC,Ec_ELIC"
+  ],
+  "elapsed_s": 52.44567394256592,
+  "note": "",
+  "label": "tier 2 protein tree of cysloop"
+}

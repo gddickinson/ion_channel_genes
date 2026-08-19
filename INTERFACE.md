@@ -1,0 +1,211 @@
+# INTERFACE.md — Module Navigation Map
+
+> Read this **before** opening any source files. Each `.py` is < 500 lines
+> and has one focused responsibility.
+
+## Top-level
+
+| File | Purpose |
+|------|---------|
+| `run.py` | CLI/GUI entry. `--catalogue`, `--classify`, `--phylo` need only stdlib + `requests`; `--headless` and the GUI need Biopython (D18). |
+| `PUBLICATION_ROADMAP.md` | **The multi-session publication plan**: session protocol, task ledger (S0–S24), emergent tasks, and the Decisions log — D1–D18 inherited from the PIEZO/IP3R projects, D23–D28 new to a multi-family subject. Read at the start of every session. |
+| `docs/session_briefs.md` | Per-task instructions: goal, steps, completion criteria, outputs. |
+| `docs/channel_background.md` | **The biology baseline.** Every statement tagged `[db]` / `[lit]` / `[open]`, including the measured annotation facts that decide how the census must run. |
+| `docs/scope_and_boundaries.md` | **What counts as an ion channel** — the six boundary questions and this project's answers (D23). The reason the census has a denominator. |
+| `docs/classification_rules.md` | How a protein gets classified: the three tiers, the rules they apply, the confidence scheme, and what the classifier deliberately does not do. |
+| `docs/phylogeny_protocol.md` | **Why the phylogeny is a forest** (D27), the three tiers, the rooting table, and what replaces the tree nobody can build. |
+| `docs/analysis_catalogue.md` | What the harvested data can answer — the analysis menu behind S15–S22, plus the analyses deliberately not attempted. |
+| `CLAUDE.md` | Session-start instructions, conventions, the three things that will bite you. |
+| `INTERFACE.md` | (this file) navigation map. |
+| `README.md` | User-facing docs + the project status board. |
+| `SESSION_LOG.md` | Running notes per session: what ran, what resulted, what's next. |
+| `FINDINGS.md` | **The biological story, task by task** — plain-language, appended after every completed task. |
+| `roadmap.md` | Feature-development history of the app itself (inherited v1.0–v1.7 plus this project's v2.x). |
+| `data_root.txt` | Path to the bulk-data root, read by `src/utils/data_root.py`. |
+| `requirements.txt` | `requests` (required), `biopython` + `matplotlib` (search / analysis / figures only). |
+| `presets/` | `channelome_human` (all 320 census genes), `controls_benchmark` (the S1 panel: positives + one decoy per hazard), `ploop_domain_scan`, `channelome_all` (exhaustive mode), and the scoped surveys `kv_survey`, `cysloop_survey`, `intracellular_survey`, `channel_discovery`. |
+| `cache/` | On-disk JSON cache (auto-created, gitignored). |
+| `results/` | Committed analysis output, one directory per task. `s0_baseline/` holds the catalogue verification and `reference_panel.fasta`; `benchmark_controls/` holds the S1 benchmark; `phylogeny/` holds one directory per tree with its alignment, trimmed alignment, treefile and `run.json` command record. |
+| `manuscript/` | The submission package, built by `scripts/s14_assemble.py`. |
+
+---
+
+## `src/catalogue/` — the project's definition of its own subject
+
+**The single place any channel family, signature, size band or exemplar is
+declared.** Nothing else in `src/` hard-codes a gene name. 90 families in 25
+superfamilies, of which 68 are census families covering 320 human genes; the
+other 22 exist so they can be excluded.
+
+| File | Contents |
+|------|----------|
+| `schema.py` | `ChannelFamily`, `Superfamily`, `Signature`, `Exemplar`, `Hazard`, and the enums: `Level` (the level at which a signature is diagnostic — the idea D25 rests on), `Provenance`, `Gating`, `Selectivity`, `Fold`, `Status`. |
+| `vgic_k.py` | P-loop superfamily, potassium branch: Kv1–4, the silent modifiers, KCNQ, EAG/ERG/ELK, Slo, SK/IK, Kir, K2P, and the prokaryotic channels that root them. `PLOOP_SUPERFAMILY` and the shared `ION_TRANS` / `ION_TRANS_2` signatures live here. |
+| `vgic_cation.py` | P-loop, non-potassium: Nav, Cav, NALCN, CatSper, TPC, CNG, HCN, and TRPC/V/M/A/ML/P/N. Carries the measured finding that most TRP families have no `PF00520`. |
+| `lgic.py` | Four unrelated ligand-gated superfamilies: Cys-loop (nAChR, GABA-A, GlyR, 5-HT3, ZAC, invertebrate GluCl, GLIC/ELIC), iGluR (AMPA, kainate, NMDA, delta, plant/insect, GluR0), P2X, DEG/ENaC. |
+| `anion.py` | CLC channels *and* CLC transporters (D24), bestrophin, CFTR, tweety. |
+| `tmem16_like.py` | Anoctamin channels, anoctamin scramblases, OSCA/TMEM63, TMC — one fold, `alignable=False`. |
+| `mechano.py` | Piezo, MscL, MscS. |
+| `largepore.py` | Connexins; the innexin/pannexin/LRRC8 clan; CALHM. |
+| `intracellular.py` | ITPR, RYR (the parent project's whole subject, here two families of ninety), TRIC, MCU, VDAC, TMEM175. |
+| `other.py` | ORAI, Hv1, otopetrins, CLIC, viroporins. |
+| `controls.py` | The 22 non-census families: auxiliary subunits, domain-sharing non-channels (KCTD, class C GPCRs, AChBP, POMT, VSP), transporters, and the out-of-scope channels (aquaporins, bacterial porins, gasdermins). |
+| `hazards.py` | **The hazard registry** — 16 recorded ways to classify wrongly, each with the families involved, the shared evidence, the discriminating positive test, and the module that owns it. |
+| `registry.py` | Assembly and lookup: `CATALOGUE`, `SUPERFAMILIES`, `census_families()`, `control_families()`, `human_genes()`, `signature_index()`, `shared_signatures()`, `pore_signatures()` (the H7 fix), `exemplars()`, `reference_panel()`, `hazards_for()`, `validate()`, `stats()`. |
+| `__main__.py` | `python3 -m src.catalogue [--families] [--shared] [--census]` — validate and print. Exits non-zero on any validation problem, so it works as a pre-commit gate. |
+
+## `src/classify/` — three tiers, one call, an audit trail
+
+| File | Key types / functions |
+|------|-----------------------|
+| `rules.py` | `ArchitectureRule`, `derived_rules()` (generated from the catalogue), `HAZARD_RULES` (hand-written, priority 100, one per closable hazard), `match_architecture()` → `RuleMatch` (ties are *ambiguity*, never a coin toss), `topology_check()`. |
+| `motifs.py` | `K_FILTER_RE` (TxGYG — the one test needing no reference), `FOUR_REPEAT_ANCHOR` (human Nav1.5 `Q14524` positions 372/898/1419/1711, verified 2026-08-19), `filter_signature()`, `verify_anchor()`, `scan()` → `MotifResult`. `FILTER_CALLS` maps DEKA/EEEE/EEDD/EEKE onto families. |
+| `reference.py` | `ReferenceSet` (loads `reference_panel.fasta`, 3-mer prefilter, MAFFT identity over mutually covered columns), `best_match(..., exclude_accessions=…)` → `ReferenceResult` with the D7 margin and the D29 leave-one-out. |
+| `classifier.py` | `ChannelQuery`, `ChannelCall`, `Evidence`, `classify()`, `classify_all()`. Tier precedence, confidence tiers, conflict recording. The gene symbol is carried and never consulted (H15). |
+| `report.py` | `calls_table`, `confusion_table`, `recall_table`, `hazard_table`, `coverage_table`, `summary_counts`, `write_tsv` — the tables S1's report is rendered from (D13). |
+
+## `src/phylo/` — a forest and a network
+
+| File | Key types / functions |
+|------|-----------------------|
+| `modules.py` | `PoreModule`, `ModuleSet`, `module_from_envelope()`, `modules_from_envelopes()`, `module_by_projection()`, `whole_sequence_module()`. Extraction method is recorded per sequence. |
+| `forest.py` | `build_tree()` (MAFFT → trimAl → IQ-TREE 2, every command recorded in `TreeRun`), `build_tier1()` (within family, full length), `build_tier2()` (within superfamily, pore module) which **raises `NotAlignable`** for a superfamily the catalogue marks non-alignable, `refused_superfamilies()`. There is no `build_tier3()` (D27). |
+| `network.py` | `FoldNetwork`, `FoldEdge`, `seed_network()`, `LITERATURE_EDGES` — tier 3. Edges are structural similarity with no branch lengths and no support values; an unmeasured pair is recorded as unmeasured, never as unrelated. |
+
+## `src/utils/`
+
+| File | Functions |
+|------|-----------|
+| `scope.py` | **`Scope` and `scope_for(key)`** — narrows the catalogue to "all", a superfamily or a family, and derives the signatures, size band, reference panel, *sister panel* (from the hazard registry) and known genes for a run. The module-level constants at the bottom are the compatibility layer that keeps the ported machinery working. |
+| `mafft.py` | Stdlib-only MAFFT wrapper: `align()`, `parse_fasta()`, `project_positions()`, `percent_identity(covered_only=True)`, `MafftUnavailable`. Raises rather than degrading (D28). |
+| `species.py` | 51 species across 15 groups, from *E. coli* to human plus three viruses; `PANELS` (human / vertebrate / metazoan / eukaryote / prokaryote / outgroup / virus / tree_of_life), `resolve_species()`, `ensembl_species_slug()`, `panel()`. |
+| `data_root.py` | `get_data_root()`, **`require_data_root()`** (raises — use before anything bulk), `free_bytes()`. `python3 -m src.utils.data_root --require` is the session-protocol check. |
+| `exporters.py` | `write_fasta()`, `write_csv()`, `write_json()`. |
+| `results_writer.py` | `make_bundle_dir()`, `write_bundle()`. |
+| `report.py` | `write_report()` — publication-style markdown + standalone HTML. |
+
+## `src/core/` — data models, search orchestration, caching
+
+| File | Key types / functions |
+|------|-----------------------|
+| `models.py` | `ProteinVariant`, `GeneRecord`, `SearchQuery`, `SearchResult`, `SearchStatus`. |
+| `cache.py` | `DiskCache(root, ttl_s)` — JSON-file cache keyed by `(source, query)`. |
+| `search.py` | `SearchOrchestrator` — fans queries across enabled DBs on worker threads, marshals results back via `queue.Queue`. Re-exported lazily from `src/core/__init__.py` (PEP 562) so importing `src.utils` does not drag in Biopython. |
+
+## `src/databases/` — one client per source
+
+| File | Class | Notes |
+|------|-------|-------|
+| `base.py` | `DatabaseClient` | Abstract; subclasses implement `search()`. |
+| `ncbi.py` | `NCBIClient` | Biopython `Bio.Entrez` against the `protein` index. |
+| `ensembl.py` | `EnsemblClient` | `rest.ensembl.org`. Uses `lookup/symbol` rather than `xrefs/symbol`, which the parent project measured to stall indefinitely for `homo_sapiens`. |
+| `uniprot.py` | `UniProtClient` | `rest.uniprot.org/uniprotkb/search`. |
+| `alphafold.py` | `AlphaFoldClient` | `alphafold.ebi.ac.uk` — pivots off UniProt; reports pLDDT. |
+| `foldseek.py` | `FoldseekClient` | Structure-based remote homology; opt-in, async. The tier-3 network's measuring instrument. |
+| `compara.py` | `ComparaClient` | Ensembl Compara gene trees — paralogues regardless of naming. |
+| `blast.py` | `BlastClient` | Sequence-bait BLAST via NCBI's public queue. |
+| `interpro.py` | (functions) | `list_proteins_with_pfam()` (census mode: paginates to the API's own count, `strict` failure, raw-page `dump_dir`), `batch_fetch_family_signatures()`, `fetch_uniprot_sequence()`. |
+
+## `src/analysis/`, `src/discovery/`, `src/investigation/`, `src/gui/`
+
+Ported from the parent project and retargeted at the catalogue; see
+`roadmap.md` for what changed. The pieces that matter here:
+
+| File | Key types / functions |
+|------|-----------------------|
+| `analysis/pipeline.py` | `analyse(variants, …)` → `AnalysisResult`; `write_analysis()`. |
+| `analysis/distance.py` | `identity_matrix(covered_only=True)` — fragment-aware identity. |
+| `analysis/motifs.py` | MSA-derived family-signature PSSMs — the domain-evidence fallback for candidates with no InterPro record. |
+| `discovery/candidates.py` | `DiscoveryConfig` / `discover_novel_paralogs()` — the composite scorer with the D3 evidence gate and the **sister-family test** (D14), whose sister panel now comes from the hazard registry via `Scope`. |
+| `discovery/domain_scan.py` | `run_domain_scan()` — enumerate by signature, then classify. |
+| `discovery/exhaustive.py` | `run_exhaustive_hunt()` — the `"mode": "exhaustive"` pipeline. |
+| `investigation/pipeline.py` | `Investigator(accession, options).run()` — seven evidence lines on one candidate; the default comparison panel is the scope's exemplars **plus its sister families**, so the hazard margin has something to measure against. |
+| `gui/app.py` | `MainWindow`; `run(project_root, email)`. |
+| `gui/tools.py` | The Analysis menu, the task runner, and the search → analyse → discover path the headless CLI also runs. |
+| `gui/tools_extra.py` | `ToolsExtraActions`, mixed into `ToolsController`: the one-off investigations — selection test, fold check, presence matrix, domain scan, exhaustive hunt, deep dive, and **`classify_selection()`**, which runs the three-tier classifier on the selected row and shows the whole audit trail rather than just the answer. |
+
+## `src/cli.py` and `src/cli_channel.py`
+
+`cli.py` — `run_headless()` (preset search → optional analyse → optional
+discovery → bundle) and `run_investigate()`, both scope-aware. Needs
+Biopython.
+
+`cli_channel.py` — `run_classify()`, `run_catalogue()`, `run_phylo()`, plus
+the stdlib fetchers (`pfam_counts`, `resolve_symbol`, `entry_meta`,
+`build_query`). **Deliberately Biopython-free**: classification is the core
+operation and cannot be gated on an optional dependency.
+
+---
+
+## `scripts/` — roadmap-session tooling (not part of the app)
+
+| File | Purpose |
+|------|---------|
+| `dashboard.py` | **Project dashboard** (stdlib-only) → `dashboard.html`: progress parsed from the roadmap ledger, a live panel driven by `results/session_live.json`, key figures base64-embedded, and `FINDINGS.md` rendered. Session protocol step 0. |
+| `figstyle.py` | **The one figure style.** `SUPERFAMILY` (four safe categorical hues for twenty-five superfamilies — the constraint is stated, not hidden), `SELECTIVITY`, `CONFIDENCE` (gold→unassigned), `STATUS`/`QUALITY` (ordered evidence scales), `CLINICAL`. `save()` raises rather than writing a figure whose bbox runs off-canvas. |
+| `selftest.py` | **The offline invariants**, under a second and no network: catalogue validation, every hazard rule fired against the synthetic architecture it was written for, the classifier's blindness to gene symbols, the motif regex, the alignment helpers, the D27 refusal, and the scope's derivation of its sister panel from the hazard registry. Session-protocol step 4. |
+| `s0_lib.py` | S0 fetchers: `Fetcher` (polite, retrying, keeps a failure ledger), `pfam_entry`, `protein_pfams`, `pfam_protein_count`, `resolve_gene`, `entry_by_accession`, `sequence`, `taxon`, `write_tsv`, `read_tsv`, `live_progress`. |
+| `s0_catalogue_verify.py` | **S0** — re-derives every claim the catalogue makes against live databases and writes six TSVs plus `reference_panel.fasta`. Reports mismatches; never edits the catalogue. |
+| `s0_figures.py` | **S0's figure** — families and human genes per superfamily (the lopsidedness: 143 of 320 genes in one superfamily), and every domain signature carried by more than one family with the ones that cross the channel / non-channel boundary marked. Drawn from the committed S0 tables through `figstyle.py`. |
+| `s0_report.py` | **S0** — renders `results/s0_baseline/report.md` purely from those tables (D13). |
+| `s1_toolchain.py` | **S1 step 1** — probes every external binary and Python package, writes `results/toolchain_manifest.txt`. |
+| `s1_benchmark.py` | **S1 driver** — verifies the filter anchor, loads the reference panel, classifies the control panel, writes recall / confusion / hazard / coverage tables. |
+| `s1_report.py` | **S1** — renders `results/benchmark_controls/report.md` from those tables, including the per-tier attribution and the untested-hazard list. |
+| `s14_lib.py`, `s14_figures.py`, `s14_claims.py`, `s14_deposit.py`, `s14_pdf.py`, `s14_assemble.py` | Manuscript assembly: page geometry and figure maps; figure copying under publication numbers; **the claim checker** (every load-bearing number declared with the table and op that recovers it, D12); the deposit manifest with SHA-256s; the typeset PDF; the driver with ordered stages and non-zero exit on a failed claim. |
+| `build_findings_page.py` + `findings_page.css` | Renders `docs/findings_summary.md` to one self-contained HTML page with figures inlined as WebP data URIs. |
+
+Each ledger task adds its own `s<n>_*.py`. The parent projects'
+equivalents (`../ip3r_genes/scripts/`, `../piezo_genes/scripts/`) are
+reference implementations worth reading first.
+
+---
+
+## Data flow
+
+### Classification (the core operation)
+
+```
+accession / gene symbol
+        │  cli_channel.build_query()  → UniProt meta + InterPro pfam counts + sequence
+        ▼
+   ChannelQuery
+        │
+        ├─► rules.match_architecture()      hazard rules (100) > family rules (40-50)
+        │                                   > superfamily-only (10); ties = ambiguous
+        ├─► motifs.scan()                   TxGYG regex; four-repeat projection via MAFFT
+        └─► reference.best_match()          3-mer prefilter → MAFFT → covered-only identity
+                                            → D7 margin
+        ▼
+   combine by tier precedence (hazard > motif > reference > architecture)
+        ▼
+   ChannelCall  ── family · superfamily · status · confidence · margin
+                   evidence[] from every tier · hazards[] · conflicts[]
+```
+
+### Phylogeny
+
+```
+catalogue exemplars / census sequences
+        │
+        ├─ tier 1 ─► build_tier1()  full length, rooted on the catalogue's outgroup
+        ├─ tier 2 ─► modules.*  ─►  build_tier2()  pore module only; REFUSES if
+        │                                          Superfamily.alignable is False
+        └─ tier 3 ─► network.seed_network() + Foldseek  ── a network, never a tree
+```
+
+### Search (the ported path)
+
+```
+SearchPanel.on_search ─► MainWindow._on_search ─► SearchOrchestrator.start
+                                                      │
+                                    ┌─────────────────┼─────────────────┐
+                                    ▼                 ▼                 ▼
+                           NCBI / Ensembl / UniProt / Compara / AlphaFold
+                                    └────────┬────────┴─────────────────┘
+                                             ▼   (sequence DBs done)
+                              gather longest sequences ─► BLAST + Foldseek
+                                             ▼
+                                        queue.Queue ─► _drain_queue (after())
+                                             ▼
+                                   ResultsView ─► DetailsView
+```

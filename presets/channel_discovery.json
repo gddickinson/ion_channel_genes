@@ -1,0 +1,10 @@
+{
+  "name": "Unclassified-channel discovery",
+  "description": "Cast a wide net inside one scope for un-named or unrecognised members: all sources with sequences, then the analysis + discovery pipeline with the sister-family test armed (use --analyze --discover --interpro). Scope it to a family; the sister panel comes from the hazard registry, so a scoped run automatically carries the decoys it needs to measure a margin against.",
+  "scope": "trpm",
+  "genes": ["TRPM1", "TRPM3", "TRPM7"],
+  "species": "",
+  "sources": ["NCBI", "Ensembl", "UniProt", "AlphaFold"],
+  "max_per_source": 50,
+  "include_sequence": true
+}

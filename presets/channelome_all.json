@@ -1,0 +1,12 @@
+{
+  "name": "Channelome exhaustive hunt (everything, one run)",
+  "description": "The all-in-one app-level hunt for one scope: Compara paralogue mine across the species panel, ortholog expansion of every unnamed locus found, InterPro enumeration of the scope's signatures, merge and dedupe, then every analysis — MSA, identity matrix, NJ tree, discovery scoring with the sister-family test, presence/absence matrix — and a full bundle. Scope it (`--scope kir`, `--scope cysloop`); running it at `all` means enumerating the whole P-loop superfamily and will take hours. The publication-grade census is the roadmap's S2-S5, not this.",
+  "mode": "exhaustive",
+  "scope": "kir",
+  "genes": ["KCNJ1", "KCNJ2", "KCNJ11"],
+  "max_per_source": 60,
+  "max_orthologs_per_candidate": 12,
+  "max_proteins_per_pfam": 200,
+  "max_analysis_variants": 80,
+  "discovery": {"novelty_ceiling": 0.55}
+}

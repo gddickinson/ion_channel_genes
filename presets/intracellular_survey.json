@@ -1,0 +1,10 @@
+{
+  "name": "Intracellular Ca2+-release channels (ITPR + RYR)",
+  "description": "The two families the parent project (`../ip3r_genes`) censused in full, run here as the cross-check: the same search through this project's catalogue and classifier should reproduce its ITPR/RYR separation. The four diagnostic Pfam domains are shared between the two families, so a run that does not carry the RYR panel loses the D14 test entirely — which is why `scope: ca_release` includes both.",
+  "scope": "ca_release",
+  "genes": ["ITPR1", "ITPR2", "ITPR3", "RYR1", "RYR2", "RYR3"],
+  "species": "",
+  "sources": ["NCBI", "Ensembl", "UniProt"],
+  "max_per_source": 100,
+  "include_sequence": true
+}

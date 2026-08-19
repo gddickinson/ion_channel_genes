@@ -1,0 +1,10 @@
+{
+  "name": "Voltage-gated K+ channel survey",
+  "description": "The Shaker-related Kv genes across the tree-of-life panel — the baseline search: what the databases already know, before any census work. Kv1-Kv4 are the best-annotated channels in any genome, so this is also the sanity check that a search returning few hits is a real absence rather than a broken client.",
+  "scope": "kv_shaker",
+  "genes": ["KCNA1", "KCNA2", "KCNB1", "KCNC1", "KCND2"],
+  "species": "",
+  "sources": ["NCBI", "Ensembl", "UniProt"],
+  "max_per_source": 200,
+  "include_sequence": false
+}

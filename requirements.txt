@@ -1,0 +1,7 @@
+# The catalogue, classifier and phylogeny drivers need only the standard
+# library plus `requests`. Everything below `requests` is needed by the
+# search / analysis / GUI paths (src/analysis, src/gui, src/databases/ncbi)
+# and by the figure code — see Decisions D18.
+requests>=2.31
+biopython>=1.83
+matplotlib>=3.8

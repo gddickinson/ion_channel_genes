@@ -1,0 +1,10 @@
+{
+  "name": "Cys-loop receptor survey",
+  "description": "One subunit from each pentameric-LGIC family across the default panel, with sequences fetched. The superfamily is alignable end to end, so this preset feeds the friendliest tier-2 tree in the project — and it carries the AChBP decoy question with it: a search wide enough to find every Cys-loop channel also returns a soluble snail protein that is not one (hazard H2).",
+  "scope": "cysloop",
+  "genes": ["CHRNA1", "CHRNA7", "GABRA1", "GLRA1", "HTR3A"],
+  "species": "",
+  "sources": ["NCBI", "Ensembl", "UniProt"],
+  "max_per_source": 80,
+  "include_sequence": true
+}

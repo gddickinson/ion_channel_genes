@@ -1,0 +1,47 @@
+{
+  "generated": "2026-08-19 15:36:50",
+  "catalogue": {
+    "superfamilies": 25,
+    "families_total": 90,
+    "families_census": 68,
+    "families_control": 22,
+    "human_genes_census": 320,
+    "human_genes_catalogued": 459,
+    "exemplars": 162,
+    "exemplars_with_accession": 112,
+    "signatures": 115,
+    "shared_signatures": 26,
+    "hazards": 16
+  },
+  "internal_problems": 0,
+  "pfam": {
+    "n": 115,
+    "missing": [],
+    "renamed": []
+  },
+  "exemplars": {
+    "n": 162,
+    "resolved": 162,
+    "unresolved": 0,
+    "declared_ok": 105,
+    "declared_bad": 0,
+    "sequences": 162,
+    "arch_mismatch": 34
+  },
+  "taxonomy": {
+    "n": 52,
+    "bad": 0
+  },
+  "shared_signatures": 26,
+  "requests": 769,
+  "request_failures": [],
+  "elapsed_s": 666.3,
+  "hazards": 16,
+  "superfamilies_not_alignable": [
+    "abc_channel",
+    "tmem16_like",
+    "msc",
+    "viroporin"
+  ],
+  "census_families": 68
+}

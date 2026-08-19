@@ -1,0 +1,14 @@
+{
+  "name": "P-loop superfamily domain-bait scan",
+  "description": "Enumerate every UniProt protein InterPro annotates with a P-loop pore model, then classify what comes back. The pfam list is deliberately the union of seven pore models rather than PF00520 alone: measured 2026-08-19, TRPC3, TRPM8, MCOLN1 and PKD2 carry no PF00520 at all, so a PF00520-only enumeration silently loses most of the TRP division (hazard H7). Excludes nothing by name — the exclusions are the classifier's job, and a scan that filters by symbol cannot find an unnamed gene model.",
+  "mode": "domain_scan",
+  "scope": "ploop",
+  "pfam_ids": ["PF00520", "PF07885", "PF08344", "PF18139", "PF08016", "PF01007", "PF06736"],
+  "exclude_name_substrings": [],
+  "exclude_gene_substrings": [],
+  "max_proteins_per_pfam": 400,
+  "max_with_sequences": 60,
+  "reviewed_only": true,
+  "min_length_aa": 150,
+  "max_length_aa": 2600
+}

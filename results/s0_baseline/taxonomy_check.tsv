@@ -1,0 +1,53 @@
+taxon_id	declared	uniprot_scientific	rank	lineage	status
+83333	Escherichia coli	Escherichia coli (strain K12)	strain	cellular organisms;Bacteria;Pseudomonadati;Pseudomonadota	ok
+1423	Bacillus subtilis	Bacillus subtilis	species	cellular organisms;Bacteria;Bacillati;Bacillota	ok
+1916	Streptomyces lividans	Streptomyces lividans	species	cellular organisms;Bacteria;Bacillati;Actinomycetota	ok
+1148	Synechocystis sp. PCC 6803	Synechocystis sp. PCC 6803	species	cellular organisms;Bacteria;Bacillati;Cyanobacteriota/Melainabacteria group	ok
+33072	Gloeobacter violaceus	Gloeobacter violaceus	species	cellular organisms;Bacteria;Bacillati;Cyanobacteriota/Melainabacteria group	ok
+367737	Aliarcobacter butzleri	Aliarcobacter butzleri (strain RM4018)	strain	cellular organisms;Bacteria;Pseudomonadati;Campylobacterota	ok
+187420	Methanothermobacter thermautotrophicus	Methanothermobacter thermautotrophicus (strain ATCC 29096 / DSM 1053 / JCM 10044 / NBRC 100330 / Delta H)	strain	cellular organisms;Archaea;Methanobacteriati;Methanobacteriota	ok
+274	Thermus thermophilus	Thermus thermophilus	species	cellular organisms;Bacteria;Thermotogati;Deinococcota	ok
+4932	Saccharomyces cerevisiae	Saccharomyces cerevisiae	species	cellular organisms;Eukaryota;Opisthokonta;Fungi	ok
+4896	Schizosaccharomyces pombe	Schizosaccharomyces pombe	species	cellular organisms;Eukaryota;Opisthokonta;Fungi	ok
+3702	Arabidopsis thaliana	Arabidopsis thaliana	species	cellular organisms;Eukaryota;Viridiplantae;Streptophyta	ok
+4530	Oryza sativa	Oryza sativa	species	cellular organisms;Eukaryota;Viridiplantae;Streptophyta	ok
+3218	Physcomitrium patens	Physcomitrium patens	species	cellular organisms;Eukaryota;Viridiplantae;Streptophyta	ok
+3055	Chlamydomonas reinhardtii	Chlamydomonas reinhardtii	species	cellular organisms;Eukaryota;Viridiplantae;Chlorophyta	ok
+44689	Dictyostelium discoideum	Dictyostelium discoideum	species	cellular organisms;Eukaryota;Amoebozoa;Evosea	ok
+5888	Paramecium tetraurelia	Paramecium tetraurelia	species	cellular organisms;Eukaryota;Sar;Alveolata	ok
+5911	Tetrahymena thermophila	Tetrahymena thermophila	species	cellular organisms;Eukaryota;Sar;Alveolata	ok
+5691	Trypanosoma brucei	Trypanosoma brucei	species	cellular organisms;Eukaryota;Discoba;Euglenozoa	ok
+5833	Plasmodium falciparum	Plasmodium falciparum	species	cellular organisms;Eukaryota;Sar;Alveolata	ok
+81824	Monosiga brevicollis	Monosiga brevicollis	species	cellular organisms;Eukaryota;Opisthokonta;Choanoflagellata	ok
+595528	Capsaspora owczarzaki	Capsaspora owczarzaki (strain ATCC 30864)	strain	cellular organisms;Eukaryota;Opisthokonta;Filasterea	ok
+400682	Amphimedon queenslandica	Amphimedon queenslandica	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+10228	Trichoplax adhaerens	Trichoplax adhaerens	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+45351	Nematostella vectensis	Nematostella vectensis	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+6087	Hydra vulgaris	Hydra vulgaris	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+6239	Caenorhabditis elegans	Caenorhabditis elegans	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+7227	Drosophila melanogaster	Drosophila melanogaster	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+6669	Daphnia pulex	Daphnia pulex	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+225164	Lottia gigantea	Lottia gigantea	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+6500	Aplysia californica	Aplysia californica	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+6523	Lymnaea stagnalis	Lymnaea stagnalis	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+6535	Cornu aspersum	Cornu aspersum	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+7668	Strongylocentrotus purpuratus	Strongylocentrotus purpuratus	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+7739	Branchiostoma floridae	Branchiostoma floridae	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+7719	Ciona intestinalis	Ciona intestinalis	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+7757	Petromyzon marinus	Petromyzon marinus	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+7868	Callorhinchus milii	Callorhinchus milii	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+7788	Torpedo marmorata	Torpedo marmorata	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+7955	Danio rerio	Danio rerio	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+31033	Takifugu rubripes	Takifugu rubripes	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+7897	Latimeria chalumnae	Latimeria chalumnae	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+8364	Xenopus tropicalis	Xenopus tropicalis	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+28377	Anolis carolinensis	Anolis carolinensis	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+9031	Gallus gallus	Gallus gallus	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+9258	Ornithorhynchus anatinus	Ornithorhynchus anatinus	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+13616	Monodelphis domestica	Monodelphis domestica	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+10090	Mus musculus	Mus musculus	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+10116	Rattus norvegicus	Rattus norvegicus	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+9606	Homo sapiens	Homo sapiens	species	cellular organisms;Eukaryota;Opisthokonta;Metazoa	ok
+11320	Influenza A virus	Influenza A virus	no rank	Viruses;Riboviria;Orthornavirae;Negarnaviricota	ok
+11676	Human immunodeficiency virus type 1	Human immunodeficiency virus type 1	no rank	Viruses;Riboviria;Pararnavirae;Artverviricota	ok
+2697049	Severe acute respiratory syndrome coronavirus 2	Severe acute respiratory syndrome coronavirus 2	no rank	Viruses;Riboviria;Orthornavirae;Pisuviricota	ok
