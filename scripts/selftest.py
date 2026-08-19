@@ -29,7 +29,8 @@ from src.classify import ChannelQuery, classify, k_filter_hits
 from src.classify.motifs import FILTER_CALLS
 from src.classify.rules import match_architecture
 from src.phylo import NotAlignable, build_tier2, refused_superfamilies
-from src.utils.mafft import percent_identity, project_positions
+from src.utils.mafft import (alignment_stats, percent_identity,
+                             project_positions)
 from src.utils.scope import scope_for
 
 FAILURES: list[str] = []
@@ -111,6 +112,13 @@ check("covered-only identity ignores overhang",
       round(percent_identity("AAAA----", "AAAAKKKK", covered_only=True), 3), 1.0)
 check("full-alignment identity does not",
       round(percent_identity("AAAA----", "AAAAKKKK", covered_only=False), 3), 0.5)
+# S1's measured failure: a short sequence scattered through a long one keeps
+# a high covered identity and near-total coverage *of itself*, and only
+# coverage of the longer sequence exposes it.
+_id, _cs, _cl, _n = alignment_stats("A-A-A-A-", "AXAXAXAX")
+check("coverage of the shorter sequence does not catch a cherry-picked hit",
+      round(_cs, 3), 1.0)
+check("coverage of the longer sequence does", round(_cl, 3), 0.5)
 
 # -------------------------------------------------------------- phylogeny
 print("\nphylogeny — D27")

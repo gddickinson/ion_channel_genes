@@ -10,6 +10,9 @@
 | `run.py` | CLI/GUI entry. `--catalogue`, `--classify`, `--phylo` need only stdlib + `requests`; `--headless` and the GUI need Biopython (D18). |
 | `PUBLICATION_ROADMAP.md` | **The multi-session publication plan**: session protocol, task ledger (S0–S24), emergent tasks, and the Decisions log — D1–D18 inherited from the PIEZO/IP3R projects, D23–D28 new to a multi-family subject. Read at the start of every session. |
 | `docs/session_briefs.md` | Per-task instructions: goal, steps, completion criteria, outputs. |
+| `docs/channel_review_2026.md` | **The literature review** — 16 sections, ~8,400 words, 148 references, covering the folds, selectivity, gating, each superfamily, evolution, what the annotation databases record (§12, this project's own measurements), disease and pharmacology, and the open questions. **Generated — never hand-edit it**; edit `docs/review/*.md` and re-run `scripts/s0_review_build.py`. |
+| `docs/channel_review_2026.pdf` | The typeset review (A4, pandoc + xelatex), built by `s0_review_build.py --pdf`. |
+| `docs/review/` | The review's **source**: numbered section files `00_frontmatter` … `15_methods`. Citations are stable keys (`[doyle1998]`, `[hilf2008, bocquet2009]`) resolved against `results/s0_baseline/references.tsv`; the build renumbers them into order of first appearance, and **a cited key with no verified reference is a build error**. |
 | `docs/channel_background.md` | **The biology baseline.** Every statement tagged `[db]` / `[lit]` / `[open]`, including the measured annotation facts that decide how the census must run. |
 | `docs/scope_and_boundaries.md` | **What counts as an ion channel** — the six boundary questions and this project's answers (D23). The reason the census has a denominator. |
 | `docs/classification_rules.md` | How a protein gets classified: the three tiers, the rules they apply, the confidence scheme, and what the classifier deliberately does not do. |
@@ -60,7 +63,7 @@ other 22 exist so they can be excluded.
 |------|-----------------------|
 | `rules.py` | `ArchitectureRule`, `derived_rules()` (generated from the catalogue), `HAZARD_RULES` (hand-written, priority 100, one per closable hazard), `match_architecture()` → `RuleMatch` (ties are *ambiguity*, never a coin toss), `topology_check()`. |
 | `motifs.py` | `K_FILTER_RE` (TxGYG — the one test needing no reference), `FOUR_REPEAT_ANCHOR` (human Nav1.5 `Q14524` positions 372/898/1419/1711, verified 2026-08-19), `filter_signature()`, `verify_anchor()`, `scan()` → `MotifResult`. `FILTER_CALLS` maps DEKA/EEEE/EEDD/EEKE onto families. |
-| `reference.py` | `ReferenceSet` (loads `reference_panel.fasta`, 3-mer prefilter, MAFFT identity over mutually covered columns), `best_match(..., exclude_accessions=…)` → `ReferenceResult` with the D7 margin and the D29 leave-one-out. |
+| `reference.py` | `ReferenceSet` (loads `reference_panel.fasta`, 3-mer prefilter, MAFFT identity over mutually covered columns), `best_match(...)` → `ReferenceResult` with the D7 margin, the D29 leave-one-out and the D30 coverage floor (`MIN_COVERAGE = 0.30` of the longer sequence; hits below it are dropped and counted). |
 | `classifier.py` | `ChannelQuery`, `ChannelCall`, `Evidence`, `classify()`, `classify_all()`. Tier precedence, confidence tiers, conflict recording. The gene symbol is carried and never consulted (H15). |
 | `report.py` | `calls_table`, `confusion_table`, `recall_table`, `hazard_table`, `coverage_table`, `summary_counts`, `write_tsv` — the tables S1's report is rendered from (D13). |
 
@@ -77,7 +80,7 @@ other 22 exist so they can be excluded.
 | File | Functions |
 |------|-----------|
 | `scope.py` | **`Scope` and `scope_for(key)`** — narrows the catalogue to "all", a superfamily or a family, and derives the signatures, size band, reference panel, *sister panel* (from the hazard registry) and known genes for a run. The module-level constants at the bottom are the compatibility layer that keeps the ported machinery working. |
-| `mafft.py` | Stdlib-only MAFFT wrapper: `align()`, `parse_fasta()`, `project_positions()`, `percent_identity(covered_only=True)`, `MafftUnavailable`. Raises rather than degrading (D28). |
+| `mafft.py` | Stdlib-only MAFFT wrapper: `align()`, `parse_fasta()`, `project_positions()`, `alignment_stats()` (identity **plus coverage of both sequences** — the D30 guard), `percent_identity()`, `MafftUnavailable`. Raises rather than degrading (D28). |
 | `species.py` | 51 species across 15 groups, from *E. coli* to human plus three viruses; `PANELS` (human / vertebrate / metazoan / eukaryote / prokaryote / outgroup / virus / tree_of_life), `resolve_species()`, `ensembl_species_slug()`, `panel()`. |
 | `data_root.py` | `get_data_root()`, **`require_data_root()`** (raises — use before anything bulk), `free_bytes()`. `python3 -m src.utils.data_root --require` is the session-protocol check. |
 | `exporters.py` | `write_fasta()`, `write_csv()`, `write_json()`. |
@@ -147,6 +150,9 @@ operation and cannot be gated on an optional dependency.
 | `s0_lib.py` | S0 fetchers: `Fetcher` (polite, retrying, keeps a failure ledger), `pfam_entry`, `protein_pfams`, `pfam_protein_count`, `resolve_gene`, `entry_by_accession`, `sequence`, `taxon`, `write_tsv`, `read_tsv`, `live_progress`. |
 | `s0_catalogue_verify.py` | **S0** — re-derives every claim the catalogue makes against live databases and writes six TSVs plus `reference_panel.fasta`. Reports mismatches; never edits the catalogue. |
 | `s0_figures.py` | **S0's figure** — families and human genes per superfamily (the lopsidedness: 143 of 320 genes in one superfamily), and every domain signature carried by more than one family with the ones that cross the channel / non-channel boundary marked. Drawn from the committed S0 tables through `figstyle.py`. |
+| `review_sources.py` | The review's source list: 148 `(key, title)` entries, optionally with a Europe PMC constraint for papers whose titles are too generic to rank. **Titles, not citations** — nothing here is a reference until it resolves. |
+| `s0_review_refs.py` | Resolves every source title against Europe PMC and writes `results/s0_baseline/references.tsv` with the returned PMID, DOI, year, journal and authors. A record is accepted only if its title is ≥ 90 % similar to the one requested, so a misremembered paper fails loudly instead of becoming a plausible bibliography entry. Exits non-zero on any failure. |
+| `s0_review_build.py` | Assembles `docs/channel_review_2026.md` from `docs/review/*.md`, renumbers citations, renders the bibliography; `--check` validates without writing, `--pdf` typesets via pandoc + xelatex. |
 | `s0_report.py` | **S0** — renders `results/s0_baseline/report.md` purely from those tables (D13). |
 | `s1_toolchain.py` | **S1 step 1** — probes every external binary and Python package, writes `results/toolchain_manifest.txt`. |
 | `s1_benchmark.py` | **S1 driver** — verifies the filter anchor, loads the reference panel, classifies the control panel, writes recall / confusion / hazard / coverage tables. |

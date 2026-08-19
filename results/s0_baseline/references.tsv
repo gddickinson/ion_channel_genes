@@ -1,0 +1,149 @@
+key	pmid	doi	year	journal	authors	title	status	match
+hodgkin1952	12991237	10.1113/jphysiol.1952.sp004764	1952	J Physiol	HODGKIN AL, HUXLEY AF.	A quantitative description of membrane current and its application to conduction and excitation in nerve	ok	1.00
+neher1976	1083489	10.1038/260799a0	1976	Nature	Neher E, Sakmann B.	Single-channel currents recorded from membrane of denervated frog muscle fibres	ok	1.00
+catterall2000	10798388	10.1016/s0896-6273(00)81133-2	2000	Neuron	Catterall WA.	From ionic currents to molecular mechanisms: the structure and function of voltage-gated sodium channels	ok	1.00
+yu2004	15467096	10.1126/stke.2532004re15	2004	Sci STKE	Yu FH, Catterall WA.	The VGL-chanome: a protein superfamily specialized for electrical signaling and ionic homeostasis	ok	1.00
+yellen2002	12214225	10.1038/nature00978	2002	Nature	Yellen G.	The voltage-gated potassium channels and their relatives	ok	1.00
+doyle1998	9525859	10.1126/science.280.5360.69	1998	Science	Doyle DA et al.	The structure of the potassium channel: molecular basis of K+ conduction and selectivity	ok	1.00
+heginbotham1994	8038378	10.1016/s0006-3495(94)80887-2	1994	Biophys J	Heginbotham L et al.	Mutations in the K+ channel signature sequence	ok	1.00
+zhou2001	11689936	10.1038/35102009	2001	Nature	Zhou Y et al.	Chemistry of ion coordination and hydration revealed by a K+ channel-Fab complex at 2.0 A resolution	ok	1.00
+mackinnon2003	15368373	10.1002/anie.200400662	2004	Angew Chem Int Ed Engl	MacKinnon R.	Potassium channels and the atomic basis of selective ion conduction (Nobel Lecture)	ok	1.00
+long2005	16002581	10.1126/science.1116269	2005	Science	Long SB, Campbell EB, Mackinnon R.	Crystal structure of a mammalian voltage-dependent Shaker family K+ channel	ok	1.00
+papazian1987	2441470	10.1126/science.2441470	1987	Science	Papazian DM et al.	Cloning of genomic and complementary DNA from Shaker, a putative potassium channel gene from Drosophila	ok	1.00
+tempel1987	2441471	10.1126/science.2441471	1987	Science	Tempel BL et al.	Sequence of a probable potassium channel component encoded at Shaker locus of Drosophila	ok	1.00
+kuo2003	12738871	10.1126/science.1085028	2003	Science	Kuo A et al.	Crystal structure of the potassium channel KirBac1.1 in the closed state	ok	1.00
+whorton2011	21962516	10.1016/j.cell.2011.07.046	2011	Cell	Whorton MR, MacKinnon R.	Crystal structure of the mammalian GIRK2 K+ channel and gating regulation by G proteins, PIP2, and sodium	ok	1.00
+brohawn2012	22282805	10.1126/science.1213808	2012	Science	Brohawn SG, del Mármol J, MacKinnon R.	Crystal structure of the human K2P TRAAK, a lipid- and mechano-sensitive K+ ion channel	ok	1.00
+enyedi2010	20393194	10.1152/physrev.00029.2009	2010	Physiol Rev	Enyedi P, Czirják G.	Molecular background of leak K+ currents: two-pore domain potassium channels	ok	1.00
+hibino2010	20086079	10.1152/physrev.00021.2009	2010	Physiol Rev	Hibino H et al.	Inwardly rectifying potassium channels: their structure, function, and physiological roles	ok	1.00
+jiang2002	12037559	10.1038/417515a	2002	Nature	Jiang Y et al.	Crystal structure and mechanism of a calcium-gated potassium channel	ok	1.00
+noda1984	6209577	10.1038/312121a0	1984	Nature	Noda M et al.	Primary structure of Electrophorus electricus sodium channel deduced from cDNA sequence	ok	1.00
+payandeh2011	21743477	10.1038/nature10238	2011	Nature	Payandeh J et al.	The crystal structure of a voltage-gated sodium channel	ok	1.00
+heinemann1992	1313551	10.1038/356441a0	1992	Nature	Heinemann SH et al.	Calcium channel characteristics conferred on the sodium channel by single mutations	ok	1.00
+wu2015	26680202	10.1126/science.aad2395	2015	Science	Wu J et al.	Structure of the voltage-gated calcium channel Cav1.1 complex	ok	1.00
+catterall2011	21746798	10.1101/cshperspect.a003947	2011	Cold Spring Harb Perspect Biol	Catterall WA.	Voltage-gated calcium channels	ok	1.00
+lu2007	17448995	10.1016/j.cell.2007.02.041	2007	Cell	Lu B et al.	The neuronal channel NALCN contributes resting sodium permeability and is required for normal respiratory rhythm	ok	1.00
+ren2001	12402840	10.1097/00005392-200211000-00119	2002	J Urol	Jarow JP.	A sperm ion channel required for sperm motility and male fertility	ok	1.00
+kirichok2006	16467839	10.1038/nature04417	2006	Nature	Kirichok Y, Navarro B, Clapham DE.	Whole-cell patch-clamp measurements of spermatozoa reveal an alkaline-activated Ca2+ channel	ok	1.00
+calcraft2009	19387438	10.1038/nature08030	2009	Nature	Calcraft PJ et al.	NAADP mobilizes calcium from acidic organelles through two-pore channels	ok	1.00
+kaupp2002	12087135	10.1152/physrev.00008.2002	2002	Physiol Rev	Kaupp UB, Seifert R.	Cyclic nucleotide-gated ion channels	ok	1.00
+robinson2003	12471170	10.1146/annurev.physiol.65.092101.142734	2003	Annu Rev Physiol	Robinson RB, Siegelbaum SA.	Hyperpolarization-activated cation currents: from molecules to physiological function	ok	1.00
+lee2017	28086084	10.1016/j.cell.2016.12.023	2017	Cell	Lee CH, MacKinnon R.	Structures of the Human HCN1 Hyperpolarization-Activated Channel	ok	1.00
+montell1989	2516726	10.1016/0896-6273(89)90069-x	1989	Neuron	Montell C, Rubin GM.	Molecular characterization of the Drosophila trp locus: a putative integral membrane protein required for phototransduction	ok	1.00
+caterina1997	9349813	10.1038/39807	1997	Nature	Caterina MJ et al.	The capsaicin receptor: a heat-activated ion channel in the pain pathway	ok	1.00
+liao2013	24305160	10.1038/nature12822	2013	Nature	Liao M et al.	Structure of the TRPV1 ion channel determined by electron cryo-microscopy	ok	1.00
+clapham2003	14654832	10.1038/nature02196	2003	Nature	Clapham DE.	TRP channels as cellular sensors	ok	1.00
+venkatachalam2007	17579562	10.1146/annurev.biochem.75.103004.142819	2007	Annu Rev Biochem	Venkatachalam K, Montell C.	TRP channels	ok	1.00
+nilius2011	21401968	10.1186/gb-2011-12-3-218	2011	Genome Biol	Nilius B, Owsianik G.	The transient receptor potential family of ion channels	ok	1.00
+mccleskey2005	32443485	10.3390/ijms21103553	2020	Int J Mol Sci	Giniatullin R.	Ion Channels of Nociception	ok	1.00
+liman1999	10318963	10.1073/pnas.96.10.5791	1999	Proc Natl Acad Sci U S A	Liman ER, Corey DP, Dulac C.	TRP2: a candidate transduction channel for mammalian pheromone sensory signaling	ok	1.00
+noda1982	6182472	10.1038/299793a0	1982	Nature	Noda M et al.	Primary structure of alpha-subunit precursor of Torpedo californica acetylcholine receptor deduced from cDNA sequence	ok	1.00
+unwin2005	15701510	10.1016/j.jmb.2004.12.031	2005	J Mol Biol	Unwin N.	Refined structure of the nicotinic acetylcholine receptor at 4A resolution	ok	1.00
+brejc2001	11357122	10.1038/35077011	2001	Nature	Brejc K et al.	Crystal structure of an ACh-binding protein reveals the ligand-binding domain of nicotinic receptors	ok	1.00
+hilf2008	18322461	10.1038/nature06717	2008	Nature	Hilf RJ, Dutzler R.	X-ray structure of a prokaryotic pentameric ligand-gated ion channel	ok	1.00
+bocquet2009	18987633	10.1038/nature07462	2009	Nature	Bocquet N et al.	X-ray structure of a pentameric ligand-gated ion channel in an apparently open conformation	ok	1.00
+hibbs2011	21572436	10.1038/nature10139	2011	Nature	Hibbs RE, Gouaux E.	Principles of activation and permeation in an anion-selective Cys-loop receptor	ok	1.00
+miller2014	24909990	10.1038/nature13293	2014	Nature	Miller PS, Aricescu AR.	Crystal structure of a human GABAA receptor	ok	1.00
+du2015	26344198	10.1038/nature14853	2015	Nature	Du J et al.	Glycine receptor mechanism elucidated by electron cryo-microscopy	ok	1.00
+galzi1992	1383829	10.1038/359500a0	1992	Nature	Galzi JL et al.	Mutations in the channel domain of a neuronal nicotinic receptor convert ion selectivity from cationic to anionic	ok	1.00
+thompson2010	20849671	10.1017/s0033583510000168	2010	Q Rev Biophys	Thompson AJ, Lester HA, Lummis SC.	The structural basis of function in Cys-loop receptors	ok	1.00
+hollmann1994	8210177	10.1146/annurev.ne.17.030194.000335	1994	Annu Rev Neurosci	Hollmann M, Heinemann S.	Cloned glutamate receptors	ok	1.00
+sobolevsky2009	19946266	10.1038/nature08624	2009	Nature	Sobolevsky AI, Rosconi MP, Gouaux E.	X-ray structure, symmetry and mechanism of an AMPA-subtype glutamate receptor	ok	1.00
+chen1999	10617203	10.1038/45568	1999	Nature	Chen GQ et al.	Functional characterization of a potassium-selective prokaryotic glutamate receptor	ok	1.00
+traynelis2010	20716669	10.1124/pr.109.002451	2010	Pharmacol Rev	Traynelis SF et al.	Glutamate receptor ion channels: structure, regulation, and function	ok	1.00
+karakas2014	24876489	10.1126/science.1251915	2014	Science	Karakas E, Furukawa H.	Crystal structure of a heterotetrameric NMDA receptor ion channel	ok	1.00
+lee2014	25008524	10.1038/nature13548	2014	Nature	Lee CH et al.	NMDA receptor structures reveal subunit arrangement and pore architecture	ok	1.00
+sommer1991	1717158	10.1016/0092-8674(91)90568-j	1991	Cell	Sommer B et al.	RNA editing in brain controls a determinant of ion flow in glutamate-gated channels	ok	1.00
+lam1998	9823891	10.1038/24066	1998	Nature	Lam HM et al.	Glutamate-receptor genes in plants	ok	1.00
+benton2009	19135896	10.1016/j.cell.2008.12.001	2009	Cell	Benton R et al.	Variant ionotropic glutamate receptors as chemosensory receptors in Drosophila	ok	1.00
+kohda2000	10725919	10.1038/73877	2000	Nat Neurosci	Kohda K, Wang Y, Yuzaki M.	Mutation of a glutamate receptor motif reveals its role in gating and delta2 receptor channel properties	ok	1.00
+kawate2009	19641588	10.1038/nature08198	2009	Nature	Kawate T et al.	Crystal structure of the ATP-gated P2X(4) ion channel in the closed state	ok	1.00
+north2002	12270951	10.1152/physrev.00015.2002	2002	Physiol Rev	North RA.	Molecular physiology of P2X receptors	ok	1.00
+fountain2007	17625565	10.1038/nature05926	2007	Nature	Fountain SJ et al.	An intracellular P2X receptor required for osmoregulation in Dictyostelium discoideum	ok	1.00
+canessa1994	8107805	10.1038/367463a0	1994	Nature	Canessa CM et al.	Amiloride-sensitive epithelial Na+ channel is made of three homologous subunits	ok	1.00
+jasti2007	17882215	10.1038/nature06163	2007	Nature	Jasti J et al.	Structure of acid-sensing ion channel 1 at 1.9 A resolution and low pH	ok	1.00
+chalfie1981	7227647	10.1016/0012-1606(81)90459-0	1981	Dev Biol	Chalfie M, Sulston J.	Developmental genetics of the mechanosensory neurons of Caenorhabditis elegans	ok	1.00
+kellenberger2002	12087134	10.1152/physrev.00007.2002	2002	Physiol Rev	Kellenberger S, Schild L.	Epithelial sodium channel/degenerin family of ion channels: a variety of functions for a shared structure	ok	1.00
+jentsch2002	11917096	10.1152/physrev.00029.2001	2002	Physiol Rev	Jentsch TJ et al.	Molecular structure and physiological function of chloride channels	ok	1.00
+dutzler2002	11796999	10.1038/415287a	2002	Nature	Dutzler R et al.	X-ray structure of a ClC chloride channel at 3.0 A reveals the molecular basis of anion selectivity	ok	1.00
+accardi2004	14985752	10.1038/nature02314	2004	Nature	Accardi A, Miller C.	Secondary active transport mediated by a prokaryotic homologue of ClC Cl- channels	ok	1.00
+miller2006	16554809	10.1038/nature04713	2006	Nature	Miller C.	ClC chloride channels viewed through a transporter lens	ok	1.00
+riordan1989	2475911	10.1126/science.2475911	1989	Science	Riordan JR et al.	Identification of the cystic fibrosis gene: cloning and characterization of complementary DNA	ok	1.00
+zhang2017	29441426	10.1007/s00018-018-2777-0	2018	Cell Mol Life Sci	Negoda A et al.	Conformational change of the extracellular parts of the CFTR protein during channel gating	ok	1.00
+gadsby2006	16554808	10.1038/nature04712	2006	Nature	Gadsby DC, Vergani P, Csanády L.	The ABC protein turned chloride channel whose failure causes cystic fibrosis	ok	1.00
+yang2008	18724360	10.1038/nature07313	2008	Nature	Yang YD et al.	TMEM16A confers receptor-activated calcium-dependent chloride conductance	ok	1.00
+caputo2008	18772398	10.1126/science.1163518	2008	Science	Caputo A et al.	TMEM16A, a membrane protein associated with calcium-dependent chloride channel activity	ok	1.00
+schroeder2008	18805094	10.1016/j.cell.2008.09.003	2008	Cell	Schroeder BC et al.	Expression cloning of TMEM16A as a calcium-activated chloride channel subunit	ok	1.00
+brunner2014	25383531	10.1038/nature13984	2014	Nature	Brunner JD et al.	X-ray structure of a calcium-activated TMEM16 lipid scramblase	ok	1.00
+suzuki2010	21107324	10.1038/nature09583	2010	Nature	Suzuki J et al.	Calcium-dependent phospholipid scrambling by TMEM16F	ok	1.00
+pedemonte2014	24692353	10.1152/physrev.00039.2011	2014	Physiol Rev	Pedemonte N, Galietta LJ.	Structure and function of TMEM16 proteins (anoctamins)	ok	1.00
+sun2002	11904445	10.1073/pnas.052692999	2002	Proc Natl Acad Sci U S A	Sun H et al.	The vitelliform macular dystrophy protein defines a new family of chloride channels	ok	1.00
+dickson2014	25337878	10.1038/nature13913	2014	Nature	Kane Dickson V, Pedi L, Long SB.	Structure and insights into the function of a Ca(2+)-activated Cl(-) channel	ok	1.00
+voss2014	24790029	10.1126/science.1252826	2014	Science	Voss FK et al.	Identification of LRRC8 heteromers as an essential component of the volume-regulated anion channel VRAC	ok	1.00
+qiu2014	24725410	10.1016/j.cell.2014.03.024	2014	Cell	Qiu Z et al.	SWELL1, a plasma membrane protein, is an essential component of volume-regulated anion channel	ok	1.00
+deneka2018	29769723	10.1038/s41586-018-0134-y	2018	Nature	Deneka D et al.	Structure of a volume-regulated anion channel of the LRRC8 family	ok	1.00
+maeda2009	19340074	10.1038/nature07869	2009	Nature	Maeda S et al.	Structure of the connexin 26 gap junction channel at 3.5 A resolution	ok	1.00
+panchin2000	10898987	10.1016/s0960-9822(00)00576-5	2000	Curr Biol	Panchin Y et al.	A ubiquitous family of putative gap junction molecules	ok	1.00
+sosinsky2005	15925321	10.1016/j.bbamem.2005.04.001	2005	Biochim Biophys Acta	Sosinsky GE, Nicholson BJ.	Structural organization of gap junction channels	ok	1.00
+ma2012	22711817	10.1073/pnas.1204023109	2012	Proc Natl Acad Sci U S A	Ma Z et al.	Calcium homeostasis modulator 1 (CALHM1) is the pore-forming subunit of an ion channel that mediates extracellular Ca2+ regulation of neuronal excitability	ok	1.00
+taruno2013	23467090	10.1038/nature11906	2013	Nature	Taruno A et al.	CALHM1 ion channel mediates purinergic neurotransmission of sweet, bitter and umami tastes	ok	1.00
+phelan2001	9769729	10.1016/s0168-9525(98)01547-9	1998	Trends Genet	Phelan P et al.	Innexins: a family of invertebrate gap-junction proteins	ok	1.00
+coste2010	20813920	10.1126/science.1193270	2010	Science	Coste B et al.	Piezo1 and Piezo2 are essential components of distinct mechanically activated cation channels	ok	1.00
+ge2015	26390154	10.1038/nature15247	2015	Nature	Ge J et al.	Architecture of the mammalian mechanosensitive Piezo1 channel	ok	1.00
+ranade2015	26402601	10.1016/j.neuron.2015.08.032	2015	Neuron	Ranade SS, Syeda R, Patapoutian A.	Mechanically Activated Ion Channels	ok	1.00
+sukharev1994	7511799	10.1038/368265a0	1994	Nature	Sukharev SI et al.	A large-conductance mechanosensitive channel in E. coli encoded by mscL alone	ok	1.00
+chang1998	9856938	10.1126/science.282.5397.2220	1998	Science	Chang G et al.	Structure of the MscL homolog from Mycobacterium tuberculosis: a gated mechanosensitive ion channel	ok	1.00
+bass2002	12446901	10.1126/science.1077945	2002	Science	Bass RB et al.	Crystal structure of Escherichia coli MscS, a voltage-modulated and mechanosensitive channel	ok	1.00
+yuan2014	25162526	10.1038/nature13593	2014	Nature	Yuan F et al.	OSCA1 mediates osmotic-stress-evoked Ca2+ increases vital for osmosensing in Arabidopsis	ok	1.00
+murthy2018	30382938	10.7554/elife.41844	2018	Elife	Murthy SE et al.	OSCA/TMEM63 are an Evolutionarily Conserved Family of Mechanically Activated Ion Channels	ok	1.00
+kawashima2011	22105175	10.1172/jci60405	2011	J Clin Invest	Kawashima Y et al.	Mechanotransduction in mouse inner ear hair cells requires transmembrane channel-like genes	ok	1.00
+pan2018	30138589	10.1016/j.neuron.2018.07.033	2018	Neuron	Pan B et al.	TMC1 Forms the Pore of Mechanosensory Transduction Channels in Vertebrate Inner Ear Hair Cells	ok	1.00
+walker2000	10744543	10.1126/science.287.5461.2229	2000	Science	Walker RG, Willingham AT, Zuker CS.	A Drosophila mechanosensory transduction channel	ok	1.00
+furuichi1989	2554142	10.1038/342032a0	1989	Nature	Furuichi T et al.	Primary structure and functional expression of the inositol 1,4,5-trisphosphate-binding protein P400	ok	1.00
+takeshima1989	2725677	10.1038/339439a0	1989	Nature	Takeshima H et al.	Primary structure and expression from complementary DNA of skeletal muscle ryanodine receptor	ok	1.00
+desgeorges2016	27662087	10.1016/j.cell.2016.08.075	2016	Cell	des Georges A et al.	Structural Basis for Gating and Activation of RyR1	ok	1.00
+fan2015	26458101	10.1038/nature15249	2015	Nature	Fan G et al.	Gating machinery of InsP3R channels revealed by electron cryomicroscopy	ok	1.00
+berridge2016	27512009	10.1152/physrev.00006.2016	2016	Physiol Rev	Berridge MJ.	The Inositol Trisphosphate/Calcium Signaling Pathway in Health and Disease	ok	1.00
+yazawa2007	17611541	10.1038/nature05928	2007	Nature	Yazawa M et al.	TRIC channels are essential for Ca2+ handling in intracellular stores	ok	1.00
+baughman2011	21685886	10.1038/nature10234	2011	Nature	Baughman JM et al.	Integrative genomics identifies MCU as an essential component of the mitochondrial calcium uniporter	ok	1.00
+destefani2011	21685888	10.1038/nature10230	2011	Nature	De Stefani D et al.	A forty-kilodalton protein of the inner membrane is the mitochondrial calcium uniporter	ok	1.00
+colombini1979	450112	10.1038/279643a0	1979	Nature	Colombini M.	A candidate for the permeability pathway of the outer mitochondrial membrane	ok	1.00
+cang2015	26317472	10.1016/j.cell.2015.08.002	2015	Cell	Cang C et al.	TMEM175 Is an Organelle K(+) Channel Regulating Lysosomal Function	ok	1.00
+lee2017tmem175	28723891	10.1038/nature23269	2017	Nature	Lee C et al.	The lysosomal potassium channel TMEM175 adopts a novel tetrameric architecture	ok	1.00
+ramsey2006	16554753	10.1038/nature04700	2006	Nature	Ramsey IS et al.	A voltage-gated proton-selective channel lacking the pore domain	ok	1.00
+sasaki2006	16556803	10.1126/science.1122352	2006	Science	Sasaki M, Takagi M, Okamura Y.	A voltage sensor-domain protein is a voltage-gated proton channel	ok	1.00
+murata2005	15902207	10.1038/nature03650	2005	Nature	Murata Y et al.	Phosphoinositide phosphatase activity coupled to an intrinsic voltage sensor	ok	1.00
+decoursey2013	23589829	10.1152/physrev.00011.2012	2013	Physiol Rev	DeCoursey TE.	Voltage-gated proton channels: molecular biology, physiology, and pathophysiology of the H(V) family	ok	1.00
+tu2018	29371428	10.1126/science.aao3264	2018	Science	Tu YH et al.	An evolutionarily conserved gene family encodes proton-selective ion channels	ok	1.00
+feske2006	16582901	10.1038/nature04702	2006	Nature	Feske S et al.	A mutation in Orai1 causes immune deficiency by abrogating CRAC channel function	ok	1.00
+vig2006	16645049	10.1126/science.1127883	2006	Science	Vig M et al.	CRACM1 is a plasma membrane protein essential for store-operated Ca2+ entry	ok	1.00
+hou2012	23180775	10.1126/science.1228757	2012	Science	Hou X et al.	Crystal structure of the calcium release-activated calcium channel Orai	ok	1.00
+prakriya2015	26400989	10.1152/physrev.00020.2014	2015	Physiol Rev	Prakriya M, Lewis RS.	Store-Operated Calcium Channels	ok	1.00
+littleton2000	10798390	10.1016/s0896-6273(00)81135-6	2000	Neuron	Littleton JT, Ganetzky B.	Ion channels and synaptic organization: analysis of the Drosophila genome	ok	1.00
+anderson2001	11337248	10.1016/s1096-4959(01)00376-1	2001	Comp Biochem Physiol B Biochem Mol Biol	Anderson PA, Greenberg RM.	Phylogeny of ion channels: clues to structure and function	ok	1.00
+jegla2009	19149488	10.2174/138620709787047957	2009	Comb Chem High Throughput Screen	Jegla TJ et al.	Evolution of the human ion channel set	ok	1.00
+liebeskind2011	21576472	10.1073/pnas.1106363108	2011	Proc Natl Acad Sci U S A	Liebeskind BJ, Hillis DM, Zakon HH.	Evolution of sodium channels predates the origin of nervous systems in animals	ok	1.00
+liebeskind2015	25675537	10.1073/pnas.1501195112	2015	Proc Natl Acad Sci U S A	Liebeskind BJ, Hillis DM, Zakon HH.	Convergence of ion channel genome content in early animal evolution	ok	1.00
+moran2015	25696815	10.1242/jeb.110270	2015	J Exp Biol	Moran Y et al.	Evolution of voltage-gated ion channels at the emergence of Metazoa	ok	1.00
+hedrich2012	23073631	10.1152/physrev.00038.2011	2012	Physiol Rev	Hedrich R.	Ion channels in plants	ok	1.00
+martinac2008	18923187	10.1152/physrev.00005.2008	2008	Physiol Rev	Martinac B, Saimi Y, Kung C.	Ion channels in microbes	ok	1.00
+derst1998	9866872		1998	J Exp Biol	Derst C, Karschin A.	Evolutionary link between prokaryotic and eukaryotic K+ channels	ok	1.00
+ashcroft2006	16554803	10.1038/nature04707	2006	Nature	Ashcroft FM.	From molecule to malady	ok	1.00
+kullmann2010	20331364	10.1146/annurev-neuro-060909-153122	2010	Annu Rev Neurosci	Kullmann DM.	Neurological channelopathies	ok	1.00
+abriel2015	26044251	10.1161/circresaha.116.305017	2015	Circ Res	Abriel H, Rougier JS, Jalife J.	Ion channel macromolecular complexes in cardiomyocytes: roles in sudden cardiac death	ok	1.00
+bagal2013	23121096	10.1021/jm3011433	2013	J Med Chem	Bagal SK et al.	Ion channels as therapeutic targets: a drug discovery perspective	ok	1.00
+santos2017	27910877	10.1038/nrd.2016.230	2017	Nat Rev Drug Discov	Santos R et al.	A comprehensive map of molecular drug targets	ok	1.00
+overington2006	17139284	10.1038/nrd2199	2006	Nat Rev Drug Discov	Overington JP, Al-Lazikani B, Hopkins AL.	How many drug targets are there?	ok	1.00
+wulff2009	19949402	10.1038/nrd2983	2009	Nat Rev Drug Discov	Wulff H, Castle NA, Pardo LA.	Voltage-gated potassium channels as therapeutic targets	ok	1.00
+alexander2023	38123150	10.1111/bph.16178	2023	Br J Pharmacol	Alexander SPH et al.	The Concise Guide to PHARMACOLOGY 2023/24: Ion channels	ok	1.00
+paysanlafosse2023	36350672	10.1093/nar/gkac993	2023	Nucleic Acids Res	Paysan-Lafosse T et al.	InterPro in 2022	ok	1.00
+mistry2021	33125078	10.1093/nar/gkaa913	2021	Nucleic Acids Res	Mistry J et al.	Pfam: The protein families database in 2021	ok	1.00
+uniprot2023	36408920	10.1093/nar/gkac1052	2023	Nucleic Acids Res	UniProt Consortium.	UniProt: the Universal Protein Knowledgebase in 2023	ok	1.00
+katoh2013	23329690	10.1093/molbev/mst010	2013	Mol Biol Evol	Katoh K, Standley DM.	MAFFT multiple sequence alignment software version 7: improvements in performance and usability	ok	1.00
+minh2020	32011700	10.1093/molbev/msaa015	2020	Mol Biol Evol	Minh BQ et al.	IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era	ok	1.00
+kalyaanamoorthy2017	28481363	10.1038/nmeth.4285	2017	Nat Methods	Kalyaanamoorthy S et al.	ModelFinder: fast model selection for accurate phylogenetic estimates	ok	1.00
+capellagutierrez2009	19505945	10.1093/bioinformatics/btp348	2009	Bioinformatics	Capella-Gutiérrez S, Silla-Martínez JM, Gabaldón T.	trimAl: a tool for automated alignment trimming in large-scale phylogenetic analyses	ok	1.00
+vankempen2024	37156916	10.1038/s41587-023-01773-0	2024	Nat Biotechnol	van Kempen M et al.	Fast and accurate protein structure search with Foldseek	ok	1.00
+jumper2021	34265844	10.1038/s41586-021-03819-2	2021	Nature	Jumper J et al.	Highly accurate protein structure prediction with AlphaFold	ok	1.00
+varadi2022	34791371	10.1093/nar/gkab1061	2022	Nucleic Acids Res	Varadi M et al.	AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models	ok	1.00
+eddy2011	22039361	10.1371/journal.pcbi.1002195	2011	PLoS Comput Biol	Eddy SR.	Accelerated Profile HMM Searches	ok	1.00

@@ -64,6 +64,27 @@ tracks the tool.
   investigations), and the Analysis menu gained **Classify selected row**,
   which runs the three-tier classifier and shows the full audit trail.
 
+- **v2.7** (S1) `alignment_stats()` returns coverage of both sequences and
+  the reference tier enforces a floor on the longer one (**D30**). Without
+  it, covered-only identity — inherited from a project whose sequences were
+  one family and all the same size — scored a 226-residue connexin at 61 %
+  to a 4,967-residue ryanodine receptor. The benchmark found it; the
+  self-test now locks it.
+
+- **v2.8** (S1) The reference tier now inherits the architecture tier's
+  result: it searches within the named ambiguity, or within the named
+  superfamily when only that was reachable — which is the normal outcome
+  for the Cys-loop and iGluR receptors, where every family carries the same
+  two accessions. Falls back to the full panel if the restriction matches
+  no exemplar.
+
+- **v2.9** (S1) The reference prefilter applies the length ratio the D30
+  coverage floor implies, before aligning. `kmer_containment` divides by the
+  smaller profile, so the shortlist was filling with the longest references
+  in the panel — the ones the floor then discarded. Runtime per protein went
+  ~90 s → ~9 s, and the shortlists became the right ones: connexin-26 now
+  shortlists connexin-43, not RYR2.
+
 ## Known gaps
 
 - `src/analysis/alignment.py` still imports Biopython at module level, so

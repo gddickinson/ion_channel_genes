@@ -68,11 +68,17 @@ truth about those two families, not a defect.
 
 **D7 — a best hit is not a call** (inherited). The reference tier requires
 the best family to beat the best *different* family by ≥ 0.10 identity.
-Anything closer is an ambiguity, reported with the margin. When the
-architecture tier has already named the candidates, the reference tier
-prefilters over *only* those families — a global top-N can easily contain
-none of them, and then the ambiguity survives the tier that was asked to
-resolve it.
+Anything closer is an ambiguity, reported with the margin.
+
+**The reference tier inherits whatever the architecture tier established.**
+If the architecture tier named the candidate families, the reference search
+runs over only those — a global top-N can easily contain none of them, and
+then the ambiguity survives the tier that was asked to resolve it. If it
+could only reach the superfamily — the normal outcome for the Cys-loop and
+iGluR receptors, where every family carries the same two accessions — the
+search runs inside that superfamily. A restriction matching no exemplar
+falls back to the full panel, so this narrows the search without ever
+closing it.
 
 **Benchmarks classify leave-one-out (D29).** Ninety-three of the 97 proteins
 in the S1 panel *are* catalogue exemplars — both come from the same curated
@@ -82,11 +88,30 @@ nothing, so `classify(..., leave_one_out=True)` drops the query's own
 accession from the reference set. The overlap is reported in the S1
 summary rather than quietly handled.
 
-**Identity is scored over mutually covered columns.** Ion channels in one
-superfamily differ in length by an order of magnitude (MscL 136 aa, RYR1
-5,038 aa); full-alignment identity divides by the gaps. The parent project
-measured RyR-vs-ITPR at 0.105 full-alignment and 0.249 covered-only — the
-first is noise, the second is signal.
+**Identity is scored over mutually covered columns, with a coverage floor
+(D30).** Ion channels in one superfamily differ in length by an order of
+magnitude (MscL 136 aa, RYR1 5,038 aa); full-alignment identity divides by
+the gaps. The parent project measured RyR-vs-ITPR at 0.105 full-alignment
+and 0.249 covered-only — the first is noise, the second is signal.
+
+Covered-only identity **alone** is worse than either. An aligner placing a
+226-residue connexin inside a 4,967-residue ryanodine receptor picks the 226
+best-matching positions, and covered-only identity scores exactly those: S1
+measured connexin-26 at **61.3 % to RYR2 and 49.8 % to connexin-43**, its
+actual relative. Coverage of the shorter sequence is 0.996 and catches
+nothing; coverage of the longer is 0.045 against 0.589 and catches it
+cleanly. Any hit covering less than 30 % of the longer sequence is dropped,
+and the number dropped is reported with the call.
+
+The same floor is applied *before* aligning. Coverage of the longer sequence
+can never exceed `len(shorter) / len(longer)`, so any reference outside that
+ratio cannot pass however it aligns, and the prefilter skips it. This is not
+an optimisation bolted on afterwards — the k-mer prefilter divides by the
+smaller profile, so long references score near 1.0 against short queries and
+the shortlist fills with exactly the candidates the floor will reject.
+Measured: the benchmark went from ~9 s to ~90 s per protein once the search
+was scoped to a superfamily containing the ryanodine receptors, and back
+again once the length filter was added.
 
 **H15 — the gene symbol is never consulted.** It is carried into the audit
 trail for the reader and the call would be identical with it blank.

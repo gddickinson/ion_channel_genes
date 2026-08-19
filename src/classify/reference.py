@@ -33,7 +33,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from ..catalogue import CATALOGUE, exemplars
-from ..utils.mafft import MafftUnavailable, align, percent_identity
+from ..utils.mafft import MafftUnavailable, align, alignment_stats
 
 #: D7: the minimum gap between the best family and the next-best *different*
 #: family for the reference tier to make a call.
@@ -41,6 +41,15 @@ DEFAULT_MARGIN = 0.10
 
 #: How many prefiltered candidates get a real alignment.
 DEFAULT_TOP_N = 12
+
+#: Minimum fraction of the *longer* sequence the alignment must cover for the
+#: identity to mean anything. Measured in S1: without it, connexin-26 (226 aa)
+#: scored 61.3 % identity to ryanodine receptor 2 (4,967 aa) — higher than to
+#: its own relative connexin-43 — because an aligner placing 226 residues
+#: inside 4,967 picks the 226 best-matching positions and covered-only
+#: identity then scores exactly those. Coverage of the shorter sequence does
+#: not catch it (0.996); coverage of the longer does (0.045 vs 0.589).
+MIN_COVERAGE = 0.30
 
 
 @dataclass
@@ -50,6 +59,8 @@ class ReferenceHit:
     uniprot: str
     identity: float
     prefilter_score: float = 0.0
+    coverage: float = 0.0        # of the longer sequence — the guard below
+    covered_cols: int = 0
 
 
 @dataclass
@@ -58,6 +69,7 @@ class ReferenceResult:
     margin: float = 0.0
     hits: list[ReferenceHit] = field(default_factory=list)
     ambiguous: list[str] = field(default_factory=list)
+    rejected_low_coverage: list[str] = field(default_factory=list)
     available: bool = True
     message: str = ""
 
@@ -70,10 +82,14 @@ class ReferenceResult:
         if not self.hits:
             return "no reference hit"
         b = self.hits[0]
-        head = (f"nearest {b.label} ({b.family}) at {b.identity:.1%}, "
+        head = (f"nearest {b.label} ({b.family}) at {b.identity:.1%} over "
+                f"{b.covered_cols} cols ({b.coverage:.0%} of the longer), "
                 f"margin {self.margin:+.3f}")
         if self.ambiguous:
             head += " — ambiguous between " + ", ".join(self.ambiguous)
+        if self.rejected_low_coverage:
+            head += (f"; {len(self.rejected_low_coverage)} hit(s) dropped "
+                     f"below {MIN_COVERAGE:.0%} coverage")
         return head
 
 
@@ -163,18 +179,42 @@ class ReferenceSet:
         return [l for l, f in self.family_of.items() if f == family_key]
 
     def prefilter(self, query_seq: str, top_n: int = DEFAULT_TOP_N,
-                  labels: set[str] | None = None) -> list[tuple[str, float]]:
+                  labels: set[str] | None = None,
+                  min_coverage: float = MIN_COVERAGE) -> list[tuple[str, float]]:
+        """Cheap candidate shortlist, with the length filter D30 implies.
+
+        `kmer_containment` divides by the smaller profile, so a 5,000-residue
+        reference containing most of a 400-residue query's 3-mers scores near
+        1.0 — the prefilter is biased towards the longest references in the
+        panel. Those are exactly the hits the coverage floor then rejects, so
+        without a length filter the tier spends most of its alignments on
+        candidates it has already decided to discard. Measured: the S1 panel
+        went from ~9 s to ~90 s per protein once the search was scoped to a
+        superfamily containing the ryanodine receptors.
+
+        The filter is not a heuristic — it is the coverage floor stated in
+        advance. Coverage of the longer sequence can never exceed
+        `len(shorter) / len(longer)`, so any reference outside that ratio
+        cannot pass `MIN_COVERAGE` however it aligns.
+        """
         qp = kmer_profile(query_seq)
+        lq = max(1, len(query_seq))
         items = (self._profiles.items() if labels is None
                  else ((l, p) for l, p in self._profiles.items() if l in labels))
-        scored = [(l, kmer_containment(qp, p)) for l, p in items]
+        scored = []
+        for label, prof in items:
+            lr = max(1, len(self.sequences[label]))
+            if min(lq, lr) / max(lq, lr) < min_coverage:
+                continue
+            scored.append((label, kmer_containment(qp, prof)))
         scored.sort(key=lambda t: -t[1])
         return scored[:top_n]
 
     def best_match(self, query_seq: str, top_n: int = DEFAULT_TOP_N,
                    margin: float = DEFAULT_MARGIN,
                    restrict_to: tuple[str, ...] = (),
-                   exclude_accessions: tuple[str, ...] = ()) -> ReferenceResult:
+                   exclude_accessions: tuple[str, ...] = (),
+                   min_coverage: float = MIN_COVERAGE) -> ReferenceResult:
         """Nearest exemplar, with the D7 margin.
 
         `exclude_accessions` is the benchmark's leave-one-out: 46 of the S1
@@ -201,19 +241,24 @@ class ReferenceSet:
                 keep = None
         if drop:
             keep = (keep or set(self.sequences)) - drop
-        candidates = self.prefilter(query_seq, top_n, keep)
+        candidates = self.prefilter(query_seq, top_n, keep, min_coverage)
         hits: list[ReferenceHit] = []
+        dropped: list[str] = []
         for label, pre in candidates:
             try:
                 rows = align([("q", query_seq), (label, self.sequences[label])])
             except (MafftUnavailable, RuntimeError) as exc:
                 return ReferenceResult(available=False, message=str(exc)[:200])
-            ident = percent_identity(rows["q"], rows[label], covered_only=True)
+            ident, _cov_short, cov_long, n_cols = alignment_stats(
+                rows["q"], rows[label])
+            if cov_long < min_coverage:
+                dropped.append(f"{label}({cov_long:.0%})")
+                continue
             hits.append(ReferenceHit(label, self.family_of.get(label, ""),
                                      self.accession_of.get(label, ""),
-                                     ident, pre))
+                                     ident, pre, cov_long, n_cols))
         hits.sort(key=lambda h: -h.identity)
-        res = ReferenceResult(hits=hits)
+        res = ReferenceResult(hits=hits, rejected_low_coverage=dropped)
         if not hits:
             return res
         best = hits[0]

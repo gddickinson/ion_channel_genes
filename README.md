@@ -22,11 +22,12 @@ Three deliverables, in order:
 
 | | |
 |---|---|
-| **Ledger** | S0 complete 2026-08-19; **S1 running**. 26 tasks (`PUBLICATION_ROADMAP.md`). |
+| **Ledger** | S0 and S1 complete 2026-08-19; S2 next. 26 tasks (`PUBLICATION_ROADMAP.md`). |
 | **Catalogue** | 90 families · 25 superfamilies · 320 human census genes · 16 hazards · validation clean |
 | **Verification** | S0 clean on the third pass: **115/115 Pfam accessions verified**, **162/162 exemplars resolved**, 52/52 taxon ids, 769 live requests, 0 failures ([report](results/s0_baseline/report.md)) |
-| **Classifier** | 3 tiers built; verified end-to-end (KCTD1 → non-channel via H12, TPTE → phosphatase via H9, CACNA1G → `cav` where architecture refused and the `EEDD` filter decided). Full 97-protein benchmark running in S1 |
+| **Classifier** | benchmarked: **recall 50/72, specificity 25/25, 16/16 hazards exercised**, leave-one-out. 29 calls from domain rules and 7 from the filter motif against 24 from identity — not a nearest-neighbour lookup ([report](results/benchmark_controls/report.md)) |
 | **Phylogeny** | builders and the tier-3 network built; smoke-tested on the Cys-loop superfamily (8 refs, rooted on GLIC/ELIC, 52 s — anion and cation receptors separate at 100 %); real trees run in S7/S8 |
+| **Review** | `docs/channel_review_2026.md` — 16 sections, ~8,400 words, **148 references, every one resolved against Europe PMC** before it could be cited |
 | **Toolchain** | MAFFT, HMMER, trimAl, IQ-TREE 2, miniprot, BLAST+, Foldseek, `datasets` — 12/12 resolve (`results/toolchain_manifest.txt`) |
 
 ---
@@ -53,6 +54,10 @@ python3 run.py --phylo tmem16_like --tier 2   # refused — with the reason
 
 # the offline invariants (catalogue, hazard rules, D27 refusal) — under a second
 python3 scripts/selftest.py
+
+# the literature review (edit docs/review/*.md, never the output)
+python3 scripts/s0_review_refs.py     # resolve every citation against Europe PMC
+python3 scripts/s0_review_build.py --pdf
 
 # the session dashboard
 python3 scripts/dashboard.py --open

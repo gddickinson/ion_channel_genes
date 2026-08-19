@@ -127,5 +127,53 @@ tree — that is S8's job, with the full census behind it — but it is the
 pipeline producing a correct answer to a question with a known answer, which
 is what a smoke test is for.
 
-*(pending: S1 — whether the classifier's three tiers recover the
-literature's family assignments, and which tier does the work.)*
+---
+
+## 2026-08-19 — S1: what a classifier can and cannot tell you from sequence
+
+**The classifier rejects every decoy and finds two thirds of the positives.**
+Against a panel of 72 known channels and 25 proteins chosen because they look
+like channels and are not, it called **50/72 (69 %)** of the positives
+correctly and rejected **25/25 (100 %)** of the decoys. Every one of the
+sixteen recorded confusions was exercised at least once. Nothing was called a
+channel that is not one — including the potassium-channel-domain proteins
+that are ubiquitin-ligase adaptors, the glutamate-receptor-clamshell proteins
+that are metabotropic receptors, the voltage-sensor protein that is a
+phosphatase, and the ABC transporter that regulates a channel without
+conducting.
+
+**The gene symbol was never read.** Classification used domain composition,
+selectivity-filter residues and sequence identity only. The symbol is carried
+through the audit trail so a reader can see it, and the answer is identical
+when it is blanked or replaced with nonsense.
+
+**Most of the work was not done by similarity.** Of the calls made, 29 came
+from domain-composition rules and 7 from reading the selectivity filter,
+against 24 from nearest-neighbour identity. That distinction matters: a call
+from architecture or motif works on a sequence with no close relative in the
+reference set, which is the case a census exists for.
+
+**Where it fails is where the biology is genuinely ambiguous.** The 22 missed
+positives are concentrated in the families that domain annotation cannot
+separate and that sequence identity separates only weakly — the Cys-loop
+receptors, whose families all carry the same two domains and are ~35–40 %
+identical to one another; the anoctamin channels against the anoctamin
+scramblases, which have identical architecture; and the families whose only
+reference is the protein being tested. These are not tuning failures. They
+are the point at which sequence stops carrying the answer and profile or
+structural methods have to take over.
+
+**The benchmark found a bug in a method inherited from the parent project,
+and the bug had produced a false positive.** Scoring identity only over the
+columns two sequences share is right for proteins of unequal length, and
+badly wrong without a coverage floor: an aligner placing a 226-residue
+connexin inside a 4,967-residue ryanodine receptor selects the 226
+best-matching positions, and the score then reflects exactly those.
+Connexin-26 measured **61 % identical to ryanodine receptor 2 and 50 % to
+connexin-43, its actual relative** — and was duly called a ryanodine
+receptor. Requiring the alignment to cover 30 % of the longer sequence fixed
+it, and specificity went from 24/25 to 25/25.
+
+*(pending: S2 — whether these recall figures hold when the panel is the whole
+census rather than one member per family, and S3 — whether profile methods
+recover the families sequence identity cannot.)*

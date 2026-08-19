@@ -113,14 +113,25 @@ Claude: follow this protocol in every session that touches this project.
 Statuses: `pending` / `in_progress` / `completed YYYY-MM-DD`.
 Full step-by-step briefs: `docs/session_briefs.md`.
 
-> **Next session: S1.** The setup session built the catalogue, ran S0 to a
-> clean third pass, and ran the S1 benchmark once; read
-> `results/s0_baseline/report.md` and `results/benchmark_controls/report.md`
-> before doing anything else. S0's report is the list of things the
-> catalogue claims that a live database did not confirm — 34 of 162
-> exemplar architectures still differ from their family's declaration, and
-> each one is either an expected subfamily-level absence or a correction
-> waiting to be made.
+> **Next session: S2.** S0 and S1 are complete. Read
+> `results/benchmark_controls/report.md` before S2 — it changes how the
+> census must be run.
+>
+> **Three S1 results S2 depends on.** (1) **Enumerate from the union of pore
+> models, never from `PF00520`** — most TRP families carry no copy of it, so
+> the obvious enumeration silently loses the division. (2) **The reference
+> tier does not scale**: ~9 s per protein against a 162-sequence panel means
+> ~40 hours for a 5,000-protein census, so S2 needs a calibrated fast
+> identity estimate or profile assignment, and whatever replaces it must
+> keep the D7 margin meaning what it means now. (3) **22 of 72 positives
+> were missed**, concentrated in the Cys-loop receptors and the anoctamins —
+> families domain annotation cannot separate and identity separates only
+> weakly. Records the classifier cannot call are `unassigned` and stay in
+> the census with that label; they are not dropped.
+>
+> S0's report also still lists **34 of 162 exemplar architectures differing
+> from their family's declaration** — each is either an expected
+> subfamily-level absence or a correction waiting to be made.
 >
 > **Three things S1 must not skip.** (1) `verify_anchor()` on the four-repeat
 > filter reference before any filter result is reported — a UniProt
@@ -147,7 +158,7 @@ Full step-by-step briefs: `docs/session_briefs.md`.
 | ID | Task (one session each) | Depends | Status | Results (headline) |
 |----|-------------------------|---------|--------|--------------------|
 | S0 | Catalogue verification + scope confirmation: re-derive every Pfam accession, exemplar, architecture and taxon id against live databases; build the reference panel | — | completed 2026-08-19 | Catalogue built and verified: **90 families / 25 superfamilies / 320 human census genes / 16 hazards**, `validate()` clean. **Three passes** (769 requests, 0 failures on the last); clean on the third: **115/115 Pfam accessions verified, 162/162 exemplars resolved, 52/52 taxon ids**, 162 sequences cached to `reference_panel.fasta`. **Seven catalogue corrections came out of it**, incl. hazard **H16** rewritten (Kir carries *no* `PF07885` — it is two models, not one at two copy numbers), **H2** amended (three measured false negatives: ZACN, GLIC, ELIC — the Cys-loop outgroup fails its own superfamily's rule), **H9** amended (`PF16799` is absent from *Ciona* Hv1, so the Hv1 test is mammal-only), and `iglur_prok` corrected — GluR0's measured architecture is `PF07885` + `PF00497`, a **potassium-channel pore plus a bacterial binding domain**. Measured: `PF00520` spans 20 families incl. a phosphatase (H9); TRPC3/TRPM8/MCOLN1/PKD2 carry **no** `PF00520` (H7); ANO1 ≡ ANO6 (H6); CFTR ≡ ABCC8 minus `PF14396` (H11); KCTD1 carries the Kv T1 domain (H12). Four-repeat filter projection **6/6** correct. → `results/s0_baseline/report.md` |
-| S1 | Classifier control benchmark: positives from every census family, one decoy per hazard; per-family recall, per-hazard specificity, per-tier attribution | S0 | in_progress | Panel built and running: 97 proteins (72 positives across the census families, 25 decoys — one per hazard). Evidence fetched for all 97; **93 of them are themselves catalogue exemplars**, so the run classifies leave-one-out (**D29**). Anchor validates, MAFFT v7.526, 162-sequence reference panel. **NEXT: the run is in `scripts/s1_benchmark.py`; when it finishes, `python3 scripts/s1_report.py` and then read the per-tier attribution table and the untested-hazard list before anything else.** |
+| S1 | Classifier control benchmark: positives from every census family, one decoy per hazard; per-family recall, per-hazard specificity, per-tier attribution | S0 | completed 2026-08-19 | **Recall 50/72 (69.4 %); specificity 25/25 (100 %); 16/16 hazards exercised.** 97 proteins classified leave-one-out (**93 of them are catalogue exemplars** → D29) in 866 s. **Per-tier attribution — the headline: 29 calls from architecture/hazard rules and 7 from the filter motif, against 24 from reference identity**, so the classifier is not a nearest-neighbour lookup. **The benchmark found a bug in the inherited identity metric**: covered-only identity without a coverage floor scored connexin-26 at 61.3 % to RYR2 and 49.8 % to connexin-43, and called it a ryanodine receptor. Fixed by requiring 30 % coverage of the longer sequence (**D30**); specificity 24/25 → 25/25. Recall failures concentrate where domain annotation genuinely cannot separate families — the Cys-loop receptors (same two accessions, 35–40 % mutual identity) and ANO1 vs ANO6 (identical architecture) — which is S3's problem, not a tuning problem. → `results/benchmark_controls/report.md` |
 | S2 | Uncapped InterPro enumeration of every pore signature → census v2, with a positive family call on every record | S1 | pending | |
 | S3 | Profile-HMM sweep (one HMM per family, best-profile assignment) over reference proteomes + jackhmmer-to-convergence completeness argument → census v3 | S1, S2 | pending | |
 | S4 | Proteome scope: declared reference-proteome manifest across the lineage panel (the denominator) + download tooling | S1 | pending | |
@@ -198,6 +209,7 @@ than expanding the task in progress.
 | 2026-08-19 | setup | Biopython is present in the `piezo1` env but absent from the base interpreter, so `src/analysis` and the GUI only run there. Either pin the env in a wrapper script or drop the Biopython dependency from `alignment.py` in favour of `src/utils/mafft.py` | open |
 | 2026-08-19 | S0 | **Three of the four superfamily outgroups are unreachable by their own superfamily's rules.** GLIC and ELIC carry the Cys-loop LBD and no TM model, so the H2 rule rejects them; GluR0's architecture is a *potassium-channel* pore plus a bacterial binding domain, with no iGluR model at all; prokaryotic NavAb carries neither Nav-specific domain. Rooting therefore depends on S3's profile methods, not on domain search — and that is a result about annotation coverage, not a bug | open (S3 → S7/S8) |
 | 2026-08-19 | S0 | **`PF16799`, the positive Hv1 test, is on human HVCN1 and not on *Ciona* Hv1.** The H9 discriminator is currently a mammal-only instrument; check how many other family-level tests are human-only by re-running the S1 panel on non-human orthologues | open (S1) |
+| 2026-08-19 | S1 | **The benchmark re-fetches its whole panel on every run.** 97 proteins × 3 API calls, several minutes, repeated for each of the four runs the setup session needed. The parent project cached its control panels to `panel_positives.json` / `panel_decoys.json` so the benchmark reruns offline; do the same here — the evidence (sequence, Pfam counts, TM count) is what the classifier consumes and it does not change between runs | open (S1) |
 | 2026-08-19 | S1 | **The reference tier does not scale to a census.** Measured on the S1 run: ~2.5 s per MAFFT pairwise alignment × up to 12 prefiltered candidates ≈ 30 s per protein, so the 97-protein panel takes ~45 min and a 5,000-protein census would take ~40 hours. S2 needs either a calibrated fast identity estimate (DIAMOND or BLAST, checked against MAFFT on the S1 panel so the D7 margin keeps its meaning) or a profile-based assignment that skips pairwise scoring entirely. **This is a scaling result, not a bug** — the tier is correct and slow, and the fix must not change what the margin means | open (S2/S3) |
 | 2026-08-19 | setup | **The phylogeny pipeline was smoke-tested on the Cys-loop superfamily** (8 exemplars, MAFFT → trimAl → IQ-TREE 2 with 1000 UFBoot, rooted on GLIC/ELIC, 52 s) and returned the expected topology: anion- and cation-selective receptors separate at 100 %, AChBP sisters the cationic clade. `results/phylogeny/tier2_cysloop/`. **This is not S8's tree** — eight sequences, exemplars only — and must not be cited as one | closed 2026-08-19 |
 | 2026-08-19 | S0 | **`PF00005` (ABC_tran) has 1.66 million UniProt proteins and `PF00520` has 206,115.** The census search space is dominated by two accessions that are mostly not channels. S2 needs a per-signature triage rule before it enumerates, or it will fetch a million transporters to find one CFTR | open (S2) |
@@ -293,6 +305,20 @@ against the reference before every use. Measured 6/6 correct.
 fold network.** `build_tier2()` raises `NotAlignable`; there is no
 `build_tier3()`. A tier-2 tree is labelled a *pore-module tree* in every
 output because that is what it is.
+
+**D30 — Covered-only identity needs a coverage floor, measured on the
+longer sequence.** Inherited from the parent project, covered-only identity
+scores the columns where both sequences have a residue, and on its own it is
+unsafe across a catalogue whose members differ 40-fold in length: an aligner
+placing 226 residues inside 4,967 selects the 226 best-matching positions,
+and the metric then scores exactly those. Measured in S1: **connexin-26
+scored 61.3 % identity to ryanodine receptor 2 — higher than the 49.8 % to
+its own relative connexin-43** — and GluN1 scored 50.9 % to the SARS-CoV-2
+envelope protein. Coverage of the *shorter* sequence does not catch it
+(0.996); coverage of the longer does (0.045 against 0.589). The reference
+tier therefore drops any hit covering less than
+`reference.MIN_COVERAGE` = 30 % of the longer sequence, reports how many it
+dropped, and the self-test locks the asymmetry in.
 
 **D29 — A benchmark drawn from the catalogue classifies leave-one-out.**
 Measured: 93 of the 97 proteins in the S1 control panel are themselves

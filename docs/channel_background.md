@@ -8,14 +8,9 @@ Every statement here is tagged by how far it can be trusted:
   `results/s0_baseline/`.
 - **`[open]`** — a question this project answers. Not a fact yet.
 
-Read this before S1.
-
-**There is no literature review in this repo yet.** The parent project built
-one in its S0 and cited it everywhere; here the equivalent is a task for
-S14a, when the results exist to organise it around. Until then, `[lit]`
-statements below carry no citation — they are flagged as literature so that
-S14a knows which ones need one, and nothing in this file may be cited as a
-source.
+Read this before S1. **Cite the review
+(`docs/channel_review_2026.md`), never this file** — the review's references
+are machine-resolved against Europe PMC and this file's are not.
 
 ---
 

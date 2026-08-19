@@ -64,8 +64,15 @@ def confusion_table(calls: list[ChannelCall],
 
 
 def recall_table(calls: list[ChannelCall],
-                 expected: dict[str, str]) -> list[tuple]:
-    """Per expected family: n, correct, recall, and the tier that called it."""
+                 expected: dict[str, str],
+                 positives: set[str] | None = None) -> list[tuple]:
+    """Per expected family: n, correct, recall, and the tier that called it.
+
+    `positives` is the set of accessions that are panel *positives*. Without
+    it the table mixes them with the decoys, and a decoy correctly left
+    unassigned reads as a recall failure — which is the opposite of what
+    happened.
+    """
     per: dict[str, list[ChannelCall]] = defaultdict(list)
     for c in calls:
         exp = expected.get(c.query, "")
@@ -77,8 +84,11 @@ def recall_table(calls: list[ChannelCall],
         correct = [c for c in got if c.family == fam]
         tiers = Counter(_decisive(c) for c in correct)
         conf = Counter(c.confidence for c in correct)
+        role = ("positive" if positives is None
+                else ("positive" if any(c.query in positives for c in got)
+                      else "decoy"))
         rows.append((
-            fam,
+            fam, role,
             CATALOGUE[fam].name if fam in CATALOGUE else "",
             len(got), len(correct), f"{len(correct) / len(got):.3f}",
             ";".join(f"{t or 'none'}={n}" for t, n in tiers.most_common()),

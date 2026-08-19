@@ -1,0 +1,76 @@
+family	panel_role	name	n	correct	recall	decisive_tiers	confidence	mis_calls
+ampa	positive	AMPA receptors (GluA1–4)	1	1	1.000	reference=1	bronze=1	
+ano_channel	positive	Anoctamin channels (TMEM16A, TMEM16B)	1	1	1.000	reference=1	bronze=1	
+ano_scramblase	positive	Anoctamin scramblases (TMEM16C–K)	1	0	0.000			ano_channel
+asic	positive	Acid-sensing ion channels (ASIC)	1	0	0.000			unassigned
+assoc_catsper_aux	decoy	CatSper auxiliary subunits (CATSPERB/G/D/E/Z)	1	0	0.000			unassigned
+assoc_cav_aux	decoy	Cav auxiliary subunits (beta, alpha2delta, gamma/TARP)	3	0	0.000			unassigned
+assoc_clc_aux	decoy	CLC accessory proteins (barttin, CLCA)	1	0	0.000			unassigned
+assoc_iglur_aux	decoy	iGluR auxiliary subunits (NETO, CNIH, SHISA, GSG1L)	1	0	0.000			unassigned
+assoc_k_beta	decoy	K+ channel beta and gamma subunits (KCNAB, KCNMB, LRRC26, DPP6/10)	3	0	0.000			unassigned
+assoc_kcne	decoy	KCNE (MinK-related) accessory subunits	1	0	0.000			unassigned
+assoc_mcu_reg	decoy	MCU regulators (MICU1–3, EMRE/SMDT1, MCUR1)	2	0	0.000			unassigned
+assoc_nav_beta	decoy	Nav beta subunits (SCN1B–SCN4B)	1	0	0.000			unassigned
+assoc_polycystin1	decoy	Polycystin-1 family (PKD1, PKD1L1–3)	1	0	0.000			unassigned
+assoc_stim	decoy	STIM proteins (STIM1, STIM2)	1	0	0.000			unassigned
+assoc_sur	decoy	Sulfonylurea receptors (ABCC8, ABCC9)	1	1	1.000	hazard=1	silver=1	
+bestrophin	positive	Bestrophins (BEST1–BEST4)	1	1	1.000	architecture=1	bronze=1	
+calhm	positive	Calcium homeostasis modulators (CALHM1–CALHM6)	1	1	1.000	architecture=1	bronze=1	
+catsper	positive	CatSper sperm-specific Ca2+ channels	1	0	0.000			unassigned
+cav	positive	Voltage-gated calcium channels (Cav1–Cav3)	3	3	1.000	motif=3	gold=2;silver=1	
+cftr	positive	CFTR (ABCC7) — the ABC-fold anion channel	1	1	1.000	hazard=1	silver=1	
+clc_channel	positive	CLC chloride channels (CLC-1, CLC-2, CLC-Ka, CLC-Kb)	1	1	1.000	reference=1	bronze=1	
+clc_transporter	positive	CLC 2Cl-/H+ antiporters (CLC-3 to CLC-7)	1	0	0.000			unassigned
+clic	positive	Chloride intracellular channels (CLIC1–6)	1	1	1.000	reference=1	gold=1	
+cng	positive	Cyclic-nucleotide-gated channels (CNG)	1	1	1.000	architecture=1	bronze=1	
+connexin	positive	Connexins (gap-junction hemichannels)	2	2	1.000	reference=2	gold=2	
+delta_glur	positive	Delta receptors (GluD1, GluD2)	1	0	0.000			unassigned
+enac	positive	Epithelial sodium channels (ENaC)	1	0	0.000			unassigned
+gabaa	positive	GABA-A receptors	2	0	0.000			unassigned
+glyr	positive	Glycine receptors	1	0	0.000			unassigned
+hcn	positive	Hyperpolarisation-activated cyclic-nucleotide-gated channels (HCN)	2	2	1.000	reference=2	gold=2	
+ht3	positive	5-HT3 serotonin receptors	1	0	0.000			unassigned
+hv1	positive	Voltage-gated proton channel (HVCN1 / Hv1)	1	1	1.000	hazard=1	silver=1	
+itpr	positive	Inositol 1,4,5-trisphosphate receptors (ITPR1–3)	1	1	1.000	hazard=1	gold=1	
+k2p	positive	Two-pore-domain K+ channels (K2P)	2	2	1.000	hazard=2	silver=2	
+kainate	positive	Kainate receptors (GluK1–5)	1	0	0.000			unassigned
+kca_sk	positive	Small/intermediate-conductance Ca2+-activated K+ channels (SK, IK)	1	1	1.000	architecture=1	bronze=1	
+kca_slo	positive	Slo channels (BK, Slo3, Slack/Slick)	2	2	1.000	architecture=2	bronze=2	
+kir	positive	Inward-rectifier K+ channels (Kir1–Kir7)	2	2	1.000	hazard=2	gold=2	
+kv_eag	positive	EAG/ERG/ELK channels (Kv10–Kv12)	1	1	1.000	architecture=1	bronze=1	
+kv_kcnq	positive	KCNQ (Kv7) channels	1	1	1.000	reference=1	gold=1	
+kv_modifier	positive	Electrically silent Kv modifier subunits (Kv5, Kv6, Kv8, Kv9)	1	0	0.000			unassigned
+kv_shaker	positive	Shaker-related voltage-gated K+ channels (Kv1–Kv4)	2	1	0.500	reference=1	bronze=1	kv_modifier
+lrrc8	positive	LRRC8 volume-regulated anion channels (VRAC)	1	1	1.000	reference=1	gold=1	
+mcu	positive	Mitochondrial calcium uniporter (MCU, MCUB)	1	1	1.000	architecture=1	bronze=1	
+nachr	positive	Nicotinic acetylcholine receptors	2	1	0.500	reference=1	bronze=1	unassigned
+nalcn	positive	NALCN sodium leak channel	1	1	1.000	motif=1	silver=1	
+nav	positive	Voltage-gated sodium channels (Nav1.1–1.9, Nax)	3	3	1.000	motif=3	gold=3	
+nmda	positive	NMDA receptors (GluN1, GluN2A–D, GluN3A–B)	1	0	0.000			unassigned
+nonchannel_class_c_gpcr	decoy	Class C GPCRs — the iGluR clamshell without a pore	2	2	1.000	hazard=2	silver=2	
+nonchannel_gasdermin	decoy	Gasdermins — pore-forming, not ion-conducting	1	0	0.000			unassigned
+nonchannel_kctd	decoy	KCTD proteins — the T1 domain without a channel	1	1	1.000	hazard=1	silver=1	
+nonchannel_pomt	decoy	Protein O-mannosyltransferases (POMT1, POMT2)	1	1	1.000	hazard=1	silver=1	
+nonchannel_vsp	decoy	Voltage-sensing phosphatases (TPTE, TPTE2, Ci-VSP)	1	1	1.000	hazard=1	gold=1	
+orai	positive	ORAI / CRAC channels (ORAI1–3)	1	1	1.000	reference=1	gold=1	
+osca_tmem63	positive	OSCA / TMEM63 mechanosensitive channels	1	1	1.000	reference=1	gold=1	
+otop	positive	Otopetrin proton channels (OTOP1–3)	1	1	1.000	architecture=1	bronze=1	
+outofscope_aquaporin	decoy	Aquaporins — channels that are not ion channels	2	1	0.500	reference=1	bronze=1	unassigned
+p2x	positive	P2X receptors	2	1	0.500	reference=1	bronze=1	unassigned
+pannexin	positive	Pannexins (PANX1–PANX3)	1	0	0.000			unassigned
+piezo	positive	Piezo channels (PIEZO1, PIEZO2)	1	1	1.000	reference=1	gold=1	
+ryr	positive	Ryanodine receptors (RYR1–3)	1	1	1.000	hazard=1	gold=1	
+tmc	positive	Transmembrane channel-like proteins (TMC1–TMC8)	1	1	1.000	reference=1	gold=1	
+tmem175	positive	TMEM175 endolysosomal K+/H+ channel	1	1	1.000	architecture=1	bronze=1	
+tpc	positive	Two-pore channels (TPC1, TPC2)	1	0	0.000			unassigned
+transporter_slc26	decoy	SLC26 anion transporters and prestin	1	0	0.000			unassigned
+tric	positive	Trimeric intracellular cation channels (TMEM38A/B)	1	1	1.000	architecture=1	bronze=1	
+trpa	positive	TRPA1 — ankyrin transient receptor potential channel	1	0	0.000			unassigned
+trpc	positive	TRPC — canonical transient receptor potential channels	1	1	1.000	reference=1	gold=1	
+trpm	positive	TRPM — melastatin-related channels	2	2	1.000	reference=2	bronze=2	
+trpml	positive	TRPML — mucolipins	1	1	1.000	hazard=1	gold=1	
+trpp	positive	TRPP / polycystin-2 channels	1	1	1.000	hazard=1	gold=1	
+trpv	positive	TRPV — vanilloid receptor channels	2	0	0.000			unassigned
+tweety	positive	Tweety homologues (TTYH1–TTYH3)	1	1	1.000	architecture=1	bronze=1	
+vdac	positive	Voltage-dependent anion channels (VDAC1–3)	1	1	1.000	reference=1	gold=1	
+zac	positive	Zinc-activated channel (ZACN)	1	0	0.000			nonchannel_achbp

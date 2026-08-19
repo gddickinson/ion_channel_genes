@@ -160,7 +160,17 @@ def classify(query: ChannelQuery,
 
     # -- tier 3: reference identity ------------------------------------
     if refs is not None and query.sequence:
+        # Use whatever the architecture tier established. If it named the
+        # candidates, break that tie; if it could only reach the superfamily
+        # — which is the normal outcome for Cys-loop and iGluR, where every
+        # family carries the same two accessions — search inside that
+        # superfamily rather than across the whole catalogue. This is using
+        # the evidence already gathered, not narrowing to fit an answer: a
+        # restriction that matches no exemplar falls back to the full panel.
         restrict = tuple(arch.ambiguous) if arch.ambiguous else ()
+        if not restrict and arch.superfamily and not arch.family:
+            restrict = tuple(f.key for f in CATALOGUE.values()
+                             if f.superfamily == arch.superfamily)
         ref = refs.best_match(
             query.sequence, margin=margin, restrict_to=restrict,
             exclude_accessions=(query.accession,) if leave_one_out else ())

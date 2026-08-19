@@ -67,11 +67,13 @@ def build(d: Path) -> str:
          f"leave-one-out" if s.get("leave_one_out") else "not excluded"],
     ]))
     A("")
-    A("**Leave-one-out matters here.** Nearly half the panel is drawn from "
-      "the catalogue's own exemplars, so without excluding the query's own "
-      "accession the reference tier would score those proteins against "
-      "themselves at 100 % identity and the benchmark would measure nothing "
-      "but the panel's overlap with itself.")
+    n_self = s.get("panel_proteins_that_are_exemplars", 0)
+    A(f"**Leave-one-out matters here.** {n_self} of the {s['n_classified']} "
+      f"panel proteins are themselves catalogue exemplars — both are drawn "
+      f"from the same curated gene lists — so without excluding the query's "
+      f"own accession the reference tier would score almost the whole panel "
+      f"against itself at 100 % identity and the benchmark would measure "
+      f"nothing but that overlap (**D29**).")
     A("")
 
     A("## Which tier made the call")
@@ -92,17 +94,32 @@ def build(d: Path) -> str:
 
     A("## Per-family recall")
     A("")
-    perfect = [r for r in recall if r["recall"] == "1.000"]
-    missed = [r for r in recall if r["recall"] != "1.000"]
-    A(f"{len(perfect)}/{len(recall)} families in the panel were called "
-      f"correctly for every member.")
+    pos = [r for r in recall if r.get("panel_role", "positive") == "positive"]
+    dec = [r for r in recall if r.get("panel_role") == "decoy"]
+    perfect = [r for r in pos if r["recall"] == "1.000"]
+    missed = [r for r in pos if r["recall"] != "1.000"]
+    A(f"{len(perfect)}/{len(pos)} **positive** families were called correctly "
+      f"for every member. The {len(dec)} decoy families are scored by "
+      f"specificity, not recall — a decoy left `unassigned` is a success, and "
+      f"listing it as a recall failure would invert the result.")
     A("")
     if missed:
-        A("**Families the classifier did not call correctly:**")
+        A("**Positive families the classifier did not call correctly:**")
         A("")
         A(table(["family", "n", "correct", "recall", "called instead"],
                 [[r["family"], r["n"], r["correct"], r["recall"],
                   r["mis_calls"] or "—"] for r in missed]))
+        A("")
+    if dec:
+        wrong_dec = [r for r in dec if r["mis_calls"] and
+                     "unassigned" not in r["mis_calls"]]
+        A(f"**Decoys:** {len(dec)} families; "
+          f"{len(dec) - len(wrong_dec)} were left unassigned or called as "
+          f"themselves, {len(wrong_dec)} were called as something else.")
+        if wrong_dec:
+            A("")
+            A(table(["decoy family", "called instead"],
+                    [[r["family"], r["mis_calls"]] for r in wrong_dec]))
         A("")
     A("Full table: `recall.tsv`.")
     A("")

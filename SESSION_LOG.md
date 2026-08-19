@@ -89,8 +89,75 @@ Exemplars carrying a verified accession: **94 → 112** of 162.
 | `src/gui/tools.py` was 549 lines, over the project's 500-line rule | split at the seam between the core pipeline and the one-off investigations → `tools_extra.py:ToolsExtraActions`, and a **Classify selected row** action added to the Analysis menu |
 | Nothing checked the invariants offline | `scripts/selftest.py` — catalogue validation, every hazard rule fired against a synthetic architecture, symbol-blindness, the motif regex, the alignment helpers, the D27 refusal, scope derivation. Wired into the session protocol as step 4 |
 
+### What the S1 benchmark found — including a bug in the method it inherited
+The first full run (97 proteins, 910 s) returned recall 48/72 and specificity
+24/25, and three of its errors were not classifier mistakes but a broken
+metric:
+
+| call | what it looked like |
+|---|---|
+| GJB2 (connexin-26, 226 aa) → `ryr` | "nearest Hs_RYR2 at 61.3 %" |
+| GRIN1 → `viroporin` | "nearest SARS2_E at 50.9 %" |
+| GABRA1 → ambiguous with `ryr` | "nearest Hs_RYR2 at 46.8 %" |
+
+A 226-residue connexin is not 61 % identical to a 4,967-residue ryanodine
+receptor. **Covered-only identity had no coverage floor**: MAFFT places the
+short sequence inside the long one, the 225 covered columns are by
+construction the best-matching 225 of ~5,000, and the metric scores exactly
+those. Measured: connexin-26 scored 61.3 % to RYR2 and **49.8 % to
+connexin-43, its actual relative**.
+
+Coverage of the shorter sequence does not catch this (0.996). Coverage of
+the longer does — 0.045 against 0.589 — so `alignment_stats()` now returns
+both, `reference.MIN_COVERAGE = 0.30` enforces the floor on the longer, the
+number of dropped hits is reported with every call, and `selftest.py` locks
+the asymmetry in. This is **decision D30**, and it is the clearest thing the
+benchmark bought: the metric was inherited from a project whose sequences
+were one family and all the same size.
+
+Also fixed: the recall table mixed positives with decoys, so a decoy
+correctly left `unassigned` read as a recall failure. `recall_table()` now
+carries a `panel_role` column and the report scores the two separately.
+
+The benchmark was then re-run with the floor in place.
+
+### The literature review
+Added after the benchmark, on the same rule as everything else here: no
+claim without a check.
+
+- `scripts/review_sources.py` — 148 `(key, title)` entries. **Titles, not
+  citations.**
+- `scripts/s0_review_refs.py` — resolves each against Europe PMC, accepting a
+  record only when its title is ≥ 90 % similar to the one requested, and
+  writes `results/s0_baseline/references.tsv` with the returned PMID, DOI,
+  year, journal and authors. **148/148 resolved**, after the check caught
+  seven failures: five short generic titles that needed an author/year
+  constraint to rank, and two I had misremembered — the Cav1.1 paper is
+  *Structure of the voltage-gated calcium channel Cav1.1 complex* (Science
+  2015, not a 2016 Nature paper at 3.6 Å), and the Moran review is
+  *…at the emergence of Metazoa*, not "of Nervous Systems".
+- `scripts/s0_review_build.py` — assembles `docs/channel_review_2026.md`
+  from `docs/review/*.md`, renumbers citations into order of first
+  appearance, renders the bibliography, and **refuses to write the document
+  if any cited key has no verified reference**. `--pdf` typesets via pandoc
+  + xelatex.
+- Result: 16 sections, 8,424 words, 148 references, 0 unused. §12 reports
+  this project's own S0 measurements rather than literature, and §15 states
+  what the mechanical checks do *not* verify — that a paper exists with the
+  title cited is not that it says what the citing sentence claims.
+
+### S1 results (final run)
+Recall **50/72 (69.4 %)**, specificity **25/25 (100 %)**, 16/16 hazards
+exercised, 866 s. Per-tier: 17 hazard + 12 architecture + 7 motif + 24
+reference. Three fixes went in between the first run and this one — the D30
+coverage floor, the superfamily-scoped reference search, and the prefilter
+length rule — and the first of them turned a false positive into a correct
+rejection.
+
 ### Next session
-**S1** — the classifier control benchmark. Read
+**S2** — the uncapped enumeration. Read
+`results/benchmark_controls/report.md` first; the three findings it hands S2
+are in the roadmap's next-session note. Read
 `results/s0_baseline/report.md` first. Do not skip: `verify_anchor()` before
 reporting any filter result; the per-tier attribution table; the list of
 hazards no panel member exercises.

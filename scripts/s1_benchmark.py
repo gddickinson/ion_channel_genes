@@ -150,9 +150,11 @@ def main() -> int:
     write_tsv(out / "calls.tsv", CALLS_HEADER, calls_table(calls, expected))
     write_tsv(out / "confusion.tsv", ("expected", "called", "n"),
               confusion_table(calls, expected))
+    positive_accs = {c.query for c in calls if alias.get(c.query) in positives}
     write_tsv(out / "recall.tsv",
-              ("family", "name", "n", "correct", "recall", "decisive_tiers",
-               "confidence", "mis_calls"), recall_table(calls, expected))
+              ("family", "panel_role", "name", "n", "correct", "recall",
+               "decisive_tiers", "confidence", "mis_calls"),
+              recall_table(calls, expected, positive_accs))
     write_tsv(out / "hazards.tsv",
               ("hazard", "severity", "families", "n_touched", "n_correct",
                "n_wrong", "wrong_examples", "test_owner", "discriminator"),

@@ -101,14 +101,55 @@ def project_positions(aligned_ref: str, aligned_query: str,
     return out
 
 
+def alignment_stats(a: str, b: str) -> tuple[float, float, float, int]:
+    """`(covered identity, coverage of the shorter seq, of the longer, columns)`.
+
+    **Coverage is not optional.** Covered-only identity — scoring only the
+    columns where both sequences have a residue — is the right metric for
+    comparing proteins of unequal length, and on its own it is dangerous:
+    the fewer columns two sequences share, the more the score is dominated
+    by whichever residues the aligner happened to match.
+
+    Measured in S1: human connexin-26 (226 aa) scored **61.3 % identity to
+    ryanodine receptor 2 (4,967 aa)** — higher than its 49.8 % to its own
+    relative connexin-43 — and GluN1 scored 50.9 % to the SARS-CoV-2
+    envelope protein. The mechanism is cherry-picking: an aligner placing
+    226 residues inside 4,967 chooses the 226 best-matching positions, and
+    covered-only identity then scores exactly those. The parent project
+    never met this because its sequences were one family and all the same
+    size; a catalogue with a 40× length range meets it immediately.
+
+    Coverage of the *shorter* sequence does not catch it (0.996 in the
+    connexin case). **Coverage of the longer one does** — 225 covered
+    columns out of 4,967 is 4.5 %, against 59 % for the true relative — so
+    both are returned and `src/classify/reference.py:MIN_COVERAGE` enforces
+    the floor on the longer.
+    """
+    same = covered = 0
+    len_a = len_b = 0
+    for ca, cb in zip(a, b):
+        ga, gb = ca == "-", cb == "-"
+        if not ga:
+            len_a += 1
+        if not gb:
+            len_b += 1
+        if ga or gb:
+            continue
+        covered += 1
+        if ca == cb:
+            same += 1
+    shorter = min(len_a, len_b) or 1
+    longer = max(len_a, len_b) or 1
+    ident = (same / covered) if covered else 0.0
+    return ident, covered / shorter, covered / longer, covered
+
+
 def percent_identity(a: str, b: str, covered_only: bool = True) -> float:
     """Identity between two aligned strings.
 
-    `covered_only=True` scores over mutually covered columns only, which is
-    what the parent project measured to be the right default: full-alignment
-    identity dilutes every comparison between proteins of unequal length, and
-    ion channels differ in length by an order of magnitude within a single
-    superfamily (`MscL` 136 aa, `RYR1` 5,038 aa).
+    `covered_only=True` scores over mutually covered columns only. Prefer
+    `alignment_stats()`, which also returns the coverage the number rests on
+    — see the warning there.
     """
     same = cols = 0
     for ca, cb in zip(a, b):
