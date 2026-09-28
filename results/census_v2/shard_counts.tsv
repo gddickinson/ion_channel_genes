@@ -1,0 +1,14 @@
+shard	clause	uniprot_count	fetched	status
+bact_pseudomonadota	(taxonomy_id:2) AND (taxonomy_id:1224)	213842	213842	ok
+bact_other	(taxonomy_id:2) NOT (taxonomy_id:1224)	229741	229741	ok
+archaea	(taxonomy_id:2157)	10281	10281	ok
+virus	(taxonomy_id:10239)	177	177	ok
+mammalia	(taxonomy_id:40674)	106776	106776	ok
+actinopterygii	(taxonomy_id:7898)	164799	164799	ok
+chordata_other	(taxonomy_id:7711) NOT (taxonomy_id:40674) NOT (taxonomy_id:7898)	165576	165576	ok
+metazoa_other	(taxonomy_id:33208) NOT (taxonomy_id:7711)	194499	194499	ok
+viridiplantae	(taxonomy_id:33090)	74728	74728	ok
+fungi	(taxonomy_id:4751)	48186	48186	ok
+euk_other	(taxonomy_id:2759) NOT (taxonomy_id:33208) NOT (taxonomy_id:33090) NOT (taxonomy_id:4751)	36307	36307	ok
+unplaced	NOT (taxonomy_id:2) NOT (taxonomy_id:2157) NOT (taxonomy_id:2759) NOT (taxonomy_id:10239)	288	288	ok
+UNION	any pore signature	1245200	1245200	ok

@@ -188,3 +188,58 @@ same.
 *(pending: S2 — whether these recall figures hold when the panel is the whole
 census rather than one member per family, and S3 — whether profile methods
 recover the families sequence identity cannot.)*
+
+---
+
+## S2 — the census, uncapped (2026-09-28)
+
+**Just over 1.2 million proteins in UniProt carry some recognisable piece of
+an ion channel, and the number is exact.** Every one of the 1,245,200 was
+fetched and counted. The query was split by taxonomy into pieces that must
+add back up to the whole, and they do to the last protein. Each of the 67
+domain signatures matches UniProt's own count for it.
+
+**The signature union finds essentially every human channel.** 319 of the
+320 human pore-forming genes are enumerated (GLRA4 is the exception). That
+matters because the obvious shortcut would have silently dropped most of the
+TRP channels, whose pores Pfam models under other names. Searching by the
+Ion_trans pore model (`PF00520`) alone is that shortcut.
+
+**Domain composition plus the selectivity filter names the family for about
+a quarter of the census, and almost never names the wrong one.** 346,627
+records get a family call without any nearest-neighbour comparison. 31,366
+of those come from reading the four residues of the selectivity filter:
+EEEE and EEDD for calcium channels, DEKA for sodium channels, EEKE for
+NALCN. Among the 320 human genes the classifier is wrong exactly once
+(ZACN, a known failure of the AChBP rule). Where it cannot decide, it stops
+at the superfamily rather than guessing.
+
+**Where it stops is where the biology says it should.** The ties are between
+families that carry identical domains: the Kv1 channels and the silent Kv
+modifiers, ASIC, ENaC and the invertebrate DEG channels, anoctamin channels
+and anoctamin scramblases, and metazoan and non-metazoan P2X. Also every
+Cys-loop and glutamate receptor, whose families all share the same two
+domains. Telling these apart needs profile methods *(pending: S3)*.
+
+**Much of the "unassigned" 40 % is not channels at all, and that is a
+finding about domain databases.** Three signatures the catalogue uses to
+recognise channels sit mostly on other proteins. The cyclic-nucleotide
+binding domain of HCN and CNG channels is carried by 148,000 proteins with
+no channel domain, mostly bacterial transcription regulators. The PAS domain
+of hERG is on 112,000 sensor proteins. The binding-protein domain of the
+bacterial glutamate receptor GluR0 is on 116,000 periplasmic transporters.
+A channel's accessory domains are a poor handle on the channel.
+
+**Some channel families are more varied than their textbook architecture.**
+65,506 bacterial and archaeal proteins carry the core MscS mechanosensitive
+channel domain but not the full three-domain set the catalogue declares. The
+same partial architectures turn up in OSCA, TRPM, Piezo, Slo and RyR. How
+many of these are working channels is open *(pending: rule revision
+benchmarked on S1, then S3)*.
+
+**Channels turn up where the catalogue expected them, plus a few surprises
+to check.** MscL and MscS are overwhelmingly bacterial; TMEM175 is mostly
+bacterial with a eukaryotic minority; K2P, Cav, Nav and Kir are eukaryotic.
+39 viral records reach the P-loop superfamily; that they are Kcv-type K⁺ channels is expected but unchecked *(pending: S21)*. About a thousand eukaryotic
+MscL records and 51 bacterial Kir records are unexpected and need checking
+*(pending: S21)*.

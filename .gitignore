@@ -43,3 +43,4 @@ results/**/foldseek_db/
 /2ML.*
 /2NG.*
 /lnf
+results/session_live.json

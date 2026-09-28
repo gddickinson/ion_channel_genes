@@ -113,25 +113,23 @@ Claude: follow this protocol in every session that touches this project.
 Statuses: `pending` / `in_progress` / `completed YYYY-MM-DD`.
 Full step-by-step briefs: `docs/session_briefs.md`.
 
-> **Next session: S2.** S0 and S1 are complete. Read
-> `results/benchmark_controls/report.md` before S2 — it changes how the
-> census must be run.
+> **Next session: S3.** S0, S1 and S2 are complete. Read
+> `results/census_v2/report.md` before S3. S2's census is exact on
+> enumeration (1,245,200 records, every count reconciled) and deliberately
+> honest on calls: 27.8 % family, 32.0 % superfamily-only, 40.2 %
+> unassigned, with the reference tier not run (D31).
 >
-> **Three S1 results S2 depends on.** (1) **Enumerate from the union of pore
-> models, never from `PF00520`** — most TRP families carry no copy of it, so
-> the obvious enumeration silently loses the division. (2) **The reference
-> tier does not scale**: ~9 s per protein against a 162-sequence panel means
-> ~40 hours for a 5,000-protein census, so S2 needs a calibrated fast
-> identity estimate or profile assignment, and whatever replaces it must
-> keep the D7 margin meaning what it means now. (3) **22 of 72 positives
-> were missed**, concentrated in the Cys-loop receptors and the anoctamins —
-> families domain annotation cannot separate and identity separates only
-> weakly. Records the classifier cannot call are `unassigned` and stay in
-> the census with that label; they are not dropped.
->
-> S0's report also still lists **34 of 162 exemplar architectures differing
-> from their family's declaration** — each is either an expected
-> subfamily-level absence or a correction waiting to be made.
+> **What S2 hands S3.** (1) **The superfamily-only calls are the families
+> the catalogue declares with identical architecture** — Kv1 vs silent
+> modifiers (28,028), ASIC/ENaC/DEG (25,925), ANO channel vs scramblase
+> (13,287), P2X metazoan vs non-metazoan (8,295), and the whole Cys-loop
+> (70,846) and iGluR (56,369) superfamilies. That is S3's work: one profile
+> per family, best-profile assignment with the D7 margin. (2) **Two
+> catalogue problems inflate the unassigned 40 %** and are emergent tasks,
+> not S3's: co-domain signatures declared `FAMILY`-level, and derived rules
+> that require every declared signature. (3) The four-repeat projection
+> costs ~3.5 CPU-hours per census pass (37,393 MAFFT alignments); a
+> profile-anchored filter read (hmmalign) would make it cheap.
 >
 > **Three things S1 must not skip.** (1) `verify_anchor()` on the four-repeat
 > filter reference before any filter result is reported — a UniProt
@@ -159,7 +157,7 @@ Full step-by-step briefs: `docs/session_briefs.md`.
 |----|-------------------------|---------|--------|--------------------|
 | S0 | Catalogue verification + scope confirmation: re-derive every Pfam accession, exemplar, architecture and taxon id against live databases; build the reference panel | — | completed 2026-08-19 | Catalogue built and verified: **90 families / 25 superfamilies / 320 human census genes / 16 hazards**, `validate()` clean. **Three passes** (769 requests, 0 failures on the last); clean on the third: **115/115 Pfam accessions verified, 162/162 exemplars resolved, 52/52 taxon ids**, 162 sequences cached to `reference_panel.fasta`. **Seven catalogue corrections came out of it**, incl. hazard **H16** rewritten (Kir carries *no* `PF07885` — it is two models, not one at two copy numbers), **H2** amended (three measured false negatives: ZACN, GLIC, ELIC — the Cys-loop outgroup fails its own superfamily's rule), **H9** amended (`PF16799` is absent from *Ciona* Hv1, so the Hv1 test is mammal-only), and `iglur_prok` corrected — GluR0's measured architecture is `PF07885` + `PF00497`, a **potassium-channel pore plus a bacterial binding domain**. Measured: `PF00520` spans 20 families incl. a phosphatase (H9); TRPC3/TRPM8/MCOLN1/PKD2 carry **no** `PF00520` (H7); ANO1 ≡ ANO6 (H6); CFTR ≡ ABCC8 minus `PF14396` (H11); KCTD1 carries the Kv T1 domain (H12). Four-repeat filter projection **6/6** correct. → `results/s0_baseline/report.md` |
 | S1 | Classifier control benchmark: positives from every census family, one decoy per hazard; per-family recall, per-hazard specificity, per-tier attribution | S0 | completed 2026-08-19 | **Recall 50/72 (69.4 %); specificity 25/25 (100 %); 16/16 hazards exercised.** 97 proteins classified leave-one-out (**93 of them are catalogue exemplars** → D29) in 866 s. **Per-tier attribution — the headline: 29 calls from architecture/hazard rules and 7 from the filter motif, against 24 from reference identity**, so the classifier is not a nearest-neighbour lookup. **The benchmark found a bug in the inherited identity metric**: covered-only identity without a coverage floor scored connexin-26 at 61.3 % to RYR2 and 49.8 % to connexin-43, and called it a ryanodine receptor. Fixed by requiring 30 % coverage of the longer sequence (**D30**); specificity 24/25 → 25/25. Recall failures concentrate where domain annotation genuinely cannot separate families — the Cys-loop receptors (same two accessions, 35–40 % mutual identity) and ANO1 vs ANO6 (identical architecture) — which is S3's problem, not a tuning problem. → `results/benchmark_controls/report.md` |
-| S2 | Uncapped InterPro enumeration of every pore signature → census v2, with a positive family call on every record | S1 | pending | |
+| S2 | Uncapped InterPro enumeration of every pore signature → census v2, with a positive family call on every record | S1 | completed 2026-09-28 | **1,245,200 UniProtKB records** (2026_03) carry ≥ 1 of the 67 pore signatures; enumeration exact on every check — **12/12 taxonomic shards, the union and 67/67 signatures fetched == UniProt's own count**, shards sum to the union, 0 duplicates; InterPro counts reported alongside (largest gap `PF00520` +1,213, release cycles) (**D31**). Calls: **346,627 family (27.8 %)** — 281,007 to channel families — **398,282 superfamily-only (32.0 %)**, **500,291 unassigned (40.2 %)**. **Every family call made without the reference tier**: 315,261 architecture/hazard + 31,366 filter motif (37,393 four-repeat records projected; EEEE 13,966 · DEKA 10,744 · EEDD 5,298 · EEKE 1,358). **Human: 319/320 census genes enumerated** (only GLRA4 missing) — the H7 fix works — and **173/320 called to the right family**; 141 stop at the superfamily, 4 unassigned, **1 wrong family (ZACN → AChBP, the known H2 failure)**. **S1 panel: 71/71 channel-family members enumerated; 0/26 non-channel members called to a channel family.** The unassigned 40 % is mostly **three co-domain signatures carried by non-channels** — cNMP_binding 148,190 solo, SBP_bac_3 115,927, PAS_9 111,788 — and **derived rules requiring a family's full declared architecture** (MscS 65,506 partial). Bulk census (TSV 28.6 MB + FASTA 289 MB, SHA-256 in manifest) on the data root. → `results/census_v2/report.md` |
 | S3 | Profile-HMM sweep (one HMM per family, best-profile assignment) over reference proteomes + jackhmmer-to-convergence completeness argument → census v3 | S1, S2 | pending | |
 | S4 | Proteome scope: declared reference-proteome manifest across the lineage panel (the denominator) + download tooling | S1 | pending | |
 | S5 | Genomic tblastn + miniprot sweep for families the proteomes miss → per-lineage ledger (found / lost / assembly-gap) → census v4 | S4 | pending | |
@@ -213,6 +211,11 @@ than expanding the task in progress.
 | 2026-08-19 | S1 | **The reference tier does not scale to a census.** Measured on the S1 run: ~2.5 s per MAFFT pairwise alignment × up to 12 prefiltered candidates ≈ 30 s per protein, so the 97-protein panel takes ~45 min and a 5,000-protein census would take ~40 hours. S2 needs either a calibrated fast identity estimate (DIAMOND or BLAST, checked against MAFFT on the S1 panel so the D7 margin keeps its meaning) or a profile-based assignment that skips pairwise scoring entirely. **This is a scaling result, not a bug** — the tier is correct and slow, and the fix must not change what the margin means | open (S2/S3) |
 | 2026-08-19 | setup | **The phylogeny pipeline was smoke-tested on the Cys-loop superfamily** (8 exemplars, MAFFT → trimAl → IQ-TREE 2 with 1000 UFBoot, rooted on GLIC/ELIC, 52 s) and returned the expected topology: anion- and cation-selective receptors separate at 100 %, AChBP sisters the cationic clade. `results/phylogeny/tier2_cysloop/`. **This is not S8's tree** — eight sequences, exemplars only — and must not be cited as one | closed 2026-08-19 |
 | 2026-08-19 | S0 | **`PF00005` (ABC_tran) has 1.66 million UniProt proteins and `PF00520` has 206,115.** The census search space is dominated by two accessions that are mostly not channels. S2 needs a per-signature triage rule before it enumerates, or it will fetch a million transporters to find one CFTR | open (S2) |
+| 2026-09-28 | S2 | **Three pore-union signatures are co-domains that mostly sit on non-channels.** Measured as the only pore signature on unassigned records: `PF00027` cNMP_binding **148,190**, `PF00497` SBP_bac_3 **115,927**, `PF13426` PAS_9 **111,788** — CRP-type regulators, periplasmic binding proteins and PAS sensors. They are declared `FAMILY`-level for kv_eag/HCN/CNG and iglur_prok, so `pore_signatures()` enumerates from them. Re-level to `ACCESSORY` (or add a pore-module requirement to those families' rules), re-run S1, and the ~376,000 records these three bring in alone leave the census space: 869,000 records remain, of which ~124,000 (~14 %) would still be unassigned. Check against `human_recall.tsv` that no channel is lost before adopting it. Supersedes the PF00005 triage row for S2's purposes | open |
+| 2026-09-28 | S2 | **Derived family rules require a family's *complete* declared architecture, and many real members carry part of it.** Unassigned records carrying part of exactly one family's architecture: MscS **65,506** (mostly `PF00924`±`PF21082` without `PF05552`), OSCA 4,505, TRPM 3,960, Piezo 3,939, Slo 2,243, RyR 1,503, Kir 1,081. A "core pore signature suffices" rule per family would call them; it must be benchmarked on S1 (and on a non-human panel) before adoption, not tuned on the census. `results/census_v2/partial_architectures.tsv` | open |
+| 2026-09-28 | S2 | **Four-repeat filter strings with no call.** Projected and uncalled: NEEE 1,267, DEEA 435 (the invertebrate Nav2/BSC1 calcium-selective filter, if the literature confirms), QEEE 221, DENA 164, DDDD 129, plus gapped reads. Each needs a literature-backed `FILTER_CALLS` entry or a recorded "no call" — never an inferred one. S9's atlas | open (S9) |
+| 2026-09-28 | S2 | **ZACN is still called AChBP**, now in the census (the only wrong-family call among 320 human genes). The H2 rule's premise — an LBD without an annotated TM domain is AChBP — is false for ZACN. Needs a positive AChBP test (secreted, no TM features, `tm_count` = 0) rather than absence of `PF02932` | open |
+| 2026-09-28 | S2 | **`results/session_live.json` is untracked scratch** written by every driver. Gitignored this session | closed 2026-09-28 |
 
 ---
 
@@ -328,6 +331,27 @@ identity to themselves and measures nothing. `classify(...,
 leave_one_out=True)` drops the query's own accession, and the overlap is
 reported in `summary.json` rather than quietly handled. Any future panel
 built from the catalogue inherits this rule.
+
+**D31 — Census enumeration walks UniProtKB, sharded by taxonomy; InterPro
+is the independent count.** S2's brief named InterPro's per-signature
+listing, but that listing returns only the queried entry, and the
+architecture tier needs each protein's *complete* Pfam list with copy
+numbers — the rules consult 19 accessions outside the pore union (forbid
+lists, subfamily markers) and `min_copies` needs `PF00520`×4. UniProt's JSON
+carries every Pfam cross-reference with its `MatchStatus` copy count, the
+transmembrane features and the sequence in one record. The union query
+(1,245,200 records, release 2026_03) is cut into taxonomic shards whose
+counts are checked to sum to the union before any walk starts, each shard
+is cursor-walked to UniProt's own count, and per-signature membership is
+checked against UniProt's count for that signature alone; InterPro's count
+is reported alongside with the difference (the two are on different release
+cycles — `PF00520`: 207,571 vs 206,358). **At census scale the tiers run
+selectively, and say so on every row**: architecture, hazard and K⁺-regex on
+every record; the four-repeat MAFFT projection only where `PF00520` ≥ 4 (the
+H1 trigger, the only architecture where the filter can change the call);
+the reference tier **not at all** (~30 s/protein × 1.25 M ≈ 10,000
+CPU-hours) — per D28 a missing result with `reference_tier = not_run`, not a
+weaker substitute. S3's profile assignment is the replacement.
 
 **D28 — A missing tool disables a test, loudly.** `MafftUnavailable` is
 raised, not caught; a missing IQ-TREE writes the alignment and no tree, with

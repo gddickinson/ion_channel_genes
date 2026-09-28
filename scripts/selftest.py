@@ -144,6 +144,26 @@ check_true("the whole-channelome scope enumerates more than PF00520",
            len(allsc.pfam_ids) > 1 and "PF00520" in allsc.pfam_ids,
            allsc.pfam_ids[:5])
 
+# ------------------------------------------------------- census parsing (S2)
+print("\ncensus parsing — D31")
+from scripts.s2_lib import SHARDS, parse_record, pfam_dict   # noqa: E402
+_rec = parse_record({
+    "entryType": "UniProtKB reviewed (Swiss-Prot)", "primaryAccession": "Q14524",
+    "organism": {"taxonId": 9606, "scientificName": "Homo sapiens",
+                 "lineage": ["Eukaryota", "Metazoa", "Chordata"]},
+    "features": [{"type": "Transmembrane"}] * 24 + [{"type": "Domain"}],
+    "uniProtKBCrossReferences": [
+        {"database": "Pfam", "id": "PF00520",
+         "properties": [{"key": "MatchStatus", "value": "4"}]},
+        {"database": "PDB", "id": "6UZ3", "properties": []},
+        {"database": "Pfam", "id": "PF06512",
+         "properties": [{"key": "MatchStatus", "value": "1"}]}],
+    "sequence": {"value": "MANF"}})
+check("UniProt MatchStatus is read as a copy number",
+      pfam_dict(_rec["pfam"]), {"PF00520": 4, "PF06512": 1})
+check("only Transmembrane features are counted", _rec["tm_count"], 24)
+check("census shard keys are unique", len({k for k, _ in SHARDS}), len(SHARDS))
+
 print()
 if FAILURES:
     print(f"{len(FAILURES)} invariant(s) FAILED: {', '.join(FAILURES)}")

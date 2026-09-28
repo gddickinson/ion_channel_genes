@@ -28,7 +28,7 @@
 | `requirements.txt` | `requests` (required), `biopython` + `matplotlib` (search / analysis / figures only). |
 | `presets/` | `channelome_human` (all 320 census genes), `controls_benchmark` (the S1 panel: positives + one decoy per hazard), `ploop_domain_scan`, `channelome_all` (exhaustive mode), and the scoped surveys `kv_survey`, `cysloop_survey`, `intracellular_survey`, `channel_discovery`. |
 | `cache/` | On-disk JSON cache (auto-created, gitignored). |
-| `results/` | Committed analysis output, one directory per task. `s0_baseline/` holds the catalogue verification and `reference_panel.fasta`; `benchmark_controls/` holds the S1 benchmark; `phylogeny/` holds one directory per tree with its alignment, trimmed alignment, treefile and `run.json` command record. |
+| `results/` | Committed analysis output, one directory per task. `s0_baseline/` holds the catalogue verification and `reference_panel.fasta`; `benchmark_controls/` holds the S1 benchmark; `census_v2/` holds S2's census tables (the census itself is on the data root); `phylogeny/` holds one directory per tree with its alignment, trimmed alignment, treefile and `run.json` command record. |
 | `manuscript/` | The submission package, built by `scripts/s14_assemble.py`. |
 
 ---
@@ -163,6 +163,11 @@ operation and cannot be gated on an optional dependency.
 | `s1_toolchain.py` | **S1 step 1** — probes every external binary and Python package, writes `results/toolchain_manifest.txt`. |
 | `s1_benchmark.py` | **S1 driver** — verifies the filter anchor, loads the reference panel, classifies the control panel, writes recall / confusion / hazard / coverage tables. |
 | `s1_report.py` | **S1** — renders `results/benchmark_controls/report.md` from those tables, including the per-tier attribution and the untested-hazard list. |
+| `s2_lib.py` | **S2** shared pieces: the taxonomic `SHARDS` that partition the census query, `union_clause()` (from `pore_signatures()`), strict backoff `get()`, `uniprot_count()` / `interpro_count()`, `parse_record()` (UniProt JSON → flat row with every Pfam and its `MatchStatus` copy count, TM-feature count, sequence), `pfam_dict()`, `iter_pages()`. Bulk output to `<data root>/raw_api/s2/` (D31). |
+| `s2_enumerate.py` | **S2 step 1** — `counts` (partition check + per-signature UniProt and InterPro counts), `walk` (resumable parallel cursor walk, raw pages archived gzipped), `verify` (fetched == count per shard, union and signature). |
+| `s2_classify.py` | **S2 step 2** — `classify()` on every record from its UniProt evidence; architecture + K⁺ regex everywhere, four-repeat projection only where `PF00520` ≥ 4, reference tier `not_run`. One gzipped call file per shard; resumes by shard. |
+| `s2_census.py` | **S2 step 3** — assembles `census_v2.tsv.gz` + `census_v2.fasta.gz` on the data root (SHA-256 in `manifest.tsv`) and writes the committed tables: status, families, superfamily-only, tier attribution, four-repeat filters, unassigned signatures, partial architectures, human recall, S1-panel comparison. |
+| `s2_report.py` | **S2** — renders `results/census_v2/report.md` from those tables (D13). |
 | `s14_lib.py`, `s14_figures.py`, `s14_claims.py`, `s14_deposit.py`, `s14_pdf.py`, `s14_assemble.py` | Manuscript assembly: page geometry and figure maps; figure copying under publication numbers; **the claim checker** (every load-bearing number declared with the table and op that recovers it, D12); the deposit manifest with SHA-256s; the typeset PDF; the driver with ordered stages and non-zero exit on a failed claim. |
 | `build_findings_page.py` + `findings_page.css` | Renders `docs/findings_summary.md` to one self-contained HTML page with figures inlined as WebP data URIs. |
 

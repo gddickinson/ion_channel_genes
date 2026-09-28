@@ -185,3 +185,41 @@ are in the roadmap's next-session note. Read
 `results/s0_baseline/report.md` first. Do not skip: `verify_anchor()` before
 reporting any filter result; the per-tier attribution table; the list of
 hazards no panel member exercises.
+
+---
+
+## 2026-09-28 — S2: census v2 (uncapped enumeration + a call on every record)
+
+**Ran.** `s2_enumerate.py counts` → `walk -j 6` → `verify`; `s2_classify.py`
+(12 shards, up to 9 workers); `s2_census.py`; `s2_report.py`. External drive
+attached throughout (671 GB free at start); raw pages 0.5 GB, census TSV
+28.6 MB + FASTA 289 MB, all under `<data root>/raw_api/s2/`.
+
+**Decided (D31).** Enumerate from UniProtKB rather than InterPro's
+per-signature listing: the rules consult 19 accessions outside the pore union
+and need copy numbers, and only UniProt's record carries the whole Pfam list
+with `MatchStatus` counts. InterPro's count is fetched per signature as the
+independent check. The union query is cut into taxonomic shards that must sum
+to the union count. Reference tier not run at census scale (`not_run` on every
+row, D28); four-repeat projection gated on `PF00520` ≥ 4 (the H1 trigger).
+
+**Result.** 1,245,200 records; every completeness check exact (12/12 shards,
+union, 67/67 signatures). Family calls 346,627 (27.8 %), superfamily-only
+398,282 (32.0 %), unassigned 500,291 (40.2 %). Human census genes 319/320
+enumerated, 173/320 right family, 1 wrong (ZACN). S1 panel: 71/71 channel
+members enumerated, 0/26 non-channel members called channel.
+
+**Operational notes.** The chordate shard was re-split mid-walk into
+Mammalia / Actinopterygii / other (resume by cursor is safe: a page file is
+written before its cursor). The four-repeat projection dominates runtime:
+37,393 MAFFT alignments ≈ 3.5 CPU-hours; everything else classifies 1.2 M
+records in about a minute. The call files lack the gene column (the
+classifier never reads it); `s2_census.py` joins it back for scoring.
+
+**Emergent.** Co-domain signatures (cNMP, SBP_bac_3, PAS_9) bring in ~376 k
+non-channels; derived rules demand full architectures (MscS 65,506 partial);
+uncalled four-repeat filters (NEEE, DEEA, …); ZACN → AChBP persists.
+
+### Next session
+**S3** — profile-HMM sweep. Read `results/census_v2/report.md` first; the
+superfamily-only table is S3's worklist.

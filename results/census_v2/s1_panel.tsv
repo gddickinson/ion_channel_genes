@@ -1,0 +1,98 @@
+accession	gene	expected_family	s1_family	s2_family	s2_status	s2_decisive_tier	s1_correct	s2_correct
+Q09470	KCNA1	kv_shaker	kv_shaker		superfamily_only		yes	no
+Q14721	KCNB1	kv_shaker	kv_modifier	kv_shaker	channel	architecture	no	yes
+Q9BQ31	KCNS3	kv_modifier			superfamily_only		no	no
+P51787	KCNQ1	kv_kcnq	kv_kcnq	kv_kcnq	channel	architecture	yes	yes
+Q12809	KCNH2	kv_eag	kv_eag	kv_eag	channel	architecture	yes	yes
+Q12791	KCNMA1	kca_slo	kca_slo	kca_slo	channel	architecture	yes	yes
+Q5JUK3	KCNT1	kca_slo	kca_slo	kca_slo	channel	architecture	yes	yes
+Q9H2S1	KCNN2	kca_sk	kca_sk	kca_sk	channel	architecture	yes	yes
+P63252	KCNJ2	kir	kir	kir	channel	hazard	yes	yes
+Q14654	KCNJ11	kir	kir	kir	channel	hazard	yes	yes
+O95069	KCNK2	k2p	k2p	k2p	channel	hazard	yes	yes
+O14649	KCNK3	k2p	k2p	k2p	channel	hazard	yes	yes
+Q14524	SCN5A	nav	nav	nav	channel	motif	yes	yes
+P35498	SCN1A	nav	nav	nav	channel	motif	yes	yes
+Q9UI33	SCN11A	nav	nav	nav	channel	motif	yes	yes
+Q13936	CACNA1C	cav	cav	cav	channel	motif	yes	yes
+Q13698	CACNA1S	cav	cav	cav	channel	motif	yes	yes
+O43497	CACNA1G	cav	cav	cav	channel	motif	yes	yes
+Q8IZF0	NALCN	nalcn	nalcn	nalcn	channel	motif	yes	yes
+Q8NEC5	CATSPER1	catsper			superfamily_only		no	no
+Q9ULQ1	TPCN1	tpc			superfamily_only		no	no
+P29973	CNGA1	cng	cng	cng	channel	architecture	yes	yes
+O60741	HCN1	hcn	hcn	hcn	channel	architecture	yes	yes
+Q9Y3Q4	HCN4	hcn	hcn	hcn	channel	architecture	yes	yes
+Q13507	TRPC3	trpc	trpc	trpc	channel	architecture	yes	yes
+Q8NER1	TRPV1	trpv			superfamily_only		no	no
+Q9NQA5	TRPV5	trpv			superfamily_only		no	no
+Q7Z2W7	TRPM8	trpm	trpm		unassigned		yes	no
+O94759	TRPM2	trpm	trpm		superfamily_only		yes	no
+O75762	TRPA1	trpa			superfamily_only		no	no
+Q9GZU1	MCOLN1	trpml	trpml	trpml	channel	hazard	yes	yes
+Q13563	PKD2	trpp	trpp	trpp	channel	hazard	yes	yes
+P02708	CHRNA1	nachr	nachr		superfamily_only		yes	no
+P36544	CHRNA7	nachr			superfamily_only		no	no
+P14867	GABRA1	gabaa			superfamily_only		no	no
+P28472	GABRB3	gabaa			superfamily_only		no	no
+P23415	GLRA1	glyr			superfamily_only		no	no
+P46098	HTR3A	ht3			superfamily_only		no	no
+Q401N2	ZACN	zac	nonchannel_achbp	nonchannel_achbp	non_channel_homolog	hazard	no	no
+P42261	GRIA1	ampa	ampa		superfamily_only		yes	no
+P39086	GRIK1	kainate			superfamily_only		no	no
+Q05586	GRIN1	nmda			superfamily_only		no	no
+O43424	GRID2	delta_glur			superfamily_only		no	no
+Q99572	P2RX7	p2x			superfamily_only		no	no
+Q9UBL9	P2RX2	p2x	p2x		superfamily_only		yes	no
+P37088	SCNN1A	enac			superfamily_only		no	no
+P78348	ASIC1	asic			superfamily_only		no	no
+P35523	CLCN1	clc_channel	clc_channel		superfamily_only		yes	no
+P51798	CLCN7	clc_transporter			superfamily_only		no	no
+Q5XXA6	ANO1	ano_channel	ano_channel		superfamily_only		yes	no
+Q4KMQ2	ANO6	ano_scramblase	ano_channel		superfamily_only		no	no
+O76090	BEST1	bestrophin	bestrophin	bestrophin	channel	architecture	yes	yes
+P13569	CFTR	cftr	cftr	cftr	channel	hazard	yes	yes
+Q9H313	TTYH1	tweety	tweety	tweety	channel_contested	architecture	yes	yes
+O94886	TMEM63A	osca_tmem63	osca_tmem63	osca_tmem63	channel	architecture	yes	yes
+Q8TDI8	TMC1	tmc	tmc	tmc	channel_contested	architecture	yes	yes
+Q92508	PIEZO1	piezo	piezo	piezo	channel	architecture	yes	yes
+P17302	GJA1	connexin	connexin	connexin	channel	architecture	yes	yes
+P29033	GJB2	connexin	connexin	connexin	channel	architecture	yes	yes
+Q96RD7	PANX1	pannexin			superfamily_only		no	no
+Q8IWT6	LRRC8A	lrrc8	lrrc8	lrrc8	channel	architecture	yes	yes
+Q8IU99	CALHM1	calhm	calhm	calhm	channel	architecture	yes	yes
+Q14643	ITPR1	itpr	itpr	itpr	channel	hazard	yes	yes
+P21817	RYR1	ryr	ryr	ryr	channel	hazard	yes	yes
+Q9H6F2	TMEM38A	tric	tric	tric	channel	architecture	yes	yes
+Q8NE86	MCU	mcu	mcu	mcu	channel	architecture	yes	yes
+P21796	VDAC1	vdac	vdac	vdac	channel	architecture	yes	yes
+Q9BSA9	TMEM175	tmem175	tmem175	tmem175	channel	architecture	yes	yes
+Q96D31	ORAI1	orai	orai	orai	channel	architecture	yes	yes
+Q96D96	HVCN1	hv1	hv1	hv1	channel	hazard	yes	yes
+Q7RTM1	OTOP1	otop	otop	otop	channel	architecture	yes	yes
+O00299	CLIC1	clic	clic	clic	channel_contested	architecture	yes	yes
+P15382	KCNE1	assoc_kcne			not_enumerated		no	no
+Q14722	KCNAB1	assoc_k_beta			not_enumerated		no	no
+Q16558	KCNMB1	assoc_k_beta			not_enumerated		no	no
+P42658	DPP6	assoc_k_beta			not_enumerated		no	no
+Q02641	CACNB1	assoc_cav_aux			not_enumerated		no	no
+P54289	CACNA2D1	assoc_cav_aux			not_enumerated		no	no
+Q9Y698	CACNG2	assoc_cav_aux			not_enumerated		no	no
+Q07699	SCN1B	assoc_nav_beta			not_enumerated		no	no
+Q09428	ABCC8	assoc_sur	assoc_sur		not_enumerated		yes	no
+Q13586	STIM1	assoc_stim			not_enumerated		no	no
+Q9BPX6	MICU1	assoc_mcu_reg			not_enumerated		no	no
+Q9H4I9	SMDT1	assoc_mcu_reg			not_enumerated		no	no
+Q8TDF5	NETO1	assoc_iglur_aux			not_enumerated		no	no
+Q9H7T0	CATSPERB	assoc_catsper_aux			not_enumerated		no	no
+Q8WZ55	BSND	assoc_clc_aux			not_enumerated		no	no
+P98161	PKD1	assoc_polycystin1			superfamily_only		no	no
+Q719H9	KCTD1	nonchannel_kctd	nonchannel_kctd	nonchannel_kctd	non_channel_homolog	hazard	yes	yes
+Q13255	GRM1	nonchannel_class_c_gpcr	nonchannel_class_c_gpcr		not_enumerated		yes	no
+Q9UBS5	GABBR1	nonchannel_class_c_gpcr	nonchannel_class_c_gpcr		not_enumerated		yes	no
+Q9Y6A1	POMT1	nonchannel_pomt	nonchannel_pomt		not_enumerated		yes	no
+P56180	TPTE	nonchannel_vsp	nonchannel_vsp	nonchannel_vsp	non_channel_homolog	hazard	yes	yes
+P57764	GSDMD	nonchannel_gasdermin			not_enumerated		no	no
+P58743	SLC26A5	transporter_slc26			not_enumerated		no	no
+P29972	AQP1	outofscope_aquaporin			not_enumerated		no	no
+P55087	AQP4	outofscope_aquaporin	outofscope_aquaporin		not_enumerated		yes	no

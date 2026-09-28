@@ -1,0 +1,18 @@
+{
+  "uniprot_release": "2026_03",
+  "records": 1245200,
+  "family_calls": 346627,
+  "family_calls_channel": 281007,
+  "superfamily_only": 398282,
+  "unassigned": 500291,
+  "family_calls_by_architecture_or_hazard": 315261,
+  "family_calls_by_motif": 31366,
+  "four_repeat_projected": 37393,
+  "human_genes": 320,
+  "human_found": 319,
+  "human_correct": 173,
+  "s1_panel": 97,
+  "s1_enumerated": 75,
+  "s1_correct_in_s1": 57,
+  "s1_correct_in_s2": 45
+}
