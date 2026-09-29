@@ -54,6 +54,7 @@ PLOOP_SUPERFAMILY = SF(
     anchor_module="S5–P-loop–S6 (the pore module, ~120 aa)",
     shared_signatures=(ION_TRANS, ION_TRANS_2),
     root_with=("kcsa_prok",),
+    module_rule="pore_loop",
     notes=("The one superfamily large enough to need its own within-superfamily "
            "tree (tier 2 of the phylogeny protocol). Full-length alignment is "
            "meaningless across it — a Nav subunit is 2,000 aa and a Kir is 400 — "

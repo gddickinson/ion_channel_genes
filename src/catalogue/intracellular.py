@@ -47,7 +47,8 @@ SUPERFAMILIES: list[SF] = [
               "division *inside* the P-loop clan structurally, but it is kept "
               "as its own superfamily because the 2,700–5,000 aa cytosolic "
               "solenoid makes full-length alignment to a 400 aa Kir "
-              "meaningless. Tier 2 aligns the pore module and says so.")),
+              "meaningless. Tier 2 aligns the pore module and says so."),
+       module_rule="pore_loop"),
     SF("tric", "Trimeric intracellular cation channels", Fold.TRIC, True,
        "full-length", (Sig("pfam", "PF05197", "TRIC", L.SUPERFAMILY, 1, P.DB),)),
     SF("mcu", "Mitochondrial calcium uniporter", Fold.MCU, True, "full-length",

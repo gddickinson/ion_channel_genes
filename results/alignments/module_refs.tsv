@@ -1,0 +1,114 @@
+family	superfamily	rule	reference	source	n_tm	n_intramem	spans	status
+kv_shaker	ploop	pore_loop	Q09470	exemplar	6	2	324-415	ok
+kv_shaker	ploop	pore_loop	Q14721	exemplar	6	2	331-420	ok
+kv_shaker	ploop	pore_loop	Q9NZV8	exemplar	6	2	322-403	ok
+kv_shaker	ploop	pore_loop	P08510	exemplar	6	2	394-485	ok
+kv_modifier	ploop	pore_loop	Q9BQ31	exemplar	6	2	322-413	ok
+kv_modifier	ploop	pore_loop	Q8TDN2	exemplar	6	1	411-492	ok
+kv_kcnq	ploop	pore_loop	P51787	exemplar	6	1	261-348	ok
+kv_kcnq	ploop	pore_loop	O43526	exemplar	6	1	228-314	ok
+kv_eag	ploop	pore_loop	Q12809	exemplar	6	1	548-659	ok
+kv_eag	ploop	pore_loop	O95259	exemplar	6	1	378-498	ok
+kca_slo	ploop	pore_loop	Q12791	exemplar	7	1	301-388	ok
+kca_slo	ploop	pore_loop	Q5JUK3	exemplar	6	1	247-338	ok
+kca_sk	ploop	pore_loop	Q9H2S1	exemplar	6	1	305-394	ok
+kca_sk	ploop	pore_loop	O15554	exemplar	6	1	207-285	ok
+kir	ploop	pore_loop	P63252	exemplar	2	2	82-178	ok
+kir	ploop	pore_loop	Q14654	exemplar	2	1	66-171	ok
+k2p	ploop	pore_loop	O95069	exemplar	4	4	58-197;225-307	ok
+k2p	ploop	pore_loop	O14649	exemplar	4	2	9-128;159-243	ok
+kcsa_prok	ploop	pore_loop	P0A334	exemplar	2	2	28-111	ok
+kcsa_prok	ploop	pore_loop	O27564	exemplar	2	2	21-95	ok
+kcsa_prok	ploop	pore_loop	Q81HW2	exemplar	2	0		no_topology
+nav	ploop	pore_loop	Q14524	exemplar	24	4	250-413;839-941;1331-1470;1651-1771	ok
+nav	ploop	pore_loop	P35498	exemplar	24	4	246-423;892-992;1346-1483;1666-1788	ok
+nav	ploop	pore_loop	A8EVM5	exemplar	5	0		no_topology
+cav	ploop	pore_loop	Q13936	exemplar	24	4	269-401;654-745;1052-1181;1410-1524	ok
+cav	ploop	pore_loop	O43497	exemplar	24	0		no_topology
+nalcn	ploop	pore_loop	Q8IZF0	exemplar	24	4	174-322;503-599;1016-1159;1332-1447	ok
+catsper	ploop	pore_loop	Q8NEC5	exemplar	6	1	582-671	ok
+catsper	ploop	pore_loop	Q96P56	exemplar	6	1	240-341	ok
+tpc	ploop	pore_loop	Q9ULQ1	exemplar	12	2	235-315;574-691	ok
+tpc	ploop	pore_loop	Q8NHX9	exemplar	12	2	219-310;581-694	ok
+tpc	ploop	pore_loop	Q94KI8	exemplar	12	2	219-303;558-672	ok
+cng	ploop	pore_loop	P29973	exemplar	7	0		no_topology
+cng	ploop	pore_loop	Q14028	exemplar	7	0		no_topology
+cng	ploop	pore_loop	A0A8I5ZN27	member	7	0		no_topology
+cng	ploop	pore_loop	E1AZ71	member	7	0		no_topology
+cng	ploop	pore_loop	P29974	member	7	0		no_topology
+cng	ploop	pore_loop	Q00195	member	7	0		no_topology
+cng	ploop	pore_loop	Q03611	member	7	0		no_topology
+cng	ploop	pore_loop	Q16280	member	7	0		no_topology
+cng	ploop	pore_loop	Q16281	member	7	0		no_topology
+cng	ploop	pore_loop	Q24278	member	6	0		no_topology
+cng	ploop	pore_loop						NO_REFERENCE
+hcn	ploop	pore_loop	O60741	exemplar	6	1	296-392	ok
+hcn	ploop	pore_loop	Q9Y3Q4	exemplar	6	1	414-517	ok
+trpc	ploop	pore_loop	Q13507	exemplar	6	0		no_topology
+trpc	ploop	pore_loop	Q9Y210	exemplar	6	0		no_topology
+trpc	ploop	pore_loop	P19334	exemplar	6	0		no_topology
+trpc	ploop	pore_loop	O35119	member	6	1		no_topology
+trpc	ploop	pore_loop	P34586	member	6	0		no_topology
+trpc	ploop	pore_loop	P48994	member	6	0		no_topology
+trpc	ploop	pore_loop	P48995	member	6	1		no_topology
+trpc	ploop	pore_loop	Q61056	member	6	1		no_topology
+trpc	ploop	pore_loop	Q61143	member	6	0		no_topology
+trpc	ploop	pore_loop	Q9HCX4	member	6	0		no_topology
+trpc	ploop	pore_loop	Q9JMI9	member	6	0		no_topology
+trpc	ploop	pore_loop						NO_REFERENCE
+trpv	ploop	pore_loop	Q8NER1	exemplar	6	1	560-683	ok
+trpv	ploop	pore_loop	Q9NQA5	exemplar	6	1	493-577	ok
+trpm	ploop	pore_loop	Q7Z2W7	exemplar	6	1	854-983	ok
+trpm	ploop	pore_loop	O94759	exemplar	6	3	930-1044	ok
+trpm	ploop	pore_loop	Q96QT4	exemplar	6	1	1000-1098	ok
+trpa	ploop	pore_loop	O75762	exemplar	6	1	863-960	ok
+trpml	ploop	pore_loop	Q9GZU1	exemplar	6	1	428-513	ok
+trpml	ploop	pore_loop	Q8IZK6	exemplar	6	1	420-502	ok
+trpp	ploop	pore_loop	Q13563	exemplar	6	1	598-675	ok
+trpp	ploop	pore_loop	Q9P0L9	exemplar	6	1	480-557	ok
+trpn	ploop	pore_loop	Q7KIQ2	exemplar	8	0		no_topology
+trpn	ploop	pore_loop	Q9GRV5	exemplar	7	0		no_topology
+trpn	ploop	pore_loop						NO_REFERENCE
+ampa	iglur	pore_loop	P42261	exemplar	3	2	537-630	ok
+ampa	iglur	pore_loop	P42262	exemplar	3	2	544-637	ok
+kainate	iglur	pore_loop	P39086	exemplar	3	0		no_topology
+kainate	iglur	pore_loop	A0A2R8QF68	member	3	1	552-660	ok
+nmda	iglur	pore_loop	Q05586	exemplar	3	1	560-648	ok
+nmda	iglur	pore_loop	Q13224	exemplar	3	1	556-647	ok
+delta_glur	iglur	pore_loop	O43424	exemplar	3	1	567-653	ok
+iglur_nonvertebrate	iglur	pore_loop	Q8GXJ4	exemplar	4	0		no_topology
+iglur_nonvertebrate	iglur	pore_loop	E9NA96	exemplar	3	0		no_topology
+iglur_nonvertebrate	iglur	pore_loop	O04660	member	4	0		no_topology
+iglur_nonvertebrate	iglur	pore_loop	O81078	member	4	0		no_topology
+iglur_nonvertebrate	iglur	pore_loop	O81776	member	4	0		no_topology
+iglur_nonvertebrate	iglur	pore_loop	Q7XJL2	member	4	0		no_topology
+iglur_nonvertebrate	iglur	pore_loop	Q7XP59	member	4	0		no_topology
+iglur_nonvertebrate	iglur	pore_loop	Q84W41	member	4	0		no_topology
+iglur_nonvertebrate	iglur	pore_loop	Q8LGN0	member	4	0		no_topology
+iglur_nonvertebrate	iglur	pore_loop	Q8LGN1	member	4	0		no_topology
+iglur_nonvertebrate	iglur	pore_loop						NO_REFERENCE
+iglur_prok	iglur	pore_loop	P73797	exemplar	2	0		no_topology
+iglur_prok	iglur	pore_loop						NO_REFERENCE
+pannexin	innexin_like	tm_span	Q96RD7	exemplar	4	0	41-287	ok
+pannexin	innexin_like	tm_span	Q96RD6	exemplar	4	0	48-315	ok
+innexin	innexin_like	tm_span	Q03412	exemplar	4	0	151-425	ok
+innexin	innexin_like	tm_span	P27716	exemplar	4	0	29-288	ok
+lrrc8	innexin_like	tm_span	Q8IWT6	exemplar	4	0	24-341	ok
+lrrc8	innexin_like	tm_span	Q6P9F7	exemplar	4	0	26-328	ok
+itpr	ca_release	pore_loop	Q14643	exemplar	6	0		no_topology
+itpr	ca_release	pore_loop	Q14571	exemplar	6	0		no_topology
+itpr	ca_release	pore_loop	Q14573	exemplar	6	0		no_topology
+itpr	ca_release	pore_loop	P11881	member	6	0		no_topology
+itpr	ca_release	pore_loop	P29993	member	6	0		no_topology
+itpr	ca_release	pore_loop	P29994	member	6	0		no_topology
+itpr	ca_release	pore_loop	P29995	member	7	0		no_topology
+itpr	ca_release	pore_loop	P70227	member	6	0		no_topology
+itpr	ca_release	pore_loop	Q63269	member	6	0		no_topology
+itpr	ca_release	pore_loop	Q9Y0A1	member	5	0		no_topology
+itpr	ca_release	pore_loop	Q9Z329	member	6	0		no_topology
+itpr	ca_release	pore_loop						NO_REFERENCE
+ryr	ca_release	pore_loop	P21817	exemplar	6	1	4837-4941	ok
+ryr	ca_release	pore_loop	Q92736	exemplar	6	1	4769-4870	ok
+ryr	ca_release	pore_loop	Q15413	exemplar	7	1	4672-4773	ok
+hv1	hv	tm_span	Q96D96	exemplar	4	0	101-218	ok
+hv1	hv	tm_span	Q1JV40	exemplar	4	0	149-268	ok

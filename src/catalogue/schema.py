@@ -242,6 +242,12 @@ class Superfamily:
     shared_signatures: tuple[Signature, ...] = ()
     root_with: tuple[str, ...] = ()   # outgroup family keys for rooting
     notes: str = ""
+    #: How S6 extracts the tier-2 module from a member (D40), read from the
+    #: UniProt topology of annotated references: "pore_loop" = the TM helix
+    #: before each re-entrant (INTRAMEM) pore loop through the TM helix after
+    #: it, one module per loop; "tm_span" = first TM start to last TM end;
+    #: "" = the superfamily aligns full length and needs no module.
+    module_rule: str = ""
 
 
 @dataclass(frozen=True)

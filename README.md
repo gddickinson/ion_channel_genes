@@ -22,7 +22,7 @@ Three deliverables, in order:
 
 | | |
 |---|---|
-| **Ledger** | S0, S1 complete 2026-08-19; S2 complete 2026-09-28 (**r3 after S2b/S2c**: every hazard rule a positive test); **S3a complete 2026-09-28**; **S4 complete 2026-09-28**; **S3b complete 2026-09-29** (census v3 over the 50-proteome panel: 2.6 % of channel-family members missed by domain search, 96 at high confidence; jackhmmer D10 24 clean / 44 killed); **S5a complete 2026-09-29** (genomic-sweep instrument + 7-genome pilot, D37); **S5b complete 2026-09-29** (all 52 genomes: matched detection 99.3 %, 72 controlled absences, 11 proteome misses, census v4, D38); S6 next. 30 tasks (`PUBLICATION_ROADMAP.md`). |
+| **Ledger** | S0, S1 complete 2026-08-19; S2 complete 2026-09-28 (**r3 after S2b/S2c**: every hazard rule a positive test); **S3a complete 2026-09-28**; **S4 complete 2026-09-28**; **S3b complete 2026-09-29** (census v3 over the 50-proteome panel: 2.6 % of channel-family members missed by domain search, 96 at high confidence; jackhmmer D10 24 clean / 44 killed); **S5a complete 2026-09-29** (genomic-sweep instrument + 7-genome pilot, D37); **S5b complete 2026-09-29** (all 52 genomes: matched detection 99.3 %, 72 controlled absences, 11 proteome misses, census v4, D38); **S6 complete 2026-09-29** (63 family alignments, 5,228 pore modules, D39/D40); S7 next. 30 tasks (`PUBLICATION_ROADMAP.md`). |
 | **Catalogue** | 91 families · 25 superfamilies · 320 human census genes · 16 hazards · validation clean |
 | **Verification** | S0 clean on the third pass: **115/115 Pfam accessions verified**, **162/162 exemplars resolved**, 52/52 taxon ids, 769 live requests, 0 failures ([report](results/s0_baseline/report.md)) |
 | **Classifier** | benchmarked: **recall 50/72, specificity 25/25, 16/16 hazards exercised**, leave-one-out. 29 calls from domain rules and 7 from the filter motif against 24 from identity — not a nearest-neighbour lookup ([report](results/benchmark_controls/report.md)) |
@@ -31,6 +31,7 @@ Three deliverables, in order:
 | **Proteome scope** | the declared denominator: **52 panel species → 50 UniProt reference proteomes (release 2026_03) + 2 genome-only**, chosen by a stated rule; **822,499 genes**; 49/50 exact against the release README and MD5, human reissued mid-release and accepted under D35; 319/319 human census genes present ([report](results/proteome_scope/report.md)) |
 | **Census v3 (panel)** | S3a's profiles swept over the 822,499-gene panel: **8,755 channel-family members; 230 (2.6 %) carry no enumerated pore signature, 96 at high confidence** — Hv1, CLIC, CNG, TRPV, pannexin and all three viroporins lead; the rest is an upper bound inflated by ankyrin/LRR-repeat proteins on repeat-dominated profiles. Human **319/320**; S3a/S3b instrument agreement 99.8 %. jackhmmer from one derived seed per family: **24 clean, 44 killed** by D10; clean runs recover **99.9 %** of profile calls ([report](results/panel_sweep/report.md)) |
 | **Genome sweep** | S5a/S5b: 1,808 baits (one per species, all 91 families) → miniprot + tblastn → loci called by the S3a profiles. **52 genomes, 42.5 Gbp, 0 failures; matched detection 1,317/1,326** of each genome's own families with its own baits excluded (D37). **72 absences survive every check** (Nav *C. elegans* + sponge, P2X nematode/fly, ENaC teleosts, ZAC rat); **11 intact channel genes missing from the proteomes**, incl. all six *Takifugu* RyRs. Census v4 = census v3 + 434 genome loci ([report](results/genome_sweep/report.md)) |
+| **Alignments** | S6: **6,658 sequences in 68 families** (high-confidence profile calls + intact genome loci, D39) → **63 MAFFT L-INS-i + trimAl alignments**. **5,228 pore modules** for the five tier-2 units, one extraction method per unit (projection through each family's own profile, D40); **median overlap 0.97 with UniProt-annotated modules** on 441 held-out members; six unannotated families located by a vote measured held-out to ≤ 12 residues ([report](results/alignments/report.md)) |
 | **Phylogeny** | builders and the tier-3 network built; smoke-tested on the Cys-loop superfamily (8 refs, rooted on GLIC/ELIC, 52 s — anion and cation receptors separate at 100 %); real trees run in S7/S8 |
 | **Review** | `docs/channel_review_2026.md` (+PDF) — 16 sections, ~9,500 words, **148 references, every one resolved against Europe PMC** before it could be cited, and **8 figures**, six rendered from committed tables |
 | **Toolchain** | MAFFT, HMMER, trimAl, IQ-TREE 2, miniprot, BLAST+, Foldseek, `datasets` — 12/12 resolve (`results/toolchain_manifest.txt`) |
@@ -74,6 +75,12 @@ matplotlib — run those with `/opt/anaconda3/envs/piezo1/bin/python` (D18).
 
 ---
 
+## Results in figures
+
+One headline figure per completed task, newest last, each drawn by a script from that task's committed tables (roadmap end-of-session step 3b). S1–S5b predate this rule and have no figure yet (emergent row).
+
+**S0 — the catalogue.**
+
 ![The catalogue's shape, and the signatures that cross the channel / non-channel boundary](results/s0_baseline/figures/catalogue_scope.png)
 
 *The subject, counted. **A** — human pore-forming genes per superfamily, with
@@ -85,6 +92,12 @@ catalogue does not count as a channel; `PF00520` reaches twenty families,
 including a phosphatase. Drawn from `results/s0_baseline/` by
 `scripts/s0_figures.py`.*
 
+
+**S6 — the alignments and the pore modules.**
+
+![S6: alignment sets, family alignments, module validation, the span vote](results/alignments/figures/alignments_modules.png)
+
+*What went into the trees, and whether the pore modules are right. **A** — every census v4 row called to a family, by superfamily: included in an alignment (high-confidence profile call or intact genome locus, D39) or excluded, with the reason. **B** — each family's L-INS-i alignment against the columns trimAl keeps (dot area ~ sequences): the largest, most divergent families keep 3–4 %. **C** — each extracted pore module against the same protein's own UniProt-annotated module (never a reference's): median Jaccard 0.97. **D** — the vote that places the module in the six unannotated families, measured with a held-out model on the annotated ones: ≤ 12 profile states across P-loop and iGluR, not usable in the innexin clan (where every family is annotated). Drawn from `results/alignments/` by `scripts/s6_figures.py`.*
 ---
 
 ## What makes this hard, in three examples

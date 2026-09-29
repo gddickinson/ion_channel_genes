@@ -20,7 +20,12 @@ EVERY session:
    Results (+ Emergent tasks for anything new), append to `SESSION_LOG.md`,
    **append a biological-findings entry to `FINDINGS.md`** (plain-language
    summary of what the finished task changed biologically; mark unconfirmed
-   claims *(pending: task)*), refresh `README.md`, then `git add -A`, commit
+   claims *(pending: task)*), **refresh `README.md` and the dashboard with
+   the task's results and its headline figure** (drawn by
+   `scripts/s<n>_figures.py` into `results/<dir>/figures/`, added to the
+   README's *Results in figures* section and to `FIGURES` in
+   `scripts/dashboard.py` — details in the roadmap's end-of-session step
+   3b), then `git add -A`, commit
    (`S<n>: <one-line outcome>`), and push if a remote exists.
 4. Bulk data (genomes, proteomes, HMM databases, structures) go under
    `get_data_root()` (`src/utils/data_root.py`) — never into the repo.

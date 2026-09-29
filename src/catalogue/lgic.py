@@ -60,11 +60,13 @@ SUPERFAMILIES: list[SF] = [
               "friendliest tier-2 unit in the catalogue, and the one where a "
               "conventional phylogeny is straightforwardly correct.")),
     SF("iglur", "Ionotropic glutamate receptors", Fold.IGLUR, True,
-       "ATD + S1S2 + M1–M4",
+       "M1–P–M3 pore module for tier 2 (ATD, S1S2 and M4 flank it; the "
+       "GluR0 root has no ATD)",
        (ANF_RECEPTOR, LIG_CHAN, LIG_CHAN_GLU), ("iglur_prok",),
        notes=("The pore module is an inverted P-loop: structurally related to "
               "Kir, sequence-undetectably so. A fold-network edge, never a "
-              "tree edge (D27).")),
+              "tree edge (D27)."),
+       module_rule="pore_loop"),
     SF("p2x", "P2X purinergic receptors", Fold.P2X, True,
        "full-length", (Sig("pfam", "PF00864", "P2X_receptor", L.SUPERFAMILY, 1, P.DB),),
        ("p2x_nonmetazoan",)),

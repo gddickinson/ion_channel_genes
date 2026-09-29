@@ -175,10 +175,10 @@ def needs_modules(superfamily_key: str) -> bool:
     are the clearest case, and the catalogue records that in
     `Superfamily.anchor_module`. Everywhere else full-length alignment across
     the superfamily is meaningless (Kir 400 aa against RYR1 5,038 aa), and
-    the tree must be built on the pore module and labelled as one.
+    the tree must be built on the pore module and labelled as one. The
+    catalogue's `Superfamily.module_rule` is the one declaration (D40).
     """
-    sf = SUPERFAMILIES[superfamily_key]
-    return "full-length" not in (sf.anchor_module or "").lower()
+    return bool(SUPERFAMILIES[superfamily_key].module_rule)
 
 
 def build_tier2(superfamily_key: str, sequences: list[tuple[str, str]],

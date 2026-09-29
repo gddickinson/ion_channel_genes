@@ -1,0 +1,47 @@
+unit	family	basis	module	k_start	k_end	spread	n_votes	vote_k_start	vote_k_end	vote_n	vote_error	helix_check
+ploop	kv_shaker	annotated	1	338	429	10	4	331	427	305	7	
+ploop	kv_modifier	annotated	1	333	419	8	2	328	420	90	5	
+ploop	kv_kcnq	annotated	1	250	339	3	2	251	342	95	3	
+ploop	kv_eag	annotated	1	363	476	1	2	361	479	145	3	
+ploop	kca_slo	annotated	1	242	334	7	2	239	330	98	4	
+ploop	kca_sk	annotated	1	372	456	8	2	365	460	80	7	
+ploop	kir	annotated	1	74	176	5	2	76	179	22	3	
+ploop	k2p	annotated	1	10	143	5	2	10	144	207	1	
+ploop	k2p	annotated	2	174	257	1	2	170	260	207	4	
+ploop	kcsa_prok	annotated	1	26	102	1	2	24	105	3	3	
+ploop	nav	annotated	1	245	402	1	2	243	405	125	3	
+ploop	nav	annotated	2	678	780	2	2	675	782	125	3	
+ploop	nav	annotated	3	1115	1252	2	2	1114	1255	125	3	
+ploop	nav	annotated	4	1434	1554	3	2	1436	1557	125	3	
+ploop	cav	annotated	1	228	362	0	1	221	370	190	8	
+ploop	cav	annotated	2	625	715	0	1	616	727	190	12	
+ploop	cav	annotated	3	1006	1134	0	1	997	1143	190	9	
+ploop	cav	annotated	4	1328	1439	0	1	1321	1443	190	7	
+ploop	nalcn	annotated	1	174	322	0	1	176	325	22	3	
+ploop	nalcn	annotated	2	503	599	0	1	503	602	22	3	
+ploop	nalcn	annotated	3	1016	1159	0	1	1013	1159	22	3	
+ploop	nalcn	annotated	4	1332	1447	0	1	1330	1450	22	3	
+ploop	catsper	annotated	1	258	352	0	2	255	355	41	3	
+ploop	tpc	annotated	1	227	311	3	3	221	316	82	6	
+ploop	tpc	annotated	2	574	687	14	3	569	690	82	5	
+ploop	cng	unit_hmm_vote	1	283	387	92	163	283	387	163		P29973:292-396 on helices
+ploop	hcn	annotated	1	379	478	5	2					
+ploop	trpc	unit_hmm_vote	1	540	651	41	102	540	651	102		Q13507:647-747 on helices
+ploop	trpv	annotated	1	566	682	20	2	570	687	74	5	
+ploop	trpm	annotated	1	945	1052	13	3					
+ploop	trpa	annotated	1	863	960	0	1	866	964	17	4	
+ploop	trpml	annotated	1	422	504	0	2	415	512	2	8	
+ploop	trpp	annotated	1	492	569	2	2	486	577	60	8	
+ploop	trpn	unit_hmm_vote	1	1706	1830	0	10	1706	1830	10		Q7KIQ2:1437-1561 on helices
+iglur	ampa	annotated	1	545	638	0	2	545	639	62	1	
+iglur	kainate	annotated	1	551	659	0	1	560	651	78	9	
+iglur	nmda	annotated	1	558	649	0	2	558	653	127	4	
+iglur	delta_glur	annotated	1	570	660	0	1	570	656	3	4	
+iglur	iglur_nonvertebrate	unit_hmm_vote	1	688	778	2	27	688	778	27		Q8GXJ4:614-693 on helices
+iglur	iglur_prok	unit_hmm_vote	1	143	240	0	1	143	240	1		P73797:143-240 on helices
+innexin_like	pannexin	annotated	1	36	293	14	2					
+innexin_like	innexin	annotated	1	152	446	3	2	147	366	5	80	
+innexin_like	lrrc8	annotated	1	25	335	7	2					
+ca_release	itpr	unit_hmm_vote+helix_snap	1	2404	2554	79	80	2467	2554	80		Q14643:2514-2601 snapped to 2449-2601
+ca_release	ryr	annotated	1	4791	4892	3	3					
+hv	hv1	annotated	1	83	200	0	2					

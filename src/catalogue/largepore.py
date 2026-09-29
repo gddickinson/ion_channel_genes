@@ -48,7 +48,8 @@ SUPERFAMILIES: list[SF] = [
        "TM region", (INNEXIN,),
        notes=("Alignable across pannexin and innexin; LRRC8's membrane region "
               "is homologous (`PF12534`) but its LRR domain is not, so "
-              "cross-family alignment is restricted to the TM region.")),
+              "cross-family alignment is restricted to the TM region."),
+       module_rule="tm_span"),
     SF("calhm", "Calcium homeostasis modulators", Fold.CALHM, True, "full-length",
        (Sig("pfam", "PF14798", "Ca_hom_mod", L.SUPERFAMILY, 1, P.DB),)),
 ]

@@ -48,6 +48,9 @@ FIGURES: list[tuple[str, str]] = [
     ("results/s0_baseline/figures/catalogue_scope.png",
      "S0 — what the catalogue counts, and which domain signatures are shared "
      "with something that is not a channel"),
+    ("results/alignments/figures/alignments_modules.png",
+     "S6 — what entered the family alignments (D39), and the pore modules "
+     "checked against UniProt topology and the held-out span vote (D40)"),
 ]
 
 #: Auto-discovered figures are capped so the page stays a reasonable size.

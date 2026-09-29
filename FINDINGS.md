@@ -510,3 +510,36 @@ found.** Human ASIC2 has an intron of 1.04 Mb, beyond the 1 Mb the aligner
 was allowed. It was still recovered, as were four smaller-genome cases.
 Allowing longer introns made results worse, not better: the aligner began
 joining neighbouring genes into false ones.
+
+## S6 — lining the channels up (2026-09-29)
+
+**The part of every channel that forms the pore can be found the same way in
+all of them, including genes nobody has annotated.** Within each of the five
+groups of channels whose members can be compared by sequence at all —
+the voltage-gated-like channels, the glutamate receptors, the
+calcium-release channels, the gap-junction-like innexins/pannexins and the
+proton channel — the pore was cut out of 5,228 chains by one method. Where
+UniProt records the pore's position, the cut matches it almost exactly
+(median overlap 97 %), and in potassium channels the signature filter
+sequence (GYG) sits inside the cut piece 96.6 % of the time; most of the
+exceptions have no canonical filter at all.
+
+**For six families no database says where the pore is** — CNG channels,
+TRPC, NOMPC, IP3 receptors and the plant and bacterial glutamate receptors.
+Their pore was located by learning what pores look like from the annotated
+families, a method measured to be within a dozen residues of the truth on
+every annotated relative. For the IP3 receptor this needed a correction:
+learned only from ryanodine receptors, the method found the IP3 receptor's
+pore helix and filter but not the helix before them *(pending: S8, check
+against the IP3 receptor structure)*.
+
+**One pore detector does not fit a whole superfamily.** A single model of
+"the P-loop pore" finds the pore in Kv, Nav and Cav channels it was not
+trained on, but not in inward rectifiers, HCN or TRPM channels, and not in
+the innexin clan — the pore modules within one superfamily have diverged
+further than a shared model can bridge.
+
+**Some families are too divergent to keep much alignment.** In the largest
+families — two-pore-domain K⁺ channels, nicotinic receptors, CNG channels —
+automatic trimming keeps only 3–4 % of aligned columns; whether that is
+enough to resolve their trees is S7's first question *(pending: S7)*.

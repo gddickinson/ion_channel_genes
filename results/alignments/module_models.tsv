@@ -1,0 +1,6 @@
+unit	seeds	families	seed_families	model_length	model_sha256
+ca_release	3	1	ryr:3	102	b650d3d1ac07e062c4dba27aa8027c8877c0cce4ee8f9d4a318cda054d4b9465
+hv	2	1	hv1:2	120	4538f1b1004443ab31c8645cae21db5d9eee7e5f5421e3801705aa2580a7101e
+iglur	6	4	ampa:2,delta_glur:1,kainate:1,nmda:2	88	ef3b62b2025eb6e95e393fa696651146104422a6ce87e2e599437792539797dd
+innexin_like	6	3	innexin:2,lrrc8:2,pannexin:2	265	ae311b77aaa70bf89096892975bfe9628fd84d18f64b46e5716fbb16b63d3c45
+ploop	58	20	catsper:2,cav:4,hcn:2,k2p:4,kca_sk:2,kca_slo:2,kcsa_prok:2,kir:2,kv_eag:2,kv_kcnq:2,kv_modifier:2,kv_shaker:4,nalcn:4,nav:8,tpc:6,trpa:1,trpm:3,trpml:2,trpp:2,trpv:2	99	aad3028e5ba3dc11e34196f95690bfde3245605fcf86404c1e96cf9930031b1f

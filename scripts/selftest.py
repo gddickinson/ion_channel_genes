@@ -372,6 +372,37 @@ check("annotation confirms a model only where >= half its CDS lies on the gene's
        _gi.best_overlap("c", 450, 60000, "+", [(450, 650), (59700, 60000)]) is None),
       (True, True))
 
+# --- S6: alignment sets and pore modules (D39, D40) -------------------------
+from src.catalogue import SUPERFAMILIES as _SFS                # noqa: E402
+from src.phylo.forest import needs_modules as _nm              # noqa: E402
+check("module_rule is declared exactly where a tier-2 unit needs modules (D40)",
+      [k for k, sf in _SFS.items() if sf.alignable and _nm(k) != bool(sf.module_rule)],
+      [])
+from scripts.s6_lib import verdict as _v39                     # noqa: E402
+_r = dict(v3_status="channel", p_family="nav", v3_family="nav",
+          p_confidence="high", call_intact="", source="proteome")
+check("D39: high profile call in; medium, other-family, broken genome frame out",
+      (_v39(_r), _v39({**_r, "p_confidence": "medium"}),
+       _v39({**_r, "p_family": "cav"}),
+       _v39({**_r, "v3_status": "genome_locus", "call_intact": "0"}),
+       _v39({**_r, "v3_status": "candidate"})),
+      ("include", "profile_medium", "profile_other_family",
+       "genome_not_intact", "not_called"))
+from scripts.s6_module_refs import spans_for as _spans         # noqa: E402
+_kv = [(165, 186), (221, 242), (254, 274), (288, 308), (324, 345), (387, 415)]
+check("pore_loop: a loop annotated in two pieces is one module (S5 start → S6 end)",
+      _spans("pore_loop", _kv, [(360, 371), (372, 379)]), [(324, 415)])
+check("pore_loop: one module per loop; tm_span: first TM → last TM",
+      (len(_spans("pore_loop", _kv * 1 + [(500, 520), (560, 580)],
+                  [(360, 371), (530, 540)])),
+       _spans("tm_span", [(30, 50), (80, 100), (150, 170), (200, 220)], [])),
+      (2, [(30, 220)]))
+from scripts.s6_project import a2m_map as _a2m, cut as _cut    # noqa: E402
+_st, _res = _a2m("mkAC-Dx")     # states A C - D; inserts m k (before) and x (after)
+check("A2M map: states, deletions and inserts; a cut keeps inserts inside the span",
+      (_st[1:], _res, _cut(_st, _res, "MKACDX", 1, 4)),
+      ([3, 4, None, 5], [0.5, 0.5, 1, 2, 4, 4.5], (3, 5, 0.75)))
+
 print()
 if FAILURES:
     print(f"{len(FAILURES)} invariant(s) FAILED: {', '.join(FAILURES)}")

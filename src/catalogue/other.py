@@ -49,7 +49,8 @@ SUPERFAMILIES: list[SF] = [
        notes=("Sequence-alignable to the VSD of P-loop channels and to the VSD "
               "of the voltage-sensing phosphatases, which are not channels. "
               "The one place in the catalogue where the tier-2 tree has to "
-              "include a non-channel outgroup to be rootable at all.")),
+              "include a non-channel outgroup to be rootable at all."),
+       module_rule="tm_span"),
     SF("otopetrin", "Otopetrin proton channels", Fold.OTOPETRIN, True, "full-length",
        (Sig("pfam", "PF03189", "Otopetrin", L.SUPERFAMILY, 1, P.DB),)),
     SF("clic", "Chloride intracellular channels", Fold.GST, True, "full-length",

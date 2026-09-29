@@ -511,3 +511,44 @@ genes have an intron beyond `-G` (human ASIC2 1,043,910 bp); all called.
 for tier 2, from census v3 + v4's genome loci. Six S5b emergent rows (Takifugu
 RyR, Nematostella MscS, Daphnia absences, ZAC distribution, `-G` edge,
 unjudgeable groups) are for S10/S16, not S6.
+
+## 2026-09-29 — S6: alignments and pore modules
+
+**Protocol change (user-directed).** End-of-session step 3b now requires a
+headline figure per completed task (`scripts/s<n>_figures.py` through
+`figstyle.py`), added to the README's new *Results in figures* section and to
+`FIGURES` in `scripts/dashboard.py`; `CLAUDE.md` step 3 points at it.
+S1–S5b have no figure yet — emergent row.
+
+**Ran.** `s6_align.py sets / align / stats` (D39 sets; L-INS-i on 63 families,
+3 jobs × 3 threads, 4.4 h summed, ~2 h wall; nAChR 726 seqs 1.8 h);
+`s6_module_refs.py` (123 UniProt topology fetches, 0 failures);
+`s6_modules.py seeds / loo`; `s6_project.py spans / extract / validate`
+(396 requests, 0 failures); `s6_figures.py`, `s6_report.py`. Catalogue:
+`Superfamily.module_rule` added and declared for five superfamilies;
+`forest.needs_modules()` now reads it. iGluR's `anchor_module` text corrected
+to the M1–P–M3 module actually used. Self-test +5 invariants.
+
+**Result.** 6,658 sequences in 68 families (1,868 excluded, counted). 63
+alignments; 5 families < 4 sequences. trimAl keeps a median 22 % of columns
+but 3–4 % on K2P, nAChR, CNG (emergent, S7). 5,228 full pore modules; median
+Jaccard 0.97 against members' own UniProt modules (436/441 ≥ 0.8); K⁺ filter
+inside the module 96.6 %.
+
+**Design changed mid-task, on a measurement.** The first extractor — one
+module HMM per tier-2 unit, envelope-cut — failed its leave-one-family-out
+benchmark (Kir 22/298, TRPM 0/145, innexin clan ≤ 5/82) and was replaced by
+projection through each family's own profile (D40); the HMM survives as the
+span vote for the six unannotated families, re-measured held-out (≤ 12
+states). UniProt annotates the pore helix and filter as two INTRAMEM pieces:
+first pass counted them as two modules — merged by bracketing helices. ITPR's
+vote started in the luminal loop; the helix-snap rule fixed it (the only
+firing). The report first quoted two K-filter counts from an ad-hoc check —
+replaced by a `k_filter_in_chain` column so they render from the table (D13).
+
+**Not done, by decision.** The S2b R3 seed re-draw: it would change the
+instrument that made the census calls, so it is a census revision (D39).
+
+### Next session
+**S7** — tier-1 trees on the 63 trimmed alignments, rooted via
+`mafft --add --keeplength`. Settle the trimming question first (emergent row).

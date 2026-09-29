@@ -1,0 +1,36 @@
+unit	family	held_out	expected	members	exact	under	over	exact_frac	status
+ca_release	itpr	False	1	89	80	9	0	0.8989	ok
+ca_release	ryr	True							no_seeds_left
+hv	hv1	True							no_seeds_left
+iglur	ampa	True	1	62	62	0	0	1.0	ok
+iglur	kainate	True	1	78	78	0	0	1.0	ok
+iglur	nmda	True	1	131	127	4	0	0.9695	ok
+iglur	delta_glur	True	1	3	3	0	0	1.0	ok
+iglur	iglur_nonvertebrate	False	1	38	27	11	0	0.7105	ok
+iglur	iglur_prok	False	1	1	1	0	0	1.0	ok
+innexin_like	pannexin	True	1	46	0	46	0	0.0	ok
+innexin_like	innexin	True	1	82	5	77	0	0.061	ok
+innexin_like	lrrc8	True	1	102	0	102	0	0.0	ok
+ploop	kv_shaker	True	1	312	305	7	0	0.9776	ok
+ploop	kv_modifier	True	1	90	90	0	0	1.0	ok
+ploop	kv_kcnq	True	1	97	95	2	0	0.9794	ok
+ploop	kv_eag	True	1	158	145	13	0	0.9177	ok
+ploop	kca_slo	True	1	106	98	8	0	0.9245	ok
+ploop	kca_sk	True	1	80	80	0	0	1.0	ok
+ploop	kir	True	1	298	22	276	0	0.0738	ok
+ploop	k2p	True	2	380	207	172	1	0.5447	ok
+ploop	kcsa_prok	True	1	4	3	1	0	0.75	ok
+ploop	nav	True	4	138	125	13	0	0.9058	ok
+ploop	cav	True	4	201	190	11	0	0.9453	ok
+ploop	nalcn	True	4	24	22	2	0	0.9167	ok
+ploop	catsper	True	1	41	41	0	0	1.0	ok
+ploop	tpc	True	2	100	82	18	0	0.82	ok
+ploop	cng	False	1	313	163	150	0	0.5208	ok
+ploop	hcn	True	1	64	0	64	0	0.0	ok
+ploop	trpc	False	1	174	102	72	0	0.5862	ok
+ploop	trpv	True	1	115	74	41	0	0.6435	ok
+ploop	trpm	True	1	145	0	145	0	0.0	ok
+ploop	trpa	True	1	49	18	30	1	0.3673	ok
+ploop	trpml	True	1	62	2	60	0	0.0323	ok
+ploop	trpp	True	1	65	60	5	0	0.9231	ok
+ploop	trpn	False	1	19	10	9	0	0.5263	ok
