@@ -306,3 +306,39 @@ conflates Precursor; S3a R3 seeds drawn from r1 calls.
 
 ### Next session
 **S4** — proteome scope (S3b waits on it).
+
+---
+
+## 2026-09-28 — S2c: hazard rules H11, H12 rewritten as positive tests
+
+**Measured first.** H12: of PF02214 carriers without a pore module, 14,354
+carry one of five KCTD C-terminal domains (KCTD5-like, KCTD8/12/16 H1,
+KCTD10-like, KCTD1/15, SHKBP1/KCTD3) and the S3a profiles call 14,317 of
+them KCTD, 3 otherwise; the shape alternative (T1, 0 TM, complete) was
+contradicted on 160 — rejected for the same reason as AChBP. H11: every one
+of the 980 "SUR" calls was a SUR: 918 bacterial cNMP + C39 peptidase ABC
+transporters, 62 eukaryotic fused gene models, none SUR-shaped (checked:
+1,300–1,800 aa with ABC/TMD0 domains only). ABCC8 carries nothing
+SUR-specific.
+
+**Changed.** H12-kctd-<marker> ×5 + H12-t1 (superfamily); H11-abcc removed;
+catalogue gains the five KCTD markers (FAMILY on the control family — no
+derived rule, no change to the pore union) and `assoc_sur` ABC domains
+re-levelled. Self-test invariant now covers every hazard.
+
+**Caught.** Checking the pore union before re-levelling the ABC domains
+showed S2b had already dropped PF20519 from it (67 → 66): enumeration was
+derived from evidence level. Decoupled (`Signature.enumerate`, D34), union
+restored to 67 and pinned by a self-test against `signature_counts.tsv`.
+Also: the revision-transition script was hard-wired to S2b and its own
+guard fired when S2c changes appeared — parametrised (`--base/--head`).
+
+**Result.** 63,411 records re-checked, 18,412 calls changed, none outside
+the set. S2 r3; S1 unchanged; v3a conflicts 2,907; human 319/320.
+
+**Emergent.** 525 records (508 bacterial) called SUR by the S3a profile
+alone — no generic ABC-transporter decoy profile exists. Proposed fix adds a
+catalogue family; left for the user.
+
+### Next session
+**S4** — proteome scope.

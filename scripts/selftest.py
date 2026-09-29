@@ -54,6 +54,13 @@ print("catalogue")
 check("validate() is clean", validate(), [])
 check("every hazard names known families",
       sorted({f for h in HAZARDS for f in h.families if f not in CATALOGUE}), [])
+import csv as _csv                                            # noqa: E402
+from src.catalogue.registry import pore_signatures            # noqa: E402
+_enum = ROOT / "results" / "census_v2" / "signature_counts.tsv"
+if _enum.exists():
+    check("the pore union is the search space census v2 enumerated (S2b drift)",
+          sorted(s.accession for s in pore_signatures()),
+          sorted(r["pfam"] for r in _csv.DictReader(_enum.open(), delimiter="\t")))
 check("every hazard has a discriminator",
       [h.hid for h in HAZARDS if not h.discriminator.strip()], [])
 
@@ -63,7 +70,9 @@ CASES = [
     # (name, pfam counts, expected family, expected ambiguity[, tm, length])
     ("Nav (H1)",        {"PF00520": 4, "PF06512": 1, "PF11933": 1}, "nav", []),
     ("Cav3 (H1)",       {"PF00520": 4}, "", []),          # filter tier's job
-    ("KCTD (H12)",      {"PF02214": 1}, "nonchannel_kctd", []),
+    # S2c: KCTD on its C-terminal domain; T1 alone is superfamily-only.
+    ("KCTD (H12)",      {"PF02214": 1, "PF31093": 1}, "nonchannel_kctd", []),
+    ("T1 alone (H12)",  {"PF02214": 1}, "", []),
     ("Kv1 (H12)",       {"PF00520": 1, "PF02214": 1}, "",
      ["kv_modifier", "kv_shaker"]),                        # honest ambiguity
     ("K2P (H16)",       {"PF07885": 2}, "k2p", []),
@@ -79,7 +88,7 @@ CASES = [
     ("RyR TM4-6 (H4)",  {"PF08709": 1, "PF06459": 1}, "ryr", []),
     ("POMT (H10)",      {"PF02815": 1, "PF02366": 1}, "nonchannel_pomt", []),
     ("CFTR (H11)",      {"PF00664": 2, "PF00005": 2, "PF14396": 1}, "cftr", []),
-    ("SUR1 (H11)",      {"PF00664": 2, "PF00005": 2}, "assoc_sur", []),
+    ("SUR1 (H11)",      {"PF00664": 2, "PF00005": 2}, "", []),   # S2c: no positive test
     ("VSP (H9)",        {"PF00520": 1, "PF10409": 1}, "nonchannel_vsp", []),
     ("PKD1 (H13)",      {"PF08016": 1, "PF00801": 15}, "assoc_polycystin1", []),
     ("TRPML (H13)",     {"PF08016": 1, "PF21381": 1}, "trpml", []),
@@ -97,7 +106,7 @@ for name, counts, want_family, want_ambig, *meas in CASES:
 
 # -------------------------------------------------------------- symbols
 print("\nthe gene symbol is never consulted (H15)")
-counts = {"PF02214": 1}
+counts = {"PF02214": 1, "PF31093": 1}     # a KCTD by its C-terminal domain (S2c)
 a = classify(ChannelQuery("X1", gene_symbol="KCNA1", pfam_counts=counts))
 b = classify(ChannelQuery("X1", gene_symbol="", pfam_counts=counts))
 c = classify(ChannelQuery("X1", gene_symbol="TOTAL_NONSENSE", pfam_counts=counts))
@@ -225,12 +234,11 @@ check("a profile call outside S2's superfamily → conflict",
       merge({"family": "", "superfamily": "cysloop"},
             {"p_call": "family", "p_family": "kir", "p_superfamily": "ploop"}, {})["v3_basis"],
       "conflict")
-check("no hazard rule makes a family call from an absence alone (S2b)",
+check("no hazard rule makes a family call from an absence alone (S2b, S2c)",
       # a family-naming rule may forbid a domain only as a guard beside a
-      # positive whole-sequence measurement. H11-abcc and H12-kctd are
-      # still absence rules (emergent row) and are not yet held to this.
+      # positive whole-sequence measurement (D33). Every hazard, since S2c.
       [r.rid for r in HAZARD_RULES if r.target and r.forbid and r.max_tm is None
-       and not r.max_length and r.hazard in ("H2", "H4", "H13")], [])
+       and not r.max_length], [])
 check("a profile call inside S2's superfamily resolves it",
       merge({"family": "", "superfamily": "cysloop"},
             {"p_call": "family", "p_family": "nachr", "p_superfamily": "cysloop"}, {})["v3_family"],

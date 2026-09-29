@@ -1,0 +1,12 @@
+{
+  "base": "r2",
+  "head": "current",
+  "accessions": [
+    "PF00664",
+    "PF02214"
+  ],
+  "records": 1245200,
+  "rechecked": 63411,
+  "changed": 18412,
+  "changed_outside_recheck": 0
+}

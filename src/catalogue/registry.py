@@ -115,7 +115,7 @@ def pore_signatures() -> list[Signature]:
     seen: dict[str, Signature] = {}
     for f in census_families():
         for s in f.signatures:
-            if s.level in (Level.SUPERFAMILY, Level.FAMILY):
+            if s.enumerates:
                 seen.setdefault(s.accession, s)
     return list(seen.values())
 

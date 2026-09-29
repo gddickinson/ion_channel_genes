@@ -122,8 +122,10 @@ FAMILIES: list[CF] = [
         superfamily="abc_channel", status=St.CHANNEL_ASSOCIATED, fold=Fold.ABC,
         selectivity=Sel.UNKNOWN, gating=_NONE, stoichiometry="4 per Kir6 channel",
         tm_per_subunit=17,
-        signatures=(Sig("pfam", "PF00664", "ABC_membrane", L.FAMILY, 2, P.DB),
-                    Sig("pfam", "PF00005", "ABC_tran", L.FAMILY, 2, P.DB)),
+        # Generic ABC domains (~1.7 M UniProt proteins): no level at which
+        # they identify SUR. There is no positive SUR test (H11, S2c).
+        signatures=(Sig("pfam", "PF00664", "ABC_membrane", L.SHARED_WITH_DECOY, 2, P.DB),
+                    Sig("pfam", "PF00005", "ABC_tran", L.SHARED_WITH_DECOY, 2, P.DB)),
         exemplars=(Ex("Hs_ABCC8", "ABCC8", "Homo sapiens", "Q09428"),),
         human_genes=("ABCC8", "ABCC9"),
         confusable_with=("cftr", "kir", "H11"),
@@ -222,7 +224,21 @@ FAMILIES: list[CF] = [
         superfamily="ploop", status=St.NON_CHANNEL_HOMOLOG, fold=Fold.UNKNOWN,
         selectivity=Sel.UNKNOWN, gating=_NONE,
         signatures=(Sig("pfam", "PF02214", "BTB_2", L.SHARED_WITH_DECOY, 1, P.DB,
-                        "measured on KCTD1 — the same model as the Kv T1 domain"),),
+                        "measured on KCTD1 — the same model as the Kv T1 domain"),
+                    # The positive H12 tests (S2c). Measured in census v2 on
+                    # PF02214 carriers without a pore module: 14,354 carry one
+                    # of these, and the S3a profiles call 14,317 of them KCTD
+                    # and 3 anything else. Each covers one KCTD clade.
+                    Sig("pfam", "PF31093", "KCTD5_C-like", L.FAMILY, 1, P.DB,
+                        "KCTD2/5/17 C-terminal domain"),
+                    Sig("pfam", "PF23110", "H1_KCTD8_12_16", L.FAMILY, 1, P.DB,
+                        "KCTD8/12/16 H1 domain"),
+                    Sig("pfam", "PF31104", "KCTD10_C-like", L.FAMILY, 1, P.DB,
+                        "KCTD10/13/TNFAIP1 C-terminal domain"),
+                    Sig("pfam", "PF20871", "KCTD1-15_CTD", L.FAMILY, 1, P.DB,
+                        "KCTD1/15 C-terminal domain"),
+                    Sig("pfam", "PF31099", "SHKBP1_KCTD3_C", L.FAMILY, 1, P.DB,
+                        "SHKBP1/KCTD3 C-terminal beta-propeller")),
         exemplars=(Ex("Hs_KCTD1", "KCTD1", "Homo sapiens", "Q719H9"),),
         human_genes=("KCTD1", "KCTD2", "KCTD3", "KCTD5", "KCTD6", "KCTD7",
                      "KCTD8", "KCTD10", "KCTD11", "KCTD12", "KCTD13",

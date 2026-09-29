@@ -139,9 +139,22 @@ class Signature:
     copies: int = 1         # expected copies per subunit (4 for Nav/Cav)
     provenance: Provenance = Provenance.CURATED
     note: str = ""
+    # Whether the census enumerates from this signature. Separate from
+    # `level` on purpose: level says what the signature *proves* (D25/D33),
+    # enumeration says where the census *looks*. None = derive from level
+    # (SUPERFAMILY/FAMILY enumerate). S2b re-levelled PF20519 to
+    # SHARED_WITH_DECOY and, through the old coupling, silently removed it
+    # from the census search space.
+    enumerate: bool | None = None
 
     def key(self) -> str:
         return f"{self.db}:{self.accession}"
+
+    @property
+    def enumerates(self) -> bool:
+        if self.enumerate is not None:
+            return self.enumerate
+        return self.level in (Level.SUPERFAMILY, Level.FAMILY)
 
 
 @dataclass(frozen=True)

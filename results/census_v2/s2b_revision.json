@@ -1,4 +1,12 @@
 {
+  "base": "r1",
+  "head": "r2",
+  "accessions": [
+    "PF02931",
+    "PF08016",
+    "PF08709",
+    "PF20519"
+  ],
   "records": 1245200,
   "rechecked": 108407,
   "changed": 27028,

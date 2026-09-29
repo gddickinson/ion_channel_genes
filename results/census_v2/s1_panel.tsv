@@ -37,7 +37,7 @@ P14867	GABRA1	gabaa			superfamily_only		no	no
 P28472	GABRB3	gabaa			superfamily_only		no	no
 P23415	GLRA1	glyr			superfamily_only		no	no
 P46098	HTR3A	ht3			superfamily_only		no	no
-Q401N2	ZACN	zac	nonchannel_achbp		superfamily_only		no	no
+Q401N2	ZACN	zac			superfamily_only		no	no
 P42261	GRIA1	ampa	ampa		superfamily_only		yes	no
 P39086	GRIK1	kainate			superfamily_only		no	no
 Q05586	GRIN1	nmda			superfamily_only		no	no
@@ -86,7 +86,7 @@ Q9H4I9	SMDT1	assoc_mcu_reg			not_enumerated		no	no
 Q8TDF5	NETO1	assoc_iglur_aux			not_enumerated		no	no
 Q9H7T0	CATSPERB	assoc_catsper_aux			not_enumerated		no	no
 Q8WZ55	BSND	assoc_clc_aux			not_enumerated		no	no
-P98161	PKD1	assoc_polycystin1		assoc_polycystin1	channel_associated	hazard	no	yes
+P98161	PKD1	assoc_polycystin1	assoc_polycystin1	assoc_polycystin1	channel_associated	hazard	yes	yes
 Q719H9	KCTD1	nonchannel_kctd	nonchannel_kctd	nonchannel_kctd	non_channel_homolog	hazard	yes	yes
 Q13255	GRM1	nonchannel_class_c_gpcr	nonchannel_class_c_gpcr		not_enumerated		yes	no
 Q9UBS5	GABBR1	nonchannel_class_c_gpcr	nonchannel_class_c_gpcr		not_enumerated		yes	no

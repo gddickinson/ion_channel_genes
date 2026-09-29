@@ -315,3 +315,29 @@ the two methods fell from 12,857 to 3,288, the census no longer calls any
 ryanodine-receptor fragment an IP3 receptor where the IP3R project's
 independent census disagrees, and 319 of 320 human channel genes are placed
 correctly.
+
+---
+
+## S2c — the last absence rules, and a lesson about what agreement means (2026-09-28)
+
+**KCTD proteins are recognisable by their own tails.** The T1 domain that
+KCTD proteins share with Kv channels says nothing on its own, but most KCTDs
+also carry one of five clade-specific C-terminal domains, and on 14,354
+proteins those domains and the independent profile method agree on all but
+three. A T1 domain with neither a pore nor a KCTD tail could be either — a
+KCTD from an uncatalogued clade or the front end of a Kv channel gene model
+— and the census now leaves it at the superfamily.
+
+**No domain marks a sulfonylurea receptor.** SUR1 and SUR2 carry only the
+generic ABC-transporter domains shared with over a million other proteins.
+The rule that called them "SUR" by the absence of CFTR's R domain had in
+fact caught 918 bacterial peptide-exporting ABC transporters and 62
+eukaryotic gene models fusing ABC domains to other proteins — not one
+receptor. The rule is gone.
+
+**Two methods agreeing is evidence only if the right answer was available
+to both.** The profile method "confirmed" 528 of those bacterial
+transporters as SUR, because the catalogue gives it no generic ABC
+transporter to prefer. Agreement between classifiers measures something only
+when every plausible family is on the menu *(pending: a decoy family,
+emergent)*.

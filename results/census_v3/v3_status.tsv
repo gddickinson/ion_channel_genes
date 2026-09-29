@@ -1,9 +1,9 @@
 status	records
-channel	617442
-unassigned	407779
-superfamily_only	101942
+channel	617833
+unassigned	408177
+superfamily_only	106634
 channel_contested	42154
 transporter	35214
-non_channel_homolog	32246
-channel_associated	5135
-conflict	3288
+non_channel_homolog	27575
+channel_associated	4706
+conflict	2907

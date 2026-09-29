@@ -13,7 +13,7 @@ assoc_mcu_reg	decoy	MCU regulators (MICU1–3, EMRE/SMDT1, MCUR1)	2	0	0.000			un
 assoc_nav_beta	decoy	Nav beta subunits (SCN1B–SCN4B)	1	0	0.000			unassigned
 assoc_polycystin1	decoy	Polycystin-1 family (PKD1, PKD1L1–3)	1	1	1.000	hazard=1	silver=1	
 assoc_stim	decoy	STIM proteins (STIM1, STIM2)	1	0	0.000			unassigned
-assoc_sur	decoy	Sulfonylurea receptors (ABCC8, ABCC9)	1	1	1.000	hazard=1	silver=1	
+assoc_sur	decoy	Sulfonylurea receptors (ABCC8, ABCC9)	1	0	0.000			unassigned
 bestrophin	positive	Bestrophins (BEST1–BEST4)	1	1	1.000	architecture=1	bronze=1	
 calhm	positive	Calcium homeostasis modulators (CALHM1–CALHM6)	1	1	1.000	architecture=1	bronze=1	
 catsper	positive	CatSper sperm-specific Ca2+ channels	1	0	0.000			unassigned

@@ -1,6 +1,6 @@
 p_call	v3_family	records
-no_hit	-	320249
-module	-	70494
+no_hit	-	320272
+module	-	70869
 family	mscs	61863
 low_score	-	17033
 family	ano_scramblase	8732
@@ -10,12 +10,13 @@ family	trpv	2499
 family	cng	1839
 family	piezo	1552
 family	gabaa	1420
-family	nachr	1163
+family	nachr	1164
 family	trpc	1023
-superfamily_only	-	736
+superfamily_only	-	756
 family	hcn	709
 family	iglur_nonvertebrate	572
 family	iglur_prok	567
+family	assoc_sur	525
 family	trpn	490
 family	kir	424
 family	transporter_slc26	381
@@ -40,12 +41,9 @@ family	tmc	8
 family	trpp	7
 family	clc_transporter	7
 family	assoc_mcu_reg	7
-family	assoc_sur	4
 ambiguous	-	3
 family	zac	2
 family	kcsa_prok	1
-family	nonchannel_kctd	1
 family	tric	1
-family	assoc_polycystin1	1
 family	nonchannel_class_c_gpcr	1
 family	clc_channel	1

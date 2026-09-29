@@ -1,4 +1,4 @@
-r1_call	r2_call	r2_hazards	records
+before	after	hazards_after	records
 nonchannel_achbp	[cysloop]	H2	12567
 itpr	[ca_release]	H4	7208
 trpp	assoc_polycystin1	H13	3125

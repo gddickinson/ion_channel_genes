@@ -289,7 +289,8 @@ FAMILIES: list[CF] = [
                     Sig("pfam", "PF20519", "Polycystin_dom", L.SHARED_WITH_DECOY, 1, P.DB,
                         "also on polycystin-1 (H13) — was FAMILY until S2b, "
                         "which made the derived rule an absence test; S3a "
-                        "measured 2,989 polycystin-1-like proteins called TRPP"),
+                        "measured 2,989 polycystin-1-like proteins called TRPP",
+                        enumerate=True),
                     Sig("pfam", "PF18109", "Fer4_24", L.SUBFAMILY, 1, P.DB,
                         "the positive TRPP test (H13): measured in census v2 on "
                         "1,358 records, all carrying PF20519, all profile-called "

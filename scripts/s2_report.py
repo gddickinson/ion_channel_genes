@@ -17,6 +17,24 @@ from src.catalogue import CATALOGUE          # noqa: E402
 
 CHANNELISH = ("channel", "channel_contested")
 
+# Revisions of census v2, each rendered from its own transitions table.
+REVISIONS = [
+    ("s2b", "Revision r2 — hazard rules H2, H4, H13 as positive tests (S2b)",
+     "S3a's calibration and its check against the IP3R project's census found "
+     "three hazard rules that made a family call from what a protein *lacks* — "
+     "which this project's conventions forbid. Each was rewritten so a family "
+     "is called only on a domain it carries and its rivals do not; where no "
+     "such domain exists (ITPR against RyR; AChBP against a receptor fragment) "
+     "the architecture tier stops at the superfamily and a sequence-level tier "
+     "makes the call (D33)."),
+    ("s2c", "Revision r3 — hazard rules H11, H12 as positive tests (S2c)",
+     "The two remaining absence rules. KCTD is now called on a KCTD C-terminal "
+     "domain, and the T1 domain alone is superfamily-only; CFTR is still "
+     "called on its R domain, and the SUR rule is gone — no domain identifies "
+     "SUR, and none of the 980 calls the absence rule made was one — 918 "
+     "bacterial ABC transporters and 62 eukaryotic fused gene models."),
+]
+
 
 def pct(a: int, b: int) -> str:
     return f"{100 * a / b:.1f} %" if b else "—"
@@ -42,7 +60,6 @@ def main() -> int:
     s1 = read_tsv(OUT_DIR / "s1_panel.tsv")
     man = read_tsv(OUT_DIR / "manifest.tsv")
     part = read_tsv(OUT_DIR / "partial_architectures.tsv")
-    s2b = read_tsv(OUT_DIR / "s2b_transitions.tsv") if (OUT_DIR / "s2b_transitions.tsv").exists() else []
 
     n = S["records"]
     s1_pos = [r for r in s1 if CATALOGUE[r["expected_family"]].status.value in CHANNELISH]
@@ -152,23 +169,19 @@ def main() -> int:
           "in `s1_panel.tsv`.)", "",
           "## Bulk files (data root)", "",
           table(man, ["file", "bytes", "records", "sha256"]), ""]
-    if s2b:
-        R = json.loads((OUT_DIR / "s2b_revision.json").read_text())
-        L += ["", "## Revision r2 — hazard rules H2, H4, H13 as positive tests (S2b)", "",
-              "S3a's calibration and its check against the IP3R project's census "
-              "found three hazard rules that made a family call from what a "
-              "protein *lacks* — which this project's conventions forbid. Each "
-              "was rewritten so that a family is called only on a domain it "
-              "carries and its rivals do not; where no such domain exists "
-              "(ITPR against RyR; AChBP against a receptor fragment) the "
-              "architecture tier now stops at the superfamily and the family "
-              "call is left to a sequence-level tier. "
-              f"**{R['rechecked']:,} records** carry an accession those rules "
-              f"consult and were re-classified; **{R['changed']:,} calls "
-              f"changed**, and {R['changed_outside_recheck']} changed outside "
-              "that set (checked, not assumed). The r1 call files are archived "
-              "on the data root under `calls_r1/`.", "",
-              table(s2b, ["r1_call", "r2_call", "r2_hazards", "records"], 12), ""]
+    for tag, title, intro in REVISIONS:
+        tt = OUT_DIR / f"{tag}_transitions.tsv"
+        if not tt.exists():
+            continue
+        R = json.loads((OUT_DIR / f"{tag}_revision.json").read_text())
+        L += ["", f"## {title}", "", intro + " "
+              f"**{R['rechecked']:,} records** carry an accession the rewritten "
+              f"rules consult ({', '.join('`' + x + '`' for x in R['accessions'])}) "
+              f"and were re-classified; **{R['changed']:,} calls changed**, and "
+              f"{R['changed_outside_recheck']} changed outside that set (checked, "
+              f"not assumed). The previous call files are archived on the data "
+              f"root under `calls_{R['base']}/`.", "",
+              table(read_tsv(tt), ["before", "after", "hazards_after", "records"], 12), ""]
     (OUT_DIR / "report.md").write_text("\n".join(L))
     print(f"wrote {OUT_DIR / 'report.md'}")
     return 0

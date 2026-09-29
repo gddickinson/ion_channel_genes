@@ -1,10 +1,10 @@
 status	confidence	records
-unassigned	unassigned	500267
-superfamily_only	bronze	420155
-channel	bronze	180049
-channel	silver	75783
-non_channel_homolog	silver	32546
+unassigned	unassigned	501212
+superfamily_only	bronze	437608
+channel	bronze	180052
+channel	silver	75791
 channel_contested	bronze	19526
+non_channel_homolog	silver	15123
 channel	gold	11749
-channel_associated	silver	5116
-unassigned	bronze	9
+channel_associated	silver	4137
+unassigned	bronze	2

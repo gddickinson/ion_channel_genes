@@ -1,7 +1,7 @@
 decisive_tier	status	records
-architecture	channel	180049
-hazard	channel	56166
-hazard	non_channel_homolog	32546
-motif	channel	31366
+architecture	channel	180052
+hazard	channel	56172
+motif	channel	31368
 architecture	channel_contested	19526
-hazard	channel_associated	5116
+hazard	non_channel_homolog	15123
+hazard	channel_associated	4137

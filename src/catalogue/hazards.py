@@ -182,9 +182,14 @@ HAZARDS: list[Hazard] = [
                          "`PF00005`×2. One is a chloride channel, the other "
                          "regulates a potassium channel it does not conduct "
                          "through."),
-        discriminator=("`PF14396` (CFTR_R) present ⇒ CFTR. Absent ⇒ ABCC "
-                       "transporter/regulator; a channel call then requires "
-                       "direct evidence, not fold."),
+        discriminator=("`PF14396` (CFTR_R) present ⇒ CFTR (positive). **There "
+                       "is no positive SUR test** (S2c): ABCC8/9 carry only "
+                       "the generic ABC domains, and TMD0 (`PF24357`) is on "
+                       "the long MRPs too. Without the R domain there is no "
+                       "architecture-tier call. The absence rule it replaced "
+                       "(no R domain ⇒ SUR) made 980 census calls, none a SUR: "
+                       "918 bacterial ABC transporters with a cNMP and a C39 "
+                       "peptidase domain, 62 eukaryotic fused gene models."),
         test_owner="src/classify/rules.py:ARCHITECTURE_RULES",
         severity="medium", provenance=P.DB,
     ),
@@ -194,7 +199,15 @@ HAZARDS: list[Hazard] = [
         shared_evidence=("Measured: KCTD1 carries `PF02214`, the same model as "
                          "the Kv1 T1 domain. 25 human KCTD genes are named "
                          "after a channel domain and none is a channel."),
-        discriminator="Require a pore model (`PF00520`/`PF07885`) as well.",
+        discriminator=("KCTD is called on a KCTD C-terminal domain (S2c: "
+                       "`PF31093`, `PF23110`, `PF31104`, `PF20871`, `PF31099` "
+                       "— on 14,354 census records, 14,317 profile-KCTD). A "
+                       "Kv needs a pore model (`PF00520`/`PF07885`) with T1. "
+                       "T1 with neither is superfamily-only: the absence rule "
+                       "it replaced (T1 without a pore ⇒ KCTD) called "
+                       "N-terminal Kv gene models KCTD, and the shape test "
+                       "(T1, 0 TM, complete) was contradicted by the S3a "
+                       "profiles on 160 records."),
         test_owner="src/classify/rules.py:ARCHITECTURE_RULES",
         severity="medium", provenance=P.DB,
     ),

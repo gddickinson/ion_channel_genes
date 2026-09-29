@@ -94,6 +94,13 @@ class ArchitectureRule:
         return " ".join(bits)
 
 
+# H12: the KCTD C-terminal domains, read from the catalogue (the one place a
+# Pfam id is declared) — every FAMILY-level signature of nonchannel_kctd.
+KCTD_MARKERS = tuple((sg.accession, sg.name)
+                     for sg in CATALOGUE["nonchannel_kctd"].signatures
+                     if sg.level is Level.FAMILY)
+
+
 # --------------------------------------------------------- hazard rules
 HAZARD_RULES: list[ArchitectureRule] = [
     # H2 — a pentameric channel needs the TM region, not just the clamshell LBD.
@@ -155,19 +162,33 @@ HAZARD_RULES: list[ArchitectureRule] = [
     ArchitectureRule("H10-pomt", "nonchannel_pomt", "ca_release",
                      ("PF02815", "PF02366"), priority=P_HAZARD, hazard="H10",
                      rationale="MIR + mannosyltransferase ⇒ POMT"),
-    # H11 — CFTR versus the sulfonylurea receptors.
+    # H11 — CFTR versus the sulfonylurea receptors. CFTR is called on its R
+    # domain. There is no positive SUR test: ABCC8/9 carry only the generic
+    # ABC domains, and TMD0 (PF24357) is shared with the long MRPs. The
+    # absence rule it replaced (ABC architecture without the R domain ⇒ SUR,
+    # removed in S2c) made 980 census calls and none was a SUR: 918 bacterial
+    # ABC transporters with a cNMP and a C39 peptidase domain, and 62
+    # eukaryotic gene models fusing ABC domains to other domains (none
+    # SUR-shaped: 1,300–1,800 aa with ABC/TMD0 domains only).
     ArchitectureRule("H11-cftr", "cftr", "abc_channel", ("PF00664", "PF14396"),
                      priority=P_HAZARD, hazard="H11",
                      rationale="the R domain is CFTR's only architectural "
                                "difference from ABCC8"),
-    ArchitectureRule("H11-abcc", "assoc_sur", "abc_channel",
-                     ("PF00664", "PF00005"), forbid=("PF14396",),
-                     priority=P_HAZARD, hazard="H11",
-                     rationale="ABC architecture without the R domain"),
-    # H12 — the Kv T1 domain is a generic BTB/POZ domain.
-    ArchitectureRule("H12-kctd", "nonchannel_kctd", "ploop", ("PF02214",),
+    # H12 — the Kv T1 domain is a generic BTB/POZ domain. KCTD is called on a
+    # KCTD C-terminal domain (S2c, measured: 14,317 of the 14,320 carriers
+    # the S3a profiles call are profile-KCTD). T1 without a pore module is
+    # superfamily-only: a KCTD without a catalogued C-terminal domain and an
+    # N-terminal Kv gene model look alike (the whole-protein shape test —
+    # T1, 0 TM helices, complete — was contradicted by the profiles on 160
+    # records). T1 *with* a pore module is left to the derived Kv rules.
+    *[ArchitectureRule(f"H12-kctd-{mk}", "nonchannel_kctd", "ploop",
+                       ("PF02214", mk), priority=P_HAZARD, hazard="H12",
+                       rationale=f"T1/BTB + the KCTD C-terminal domain {name}")
+      for mk, name in KCTD_MARKERS],
+    ArchitectureRule("H12-t1", "", "ploop", ("PF02214",),
                      forbid=("PF00520", "PF07885"), priority=P_HAZARD, hazard="H12",
-                     rationale="T1/BTB without any pore module ⇒ KCTD"),
+                     rationale="T1/BTB without a pore module or a KCTD "
+                               "C-terminal domain: superfamily only"),
     # H13 — PF08016 / PF20519 cover TRPML, TRPP and polycystin-1. Each
     # family is called on a domain it carries and the others do not; the
     # shared channel domain alone is superfamily evidence. S3a measured the

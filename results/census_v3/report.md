@@ -48,28 +48,28 @@ Every benchmark miss:
 
 ## 3. Calibration against S2 (seeds excluded)
 
-On the 324,238 records S2 called to a family (seed accessions removed), the profile makes the **same call on 305,739** and a **different family call on 552** — agreement 99.8 % where both instruments speak. The two read different evidence (Pfam architecture and filter motif vs a full-length profile margin), so agreement is a measurement, not a tautology.
+On the 305,857 records S2 called to a family (seed accessions removed), the profile makes the **same call on 292,832** and a **different family call on 168** — agreement 99.9 % where both instruments speak. The two read different evidence (Pfam architecture and filter motif vs a full-length profile margin), so agreement is a measurement, not a tautology.
 
 | domain | v2_calls | agree | disagree | profile_superfamily_only | profile_module | profile_low_score | profile_no_hit | agreement |
 |---|---|---|---|---|---|---|---|---|
 | Archaea | 263 | 130 | 0 | 0 | 75 | 16 | 42 | 1.0 |
-| Bacteria | 28198 | 22728 | 0 | 21 | 3289 | 770 | 1390 | 1.0 |
-| Eukaryota | 295712 | 282866 | 552 | 382 | 10277 | 372 | 1257 | 0.9981 |
-| Viruses | 65 | 15 | 0 | 0 | 19 | 9 | 22 | 1.0 |
+| Bacteria | 27279 | 22220 | 0 | 1 | 2922 | 770 | 1366 | 1.0 |
+| Eukaryota | 278313 | 270482 | 168 | 140 | 6022 | 308 | 1187 | 0.9994 |
+| Viruses | 2 | 0 | 0 | 0 | 0 | 2 | 0 |  |
 
 Per family (largest 30; full table `calibration.tsv`):
 
 | family | v2_calls | agree | disagree | profile_superfamily_only | profile_ambiguous | profile_module | agreement |
 |---|---|---|---|---|---|---|---|
-| nonchannel_kctd | 31748 | 26681 | 362 | 242 | 0 | 4299 | 0.9866 |
-| k2p | 25979 | 25466 | 100 | 133 | 1 | 276 | 0.9961 |
-| cav | 20057 | 19959 | 44 | 1 | 0 | 53 | 0.9978 |
+| k2p | 25980 | 25466 | 100 | 133 | 1 | 277 | 0.9961 |
+| cav | 20058 | 19960 | 44 | 1 | 0 | 53 | 0.9978 |
 | connexin | 19810 | 19646 | 0 | 0 | 0 | 107 | 1.0 |
 | osca_tmem63 | 18504 | 18499 | 0 | 0 | 3 | 2 | 1.0 |
-| kir | 17482 | 17299 | 0 | 0 | 0 | 178 | 1.0 |
-| vdac | 17029 | 16373 | 0 | 0 | 0 | 332 | 1.0 |
+| kir | 17487 | 17300 | 4 | 0 | 0 | 178 | 0.9998 |
+| vdac | 17030 | 16373 | 0 | 1 | 0 | 332 | 1.0 |
 | mscl | 16560 | 16524 | 2 | 0 | 0 | 15 | 0.9999 |
-| kca_slo | 12988 | 12699 | 0 | 0 | 0 | 286 | 1.0 |
+| nonchannel_kctd | 14335 | 14298 | 3 | 0 | 0 | 34 | 0.9998 |
+| kca_slo | 12989 | 12699 | 0 | 0 | 1 | 286 | 1.0 |
 | nav | 12183 | 12162 | 0 | 0 | 0 | 21 | 1.0 |
 | kv_kcnq | 8829 | 8196 | 0 | 0 | 0 | 592 | 1.0 |
 | tmc | 8480 | 8221 | 0 | 0 | 0 | 256 | 1.0 |
@@ -78,7 +78,7 @@ Per family (largest 30; full table `calibration.tsv`):
 | tmem175 | 6981 | 1803 | 0 | 0 | 0 | 2994 | 1.0 |
 | mcu | 6468 | 6188 | 3 | 0 | 0 | 218 | 0.9995 |
 | clic | 6341 | 6278 | 0 | 0 | 0 | 56 | 1.0 |
-| trpc | 6210 | 6210 | 0 | 0 | 0 | 0 | 1.0 |
+| trpc | 6211 | 6210 | 1 | 0 | 0 | 0 | 0.9998 |
 | otop | 6100 | 5359 | 0 | 0 | 1 | 335 | 1.0 |
 | mscs | 5982 | 5982 | 0 | 0 | 0 | 0 | 1.0 |
 | ryr | 5610 | 5473 | 0 | 0 | 0 | 137 | 1.0 |
@@ -88,36 +88,36 @@ Per family (largest 30; full table `calibration.tsv`):
 | tweety | 4666 | 4441 | 1 | 0 | 0 | 216 | 0.9998 |
 | kca_sk | 4544 | 4543 | 0 | 0 | 0 | 1 | 1.0 |
 | lrrc8 | 4347 | 4099 | 0 | 0 | 0 | 239 | 1.0 |
-| assoc_polycystin1 | 4133 | 3969 | 5 | 4 | 0 | 153 | 0.9987 |
+| assoc_polycystin1 | 4134 | 3970 | 5 | 4 | 0 | 153 | 0.9987 |
 | orai | 3575 | 3247 | 0 | 0 | 0 | 125 | 1.0 |
 | hcn | 3533 | 3530 | 0 | 1 | 0 | 2 | 1.0 |
 
 ## 4. Census v3a
 
-**1,245,200 records**; **732,191 (58.8 %) now carry a family call** — both instruments 306,270, S2 only 17,947, profile only 407,974 — against 324,769 (26.1 %) in S2 (r2 (S2b, 2026-09-28: H2/H4/H13 positive tests)). Superfamily only 101,942; unassigned 407,779; **conflict 3,288**, kept and counted.
+**1,245,200 records**; **727,482 (58.4 %) now carry a family call** — both instruments 293,353, S2 only 12,857, profile only 421,272 — against 306,378 (24.6 %) in S2 (r3 (S2c, 2026-09-28: H2/H4/H11/H12/H13 positive tests)). Superfamily only 106,634; unassigned 408,177; **conflict 2,907**, kept and counted.
 
 **What the profile-only calls have not been tested on.** The superfamily splits below (Cys-loop, iGluR, DEG/ENaC, P2X, CLC, TMEM16) are families S2 never called, so section 3 cannot check them, and section 2's orthologue test is vertebrate. Where those calls fall in invertebrates, plants and protists they rest on profiles seeded mostly from human genes and have no independent check yet.
 
 | status | records |
 |---|---|
-| channel | 617442 |
-| unassigned | 407779 |
-| superfamily_only | 101942 |
+| channel | 617833 |
+| unassigned | 408177 |
+| superfamily_only | 106634 |
 | channel_contested | 42154 |
 | transporter | 35214 |
-| non_channel_homolog | 32246 |
-| channel_associated | 5135 |
-| conflict | 3288 |
+| non_channel_homolog | 27575 |
+| channel_associated | 4706 |
+| conflict | 2907 |
 
 ### What happened to S2's superfamily-only calls
 
 | superfamily | v2_superfamily_only | resolved_to_family | outcomes |
 |---|---|---|---|
-| ploop | 166,350 | 102,496 (61.6 %) | superfamily_only 61,137, kv_shaker 21,577, kv_modifier 10,432, cng 7,861 |
+| ploop | 183,801 | 115,274 (62.7 %) | superfamily_only 65,808, kv_shaker 21,767, nonchannel_kctd 12,394, kv_modifier 10,600 |
 | cysloop | 83,413 | 73,155 (87.7 %) | nachr 34,339, gabaa 26,348, superfamily_only 10,249, glyr 5,991 |
 | iglur | 56,369 | 46,401 (82.3 %) | kainate 12,315, iglur_nonvertebrate 10,429, nmda 10,096, superfamily_only 9,966 |
 | clc | 47,655 | 41,140 (86.3 %) | clc_transporter 18,351, clc_prokaryotic 16,475, superfamily_only 6,515, clc_channel 6,314 |
-| deg_enac | 25,925 | 16,542 (63.8 %) | asic 11,984, superfamily_only 9,377, enac 3,742, deg_invertebrate 816 |
+| deg_enac | 25,927 | 16,542 (63.8 %) | asic 11,984, superfamily_only 9,378, enac 3,742, deg_invertebrate 816 |
 | tmem16_like | 13,287 | 13,059 (98.3 %) | ano_scramblase 9,720, ano_channel 3,339, superfamily_only 228 |
 | innexin_like | 11,653 | 9,741 (83.6 %) | innexin 7,290, pannexin 2,451, superfamily_only 1,910, conflict 2 |
 | p2x | 8,295 | 7,902 (95.3 %) | p2x 7,736, superfamily_only 393, p2x_nonmetazoan 166 |
@@ -125,12 +125,12 @@ Per family (largest 30; full table `calibration.tsv`):
 
 ### What happened to S2's unassigned records
 
-500,276 records S2 left unassigned: `no_hit` 320,249 (64.0 %); `family` 91,761 (18.3 %); `module` 70,494 (14.1 %); `low_score` 17,033 (3.4 %); `superfamily_only` 736 (0.1 %); `ambiguous` 3 (0.0 %). A `module` verdict is a profile match over less than 30% of the family profile and is deliberately not a call; `no_hit` means no profile reported the record at all. S2 traced most of its unassigned records to three co-domain signatures (cNMP, SBP_bac_3, PAS); which of these two verdicts those records received is not broken down here.
+501,214 records S2 left unassigned: `no_hit` 320,272 (63.9 %); `family` 92,281 (18.4 %); `module` 70,869 (14.1 %); `low_score` 17,033 (3.4 %); `superfamily_only` 756 (0.2 %); `ambiguous` 3 (0.0 %). A `module` verdict is a profile match over less than 30% of the family profile and is deliberately not a call; `no_hit` means no profile reported the record at all. S2 traced most of its unassigned records to three co-domain signatures (cNMP, SBP_bac_3, PAS); which of these two verdicts those records received is not broken down here.
 
 | p_call | v3_family | records |
 |---|---|---|
-| no_hit | - | 320249 |
-| module | - | 70494 |
+| no_hit | - | 320272 |
+| module | - | 70869 |
 | family | mscs | 61863 |
 | low_score | - | 17033 |
 | family | ano_scramblase | 8732 |
@@ -140,9 +140,9 @@ Per family (largest 30; full table `calibration.tsv`):
 | family | cng | 1839 |
 | family | piezo | 1552 |
 | family | gabaa | 1420 |
-| family | nachr | 1163 |
+| family | nachr | 1164 |
 | family | trpc | 1023 |
-| superfamily_only | - | 736 |
+| superfamily_only | - | 756 |
 | family | hcn | 709 |
 
 ### Calls that rest on S2 alone
@@ -151,18 +151,18 @@ Per family (largest 30; full table `calibration.tsv`):
 
 | v3_family | s2_tier | p_call | records |
 |---|---|---|---|
-| nonchannel_kctd | hazard | module | 4299 |
 | tmem175 | architecture | module | 2994 |
 | bestrophin | architecture | module | 2067 |
 | tmem175 | architecture | no_hit | 1407 |
 | tmem175 | architecture | low_score | 777 |
 | kv_kcnq | architecture | module | 592 |
-| assoc_sur | hazard | module | 377 |
 | otop | architecture | no_hit | 360 |
 | otop | architecture | module | 335 |
 | vdac | architecture | module | 332 |
 | kca_slo | architecture | module | 286 |
-| k2p | hazard | module | 276 |
+| k2p | hazard | module | 277 |
+| tmc | architecture | module | 256 |
+| vdac | architecture | no_hit | 254 |
 
 ### Conflicts
 
@@ -173,12 +173,9 @@ Where S2 and the profile name different families. S2's deciding tier is shown be
 | [ploop] | hv1 | - | 1973 |
 | [ploop] | itpr | - | 375 |
 | [ploop] | iglur_prok | - | 196 |
-| nonchannel_kctd | kv_shaker | hazard | 190 |
-| nonchannel_kctd | kv_modifier | hazard | 168 |
 | [ploop] | ryr | - | 83 |
 | [ploop] | nonchannel_vsp | - | 81 |
 | cav | nalcn | motif | 44 |
-| assoc_sur | nalcn | hazard | 27 |
 | k2p | kca_sk | hazard | 23 |
 | k2p | cng | hazard | 22 |
 | k2p | kcsa_prok | hazard | 19 |
@@ -188,6 +185,7 @@ Where S2 and the profile name different families. S2's deciding tier is shown be
 | assoc_polycystin1 | trpp | hazard | 5 |
 | k2p | kir | hazard | 5 |
 | [ploop] | mscs | - | 4 |
+| kir | assoc_sur | hazard | 4 |
 | k2p | iglur_prok | hazard | 4 |
 | nalcn | cav | motif | 3 |
 | [deg_enac] | ano_scramblase | - | 3 |
@@ -195,6 +193,8 @@ Where S2 and the profile name different families. S2's deciding tier is shown be
 | [ploop] | ano_scramblase | - | 3 |
 | k2p | assoc_catsper_aux | hazard | 2 |
 | nonchannel_kctd | outofscope_aquaporin | hazard | 2 |
+| k2p | kv_kcnq | hazard | 2 |
+| [deg_enac] | cng | - | 2 |
 
 ## 5. Human census genes
 
@@ -263,5 +263,5 @@ Reverse direction — of this census's own itpr / ryr / piezo calls, how many th
 
 | file | bytes | sha256 | records |
 |---|---|---|---|
-| hmmer/s3/census_v3.tsv.gz | 21250421 | 7f4a9bc7da3ad17e40284c3474d276ac75e6854a56ae3d0ba96f4cf76e0f4199 | 1245200 |
-| hmmer/s3/profile_calls.tsv.gz | 32820224 | 23ef27eb3b3884ca75067f3e90f6b6f0667e6c9266ed61eacc6ad17499c72bfc | 857837 |
+| hmmer/s3/census_v3.tsv.gz | 21249928 | a3cf4a0fc222d6b3f2887ebe9b590d1c815c8852246d5aaa1b7deee4485ac619 | 1245200 |
+| hmmer/s3/profile_calls.tsv.gz | 32820224 | 0df555b818984389e6f81600629d2044a4f1aa88e021f59b816e4b1b3a38358a | 857837 |

@@ -49,7 +49,9 @@ PROV = ["source", "release", "shard"]
 # r1 = S2 as run 2026-09-28. r2 = S2b: hazard rules H2, H4, H13 rewritten as
 # positive tests; the 108,407 records carrying PF02931/PF08709/PF08016/PF20519
 # re-classified (`s2_classify.py --recheck`), r1 calls and bulk archived.
-REVISION = "r2 (S2b, 2026-09-28: H2/H4/H13 positive tests)"
+# r3 = S2c: H11, H12 likewise; PF02214/PF00664 carriers re-classified, r2
+# calls archived under calls_r2/.
+REVISION = "r3 (S2c, 2026-09-28: H2/H4/H11/H12/H13 positive tests)"
 
 #: {family: its FAMILY-level accessions} — what a derived rule requires in full.
 FAMILY_SIGS = {k: {s.accession for s in f.signatures if s.level is Level.FAMILY}
