@@ -1,0 +1,26 @@
+family	n_groups	group	genes	accessions	not_tested
+assoc_catsper_aux	4	assoc_catsper_aux.1	CATSPERD,CATSPERE	Q5SY80,Q86XM0	TMEM249
+assoc_catsper_aux	4	assoc_catsper_aux.2	CATSPERG	Q6ZRH7	
+assoc_catsper_aux	4	assoc_catsper_aux.3	CATSPERB	Q9H7T0	
+assoc_catsper_aux	4	assoc_catsper_aux.4	CATSPERZ	Q9NTU4	
+assoc_cav_aux	3	assoc_cav_aux.1	CACNB1,CACNB2,CACNB3,CACNB4	O00305,P54284,Q02641,Q08289	
+assoc_cav_aux	3	assoc_cav_aux.2	CACNG1,CACNG2,CACNG3,CACNG4,CACNG5,CACNG6,CACNG7,CACNG8	O60359,P62955,Q06432,Q8WXS5,Q9BXT2,Q9UBN1,Q9UF02,Q9Y698	
+assoc_cav_aux	3	assoc_cav_aux.3	CACNA2D1,CACNA2D2,CACNA2D3,CACNA2D4	P54289,Q7Z3S7,Q8IZS8,Q9NY47	
+assoc_clc_aux	2	assoc_clc_aux.1	CLCA1,CLCA2,CLCA4	A8K7I4,Q14CN2,Q9UQC9	CLCA3P
+assoc_clc_aux	2	assoc_clc_aux.2	BSND	Q8WZ55	
+assoc_iglur_aux	4	assoc_iglur_aux.1	SHISA6,SHISA7,SHISA8,SHISA9	A6NL88,B4DS77,B8ZZ34,Q6ZSJ9	
+assoc_iglur_aux	4	assoc_iglur_aux.2	CNIH2,CNIH3	Q6PI25,Q8TBE1	
+assoc_iglur_aux	4	assoc_iglur_aux.3	GSG1L	Q6UXU4	
+assoc_iglur_aux	4	assoc_iglur_aux.4	NETO1,NETO2	Q8NC67,Q8TDF5	
+assoc_k_beta	4	assoc_k_beta.1	KCNAB1,KCNAB2,KCNAB3	O43448,Q13303,Q14722	
+assoc_k_beta	4	assoc_k_beta.2	DPP10,DPP6	P42658,Q8N608	
+assoc_k_beta	4	assoc_k_beta.3	KCNMB1,KCNMB2,KCNMB3,KCNMB4	Q16558,Q86W47,Q9NPA1,Q9Y691	
+assoc_k_beta	4	assoc_k_beta.4	LRRC26,LRRC38,LRRC52,LRRC55	Q2I0M4,Q5VT99,Q6ZSA7,Q8N7C0	
+assoc_kcne	1	assoc_kcne.1	KCNE1,KCNE2,KCNE3,KCNE4,KCNE5	P15382,Q8WWG9,Q9UJ90,Q9Y6H6,Q9Y6J6	
+assoc_mcu_reg	3	assoc_mcu_reg.1	MICU1,MICU2,MICU3	Q86XE3,Q8IYU8,Q9BPX6	
+assoc_mcu_reg	3	assoc_mcu_reg.2	MCUR1	Q96AQ8	
+assoc_mcu_reg	3	assoc_mcu_reg.3	SMDT1	Q9H4I9	
+assoc_nav_beta	1	assoc_nav_beta.1	SCN1B,SCN2B,SCN3B,SCN4B	O60939,Q07699,Q8IWT1,Q9NY72	
+assoc_polycystin1	1	assoc_polycystin1.1	PKD1,PKD1L1,PKD1L2,PKD1L3	P98161,Q7Z442,Q7Z443,Q8TDX9	
+assoc_stim	1	assoc_stim.1	STIM1,STIM2	Q13586,Q9P246	
+assoc_sur	1	assoc_sur.1	ABCC8,ABCC9	O60706,Q09428	

@@ -6,8 +6,10 @@ question this project answers.*
 
 Every census needs a denominator, and "all ion channels" does not have one
 until somebody says what an ion channel is. Published counts of the human
-channelome run from about 240 to about 400, and most of the spread is not
-disagreement about biology — it is different answers to the six questions
+channelome run from about 240 to about 400 — three curated databases hold
+285 (GtoPdb), 331 (HGNC) and 338 (UniProt KW-0407) and 400 between them,
+of which the 238 on all three are all pore-forming (**[db]**, S20) — and most
+of the spread is not disagreement about biology — it is different answers to the six questions
 below. This file records this project's answers so that every later number
 can be read against them.
 
@@ -33,10 +35,15 @@ Four load-bearing words:
 **1. Do auxiliary subunits count?** *No.* KCNE1, the Cav β and α2δ and γ
 subunits, the Nav β subunits, SUR1/SUR2, STIM1, EMRE, barttin, the TARPs and
 the CatSper auxiliaries are essential to the channels they serve and line no
-pore. Counting them inflates the human total by roughly 15 %. They are
-catalogued with status `channel_associated` so they are excluded by a
-recorded decision rather than by omission. **[db]** — every one of them was
-resolved and its domain architecture measured in S0.
+pore. **Counting them all would inflate the human total by 24 %** — 71
+catalogued auxiliary genes plus 5 the database lists carry that the catalogue
+does not (KChIP1–4, TMEM37), against 320 pore-forming genes (**[db]**, S20;
+this file said "roughly 15 %" before it was measured). The three database
+channelomes count between 1.4 % (GtoPdb) and 10.7 % (UniProt KW-0407) of
+their totals as auxiliaries, each a different set. They are catalogued with
+status `channel_associated` so they are excluded by a recorded decision
+rather than by omission. **[db]** — every one of them was resolved and its
+domain architecture measured in S0.
 
 **2. Do transporters with a channel fold count?** *No, but they stay in
 their family.* CLC-3 to CLC-7 are 2Cl⁻/H⁺ antiporters in a family whose other

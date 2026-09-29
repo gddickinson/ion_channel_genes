@@ -27,7 +27,11 @@ non-channels and channels that are not ion channels.
 
 Published counts of the human channelome run from about 240 to about 400.
 `[lit]` The spread is almost entirely the scope questions, not disagreement
-about biology.
+about biology. Measured on three curated database lists (S20): GtoPdb 285,
+HGNC 331, UniProt KW-0407 338, 400 in their union; the 238 genes on all three
+are all pore-forming, and the differences are auxiliary subunits, aquaporins,
+transporters and contested families (TMC, anoctamin scramblases, CLIC,
+connexins in UniProt). `[db]`
 
 The largest division is the **P-loop (voltage-gated-like) superfamily**: 23
 catalogued families and 143 human genes — 45 % of the census on its own.

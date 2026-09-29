@@ -54,6 +54,9 @@ FIGURES: list[tuple[str, str]] = [
     ("results/phylogeny/figures/tier1_trim.png",
      "S7a — trimming for the tier-1 trees, measured before any tree: "
      "informative sites under trimAl -gt 0.5 (D41) against S6's -automated1"),
+    ("results/auxiliary/figures/auxiliary.png",
+     "S20 — three database channelomes (285 / 331 / 338, 400 in union) against the "
+     "catalogue, and the auxiliary subunits' homology groups across the panel"),
 ]
 
 #: Auto-discovered figures are capped so the page stays a reasonable size.

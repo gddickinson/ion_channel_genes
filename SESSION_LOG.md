@@ -585,3 +585,35 @@ every `<data root>/trees/s7/iqtree/<fam>/`); re-launch the same command if it
 died (resumes). Then `s7_trees.py parse`, `s7_report.py`, `s7_figures.py`
 (piezo1 env), and read root support / outgroup monophyly. D41 is not changed
 after any tree is read.
+
+## 2026-09-29 — S20 (out of order, user-directed): auxiliary subunits and the published channelome
+
+**Why out of order.** S7b is blocked on the detached IQ-TREE run (~15–25 h);
+the user directed S20 then S15 meanwhile.
+
+**Ran.** `s20_lists.py` (GtoPdb 2026.3 download, HGNC group 177 branch,
+UniProt KW-0407 2026_03 stream, 470 HGNC symbol lookups — archived under
+`<data root>/raw_api/s20/`); `s20_curate.py` (27 uncatalogued genes classified
+by hand); `s20_aux.py groups` (phmmer all-vs-all, 69 human auxiliary
+sequences) and `panel` (3,053 S3b auxiliary calls × the human proteome,
+~35 min alongside IQ-TREE); report + figure.
+
+**Result.** Lists 285 / 331 / 338, union 400; 238 on all three, all
+pore-forming. Union: 314 census pore, 44 auxiliary, 14 aquaporin, 7
+transporter, 8 enzyme/transporter, 8 proposed pores, 2 claudins, 3
+pseudogenes. Auxiliaries would inflate 320 by 24 % (doc said ~15 %;
+corrected in `scope_and_boundaries.md` and `channel_background.md`). 6/11
+auxiliary families pool unrelated proteins (22 groups). Panel: 1,103 / 3,053
+auxiliary calls pass a reciprocal-best-human-hit test.
+
+**Corrected on the way.** A first panel placement (best hit among the human
+auxiliaries only) passed LRR and Ig proteins wholesale (LRRC-γ 394 high);
+replaced by the reciprocal test against the whole human proteome before
+anything was reported. I said "7 of 11 pooled" mid-session; the table says 6.
+
+**Emergent.** Split the pooled families (library revision); add KChIP1–4 and
+TMEM37; eight uncatalogued pore candidates (PACC1 first) — user's call,
+census revision; review text still quotes 240–400 from literature.
+
+### Next
+S15 (user-directed), then S7b when the trees finish.

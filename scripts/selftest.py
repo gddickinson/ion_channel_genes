@@ -424,6 +424,15 @@ check("the trim mask is one column set for every row; informative = 2 states x 2
        _met([("a", "AAC"), ("b", "AAC"), ("c", "GAT"), ("d", "GA-")], [0, 1, 2])["informative"]),
       ([("a", "ACD"), ("b", "AGE")], 1))
 
+# --- S20: auxiliary subunits ------------------------------------------------
+from scripts.s20_lib import category as _cat                    # noqa: E402
+from scripts.s20_aux import _components as _comp                # noqa: E402
+check("S20 category: census first; a channel_associated gene is auxiliary, never pore",
+      (_cat("CHANNEL_CONTESTED", True), _cat("CHANNEL_ASSOCIATED", False),
+       _cat("OUT_OF_SCOPE", False)), ("pore_census", "auxiliary", "out_of_scope"))
+check("S20 homology groups are connected components (no edge = separate group)",
+      _comp(["a", "b", "c", "d"], {("a", "b"), ("b", "c")}), [["a", "b", "c"], ["d"]])
+
 print()
 if FAILURES:
     print(f"{len(FAILURES)} invariant(s) FAILED: {', '.join(FAILURES)}")

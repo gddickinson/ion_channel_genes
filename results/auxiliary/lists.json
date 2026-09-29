@@ -1,0 +1,11 @@
+{
+ "gtopdb": "GtoPdb Version: 2026.3 - published: 2026-09-16",
+ "hgnc": "HGNC group 177 branch, fetched Tue, 29 Sep 2026 23:24:34 GMT",
+ "uniprot": "UniProtKB 2026_03",
+ "uniprot_without_hgnc": [],
+ "catalogue_symbols_unresolved": [],
+ "catalogue_symbols_renamed": {
+  "AQP0": "MIP",
+  "TMEM249": "CATSPERQ"
+ }
+}

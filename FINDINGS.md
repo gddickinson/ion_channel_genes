@@ -573,3 +573,41 @@ sea hare and a limpet) score as *bacterial*-type pentameric ligand-gated
 channels, a group otherwise known from bacteria. They could be a
 real ancient lineage or horizontal transfer, or a quirk of a
 thinly-seeded model *(pending: S8/S21)*.
+
+## S20 — how many human ion channels are there? (2026-09-29)
+
+**The disagreement over how many ion channels humans have is almost
+entirely about what to count, not about biology.** Three curated databases
+list 285, 331 and 338 human channel genes, 400 between them. The 238 genes
+all three agree on are all genuine pore-forming channels. Everything else is
+a scope choice:
+- whether to count **auxiliary subunits**: proteins that travel with a
+  channel and tune it but form no pore;
+- whether to count **water channels** and **transporters**;
+- whether to include **disputed families** such as the TMC mechanosensory
+  candidates or the anoctamin lipid scramblases.
+
+**One keyword choice removes a whole family.** UniProt's "Ion channel"
+keyword is on none of the 21 human connexins (gap-junction channels are
+filed under "Gap junction" instead), while one pharmacology database leaves
+out 57 channel genes from contested or large-pore families.
+
+**Auxiliary subunits are more numerous than assumed.** There are about 76
+human auxiliary genes, which would add a quarter to the 320 pore-forming
+genes if counted. The project's own scope document had said 15 %. Each
+database counts a different subset of them.
+
+**"Auxiliary subunit" is a job description, not a family.** Six of the
+eleven auxiliary groups combine proteins with no common ancestor. For
+example, the "potassium-channel β subunits" are four unrelated protein
+types: an enzyme family, a small membrane protein, a leucine-rich-repeat
+protein and a peptidase relative. Across the 52 species, most auxiliary
+types are found only in vertebrates by this method *(not yet tested as true
+absences: S10)*. Calcium-channel β and α2δ subunits, polycystin-1 and the
+mitochondrial uniporter regulators (MICU) reach far beyond vertebrates.
+
+**The catalogue has gaps to consider.** Five auxiliary genes (the KChIPs
+and a calcium-channel γ-like protein) and eight proposed pore-forming
+channels are absent from it. The strongest case among the eight is the
+proton-activated chloride channel PACC1, whose structure has been solved
+*(pending: a catalogue decision)*.
