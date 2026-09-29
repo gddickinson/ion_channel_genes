@@ -369,3 +369,34 @@ literature review still says 90 (it describes the S0 catalogue).
 
 ### Next session
 **S4** — proteome scope.
+
+---
+
+## 2026-09-28 — S4: proteome scope (the denominator)
+
+**Ran.** Session protocol clean (drive attached, 669 GB free; catalogue and
+self-test clean). New: `scripts/s4_proteome_lib.py`, `s4_proteomes.py`
+(`manifest` / `download` / `verify` / `all`), `s4_report.py`; eight S4
+self-test invariants. UniProt proteomes API + release README + per-proteome
+`RELEASE.metalink` + NCBI Datasets, all archived under
+`<data root>/raw_api/s4/`; 100 files (268 MB) to `<data root>/proteomes/s4/`;
+sweep DB `panel_refprot.fasta` (822,499 seqs, 507 MB). Offline rerun
+reproduced every table byte for byte.
+
+**Result.** 52 species → 50 reference proteomes (release 2026_03) + 2
+genome-only (*Cornu*, *Torpedo*). Selection rule picked the model strain in
+all 6 multi-candidate species. 49/50 exact on README counts + MD5; human
+reissued by UniProt on 2026-09-15 (README describes a withdrawn file of
+147,503 entries; served file 20,652, one per gene, MD5 OK) → D35. 319/319
+human census genes in the human proteome. 12,096 census v2 records are
+panel-proteome entries.
+
+**Surprises.** (1) NCBI's dataset_report omits superseded assembly versions
+by default; 7 proteomes sit on one → `all_assemblies`. (2) The reference
+proteome `.fasta` is one entry per gene in 50/50, gene2acc "groups" are not
+a gene count. (3) **The viroporin family was never in the census search
+space** (SUBFAMILY signatures, D34 default) — emergent. (4) INTERFACE said
+51 species; the table has 52.
+
+### Next session
+**S3b** — profile sweep over the S4 panel DB + jackhmmer to convergence (D10).

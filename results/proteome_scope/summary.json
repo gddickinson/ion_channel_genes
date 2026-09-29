@@ -1,0 +1,20 @@
+{
+ "release": "2026_03",
+ "species": 52,
+ "proteomes": 50,
+ "proteomes_exact": 49,
+ "proteomes_reissued": [
+  "Homo sapiens"
+ ],
+ "proteomes_failed": [],
+ "entries": 822499,
+ "census_v2_records": 1245200,
+ "census_v2_in_panel": 12096,
+ "human_census_genes_enumerated": 319,
+ "human_census_genes_in_proteome": 319,
+ "sweep_db": "/Volumes/FANTOM/ION_CHANNEL_DATA/proteomes/s4/panel_refprot.fasta",
+ "sweep_db_seqs": 822499,
+ "sweep_db_bytes": 507204189,
+ "sweep_db_sha256": "366dd895ad6b9a0c0695c910a1a889e877594071ab7dfd4498d1f61380e97857",
+ "download_bytes": 268377683
+}

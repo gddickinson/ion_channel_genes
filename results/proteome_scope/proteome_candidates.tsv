@@ -1,0 +1,61 @@
+species	panel_taxid	upid	proteome_taxid	proteome_organism	in_release	selected	reviewed	busco_complete_pct	gene_count	protein_count	modified
+Escherichia coli	83333	UP000000625	83333	Escherichia coli (strain K12)	1	1	4403	100.0	4403	4403	2026-04-22
+Bacillus subtilis	1423	UP000001570	224308	Bacillus subtilis (strain 168)	1	1	4191	99.6	4288	4288	2026-05-16
+Streptomyces lividans	1916	UP000028682	457428	Streptomyces lividans TK24	1	1	0	99.7	7430	7430	2025-12-05
+Synechocystis sp. PCC 6803	1148	UP000001425	1111708	Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa)	1	1	1111	96.2	3508	3508	2026-04-05
+Gloeobacter violaceus	33072	UP000000557	251221	Gloeobacter violaceus (strain ATCC 29082 / PCC 7421)	1	1	442	91.8	4406	4406	2026-04-22
+Aliarcobacter butzleri	367737	UP000001136	367737	Aliarcobacter butzleri (strain RM4018)	1	1	226	98.2	2254	2254	2026-02-13
+Methanothermobacter thermautotrophicus	187420	UP000005223	187420	Methanothermobacter thermautotrophicus (strain ATCC 29096 / DSM 1053 / JCM 10044 / NBRC 100330 / Delta H)	1	1	623	96.5	1868	1868	2026-03-26
+Thermus thermophilus	274	UP000000532	300852	Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8)	1	1	441	87.9	2227	2227	2026-04-05
+Thermus thermophilus	274	UP000000592	262724	Thermus thermophilus (strain ATCC BAA-163 / DSM 7039 / HB27)	1	0	378	86.3	2200	2200	2026-01-26
+Saccharomyces cerevisiae	4932	UP000002311	559292	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	1	1	6067	99.6	6066	6067	2026-03-26
+Saccharomyces cerevisiae	4932	UP000008335	285006	Saccharomyces cerevisiae (strain RM11-1a)	1	0	199	95.0	5357	5357	2026-02-14
+Schizosaccharomyces pombe	4896	UP000002485	284812	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	1	1	5129	81.8	5129	5130	2026-03-26
+Arabidopsis thaliana	3702	UP000006548	3702	Arabidopsis thaliana	1	1	16345	100.0	27496	39272	2026-03-16
+Oryza sativa	4530	UP000059680	39947	Oryza sativa subsp. japonica	1	1	4184	84.3	43678	48896	2026-03-15
+Oryza sativa	4530	UP000007015	39946	Oryza sativa subsp. indica	1	0	751	93.4	37431	37440	2026-03-26
+Physcomitrium patens	3218	UP000006727	3218	Physcomitrium patens	1	1	156	88.7	31356	47782	2026-04-22
+Chlamydomonas reinhardtii	3055	UP000006906	3055	Chlamydomonas reinhardtii	1	1	109	98.9	17625	18840	2026-04-22
+Dictyostelium discoideum	44689	UP000002195	44689	Dictyostelium discoideum	1	1	4138	93.7	12718	12726	2026-04-22
+Paramecium tetraurelia	5888	UP000000600	5888	Paramecium tetraurelia	1	1	55	98.8	39350	39350	2026-04-22
+Tetrahymena thermophila	5911	UP000009168	312017	Tetrahymena thermophila (strain SB210)	1	1	96	98.2	26975	26975	2026-04-22
+Trypanosoma brucei	5691	UP000008524	185431	Trypanosoma brucei brucei (strain 927/4 GUTat10.1)	1	1	119	97.7	8561	8588	2026-03-26
+Plasmodium falciparum	5833	UP000001450	36329	Plasmodium falciparum (isolate 3D7)	1	1	318	99.1	5361	5361	2026-05-16
+Plasmodium falciparum	5833	UP000030673	5843	Plasmodium falciparum (isolate NF54)	1	0	14	80.0	5887	5920	2026-05-16
+Monosiga brevicollis	81824	UP000001357	81824	Monosiga brevicollis	1	1	35	78.8	9156	9156	2026-04-22
+Capsaspora owczarzaki	595528	UP000008743	595528	Capsaspora owczarzaki (strain ATCC 30864)	1	1	1	93.7	8738	9794	2026-04-22
+Amphimedon queenslandica	400682	UP000007879	400682	Amphimedon queenslandica	1	1	2	90.8	20174	22831	2026-04-22
+Trichoplax adhaerens	10228	UP000009022	10228	Trichoplax adhaerens	1	1	23	89.3	11518	11520	2026-04-22
+Nematostella vectensis	45351	UP000001593	45351	Nematostella vectensis	1	1	135	89.7	24428	24435	2026-04-22
+Hydra vulgaris	6087	UP001652625	6087	Hydra vulgaris	1	1	57	94.7	22468	28759	2026-04-22
+Caenorhabditis elegans	6239	UP000001940	6239	Caenorhabditis elegans	1	1	4487	100.0	19792	26629	2026-04-22
+Drosophila melanogaster	7227	UP000000803	7227	Drosophila melanogaster	1	1	3877	100.0	13814	21947	2026-05-16
+Daphnia pulex	6669	UP000000305	6669	Daphnia pulex	1	1	3	94.7	30118	30137	2026-05-16
+Lottia gigantea	225164	UP000030746	225164	Lottia gigantea	1	1	0	88.4	23671	23675	2026-04-22
+Aplysia californica	6500	UP000694888	6500	Aplysia californica	1	1	62	97.3	19368	23268	2026-04-22
+Lymnaea stagnalis	6523	UP001497497	6523	Lymnaea stagnalis	1	1	0	91.7	22445	22445	2026-04-22
+Strongylocentrotus purpuratus	7668	UP000007110	7668	Strongylocentrotus purpuratus	1	1	111	99.4	26461	34417	2026-04-22
+Branchiostoma floridae	7739	UP000001554	7739	Branchiostoma floridae	1	1	57	97.5	26616	38650	2026-04-22
+Ciona intestinalis	7719	UP000008144	7719	Ciona intestinalis	1	1	28	78.7	16680	17311	2026-04-22
+Petromyzon marinus	7757	UP001735300	7757	Petromyzon marinus	1	1	46	81.1	21315	37132	2026-05-16
+Callorhinchus milii	7868	UP000314986	7868	Callorhinchus milii	1	1	5	90.1	19409	49246	2026-04-22
+Danio rerio	7955	UP000000437	7955	Danio rerio	1	1	3385	99.1	26567	69241	2026-04-22
+Takifugu rubripes	31033	UP000005226	31033	Takifugu rubripes	1	1	175	92.8	21257	51079	2026-04-22
+Latimeria chalumnae	7897	UP000008672	7897	Latimeria chalumnae	1	1	19	89.1	19568	23431	2026-04-22
+Xenopus tropicalis	8364	UP000008143	8364	Xenopus tropicalis	1	1	1714	96.8	21732	37711	2026-04-22
+Anolis carolinensis	28377	UP000001646	28377	Anolis carolinensis	1	1	7	86.3	21494	32752	2026-04-22
+Gallus gallus	9031	UP000000539	9031	Gallus gallus	1	1	2318	98.2	18373	43712	2026-04-22
+Ornithorhynchus anatinus	9258	UP000002279	9258	Ornithorhynchus anatinus	1	1	47	85.6	17391	32824	2026-04-22
+Monodelphis domestica	13616	UP000002280	13616	Monodelphis domestica	1	1	43	87.4	21225	36220	2026-04-22
+Mus musculus	10090	UP000000589	10090	Mus musculus	1	1	17277	99.8	21860	54855	2026-04-22
+Rattus norvegicus	10116	UP000002494	10116	Rattus norvegicus	1	1	8228	95.9	21471	52824	2026-04-05
+Homo sapiens	9606	UP000005640	9606	Homo sapiens	1	1	20416	99.5	20652	147520	2026-04-22
+Influenza A virus	11320	UP000009255	211044	Influenza A virus (strain A/Puerto Rico/8/1934 H1N1)	1	1	13		13	13	2026-04-22
+Influenza A virus	11320	UP000131152	93838	Influenza A virus (strain A/Goose/Guangdong/1/1996 H5N1 genotype Gs/Gd)	1	0	13		13	13	2026-04-22
+Human immunodeficiency virus type 1	11676	UP000002241	11706	Human immunodeficiency virus type 1 group M subtype B (isolate HXB2)	1	1	9		9	9	2026-04-22
+Human immunodeficiency virus type 1	11676	UP000007420	388818	Human immunodeficiency virus type 1 group N (isolate YBF30)	1	0	9		9	9	2026-04-22
+Human immunodeficiency virus type 1	11676	UP000007689	327105	Human immunodeficiency virus type 1 group O (isolate ANT70)	1	0	9		9	9	2026-04-22
+Human immunodeficiency virus type 1	11676	UP000105453	11706	Human immunodeficiency virus type 1 group M subtype B (isolate HXB2)	1	0	5		9	9	2026-04-22
+Human immunodeficiency virus type 1	11676	UP000134285	11703	Human immunodeficiency virus type 1 group M subtype A (isolate U455)	1	0	6		6	6	2026-04-22
+Human immunodeficiency virus type 1	11676	UP000107373	540995	HIV-1 CRF03_AB	1	0	0		9	9	2026-04-22
+Severe acute respiratory syndrome coronavirus 2	2697049	UP000464024	2697049	Severe acute respiratory syndrome coronavirus 2	1	1	17		17	17	2026-04-22

@@ -149,6 +149,15 @@ poor (H7) and lineages with no close reference. Needs S4's manifest.
 panel in `src/utils/species.py`, with assembly accession, source, date and
 gene-set provenance per row (D9). Needs the external drive.
 
+**Done 2026-09-28** (D35): `scripts/s4_proteomes.py all` → `results/proteome_scope/`.
+Candidates are reference proteomes the pinned release ships; selection is a
+rule; species without one are `genome_only`, never dropped; every file is
+checked against the metalink MD5 and the README counts. Outputs S3b uses:
+`<data root>/proteomes/s4/panel_refprot.fasta` and the manifest's `upid` per
+species. Outputs S5 uses: the manifest's `assembly_id` (the assembly the gene
+set was built on; `current_assembly` where it is superseded), level, N50 and
+annotation source.
+
 ---
 
 ## S5 — Genomic sweep for what the proteomes miss

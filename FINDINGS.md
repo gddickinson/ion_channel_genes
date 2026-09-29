@@ -355,3 +355,35 @@ score. The channel census does not change — these proteins were never
 counted as channels — but a classification that names a family should name
 the right one, and one that can only choose among the families it knows
 needs the plausible wrong answers catalogued too.
+
+---
+
+## S4 — what "absent" will mean (2026-09-28)
+
+**Every claim that a lineage lacks a channel family will now be a claim
+about 52 named organisms and nothing wider.** The panel runs from *E. coli*
+and an archaeon through yeasts, plants, ciliates, the malaria parasite, the
+animals' single-celled relatives, a sponge, a placozoan and a sea anemone, to
+fourteen vertebrates and three viruses. For 50 of them the census will
+search UniProt's reference gene set: 822,499 genes in total, one protein per
+gene, from the same database release the census was built from. The other
+two are the marbled electric ray, whose electric organ gave biochemists
+the nicotinic receptor, and the garden snail that carries the
+peptide-gated FaNaC channel. Neither has a reference gene set, only a
+genome, so a channel in either can only be found by searching its DNA
+*(pending: S5)*.
+
+**The gene sets are not equally good, and the table says which are weaker.**
+Fourteen of them miss more than a tenth of the genes every organism in
+their lineage is expected to have. They include the choanoflagellate
+*Monosiga* and the sea squirt *Ciona* (both under 80 %), the lamprey, the
+platypus and rice. An apparent loss in one of these is weaker evidence than
+the same loss in mouse or fly *(pending: S5, which decides absences against
+the genome)*.
+
+**Viral channels were never searched, and this was found by accident.** The
+influenza M2 proton channel is in the influenza gene set but not in the
+census, because the census never searched the protein signatures that
+define the viral channels. It is the only channel family with this gap. The
+profile sweep will cover these three viruses *(pending: S3b)*. A fix to the
+census itself is an open task.

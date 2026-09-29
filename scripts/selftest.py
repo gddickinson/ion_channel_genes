@@ -244,6 +244,35 @@ check("a profile call inside S2's superfamily resolves it",
             {"p_call": "family", "p_family": "nachr", "p_superfamily": "cysloop"}, {})["v3_family"],
       "nachr")
 
+# ------------------------------------------------------------ S4 proteome scope
+print("proteome scope (S4)")
+from scripts import s4_proteome_lib as _s4                    # noqa: E402
+
+_c = lambda upid, rev, busco, genes: {"upid": upid, "reviewed": rev,  # noqa: E731
+                                      "busco_complete_pct": busco, "gene_count": genes}
+check("selection: most Swiss-Prot entries wins over a better BUSCO (the model strain)",
+      _s4.select_proteome([_c("UP2", 199, 95.0, 5357), _c("UP1", 6067, 90.0, 6066)])["upid"], "UP1")
+check("selection is total: an exact tie falls to the lower UPID",
+      _s4.select_proteome([_c("UP9", 5, None, 9), _c("UP3", 5, None, 9)])["upid"], "UP3")
+check("no candidate in the release → no proteome (the row becomes genome_only)",
+      _s4.select_proteome([]), None)
+check("a failed MD5 is never waived, even for a reissued file",
+      _s4.file_verdict(False, True, True, 10, 10), "FAIL:md5")
+check("counts off the README without a reissue date → FAIL",
+      _s4.file_verdict(True, False, False, 10, 10), "FAIL:counts")
+check("a reissued file passes only if its count is the declared gene count (D35)",
+      (_s4.file_verdict(True, False, True, 10, 10), _s4.file_verdict(True, False, True, 11, 10)),
+      ("reissued", "FAIL:counts"))
+check("README statistics parse (upid → counts)",
+      _s4.parse_readme("Release 2026_03, x\nProteome_ID\tTax_ID\tOSCODE\tSUPERREGNUM\t#(1)\t#(2)"
+                       "\t#(3)\tSpecies Name\nUP000005640\t9606\tHUMAN\teukaryota\t1\t2\t3\tHomo"
+                       )[1]["UP000005640"]["n_gene2acc"], 3)
+_a = lambda acc, ann, lvl, n50: {"accession": acc, "annotated": ann, "level": lvl,  # noqa: E731
+                                 "scaffold_n50": n50}
+check("assembly rank: annotated beats a better unannotated assembly",
+      max([_a("GCA_1", False, "Chromosome", 10**8), _a("GCA_2", True, "Scaffold", 10**5)],
+          key=_s4.assembly_rank)["accession"], "GCA_2")
+
 print()
 if FAILURES:
     print(f"{len(FAILURES)} invariant(s) FAILED: {', '.join(FAILURES)}")
