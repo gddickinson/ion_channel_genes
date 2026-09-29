@@ -564,6 +564,18 @@ nmda	iglur	Q12879	R1	9606	Homo sapiens
 nmda	iglur	Q13224	R1	9606	Homo sapiens				
 nmda	iglur	Q14957	R1	9606	Homo sapiens				
 nmda	iglur	Q8TCU5	R1	9606	Homo sapiens				
+nonchannel_abc_transporter	abc_channel	O15438	R1	9606	Homo sapiens				
+nonchannel_abc_transporter	abc_channel	O15439	R1	9606	Homo sapiens				
+nonchannel_abc_transporter	abc_channel	O15440	R1	9606	Homo sapiens				
+nonchannel_abc_transporter	abc_channel	O95255	R1	9606	Homo sapiens				
+nonchannel_abc_transporter	abc_channel	P33527	R1	9606	Homo sapiens				
+nonchannel_abc_transporter	abc_channel	Q5T3U5	R1	9606	Homo sapiens				
+nonchannel_abc_transporter	abc_channel	Q92887	R1	9606	Homo sapiens				
+nonchannel_abc_transporter	abc_channel	Q96J65	R1	9606	Homo sapiens				
+nonchannel_abc_transporter	abc_channel	Q96J66	R1	9606	Homo sapiens				
+nonchannel_abc_transporter	abc_channel	P08716	R2						
+nonchannel_abc_transporter	abc_channel	P60752	R2						
+nonchannel_abc_transporter	abc_channel	P68579	R2						
 nonchannel_achbp	cysloop	P58154	R2						
 nonchannel_class_c_gpcr	iglur	O00222	R1	9606	Homo sapiens				
 nonchannel_class_c_gpcr	iglur	O15303	R1	9606	Homo sapiens				

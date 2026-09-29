@@ -128,9 +128,11 @@ def search(jobs: int, cpu: int, only: set[str], db: Path | None = None,
                 ("profiles built", True),
                 (f"census sweep {i}/{len(profs)} profiles", i == len(profs))],
                 workers=jobs)
+    if only:        # merge into the record of the full sweep
+        rows += [r for r in read_tsv(OUT_DIR / "sweep_runs.tsv")
+                 if r["profile"] not in only]
     rows.sort(key=lambda r: r["profile"])
-    if not only:
-        write_tsv(OUT_DIR / "sweep_runs.tsv", RUN_FIELDS, rows)
+    write_tsv(OUT_DIR / "sweep_runs.tsv", RUN_FIELDS, rows)
     return rows
 
 

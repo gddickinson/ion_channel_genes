@@ -51,7 +51,7 @@ A_s1_panel	P51798	clc_transporter	clc	loo	decoy_ok	family	clc_transporter	clc	hi
 A_s1_panel	Q5XXA6	ano_channel	tmem16_like	loo	correct	family	ano_channel	tmem16_like	high	1349.6	0.8697	0.9067	ano_scramblase	902.3	0.3314	ano_channel	ano_channel wins by 447.3 bits (33.1% of 1349.6) over 87% of the profile
 A_s1_panel	Q4KMQ2	ano_scramblase	tmem16_like	loo	correct	family	ano_scramblase	tmem16_like	high	1036.7	0.9628	0.9681	ano_channel	681.4	0.3427	ano_scramblase	ano_scramblase wins by 355.3 bits (34.3% of 1036.7) over 96% of the profile
 A_s1_panel	O76090	bestrophin	bestrophin	loo	correct	family	bestrophin	bestrophin	high	851.3	0.9981	0.9265			1.0	bestrophin	bestrophin wins by 851.3 bits (100.0% of 851.3) over 100% of the profile
-A_s1_panel	P13569	cftr	abc_channel	loo	correct	family	cftr	abc_channel	high	3236.9	1.0	1.0	assoc_sur	479.5	0.8519	cftr	cftr wins by 2757.4 bits (85.2% of 3236.9) over 100% of the profile
+A_s1_panel	P13569	cftr	abc_channel	loo	correct	family	cftr	abc_channel	high	3236.9	1.0	1.0	nonchannel_abc_transporter	970.5	0.7002	cftr	cftr wins by 2266.4 bits (70.0% of 3236.9) over 100% of the profile
 A_s1_panel	Q9H313	tweety	tweety	loo	correct	family	tweety	tweety	high	704.3	0.8552	1.0			1.0	tweety	tweety wins by 704.3 bits (100.0% of 704.3) over 86% of the profile
 A_s1_panel	O94886	osca_tmem63	tmem16_like	loo	correct	family	osca_tmem63	tmem16_like	high	1051.8	0.966	0.9616			1.0	osca_tmem63	osca_tmem63 wins by 1051.8 bits (100.0% of 1051.8) over 97% of the profile
 A_s1_panel	Q8TDI8	tmc	tmem16_like	loo	correct	family	tmc	tmem16_like	high	781.4	0.8652	0.9697			1.0	tmc	tmc wins by 781.4 bits (100.0% of 781.4) over 87% of the profile
@@ -79,7 +79,7 @@ A_s1_panel	Q02641	assoc_cav_aux	ploop	loo	decoy_ok	family	assoc_cav_aux	ploop	hi
 A_s1_panel	P54289	assoc_cav_aux	ploop	loo	decoy_ok	family	assoc_cav_aux	ploop	high	357.8	0.9623	0.9646			1.0	assoc_cav_aux	assoc_cav_aux wins by 357.8 bits (100.0% of 357.8) over 96% of the profile
 A_s1_panel	Q9Y698	assoc_cav_aux	ploop	loo	decoy_ok	family	assoc_cav_aux	ploop	high	216.8	0.5777	0.9628			1.0	assoc_cav_aux	assoc_cav_aux wins by 216.8 bits (100.0% of 216.8) over 58% of the profile
 A_s1_panel	Q07699	assoc_nav_beta	ploop	loo	decoy_ok	family	assoc_nav_beta	ploop	high	155.3	0.9095	0.9862			1.0	assoc_nav_beta	assoc_nav_beta wins by 155.3 bits (100.0% of 155.3) over 91% of the profile
-A_s1_panel	Q09428	assoc_sur	abc_channel	loo	decoy_ok	family	assoc_sur	abc_channel	high	2477.7	0.9994	0.9994	cftr	517.2	0.7913	assoc_sur	assoc_sur wins by 1960.5 bits (79.1% of 2477.7) over 100% of the profile
+A_s1_panel	Q09428	assoc_sur	abc_channel	loo	decoy_ok	family	assoc_sur	abc_channel	high	2477.7	0.9994	0.9994	nonchannel_abc_transporter	1146.8	0.5372	assoc_sur	assoc_sur wins by 1330.9 bits (53.7% of 2477.7) over 100% of the profile
 A_s1_panel	Q13586	assoc_stim	orai	loo	decoy_ok	family	assoc_stim	orai	high	645.5	0.681	0.746			1.0	assoc_stim	assoc_stim wins by 645.5 bits (100.0% of 645.5) over 68% of the profile
 A_s1_panel	Q9BPX6	assoc_mcu_reg	mcu	loo	decoy_ok	family	assoc_mcu_reg	mcu	high	119.0	0.6264	0.687			1.0	assoc_mcu_reg	assoc_mcu_reg wins by 119.0 bits (100.0% of 119.0) over 63% of the profile
 A_s1_panel	Q9H4I9	assoc_mcu_reg	mcu	loo	decoy_ok	no_hit			none								no profile reported a hit
@@ -338,17 +338,17 @@ B_orthologues	Q8CEG0	pannexin	innexin_like		correct	family	pannexin	innexin_like
 B_orthologues	Q9JIP4	pannexin	innexin_like		correct	family	pannexin	innexin_like	high	650.4	0.991	1.0			1.0	pannexin	pannexin wins by 650.4 bits (100.0% of 650.4) over 99% of the profile
 B_orthologues	P60570	pannexin	innexin_like		correct	family	pannexin	innexin_like	high	659.5	0.991	1.0			1.0	pannexin	pannexin wins by 659.5 bits (100.0% of 659.5) over 99% of the profile
 B_orthologues	P60571	pannexin	innexin_like		correct	family	pannexin	innexin_like	high	671.3	0.9932	0.7181			1.0	pannexin	pannexin wins by 671.3 bits (100.0% of 671.3) over 99% of the profile
-B_orthologues	Q2QLF9	cftr	abc_channel		correct	family	cftr	abc_channel	high	3232.6	1.0	1.0	assoc_sur	475.9	0.8528	cftr	cftr wins by 2756.7 bits (85.3% of 3232.6) over 100% of the profile
-B_orthologues	Q5D1Z7	cftr	abc_channel		correct	family	cftr	abc_channel	high	3065.5	1.0	1.0	assoc_sur	473.3	0.8456	cftr	cftr wins by 2592.2 bits (84.6% of 3065.5) over 100% of the profile
-B_orthologues	Q5U820	cftr	abc_channel		correct	family	cftr	abc_channel	high	3134.0	1.0	1.0	assoc_sur	473.1	0.849	cftr	cftr wins by 2660.9 bits (84.9% of 3134.0) over 100% of the profile
-B_orthologues	Q9TSP5	cftr	abc_channel		correct	family	cftr	abc_channel	high	3237.2	1.0	1.0	assoc_sur	486.0	0.8499	cftr	cftr wins by 2751.2 bits (85.0% of 3237.2) over 100% of the profile
-B_orthologues	Q9TUQ2	cftr	abc_channel		correct	family	cftr	abc_channel	high	3235.5	1.0	1.0	assoc_sur	486.2	0.8497	cftr	cftr wins by 2749.3 bits (85.0% of 3235.5) over 100% of the profile
-B_orthologues	Q2QLH0	cftr	abc_channel		correct	family	cftr	abc_channel	high	3174.7	1.0	1.0	assoc_sur	472.9	0.851	cftr	cftr wins by 2701.8 bits (85.1% of 3174.7) over 100% of the profile
-B_orthologues	Q6PQZ2	cftr	abc_channel		correct	family	cftr	abc_channel	high	3197.4	1.0	1.0	assoc_sur	484.7	0.8484	cftr	cftr wins by 2712.7 bits (84.8% of 3197.4) over 100% of the profile
-B_orthologues	Q7JII8	cftr	abc_channel		correct	family	cftr	abc_channel	high	3236.2	1.0	1.0	assoc_sur	486.0	0.8498	cftr	cftr wins by 2750.2 bits (85.0% of 3236.2) over 100% of the profile
-B_orthologues	Q2QLC5	cftr	abc_channel		correct	family	cftr	abc_channel	high	3091.8	1.0	1.0	assoc_sur	461.6	0.8507	cftr	cftr wins by 2630.2 bits (85.1% of 3091.8) over 100% of the profile
-B_orthologues	Q7JII7	cftr	abc_channel		correct	family	cftr	abc_channel	high	3236.2	1.0	1.0	assoc_sur	486.0	0.8498	cftr	cftr wins by 2750.2 bits (85.0% of 3236.2) over 100% of the profile
-B_orthologues	Q2QLE5	cftr	abc_channel		correct	family	cftr	abc_channel	high	3231.7	1.0	1.0	assoc_sur	476.8	0.8525	cftr	cftr wins by 2754.9 bits (85.2% of 3231.7) over 100% of the profile
+B_orthologues	Q2QLF9	cftr	abc_channel		correct	family	cftr	abc_channel	high	3232.6	1.0	1.0	nonchannel_abc_transporter	961.9	0.7024	cftr	cftr wins by 2270.7 bits (70.2% of 3232.6) over 100% of the profile
+B_orthologues	Q5D1Z7	cftr	abc_channel		correct	family	cftr	abc_channel	high	3065.5	1.0	1.0	nonchannel_abc_transporter	952.5	0.6893	cftr	cftr wins by 2113.0 bits (68.9% of 3065.5) over 100% of the profile
+B_orthologues	Q5U820	cftr	abc_channel		correct	family	cftr	abc_channel	high	3134.0	1.0	1.0	nonchannel_abc_transporter	971.1	0.6901	cftr	cftr wins by 2162.9 bits (69.0% of 3134.0) over 100% of the profile
+B_orthologues	Q9TSP5	cftr	abc_channel		correct	family	cftr	abc_channel	high	3237.2	1.0	1.0	nonchannel_abc_transporter	975.1	0.6988	cftr	cftr wins by 2262.1 bits (69.9% of 3237.2) over 100% of the profile
+B_orthologues	Q9TUQ2	cftr	abc_channel		correct	family	cftr	abc_channel	high	3235.5	1.0	1.0	nonchannel_abc_transporter	975.9	0.6984	cftr	cftr wins by 2259.6 bits (69.8% of 3235.5) over 100% of the profile
+B_orthologues	Q2QLH0	cftr	abc_channel		correct	family	cftr	abc_channel	high	3174.7	1.0	1.0	nonchannel_abc_transporter	970.6	0.6943	cftr	cftr wins by 2204.1 bits (69.4% of 3174.7) over 100% of the profile
+B_orthologues	Q6PQZ2	cftr	abc_channel		correct	family	cftr	abc_channel	high	3197.4	1.0	1.0	nonchannel_abc_transporter	964.5	0.6983	cftr	cftr wins by 2232.9 bits (69.8% of 3197.4) over 100% of the profile
+B_orthologues	Q7JII8	cftr	abc_channel		correct	family	cftr	abc_channel	high	3236.2	1.0	1.0	nonchannel_abc_transporter	975.1	0.6987	cftr	cftr wins by 2261.1 bits (69.9% of 3236.2) over 100% of the profile
+B_orthologues	Q2QLC5	cftr	abc_channel		correct	family	cftr	abc_channel	high	3091.8	1.0	1.0	nonchannel_abc_transporter	955.5	0.691	cftr	cftr wins by 2136.3 bits (69.1% of 3091.8) over 100% of the profile
+B_orthologues	Q7JII7	cftr	abc_channel		correct	family	cftr	abc_channel	high	3236.2	1.0	1.0	nonchannel_abc_transporter	975.1	0.6987	cftr	cftr wins by 2261.1 bits (69.9% of 3236.2) over 100% of the profile
+B_orthologues	Q2QLE5	cftr	abc_channel		correct	family	cftr	abc_channel	high	3231.7	1.0	1.0	nonchannel_abc_transporter	968.6	0.7003	cftr	cftr wins by 2263.1 bits (70.0% of 3231.7) over 100% of the profile
 B_orthologues	Q9Z2L0	vdac	porin		correct	family	vdac	porin	high	364.1	0.9964	1.0			1.0	vdac	vdac wins by 364.1 bits (100.0% of 364.1) over 100% of the profile
 B_orthologues	Q60932	vdac	porin		correct	family	vdac	porin	high	364.5	0.9964	0.9561			1.0	vdac	vdac wins by 364.5 bits (100.0% of 364.5) over 100% of the profile
 B_orthologues	P45879	vdac	porin		correct	family	vdac	porin	high	367.0	0.9964	1.0			1.0	vdac	vdac wins by 367.0 bits (100.0% of 367.0) over 100% of the profile

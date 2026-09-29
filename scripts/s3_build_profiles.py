@@ -31,8 +31,8 @@ if str(ROOT) not in sys.path:
 
 from scripts import s0_lib  # noqa: E402
 from scripts.s3_hmm_lib import (  # noqa: E402
-    LIVE, OUT_DIR, census_v2_fasta, iter_fasta, read_fasta, s3_dir, sha256,
-    write_fasta, write_tsv,
+    LIVE, OUT_DIR, census_v2_fasta, iter_fasta, read_fasta, read_tsv, s3_dir,
+    sha256, write_fasta, write_tsv,
 )
 from scripts.s3_seed_spec import (  # noqa: E402
     build_manifest, seed_sequence_cache, write_manifest,
@@ -123,12 +123,27 @@ def main() -> int:
     ap.add_argument("--only", default="", help="comma-separated families")
     a = ap.parse_args()
 
+    only = set(filter(None, a.only.split(",")))
     manifest = build_manifest(a.refresh_human)
+    kept_builds: list[dict] = []
+    if only:
+        # Add or rebuild only these families; every other family keeps the
+        # seeds and profile it was built with (S3a2: the 90 S3a profiles are
+        # frozen — their R3 seeds were drawn from S2 r1 calls).
+        frozen = [r for r in read_tsv(OUT_DIR / "seed_manifest.tsv")
+                  if r["family"] not in only]
+        fresh = [r for r in manifest if r["family"] in only]
+        clash = {r["accession"] for r in fresh} & {r["accession"] for r in frozen}
+        if clash:
+            raise SystemExit(f"new seeds already seed a frozen family: {sorted(clash)}")
+        manifest = frozen + fresh
+        kept_builds = [r for r in read_tsv(OUT_DIR / "profile_build.tsv")
+                       if r["family"] not in only]
     print(f"[seeds] {len(manifest)} seeds → {write_manifest(manifest)}")
-    seqs = gather_sequences({r["accession"] for r in manifest})
+    seqs = gather_sequences({r["accession"] for r in manifest
+                             if not only or r["family"] in only})
 
     jobs = []
-    only = set(filter(None, a.only.split(",")))
     for fam in registry.families():
         if only and fam.key not in only:
             continue
@@ -158,7 +173,7 @@ def main() -> int:
                   f"states ({row['seconds']} s)", flush=True)
             s0_lib.live_progress(LIVE, "S3a", [
                 (f"profiles built {i}/{len(jobs)}", i == len(jobs))])
-    rows.sort(key=lambda r: r["family"])
+    rows = sorted(rows + kept_builds, key=lambda r: r["family"])
     write_tsv(OUT_DIR / "profile_build.tsv", BUILD_FIELDS, rows)
 
     prof_dir = s3_dir("profiles")

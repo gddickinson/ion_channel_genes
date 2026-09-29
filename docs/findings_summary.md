@@ -25,9 +25,9 @@ a channel fold count, do the scramblases, do the large-pore channels, do the
 aquaporins, do the viral and bacterial channels. This project answers all
 six in writing before counting anything.
 
-Under those answers the catalogue holds **90 families in 25 superfamilies**,
+Under those answers the catalogue holds **91 families in 25 superfamilies**,
 of which 68 are ion channels covering **320 human pore-forming genes**. The
-other 22 families are in the catalogue precisely so they can be excluded.
+other 23 families are in the catalogue precisely so they can be excluded.
 
 ## Findings so far
 

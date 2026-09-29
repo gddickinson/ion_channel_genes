@@ -136,6 +136,39 @@ FAMILIES: list[CF] = [
                "discriminator is a single accession."),
     ),
     CF(
+        # A decoy for profile methods, not for domain rules (S3a2). The S3a
+        # best-profile assignment scores a record against every catalogued
+        # family and calls the best one: with no generic ABC transporter on
+        # the menu, the two-seed SUR profile won 525 census records, 508 of
+        # them bacterial peptide-exporting ABC transporters. Agreement
+        # between instruments is evidence only when every family that could
+        # score has a profile.
+        key="nonchannel_abc_transporter",
+        name="ABC transporters that are neither CFTR nor a sulfonylurea receptor",
+        superfamily="abc_channel", status=St.NON_CHANNEL_HOMOLOG, fold=Fold.ABC,
+        selectivity=Sel.UNKNOWN, gating=_NONE, stoichiometry="monomer or dimer",
+        signatures=(Sig("pfam", "PF00664", "ABC_membrane", L.SHARED_WITH_DECOY, 1, P.DB),
+                    Sig("pfam", "PF00005", "ABC_tran", L.SHARED_WITH_DECOY, 1, P.DB),
+                    Sig("pfam", "PF03412", "Peptidase_C39", L.ACCESSORY, 1, P.DB,
+                        "the bacterial peptide-processing exporters (HlyB, SunT) "
+                        "the SUR profile was winning")),
+        exemplars=(Ex("Hs_ABCC1", "ABCC1", "Homo sapiens", "P33527",
+                      "MRP1 — the closest human relative of SUR, TMD0 included"),
+                   Ex("Ec_HlyB", "hlyB", "Escherichia coli", "P08716",
+                      "C39-peptidase ABC exporter"),
+                   Ex("Bs_SunT", "sunT", "Bacillus subtilis", "P68579",
+                      "C39-peptidase ABC exporter"),
+                   Ex("Ec_MsbA", "msbA", "Escherichia coli", "P60752",
+                      "bacterial ABC half-transporter")),
+        human_genes=("ABCC1", "ABCC2", "ABCC3", "ABCC4", "ABCC5", "ABCC6",
+                     "ABCC10", "ABCC11", "ABCC12"),
+        confusable_with=("cftr", "assoc_sur", "H11"),
+        provenance=P.DB,
+        notes=("ABCC family members other than CFTR (ABCC7) and SUR1/2 "
+               "(ABCC8/9), plus bacterial exporters. Exemplar Pfam "
+               "architectures confirmed live 2026-09-28."),
+    ),
+    CF(
         key="assoc_stim",
         name="STIM proteins (STIM1, STIM2)",
         superfamily="orai", status=St.CHANNEL_ASSOCIATED, fold=Fold.UNKNOWN,

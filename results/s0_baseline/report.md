@@ -1,24 +1,24 @@
 # S0 — catalogue verification baseline
 
-*Generated 2026-08-19 15:36:50 by `scripts/s0_report.py` from the tables in `results/s0_baseline`. Nothing here is hand-written (D13). 769 live requests, 0 failure(s), 666.3 s.*
+*Generated 2026-09-28 21:55:04 by `scripts/s0_report.py` from the tables in `results/s0_baseline`. Nothing here is hand-written (D13). 793 live requests, 0 failure(s), 752.5 s.*
 
 ## What the catalogue claims
 
 | quantity | n |
 |---|---|
 | superfamilies | 25 |
-| families total | 90 |
+| families total | 91 |
 | families census | 68 |
-| families control | 22 |
+| families control | 23 |
 | human genes census | 320 |
-| human genes catalogued | 459 |
-| exemplars | 162 |
-| exemplars with accession | 112 |
-| signatures | 115 |
+| human genes catalogued | 468 |
+| exemplars | 166 |
+| exemplars with accession | 116 |
+| signatures | 121 |
 | shared signatures | 26 |
 | hazards | 16 |
 
-The census denominator is **320 human pore-forming genes** across **68 families** in **25 superfamilies**, with **22 further families catalogued specifically so they can be excluded** — auxiliary subunits, domain-sharing non-channels and channels that are not ion channels.
+The census denominator is **320 human pore-forming genes** across **68 families** in **25 superfamilies**, with **23 further families catalogued specifically so they can be excluded** — auxiliary subunits, domain-sharing non-channels and channels that are not ion channels.
 
 ## 1. Internal consistency
 
@@ -26,30 +26,30 @@ The census denominator is **320 human pore-forming genes** across **68 families*
 
 ## 2. Pfam accessions
 
-115 distinct accessions declared across the catalogue; **115 verified (100 %)**, 0 missing from InterPro, 0 carrying a different short name.
+121 distinct accessions declared across the catalogue; **121 verified (100 %)**, 0 missing from InterPro, 0 carrying a different short name.
 
 **The ten largest search spaces** — how many UniProt proteins carry each signature. This is the census's raw denominator, and the reason S2 is a task of its own:
 
 | accession | name | UniProt proteins | families |
 |---|---|---|---|
-| PF00005 | ABC_tran | 1,655,325 | 2 |
-| PF12796 | Ank_2 | 542,446 | 4 |
-| PF13855 | LRR_8 | 363,742 | 1 |
-| PF00664 | ABC_membrane | 291,379 | 2 |
-| PF00571 | CBS | 249,577 | 2 |
-| PF00248 | Aldo_ket_red | 239,012 | 1 |
+| PF00005 | ABC_tran | 1,659,432 | 3 |
+| PF12796 | Ank_2 | 542,452 | 4 |
+| PF13855 | LRR_8 | 364,110 | 1 |
+| PF00664 | ABC_membrane | 291,689 | 3 |
+| PF00571 | CBS | 250,156 | 2 |
+| PF00248 | Aldo_ket_red | 239,151 | 1 |
 | PF07686 | V-set | 217,115 | 1 |
-| PF00023 | Ank | 210,168 | 1 |
-| PF00520 | Ion_trans | 206,115 | 20 |
-| PF00027 | cNMP_binding | 184,852 | 3 |
+| PF00023 | Ank | 210,260 | 1 |
+| PF00520 | Ion_trans | 206,358 | 20 |
+| PF00027 | cNMP_binding | 185,042 | 3 |
 
 ## 3. Exemplars
 
-162 exemplars declared; 155 resolved cleanly, 0 unresolvable, 0 with a declared accession that names a different gene, 0 where UniProt's primary symbol differs from the catalogue's.
+166 exemplars declared; 159 resolved cleanly, 0 unresolvable, 0 with a declared accession that names a different gene, 0 where UniProt's primary symbol differs from the catalogue's.
 
 | status | n |
 |---|---|
-| ok | 155 |
+| ok | 159 |
 | NO_GENE_NAME_IN_UNIPROT | 7 |
 
 Every exemplar that did not resolve cleanly:
@@ -64,11 +64,11 @@ Every exemplar that did not resolve cleanly:
 | bestrophin | Kp_BEST | best | Klebsiella pneumoniae | W9BH30 | W9BH30 | — | NO_GENE_NAME_IN_UNIPROT |
 | nonchannel_achbp | Ls_AChBP | achbp | Lymnaea stagnalis | P58154 | P58154 | — | NO_GENE_NAME_IN_UNIPROT |
 
-`reference_panel.fasta` holds 162 sequences — the panel the classifier's reference tier scores against.
+`reference_panel.fasta` holds 166 sequences — the panel the classifier's reference tier scores against.
 
 ## 4. Declared architecture vs observed
 
-162 exemplars had their Pfam architecture re-derived. **128 match the catalogue's declaration; 34 do not.**
+166 exemplars had their Pfam architecture re-derived. **129 match the catalogue's declaration; 37 do not.**
 
 A mismatch is not automatically an error in the catalogue — a signature declared for a family need not be present on every member, and that is exactly what hazard **H7** records for the TRP families. It is, however, always something a person should look at.
 
@@ -106,8 +106,11 @@ A mismatch is not automatically an error in the catalogue — a signature declar
 | assoc_cav_aux | Hs_CACNB1 | PF00822,PF08473 | — |
 | assoc_cav_aux | Hs_CACNA2D1 | PF00625,PF00822,PF12052 | PF00092,PF08399,PF30670 |
 | assoc_cav_aux | Hs_CACNG2 | PF00625,PF08473,PF12052 | — |
+| nonchannel_abc_transporter | Hs_ABCC1 | PF03412 | PF24357 |
+| nonchannel_abc_transporter | Ec_MsbA | PF03412 | — |
 | assoc_mcu_reg | Hs_MICU1 | PF10161 | PF13202 |
 | assoc_mcu_reg | Hs_SMDT1 | PF13833 | — |
+| nonchannel_kctd | Hs_KCTD1 | PF23110,PF31093,PF31099,PF31104 | — |
 
 ## 5. Shared signatures — the hazard registry's evidence
 
@@ -123,13 +126,13 @@ A mismatch is not automatically an error in the catalogue — a signature declar
 | PF07885 | kca_sk,k2p,kcsa_prok,iglur_prok | channel |
 | PF10613 | ampa,kainate,nmda,delta_glur | channel,channel_contested |
 | PF12796 | trpc,trpv,trpa,trpn | channel |
+| PF00005 | cftr,assoc_sur,nonchannel_abc_transporter | channel,channel_associated,non_channel_homolog |
 | PF00027 | kv_eag,cng,hcn | channel |
 | PF00654 | clc_channel,clc_transporter,clc_prokaryotic | channel,transporter |
+| PF00664 | cftr,assoc_sur,nonchannel_abc_transporter | channel,channel_associated,non_channel_homolog |
 | PF00858 | enac,asic,deg_invertebrate | channel |
 | PF02214 | kv_shaker,kv_modifier,nonchannel_kctd | channel,non_channel_homolog |
 | PF02815 | itpr,ryr,nonchannel_pomt | channel,non_channel_homolog |
-| PF08016 | trpml,trpp,assoc_polycystin1 | channel,channel_associated |
-| PF00005 | cftr,assoc_sur | channel,channel_associated |
 
 ## 6. Taxonomy
 

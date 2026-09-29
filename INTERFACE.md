@@ -36,9 +36,9 @@
 ## `src/catalogue/` — the project's definition of its own subject
 
 **The single place any channel family, signature, size band or exemplar is
-declared.** Nothing else in `src/` hard-codes a gene name. 90 families in 25
+declared.** Nothing else in `src/` hard-codes a gene name. 91 families in 25
 superfamilies, of which 68 are census families covering 320 human genes; the
-other 22 exist so they can be excluded.
+other 23 exist so they can be excluded.
 
 | File | Contents |
 |------|----------|
@@ -50,9 +50,9 @@ other 22 exist so they can be excluded.
 | `tmem16_like.py` | Anoctamin channels, anoctamin scramblases, OSCA/TMEM63, TMC — one fold, `alignable=False`. |
 | `mechano.py` | Piezo, MscL, MscS. |
 | `largepore.py` | Connexins; the innexin/pannexin/LRRC8 clan; CALHM. |
-| `intracellular.py` | ITPR, RYR (the parent project's whole subject, here two families of ninety), TRIC, MCU, VDAC, TMEM175. |
+| `intracellular.py` | ITPR, RYR (the parent project's whole subject, here two families of ninety-one), TRIC, MCU, VDAC, TMEM175. |
 | `other.py` | ORAI, Hv1, otopetrins, CLIC, viroporins. |
-| `controls.py` | The 22 non-census families: auxiliary subunits, domain-sharing non-channels (KCTD, class C GPCRs, AChBP, POMT, VSP), transporters, and the out-of-scope channels (aquaporins, bacterial porins, gasdermins). |
+| `controls.py` | The 23 non-census families: auxiliary subunits, domain-sharing non-channels (KCTD, class C GPCRs, AChBP, the generic ABC-transporter decoy (S3a2), POMT, VSP), transporters, and the out-of-scope channels (aquaporins, bacterial porins, gasdermins). |
 | `hazards.py` | **The hazard registry** — 16 recorded ways to classify wrongly, each with the families involved, the shared evidence, the discriminating positive test, and the module that owns it. |
 | `registry.py` | Assembly and lookup: `CATALOGUE`, `SUPERFAMILIES`, `census_families()`, `control_families()`, `human_genes()`, `signature_index()`, `shared_signatures()`, `pore_signatures()` (the H7 fix), `exemplars()`, `reference_panel()`, `hazards_for()`, `validate()`, `stats()`. |
 | `__main__.py` | `python3 -m src.catalogue [--families] [--shared] [--census]` — validate and print. Exits non-zero on any validation problem, so it works as a pre-commit gate. |

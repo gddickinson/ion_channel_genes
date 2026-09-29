@@ -1,4 +1,13 @@
 gene	family	accession	length	status
+ABCC1	nonchannel_abc_transporter	P33527	1531	ok
+ABCC10	nonchannel_abc_transporter	Q5T3U5	1492	ok
+ABCC11	nonchannel_abc_transporter	Q96J66	1382	ok
+ABCC12	nonchannel_abc_transporter	Q96J65	1359	ok
+ABCC2	nonchannel_abc_transporter	Q92887	1545	ok
+ABCC3	nonchannel_abc_transporter	O15438	1527	ok
+ABCC4	nonchannel_abc_transporter	O15439	1325	ok
+ABCC5	nonchannel_abc_transporter	O15440	1437	ok
+ABCC6	nonchannel_abc_transporter	O95255	1503	ok
 ABCC8	assoc_sur	Q09428	1581	ok
 ABCC9	assoc_sur	O60706	1549	ok
 ANO1	ano_channel	Q5XXA6	986	ok

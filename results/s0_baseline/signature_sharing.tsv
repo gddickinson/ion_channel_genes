@@ -7,15 +7,15 @@ PF01094	5	ampa,kainate,nmda,delta_glur,nonchannel_class_c_gpcr	channel,channel_c
 PF07885	4	kca_sk,k2p,kcsa_prok,iglur_prok	channel	no
 PF10613	4	ampa,kainate,nmda,delta_glur	channel,channel_contested	yes
 PF12796	4	trpc,trpv,trpa,trpn	channel	no
+PF00005	3	cftr,assoc_sur,nonchannel_abc_transporter	channel,channel_associated,non_channel_homolog	yes
 PF00027	3	kv_eag,cng,hcn	channel	no
 PF00654	3	clc_channel,clc_transporter,clc_prokaryotic	channel,transporter	yes
+PF00664	3	cftr,assoc_sur,nonchannel_abc_transporter	channel,channel_associated,non_channel_homolog	yes
 PF00858	3	enac,asic,deg_invertebrate	channel	no
 PF02214	3	kv_shaker,kv_modifier,nonchannel_kctd	channel,non_channel_homolog	yes
 PF02815	3	itpr,ryr,nonchannel_pomt	channel,non_channel_homolog	yes
 PF08016	3	trpml,trpp,assoc_polycystin1	channel,channel_associated	yes
-PF00005	2	cftr,assoc_sur	channel,channel_associated	yes
 PF00571	2	clc_channel,clc_transporter	channel,transporter	yes
-PF00664	2	cftr,assoc_sur	channel,channel_associated	yes
 PF00864	2	p2x,p2x_nonmetazoan	channel	no
 PF00876	2	pannexin,innexin	channel	no
 PF01365	2	itpr,ryr	channel	no

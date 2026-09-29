@@ -177,7 +177,7 @@ HAZARDS: list[Hazard] = [
     ),
     Hazard(
         "H11", "CFTR and the sulfonylurea receptors are the same ABC architecture",
-        ("cftr", "assoc_sur"),
+        ("cftr", "assoc_sur", "nonchannel_abc_transporter"),
         shared_evidence=("Measured: CFTR and ABCC8 both carry `PF00664`×2 + "
                          "`PF00005`×2. One is a chloride channel, the other "
                          "regulates a potassium channel it does not conduct "
@@ -189,7 +189,10 @@ HAZARDS: list[Hazard] = [
                        "architecture-tier call. The absence rule it replaced "
                        "(no R domain ⇒ SUR) made 980 census calls, none a SUR: "
                        "918 bacterial ABC transporters with a cNMP and a C39 "
-                       "peptidase domain, 62 eukaryotic fused gene models."),
+                       "peptidase domain, 62 eukaryotic fused gene models. "
+                       "At the profile tier the generic ABC transporters "
+                       "have their own decoy profile (S3a2), without which "
+                       "the SUR profile won them."),
         test_owner="src/classify/rules.py:ARCHITECTURE_RULES",
         severity="medium", provenance=P.DB,
     ),

@@ -342,3 +342,30 @@ catalogue family; left for the user.
 
 ### Next session
 **S4** — proteome scope.
+
+---
+
+## 2026-09-28 — S3a2: an ABC-transporter decoy for the profile library
+
+**Why.** S2c found the S3a SUR profile winning 525 records (508
+bacterial) because no generic ABC transporter was on the menu. User asked
+for the decoy family.
+
+**Ran.** Catalogue: `nonchannel_abc_transporter` (controls.py; H11 now
+lists it). Exemplars chosen from reviewed UniProt entries with their Pfam
+architecture checked live (HlyB, SunT, MsbA, ABCC1). `s0_catalogue_verify.py`
+(752 s, 793 requests, 0 failures) → reference panel +4, no existing sequence
+changed (diffed against a snapshot); `s0_report.py`. `s3_build_profiles.py
+--only` and `s3_sweep.py search --only` — both now merge into the frozen
+records instead of rebuilding (new in this session); the 90 existing builds
+and seed sets verified byte-identical. `s3_benchmark.py`, `s3_census_v3.py`,
+`s3_external_check.py`, `s3_report.py`.
+
+**Result.** Profile-called SUR 525 → 0; decoy 1,026 (997 bacterial);
+benchmark unchanged; real SUR and CFTR keep wide margins over the decoy.
+Conflicts 2,919 (+12 fusions). Family count 91 updated in CLAUDE.md,
+README, INTERFACE, channel_background, findings_summary; the generated
+literature review still says 90 (it describes the S0 catalogue).
+
+### Next session
+**S4** — proteome scope.

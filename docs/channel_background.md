@@ -20,7 +20,7 @@ An ion channel is a gated aqueous pore. The full scope decision — auxiliary
 subunits, transporters with a channel fold, aquaporins, viroporins — is
 `docs/scope_and_boundaries.md`.
 
-**The catalogue holds 90 families in 25 superfamilies, of which 68 are
+**The catalogue holds 91 families in 25 superfamilies, of which 68 are
 census families covering 320 human pore-forming genes.** `[db]` The remaining
 22 families exist so they can be excluded: auxiliary subunits, domain-sharing
 non-channels and channels that are not ion channels.

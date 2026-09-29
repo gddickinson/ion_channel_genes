@@ -144,6 +144,10 @@ assoc_cav_aux	Hs_CACNA2D1	CACNA2D1	Homo sapiens	9606	P54289	P54289	CACNA2D1	1103
 assoc_cav_aux	Hs_CACNG2	CACNG2	Homo sapiens	9606	Q9Y698	Q9Y698	CACNG2	323	Voltage-dependent calcium channel gamma-2 subunit	ok
 assoc_nav_beta	Hs_SCN1B	SCN1B	Homo sapiens	9606	Q07699	Q07699	SCN1B	218	Sodium channel regulatory subunit beta-1	ok
 assoc_sur	Hs_ABCC8	ABCC8	Homo sapiens	9606	Q09428	Q09428	ABCC8	1581	ATP-binding cassette sub-family C member 8	ok
+nonchannel_abc_transporter	Hs_ABCC1	ABCC1	Homo sapiens	9606	P33527	P33527	ABCC1	1531	ATP-binding cassette sub-family C member 1	ok
+nonchannel_abc_transporter	Ec_HlyB	hlyB	Escherichia coli	83333	P08716	P08716	hlyB	707	Alpha-hemolysin translocation ATP-binding protein HlyB	ok
+nonchannel_abc_transporter	Bs_SunT	sunT	Bacillus subtilis	1423	P68579	P68579	sunT	705	SPbeta prophage-derived sublancin-168-processing and transpo	ok
+nonchannel_abc_transporter	Ec_MsbA	msbA	Escherichia coli	83333	P60752	P60752	msbA	582	ATP-dependent lipid A-core flippase	ok
 assoc_stim	Hs_STIM1	STIM1	Homo sapiens	9606	Q13586	Q13586	STIM1	685	Stromal interaction molecule 1	ok
 assoc_mcu_reg	Hs_MICU1	MICU1	Homo sapiens	9606	Q9BPX6	Q9BPX6	MICU1	476	Calcium uptake protein 1, mitochondrial	ok
 assoc_mcu_reg	Hs_SMDT1	SMDT1	Homo sapiens	9606	Q9H4I9	Q9H4I9	SMDT1	107	Essential MCU regulator, mitochondrial	ok
@@ -156,7 +160,7 @@ nonchannel_class_c_gpcr	Hs_GRM1	GRM1	Homo sapiens	9606	Q13255	Q13255	GRM1	1194	M
 nonchannel_achbp	Ls_AChBP	achbp	Lymnaea stagnalis	6523	P58154	P58154		229	Acetylcholine-binding protein	NO_GENE_NAME_IN_UNIPROT
 nonchannel_pomt	Hs_POMT1	POMT1	Homo sapiens	9606	Q9Y6A1	Q9Y6A1	POMT1	747	Protein O-mannosyl-transferase 1	ok
 nonchannel_vsp	Hs_TPTE	TPTE	Homo sapiens	9606	P56180	P56180	TPTE	551	Putative tyrosine-protein phosphatase TPTE	ok
-nonchannel_vsp	Ci_VSP	Ci-VSP	Ciona intestinalis	7719	Q4W8A1	Q4W8A1	Ci-VSP	576		ok
+nonchannel_vsp	Ci_VSP	Ci-VSP	Ciona intestinalis	7719	Q4W8A1	Q4W8A1	Ci-VSP	576	Protein-tyrosine-phosphatase	ok
 nonchannel_gasdermin	Hs_GSDMD	GSDMD	Homo sapiens	9606	P57764	P57764	GSDMD	484	Gasdermin-D	ok
 transporter_slc26	Hs_SLC26A5	SLC26A5	Homo sapiens	9606	P58743	P58743	SLC26A5	744	Prestin	ok
 outofscope_aquaporin	Hs_AQP1	AQP1	Homo sapiens	9606	P29972	P29972	AQP1	269	Aquaporin-1	ok

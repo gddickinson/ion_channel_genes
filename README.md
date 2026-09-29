@@ -22,12 +22,12 @@ Three deliverables, in order:
 
 | | |
 |---|---|
-| **Ledger** | S0, S1 complete 2026-08-19; S2 complete 2026-09-28 (**r3 after S2b/S2c**: every hazard rule a positive test); **S3a complete 2026-09-28** (S3 split: S3b waits on S4); S4 next. 29 tasks (`PUBLICATION_ROADMAP.md`). |
-| **Catalogue** | 90 families · 25 superfamilies · 320 human census genes · 16 hazards · validation clean |
+| **Ledger** | S0, S1 complete 2026-08-19; S2 complete 2026-09-28 (**r3 after S2b/S2c**: every hazard rule a positive test); **S3a complete 2026-09-28** (S3 split: S3b waits on S4); S4 next. 30 tasks (`PUBLICATION_ROADMAP.md`). |
+| **Catalogue** | 91 families · 25 superfamilies · 320 human census genes · 16 hazards · validation clean |
 | **Verification** | S0 clean on the third pass: **115/115 Pfam accessions verified**, **162/162 exemplars resolved**, 52/52 taxon ids, 769 live requests, 0 failures ([report](results/s0_baseline/report.md)) |
 | **Classifier** | benchmarked: **recall 50/72, specificity 25/25, 16/16 hazards exercised**, leave-one-out. 29 calls from domain rules and 7 from the filter motif against 24 from identity — not a nearest-neighbour lookup ([report](results/benchmark_controls/report.md)) |
 | **Census v2** | **1,245,200 UniProtKB records** carry a pore signature — enumeration exact on every check (12/12 shards, 67/67 signatures). **r3** (S2b/S2c: every family call rests on a domain the family carries, D33): **24.6 % family · 35.1 % superfamily-only · 40.3 % unassigned**, reference tier not run (D31). **319/320 human census genes enumerated, 169 right family, 0 wrong** ([report](results/census_v2/report.md)) |
-| **Census v3a** | one profile HMM per family (90, from 834 rule-enforced seeds), benchmarked leave-one-out **69/71** on the S1 panel, **96.8 %** agreement with S2 where both call. **58.4 % of records carry a family call**; **2,907 conflicts** kept (12,857 before S2b/S2c); **human 319/320**. External check against the IP3R project's census: **0 ITPR/RYR swaps** ([report](results/census_v3/report.md)) |
+| **Census v3a** | one profile HMM per family (91, from 846 rule-enforced seeds, incl. an ABC-transporter decoy), benchmarked leave-one-out **69/71** on the S1 panel, **96.8 %** agreement with S2 where both call. **58.4 % of records carry a family call**; **2,919 conflicts** kept (12,857 before S2b/S2c); **human 319/320**. External check against the IP3R project's census: **0 ITPR/RYR swaps** ([report](results/census_v3/report.md)) |
 | **Phylogeny** | builders and the tier-3 network built; smoke-tested on the Cys-loop superfamily (8 refs, rooted on GLIC/ELIC, 52 s — anion and cation receptors separate at 100 %); real trees run in S7/S8 |
 | **Review** | `docs/channel_review_2026.md` (+PDF) — 16 sections, ~9,500 words, **148 references, every one resolved against Europe PMC** before it could be cited, and **8 figures**, six rendered from committed tables |
 | **Toolchain** | MAFFT, HMMER, trimAl, IQ-TREE 2, miniprot, BLAST+, Foldseek, `datasets` — 12/12 resolve (`results/toolchain_manifest.txt`) |
@@ -120,7 +120,7 @@ network with no branch lengths and no support values.
 ## Layout
 
 ```
-src/catalogue/    the subject: 90 families, 25 superfamilies, 16 hazards
+src/catalogue/    the subject: 91 families, 25 superfamilies, 16 hazards
 src/classify/     three tiers → one ChannelCall with an audit trail
 src/phylo/        pore modules, tier-1/tier-2 forests, the tier-3 network
 src/utils/scope.py  narrows the catalogue to a run's scope
@@ -168,7 +168,7 @@ from the PIEZO and IP3R projects, D23–D28 are new here.
 Ported from `../ip3r_genes` (the IP3 receptor family), itself ported from
 `../piezo_genes`. The app, the figure style, the dashboard, the
 manuscript-assembly and claim-checking tooling and the session protocol come
-from there; **no result does**. ITPR and RYR appear here as two of ninety
+from there; **no result does**. ITPR and RYR appear here as two of ninety-one
 families, and the parent project's census of them is an external check on
 this one rather than an input to it.
 

@@ -341,3 +341,17 @@ transporters as SUR, because the catalogue gives it no generic ABC
 transporter to prefer. Agreement between classifiers measures something only
 when every plausible family is on the menu *(pending: a decoy family,
 emergent)*.
+
+---
+
+## S3a2 — giving the profiles the right wrong answer (2026-09-28)
+
+**With a generic ABC transporter on the menu, nothing bacterial is called a
+sulfonylurea receptor any more.** A decoy profile built from human ABCC
+transporters and bacterial peptide exporters now claims the ~1,000
+bacterial ABC transporters the receptor profile had been winning, while the
+real receptor (SUR1) and CFTR still beat it by more than two to one in
+score. The channel census does not change — these proteins were never
+counted as channels — but a classification that names a family should name
+the right one, and one that can only choose among the families it knows
+needs the plausible wrong answers catalogued too.
