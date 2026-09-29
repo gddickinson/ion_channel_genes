@@ -1,0 +1,24 @@
+species	family	contig	start	end	n_hsps	bitscore	evalue	pident	bait	cell_kind
+Escherichia coli	bestrophin	U00096.3	1608177	1608998	1	136.0	1.37e-36	29.433	bestrophin|P72926	control
+Escherichia coli	kcsa_prok	U00096.3	3479066	3479566	1	54.3	8.72e-09	24.26	kcsa_prok|Q7NM36	zero
+Saccharomyces cerevisiae	ano_scramblase	BK006936.2	421377	422681	1	107.0	4.78e-24	25.11	ano_scramblase|O13621	zero
+Saccharomyces cerevisiae	vdac	BK006947.3	517997	518866	28	183.0	1.45e-52	34.615	vdac|Q9P544	control
+Arabidopsis thaliana	tweety	CP002684.1	26818728	26819081	1	52.8	2.14e-06	32.258	tweety|A9RMS1	zero
+Caenorhabditis elegans	calhm	BX284602.5	6870287	6870624	2	48.5	1.56e-09	42.857	calhm|F6Y4T2	control
+Caenorhabditis elegans	plgic_prok	BX284603.4	1999263	1999565	1	52.0	1.12e-06	26.733	plgic_prok|Q7NDN8	zero
+Drosophila melanogaster	asic	AE013599.5	16653836	16654456	1	65.1	4.07e-10	24.038	asic|E9FVN7	control
+Drosophila melanogaster	asic	AE013599.5	20246338	20247387	1	75.9	2.16e-13	24.054	asic|E9FVN7	control
+Drosophila melanogaster	asic	AE014134.6	6353354	6354283	3	82.8	1.53e-15	21.698	asic|E9FVN7	control
+Drosophila melanogaster	asic	AE014134.6	9771711	9774745	5	84.0	3.2e-16	23.782	asic|E9FVN7	control
+Drosophila melanogaster	asic	AE014134.6	14380649	14380942	1	53.5	1.3e-06	30.612	asic|E9FVN7	control
+Drosophila melanogaster	asic	AE014296.5	3754430	3755095	1	56.6	1.72e-07	23.377	asic|E9FVN7	control
+Drosophila melanogaster	asic	AE014296.5	7456390	7457635	2	63.5	1.11e-09	29.348	asic|E9FVN7	control
+Drosophila melanogaster	asic	AE014296.5	21535437	21536166	2	68.6	3.12e-13	23.301	asic|E9FVN7	control
+Drosophila melanogaster	asic	AE014297.3	4647380	4648084	15	83.2	1.08e-15	29.339	asic|E9FVN7	control
+Drosophila melanogaster	asic	AE014297.3	26402318	26402893	1	52.0	5.55e-06	24.885	asic|P91100	control
+Drosophila melanogaster	asic	AE014297.3	29664860	29673226	4	67.8	5.51e-11	25.792	asic|E9FVN7	control
+Drosophila melanogaster	asic	AE014298.5	3569627	3571704	19	93.6	6.73e-19	27.347	asic|E9FVN7	control
+Drosophila melanogaster	asic	AE014298.5	16806635	16808091	5	84.3	1.22e-32	26.941	asic|E9FVN7	control
+Drosophila melanogaster	plgic_prok	AE014296.5	17472635	17472982	1	59.3	9.08e-09	30.172	plgic_prok|Q7NDN8	zero
+Drosophila melanogaster	plgic_prok	AE014297.3	31303300	31304163	1	72.8	4.37e-13	23.611	plgic_prok|Q7NDN8	zero
+Drosophila melanogaster	plgic_prok	AE014298.5	4907174	4908055	1	65.1	1.34e-10	23.906	plgic_prok|Q7NDN8	zero

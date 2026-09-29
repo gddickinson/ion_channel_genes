@@ -1,0 +1,8 @@
+species	group	status	assembly	total_bp	n_sequences	n50	max_intron	chunks	alignments	self_dropped	loci	family_called_loci	miniprot_s	call_s	note
+Escherichia coli	prokaryote	proteome	GCA_000005845.2	4641652	1	4641652	2000	1	62	7	13	8	1.7	0.7	
+Saccharomyces cerevisiae	fungi	proteome	GCA_000146045.2	12071326	16	924431	200000	1	338	8	54	19	20.8	4.7	
+Arabidopsis thaliana	plant	proteome	GCA_000001735.2	119668634	7	23459830	200000	1	985	27	166	105	45.7	9.5	
+Caenorhabditis elegans	invertebrate	proteome	GCA_000002985.3	100272607	6	17493829	200000	1	1705	47	196	156	44.6	18.5	
+Drosophila melanogaster	invertebrate	proteome	GCA_000001215.4	143726002	1870	25286936	200000	1	1930	51	182	124	48.3	19.8	
+Cornu aspersum	invertebrate	genome_only	GCA_964187895.1	2908462832	604	110296109	1000000	2	3828	0	692	276	746.9	60.9	
+Mus musculus	vertebrate	proteome	GCA_000001635.9	2728222451	61	130530862	1000000	2	3402	117	578	332	614.1	42.2	

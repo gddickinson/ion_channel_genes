@@ -1,0 +1,477 @@
+species	group	family	superfamily	proteome_records	proteome_high	proteome_band	informative	matched	control	genome	n_found	best_confidence	n_strong	n_partial	n_gap	n_traces	trace_best_bits	verdict	found_loci	detected
+Escherichia coli	prokaryote	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	kv_modifier	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Escherichia coli	prokaryote	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	kv_eag	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	kca_slo	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	kca_sk	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	kir	ploop	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0
+Escherichia coli	prokaryote	k2p	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	kcsa_prok	ploop	0	0	0	1	1	0	no_locus	0		0	0	0	1	54.3	trace		1
+Escherichia coli	prokaryote	nav	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	cav	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	nalcn	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	catsper	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	tpc	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	cng	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	hcn	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	trpc	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	trpv	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	trpm	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	trpa	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	trpml	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	trpp	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	trpn	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	nachr	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	gabaa	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	glyr	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	ht3	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	zac	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	plgic_invertebrate	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	plgic_prok	cysloop	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent_bar_unmeasured		0
+Escherichia coli	prokaryote	ampa	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	kainate	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	nmda	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	delta_glur	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	iglur_nonvertebrate	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	iglur_prok	iglur	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent_bar_unmeasured		0
+Escherichia coli	prokaryote	p2x	p2x	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	p2x_nonmetazoan	p2x	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	enac	deg_enac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	asic	deg_enac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	deg_invertebrate	deg_enac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	clc_channel	clc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	bestrophin	bestrophin	1	1	0	1	1	1	no_locus	0		0	0	0	1	136.0	present		1
+Escherichia coli	prokaryote	cftr	abc_channel	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	tweety	tweety	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	ano_channel	tmem16_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	ano_scramblase	tmem16_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	osca_tmem63	tmem16_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	tmc	tmem16_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	piezo	piezo	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	mscl	msc	1	1	0	1	1	1	found	1	high	1	0	0	0		present	U00096.3:3438006-3438419+	1
+Escherichia coli	prokaryote	mscs	msc	6	5	0	1	1	1	found	1	high	1	0	0	0		present	U00096.3:3068980-3069741-	1
+Escherichia coli	prokaryote	connexin	connexin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	pannexin	innexin_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	innexin	innexin_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	lrrc8	innexin_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	calhm	calhm	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	itpr	ca_release	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	ryr	ca_release	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	tric	tric	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	mcu	mcu	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	vdac	porin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	tmem175	tmem175	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	orai	orai	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	clic	clic	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Escherichia coli	prokaryote	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	kv_modifier	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Saccharomyces cerevisiae	fungi	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	kv_eag	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	kca_slo	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	kca_sk	ploop	0	0	0	0	0	0	partial	0		0	7	0	0		partial		1
+Saccharomyces cerevisiae	fungi	kir	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	k2p	ploop	1	0	0	0	0	0	partial	0		0	1	0	0		present		1
+Saccharomyces cerevisiae	fungi	kcsa_prok	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	nav	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	cav	ploop	1	0	0	0	0	0	found	1	medium	0	2	0	0		present	BK006941.2:926361-929336+	1
+Saccharomyces cerevisiae	fungi	nalcn	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	catsper	ploop	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1
+Saccharomyces cerevisiae	fungi	tpc	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Saccharomyces cerevisiae	fungi	cng	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	hcn	ploop	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1
+Saccharomyces cerevisiae	fungi	trpc	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Saccharomyces cerevisiae	fungi	trpv	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	trpm	ploop	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1
+Saccharomyces cerevisiae	fungi	trpa	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	trpml	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	trpp	ploop	0	0	0	0	0	0	gap	0		0	1	1	0		gap		1
+Saccharomyces cerevisiae	fungi	trpn	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	nachr	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	gabaa	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	glyr	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	ht3	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	zac	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	plgic_invertebrate	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	plgic_prok	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	ampa	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	kainate	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	nmda	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	delta_glur	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	iglur_nonvertebrate	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	iglur_prok	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	p2x	p2x	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	p2x_nonmetazoan	p2x	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	enac	deg_enac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	asic	deg_enac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	deg_invertebrate	deg_enac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	clc_channel	clc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	bestrophin	bestrophin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	cftr	abc_channel	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	tweety	tweety	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	ano_channel	tmem16_like	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Saccharomyces cerevisiae	fungi	ano_scramblase	tmem16_like	0	0	0	1	1	0	no_locus	0		0	0	0	1	107.0	trace		1
+Saccharomyces cerevisiae	fungi	osca_tmem63	tmem16_like	4	4	0	1	1	1	partial	0		0	2	0	0		present		1
+Saccharomyces cerevisiae	fungi	tmc	tmem16_like	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Saccharomyces cerevisiae	fungi	piezo	piezo	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1
+Saccharomyces cerevisiae	fungi	mscl	msc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	mscs	msc	0	0	0	1	1	0	partial	0		0	1	0	0		partial		1
+Saccharomyces cerevisiae	fungi	connexin	connexin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	pannexin	innexin_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	innexin	innexin_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	lrrc8	innexin_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	calhm	calhm	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	itpr	ca_release	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	ryr	ca_release	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	tric	tric	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	mcu	mcu	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	vdac	porin	3	3	0	1	1	1	no_locus	0		0	0	0	1	183.0	present		1
+Saccharomyces cerevisiae	fungi	tmem175	tmem175	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	orai	orai	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Saccharomyces cerevisiae	fungi	clic	clic	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Saccharomyces cerevisiae	fungi	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	kv_eag	ploop	5	0	7	0	0	0	partial	0		0	1	0	0		present		1
+Arabidopsis thaliana	plant	kca_slo	ploop	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0
+Arabidopsis thaliana	plant	kca_sk	ploop	0	0	0	0	0	0	partial	0		0	5	0	0		partial		1
+Arabidopsis thaliana	plant	kir	ploop	0	0	0	1	1	0	partial	0		0	5	0	0		partial		1
+Arabidopsis thaliana	plant	k2p	ploop	6	4	0	1	1	1	found	4	high	3	1	0	0		present	CP002688.1:18744730-18811669-;CP002687.1:793461-867019+;CP002687.1:10055705-10117077+;CP002688.1:22531823-22611323+	1
+Arabidopsis thaliana	plant	kcsa_prok	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	nav	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	cav	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	nalcn	ploop	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1
+Arabidopsis thaliana	plant	catsper	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	tpc	ploop	1	1	0	1	1	1	found	1	high	1	1	0	0		present	CP002687.1:1580253-1585658+	1
+Arabidopsis thaliana	plant	cng	ploop	6	0	7	0	0	0	no_locus	0		0	0	0	0		present		0
+Arabidopsis thaliana	plant	hcn	ploop	0	0	0	0	0	0	partial	0		0	4	0	0		partial		1
+Arabidopsis thaliana	plant	trpc	ploop	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1
+Arabidopsis thaliana	plant	trpv	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	trpm	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	trpa	ploop	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1
+Arabidopsis thaliana	plant	trpml	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	trpp	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Arabidopsis thaliana	plant	trpn	ploop	1	0	0	0	0	0	partial	0		0	1	0	0		present		1
+Arabidopsis thaliana	plant	nachr	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	gabaa	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	glyr	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	ht3	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	zac	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	plgic_invertebrate	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	plgic_prok	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	ampa	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	kainate	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	nmda	iglur	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Arabidopsis thaliana	plant	delta_glur	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	iglur_nonvertebrate	iglur	20	19	0	1	1	1	found	7	high	6	0	0	0		present	CP002685.1:13748504-13756194-;CP002684.1:1505801-1508969+;CP002684.1:15973561-15999060+;CP002687.1:16790353-16793452+;CP002686.1:2395813-2463961-	1
+Arabidopsis thaliana	plant	iglur_prok	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	p2x	p2x	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	p2x_nonmetazoan	p2x	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	enac	deg_enac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	asic	deg_enac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	deg_invertebrate	deg_enac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	clc_channel	clc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	bestrophin	bestrophin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	cftr	abc_channel	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	tweety	tweety	0	0	0	1	1	0	no_locus	0		0	0	0	1	52.8	trace		1
+Arabidopsis thaliana	plant	ano_channel	tmem16_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	ano_scramblase	tmem16_like	1	1	0	1	1	1	found	1	high	1	0	0	0		present	CP002684.1:27469777-27473184-	1
+Arabidopsis thaliana	plant	osca_tmem63	tmem16_like	15	15	0	1	1	1	found	8	high	8	1	0	0		present	CP002684.1:4039886-4043143-;CP002684.1:11540427-11544041-;CP002684.1:23041692-23044855-;CP002687.1:1284066-1287606+;CP002687.1:2123235-2126624+	1
+Arabidopsis thaliana	plant	tmc	tmem16_like	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1
+Arabidopsis thaliana	plant	piezo	piezo	1	0	0	0	0	0	no_locus	0		0	0	0	0		present		0
+Arabidopsis thaliana	plant	mscl	msc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	mscs	msc	10	10	0	1	1	1	found	7	high	7	3	0	0		present	CP002684.1:29569271-29632590-;CP002688.1:3898194-3900788-;CP002685.1:7389264-7391598-;CP002685.1:7392968-7451233-;CP002684.1:19958983-19961542+	1
+Arabidopsis thaliana	plant	connexin	connexin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	pannexin	innexin_like	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Arabidopsis thaliana	plant	innexin	innexin_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	lrrc8	innexin_like	7	0	0	0	0	0	partial	0		0	3	0	0		present		1
+Arabidopsis thaliana	plant	calhm	calhm	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	itpr	ca_release	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	ryr	ca_release	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	tric	tric	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	mcu	mcu	6	0	0	0	0	0	found	2	medium	0	0	0	0		present	CP002684.1:3101851-3102309-;CP002684.1:21337548-21337943-	1
+Arabidopsis thaliana	plant	vdac	porin	8	8	0	1	1	1	found	2	high	2	0	0	0		present	CP002688.1:4889641-4891389-;CP002686.1:85754-87612+	1
+Arabidopsis thaliana	plant	tmem175	tmem175	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	orai	orai	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1
+Arabidopsis thaliana	plant	hv1	hv	1	1	0	1	0	1	partial	0		0	2	0	0		present		1
+Arabidopsis thaliana	plant	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Arabidopsis thaliana	plant	clic	clic	4	4	0	1	1	1	found	4	high	4	2	0	0		present	CP002684.1:6773462-6774413-;CP002684.1:28250255-28251237-;CP002688.1:5483372-5484926+;CP002688.1:14292931-14293584+	1
+Arabidopsis thaliana	plant	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Caenorhabditis elegans	invertebrate	kv_shaker	ploop	5	3	6	1	1	1	found	5	high	2	0	0	0		present	BX284606.5:10741466-10774449+;BX284602.5:9765694-9767957+;BX284604.4:6372896-6383985-;BX284602.5:8306547-8310583-;BX284605.5:12973619-13022979-	1
+Caenorhabditis elegans	invertebrate	kv_modifier	ploop	0	0	6	0	0	0	partial	0		0	4	0	0		partial		1
+Caenorhabditis elegans	invertebrate	kv_kcnq	ploop	3	3	0	1	1	1	found	2	high	1	0	0	0		present	BX284606.5:6620947-6693845+;BX284602.5:13708459-13711850+	1
+Caenorhabditis elegans	invertebrate	kv_eag	ploop	2	2	0	1	1	1	found	2	high	1	0	0	0		present	BX284603.4:4139262-4143190+;BX284605.5:1291350-1299208-	1
+Caenorhabditis elegans	invertebrate	kca_slo	ploop	2	2	0	1	1	1	found	2	high	1	0	0	0		present	BX284605.5:18492321-18588249+;BX284606.5:11395446-11399469-	1
+Caenorhabditis elegans	invertebrate	kca_sk	ploop	4	4	0	1	1	1	found	1	high	1	0	0	0		present	BX284601.5:8052539-8278096+	1
+Caenorhabditis elegans	invertebrate	kir	ploop	3	3	0	1	1	1	found	3	high	3	1	0	0		present	BX284606.5:705295-710170-;BX284606.5:6766603-6769954-;BX284606.5:14336438-14357533-	1
+Caenorhabditis elegans	invertebrate	k2p	ploop	48	42	0	1	1	1	found	7	high	3	0	0	0		present	BX284605.5:19063214-19070585+;BX284605.5:20863981-20865034+;BX284606.5:16301624-16303254+;BX284606.5:16310316-16335691+;BX284602.5:2684839-2686980-	1
+Caenorhabditis elegans	invertebrate	kcsa_prok	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Caenorhabditis elegans	invertebrate	nav	ploop	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0
+Caenorhabditis elegans	invertebrate	cav	ploop	3	3	0	1	1	1	found	3	high	1	0	0	0		present	BX284604.4:7407965-7497639+;BX284606.5:2716921-2806415-;BX284606.5:7849573-7857807-	1
+Caenorhabditis elegans	invertebrate	nalcn	ploop	2	2	0	1	1	1	found	2	high	0	0	0	0		present	BX284603.4:4971274-5021832+;BX284604.4:6158496-6171383-	1
+Caenorhabditis elegans	invertebrate	catsper	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Caenorhabditis elegans	invertebrate	tpc	ploop	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0
+Caenorhabditis elegans	invertebrate	cng	ploop	6	6	0	1	1	1	found	1	high	1	0	0	0		present	BX284603.4:9178633-9185052+	1
+Caenorhabditis elegans	invertebrate	hcn	ploop	0	0	0	1	1	0	partial	0		0	4	0	0		partial		1
+Caenorhabditis elegans	invertebrate	trpc	ploop	3	3	0	1	1	1	found	2	high	1	0	0	0		present	BX284603.4:991872-999370+;BX284603.4:8536913-8539924+	1
+Caenorhabditis elegans	invertebrate	trpv	ploop	5	5	0	1	1	1	found	5	high	2	0	0	0		present	BX284605.5:10764366-10768262+;BX284606.5:15168768-15172715+;BX284604.4:3552567-3556568-;BX284604.4:7284578-7332744-;BX284604.4:8214126-8220036-	1
+Caenorhabditis elegans	invertebrate	trpm	ploop	3	3	0	1	1	1	found	3	high	2	1	0	0		present	BX284601.5:8551022-8564343-;BX284604.4:11274786-11281030+;BX284604.4:11162801-11258595-	1
+Caenorhabditis elegans	invertebrate	trpa	ploop	1	1	0	1	1	1	found	1	high	1	1	0	0		present	BX284604.4:11849707-11875429+	1
+Caenorhabditis elegans	invertebrate	trpml	ploop	1	1	0	1	1	1	found	1	high	1	0	0	0		present	BX284603.4:7584689-7636811+	1
+Caenorhabditis elegans	invertebrate	trpp	ploop	1	1	0	1	1	1	found	1	high	1	0	0	0		present	BX284604.4:15129770-15234793-	1
+Caenorhabditis elegans	invertebrate	trpn	ploop	1	1	0	1	1	1	found	1	high	1	0	0	0		present	BX284601.5:13885525-13913833+	1
+Caenorhabditis elegans	invertebrate	nachr	cysloop	60	50	0	1	1	1	found	14	high	11	0	0	0		present	BX284601.5:4897727-4900900-;BX284601.5:8897863-8927533-;BX284601.5:8947931-9102015-;BX284604.4:15503929-15507020+;BX284603.4:6583463-6584950+	1
+Caenorhabditis elegans	invertebrate	gabaa	cysloop	26	1	8	1	1	1	found	5	medium	0	0	0	0		present	BX284603.4:12771992-12779403-;BX284604.4:9661169-9662723+;BX284603.4:10522006-10532526+;BX284603.4:12785449-12793093+;BX284602.5:10700198-10702347+	1
+Caenorhabditis elegans	invertebrate	glyr	cysloop	0	0	6	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Caenorhabditis elegans	invertebrate	ht3	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Caenorhabditis elegans	invertebrate	zac	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Caenorhabditis elegans	invertebrate	plgic_invertebrate	cysloop	6	4	3	1	1	1	found	5	high	3	0	0	0		present	BX284605.5:16220156-16221797+;BX284601.5:4885238-4892148-;BX284601.5:5968135-5973338-;BX284605.5:5449450-5451987-;BX284605.5:13498970-13501322-	1
+Caenorhabditis elegans	invertebrate	plgic_prok	cysloop	0	0	0	1	1	0	no_locus	0		0	0	0	1	52.0	trace		1
+Caenorhabditis elegans	invertebrate	ampa	iglur	0	0	3	0	0	0	found	1	medium	0	1	0	0		genome_weak	BX284603.4:8584641-8588089-	1
+Caenorhabditis elegans	invertebrate	kainate	iglur	4	0	2	1	1	0	found	3	medium	0	0	0	0		present	BX284605.5:8717195-8720330+;BX284601.5:7118079-7121482+;BX284602.5:7786764-7793944-	1
+Caenorhabditis elegans	invertebrate	nmda	iglur	2	2	0	1	1	1	found	2	high	2	0	0	0		present	BX284602.5:5441115-5446208-;BX284605.5:15006744-15010800-	1
+Caenorhabditis elegans	invertebrate	delta_glur	iglur	0	0	1	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Caenorhabditis elegans	invertebrate	iglur_nonvertebrate	iglur	1	0	0	1	1	0	found	1	medium	0	0	0	0		present	BX284606.5:2414763-2417068-	1
+Caenorhabditis elegans	invertebrate	iglur_prok	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Caenorhabditis elegans	invertebrate	p2x	p2x	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0
+Caenorhabditis elegans	invertebrate	p2x_nonmetazoan	p2x	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Caenorhabditis elegans	invertebrate	enac	deg_enac	3	0	3	0	0	0	no_locus	0		0	0	0	0		present		0
+Caenorhabditis elegans	invertebrate	asic	deg_enac	12	9	2	1	1	1	found	1	high	0	2	0	0		present	BX284601.5:4095559-4107240+	1
+Caenorhabditis elegans	invertebrate	deg_invertebrate	deg_enac	7	6	2	1	1	1	found	1	medium	0	0	0	0		present	BX284601.5:3769729-3819463+	1
+Caenorhabditis elegans	invertebrate	clc_channel	clc	4	4	0	1	1	1	found	4	high	3	0	0	0		present	BX284602.5:11293036-11369360+;BX284606.5:4095623-4099989-;BX284602.5:7218884-7222525-;BX284602.5:11847014-11850770-	1
+Caenorhabditis elegans	invertebrate	bestrophin	bestrophin	27	27	0	1	1	1	found	16	high	14	0	0	0		present	BX284603.4:607964-609642-;BX284605.5:10558004-10560511+;BX284604.4:278501-286122+;BX284604.4:3756242-3757849+;BX284604.4:6562698-6564660+	1
+Caenorhabditis elegans	invertebrate	cftr	abc_channel	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Caenorhabditis elegans	invertebrate	tweety	tweety	1	1	0	1	1	1	no_locus	0		0	0	0	0		present		0
+Caenorhabditis elegans	invertebrate	ano_channel	tmem16_like	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Caenorhabditis elegans	invertebrate	ano_scramblase	tmem16_like	2	2	0	1	1	1	found	2	high	2	0	0	0		present	BX284604.4:14663716-14674059+;BX284603.4:13247947-13253380+	1
+Caenorhabditis elegans	invertebrate	osca_tmem63	tmem16_like	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0
+Caenorhabditis elegans	invertebrate	tmc	tmem16_like	2	2	0	1	1	1	found	2	high	2	2	0	0		present	BX284606.5:1167947-1173382+;BX284606.5:9304362-9308121+	1
+Caenorhabditis elegans	invertebrate	piezo	piezo	1	1	0	1	1	1	found	1	high	0	0	0	0		present	BX284604.4:9343749-9395692-	1
+Caenorhabditis elegans	invertebrate	mscl	msc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Caenorhabditis elegans	invertebrate	mscs	msc	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1
+Caenorhabditis elegans	invertebrate	connexin	connexin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Caenorhabditis elegans	invertebrate	pannexin	innexin_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Caenorhabditis elegans	invertebrate	innexin	innexin_like	25	25	0	1	1	1	found	9	high	7	0	0	0		present	BX284601.5:2452088-2456402-;BX284601.5:3748810-3753875-;BX284604.4:609135-612346+;BX284601.5:4162048-4164299+;BX284606.5:5996214-5997725+	1
+Caenorhabditis elegans	invertebrate	lrrc8	innexin_like	0	0	2	0	0	0	partial	0		0	1	0	0		partial		1
+Caenorhabditis elegans	invertebrate	calhm	calhm	1	1	0	1	0	1	no_locus	0		0	0	0	1	48.5	present		1
+Caenorhabditis elegans	invertebrate	itpr	ca_release	1	1	0	1	1	1	found	1	high	0	0	0	0		present	BX284604.4:7681752-7696682+	1
+Caenorhabditis elegans	invertebrate	ryr	ca_release	1	1	0	1	1	1	found	1	high	0	0	0	0		present	BX284605.5:6902022-6928949-	1
+Caenorhabditis elegans	invertebrate	tric	tric	2	2	0	1	1	1	found	1	high	1	0	0	0		present	BX284602.5:12211060-12279355-	1
+Caenorhabditis elegans	invertebrate	mcu	mcu	1	1	0	1	1	1	found	1	high	0	0	0	0		present	BX284604.4:5937670-5988810-	1
+Caenorhabditis elegans	invertebrate	vdac	porin	2	2	0	1	1	1	found	1	high	1	0	0	0		present	BX284604.4:7506603-7507891-	1
+Caenorhabditis elegans	invertebrate	tmem175	tmem175	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Caenorhabditis elegans	invertebrate	orai	orai	1	1	0	1	1	1	found	1	high	1	2	0	0		present	BX284603.4:653255-653824+	1
+Caenorhabditis elegans	invertebrate	hv1	hv	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0
+Caenorhabditis elegans	invertebrate	otop	otopetrin	7	6	0	1	1	1	found	3	high	1	1	0	0		present	BX284605.5:4074563-4077473+;BX284605.5:8522711-8532405+;BX284606.5:12267197-12273901-	1
+Caenorhabditis elegans	invertebrate	clic	clic	2	2	0	1	1	1	partial	0		0	2	0	0		present		1
+Caenorhabditis elegans	invertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	7	0	0		partial		1
+Drosophila melanogaster	invertebrate	kv_shaker	ploop	5	3	0	1	1	1	found	2	high	2	0	0	0		present	AE014298.5:17869307-17959985-;AE014296.5:19476132-19574698-	1
+Drosophila melanogaster	invertebrate	kv_modifier	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Drosophila melanogaster	invertebrate	kv_kcnq	ploop	1	1	0	1	1	1	found	1	high	1	0	0	0		present	AE013599.5:10147089-10224997-	1
+Drosophila melanogaster	invertebrate	kv_eag	ploop	3	3	0	1	1	1	found	3	high	1	0	0	0		present	AE013599.5:17898304-17925270+;AE013599.5:23971520-24120232+;AE014298.5:14971720-15005220+	1
+Drosophila melanogaster	invertebrate	kca_slo	ploop	2	2	0	1	1	1	found	2	high	2	0	0	0		present	AE014297.3:24616591-24796299+;AE013599.5:10325685-10340228-	1
+Drosophila melanogaster	invertebrate	kca_sk	ploop	1	1	0	1	1	1	found	1	high	1	0	0	0		present	AE014298.5:5293884-5398754+	1
+Drosophila melanogaster	invertebrate	kir	ploop	3	3	0	1	1	1	found	2	high	2	2	0	0		present	AE014297.3:23514339-23515492-;AE014297.3:23182890-23203974+	1
+Drosophila melanogaster	invertebrate	k2p	ploop	11	10	0	1	1	1	found	4	high	4	3	0	0		present	AE014296.5:1224995-1241226+;AE014297.3:9403431-9420997-;AE014297.3:13670636-13672104-;AE013599.5:9766634-9779684-	1
+Drosophila melanogaster	invertebrate	kcsa_prok	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Drosophila melanogaster	invertebrate	nav	ploop	2	2	0	1	1	1	found	2	high	0	0	0	0		present	AE014298.5:16461994-16591810-;AE013599.5:24879363-24915007+	1
+Drosophila melanogaster	invertebrate	cav	ploop	3	3	0	1	1	1	found	3	high	0	0	0	0		present	AE014298.5:6108483-6145401-;AE014298.5:11835146-12050578-;AE014134.6:16170876-16265557+	1
+Drosophila melanogaster	invertebrate	nalcn	ploop	1	1	0	1	1	1	found	1	high	1	0	0	0		present	AE014298.5:14202448-14321218+	1
+Drosophila melanogaster	invertebrate	catsper	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Drosophila melanogaster	invertebrate	tpc	ploop	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0
+Drosophila melanogaster	invertebrate	cng	ploop	4	4	0	1	1	1	found	3	high	3	0	0	0		present	AE014298.5:15396875-15400816-;AE013599.5:16160868-16319660-;AE013599.5:22648368-22844208-	1
+Drosophila melanogaster	invertebrate	hcn	ploop	1	1	0	1	1	1	found	1	high	1	0	0	0		present	AE013599.5:14250224-14423619+	1
+Drosophila melanogaster	invertebrate	trpc	ploop	3	3	0	1	1	1	found	3	high	3	0	0	0		present	AE014297.3:29914680-29920018-;AE013599.5:9755993-9816268+;AE014134.6:16665520-16669417-	1
+Drosophila melanogaster	invertebrate	trpv	ploop	2	2	0	1	1	1	found	2	high	2	2	0	0		present	AE014298.5:6814514-6816818+;AE014296.5:14178221-14189422-	1
+Drosophila melanogaster	invertebrate	trpm	ploop	1	1	0	1	1	1	found	1	high	1	1	0	0		present	AE013599.5:15266866-15337837-	1
+Drosophila melanogaster	invertebrate	trpa	ploop	3	1	0	1	1	1	found	1	high	1	0	0	0		present	AE014296.5:8894694-8956414-	1
+Drosophila melanogaster	invertebrate	trpml	ploop	1	1	0	1	1	1	found	1	high	1	0	0	0		present	AE014296.5:19715305-19819702-	1
+Drosophila melanogaster	invertebrate	trpp	ploop	2	1	0	1	1	1	found	1	high	1	0	0	0		present	AE014134.6:12398389-12401310+	1
+Drosophila melanogaster	invertebrate	trpn	ploop	3	1	0	1	1	1	found	1	high	1	0	0	0		present	AE014134.6:5346936-5366587+	1
+Drosophila melanogaster	invertebrate	nachr	cysloop	11	11	0	1	1	1	found	6	high	4	0	0	0		present	AE014296.5:4432301-4437630+;AE014296.5:23210960-23283909+;AE014298.5:8282975-8389694-;AE014134.6:14053990-14089233+;AE014134.6:9798193-9825732-	1
+Drosophila melanogaster	invertebrate	gabaa	cysloop	6	0	4	1	1	0	found	3	high	1	0	0	0		present	AE014296.5:17829635-17838626+;AE014298.5:15826748-16020511+;AE014296.5:9150975-9207500-	1
+Drosophila melanogaster	invertebrate	glyr	cysloop	0	0	5	0	0	0	partial	0		0	1	0	0		partial		1
+Drosophila melanogaster	invertebrate	ht3	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Drosophila melanogaster	invertebrate	zac	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Drosophila melanogaster	invertebrate	plgic_invertebrate	cysloop	1	1	1	1	1	1	found	1	high	1	0	0	0		present	AE014297.3:19661740-19767646+	1
+Drosophila melanogaster	invertebrate	plgic_prok	cysloop	0	0	0	1	1	0	no_locus	0		0	0	0	3	72.8	trace		1
+Drosophila melanogaster	invertebrate	ampa	iglur	2	0	0	0	0	0	found	2	medium	0	0	0	0		present	AE014296.5:6626408-6634528+;AE014296.5:9257301-9369284+	1
+Drosophila melanogaster	invertebrate	kainate	iglur	12	0	0	1	1	0	found	6	medium	0	0	0	0		present	AE014135.4:1127001-1135786+;AE014297.3:20861016-20866021-;AE014134.6:5556600-5598105+;AE014134.6:21208027-21211188+;AE014297.3:20846041-20908037+	1
+Drosophila melanogaster	invertebrate	nmda	iglur	2	2	0	1	1	1	found	2	high	2	0	0	0		present	AE014297.3:5510033-5524200-;AE014298.5:1489811-1574668-	1
+Drosophila melanogaster	invertebrate	delta_glur	iglur	2	0	0	0	0	0	no_locus	0		0	0	0	0		present		0
+Drosophila melanogaster	invertebrate	iglur_nonvertebrate	iglur	2	1	0	1	1	1	found	1	high	1	0	0	0		present	AE014134.6:4831061-4834639-	1
+Drosophila melanogaster	invertebrate	iglur_prok	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Drosophila melanogaster	invertebrate	p2x	p2x	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0
+Drosophila melanogaster	invertebrate	p2x_nonmetazoan	p2x	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Drosophila melanogaster	invertebrate	enac	deg_enac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Drosophila melanogaster	invertebrate	asic	deg_enac	21	12	0	1	1	1	no_locus	0		0	0	0	13	93.6	present		1
+Drosophila melanogaster	invertebrate	deg_invertebrate	deg_enac	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent_bar_unmeasured		0
+Drosophila melanogaster	invertebrate	clc_channel	clc	1	1	0	1	1	1	found	1	high	1	0	0	0		present	AE014297.3:11707507-11810417-	1
+Drosophila melanogaster	invertebrate	bestrophin	bestrophin	4	4	0	1	1	1	found	3	high	3	0	0	0		present	AE014296.5:15298989-15300350+;AE014297.3:10104428-10167322-;AE014296.5:15301232-15302746-	1
+Drosophila melanogaster	invertebrate	cftr	abc_channel	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Drosophila melanogaster	invertebrate	tweety	tweety	2	2	0	1	1	1	partial	0		0	1	0	0		present		1
+Drosophila melanogaster	invertebrate	ano_channel	tmem16_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Drosophila melanogaster	invertebrate	ano_scramblase	tmem16_like	5	2	0	1	1	1	found	3	high	1	0	0	0		present	AE014296.5:11954374-12043772+;AE014297.3:19580001-19639310-;AE014134.6:15087051-15092308+	1
+Drosophila melanogaster	invertebrate	osca_tmem63	tmem16_like	1	1	0	1	1	1	found	1	high	1	0	0	0		present	AE013599.5:8099567-8101847+	1
+Drosophila melanogaster	invertebrate	tmc	tmem16_like	1	1	0	1	1	1	found	1	high	0	0	0	0		present	AE014296.5:9536730-9707452+	1
+Drosophila melanogaster	invertebrate	piezo	piezo	2	2	0	1	1	1	found	1	high	0	2	0	0		present	AE014134.6:8173248-8189048+	1
+Drosophila melanogaster	invertebrate	mscl	msc	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Drosophila melanogaster	invertebrate	mscs	msc	0	0	0	0	0	0	partial	0		0	5	0	0		partial		1
+Drosophila melanogaster	invertebrate	connexin	connexin	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1
+Drosophila melanogaster	invertebrate	pannexin	innexin_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Drosophila melanogaster	invertebrate	innexin	innexin_like	8	8	0	1	1	1	found	3	high	3	0	0	0		present	AE014298.5:6974436-6977407-;AE014298.5:20772614-20792720-;AE014298.5:6999129-7000211+	1
+Drosophila melanogaster	invertebrate	lrrc8	innexin_like	0	0	4	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Drosophila melanogaster	invertebrate	calhm	calhm	0	0	0	1	1	0	partial	0		0	1	0	0		partial		1
+Drosophila melanogaster	invertebrate	itpr	ca_release	1	1	0	1	1	1	found	1	high	1	0	0	0		present	AE014297.3:5527819-5630544+	1
+Drosophila melanogaster	invertebrate	ryr	ca_release	1	1	0	1	1	1	found	1	high	1	0	0	0		present	AE013599.5:8862957-8887800+	1
+Drosophila melanogaster	invertebrate	tric	tric	2	2	0	1	1	1	found	1	high	1	1	0	0		present	AE014298.5:16387009-16387960+	1
+Drosophila melanogaster	invertebrate	mcu	mcu	1	1	0	1	1	1	found	1	high	1	0	0	0		present	AE014296.5:6499442-6591715+	1
+Drosophila melanogaster	invertebrate	vdac	porin	7	6	0	1	1	1	found	3	high	3	0	0	0		present	AE013599.5:6225842-6226747+;AE014134.6:10847868-10862920-;AE014298.5:7737644-7739040+	1
+Drosophila melanogaster	invertebrate	tmem175	tmem175	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Drosophila melanogaster	invertebrate	orai	orai	1	1	0	1	1	1	found	1	high	1	1	0	0		present	AE013599.5:17794476-17859776+	1
+Drosophila melanogaster	invertebrate	hv1	hv	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0
+Drosophila melanogaster	invertebrate	otop	otopetrin	3	3	0	1	1	1	found	2	high	2	0	0	0		present	AE014298.5:5653881-5655775-;AE014134.6:3275958-3277756-	1
+Drosophila melanogaster	invertebrate	clic	clic	1	1	0	1	1	1	found	1	high	1	3	0	0		present	AE014298.5:13813728-13821987-	1
+Drosophila melanogaster	invertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	4	0	0		partial		1
+Cornu aspersum	invertebrate	kv_shaker	ploop	0	0	0	1	1	1	found	7	high	5	0	0	0		genome_present	OZ076457.1:15354237-15671279+;OZ076452.1:64776964-65205688+;OZ076453.1:38409958-39786631-;OZ076453.1:99256009-99761656-;OZ076458.1:41417115-42186785+	1
+Cornu aspersum	invertebrate	kv_modifier	ploop	0	0	0	0	0	0	gap	0		0	3	1	0		gap		1
+Cornu aspersum	invertebrate	kv_kcnq	ploop	0	0	0	1	1	0	found	6	high	4	0	0	0		genome_present	OZ076445.1:81130402-82218165-;OZ076454.1:57760042-58692771-;OZ076454.1:87307395-88379128-;OZ076445.1:96766187-97581740+;OZ076453.1:21552645-22401613-	1
+Cornu aspersum	invertebrate	kv_eag	ploop	0	0	0	1	1	1	found	4	high	3	1	0	0		genome_present	OZ076449.1:20430061-20614828+;OZ076444.1:166044970-167096196+;OZ076455.1:90646948-91184326-;OZ076465.1:64761788-65938210+	1
+Cornu aspersum	invertebrate	kca_slo	ploop	0	0	0	1	1	1	found	7	high	3	9	4	0		genome_present	OZ076460.1:50138919-50286666-;OZ076464.1:54335717-55360026+;OZ076450.1:104657042-104787487+;OZ076447.1:88664336-89642183+;OZ076468.1:15343764-15432224-	1
+Cornu aspersum	invertebrate	kca_sk	ploop	0	0	0	1	1	1	found	3	high	3	16	11	0		genome_present	OZ076454.1:47164533-47197174-;OZ076446.1:94955957-96133874-;OZ076444.1:76338827-77774222+	1
+Cornu aspersum	invertebrate	kir	ploop	0	0	0	1	1	1	found	5	high	4	8	0	0		genome_present	OZ076461.1:67746761-68659168-;OZ076447.1:46268854-47001481+;OZ076464.1:35373925-35880488-;OZ076469.1:5540061-6223574-;OZ076469.1:6033680-6049583+	1
+Cornu aspersum	invertebrate	k2p	ploop	0	0	0	1	1	1	found	13	high	8	6	1	0		genome_present	OZ076448.1:27697802-28380617+;OZ076448.1:50172574-50431570+;OZ076461.1:83931291-84299467-;OZ076453.1:14835525-15239484-;OZ076461.1:25080384-25550515+	1
+Cornu aspersum	invertebrate	kcsa_prok	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Cornu aspersum	invertebrate	nav	ploop	0	0	0	1	1	0	found	4	high	1	3	1	0		genome_present	OZ076448.1:28999210-29735044+;OZ076444.1:58287528-58893722-;OZ076446.1:106757102-107776331+;OZ076455.1:20498213-21456832+	1
+Cornu aspersum	invertebrate	cav	ploop	0	0	0	1	1	1	found	5	high	3	8	4	0		genome_present	OZ076460.1:64483513-65491245-;OZ076452.1:86840997-88143891+;OZ076453.1:93256436-94134122+;OZ076450.1:89941935-90890692+;OZ076447.1:136940437-138624824+	1
+Cornu aspersum	invertebrate	nalcn	ploop	0	0	0	1	1	1	found	1	high	1	4	2	0		genome_present	OZ076459.1:46324261-47767439+	1
+Cornu aspersum	invertebrate	catsper	ploop	0	0	0	0	0	0	gap	0		0	8	3	0		gap		1
+Cornu aspersum	invertebrate	tpc	ploop	0	0	0	1	1	0	found	2	high	2	5	1	0		genome_present	OZ076454.1:5067339-5506990-;OZ076461.1:33660343-34214259+	1
+Cornu aspersum	invertebrate	cng	ploop	0	0	0	1	1	1	found	6	high	4	1	0	0		genome_present	OZ076463.1:10527694-11302650-;OZ076459.1:78264321-78470064+;OZ076461.1:8566294-8995378+;OZ076450.1:82760141-82886736-;OZ076468.1:271612-852790+	1
+Cornu aspersum	invertebrate	hcn	ploop	0	0	0	1	1	0	found	2	high	2	7	5	0		genome_present	OZ076446.1:34600112-35653617-;OZ076444.1:156207030-157274361+	1
+Cornu aspersum	invertebrate	trpc	ploop	0	0	0	1	1	1	found	9	high	6	2	1	0		genome_present	OZ076463.1:19504106-20090064+;OZ076463.1:27968296-28567952-;OZ076456.1:47851646-48074615+;OZ076464.1:58811533-58909826+;OZ076447.1:94844571-94944527+	1
+Cornu aspersum	invertebrate	trpv	ploop	0	0	0	1	1	1	found	3	high	3	21	4	0		genome_present	OZ076452.1:96714147-96831366+;OZ076453.1:85568581-86430969-;OZ076450.1:99450429-99858584+	1
+Cornu aspersum	invertebrate	trpm	ploop	0	0	0	1	1	1	found	3	high	2	4	2	0		genome_present	OZ076446.1:37767164-38632351-;OZ076449.1:101050687-101617085+;OZ076444.1:153326555-154395915+	1
+Cornu aspersum	invertebrate	trpa	ploop	0	0	0	1	1	0	found	2	high	2	2	1	0		genome_present	OZ076451.1:43678242-44522198-;OZ076462.1:61183426-62064903+	1
+Cornu aspersum	invertebrate	trpml	ploop	0	0	0	1	1	1	found	2	high	2	0	0	0		genome_present	OZ076462.1:24628936-25166722+;OZ076451.1:83801469-84483445+	1
+Cornu aspersum	invertebrate	trpp	ploop	0	0	0	1	1	0	found	3	high	2	3	1	0		genome_present	OZ076464.1:6752703-7781514+;OZ076447.1:20700174-21651127-;OZ076447.1:18716986-19841746+	1
+Cornu aspersum	invertebrate	trpn	ploop	0	0	0	1	1	0	found	1	high	1	0	0	0		genome_present	OZ076451.1:21542518-22136895-	1
+Cornu aspersum	invertebrate	nachr	cysloop	0	0	0	1	1	1	found	7	high	6	14	7	0		genome_present	OZ076446.1:21906780-23155764-;OZ076446.1:84571472-84947680-;OZ076446.1:113497994-113649858-;OZ076446.1:22834581-22871201+;OZ076444.1:193194108-195275125+	1
+Cornu aspersum	invertebrate	gabaa	cysloop	0	0	0	1	1	0	found	7	high	0	1	0	0		genome_present	OZ076463.1:2066178-2631996+;OZ076463.1:32909908-33789734-;OZ076463.1:38648831-38878986-;OZ076468.1:32225935-33007183+;OZ076468.1:8089553-8876946-	1
+Cornu aspersum	invertebrate	glyr	cysloop	0	0	0	0	0	0	gap	0		0	2	1	0		gap		1
+Cornu aspersum	invertebrate	ht3	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Cornu aspersum	invertebrate	zac	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Cornu aspersum	invertebrate	plgic_invertebrate	cysloop	0	0	0	1	1	0	partial	0		0	1	0	0		partial		1
+Cornu aspersum	invertebrate	plgic_prok	cysloop	0	0	0	1	1	0	found	2	medium	0	1	1	0		genome_present	OZ076449.1:34303288-34356255-;OZ076457.1:47429691-47755673-	1
+Cornu aspersum	invertebrate	ampa	iglur	0	0	0	0	0	0	found	6	medium	0	0	0	0		genome_present	OZ076463.1:7128462-8038756+;OZ076463.1:44374225-45195737+;OZ076463.1:17829533-18895933-;OZ076463.1:43789258-44758073-;OZ076468.1:9836810-11291704+	1
+Cornu aspersum	invertebrate	kainate	iglur	0	0	0	1	1	0	found	6	medium	0	0	0	0		genome_present	OZ076463.1:30760082-31598874+;OZ076445.1:101385618-102278286-;OZ076454.1:104285821-105099045-;OZ076454.1:104020276-104960034+;OZ076445.1:101284492-102176424+	1
+Cornu aspersum	invertebrate	nmda	iglur	0	0	0	1	1	1	found	7	high	4	0	0	0		genome_present	OZ076445.1:64018885-64512360-;OZ076454.1:31841741-32589539-;OZ076464.1:755996-1262998+;OZ076464.1:5704427-6663168+;OZ076447.1:30832529-31732536-	1
+Cornu aspersum	invertebrate	delta_glur	iglur	0	0	0	0	0	0	found	1	medium	0	2	1	0		genome_present	OZ076447.1:55168535-55552695+	1
+Cornu aspersum	invertebrate	iglur_nonvertebrate	iglur	0	0	0	1	1	0	found	1	medium	0	0	0	0		genome_present	OZ076444.1:119446727-119864073+	1
+Cornu aspersum	invertebrate	iglur_prok	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Cornu aspersum	invertebrate	p2x	p2x	0	0	0	1	1	0	found	3	high	3	1	0	0		genome_present	OZ076461.1:19499688-19654871-;OZ076469.1:50083965-50793869-;OZ076469.1:50668110-50769076+	1
+Cornu aspersum	invertebrate	p2x_nonmetazoan	p2x	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Cornu aspersum	invertebrate	enac	deg_enac	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Cornu aspersum	invertebrate	asic	deg_enac	0	0	0	1	1	0	found	2	high	1	2	0	0		genome_present	OZ076449.1:91339244-91382497+;OZ076467.1:15925436-16388983+	1
+Cornu aspersum	invertebrate	deg_invertebrate	deg_enac	0	0	0	1	1	0	found	2	high	2	0	0	0		genome_present	OZ076452.1:106941911-106965054+;OZ076453.1:77314235-77337498+	1
+Cornu aspersum	invertebrate	clc_channel	clc	0	0	0	1	1	1	found	2	high	2	0	0	0		genome_present	OZ076445.1:20571992-21589839-;OZ076467.1:8972256-9757930-	1
+Cornu aspersum	invertebrate	bestrophin	bestrophin	0	0	0	1	1	1	found	2	high	2	3	0	0		genome_present	OZ076445.1:118219407-118729217-;OZ076465.1:40923423-41789878-	1
+Cornu aspersum	invertebrate	cftr	abc_channel	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Cornu aspersum	invertebrate	tweety	tweety	0	0	0	1	1	0	found	1	high	1	17	9	0		genome_present	OZ076464.1:13673348-13706869+	1
+Cornu aspersum	invertebrate	ano_channel	tmem16_like	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Cornu aspersum	invertebrate	ano_scramblase	tmem16_like	0	0	0	1	1	1	found	7	high	4	2	0	0		genome_present	OZ076463.1:89212420-89383898-;OZ076454.1:13832636-14784000-;OZ076454.1:85574509-86593943+;OZ076445.1:94827309-95783587+;OZ076446.1:16218545-16720166-	1
+Cornu aspersum	invertebrate	osca_tmem63	tmem16_like	0	0	0	1	1	0	found	1	high	1	12	7	0		genome_present	OZ076455.1:93865641-94645248+	1
+Cornu aspersum	invertebrate	tmc	tmem16_like	0	0	0	1	1	1	found	2	high	2	12	7	0		genome_present	OZ076449.1:49629863-50471860+;OZ076447.1:122874054-122923158-	1
+Cornu aspersum	invertebrate	piezo	piezo	0	0	0	1	1	0	found	2	high	0	18	16	0		genome_present	OZ076456.1:61980004-62571443-;OZ076470.1:48125776-48554450+	1
+Cornu aspersum	invertebrate	mscl	msc	0	0	0	0	0	0	partial	0		0	4	0	0		partial		1
+Cornu aspersum	invertebrate	mscs	msc	0	0	0	0	0	0	gap	0		0	17	7	0		gap		1
+Cornu aspersum	invertebrate	connexin	connexin	0	0	0	0	0	0	gap	0		0	5	4	0		gap		1
+Cornu aspersum	invertebrate	pannexin	innexin_like	0	0	0	0	0	0	partial	0		0	4	0	0		partial		1
+Cornu aspersum	invertebrate	innexin	innexin_like	0	0	0	1	1	1	found	9	high	9	0	0	0		genome_present	OZ076449.1:10851104-10852324+;OZ076449.1:10952728-10953948+;OZ076449.1:36017048-36385635+;OZ076449.1:17584796-17970013-;OZ076449.1:117616801-117617955-	1
+Cornu aspersum	invertebrate	lrrc8	innexin_like	0	0	0	0	0	0	gap	0		0	5	3	0		gap		1
+Cornu aspersum	invertebrate	calhm	calhm	0	0	0	1	1	0	gap	0		0	2	1	0		gap		1
+Cornu aspersum	invertebrate	itpr	ca_release	0	0	0	1	1	1	found	5	high	1	3	3	0		genome_present	OZ076456.1:5624048-5871402-;OZ076456.1:68302535-68654704+;OZ076452.1:104036144-104749354-;OZ076470.1:2784316-2967819-;OZ076470.1:50394299-50625897-	1
+Cornu aspersum	invertebrate	ryr	ca_release	0	0	0	1	1	0	found	1	high	1	0	0	0		genome_present	OZ076448.1:108730047-109398441+	1
+Cornu aspersum	invertebrate	tric	tric	0	0	0	1	1	1	found	1	high	1	4	0	0		genome_present	OZ076451.1:45507571-45530378-	1
+Cornu aspersum	invertebrate	mcu	mcu	0	0	0	1	1	1	found	2	high	2	1	0	0		genome_present	OZ076464.1:46073154-46539151+;OZ076447.1:62649616-63106249-	1
+Cornu aspersum	invertebrate	vdac	porin	0	0	0	1	1	1	found	3	high	3	2	0	0		genome_present	OZ076464.1:51726394-51743960+;OZ076447.1:57761007-57804028-;OZ076465.1:2690859-2728990+	1
+Cornu aspersum	invertebrate	tmem175	tmem175	0	0	0	0	0	0	gap	0		0	5	1	0		gap		1
+Cornu aspersum	invertebrate	orai	orai	0	0	0	1	1	1	found	1	high	1	17	6	0		genome_present	OZ076469.1:23103568-23787462+	1
+Cornu aspersum	invertebrate	hv1	hv	0	0	0	1	1	0	found	4	high	2	6	1	0		genome_present	OZ076446.1:13203680-13423675+;OZ076444.1:179279846-180142693+;OZ076457.1:84378236-84613576-;OZ076469.1:6231388-6248886-	1
+Cornu aspersum	invertebrate	otop	otopetrin	0	0	0	1	1	1	found	6	high	5	4	0	0		genome_present	OZ076463.1:50637701-50824800-;OZ076453.1:15748887-15797137+;OZ076453.1:29646853-29682207+;OZ076468.1:34059573-34129980+;OZ076466.1:56744697-57033317-	1
+Cornu aspersum	invertebrate	clic	clic	0	0	0	1	1	1	found	3	high	3	14	5	0		genome_present	OZ076445.1:86556680-86982551-;OZ076454.1:75469464-75506309+;OZ076445.1:785935-828073+	1
+Cornu aspersum	invertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1
+Mus musculus	vertebrate	kv_shaker	ploop	17	15	0	1	1	1	found	10	high	9	0	0	0		present	CM000999.3:21216298-21862315+;CM001000.3:44746315-45263196+;CM000995.3:107125397-107598543+;CM000996.3:105366132-105952120+;CM000996.3:106815554-106945325+	1
+Mus musculus	vertebrate	kv_modifier	ploop	10	9	0	1	1	1	found	5	high	4	0	0	0		present	CM000995.3:168104303-168349627-;CM001008.3:34838639-34840072+;CM001001.3:119893854-120379414-;CM001011.3:80338889-80771655-;CM001005.3:11141222-11142697-	1
+Mus musculus	vertebrate	kv_kcnq	ploop	5	5	0	1	1	1	found	5	high	3	7	1	0		present	CM000995.3:180302437-181275627-;CM001000.3:142661096-143412838+;CM000994.3:21236335-22031553-;CM000997.3:120077488-121053523-;CM001008.3:65867698-66397531-	1
+Mus musculus	vertebrate	kv_eag	ploop	8	8	0	1	1	1	found	7	high	4	0	0	0		present	CM001004.3:105899029-106411433+;CM000995.3:62394862-63014421-;CM001008.3:99126345-99131299+;CM000994.3:191873322-192537895+;CM000998.3:23895308-24556292-	1
+Mus musculus	vertebrate	kca_slo	ploop	4	4	0	1	1	1	found	4	high	3	2	0	0		present	CM000994.3:140278935-140523801+;CM001007.3:22896157-24054266-;CM000995.3:25778064-26299269+;CM001001.3:26339717-26798771+	1
+Mus musculus	vertebrate	kca_sk	ploop	4	4	0	1	1	1	found	3	high	2	7	0	0		present	CM001001.3:70982063-71777859-;CM001011.3:45325010-46188554+;CM000996.3:88998489-89959927+	1
+Mus musculus	vertebrate	kir	ploop	15	15	0	1	1	1	found	10	high	9	3	0	0		present	CM001002.3:32060748-32731009-;CM001004.3:60959983-61354383+;CM001004.3:110962610-110963896+;CM000994.3:10732486-10876683+;CM000995.3:55327330-55485106+	1
+Mus musculus	vertebrate	k2p	ploop	14	14	0	1	1	1	found	11	high	11	4	0	0		present	CM001000.3:28924536-28934173-;CM000998.3:30745604-31273436+;CM001005.3:99932194-100028144+;CM001007.3:20313321-20319194-;CM000995.3:163695640-163763258+	1
+Mus musculus	vertebrate	kcsa_prok	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Mus musculus	vertebrate	nav	ploop	10	10	0	1	1	1	found	5	high	3	0	0	0		present	CM001002.3:118888171-119914354-;CM000995.3:65179316-66774454-;CM001008.3:100834206-101216726+;CM001004.3:105819420-106724671-;CM000995.3:65144670-65983090+	1
+Mus musculus	vertebrate	cav	ploop	10	10	0	1	1	1	found	10	high	2	1	0	0		present	CM000995.3:24001206-25208910-;CM001008.3:80204546-80273454+;CM000994.3:135626231-136506656+;CM001004.3:93887239-94753099-;CM001007.3:28627222-30182339-	1
+Mus musculus	vertebrate	nalcn	ploop	1	1	0	1	1	1	found	1	high	1	3	0	0		present	CM001007.3:122430830-124109554-	1
+Mus musculus	vertebrate	catsper	ploop	4	4	0	1	1	1	found	2	high	1	1	0	0		present	CM000995.3:121224937-121242736-;CM000997.3:133939631-133954648-	1
+Mus musculus	vertebrate	tpc	ploop	2	2	0	1	1	1	found	2	high	2	2	0	0		present	CM001000.3:144412918-144837645-;CM000998.3:120215726-120973350-	1
+Mus musculus	vertebrate	cng	ploop	6	6	0	1	1	1	found	4	high	4	0	0	0		present	CM000994.3:36911932-37492478+;CM001000.3:105054133-105057020+;CM000998.3:72374725-73205039-;CM001013.3:70600517-71336192+	1
+Mus musculus	vertebrate	hcn	ploop	4	4	0	1	1	1	found	4	high	3	7	0	0		present	CM000996.3:88579683-89641069-;CM001002.3:58324395-59087811+;CM001003.3:79183968-80029534+;CM001006.3:117344691-118575722+	1
+Mus musculus	vertebrate	trpc	ploop	7	7	0	1	1	1	found	7	high	6	3	0	0		present	CM000996.3:36675431-36725812-;CM001002.3:95588793-95631892-;CM001000.3:101248988-101743539+;CM001002.3:8609690-8680530+;CM000996.3:54102101-54642949+	1
+Mus musculus	vertebrate	trpv	ploop	6	6	0	1	1	1	found	5	high	5	2	0	0		present	CM001004.3:62469231-62489156+;CM001004.3:72564900-73649261+;CM000998.3:114479473-115156004-;CM000999.3:41598011-41613023-;CM000999.3:41630064-41657553-	1
+Mus musculus	vertebrate	trpm	ploop	8	8	0	1	1	1	found	6	high	3	1	0	0		present	CM001003.3:77650674-78228155-;CM000995.3:126165804-127182246-;CM000994.3:87923140-88684382+;CM001000.3:63379007-64351276+;CM001012.3:18606145-18869501+	1
+Mus musculus	vertebrate	trpa	ploop	1	1	0	1	1	1	found	1	high	1	1	0	0		present	CM000994.3:14943730-15236367-	1
+Mus musculus	vertebrate	trpml	ploop	3	3	0	1	1	1	found	2	high	2	2	0	0		present	CM000996.3:145559956-146334964+;CM001001.3:3388976-3784540+	1
+Mus musculus	vertebrate	trpp	ploop	3	3	0	1	1	1	found	3	high	3	2	0	0		present	CM000998.3:104325763-105139258+;CM001011.3:34083813-34956661+;CM001012.3:43680864-44627718-	1
+Mus musculus	vertebrate	trpn	ploop	4	0	0	1	1	0	partial	0		0	5	0	0		present		1
+Mus musculus	vertebrate	nachr	cysloop	16	16	0	1	1	1	found	11	high	10	7	0	0		present	CM000996.3:89664422-89876101-;CM001002.3:54920085-55132165-;CM001000.3:62748996-63182654-;CM001000.3:101285152-101764295-;CM000995.3:73396556-73404964-	1
+Mus musculus	vertebrate	gabaa	cysloop	19	19	0	1	1	1	found	12	high	12	0	0	0		present	CM001004.3:42312177-42517718+;CM001000.3:57241024-57538685+;CM001004.3:41803143-42400512-;CM000998.3:71738879-72308796+;CM001009.3:59226016-59623842+	1
+Mus musculus	vertebrate	glyr	cysloop	5	5	0	1	1	1	found	4	high	4	0	0	0		present	CM001004.3:55405639-55498550-;CM001001.3:56393891-56578387+;CM001013.3:135614714-136154462-;CM001013.3:163832412-164387070-	1
+Mus musculus	vertebrate	ht3	cysloop	2	2	0	1	1	1	found	1	high	1	1	0	0		present	CM001002.3:48810992-49231799-	1
+Mus musculus	vertebrate	zac	cysloop	0	0	0	1	1	0	found	1	medium	0	0	0	0		genome_weak	CM000997.3:41266303-41666273+	1
+Mus musculus	vertebrate	plgic_invertebrate	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Mus musculus	vertebrate	plgic_prok	cysloop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Mus musculus	vertebrate	ampa	iglur	4	4	0	1	1	1	found	4	high	4	0	0	0		present	CM000996.3:80231929-80870973-;CM001002.3:4420152-4795274-;CM001004.3:56654588-57309218+;CM001013.3:40199615-40761341+	1
+Mus musculus	vertebrate	kainate	iglur	5	5	0	1	1	1	found	5	high	5	0	0	0		present	CM001002.3:42432398-42797502-;CM001000.3:24710142-24767561-;CM001003.3:48977204-49659355-;CM001009.3:87252869-88316879-;CM000997.3:125384624-126005582+	1
+Mus musculus	vertebrate	nmda	iglur	7	7	0	1	1	1	found	3	high	2	0	0	0		present	CM001004.3:114739269-115151964-;CM001009.3:8918444-10237885-;CM000999.3:135218908-136129760-	1
+Mus musculus	vertebrate	delta_glur	iglur	2	2	0	1	1	1	found	2	high	2	0	0	0		present	CM000999.3:63233841-64942903+;CM001007.3:34542185-35302766+	1
+Mus musculus	vertebrate	iglur_nonvertebrate	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Mus musculus	vertebrate	iglur_prok	iglur	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0
+Mus musculus	vertebrate	p2x	p2x	7	7	0	1	1	1	found	3	high	3	0	0	0		present	CM000995.3:84829357-84865643-;CM000998.3:122841373-123392316+;CM000998.3:110467685-110490782-	1
+Mus musculus	vertebrate	p2x_nonmetazoan	p2x	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Mus musculus	vertebrate	enac	deg_enac	3	3	0	1	1	1	found	3	high	3	0	0	0		present	CM000999.3:125299048-125320958+;CM001000.3:121337135-121366772+;CM001000.3:121498453-121517279+	1
+Mus musculus	vertebrate	asic	deg_enac	5	5	0	1	1	1	found	4	high	4	0	0	0		present	CM001008.3:99477016-100069956+;CM000994.3:75427590-75449739+;CM001004.3:80615136-81859010-;CM000998.3:24611857-24622203+	1
+Mus musculus	vertebrate	deg_invertebrate	deg_enac	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Mus musculus	vertebrate	clc_channel	clc	4	4	0	1	1	1	found	1	high	1	1	0	0		present	CM000999.3:41891133-42291112+	1
+Mus musculus	vertebrate	bestrophin	bestrophin	3	3	0	1	1	1	found	2	high	1	0	0	0		present	CM001012.3:9679903-9974542-;CM001003.3:116824533-117342659+	1
+Mus musculus	vertebrate	cftr	abc_channel	1	1	0	1	1	1	found	1	high	1	1	0	0		present	CM000999.3:18170811-18321032+	1
+Mus musculus	vertebrate	tweety	tweety	3	3	0	1	1	1	found	3	high	3	6	0	0		present	CM001004.3:114566123-114610029+;CM001000.3:4122654-4136700+;CM000998.3:140363151-140634585-	1
+Mus musculus	vertebrate	ano_channel	tmem16_like	2	2	0	1	1	1	found	2	high	2	0	0	0		present	CM000999.3:125443604-126438855+;CM001000.3:143838387-144317239-	1
+Mus musculus	vertebrate	ano_scramblase	tmem16_like	8	8	0	1	1	1	found	7	high	5	1	0	0		present	CM001000.3:140681946-141044421-;CM001003.3:88788056-89346684-;CM000995.3:110488485-111075866-;CM001008.3:95521374-95870519+;CM000994.3:93308136-93336911+	1
+Mus musculus	vertebrate	osca_tmem63	tmem16_like	3	3	0	1	1	1	found	3	high	3	13	0	0		present	CM000994.3:180526694-181205689+;CM001005.3:87103267-87435093+;CM001010.3:45826925-46304611-	1
+Mus musculus	vertebrate	tmc	tmem16_like	8	8	0	1	1	1	found	4	high	3	4	0	0		present	CM001000.3:118137360-118163584-;CM001000.3:83204773-83517908+;CM000995.3:129694147-130506551+;CM001012.3:20295282-20897090-	1
+Mus musculus	vertebrate	piezo	piezo	2	2	0	1	1	1	found	2	high	2	7	0	0		present	CM001001.3:123208721-123622890-;CM001011.3:63144619-63665485-	1
+Mus musculus	vertebrate	mscl	msc	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1
+Mus musculus	vertebrate	mscs	msc	0	0	0	0	0	0	gap	0		0	15	1	0		gap		1
+Mus musculus	vertebrate	connexin	connexin	20	20	0	1	1	1	found	10	high	8	0	0	0		present	CM000996.3:96394089-96827660-;CM000995.3:113841573-113843612-;CM001004.3:102691225-102692001-;CM001007.3:57273117-57274370-;CM000997.3:32122863-32602382-	1
+Mus musculus	vertebrate	pannexin	innexin_like	3	3	0	1	1	1	found	3	high	3	1	0	0		present	CM001002.3:14610826-14956333-;CM001002.3:37572412-37580351-;CM001008.3:88944277-89338236+	1
+Mus musculus	vertebrate	innexin	innexin_like	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1
+Mus musculus	vertebrate	lrrc8	innexin_like	5	5	10	1	1	1	found	3	high	3	1	0	0		present	CM000998.3:105727254-105756638+;CM000995.3:30145188-30152135+;CM001001.3:4281667-4286164+	1
+Mus musculus	vertebrate	calhm	calhm	6	6	0	1	1	1	found	3	high	3	5	0	0		present	CM001003.3:33968194-33972433-;CM001012.3:47121196-47124342-;CM001012.3:47129474-47132616-	1
+Mus musculus	vertebrate	itpr	ca_release	3	3	0	1	1	1	found	3	high	1	0	0	0		present	CM000999.3:108213937-108526800+;CM001010.3:27026957-27731105+;CM000999.3:145651539-146403376-	1
+Mus musculus	vertebrate	ryr	ca_release	3	3	0	1	1	1	found	3	high	3	0	0	0		present	CM001000.3:28702883-28824449-;CM000995.3:112462468-113047344-;CM001006.3:11569402-12121338-	1
+Mus musculus	vertebrate	tric	tric	2	2	0	1	1	1	found	2	high	2	2	0	0		present	CM001001.3:73325948-73339930+;CM000997.3:53826109-53877651+	1
+Mus musculus	vertebrate	mcu	mcu	2	2	0	1	1	1	found	2	high	2	1	0	0		present	CM000996.3:129708758-129763697-;CM001003.3:59002472-59658405-	1
+Mus musculus	vertebrate	vdac	porin	5	5	0	1	1	1	found	12	high	4	0	0	0		present	CM001004.3:52116437-52279350+;CM001000.3:116402856-116403714-;CM000994.3:44683033-44683861+;CM001001.3:23067527-23078811-;CM001007.3:21400066-21895305+	1
+Mus musculus	vertebrate	tmem175	tmem175	1	1	0	1	1	1	found	1	high	1	0	0	0		present	CM000998.3:108786213-108794371+	1
+Mus musculus	vertebrate	orai	orai	3	3	0	1	1	1	found	2	high	2	14	1	0		present	CM001000.3:126883933-127571928+;CM000998.3:135716657-136601527-	1
+Mus musculus	vertebrate	hv1	hv	2	2	0	1	1	1	found	1	high	1	0	0	0		present	CM000998.3:122371480-122378735+	1
+Mus musculus	vertebrate	otop	otopetrin	3	3	0	1	1	1	found	2	high	2	2	0	0		present	CM001004.3:114951268-115237271+;CM000998.3:38177968-38460237+	1
+Mus musculus	vertebrate	clic	clic	6	5	0	1	1	1	found	5	high	4	28	0	0		present	CM000996.3:63080527-63436757-;CM001009.3:91919535-92336484+;CM000997.3:134944412-135406493-;CM001010.3:34888585-35277467+;CM001010.3:44054677-44586268+	1
+Mus musculus	vertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1

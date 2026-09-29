@@ -431,3 +431,41 @@ superfamily set — jackhmmer is a superfamily instrument there.
 ### Next session
 **S5** — genomic tblastn + miniprot for absent cells of
 `family_by_species.tsv` and the two genome-only species (D4).
+
+## 2026-09-29 — S5a: the genomic sweep's instrument, and a seven-genome pilot
+
+**Ran.** Protocol clean (drive attached, 666 GB free; catalogue and
+self-test clean). S5 split in the ledger (S5a instrument + pilot, S5b full
+sweep), as the parent project did. New: `scripts/s5_genome_io.py`,
+`s5_baits.py`, `s5_lib.py`, `s5_classify.py`, `s5_rescue.py`,
+`s5_annotation.py`, `s5_calibrate.py`, `s5_ledger.py`, `s5_verdict.py`,
+`s5_sweep.py`, `s5_report.py` (all < 360 lines); eight S5 self-test
+invariants, the exon-confirmation one mutation-tested (the first version
+passed under the mutation — its case never reached the threshold — and was
+rewritten). Seven genomes downloaded and MD5-verified (6.0 Gbp); pilot
+sweep 29.8 min wall on 1,808 baits.
+
+**Result.** 1,881 loci, 1,020 profile-called. Matched detection 172 / 173
+control cells; found 166 / 175. Mouse introns up to 996 kb at called loci
+(13 / 220 over 200 kb). Zero cells: 10 absent among the 25 informative
+non-*Cornu* cells, 0 proteome misses of a high-confidence intact gene;
+literature checks 4 / 4 consistent. *Cornu*: 46 families present by genome
+alone.
+
+**Surprises.** (1) The first panel (8 baits/family, one per group) found
+only 5/9 of *Arabidopsis*'s own families with self-baits excluded: TPC1 drew
+nothing from 7 non-plant TPC baits in either miniprot or tblastn → one bait
+per species, and a *matched* control (D37). (2) `spread()`'s default cap was
+bound at definition, so the first comparison silently rebuilt the old panel
+(664 baits) — caught by the count, fixed by explicit parameters. (3) Python
+`hash()` salting would have made the tblastn cache never hit — fixed with a
+digest. (4) The N-run scan was a per-character Python loop over 5 Mb loci —
+regex. (5) "Overlaps an annotated gene" confirmed a 400 kb chained ZAC model;
+reciprocal extent then rejected real long-UTR genes (mouse 223 → 130);
+CDS-on-exons settled it (220). (6) Mouse VDAC: 12 high-confidence loci for
+3 genes, retrocopies — the `intact` requirement.
+
+### Next session
+**S5b** — `s5_sweep.py run --all` over the 52 genomes (~42 Gbp, ~3 h
+miniprot + downloads), after deciding the `-G` margin and the D4 fallback
+bar (emergent rows).

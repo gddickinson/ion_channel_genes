@@ -1,0 +1,8 @@
+species	group	control_cells	found	partial	no_locus	recall	missed	partial_families	detected	detection	undetected	matched_cells	matched_detected	matched_detection	matched_undetected	unmatched_cells	unmatched_detected
+Arabidopsis thaliana	plant	9	8	1	0	0.8889		hv1	9	1.0		8	8	1.0		1	1
+Caenorhabditis elegans	invertebrate	39	36	1	2	0.9231	calhm,tweety	clic	38	0.9744	tweety	38	37	0.9737	tweety	1	1
+Cornu aspersum	invertebrate	27	27	0	0	1.0			27	1.0		27	27	1.0		0	0
+Drosophila melanogaster	invertebrate	40	38	1	1	0.95	asic	tweety	40	1.0		40	40	1.0		0	0
+Escherichia coli	prokaryote	3	2	0	1	0.6667	bestrophin		3	1.0		3	3	1.0		0	0
+Mus musculus	vertebrate	55	55	0	0	1.0			55	1.0		55	55	1.0		0	0
+Saccharomyces cerevisiae	fungi	2	0	1	1	0.0	vdac	osca_tmem63	2	1.0		2	2	1.0		0	0

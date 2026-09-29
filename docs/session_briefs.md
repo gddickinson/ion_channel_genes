@@ -165,6 +165,35 @@ annotation source.
 **Goal.** tblastn + miniprot for every family that S3 finds absent in a
 lineage, so an absence claim passes both bars (D4).
 
+**Split 2026-09-29** (as the parent project did): **S5a** builds and measures
+the instrument on a pilot; **S5b** runs it over all 52 panel genomes.
+
+### S5a — instrument + pilot
+
+Scripts `s5_genome_io.py` (fetch, MD5, index), `s5_baits.py` (B1–B3),
+`s5_lib.py` (miniprot, parse, overlap loci), `s5_classify.py` (locus
+translations → S3a profiles → D32), `s5_rescue.py` (tblastn),
+`s5_ledger.py` + `s5_verdict.py` (cells, controls, verdicts),
+`s5_calibrate.py` (span / intron from annotation), `s5_report.py`;
+driver `s5_sweep.py`. Pilot: *E. coli*, *S. cerevisiae*, *Arabidopsis*,
+*C. elegans*, *Drosophila*, mouse, *Cornu* (genome-only).
+
+**Completion criteria.** (1) Bait panel derived by rule, every family
+baited. (2) Every pilot genome swept, loci called by the profiles, 0
+failures. (3) Positive control measured per genome, with self-baits
+excluded, *matched* (a same-group non-self bait exists) vs unmatched
+reported separately. (4) `-G` and D4's span bar measured from annotation.
+(5) The control floor set from the pilot, stated as a decision. (6) The
+literature-expected absences (ZAC mouse; Nav, P2X *C. elegans*; P2X
+*Drosophila*) read out. (7) Self-test covers the new invariants; report
+rendered from tables.
+
+### S5b — full sweep
+
+`python3 scripts/s5_sweep.py run --all`, then `s5_calibrate.py`,
+`s5_verdict.py`, `s5_report.py`. Budget from S5a's timings. Census v4 =
+census v3 + genome-only loci (never merged into a proteome call).
+
 ---
 
 ## S6 — Alignments and pore modules

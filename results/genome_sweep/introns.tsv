@@ -1,0 +1,8 @@
+species	group	annotation_accession	called_loci	annotated_loci	widest_annotated_intron	widest_gene	max_intron_used	over_G
+Escherichia coli	prokaryote	GCA_000005845.2	2	2	0	mscL (mscl)	2000	0
+Saccharomyces cerevisiae	fungi	GCA_000146045.2	0	0			200000	0
+Arabidopsis thaliana	plant	GCA_000001735.2	33	32	766	KCO2 (k2p)	200000	0
+Caenorhabditis elegans	invertebrate	GCA_000002985.3	101	98	20089	unc-7 (innexin)	200000	0
+Drosophila melanogaster	invertebrate	GCA_000001215.4	68	68	87537	shakB (innexin)	200000	0
+Cornu aspersum	invertebrate		152	0			1000000	
+Mus musculus	vertebrate	GCF_000001635.27	231	220	996015	Asic2 (asic)	1000000	0

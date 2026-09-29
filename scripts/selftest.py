@@ -302,6 +302,68 @@ check("accepted targets are the last accepted round's set",
       _k.accepted_targets([_rd(1, ["a"]), _rd(2, ["a", "b"]), _rd(3, ["a", "b", "c"])], 2),
       {"a", "b"})
 
+# ------------------------------------------------------------ S5 genomic sweep
+print("\ngenomic sweep (S5)")
+import tempfile as _tf                                        # noqa: E402
+sys.path.insert(0, str(ROOT / "scripts"))
+from scripts import s5_lib as _l, s5_rescue as _r, s5_ledger as _g  # noqa: E402
+from scripts.s5_verdict import verdict as _v                 # noqa: E402
+_gff = ("##PAF\tx\n##STA\tMKV\n"
+        "c1\tminiprot\tmRNA\t100\t400\t50\t+\t.\tID=MP1;Identity=0.5;Target=kv|A 1 100\n"
+        "c1\tminiprot\tCDS\t100\t200\t.\t+\t0\tParent=MP1;Target=kv|A 1 34\n"
+        "c1\tminiprot\tCDS\t300\t400\t.\t+\t0\tParent=MP1;Target=kv|A 35 68\n"
+        "##STA\tMSELF\n"
+        "c1\tminiprot\tmRNA\t100\t400\t90\t+\t.\tID=MP2;Identity=0.9;Target=kv|B 1 100\n"
+        "c1\tminiprot\tCDS\t100\t400\t.\t+\t0\tParent=MP2;Target=kv|B 1 100\n")
+with _tf.NamedTemporaryFile("w", suffix=".gff", delete=False) as _fh:
+    _fh.write(_gff)
+_meta = {"kv|A": {"family": "kv", "species": "Other", "length": "100"},
+         "kv|B": {"family": "kv", "species": "Self", "length": "100"}}
+_al, _dr = _l.parse_miniprot_gff(Path(_fh.name), _meta, exclude_species="Self")
+check("miniprot: a genome's own species' baits are dropped (genome-scale LOO)",
+      ([a.bait for a in _al], _dr), (["kv|A"], 1))
+check("miniprot: ##STA binds to the next mRNA; coverage is the CDS query union",
+      (_al[0].translation, _al[0].aligned_aa, _al[0].max_intron), ("MKV", 68, 99))
+_mk = lambda s, e, f: _l.Aln("c", s, e, "+", 10, 0.5, f"{f}|x", f, 1, 10, 10)  # noqa: E731
+check("loci: overlapping alignments are one locus; a neighbour 1 kb away is not",
+      len(_l.cluster_loci([_mk(1, 500, "a"), _mk(400, 900, "b"), _mk(1900, 2500, "c")])), 2)
+check("rescue: an HSP inside any recorded locus is never a trace",
+      [h["start"] for h in _r.outside_loci(
+          [{"contig": "c", "start": 50, "end": 60}, {"contig": "c", "start": 5000, "end": 5100}],
+          [{"contig": "c", "start": 1, "end": 100}])], [5000])
+_L = lambda call, fam, bf, edge="0": {"p_call": call, "p_family": fam, "p_confidence":  # noqa: E731
+                                     "high" if call == "family" else "none",
+                                     "bait_family": bf, "at_edge": edge,
+                                     "longest_n_run": "0", "locus": "l"}
+check("genome status: the profile call decides, not the bait that found the locus",
+      (_g.genome_status("kv", [_L("family", "kctd", "kv")])["genome"],
+       _g.genome_status("kv", [_L("module", "", "kv", edge="1")])["genome"]),
+      ("no_locus", "gap"))
+_cell = lambda **k: {"proteome_records": "0", "genome": "no_locus", "n_traces": 0,  # noqa: E731
+                     "informative": 1, "matched": 1, "species": "S", "family": "kv", **k}
+_ctl = {"S": {"matched_detection": 0.95}}
+check("verdict: absent needs a matched bait, a passing control and the D4 bar",
+      (_v(_cell(), {"n50": "10000"}, _ctl, {"kv": 5000}),
+       _v(_cell(), {"n50": "1000"}, _ctl, {"kv": 5000}),
+       _v(_cell(matched=0), {"n50": "10000"}, _ctl, {"kv": 5000}),
+       _v(_cell(), {"n50": "10000"}, {"S": {"matched_detection": 0.5}}, {"kv": 5000}),
+       _v(_cell(n_traces=1), {"n50": "10000"}, _ctl, {"kv": 5000})),
+      ("absent", "absent_below_bar", "unmatched", "uncontrolled", "trace"))
+
+check("verdict: a proteome miss needs a high-confidence intact locus; genome-only is presence",
+      (_v(_cell(genome="found", n_strong=1), {"n50": "1"}, _ctl, {}),
+       _v(_cell(genome="found", n_strong=0), {"n50": "1"}, _ctl, {}),
+       _v(_cell(genome="found", n_strong=0), {"n50": "1", "status": "genome_only"}, _ctl, {})),
+      ("genome_found", "genome_weak", "genome_present"))
+from scripts.s5_annotation import GeneIndex as _GI           # noqa: E402
+_gi = _GI([{"contig": "c", "start": 1, "end": 100000, "strand": "+", "gene_id": "g",
+            "name": "", "biotype": "protein_coding", "max_intron": 0, "n_exons": 2,
+            "exons": [(1, 500), (99000, 100000)]}])
+check("annotation confirms a model only where >= half its CDS lies on the gene's exons",
+      (_gi.best_overlap("c", 100, 99500, "+", [(100, 400), (99100, 99500)]) is not None,
+       _gi.best_overlap("c", 450, 60000, "+", [(450, 650), (59700, 60000)]) is None),
+      (True, True))
+
 print()
 if FAILURES:
     print(f"{len(FAILURES)} invariant(s) FAILED: {', '.join(FAILURES)}")

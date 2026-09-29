@@ -427,3 +427,43 @@ In the 24 searches that converged cleanly, the iterative search recovers
 is not missing members that an unconstrained search would find. That
 claim is limited to those 24 families *(pending: S5 for absences, S15 for
 the per-superfamily recall curve)*.
+
+## S5a — what it takes to say a gene is missing from a genome (2026-09-29)
+
+**A gene can only be declared absent where a close relative was used to
+look for it.** Searching genomes directly with protein "baits" finds a
+channel reliably when the bait comes from the same broad lineage, and
+barely at all when it doesn't. Seven animal and ciliate two-pore channels
+put no alignment at all on *Arabidopsis*'s well-known TPC1 gene, by either
+of the two search methods. With a bait from every panel species, and each
+genome searched only with baits from *other* species, the search detects
+172 of 173 channel families that a genome's own gene set says are there.
+So every "absent" here is conditional on an in-lineage bait existing.
+Where one doesn't, the result is recorded as unjudgeable, not as absent.
+
+**In the six pilot genomes with gene sets, the gene sets are not hiding
+channels.** No informative gap in the gene sets turned out to be an intact,
+confidently identified channel gene sitting in the genome unannotated.
+Ten absences survive every check. Among them are the long-reported ones:
+no voltage-gated sodium channel in *C. elegans*, no P2X receptor in
+*C. elegans* or *Drosophila*, and no two-pore channel in either. None of
+the four literature expectations was contradicted *(pending: reference
+verification before any is cited; S5b for the other 45 genomes)*.
+
+**The apparent mouse ZAC is not a gene.** The zinc-activated channel is
+reported absent from rodents. The genome search did return a mouse "ZAC"
+model, but it is 32 % identical to the bait, stretched over 400 kb, and on
+a different chromosome from the one that should carry the gene. It is
+recorded as weak evidence, not a find. Mouse likewise carries 12
+VDAC-like loci for three VDAC genes, most of them broken copies (retrocopies).
+Counting genomic hits would overstate copy number.
+
+**Mammalian channel genes are enormous.** At the loci the search called,
+13 of 220 mouse genes have an intron longer than 200 kb (the aligner's
+default limit), up to almost 1 Mb in the acid-sensing channel ASIC2.
+At the default, a search would report these genes as fragments.
+
+**The garden snail, which has no gene set, carries 46 channel families by
+genome alone,** including Hv1 and CLIC
+and the full molluscan complement of P-loop, Cys-loop and iGluR channels
+*(pending: S5b for the snail's own ledger and for *Torpedo*)*.

@@ -1,0 +1,39 @@
+{
+  "baits": 1808,
+  "bait_families": 91,
+  "bait_species": 50,
+  "genomes": 7,
+  "genome_bp": 6017065504,
+  "loci": 1881,
+  "family_called_loci": 1020,
+  "control_cells": 175,
+  "control_found": 166,
+  "matched_control_cells": 173,
+  "matched_control_detected": 172,
+  "unmatched_control_cells": 2,
+  "unmatched_control_detected": 2,
+  "zero_cells": 312,
+  "zero_verdicts": {
+    "no_locus_unrescued": 184,
+    "partial": 50,
+    "absent": 10,
+    "trace": 5,
+    "absent_bar_unmeasured": 3,
+    "gap": 10,
+    "genome_weak": 2,
+    "genome_present": 48
+  },
+  "informative_zero_cells": 71,
+  "informative_verdicts": {
+    "absent": 10,
+    "trace": 5,
+    "absent_bar_unmeasured": 3,
+    "partial": 5,
+    "genome_present": 46,
+    "gap": 1,
+    "genome_weak": 1
+  },
+  "traces": 23,
+  "families_with_span": 61,
+  "control_floor": 0.9
+}
