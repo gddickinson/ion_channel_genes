@@ -164,6 +164,43 @@ check("UniProt MatchStatus is read as a copy number",
 check("only Transmembrane features are counted", _rec["tm_count"], 24)
 check("census shard keys are unique", len({k for k, _ in SHARDS}), len(SHARDS))
 
+# ------------------------------------------------ profile assignment (S3a)
+print("\nprofile assignment — D7 / D30 at HMM scale")
+from scripts.s3_assign import assign_one, fam_superfamily   # noqa: E402
+from scripts.s3_census_v3 import merge                      # noqa: E402
+_sf = fam_superfamily()
+# hit tuples: (score, profile, profile_coverage, target_coverage, evalue)
+check("a clear winner over most of its profile is a family call",
+      assign_one("t", [(900, "nav", .9, .9, 0), (500, "cav", .9, .9, 0)], _sf)["p_family"], "nav")
+check("a high score over < 30 % of the profile is a shared module, not a call",
+      assign_one("t", [(400, "hcn", .15, .9, 0)], _sf)["p_call"], "module")
+check("two profiles within 10 % in one superfamily → superfamily_only",
+      (lambda r: (r["p_call"], r["p_superfamily"]))(assign_one(
+          "t", [(500, "nachr", .8, .9, 0), (470, "gabaa", .8, .9, 0)], _sf)),
+      ("superfamily_only", "cysloop"))
+check("two profiles within 10 % across superfamilies → ambiguous",
+      assign_one("t", [(500, "nachr", .8, .9, 0), (470, "kir", .8, .9, 0)], _sf)["p_call"],
+      "ambiguous")
+check("the runner-up counts whatever its coverage (a close module is a competitor)",
+      assign_one("t", [(500, "kv_shaker", .8, .9, 0), (480, "nonchannel_kctd", .2, .9, 0)],
+                 _sf)["p_call"], "superfamily_only")
+check("below the score floor nothing is called",
+      assign_one("t", [(20, "mscl", .9, .9, 0)], _sf)["p_call"], "low_score")
+_v2 = {"family": "cav", "superfamily": "ploop"}
+check("S2 and profile agreeing → both",
+      merge(_v2, {"p_call": "family", "p_family": "cav", "p_superfamily": "ploop"}, {})["v3_basis"], "both")
+check("S2 and profile disagreeing → conflict, never a silent winner",
+      merge(_v2, {"p_call": "family", "p_family": "nav", "p_superfamily": "ploop"}, {})["v3_basis"],
+      "conflict")
+check("a profile call outside S2's superfamily → conflict",
+      merge({"family": "", "superfamily": "cysloop"},
+            {"p_call": "family", "p_family": "kir", "p_superfamily": "ploop"}, {})["v3_basis"],
+      "conflict")
+check("a profile call inside S2's superfamily resolves it",
+      merge({"family": "", "superfamily": "cysloop"},
+            {"p_call": "family", "p_family": "nachr", "p_superfamily": "cysloop"}, {})["v3_family"],
+      "nachr")
+
 print()
 if FAILURES:
     print(f"{len(FAILURES)} invariant(s) FAILED: {', '.join(FAILURES)}")

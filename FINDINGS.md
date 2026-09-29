@@ -243,3 +243,46 @@ bacterial with a eukaryotic minority; K2P, Cav, Nav and Kir are eukaryotic.
 39 viral records reach the P-loop superfamily; that they are Kcv-type K⁺ channels is expected but unchecked *(pending: S21)*. About a thousand eukaryotic
 MscL records and 51 bacterial Kir records are unexpected and need checking
 *(pending: S21)*.
+
+---
+
+## S3a — one profile per family resolves most of what domains could not (2026-09-28)
+
+**Families that share every domain can still be told apart by sequence, and
+mostly are.** A statistical profile of each of the 90 catalogued families
+separates the receptors that S2's domain rules could only place in a
+superfamily: 94 % of the Cys-loop receptors now fall into nicotinic, GABA-A,
+glycine or 5-HT3 families; 98 % of the anoctamins into channels or
+scramblases; 95 % of P2X; 82 % of glutamate receptors. Overall, 58.7 % of the
+1.25 million candidate proteins now have a family, up from 27.8 %. How
+reliable those splits are outside vertebrates is not yet measured *(pending:
+non-vertebrate test panel, emergent)*.
+
+**The profiles and the domain rules agree when both speak.** On 320,000
+proteins both methods called, they name the same family 96.8 % of the time
+(99.2 % in bacteria) — two different kinds of evidence converging. On a
+held-out test where each protein was removed from its own profile, 69 of 71
+known channels were placed correctly, and no decoy was called a channel.
+
+**Where they disagree, the fault is mostly in rules that test for an
+absence.** Three of S2's rules decide a family by what a protein *lacks*.
+One calls any Cys-loop binding domain without an annotated membrane domain
+an "AChBP" (the soluble snail protein) — but 6,600 of those proteins are
+receptor-length, and the profiles call them receptors. Another calls any
+fragment with the domain IP3 receptors and ryanodine receptors *share*, but
+without the ryanodine-specific domains, an IP3 receptor; comparison with the
+IP3R project's independent census found 502 such fragments that project
+calls ryanodine receptors. A third splits the TRPP channels from
+polycystin-1 by counting repeats and misplaces ~3,000 polycystin-1-like
+proteins. None of these is corrected yet *(pending: rule rewrites,
+emergent)* — the census records them as conflicts or flags them rather
+than choosing.
+
+**Hv1-like voltage-sensor proteins are more widespread than the domain rules
+could see** — nearly 2,000 proteins, mostly Hv1-length (median 252 aa), that S2 only placed in the
+P-loop superfamily are called Hv1 by the profile *(pending: the PF00520
+superfamily-conflict fix; not yet verified as proton channels)*.
+
+**Two independent projects agree on the IP3 and ryanodine receptors.** On
+15,600 proteins both censuses contain, the same family is called for 12,200,
+and the largest disagreement traces to one identifiable rule.

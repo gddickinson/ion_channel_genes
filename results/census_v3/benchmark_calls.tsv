@@ -1,0 +1,681 @@
+set	accession	expected_family	expected_superfamily	loo	outcome	p_call	p_family	p_superfamily	p_confidence	win_score	win_coverage	win_target_coverage	runner	runner_score	rel_margin	band	p_reason
+A_s1_panel	Q09470	kv_shaker	ploop	loo	correct	family	kv_shaker	ploop	high	713.4	0.8689	0.9434	kv_modifier	361.7	0.493	kv_shaker	kv_shaker wins by 351.7 bits (49.3% of 713.4) over 87% of the profile
+A_s1_panel	Q14721	kv_shaker	ploop	loo	correct	family	kv_shaker	ploop	medium	708.5	0.8964	0.6247	kv_modifier	599.3	0.1541	kv_shaker	kv_shaker wins by 109.2 bits (15.4% of 708.5) over 90% of the profile
+A_s1_panel	Q9BQ31	kv_modifier	ploop	loo	correct	family	kv_modifier	ploop	medium	588.5	0.9063	0.9022	kv_shaker	453.5	0.2294	kv_modifier	kv_modifier wins by 135.0 bits (22.9% of 588.5) over 91% of the profile
+A_s1_panel	P51787	kv_kcnq	ploop	loo	correct	family	kv_kcnq	ploop	high	1059.7	0.9879	0.9896	kv_shaker	109.9	0.8963	kv_kcnq	kv_kcnq wins by 949.8 bits (89.6% of 1059.7) over 99% of the profile
+A_s1_panel	Q12809	kv_eag	ploop	loo	correct	family	kv_eag	ploop	high	1581.8	0.997	1.0	cng	187.3	0.8816	kv_eag	kv_eag wins by 1394.5 bits (88.2% of 1581.8) over 100% of the profile
+A_s1_panel	Q12791	kca_slo	ploop	loo	correct	family	kca_slo	ploop	high	1946.1	0.9973	0.9612	kv_modifier	48.5	0.9751	kca_slo	kca_slo wins by 1897.6 bits (97.5% of 1946.1) over 100% of the profile
+A_s1_panel	Q5JUK3	kca_slo	ploop	loo	correct	family	kca_slo	ploop	high	930.8	0.9179	0.9472	k2p	43.1	0.9537	kca_slo	kca_slo wins by 887.7 bits (95.4% of 930.8) over 92% of the profile
+A_s1_panel	Q9H2S1	kca_sk	ploop	loo	correct	family	kca_sk	ploop	high	973.2	0.8526	1.0	kv_kcnq	30.1	0.9691	kca_sk	kca_sk wins by 943.1 bits (96.9% of 973.2) over 85% of the profile
+A_s1_panel	P63252	kir	ploop	loo	correct	family	kir	ploop	high	634.6	0.9853	0.9742			1.0	kir	kir wins by 634.6 bits (100.0% of 634.6) over 99% of the profile
+A_s1_panel	Q14654	kir	ploop	loo	correct	family	kir	ploop	high	539.2	0.9075	0.9462			1.0	kir	kir wins by 539.2 bits (100.0% of 539.2) over 91% of the profile
+A_s1_panel	O95069	k2p	ploop	loo	correct	family	k2p	ploop	high	338.4	0.7563	0.723	kcsa_prok	64.9	0.8082	k2p	k2p wins by 273.5 bits (80.8% of 338.4) over 76% of the profile
+A_s1_panel	O14649	k2p	ploop	loo	correct	family	k2p	ploop	high	349.1	0.8454	0.9898	kcsa_prok	47.8	0.8631	k2p	k2p wins by 301.3 bits (86.3% of 349.1) over 85% of the profile
+A_s1_panel	Q14524	nav	ploop	loo	correct	family	nav	ploop	high	2991.8	0.9933	0.9891	cav	937.0	0.6868	nav	nav wins by 2054.8 bits (68.7% of 2991.8) over 99% of the profile
+A_s1_panel	P35498	nav	ploop	loo	correct	family	nav	ploop	high	3255.3	0.99	0.999	cav	960.8	0.7049	nav	nav wins by 2294.5 bits (70.5% of 3255.3) over 99% of the profile
+A_s1_panel	Q9UI33	nav	ploop	loo	correct	family	nav	ploop	high	2292.5	0.9454	0.9726	cav	881.3	0.6156	nav	nav wins by 1411.2 bits (61.6% of 2292.5) over 95% of the profile
+A_s1_panel	Q13936	cav	ploop	loo	correct	family	cav	ploop	high	2982.9	0.9763	0.9523	nav	766.5	0.743	cav	cav wins by 2216.4 bits (74.3% of 2982.9) over 98% of the profile
+A_s1_panel	Q13698	cav	ploop	loo	correct	family	cav	ploop	high	2799.0	0.9538	0.968	nav	735.9	0.7371	cav	cav wins by 2063.1 bits (73.7% of 2799.0) over 95% of the profile
+A_s1_panel	O43497	cav	ploop	loo	correct	family	cav	ploop	high	1913.4	0.7621	0.7968	nav	755.2	0.6053	cav	cav wins by 1158.2 bits (60.5% of 1913.4) over 76% of the profile
+A_s1_panel	Q8IZF0	nalcn	ploop	loo	correct	family	nalcn	ploop	high	4208.7	1.0	1.0	cav	493.3	0.8828	nalcn	nalcn wins by 3715.4 bits (88.3% of 4208.7) over 100% of the profile
+A_s1_panel	Q8NEC5	catsper	ploop	loo	correct	family	catsper	ploop	medium	104.1	0.6214	0.3564	cav	89.4	0.1412	catsper	catsper wins by 14.7 bits (14.1% of 104.1) over 62% of the profile
+A_s1_panel	Q9ULQ1	tpc	ploop	loo	correct	family	tpc	ploop	high	283.3	0.9625	0.8836	catsper	166.0	0.414	tpc	tpc wins by 117.3 bits (41.4% of 283.3) over 96% of the profile
+A_s1_panel	P29973	cng	ploop	loo	correct	family	cng	ploop	high	1153.2	0.9463	0.9854	kv_eag	184.5	0.84	cng	cng wins by 968.7 bits (84.0% of 1153.2) over 95% of the profile
+A_s1_panel	O60741	hcn	ploop	loo	correct	family	hcn	ploop	high	1656.0	0.8671	0.9978	cng	250.6	0.8487	hcn	hcn wins by 1405.4 bits (84.9% of 1656.0) over 87% of the profile
+A_s1_panel	Q9Y3Q4	hcn	ploop	loo	correct	family	hcn	ploop	high	1744.2	0.9978	0.8903	cng	253.2	0.8548	hcn	hcn wins by 1491.0 bits (85.5% of 1744.2) over 100% of the profile
+A_s1_panel	Q13507	trpc	ploop	loo	correct	family	trpc	ploop	high	1231.5	0.8754	0.9023	trpn	94.7	0.9231	trpc	trpc wins by 1136.8 bits (92.3% of 1231.5) over 88% of the profile
+A_s1_panel	Q8NER1	trpv	ploop	loo	correct	family	trpv	ploop	high	917.2	0.9437	0.9046	trpn	46.9	0.9489	trpv	trpv wins by 870.3 bits (94.9% of 917.2) over 94% of the profile
+A_s1_panel	Q9NQA5	trpv	ploop	loo	correct	family	trpv	ploop	high	776.4	0.8655	0.9438	trpn	34.0	0.9562	trpv	trpv wins by 742.4 bits (95.6% of 776.4) over 87% of the profile
+A_s1_panel	Q7Z2W7	trpm	ploop	loo	correct	family	trpm	ploop	high	989.1	0.6061	0.9493	trpc	78.9	0.9202	trpm	trpm wins by 910.2 bits (92.0% of 989.1) over 61% of the profile
+A_s1_panel	O94759	trpm	ploop	loo	correct	family	trpm	ploop	high	1251.6	0.6191	0.7598	trpc	100.1	0.92	trpm	trpm wins by 1151.5 bits (92.0% of 1251.6) over 62% of the profile
+A_s1_panel	O75762	trpa	ploop	sole_seed	no_call	module			none	183.7	0.2449	0.4844	trpv	74.0	0.5972	trpn	best trpn spans 24% of the profile (< 30%) — shared module
+A_s1_panel	Q9GZU1	trpml	ploop	loo	correct	family	trpml	ploop	high	1004.4	1.0	1.0	trpp	26.2	0.9739	trpml	trpml wins by 978.2 bits (97.4% of 1004.4) over 100% of the profile
+A_s1_panel	Q13563	trpp	ploop	loo	correct	family	trpp	ploop	high	1348.3	0.9798	0.8843	assoc_polycystin1	242.2	0.8204	trpp	trpp wins by 1106.1 bits (82.0% of 1348.3) over 98% of the profile
+A_s1_panel	P02708	nachr	cysloop	loo	correct	family	nachr	cysloop	high	619.6	0.8882	0.9475	ht3	192.2	0.6898	nachr	nachr wins by 427.4 bits (69.0% of 619.6) over 89% of the profile
+A_s1_panel	P36544	nachr	cysloop	loo	correct	family	nachr	cysloop	high	507.7	0.9689	0.9602	ht3	225.3	0.5562	nachr	nachr wins by 282.4 bits (55.6% of 507.7) over 97% of the profile
+A_s1_panel	P14867	gabaa	cysloop	loo	correct	family	gabaa	cysloop	high	589.1	0.9651	0.9408	glyr	326.0	0.4466	gabaa	gabaa wins by 263.1 bits (44.7% of 589.1) over 97% of the profile
+A_s1_panel	P28472	gabaa	cysloop	loo	correct	family	gabaa	cysloop	high	598.8	0.9477	0.9577	glyr	370.2	0.3818	gabaa	gabaa wins by 228.6 bits (38.2% of 598.8) over 95% of the profile
+A_s1_panel	P23415	glyr	cysloop	loo	correct	family	glyr	cysloop	high	837.6	0.9827	0.9934	gabaa	460.4	0.4503	glyr	glyr wins by 377.2 bits (45.0% of 837.6) over 98% of the profile
+A_s1_panel	P46098	ht3	cysloop	loo	correct	family	ht3	cysloop	medium	459.9	0.989	0.9833	nachr	331.1	0.2801	ht3	ht3 wins by 128.8 bits (28.0% of 459.9) over 99% of the profile
+A_s1_panel	Q401N2	zac	cysloop	sole_seed	wrong_family_same_sf	family	ht3	cysloop	high	122.1	0.7285	0.784	nachr	69.1	0.4341	ht3	ht3 wins by 53.0 bits (43.4% of 122.1) over 73% of the profile
+A_s1_panel	P42261	ampa	iglur	loo	correct	family	ampa	iglur	high	1581.4	0.9831	0.9879	kainate	817.4	0.4831	ampa	ampa wins by 764.0 bits (48.3% of 1581.4) over 98% of the profile
+A_s1_panel	P39086	kainate	iglur	loo	correct	family	kainate	iglur	high	1476.6	0.8724	0.927	ampa	742.6	0.4971	kainate	kainate wins by 734.0 bits (49.7% of 1476.6) over 87% of the profile
+A_s1_panel	Q05586	nmda	iglur	loo	correct	family	nmda	iglur	high	497.4	0.7655	0.9563	kainate	329.3	0.338	nmda	nmda wins by 168.1 bits (33.8% of 497.4) over 77% of the profile
+A_s1_panel	O43424	delta_glur	iglur	loo	correct	family	delta_glur	iglur	high	1346.4	0.9901	0.9871	kainate	438.9	0.674	delta_glur	delta_glur wins by 907.5 bits (67.4% of 1346.4) over 99% of the profile
+A_s1_panel	Q99572	p2x	p2x	loo	correct	family	p2x	p2x	high	393.8	0.8184	0.5882			1.0	p2x	p2x wins by 393.8 bits (100.0% of 393.8) over 82% of the profile
+A_s1_panel	Q9UBL9	p2x	p2x	loo	correct	family	p2x	p2x	high	488.6	0.885	0.7877	p2x_nonmetazoan	43.2	0.9116	p2x	p2x wins by 445.4 bits (91.2% of 488.6) over 88% of the profile
+A_s1_panel	P37088	enac	deg_enac	loo	correct	family	enac	deg_enac	high	620.9	0.907	0.8804	asic	204.5	0.6706	enac	enac wins by 416.4 bits (67.1% of 620.9) over 91% of the profile
+A_s1_panel	P78348	asic	deg_enac	loo	correct	family	asic	deg_enac	high	770.3	0.9729	0.9943	enac	218.1	0.7169	asic	asic wins by 552.2 bits (71.7% of 770.3) over 97% of the profile
+A_s1_panel	P35523	clc_channel	clc	loo	correct	family	clc_channel	clc	high	890.0	0.9301	0.7733	clc_transporter	299.6	0.6634	clc_channel	clc_channel wins by 590.4 bits (66.3% of 890.0) over 93% of the profile
+A_s1_panel	P51798	clc_transporter	clc	loo	decoy_ok	family	clc_transporter	clc	high	548.6	0.7582	0.7714	clc_channel	216.1	0.6061	clc_transporter	clc_transporter wins by 332.5 bits (60.6% of 548.6) over 76% of the profile
+A_s1_panel	Q5XXA6	ano_channel	tmem16_like	loo	correct	family	ano_channel	tmem16_like	high	1349.6	0.8697	0.9067	ano_scramblase	902.3	0.3314	ano_channel	ano_channel wins by 447.3 bits (33.1% of 1349.6) over 87% of the profile
+A_s1_panel	Q4KMQ2	ano_scramblase	tmem16_like	loo	correct	family	ano_scramblase	tmem16_like	high	1036.7	0.9628	0.9681	ano_channel	681.4	0.3427	ano_scramblase	ano_scramblase wins by 355.3 bits (34.3% of 1036.7) over 96% of the profile
+A_s1_panel	O76090	bestrophin	bestrophin	loo	correct	family	bestrophin	bestrophin	high	851.3	0.9981	0.9265			1.0	bestrophin	bestrophin wins by 851.3 bits (100.0% of 851.3) over 100% of the profile
+A_s1_panel	P13569	cftr	abc_channel	loo	correct	family	cftr	abc_channel	high	3236.9	1.0	1.0	assoc_sur	479.5	0.8519	cftr	cftr wins by 2757.4 bits (85.2% of 3236.9) over 100% of the profile
+A_s1_panel	Q9H313	tweety	tweety	loo	correct	family	tweety	tweety	high	704.3	0.8552	1.0			1.0	tweety	tweety wins by 704.3 bits (100.0% of 704.3) over 86% of the profile
+A_s1_panel	O94886	osca_tmem63	tmem16_like	loo	correct	family	osca_tmem63	tmem16_like	high	1051.8	0.966	0.9616			1.0	osca_tmem63	osca_tmem63 wins by 1051.8 bits (100.0% of 1051.8) over 97% of the profile
+A_s1_panel	Q8TDI8	tmc	tmem16_like	loo	correct	family	tmc	tmem16_like	high	781.4	0.8652	0.9697			1.0	tmc	tmc wins by 781.4 bits (100.0% of 781.4) over 87% of the profile
+A_s1_panel	Q92508	piezo	piezo	loo	correct	family	piezo	piezo	high	3966.1	0.9996	1.0			1.0	piezo	piezo wins by 3966.1 bits (100.0% of 3966.1) over 100% of the profile
+A_s1_panel	P17302	connexin	connexin	loo	correct	family	connexin	connexin	high	421.6	0.9968	0.9974			1.0	connexin	connexin wins by 421.6 bits (100.0% of 421.6) over 100% of the profile
+A_s1_panel	P29033	connexin	connexin	loo	correct	family	connexin	connexin	high	380.2	0.7363	0.9912			1.0	connexin	connexin wins by 380.2 bits (100.0% of 380.2) over 74% of the profile
+A_s1_panel	Q96RD7	pannexin	innexin_like	loo	correct	family	pannexin	innexin_like	high	288.8	0.5419	0.8404			1.0	pannexin	pannexin wins by 288.8 bits (100.0% of 288.8) over 54% of the profile
+A_s1_panel	Q8IWT6	lrrc8	innexin_like	loo	correct	family	lrrc8	innexin_like	high	1308.8	0.9963	0.9901			1.0	lrrc8	lrrc8 wins by 1308.8 bits (100.0% of 1308.8) over 100% of the profile
+A_s1_panel	Q8IU99	calhm	calhm	loo	correct	family	calhm	calhm	high	369.4	0.9272	0.9364			1.0	calhm	calhm wins by 369.4 bits (100.0% of 369.4) over 93% of the profile
+A_s1_panel	Q14643	itpr	ca_release	loo	correct	family	itpr	ca_release	high	5209.7	0.9996	0.9996	ryr	277.3	0.9468	itpr	itpr wins by 4932.4 bits (94.7% of 5209.7) over 100% of the profile
+A_s1_panel	P21817	ryr	ca_release	loo	correct	family	ryr	ca_release	high	9758.1	0.9992	0.9994	itpr	322.1	0.967	ryr	ryr wins by 9436.0 bits (96.7% of 9758.1) over 100% of the profile
+A_s1_panel	Q9H6F2	tric	tric	loo	correct	family	tric	tric	high	536.9	1.0	1.0			1.0	tric	tric wins by 536.9 bits (100.0% of 536.9) over 100% of the profile
+A_s1_panel	Q8NE86	mcu	mcu	loo	correct	family	mcu	mcu	high	290.6	0.6683	0.7521			1.0	mcu	mcu wins by 290.6 bits (100.0% of 290.6) over 67% of the profile
+A_s1_panel	P21796	vdac	porin	loo	correct	family	vdac	porin	high	354.9	0.9964	1.0			1.0	vdac	vdac wins by 354.9 bits (100.0% of 354.9) over 100% of the profile
+A_s1_panel	Q9BSA9	tmem175	tmem175	loo	correct	family	tmem175	tmem175	high	942.4	1.0	1.0			1.0	tmem175	tmem175 wins by 942.4 bits (100.0% of 942.4) over 100% of the profile
+A_s1_panel	Q96D31	orai	orai	loo	correct	family	orai	orai	high	432.4	0.9562	0.8904			1.0	orai	orai wins by 432.4 bits (100.0% of 432.4) over 96% of the profile
+A_s1_panel	Q96D96	hv1	hv	loo	correct	family	hv1	hv	high	421.8	0.9961	0.9963	nonchannel_vsp	66.0	0.8435	hv1	hv1 wins by 355.8 bits (84.4% of 421.8) over 100% of the profile
+A_s1_panel	Q7RTM1	otop	otopetrin	loo	correct	family	otop	otopetrin	high	790.0	0.9879	0.9869			1.0	otop	otop wins by 790.0 bits (100.0% of 790.0) over 99% of the profile
+A_s1_panel	O00299	clic	clic	loo	correct	family	clic	clic	high	402.1	0.8718	0.9876			1.0	clic	clic wins by 402.1 bits (100.0% of 402.1) over 87% of the profile
+A_s1_panel	P15382	assoc_kcne	ploop	loo	decoy_ok	family	assoc_kcne	ploop	medium	62.8	0.4583	0.5194			1.0	assoc_kcne	assoc_kcne wins by 62.8 bits (100.0% of 62.8) over 46% of the profile
+A_s1_panel	Q14722	assoc_k_beta	ploop	loo	decoy_ok	family	assoc_k_beta	ploop	high	224.8	0.7672	0.8401			1.0	assoc_k_beta	assoc_k_beta wins by 224.8 bits (100.0% of 224.8) over 77% of the profile
+A_s1_panel	Q16558	assoc_k_beta	ploop	loo	decoy_ok	no_hit			none								no profile reported a hit
+A_s1_panel	P42658	assoc_k_beta	ploop	loo	decoy_ok	family	assoc_k_beta	ploop	high	139.9	0.9532	0.8555			1.0	assoc_k_beta	assoc_k_beta wins by 139.9 bits (100.0% of 139.9) over 95% of the profile
+A_s1_panel	Q02641	assoc_cav_aux	ploop	loo	decoy_ok	family	assoc_cav_aux	ploop	high	219.4	0.5473	0.7324			1.0	assoc_cav_aux	assoc_cav_aux wins by 219.4 bits (100.0% of 219.4) over 55% of the profile
+A_s1_panel	P54289	assoc_cav_aux	ploop	loo	decoy_ok	family	assoc_cav_aux	ploop	high	357.8	0.9623	0.9646			1.0	assoc_cav_aux	assoc_cav_aux wins by 357.8 bits (100.0% of 357.8) over 96% of the profile
+A_s1_panel	Q9Y698	assoc_cav_aux	ploop	loo	decoy_ok	family	assoc_cav_aux	ploop	high	216.8	0.5777	0.9628			1.0	assoc_cav_aux	assoc_cav_aux wins by 216.8 bits (100.0% of 216.8) over 58% of the profile
+A_s1_panel	Q07699	assoc_nav_beta	ploop	loo	decoy_ok	family	assoc_nav_beta	ploop	high	155.3	0.9095	0.9862			1.0	assoc_nav_beta	assoc_nav_beta wins by 155.3 bits (100.0% of 155.3) over 91% of the profile
+A_s1_panel	Q09428	assoc_sur	abc_channel	loo	decoy_ok	family	assoc_sur	abc_channel	high	2477.7	0.9994	0.9994	cftr	517.2	0.7913	assoc_sur	assoc_sur wins by 1960.5 bits (79.1% of 2477.7) over 100% of the profile
+A_s1_panel	Q13586	assoc_stim	orai	loo	decoy_ok	family	assoc_stim	orai	high	645.5	0.681	0.746			1.0	assoc_stim	assoc_stim wins by 645.5 bits (100.0% of 645.5) over 68% of the profile
+A_s1_panel	Q9BPX6	assoc_mcu_reg	mcu	loo	decoy_ok	family	assoc_mcu_reg	mcu	high	119.0	0.6264	0.687			1.0	assoc_mcu_reg	assoc_mcu_reg wins by 119.0 bits (100.0% of 119.0) over 63% of the profile
+A_s1_panel	Q9H4I9	assoc_mcu_reg	mcu	loo	decoy_ok	no_hit			none								no profile reported a hit
+A_s1_panel	Q8TDF5	assoc_iglur_aux	iglur	loo	decoy_ok	family	assoc_iglur_aux	iglur	high	187.1	0.8939	0.9362			1.0	assoc_iglur_aux	assoc_iglur_aux wins by 187.1 bits (100.0% of 187.1) over 89% of the profile
+A_s1_panel	Q9H7T0	assoc_catsper_aux	ploop	loo	decoy_ok	no_hit			none								no profile reported a hit
+A_s1_panel	Q8WZ55	assoc_clc_aux	clc	loo	decoy_ok	no_hit			none								no profile reported a hit
+A_s1_panel	P98161	assoc_polycystin1	ploop	loo	decoy_ok	family	assoc_polycystin1	ploop	high	537.0	0.9129	0.5361	trpp	116.3	0.7834	assoc_polycystin1	assoc_polycystin1 wins by 420.7 bits (78.3% of 537.0) over 91% of the profile
+A_s1_panel	Q719H9	nonchannel_kctd	ploop	loo	decoy_ok	family	nonchannel_kctd	ploop	high	174.9	0.6918	0.8093	kv_shaker	56.9	0.6747	nonchannel_kctd	nonchannel_kctd wins by 118.0 bits (67.5% of 174.9) over 69% of the profile
+A_s1_panel	Q13255	nonchannel_class_c_gpcr	iglur	loo	decoy_ok	family	nonchannel_class_c_gpcr	iglur	high	1030.5	0.9568	0.7102	nmda	36.3	0.9648	nonchannel_class_c_gpcr	nonchannel_class_c_gpcr wins by 994.2 bits (96.5% of 1030.5) over 96% of the profile
+A_s1_panel	Q9UBS5	nonchannel_class_c_gpcr	iglur	loo	decoy_ok	family	nonchannel_class_c_gpcr	iglur	high	311.0	0.8203	0.7284			1.0	nonchannel_class_c_gpcr	nonchannel_class_c_gpcr wins by 311.0 bits (100.0% of 311.0) over 82% of the profile
+A_s1_panel	Q9Y6A1	nonchannel_pomt	ca_release	loo	decoy_ok	family	nonchannel_pomt	ca_release	high	334.3	0.9187	0.9679			1.0	nonchannel_pomt	nonchannel_pomt wins by 334.3 bits (100.0% of 334.3) over 92% of the profile
+A_s1_panel	P56180	nonchannel_vsp	hv	loo	decoy_ok	family	nonchannel_vsp	hv	high	969.8	0.9872	0.9782	hv1	39.1	0.9597	nonchannel_vsp	nonchannel_vsp wins by 930.7 bits (96.0% of 969.8) over 99% of the profile
+A_s1_panel	P57764	nonchannel_gasdermin		loo	decoy_ok	family	nonchannel_gasdermin		high	298.0	0.9979	0.9979			1.0	nonchannel_gasdermin	nonchannel_gasdermin wins by 298.0 bits (100.0% of 298.0) over 100% of the profile
+A_s1_panel	P58743	transporter_slc26		loo	decoy_ok	family	transporter_slc26		high	817.1	0.963	0.9556			1.0	transporter_slc26	transporter_slc26 wins by 817.1 bits (100.0% of 817.1) over 96% of the profile
+A_s1_panel	P29972	outofscope_aquaporin		loo	decoy_ok	family	outofscope_aquaporin		high	236.8	0.8842	0.8885			1.0	outofscope_aquaporin	outofscope_aquaporin wins by 236.8 bits (100.0% of 236.8) over 88% of the profile
+A_s1_panel	P55087	outofscope_aquaporin		loo	decoy_ok	family	outofscope_aquaporin		high	251.9	0.9534	0.8111			1.0	outofscope_aquaporin	outofscope_aquaporin wins by 251.9 bits (100.0% of 251.9) over 95% of the profile
+B_orthologues	E9PZQ0	ryr	ca_release		correct	family	ryr	ca_release	high	9974.0	1.0	1.0	itpr	310.4	0.9689	ryr	ryr wins by 9663.6 bits (96.9% of 9974.0) over 100% of the profile
+B_orthologues	E9Q401	ryr	ca_release		correct	family	ryr	ca_release	high	9905.9	1.0	1.0	itpr	314.9	0.9682	ryr	ryr wins by 9591.0 bits (96.8% of 9905.9) over 100% of the profile
+B_orthologues	F1LMY4	ryr	ca_release		correct	family	ryr	ca_release	high	9609.1	0.9998	0.9998	itpr	312.3	0.9675	ryr	ryr wins by 9296.8 bits (96.7% of 9609.1) over 100% of the profile
+B_orthologues	P30957	ryr	ca_release		correct	family	ryr	ca_release	high	9894.8	1.0	1.0	itpr	324.0	0.9673	ryr	ryr wins by 9570.8 bits (96.7% of 9894.8) over 100% of the profile
+B_orthologues	Q9TS33	ryr	ca_release		correct	family	ryr	ca_release	high	9643.9	0.9834	0.9998	itpr	332.4	0.9655	ryr	ryr wins by 9311.5 bits (96.6% of 9643.9) over 98% of the profile
+B_orthologues	Q8CD54	piezo	piezo		correct	family	piezo	piezo	high	3897.5	0.9996	0.9996			1.0	piezo	piezo wins by 3897.5 bits (100.0% of 3897.5) over 100% of the profile
+B_orthologues	Q923J1	trpm	ploop		correct	family	trpm	ploop	high	2665.8	0.9624	0.993	trpc	55.6	0.9791	trpm	trpm wins by 2610.2 bits (97.9% of 2665.8) over 96% of the profile
+B_orthologues	Q2WEA5	trpm	ploop		correct	family	trpm	ploop	high	2137.5	0.8702	0.9693	trpc	67.7	0.9683	trpm	trpm wins by 2069.8 bits (96.8% of 2137.5) over 87% of the profile
+B_orthologues	J9SQF3	trpm	ploop		correct	family	trpm	ploop	high	2331.5	0.8884	0.9625	trpc	52.0	0.9777	trpm	trpm wins by 2279.5 bits (97.8% of 2331.5) over 89% of the profile
+B_orthologues	Q2TV84	trpm	ploop		correct	family	trpm	ploop	high	2146.6	0.8366	0.9279	trpc	67.5	0.9686	trpm	trpm wins by 2079.1 bits (96.9% of 2146.6) over 84% of the profile
+B_orthologues	Q9Z329	itpr	ca_release		correct	family	itpr	ca_release	high	4961.7	0.9996	0.9993	ryr	302.7	0.939	itpr	itpr wins by 4659.0 bits (93.9% of 4961.7) over 100% of the profile
+B_orthologues	P29995	itpr	ca_release		correct	family	itpr	ca_release	high	4949.9	0.9996	0.9993	ryr	299.7	0.9395	itpr	itpr wins by 4650.2 bits (93.9% of 4949.9) over 100% of the profile
+B_orthologues	Q63269	itpr	ca_release		correct	family	itpr	ca_release	high	4782.9	0.9978	0.9996	ryr	278.0	0.9419	itpr	itpr wins by 4504.9 bits (94.2% of 4782.9) over 100% of the profile
+B_orthologues	P70227	itpr	ca_release		correct	family	itpr	ca_release	high	4774.8	0.9978	0.9996	ryr	280.7	0.9412	itpr	itpr wins by 4494.1 bits (94.1% of 4774.8) over 100% of the profile
+B_orthologues	Q8WN96	itpr	ca_release		correct	family	itpr	ca_release	high	4961.0	0.9996	0.9993	ryr	290.9	0.9414	itpr	itpr wins by 4670.1 bits (94.1% of 4961.0) over 100% of the profile
+B_orthologues	Q9TU34	itpr	ca_release		correct	family	itpr	ca_release	high	5264.0	0.9996	0.9996	ryr	272.2	0.9483	itpr	itpr wins by 4991.8 bits (94.8% of 5264.0) over 100% of the profile
+B_orthologues	Q64273	kir	ploop		correct	family	kir	ploop	high	645.7	0.9878	0.9766			1.0	kir	kir wins by 645.7 bits (100.0% of 645.7) over 99% of the profile
+B_orthologues	P35561	kir	ploop		correct	family	kir	ploop	high	644.0	0.9878	0.9766			1.0	kir	kir wins by 644.0 bits (100.0% of 644.0) over 99% of the profile
+B_orthologues	P52187	kir	ploop		correct	family	kir	ploop	high	636.7	0.956	0.9251			1.0	kir	kir wins by 636.7 bits (100.0% of 636.7) over 96% of the profile
+B_orthologues	P52188	kir	ploop		correct	family	kir	ploop	high	633.8	0.956	0.9251			1.0	kir	kir wins by 633.8 bits (100.0% of 633.8) over 96% of the profile
+B_orthologues	O19182	kir	ploop		correct	family	kir	ploop	high	646.5	0.9878	0.9766			1.0	kir	kir wins by 646.5 bits (100.0% of 646.5) over 99% of the profile
+B_orthologues	Q9QYW1	kca_sk	ploop		correct	family	kca_sk	ploop	high	715.2	0.6624	0.9576	kv_kcnq	45.3	0.9367	kca_sk	kca_sk wins by 669.9 bits (93.7% of 715.2) over 66% of the profile
+B_orthologues	P58390	kca_sk	ploop		correct	family	kca_sk	ploop	high	1004.3	0.8526	1.0	kv_kcnq	30.2	0.9699	kca_sk	kca_sk wins by 974.1 bits (97.0% of 1004.3) over 85% of the profile
+B_orthologues	Q9EQR3	kca_sk	ploop		correct	family	kca_sk	ploop	high	847.0	0.8447	0.9851	k2p	28.1	0.9668	kca_sk	kca_sk wins by 818.9 bits (96.7% of 847.0) over 84% of the profile
+B_orthologues	P58391	kca_sk	ploop		correct	family	kca_sk	ploop	high	1098.4	0.9984	0.8989	kv_kcnq	31.0	0.9718	kca_sk	kca_sk wins by 1067.4 bits (97.2% of 1098.4) over 100% of the profile
+B_orthologues	P70605	kca_sk	ploop		correct	family	kca_sk	ploop	high	1098.9	0.9984	0.8989	kv_kcnq	31.3	0.9715	kca_sk	kca_sk wins by 1067.6 bits (97.2% of 1098.9) over 100% of the profile
+B_orthologues	Q8R455	trpm	ploop		correct	family	trpm	ploop	high	1415.9	0.6145	0.9629	trpc	82.0	0.9421	trpm	trpm wins by 1333.9 bits (94.2% of 1415.9) over 61% of the profile
+B_orthologues	Q8R4D5	trpm	ploop		correct	family	trpm	ploop	high	1423.1	0.6156	0.962	trpc	80.6	0.9434	trpm	trpm wins by 1342.5 bits (94.3% of 1423.1) over 62% of the profile
+B_orthologues	Q9JJH7	trpm	ploop		correct	family	trpm	ploop	high	1406.3	0.6521	0.9672	trpc	62.5	0.9556	trpm	trpm wins by 1343.8 bits (95.6% of 1406.3) over 65% of the profile
+B_orthologues	P52185	kir	ploop		correct	family	kir	ploop	high	646.3	0.9878	0.9766			1.0	kir	kir wins by 646.3 bits (100.0% of 646.3) over 99% of the profile
+B_orthologues	O18839	kir	ploop		correct	family	kir	ploop	high	646.0	0.9878	0.9766			1.0	kir	kir wins by 646.0 bits (100.0% of 646.0) over 99% of the profile
+B_orthologues	P49656	kir	ploop		correct	family	kir	ploop	high	646.5	0.9878	0.9766			1.0	kir	kir wins by 646.5 bits (100.0% of 646.5) over 99% of the profile
+B_orthologues	Q8CBX0	osca_tmem63	tmem16_like		correct	family	osca_tmem63	tmem16_like	high	1005.7	0.9799	0.9663			1.0	osca_tmem63	osca_tmem63 wins by 1005.7 bits (100.0% of 1005.7) over 98% of the profile
+B_orthologues	Q91YT8	osca_tmem63	tmem16_like		correct	family	osca_tmem63	tmem16_like	high	1052.0	0.9535	0.9465			1.0	osca_tmem63	osca_tmem63 wins by 1052.0 bits (100.0% of 1052.0) over 95% of the profile
+B_orthologues	Q6UVM4	kca_slo	ploop		correct	family	kca_slo	ploop	high	1160.0	0.9175	0.9781	kcsa_prok	52.1	0.9551	kca_slo	kca_slo wins by 1107.9 bits (95.5% of 1160.0) over 92% of the profile
+B_orthologues	Q6ZPR4	kca_slo	ploop		correct	family	kca_slo	ploop	high	1113.9	0.913	0.9592	k2p	44.3	0.9602	kca_slo	kca_slo wins by 1069.6 bits (96.0% of 1113.9) over 91% of the profile
+B_orthologues	Q9Z258	kca_slo	ploop		correct	family	kca_slo	ploop	high	1117.8	0.9202	0.9548	k2p	44.1	0.9605	kca_slo	kca_slo wins by 1073.7 bits (96.1% of 1117.8) over 92% of the profile
+B_orthologues	P04775	nav	ploop		correct	family	nav	ploop	high	3307.4	0.9989	0.999	cav	961.2	0.7094	nav	nav wins by 2346.2 bits (70.9% of 3307.4) over 100% of the profile
+B_orthologues	Q9JJV9	nav	ploop		correct	family	nav	ploop	high	3094.9	0.9955	0.9916	cav	933.5	0.6984	nav	nav wins by 2161.4 bits (69.8% of 3094.9) over 100% of the profile
+B_orthologues	Q9WTU3	nav	ploop		correct	family	nav	ploop	high	3167.3	0.9983	0.9985	cav	948.4	0.7006	nav	nav wins by 2218.9 bits (70.1% of 3167.3) over 100% of the profile
+B_orthologues	P08104	nav	ploop		correct	family	nav	ploop	high	3268.0	0.9994	0.9995	cav	952.2	0.7086	nav	nav wins by 2315.8 bits (70.9% of 3268.0) over 100% of the profile
+B_orthologues	P15389	nav	ploop		correct	family	nav	ploop	high	3093.7	0.9955	0.9916	cav	923.6	0.7015	nav	nav wins by 2170.1 bits (70.1% of 3093.7) over 100% of the profile
+B_orthologues	B1AWN6	nav	ploop		correct	family	nav	ploop	high	3322.3	0.9994	0.9995	cav	961.2	0.7107	nav	nav wins by 2361.1 bits (71.1% of 3322.3) over 100% of the profile
+B_orthologues	O88420	nav	ploop		correct	family	nav	ploop	high	3167.2	0.9983	0.9985	cav	949.1	0.7003	nav	nav wins by 2218.1 bits (70.0% of 3167.2) over 100% of the profile
+B_orthologues	A2ASI5	nav	ploop		correct	family	nav	ploop	high	3268.2	0.9961	0.999	cav	948.2	0.7099	nav	nav wins by 2320.0 bits (71.0% of 3268.2) over 100% of the profile
+B_orthologues	P04774	nav	ploop		correct	family	nav	ploop	high	3278.1	0.995	0.999	cav	956.2	0.7083	nav	nav wins by 2321.9 bits (70.8% of 3278.1) over 100% of the profile
+B_orthologues	Q62205	nav	ploop		correct	family	nav	ploop	high	3270.1	0.9961	0.998	cav	970.2	0.7033	nav	nav wins by 2299.9 bits (70.3% of 3270.1) over 100% of the profile
+B_orthologues	Q7TN37	trpm	ploop		correct	family	trpm	ploop	high	1465.6	0.6839	0.9835	trpn	49.8	0.966	trpm	trpm wins by 1415.8 bits (96.6% of 1465.6) over 68% of the profile
+B_orthologues	E9PTA2	trpm	ploop		correct	family	trpm	ploop	high	1619.5	0.6697	0.7777	trpc	88.4	0.9454	trpm	trpm wins by 1531.1 bits (94.5% of 1619.5) over 67% of the profile
+B_orthologues	Q9ESQ5	trpm	ploop		correct	family	trpm	ploop	high	1452.3	0.6834	0.9826	trpn	46.1	0.9683	trpm	trpm wins by 1406.2 bits (96.8% of 1452.3) over 68% of the profile
+B_orthologues	Q91YD4	trpm	ploop		correct	family	trpm	ploop	high	1623.4	0.6521	0.757	trpc	87.1	0.9463	trpm	trpm wins by 1536.3 bits (94.6% of 1623.4) over 65% of the profile
+B_orthologues	Q08460	kca_slo	ploop		correct	family	kca_slo	ploop	high	1956.1	0.9927	0.9562	kv_modifier	46.6	0.9762	kca_slo	kca_slo wins by 1909.5 bits (97.6% of 1956.1) over 99% of the profile
+B_orthologues	O54982	kca_slo	ploop		correct	family	kca_slo	ploop	high	1575.0	0.981	0.9706	kv_modifier	47.5	0.9698	kca_slo	kca_slo wins by 1527.5 bits (97.0% of 1575.0) over 98% of the profile
+B_orthologues	Q62976	kca_slo	ploop		correct	family	kca_slo	ploop	high	1957.1	0.9937	0.9553	kv_modifier	46.6	0.9762	kca_slo	kca_slo wins by 1910.5 bits (97.6% of 1957.1) over 99% of the profile
+B_orthologues	O88703	hcn	ploop		correct	family	hcn	ploop	high	1556.8	0.7918	0.8899	cng	251.4	0.8385	hcn	hcn wins by 1305.4 bits (83.9% of 1556.8) over 79% of the profile
+B_orthologues	O88704	hcn	ploop		correct	family	hcn	ploop	high	1677.6	0.8671	0.9978	cng	248.7	0.8518	hcn	hcn wins by 1428.9 bits (85.2% of 1677.6) over 87% of the profile
+B_orthologues	O88705	hcn	ploop		correct	family	hcn	ploop	high	1353.2	0.5718	0.7484	cng	240.1	0.8226	hcn	hcn wins by 1113.1 bits (82.3% of 1353.2) over 57% of the profile
+B_orthologues	Q9JKB0	hcn	ploop		correct	family	hcn	ploop	high	1679.2	0.8671	0.9978	cng	248.7	0.8519	hcn	hcn wins by 1430.5 bits (85.2% of 1679.2) over 87% of the profile
+B_orthologues	Q9JKA8	hcn	ploop		correct	family	hcn	ploop	high	1353.5	0.5797	0.759	cng	241.5	0.8216	hcn	hcn wins by 1112.0 bits (82.2% of 1353.5) over 58% of the profile
+B_orthologues	Q9JKA9	hcn	ploop		correct	family	hcn	ploop	high	1558.1	0.7918	0.8899	cng	251.4	0.8386	hcn	hcn wins by 1306.7 bits (83.9% of 1558.1) over 79% of the profile
+B_orthologues	Q03041	cng	ploop		correct	family	cng	ploop	high	1098.7	0.9463	0.9894	kv_eag	186.7	0.8301	cng	cng wins by 912.0 bits (83.0% of 1098.7) over 95% of the profile
+B_orthologues	Q64359	cng	ploop		correct	family	cng	ploop	high	892.1	0.7977	0.9843	kv_eag	158.3	0.8226	cng	cng wins by 733.8 bits (82.3% of 892.1) over 80% of the profile
+B_orthologues	Q9ER33	cng	ploop		correct	family	cng	ploop	high	1064.0	0.9434	0.9896	kv_eag	194.0	0.8177	cng	cng wins by 870.0 bits (81.8% of 1064.0) over 94% of the profile
+B_orthologues	Q29441	cng	ploop		correct	family	cng	ploop	high	1102.1	0.9264	0.9773	kv_eag	191.7	0.8261	cng	cng wins by 910.4 bits (82.6% of 1102.1) over 93% of the profile
+B_orthologues	Q62398	cng	ploop		correct	family	cng	ploop	high	1099.9	0.9448	0.988	kv_eag	185.8	0.8311	cng	cng wins by 914.1 bits (83.1% of 1099.9) over 94% of the profile
+B_orthologues	Q3UW12	cng	ploop		correct	family	cng	ploop	high	891.9	0.802	0.9896	kv_eag	155.7	0.8254	cng	cng wins by 736.2 bits (82.5% of 891.9) over 80% of the profile
+B_orthologues	Q62927	cng	ploop		correct	family	cng	ploop	high	1167.4	0.9519	0.9883	kv_eag	178.3	0.8473	cng	cng wins by 989.1 bits (84.7% of 1167.4) over 95% of the profile
+B_orthologues	Q9JJZ8	cng	ploop		correct	family	cng	ploop	high	1040.5	0.843	0.9303	kv_eag	192.2	0.8153	cng	cng wins by 848.3 bits (81.5% of 1040.5) over 84% of the profile
+B_orthologues	Q9TV66	hcn	ploop		correct	family	hcn	ploop	high	1858.5	1.0	1.0	cng	251.3	0.8648	hcn	hcn wins by 1607.2 bits (86.5% of 1858.5) over 100% of the profile
+B_orthologues	O89047	kv_eag	ploop		correct	family	kv_eag	ploop	high	1286.9	0.999	0.9384	cng	186.4	0.8552	kv_eag	kv_eag wins by 1100.5 bits (85.5% of 1286.9) over 100% of the profile
+B_orthologues	Q9QWS8	kv_eag	ploop		correct	family	kv_eag	ploop	high	1346.5	0.998	0.8956	cng	180.1	0.8662	kv_eag	kv_eag wins by 1166.4 bits (86.6% of 1346.5) over 100% of the profile
+B_orthologues	O54853	kv_eag	ploop		correct	family	kv_eag	ploop	high	1385.4	0.8445	0.9558	cng	194.3	0.8598	kv_eag	kv_eag wins by 1191.1 bits (86.0% of 1385.4) over 84% of the profile
+B_orthologues	Q60603	kv_eag	ploop		correct	family	kv_eag	ploop	high	1360.8	0.9123	0.9848	cng	188.0	0.8618	kv_eag	kv_eag wins by 1172.8 bits (86.2% of 1360.8) over 91% of the profile
+B_orthologues	Q9EPI9	kv_eag	ploop		correct	family	kv_eag	ploop	high	1336.9	0.9123	0.9686	cng	198.2	0.8517	kv_eag	kv_eag wins by 1138.7 bits (85.2% of 1336.9) over 91% of the profile
+B_orthologues	Q9ER47	kv_eag	ploop		correct	family	kv_eag	ploop	high	1448.0	0.998	0.9983	cng	206.3	0.8575	kv_eag	kv_eag wins by 1241.7 bits (85.8% of 1448.0) over 100% of the profile
+B_orthologues	O54852	kv_eag	ploop		correct	family	kv_eag	ploop	high	1448.0	0.998	0.9983	cng	206.3	0.8575	kv_eag	kv_eag wins by 1241.7 bits (85.8% of 1448.0) over 100% of the profile
+B_orthologues	Q63472	kv_eag	ploop		correct	family	kv_eag	ploop	high	1371.4	0.9123	0.9844	cng	191.8	0.8601	kv_eag	kv_eag wins by 1179.6 bits (86.0% of 1371.4) over 91% of the profile
+B_orthologues	Q920E3	kv_eag	ploop		correct	family	kv_eag	ploop	high	1337.6	0.9123	0.9686	cng	196.0	0.8535	kv_eag	kv_eag wins by 1141.6 bits (85.3% of 1337.6) over 91% of the profile
+B_orthologues	Q9WVJ0	kv_eag	ploop		correct	family	kv_eag	ploop	high	1282.7	0.999	0.9388	cng	186.5	0.8546	kv_eag	kv_eag wins by 1096.2 bits (85.5% of 1282.7) over 100% of the profile
+B_orthologues	Q4TZY1	kir	ploop		correct	family	kir	ploop	high	637.4	0.9487	0.918			1.0	kir	kir wins by 637.4 bits (100.0% of 637.4) over 95% of the profile
+B_orthologues	Q61143	trpc	ploop		correct	family	trpc	ploop	high	1243.7	0.8743	0.9151	trpn	113.3	0.9089	trpc	trpc wins by 1130.4 bits (90.9% of 1243.7) over 87% of the profile
+B_orthologues	Q9QZC1	trpc	ploop		correct	family	trpc	ploop	high	1261.9	0.8721	0.9099	trpn	94.5	0.9251	trpc	trpc wins by 1167.4 bits (92.5% of 1261.9) over 87% of the profile
+B_orthologues	Q9WVC5	trpc	ploop		correct	family	trpc	ploop	high	1259.1	0.8988	0.9791	trpn	88.4	0.9298	trpc	trpc wins by 1170.7 bits (93.0% of 1259.1) over 90% of the profile
+B_orthologues	Q9QX01	trpc	ploop		correct	family	trpc	ploop	high	1224.6	0.8409	0.9842	trpn	114.0	0.9069	trpc	trpc wins by 1110.6 bits (90.7% of 1224.6) over 84% of the profile
+B_orthologues	P70606	kca_sk	ploop		correct	family	kca_sk	ploop	high	848.9	0.8051	0.9328	kv_shaker	28.7	0.9662	kca_sk	kca_sk wins by 820.2 bits (96.6% of 848.9) over 81% of the profile
+B_orthologues	F1MYR9	kir	ploop		correct	family	kir	ploop	high	610.1	0.956	0.9857			1.0	kir	kir wins by 610.1 bits (100.0% of 610.1) over 96% of the profile
+B_orthologues	P48548	kir	ploop		correct	family	kir	ploop	high	613.2	0.934	0.9642			1.0	kir	kir wins by 613.2 bits (100.0% of 613.2) over 93% of the profile
+B_orthologues	P49655	kir	ploop		correct	family	kir	ploop	high	506.2	0.8117	0.8892			1.0	kir	kir wins by 506.2 bits (100.0% of 506.2) over 81% of the profile
+B_orthologues	P52189	kir	ploop		correct	family	kir	ploop	high	605.8	0.8998	0.8742			1.0	kir	kir wins by 605.8 bits (100.0% of 605.8) over 90% of the profile
+B_orthologues	Q63511	kir	ploop		correct	family	kir	ploop	high	591.0	0.8875	0.916			1.0	kir	kir wins by 591.0 bits (100.0% of 591.0) over 89% of the profile
+B_orthologues	Q9JM63	kir	ploop		correct	family	kir	ploop	high	505.8	0.8117	0.8892			1.0	kir	kir wins by 505.8 bits (100.0% of 505.8) over 81% of the profile
+B_orthologues	A2AHL1	ano_scramblase	tmem16_like		correct	family	ano_scramblase	tmem16_like	high	1324.7	0.9697	0.9123	ano_channel	770.6	0.4183	ano_scramblase	ano_scramblase wins by 554.1 bits (41.8% of 1324.7) over 97% of the profile
+B_orthologues	Q8C5H1	ano_scramblase	tmem16_like		correct	family	ano_scramblase	tmem16_like	high	1378.1	0.9854	0.9749	ano_channel	842.0	0.389	ano_scramblase	ano_scramblase wins by 536.1 bits (38.9% of 1378.1) over 99% of the profile
+B_orthologues	P35560	kir	ploop		correct	family	kir	ploop	high	553.2	0.8778	0.9207			1.0	kir	kir wins by 553.2 bits (100.0% of 553.2) over 88% of the profile
+B_orthologues	P48550	kir	ploop		correct	family	kir	ploop	high	624.5	0.956	0.9435			1.0	kir	kir wins by 624.5 bits (100.0% of 624.5) over 96% of the profile
+B_orthologues	Q61743	kir	ploop		correct	family	kir	ploop	high	550.7	0.9169	0.9513			1.0	kir	kir wins by 550.7 bits (100.0% of 550.7) over 92% of the profile
+B_orthologues	Q63664	kir	ploop		correct	family	kir	ploop	high	554.6	0.9756	0.9599			1.0	kir	kir wins by 554.6 bits (100.0% of 554.6) over 98% of the profile
+B_orthologues	Q6P9J9	ano_scramblase	tmem16_like		correct	family	ano_scramblase	tmem16_like	high	1274.0	0.9674	0.9737	ano_channel	691.6	0.4571	ano_scramblase	ano_scramblase wins by 582.4 bits (45.7% of 1274.0) over 97% of the profile
+B_orthologues	Q8CFW1	ano_channel	tmem16_like		correct	family	ano_channel	tmem16_like	high	2006.4	0.999	1.0	ano_scramblase	906.9	0.548	ano_channel	ano_channel wins by 1099.5 bits (54.8% of 2006.4) over 100% of the profile
+B_orthologues	Q75UR0	ano_scramblase	tmem16_like		correct	family	ano_scramblase	tmem16_like	high	1198.8	0.9506	0.9657	ano_channel	727.1	0.3935	ano_scramblase	ano_scramblase wins by 471.7 bits (39.3% of 1198.8) over 95% of the profile
+B_orthologues	E1BNE9	kir	ploop		correct	family	kir	ploop	high	579.5	0.9267	0.7585			1.0	kir	kir wins by 579.5 bits (100.0% of 579.5) over 93% of the profile
+B_orthologues	P48543	kir	ploop		correct	family	kir	ploop	high	590.8	0.8851	0.9135			1.0	kir	kir wins by 590.8 bits (100.0% of 590.8) over 89% of the profile
+B_orthologues	P48545	kir	ploop		correct	family	kir	ploop	high	610.0	0.9291	0.9594			1.0	kir	kir wins by 610.0 bits (100.0% of 610.0) over 93% of the profile
+B_orthologues	P52190	kir	ploop		correct	family	kir	ploop	high	603.7	0.8973	0.8722			1.0	kir	kir wins by 603.7 bits (100.0% of 603.7) over 90% of the profile
+B_orthologues	P52191	kir	ploop		correct	family	kir	ploop	high	505.1	0.89	0.8711			1.0	kir	kir wins by 505.1 bits (100.0% of 505.1) over 89% of the profile
+B_orthologues	Q14AT5	ano_scramblase	tmem16_like		correct	family	ano_scramblase	tmem16_like	high	1101.9	0.9685	0.9872	ano_channel	656.7	0.404	ano_scramblase	ano_scramblase wins by 445.2 bits (40.4% of 1101.9) over 97% of the profile
+B_orthologues	Q8BHY3	ano_channel	tmem16_like		correct	family	ano_channel	tmem16_like	high	1921.2	0.9758	0.999	ano_scramblase	915.5	0.5235	ano_channel	ano_channel wins by 1005.7 bits (52.3% of 1921.2) over 98% of the profile
+B_orthologues	P70673	kir	ploop		correct	family	kir	ploop	high	553.1	0.9169	0.9513			1.0	kir	kir wins by 553.1 bits (100.0% of 553.1) over 92% of the profile
+B_orthologues	P86046	kir	ploop		correct	family	kir	ploop	high	439.9	0.802	0.9139			1.0	kir	kir wins by 439.9 bits (100.0% of 439.9) over 80% of the profile
+B_orthologues	P97794	kir	ploop		correct	family	kir	ploop	high	556.5	0.9756	0.9599			1.0	kir	kir wins by 556.5 bits (100.0% of 556.5) over 98% of the profile
+B_orthologues	O88932	kir	ploop		correct	family	kir	ploop	high	520.8	0.8337	0.904			1.0	kir	kir wins by 520.8 bits (100.0% of 520.8) over 83% of the profile
+B_orthologues	P48542	kir	ploop		correct	family	kir	ploop	high	624.1	0.956	0.9435			1.0	kir	kir wins by 624.1 bits (100.0% of 624.1) over 96% of the profile
+B_orthologues	P63250	kir	ploop		correct	family	kir	ploop	high	578.7	0.9267	0.7585			1.0	kir	kir wins by 578.7 bits (100.0% of 578.7) over 93% of the profile
+B_orthologues	P63251	kir	ploop		correct	family	kir	ploop	high	578.7	0.9267	0.7585			1.0	kir	kir wins by 578.7 bits (100.0% of 578.7) over 93% of the profile
+B_orthologues	O88944	kv_kcnq	ploop		correct	family	kv_kcnq	ploop	high	956.1	0.9955	0.7652	kv_shaker	89.4	0.9065	kv_kcnq	kv_kcnq wins by 866.7 bits (90.6% of 956.1) over 100% of the profile
+B_orthologues	Q8K3F6	kv_kcnq	ploop		correct	family	kv_kcnq	ploop	high	957.8	0.9955	0.7652	kv_shaker	89.4	0.9067	kv_kcnq	kv_kcnq wins by 868.4 bits (90.7% of 957.8) over 100% of the profile
+B_orthologues	Q9Z351	kv_kcnq	ploop		correct	family	kv_kcnq	ploop	high	994.5	0.8964	0.8485	kv_shaker	107.6	0.8918	kv_kcnq	kv_kcnq wins by 886.9 bits (89.2% of 994.5) over 90% of the profile
+B_orthologues	Q9JK45	kv_kcnq	ploop		correct	family	kv_kcnq	ploop	high	1011.8	0.9775	0.7063	kv_shaker	104.2	0.897	kv_kcnq	kv_kcnq wins by 907.6 bits (89.7% of 1011.8) over 98% of the profile
+B_orthologues	Q9JK97	kv_kcnq	ploop		correct	family	kv_kcnq	ploop	high	944.2	0.8769	0.9037	kv_shaker	106.5	0.8872	kv_kcnq	kv_kcnq wins by 837.7 bits (88.7% of 944.2) over 88% of the profile
+B_orthologues	Q9Z0N7	kv_kcnq	ploop		correct	family	kv_kcnq	ploop	high	1102.1	0.988	0.9895	kv_shaker	109.2	0.9009	kv_kcnq	kv_kcnq wins by 992.9 bits (90.1% of 1102.1) over 99% of the profile
+B_orthologues	P79100	trpc	ploop		correct	family	trpc	ploop	high	1305.1	0.9822	0.953	trpn	118.2	0.9094	trpc	trpc wins by 1186.9 bits (90.9% of 1305.1) over 98% of the profile
+B_orthologues	Q9QX29	trpc	ploop		correct	family	trpc	ploop	high	1294.0	0.9811	0.9467	trpn	123.4	0.9046	trpc	trpc wins by 1170.6 bits (90.5% of 1294.0) over 98% of the profile
+B_orthologues	O35119	trpc	ploop		correct	family	trpc	ploop	high	1297.1	0.9722	0.9437	trpn	117.1	0.9097	trpc	trpc wins by 1180.0 bits (91.0% of 1297.1) over 97% of the profile
+B_orthologues	Q9QUQ5	trpc	ploop		correct	family	trpc	ploop	high	1299.5	0.9722	0.9435	trpn	118.0	0.9092	trpc	trpc wins by 1181.5 bits (90.9% of 1299.5) over 97% of the profile
+B_orthologues	B1AYL1	nav	ploop		correct	family	nav	ploop	high	2254.2	0.9664	0.9911	cav	670.4	0.7026	nav	nav wins by 1583.8 bits (70.3% of 2254.2) over 97% of the profile
+B_orthologues	F1LQQ7	nav	ploop		correct	family	nav	ploop	high	2214.0	0.9703	0.9952	cav	647.2	0.7077	nav	nav wins by 1566.8 bits (70.8% of 2214.0) over 97% of the profile
+B_orthologues	P15390	nav	ploop		correct	family	nav	ploop	high	3160.1	0.9793	0.9674	cav	949.9	0.6994	nav	nav wins by 2210.2 bits (69.9% of 3160.1) over 98% of the profile
+B_orthologues	Q9ER60	nav	ploop		correct	family	nav	ploop	high	3163.7	0.9798	0.968	cav	946.1	0.701	nav	nav wins by 2217.6 bits (70.1% of 3163.7) over 98% of the profile
+B_orthologues	Q9R053	nav	ploop		correct	family	nav	ploop	high	2483.4	0.9512	0.9768	cav	876.3	0.6471	nav	nav wins by 1607.1 bits (64.7% of 2483.4) over 95% of the profile
+B_orthologues	O88457	nav	ploop		correct	family	nav	ploop	high	2463.7	0.9552	0.9807	cav	880.5	0.6426	nav	nav wins by 1583.2 bits (64.3% of 2463.7) over 96% of the profile
+B_orthologues	Q62968	nav	ploop		correct	family	nav	ploop	high	2951.4	0.9972	0.9944	cav	914.8	0.69	nav	nav wins by 2036.6 bits (69.0% of 2951.4) over 100% of the profile
+B_orthologues	Q6QIY3	nav	ploop		correct	family	nav	ploop	high	2947.0	0.9972	0.9944	cav	921.1	0.6874	nav	nav wins by 2025.9 bits (68.7% of 2947.0) over 100% of the profile
+B_orthologues	Q9JHJ9	kir	ploop		correct	family	kir	ploop	high	552.6	0.9144	0.9487			1.0	kir	kir wins by 552.6 bits (100.0% of 552.6) over 91% of the profile
+B_orthologues	P22462	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	666.1	0.9094	0.9702	kv_modifier	382.9	0.4252	kv_shaker	kv_shaker wins by 283.2 bits (42.5% of 666.1) over 91% of the profile
+B_orthologues	Q14B80	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	664.6	0.9094	0.9704	kv_modifier	383.7	0.4227	kv_shaker	kv_shaker wins by 280.9 bits (42.3% of 664.6) over 91% of the profile
+B_orthologues	P17659	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	664.5	0.7572	0.8585	kv_modifier	329.4	0.5043	kv_shaker	kv_shaker wins by 335.1 bits (50.4% of 664.5) over 76% of the profile
+B_orthologues	P19024	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	688.2	0.8533	0.8189	kv_modifier	341.0	0.5045	kv_shaker	kv_shaker wins by 347.2 bits (50.5% of 688.2) over 85% of the profile
+B_orthologues	P63141	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	732.5	0.8659	0.9419	kv_modifier	359.2	0.5096	kv_shaker	kv_shaker wins by 373.3 bits (51.0% of 732.5) over 87% of the profile
+B_orthologues	Q03717	kv_shaker	ploop		correct	family	kv_shaker	ploop	medium	719.6	0.9257	0.6138	kv_modifier	599.1	0.1675	kv_shaker	kv_shaker wins by 120.5 bits (16.7% of 719.6) over 93% of the profile
+B_orthologues	Q61423	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	720.9	0.8623	0.7324	kv_modifier	348.8	0.5162	kv_shaker	kv_shaker wins by 372.1 bits (51.6% of 720.9) over 86% of the profile
+B_orthologues	Q61762	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	686.4	0.8514	0.8173	kv_modifier	340.4	0.5041	kv_shaker	kv_shaker wins by 346.0 bits (50.4% of 686.4) over 85% of the profile
+B_orthologues	Q62897	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	660.1	0.9438	0.9511	kv_modifier	368.9	0.4411	kv_shaker	kv_shaker wins by 291.2 bits (44.1% of 660.1) over 94% of the profile
+B_orthologues	Q63099	kv_shaker	ploop		correct	family	kv_shaker	ploop	medium	725.3	0.9275	0.7861	kv_modifier	602.1	0.1699	kv_shaker	kv_shaker wins by 123.2 bits (17.0% of 725.3) over 93% of the profile
+B_orthologues	Q63959	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	654.9	0.7681	0.7217	kv_modifier	375.8	0.4262	kv_shaker	kv_shaker wins by 279.1 bits (42.6% of 654.9) over 77% of the profile
+B_orthologues	O35174	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	673.9	0.9536	0.9476	kv_shaker	427.9	0.365	kv_modifier	kv_modifier wins by 246.0 bits (36.5% of 673.9) over 95% of the profile
+B_orthologues	P16388	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	733.1	0.875	0.9556	kv_modifier	361.2	0.5073	kv_shaker	kv_shaker wins by 371.9 bits (50.7% of 733.1) over 88% of the profile
+B_orthologues	P25122	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	681.9	0.8152	0.8667	kv_modifier	382.7	0.4388	kv_shaker	kv_shaker wins by 299.2 bits (43.9% of 681.9) over 82% of the profile
+B_orthologues	Q01956	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	652.9	0.7627	0.5534	kv_modifier	374.7	0.4261	kv_shaker	kv_shaker wins by 278.2 bits (42.6% of 652.9) over 76% of the profile
+B_orthologues	Q05037	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	720.2	0.8659	0.7273	kv_modifier	349.3	0.515	kv_shaker	kv_shaker wins by 370.9 bits (51.5% of 720.2) over 87% of the profile
+B_orthologues	Q63734	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	670.1	0.8696	0.9248	kv_modifier	374.9	0.4405	kv_shaker	kv_shaker wins by 295.2 bits (44.1% of 670.1) over 87% of the profile
+B_orthologues	O35173	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	626.4	0.962	0.9577	kv_shaker	413.0	0.3407	kv_modifier	kv_modifier wins by 213.4 bits (34.1% of 626.4) over 96% of the profile
+B_orthologues	P10499	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	733.0	0.8678	0.9515	kv_modifier	361.2	0.5072	kv_shaker	kv_shaker wins by 371.8 bits (50.7% of 733.0) over 87% of the profile
+B_orthologues	P15388	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	680.1	0.8062	0.9824	kv_modifier	383.4	0.4363	kv_shaker	kv_shaker wins by 296.7 bits (43.6% of 680.1) over 81% of the profile
+B_orthologues	P63142	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	732.5	0.8659	0.9419	kv_modifier	359.2	0.5096	kv_shaker	kv_shaker wins by 373.3 bits (51.0% of 732.5) over 87% of the profile
+B_orthologues	Q17ST2	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	655.1	0.7808	0.8793	kv_modifier	350.6	0.4648	kv_shaker	kv_shaker wins by 304.5 bits (46.5% of 655.1) over 78% of the profile
+B_orthologues	Q63881	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	666.3	0.9547	0.9492	kv_modifier	370.0	0.4447	kv_shaker	kv_shaker wins by 296.3 bits (44.5% of 666.3) over 95% of the profile
+B_orthologues	Q8R1C0	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	668.5	0.8696	0.9252	kv_modifier	374.2	0.4402	kv_shaker	kv_shaker wins by 294.3 bits (44.0% of 668.5) over 87% of the profile
+B_orthologues	Q9Z0V2	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	666.2	0.9547	0.9492	kv_modifier	370.0	0.4446	kv_shaker	kv_shaker wins by 296.2 bits (44.5% of 666.2) over 95% of the profile
+B_orthologues	D4AD53	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	665.1	0.9557	0.8969	kv_shaker	420.0	0.3685	kv_modifier	kv_modifier wins by 245.1 bits (36.9% of 665.1) over 96% of the profile
+B_orthologues	D4ADX7	kv_modifier	ploop		correct	family	kv_modifier	ploop	medium	608.6	0.9283	0.8763	kv_shaker	435.3	0.2848	kv_modifier	kv_modifier wins by 173.3 bits (28.5% of 608.6) over 93% of the profile
+B_orthologues	P15384	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	721.7	0.8967	0.9124	kv_modifier	351.1	0.5135	kv_shaker	kv_shaker wins by 370.6 bits (51.4% of 721.7) over 90% of the profile
+B_orthologues	P15385	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	720.7	0.8641	0.7328	kv_modifier	348.7	0.5162	kv_shaker	kv_shaker wins by 372.0 bits (51.6% of 720.7) over 86% of the profile
+B_orthologues	P16390	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	721.0	0.8967	0.9072	kv_modifier	351.1	0.513	kv_shaker	kv_shaker wins by 369.9 bits (51.3% of 721.0) over 90% of the profile
+B_orthologues	Q03719	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	649.1	0.9638	0.9278	kv_modifier	373.8	0.4241	kv_shaker	kv_shaker wins by 275.3 bits (42.4% of 649.1) over 96% of the profile
+B_orthologues	Q61923	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	666.3	0.7536	0.8544	kv_modifier	328.7	0.5067	kv_shaker	kv_shaker wins by 337.6 bits (50.7% of 666.3) over 75% of the profile
+B_orthologues	Q9Z0V1	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	659.9	0.9457	0.9527	kv_modifier	368.3	0.4419	kv_shaker	kv_shaker wins by 291.6 bits (44.2% of 659.9) over 95% of the profile
+B_orthologues	O62852	trpc	ploop		correct	family	trpc	ploop	high	1295.9	0.9822	0.9476	trpn	123.6	0.9046	trpc	trpc wins by 1172.3 bits (90.5% of 1295.9) over 98% of the profile
+B_orthologues	A0A8I5ZN27	cng	ploop		correct	family	cng	ploop	high	795.1	0.9293	0.5142	hcn	115.3	0.855	cng	cng wins by 679.8 bits (85.5% of 795.1) over 93% of the profile
+B_orthologues	Q9JJZ9	cng	ploop		correct	family	cng	ploop	high	713.4	0.7992	0.8285	hcn	107.7	0.849	cng	cng wins by 605.7 bits (84.9% of 713.4) over 80% of the profile
+B_orthologues	Q28181	cng	ploop		correct	family	cng	ploop	high	795.2	0.9477	0.5036	hcn	108.7	0.8633	cng	cng wins by 686.5 bits (86.3% of 795.2) over 95% of the profile
+B_orthologues	P59111	kv_eag	ploop		correct	family	kv_eag	ploop	high	1346.5	0.998	0.8956	cng	181.6	0.8651	kv_eag	kv_eag wins by 1164.9 bits (86.5% of 1346.5) over 100% of the profile
+B_orthologues	Q8HYZ1	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	666.9	0.9547	0.9492	kv_modifier	369.7	0.4456	kv_shaker	kv_shaker wins by 297.2 bits (44.6% of 666.9) over 95% of the profile
+B_orthologues	P50638	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	685.8	0.8478	0.8211	kv_modifier	337.4	0.508	kv_shaker	kv_shaker wins by 348.4 bits (50.8% of 685.8) over 85% of the profile
+B_orthologues	Q9MZ19	kv_shaker	ploop		correct	family	kv_shaker	ploop	medium	721.4	0.8822	0.6177	kv_modifier	598.8	0.1699	kv_shaker	kv_shaker wins by 122.6 bits (17.0% of 721.4) over 88% of the profile
+B_orthologues	P59995	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	665.3	0.9547	0.9492	kv_modifier	369.9	0.444	kv_shaker	kv_shaker wins by 295.4 bits (44.4% of 665.3) over 95% of the profile
+B_orthologues	Q09081	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	733.2	0.8768	0.9619	kv_modifier	359.2	0.5101	kv_shaker	kv_shaker wins by 374.0 bits (51.0% of 733.2) over 88% of the profile
+B_orthologues	Q28293	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	719.2	0.8678	0.9519	kv_modifier	346.5	0.5182	kv_shaker	kv_shaker wins by 372.7 bits (51.8% of 719.2) over 87% of the profile
+B_orthologues	Q9TTT5	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	659.2	0.9457	0.9527	kv_modifier	368.3	0.4413	kv_shaker	kv_shaker wins by 290.9 bits (44.1% of 659.2) over 95% of the profile
+B_orthologues	P79197	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	687.1	0.8569	0.8136	kv_modifier	337.5	0.5088	kv_shaker	kv_shaker wins by 349.6 bits (50.9% of 687.1) over 86% of the profile
+B_orthologues	Q28527	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	719.9	0.8659	0.7355	kv_modifier	349.2	0.5149	kv_shaker	kv_shaker wins by 370.7 bits (51.5% of 719.9) over 87% of the profile
+B_orthologues	Q8MJD7	cng	ploop		correct	family	cng	ploop	high	731.6	0.959	0.8632	kv_eag	86.7	0.8815	cng	cng wins by 644.9 bits (88.1% of 731.6) over 96% of the profile
+B_orthologues	Q68FV1	tric	tric		correct	family	tric	tric	high	419.1	0.9729	0.9863			1.0	tric	tric wins by 419.1 bits (100.0% of 419.1) over 97% of the profile
+B_orthologues	Q9DAV9	tric	tric		correct	family	tric	tric	high	411.1	0.9729	0.9863			1.0	tric	tric wins by 411.1 bits (100.0% of 411.1) over 97% of the profile
+B_orthologues	Q8BWG9	orai	orai		correct	family	orai	orai	high	467.9	1.0	1.0			1.0	orai	orai wins by 467.9 bits (100.0% of 467.9) over 100% of the profile
+B_orthologues	Q9MYW0	trpc	ploop		correct	family	trpc	ploop	high	1244.2	0.8966	0.927	trpn	102.2	0.9179	trpc	trpc wins by 1142.0 bits (91.8% of 1244.2) over 90% of the profile
+B_orthologues	Q4V8I7	lrrc8	innexin_like		correct	family	lrrc8	innexin_like	high	1428.5	0.9988	0.9926			1.0	lrrc8	lrrc8 wins by 1428.5 bits (100.0% of 1428.5) over 100% of the profile
+B_orthologues	Q498T9	lrrc8	innexin_like		correct	family	lrrc8	innexin_like	high	1464.5	0.9988	0.9988			1.0	lrrc8	lrrc8 wins by 1464.5 bits (100.0% of 1464.5) over 100% of the profile
+B_orthologues	Q5U308	lrrc8	innexin_like		correct	family	lrrc8	innexin_like	high	1347.1	0.9988	0.9883			1.0	lrrc8	lrrc8 wins by 1347.1 bits (100.0% of 1347.1) over 100% of the profile
+B_orthologues	Q8BGR2	lrrc8	innexin_like		correct	family	lrrc8	innexin_like	high	1350.5	0.9988	0.9884			1.0	lrrc8	lrrc8 wins by 1350.5 bits (100.0% of 1350.5) over 100% of the profile
+B_orthologues	Q66JT1	lrrc8	innexin_like		correct	family	lrrc8	innexin_like	high	1429.7	1.0	1.0			1.0	lrrc8	lrrc8 wins by 1429.7 bits (100.0% of 1429.7) over 100% of the profile
+B_orthologues	Q80WG5	lrrc8	innexin_like		correct	family	lrrc8	innexin_like	high	1430.8	0.9988	0.9926			1.0	lrrc8	lrrc8 wins by 1430.8 bits (100.0% of 1430.8) over 100% of the profile
+B_orthologues	Q8R502	lrrc8	innexin_like		correct	family	lrrc8	innexin_like	high	1460.0	0.9988	0.9988			1.0	lrrc8	lrrc8 wins by 1460.0 bits (100.0% of 1460.0) over 100% of the profile
+B_orthologues	Q8R4F0	trpml	ploop		correct	family	trpml	ploop	high	1057.6	0.9299	0.9602	trpp	31.5	0.9702	trpml	trpml wins by 1026.1 bits (97.0% of 1057.6) over 93% of the profile
+B_orthologues	Q99J21	trpml	ploop		correct	family	trpml	ploop	high	1027.1	1.0	1.0	trpp	25.8	0.9749	trpml	trpml wins by 1001.3 bits (97.5% of 1027.1) over 100% of the profile
+B_orthologues	Q6P5F7	tweety	tweety		correct	family	tweety	tweety	high	763.5	0.9962	0.9943			1.0	tweety	tweety wins by 763.5 bits (100.0% of 763.5) over 100% of the profile
+B_orthologues	Q9D3A9	tweety	tweety		correct	family	tweety	tweety	high	720.2	0.8552	1.0			1.0	tweety	tweety wins by 720.2 bits (100.0% of 720.2) over 86% of the profile
+B_orthologues	J3QMI4	calhm	calhm		correct	family	calhm	calhm	high	356.2	0.9241	0.8991			1.0	calhm	calhm wins by 356.2 bits (100.0% of 356.2) over 92% of the profile
+B_orthologues	Q8C9E8	calhm	calhm		correct	family	calhm	calhm	high	356.8	0.9399	0.9042			1.0	calhm	calhm wins by 356.8 bits (100.0% of 356.8) over 94% of the profile
+B_orthologues	O70617	kir	ploop		correct	family	kir	ploop	high	440.1	0.802	0.9139			1.0	kir	kir wins by 440.1 bits (100.0% of 440.1) over 80% of the profile
+B_orthologues	Q8VEC4	calhm	calhm		correct	family	calhm	calhm	high	405.5	0.981	0.9783			1.0	calhm	calhm wins by 405.5 bits (100.0% of 405.5) over 98% of the profile
+B_orthologues	Q6IFT6	ano_scramblase	tmem16_like		correct	family	ano_scramblase	tmem16_like	high	1099.5	0.9674	0.986	ano_channel	648.6	0.4101	ano_scramblase	ano_scramblase wins by 450.9 bits (41.0% of 1099.5) over 97% of the profile
+B_orthologues	Q9Z307	kir	ploop		correct	family	kir	ploop	high	506.5	0.8778	0.8592			1.0	kir	kir wins by 506.5 bits (100.0% of 506.5) over 88% of the profile
+B_orthologues	Q91ZF1	kir	ploop		correct	family	kir	ploop	high	521.6	0.8362	0.8395			1.0	kir	kir wins by 521.6 bits (100.0% of 521.6) over 84% of the profile
+B_orthologues	Q8BXK9	clic	clic		correct	family	clic	clic	high	441.7	0.8537	0.9761			1.0	clic	clic wins by 441.7 bits (100.0% of 441.7) over 85% of the profile
+B_orthologues	Q9Z0W7	clic	clic		correct	family	clic	clic	high	444.8	0.8571	0.9723			1.0	clic	clic wins by 444.8 bits (100.0% of 444.8) over 86% of the profile
+B_orthologues	Q6MG61	clic	clic		correct	family	clic	clic	high	413.9	0.8328	0.9917			1.0	clic	clic wins by 413.9 bits (100.0% of 413.9) over 83% of the profile
+B_orthologues	Q811Q2	clic	clic		correct	family	clic	clic	high	442.3	0.8537	0.4003			1.0	clic	clic wins by 442.3 bits (100.0% of 442.3) over 85% of the profile
+B_orthologues	Q9EPT8	clic	clic		correct	family	clic	clic	high	440.8	0.8537	0.9761			1.0	clic	clic wins by 440.8 bits (100.0% of 440.8) over 85% of the profile
+B_orthologues	Q80UF9	otop	otopetrin		correct	family	otop	otopetrin	high	774.6	0.969	0.9619			1.0	otop	otop wins by 774.6 bits (100.0% of 774.6) over 97% of the profile
+B_orthologues	Q80VM9	otop	otopetrin		correct	family	otop	otopetrin	high	878.7	0.9931	0.9917			1.0	otop	otop wins by 878.7 bits (100.0% of 878.7) over 99% of the profile
+B_orthologues	Q9Z1Q5	clic	clic		correct	family	clic	clic	high	413.4	0.8328	0.9917			1.0	clic	clic wins by 413.4 bits (100.0% of 413.4) over 83% of the profile
+B_orthologues	Q5E9B7	clic	clic		correct	family	clic	clic	high	414.8	0.8328	0.9917			1.0	clic	clic wins by 414.8 bits (100.0% of 414.8) over 83% of the profile
+B_orthologues	Q9QYB1	clic	clic		correct	family	clic	clic	high	449.6	0.8571	0.9723			1.0	clic	clic wins by 449.6 bits (100.0% of 449.6) over 86% of the profile
+B_orthologues	Q9XSA7	clic	clic		correct	family	clic	clic	high	447.7	0.8571	0.9723			1.0	clic	clic wins by 447.7 bits (100.0% of 447.7) over 86% of the profile
+B_orthologues	P51576	p2x	p2x		correct	family	p2x	p2x	high	614.0	0.9435	0.9975	p2x_nonmetazoan	50.3	0.9181	p2x	p2x wins by 563.7 bits (91.8% of 614.0) over 94% of the profile
+B_orthologues	P51577	p2x	p2x		correct	family	p2x	p2x	high	641.3	0.8988	0.9871	p2x_nonmetazoan	47.1	0.9266	p2x	p2x wins by 594.2 bits (92.7% of 641.3) over 90% of the profile
+B_orthologues	Q6H1V1	bestrophin	bestrophin		correct	family	bestrophin	bestrophin	high	777.2	0.9867	0.8311			1.0	bestrophin	bestrophin wins by 777.2 bits (100.0% of 777.2) over 99% of the profile
+B_orthologues	Q8BGM5	bestrophin	bestrophin		correct	family	bestrophin	bestrophin	high	774.6	0.9943	0.9961			1.0	bestrophin	bestrophin wins by 774.6 bits (100.0% of 774.6) over 99% of the profile
+B_orthologues	O54803	p2x	p2x		correct	family	p2x	p2x	high	572.6	0.8941	0.9589			1.0	p2x	p2x wins by 572.6 bits (100.0% of 572.6) over 89% of the profile
+B_orthologues	P47824	p2x	p2x		correct	family	p2x	p2x	high	614.1	0.9435	0.9975	p2x_nonmetazoan	45.7	0.9256	p2x	p2x wins by 568.4 bits (92.6% of 614.1) over 94% of the profile
+B_orthologues	P51578	p2x	p2x		correct	family	p2x	p2x	high	612.0	0.9365	0.8791			1.0	p2x	p2x wins by 612.0 bits (100.0% of 612.0) over 94% of the profile
+B_orthologues	P51579	p2x	p2x		correct	family	p2x	p2x	high	565.1	0.8918	0.9563			1.0	p2x	p2x wins by 565.1 bits (100.0% of 565.1) over 89% of the profile
+B_orthologues	Q5E9U1	p2x	p2x		correct	family	p2x	p2x	high	639.8	0.9035	0.9923			1.0	p2x	p2x wins by 639.8 bits (100.0% of 639.8) over 90% of the profile
+B_orthologues	Q64663	p2x	p2x		correct	family	p2x	p2x	high	551.9	0.9835	0.8067			1.0	p2x	p2x wins by 551.9 bits (100.0% of 551.9) over 98% of the profile
+B_orthologues	Q91VE2	p2x	p2x		correct	family	p2x	p2x	high	608.3	0.9365	0.8879			1.0	p2x	p2x wins by 608.3 bits (100.0% of 608.3) over 94% of the profile
+B_orthologues	Q9JJX6	p2x	p2x		correct	family	p2x	p2x	high	642.2	0.8988	0.9871	p2x_nonmetazoan	48.0	0.9253	p2x	p2x wins by 594.2 bits (92.5% of 642.2) over 90% of the profile
+B_orthologues	Q8R4P5	tmc	tmem16_like		correct	family	tmc	tmem16_like	high	925.0	0.8878	0.9789			1.0	tmc	tmc wins by 925.0 bits (100.0% of 925.0) over 89% of the profile
+B_orthologues	Q8K3P1	p2x	p2x		correct	family	p2x	p2x	high	587.8	0.8941	0.7732			1.0	p2x	p2x wins by 587.8 bits (100.0% of 587.8) over 89% of the profile
+B_orthologues	Q8R526	assoc_polycystin1	ploop		decoy_ok	family	assoc_polycystin1	ploop	high	1942.5	0.8623	0.9315	trpp	78.2	0.9597	assoc_polycystin1	assoc_polycystin1 wins by 1864.3 bits (96.0% of 1942.5) over 86% of the profile
+B_orthologues	Q7TN58	tmc	tmem16_like		correct	family	tmc	tmem16_like	high	746.1	0.8304	0.8864			1.0	tmc	tmc wins by 746.1 bits (100.0% of 746.1) over 83% of the profile
+B_orthologues	Q7TN60	tmc	tmem16_like		correct	family	tmc	tmem16_like	high	631.8	0.8724	0.8975			1.0	tmc	tmc wins by 631.8 bits (100.0% of 631.8) over 87% of the profile
+B_orthologues	Q8R4P4	tmc	tmem16_like		correct	family	tmc	tmem16_like	high	936.3	0.9592	0.9077			1.0	tmc	tmc wins by 936.3 bits (100.0% of 936.3) over 96% of the profile
+B_orthologues	O35245	trpp	ploop		correct	family	trpp	ploop	high	1370.2	0.9851	0.9306	assoc_polycystin1	241.8	0.8235	trpp	trpp wins by 1128.4 bits (82.4% of 1370.2) over 99% of the profile
+B_orthologues	P49653	p2x	p2x		correct	family	p2x	p2x	high	587.1	0.8965	0.7966			1.0	p2x	p2x wins by 587.1 bits (100.0% of 587.1) over 90% of the profile
+B_orthologues	P49654	p2x	p2x		correct	family	p2x	p2x	high	597.7	0.9318	0.9798			1.0	p2x	p2x wins by 597.7 bits (100.0% of 597.7) over 93% of the profile
+B_orthologues	Q3UR32	p2x	p2x		correct	family	p2x	p2x	high	598.1	0.9318	0.9798			1.0	p2x	p2x wins by 598.1 bits (100.0% of 598.1) over 93% of the profile
+B_orthologues	Q9Z1M0	p2x	p2x		correct	family	p2x	p2x	high	556.6	0.9835	0.8067			1.0	p2x	p2x wins by 556.6 bits (100.0% of 556.6) over 98% of the profile
+B_orthologues	Q6IMP4	pannexin	innexin_like		correct	family	pannexin	innexin_like	high	668.8	0.9932	0.7194			1.0	pannexin	pannexin wins by 668.8 bits (100.0% of 668.8) over 99% of the profile
+B_orthologues	Q8CEG0	pannexin	innexin_like		correct	family	pannexin	innexin_like	high	624.9	0.8688	0.9719			1.0	pannexin	pannexin wins by 624.9 bits (100.0% of 624.9) over 87% of the profile
+B_orthologues	Q9JIP4	pannexin	innexin_like		correct	family	pannexin	innexin_like	high	650.4	0.991	1.0			1.0	pannexin	pannexin wins by 650.4 bits (100.0% of 650.4) over 99% of the profile
+B_orthologues	P60570	pannexin	innexin_like		correct	family	pannexin	innexin_like	high	659.5	0.991	1.0			1.0	pannexin	pannexin wins by 659.5 bits (100.0% of 659.5) over 99% of the profile
+B_orthologues	P60571	pannexin	innexin_like		correct	family	pannexin	innexin_like	high	671.3	0.9932	0.7181			1.0	pannexin	pannexin wins by 671.3 bits (100.0% of 671.3) over 99% of the profile
+B_orthologues	Q2QLF9	cftr	abc_channel		correct	family	cftr	abc_channel	high	3232.6	1.0	1.0	assoc_sur	475.9	0.8528	cftr	cftr wins by 2756.7 bits (85.3% of 3232.6) over 100% of the profile
+B_orthologues	Q5D1Z7	cftr	abc_channel		correct	family	cftr	abc_channel	high	3065.5	1.0	1.0	assoc_sur	473.3	0.8456	cftr	cftr wins by 2592.2 bits (84.6% of 3065.5) over 100% of the profile
+B_orthologues	Q5U820	cftr	abc_channel		correct	family	cftr	abc_channel	high	3134.0	1.0	1.0	assoc_sur	473.1	0.849	cftr	cftr wins by 2660.9 bits (84.9% of 3134.0) over 100% of the profile
+B_orthologues	Q9TSP5	cftr	abc_channel		correct	family	cftr	abc_channel	high	3237.2	1.0	1.0	assoc_sur	486.0	0.8499	cftr	cftr wins by 2751.2 bits (85.0% of 3237.2) over 100% of the profile
+B_orthologues	Q9TUQ2	cftr	abc_channel		correct	family	cftr	abc_channel	high	3235.5	1.0	1.0	assoc_sur	486.2	0.8497	cftr	cftr wins by 2749.3 bits (85.0% of 3235.5) over 100% of the profile
+B_orthologues	Q2QLH0	cftr	abc_channel		correct	family	cftr	abc_channel	high	3174.7	1.0	1.0	assoc_sur	472.9	0.851	cftr	cftr wins by 2701.8 bits (85.1% of 3174.7) over 100% of the profile
+B_orthologues	Q6PQZ2	cftr	abc_channel		correct	family	cftr	abc_channel	high	3197.4	1.0	1.0	assoc_sur	484.7	0.8484	cftr	cftr wins by 2712.7 bits (84.8% of 3197.4) over 100% of the profile
+B_orthologues	Q7JII8	cftr	abc_channel		correct	family	cftr	abc_channel	high	3236.2	1.0	1.0	assoc_sur	486.0	0.8498	cftr	cftr wins by 2750.2 bits (85.0% of 3236.2) over 100% of the profile
+B_orthologues	Q2QLC5	cftr	abc_channel		correct	family	cftr	abc_channel	high	3091.8	1.0	1.0	assoc_sur	461.6	0.8507	cftr	cftr wins by 2630.2 bits (85.1% of 3091.8) over 100% of the profile
+B_orthologues	Q7JII7	cftr	abc_channel		correct	family	cftr	abc_channel	high	3236.2	1.0	1.0	assoc_sur	486.0	0.8498	cftr	cftr wins by 2750.2 bits (85.0% of 3236.2) over 100% of the profile
+B_orthologues	Q2QLE5	cftr	abc_channel		correct	family	cftr	abc_channel	high	3231.7	1.0	1.0	assoc_sur	476.8	0.8525	cftr	cftr wins by 2754.9 bits (85.2% of 3231.7) over 100% of the profile
+B_orthologues	Q9Z2L0	vdac	porin		correct	family	vdac	porin	high	364.1	0.9964	1.0			1.0	vdac	vdac wins by 364.1 bits (100.0% of 364.1) over 100% of the profile
+B_orthologues	Q60932	vdac	porin		correct	family	vdac	porin	high	364.5	0.9964	0.9561			1.0	vdac	vdac wins by 364.5 bits (100.0% of 364.5) over 100% of the profile
+B_orthologues	P45879	vdac	porin		correct	family	vdac	porin	high	367.0	0.9964	1.0			1.0	vdac	vdac wins by 367.0 bits (100.0% of 367.0) over 100% of the profile
+B_orthologues	P68002	vdac	porin		correct	family	vdac	porin	high	387.7	1.0	0.966			1.0	vdac	vdac wins by 387.7 bits (100.0% of 387.7) over 100% of the profile
+B_orthologues	P81155	vdac	porin		correct	family	vdac	porin	high	383.1	0.9964	0.9593			1.0	vdac	vdac wins by 383.1 bits (100.0% of 383.1) over 100% of the profile
+B_orthologues	Q60931	vdac	porin		correct	family	vdac	porin	high	368.8	0.9964	1.0			1.0	vdac	vdac wins by 368.8 bits (100.0% of 368.8) over 100% of the profile
+B_orthologues	Q9R1Z0	vdac	porin		correct	family	vdac	porin	high	363.5	0.9964	1.0			1.0	vdac	vdac wins by 363.5 bits (100.0% of 363.5) over 100% of the profile
+B_orthologues	P08033	connexin	connexin		correct	family	connexin	connexin	high	376.2	0.8842	0.9152			1.0	connexin	connexin wins by 376.2 bits (100.0% of 376.2) over 88% of the profile
+B_orthologues	P28234	connexin	connexin		correct	family	connexin	connexin	high	385.8	0.9871	0.9888			1.0	connexin	connexin wins by 385.8 bits (100.0% of 385.8) over 99% of the profile
+B_orthologues	Q00977	connexin	connexin		correct	family	connexin	connexin	high	376.1	0.7363	0.9912			1.0	connexin	connexin wins by 376.1 bits (100.0% of 376.1) over 74% of the profile
+B_orthologues	Q80XF7	connexin	connexin		correct	family	connexin	connexin	high	360.4	0.9164	0.8409			1.0	connexin	connexin wins by 360.4 bits (100.0% of 360.4) over 92% of the profile
+B_orthologues	Q8BQU6	connexin	connexin		correct	family	connexin	connexin	high	361.0	0.8907	0.8659			1.0	connexin	connexin wins by 361.0 bits (100.0% of 361.0) over 89% of the profile
+B_orthologues	P70689	connexin	connexin		correct	family	connexin	connexin	high	374.6	0.791	0.9234			1.0	connexin	connexin wins by 374.6 bits (100.0% of 374.6) over 79% of the profile
+B_orthologues	Q91YD1	connexin	connexin		correct	family	connexin	connexin	high	288.1	0.7235	0.7878			1.0	connexin	connexin wins by 288.1 bits (100.0% of 288.1) over 72% of the profile
+B_orthologues	Q9CX92	connexin	connexin		correct	family	connexin	connexin	high	188.7	0.6302	0.9659			1.0	connexin	connexin wins by 188.7 bits (100.0% of 188.7) over 63% of the profile
+B_orthologues	P21994	connexin	connexin		correct	family	connexin	connexin	high	377.3	0.7363	0.9912			1.0	connexin	connexin wins by 377.3 bits (100.0% of 377.3) over 74% of the profile
+B_orthologues	P23242	connexin	connexin		correct	family	connexin	connexin	high	426.3	0.9968	0.9974			1.0	connexin	connexin wins by 426.3 bits (100.0% of 426.3) over 100% of the profile
+B_orthologues	P28236	connexin	connexin		correct	family	connexin	connexin	high	399.3	0.9936	0.9955			1.0	connexin	connexin wins by 399.3 bits (100.0% of 399.3) over 99% of the profile
+B_orthologues	P29414	connexin	connexin		correct	family	connexin	connexin	high	402.2	0.9164	0.8486			1.0	connexin	connexin wins by 402.2 bits (100.0% of 402.2) over 92% of the profile
+B_orthologues	Q02738	connexin	connexin		correct	family	connexin	connexin	high	344.7	0.7653	0.8571			1.0	connexin	connexin wins by 344.7 bits (100.0% of 344.7) over 77% of the profile
+B_orthologues	Q03190	connexin	connexin		correct	family	connexin	connexin	high	404.2	0.9743	0.991			1.0	connexin	connexin wins by 404.2 bits (100.0% of 404.2) over 97% of the profile
+B_orthologues	P18246	connexin	connexin		correct	family	connexin	connexin	high	426.2	0.9968	0.9974			1.0	connexin	connexin wins by 426.2 bits (100.0% of 426.2) over 100% of the profile
+B_orthologues	P28229	connexin	connexin		correct	family	connexin	connexin	high	400.8	0.9807	0.9722			1.0	connexin	connexin wins by 400.8 bits (100.0% of 400.8) over 98% of the profile
+B_orthologues	P28230	connexin	connexin		correct	family	connexin	connexin	high	376.2	0.8842	0.9152			1.0	connexin	connexin wins by 376.2 bits (100.0% of 376.2) over 88% of the profile
+B_orthologues	P28231	connexin	connexin		correct	family	connexin	connexin	high	343.1	0.791	0.8963			1.0	connexin	connexin wins by 343.1 bits (100.0% of 343.1) over 79% of the profile
+B_orthologues	Q01231	connexin	connexin		correct	family	connexin	connexin	high	380.2	0.9871	0.9888			1.0	connexin	connexin wins by 380.2 bits (100.0% of 380.2) over 99% of the profile
+B_orthologues	Q8K4Q9	connexin	connexin		correct	family	connexin	connexin	high	400.7	0.9936	0.9955			1.0	connexin	connexin wins by 400.7 bits (100.0% of 400.7) over 99% of the profile
+B_orthologues	P08050	connexin	connexin		correct	family	connexin	connexin	high	426.3	0.9968	0.9974			1.0	connexin	connexin wins by 426.3 bits (100.0% of 426.3) over 100% of the profile
+B_orthologues	P41987	connexin	connexin		correct	family	connexin	connexin	high	409.6	0.8907	0.8968			1.0	connexin	connexin wins by 409.6 bits (100.0% of 409.6) over 89% of the profile
+B_orthologues	Q9WUS4	connexin	connexin		correct	family	connexin	connexin	high	394.4	0.791	0.6139			1.0	connexin	connexin wins by 394.4 bits (100.0% of 394.4) over 79% of the profile
+B_orthologues	Q704Y3	trpv	ploop		correct	family	trpv	ploop	high	1213.7	0.9926	0.9583	trpn	47.2	0.9611	trpv	trpv wins by 1166.5 bits (96.1% of 1213.7) over 99% of the profile
+B_orthologues	Q8K424	trpv	ploop		correct	family	trpv	ploop	high	1110.7	0.9778	0.9937	trpa	42.2	0.962	trpv	trpv wins by 1068.5 bits (96.2% of 1110.7) over 98% of the profile
+B_orthologues	Q9MYV9	trpc	ploop		correct	family	trpc	ploop	high	1294.1	0.9822	0.9476	trpn	123.4	0.9046	trpc	trpc wins by 1170.7 bits (90.5% of 1294.1) over 98% of the profile
+B_orthologues	P86044	ano_scramblase	tmem16_like		correct	family	ano_scramblase	tmem16_like	high	872.8	0.8427	0.9585	ano_channel	455.7	0.4779	ano_scramblase	ano_scramblase wins by 417.1 bits (47.8% of 872.8) over 84% of the profile
+B_orthologues	A5D7U4	enac	deg_enac		correct	family	enac	deg_enac	high	959.5	0.9984	0.9891	asic	215.1	0.7758	enac	enac wins by 744.4 bits (77.6% of 959.5) over 100% of the profile
+B_orthologues	P55270	enac	deg_enac		correct	family	enac	deg_enac	high	915.4	0.9643	0.9754	asic	196.6	0.7852	enac	enac wins by 718.8 bits (78.5% of 915.4) over 96% of the profile
+B_orthologues	Q6X1Y6	asic	deg_enac		correct	family	asic	deg_enac	high	793.7	0.9674	0.966	enac	190.1	0.7605	asic	asic wins by 603.6 bits (76.0% of 793.7) over 97% of the profile
+B_orthologues	Q9R0W5	asic	deg_enac		correct	family	asic	deg_enac	high	604.6	0.8829	0.9131	enac	190.8	0.6844	asic	asic wins by 413.8 bits (68.4% of 604.6) over 88% of the profile
+B_orthologues	Q9WU39	enac	deg_enac		correct	family	enac	deg_enac	high	989.5	0.9783	0.9756	asic	213.3	0.7844	enac	enac wins by 776.2 bits (78.4% of 989.5) over 98% of the profile
+B_orthologues	P37089	enac	deg_enac		correct	family	enac	deg_enac	high	912.4	0.9659	0.9155	asic	199.3	0.7816	enac	enac wins by 713.1 bits (78.2% of 912.4) over 97% of the profile
+B_orthologues	P37091	enac	deg_enac		correct	family	enac	deg_enac	high	991.5	0.9767	0.9738	asic	215.9	0.7822	enac	enac wins by 775.6 bits (78.2% of 991.5) over 98% of the profile
+B_orthologues	Q6NXK8	asic	deg_enac		correct	family	asic	deg_enac	high	941.2	1.0	1.0	enac	217.0	0.7694	asic	asic wins by 724.2 bits (76.9% of 941.2) over 100% of the profile
+B_orthologues	Q62962	asic	deg_enac		correct	family	asic	deg_enac	high	900.8	1.0	1.0	enac	213.7	0.7628	asic	asic wins by 687.1 bits (76.3% of 900.8) over 100% of the profile
+B_orthologues	Q925H0	asic	deg_enac		correct	family	asic	deg_enac	high	901.3	1.0	1.0	enac	214.8	0.7617	asic	asic wins by 686.5 bits (76.2% of 901.3) over 100% of the profile
+B_orthologues	Q9WU38	enac	deg_enac		correct	family	enac	deg_enac	high	931.4	0.9984	0.989	asic	211.1	0.7734	enac	enac wins by 720.3 bits (77.3% of 931.4) over 100% of the profile
+B_orthologues	O35240	asic	deg_enac		correct	family	asic	deg_enac	high	794.2	0.9674	0.9662	enac	185.5	0.7664	asic	asic wins by 608.7 bits (76.6% of 794.2) over 97% of the profile
+B_orthologues	P37090	enac	deg_enac		correct	family	enac	deg_enac	high	923.1	0.9984	0.989	asic	214.5	0.7676	enac	enac wins by 708.6 bits (76.8% of 923.1) over 100% of the profile
+B_orthologues	P55926	asic	deg_enac		correct	family	asic	deg_enac	high	941.6	1.0	1.0	enac	217.0	0.7695	asic	asic wins by 724.6 bits (77.0% of 941.6) over 100% of the profile
+B_orthologues	Q61180	enac	deg_enac		correct	family	enac	deg_enac	high	912.6	0.9581	0.9056	asic	202.9	0.7777	enac	enac wins by 709.7 bits (77.8% of 912.6) over 96% of the profile
+B_orthologues	Q9R0Y1	asic	deg_enac		correct	family	asic	deg_enac	high	611.6	0.9002	0.9333	enac	186.5	0.6951	asic	asic wins by 425.1 bits (69.5% of 611.6) over 90% of the profile
+B_orthologues	P51794	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	1432.4	0.9314	1.0	clc_channel	263.9	0.8158	clc_transporter	clc_transporter wins by 1168.5 bits (81.6% of 1432.4) over 93% of the profile
+B_orthologues	P51796	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	1464.5	1.0	1.0	clc_channel	269.9	0.8157	clc_transporter	clc_transporter wins by 1194.6 bits (81.6% of 1464.5) over 100% of the profile
+B_orthologues	Q9R0A1	clc_channel	clc		correct	family	clc_channel	clc	high	1567.7	0.9966	0.989	clc_transporter	319.4	0.7963	clc_channel	clc_channel wins by 1248.3 bits (79.6% of 1567.7) over 100% of the profile
+B_orthologues	O70496	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	988.5	0.9988	0.9988	clc_channel	214.5	0.783	clc_transporter	clc_transporter wins by 774.0 bits (78.3% of 988.5) over 100% of the profile
+B_orthologues	P35524	clc_channel	clc		correct	family	clc_channel	clc	high	1486.0	0.9841	0.8823	clc_transporter	303.1	0.796	clc_channel	clc_channel wins by 1182.9 bits (79.6% of 1486.0) over 98% of the profile
+B_orthologues	P51791	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	1490.7	0.995	0.9976	clc_channel	247.8	0.8338	clc_transporter	clc_transporter wins by 1242.9 bits (83.4% of 1490.7) over 100% of the profile
+B_orthologues	P51802	clc_channel	clc		correct	family	clc_channel	clc	high	1117.9	0.7914	0.9825	clc_transporter	231.1	0.7933	clc_channel	clc_channel wins by 886.8 bits (79.3% of 1117.9) over 79% of the profile
+B_orthologues	Q61418	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	1426.4	0.9314	1.0	clc_channel	259.0	0.8184	clc_transporter	clc_transporter wins by 1167.4 bits (81.8% of 1426.4) over 93% of the profile
+B_orthologues	O35454	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	974.0	0.9963	0.9989	clc_channel	174.9	0.8204	clc_transporter	clc_transporter wins by 799.1 bits (82.0% of 974.0) over 100% of the profile
+B_orthologues	P51792	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	1493.7	0.995	0.9976	clc_channel	252.5	0.831	clc_transporter	clc_transporter wins by 1241.2 bits (83.1% of 1493.7) over 100% of the profile
+B_orthologues	Q64347	clc_channel	clc		correct	family	clc_channel	clc	high	1486.1	0.9841	0.8823	clc_transporter	303.4	0.7958	clc_channel	clc_channel wins by 1182.7 bits (79.6% of 1486.1) over 98% of the profile
+B_orthologues	Q06393	clc_channel	clc		correct	family	clc_channel	clc	high	1144.5	0.7914	0.9825	clc_transporter	253.0	0.7789	clc_channel	clc_channel wins by 891.5 bits (77.9% of 1144.5) over 79% of the profile
+B_orthologues	Q9WUB6	clc_channel	clc		correct	family	clc_channel	clc	high	1117.1	0.7902	0.9811	clc_transporter	233.8	0.7907	clc_channel	clc_channel wins by 883.3 bits (79.1% of 1117.1) over 79% of the profile
+B_orthologues	P35525	clc_channel	clc		correct	family	clc_channel	clc	high	1569.5	0.9932	0.9879	clc_transporter	320.6	0.7957	clc_channel	clc_channel wins by 1248.9 bits (79.6% of 1569.5) over 99% of the profile
+B_orthologues	P51799	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	988.6	0.9988	0.9988	clc_channel	215.3	0.7822	clc_transporter	clc_transporter wins by 773.3 bits (78.2% of 988.6) over 100% of the profile
+B_orthologues	Q9WUB7	clc_channel	clc		correct	family	clc_channel	clc	high	1143.5	0.7914	0.9825	clc_transporter	250.5	0.7809	clc_channel	clc_channel wins by 893.0 bits (78.1% of 1143.5) over 79% of the profile
+B_orthologues	Q9WVD4	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	1460.6	1.0	1.0	clc_channel	270.2	0.815	clc_transporter	clc_transporter wins by 1190.4 bits (81.5% of 1460.6) over 100% of the profile
+B_orthologues	Q8K485	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	141.4	0.7035	0.9655	kv_shaker	26.1	0.8154	nonchannel_kctd	nonchannel_kctd wins by 115.3 bits (81.5% of 141.4) over 70% of the profile
+B_orthologues	Q6WVG3	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	225.3	0.8991	0.9908	kv_shaker	26.6	0.8819	nonchannel_kctd	nonchannel_kctd wins by 198.7 bits (88.2% of 225.3) over 90% of the profile
+B_orthologues	Q922M3	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	281.9	0.9148	0.9714	kv_shaker	26.6	0.9056	nonchannel_kctd	nonchannel_kctd wins by 255.3 bits (90.6% of 281.9) over 91% of the profile
+B_orthologues	Q8BJK1	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	243.4	0.9085	0.91	kv_shaker	46.1	0.8106	nonchannel_kctd	nonchannel_kctd wins by 197.3 bits (81.1% of 243.4) over 91% of the profile
+B_orthologues	Q5DTY9	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	250.7	0.8896	0.7775	kv_shaker	30.4	0.8787	nonchannel_kctd	nonchannel_kctd wins by 220.3 bits (87.9% of 250.7) over 89% of the profile
+B_orthologues	Q7TPL3	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	282.2	0.9148	0.9714	kv_shaker	27.2	0.9036	nonchannel_kctd	nonchannel_kctd wins by 255.0 bits (90.4% of 282.2) over 91% of the profile
+B_orthologues	Q8BGV7	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	252.4	0.9401	0.9878			1.0	nonchannel_kctd	nonchannel_kctd wins by 252.4 bits (100.0% of 252.4) over 94% of the profile
+B_orthologues	Q9N2G5	clic	clic		correct	family	clic	clic	high	439.5	0.8571	0.3862			1.0	clic	clic wins by 439.5 bits (100.0% of 439.5) over 86% of the profile
+B_orthologues	P97438	k2p	ploop		correct	family	k2p	ploop	high	396.0	0.9353	0.8521	kcsa_prok	64.8	0.8364	k2p	k2p wins by 331.2 bits (83.6% of 396.0) over 94% of the profile
+B_orthologues	Q3LS21	k2p	ploop		correct	family	k2p	ploop	high	366.4	0.6866	0.6567	kcsa_prok	46.2	0.8739	k2p	k2p wins by 320.2 bits (87.4% of 366.4) over 69% of the profile
+B_orthologues	Q6Q1P3	k2p	ploop		correct	family	k2p	ploop	high	241.1	0.6443	0.8642	kcsa_prok	52.9	0.7806	k2p	k2p wins by 188.2 bits (78.1% of 241.1) over 64% of the profile
+B_orthologues	Q6VV64	k2p	ploop		correct	family	k2p	ploop	high	240.1	0.6443	0.8883	kcsa_prok	54.4	0.7734	k2p	k2p wins by 185.7 bits (77.3% of 240.1) over 64% of the profile
+B_orthologues	Q9ERS0	k2p	ploop		correct	family	k2p	ploop	high	358.3	0.8706	0.9753			1.0	k2p	k2p wins by 358.3 bits (100.0% of 358.3) over 87% of the profile
+B_orthologues	O54912	k2p	ploop		correct	family	k2p	ploop	high	384.7	0.8507	0.9951	kcsa_prok	56.4	0.8534	k2p	k2p wins by 328.3 bits (85.3% of 384.7) over 85% of the profile
+B_orthologues	Q920B6	k2p	ploop		correct	family	k2p	ploop	high	394.9	0.9353	0.8521	kcsa_prok	66.3	0.8321	k2p	k2p wins by 328.6 bits (83.2% of 394.9) over 94% of the profile
+B_orthologues	G3V8V5	k2p	ploop		correct	family	k2p	ploop	high	347.0	0.7438	0.7481	kcsa_prok	55.7	0.8395	k2p	k2p wins by 291.3 bits (83.9% of 347.0) over 74% of the profile
+B_orthologues	O08581	k2p	ploop		correct	family	k2p	ploop	high	417.7	0.7861	0.9256			1.0	k2p	k2p wins by 417.7 bits (100.0% of 417.7) over 79% of the profile
+B_orthologues	O35111	k2p	ploop		correct	family	k2p	ploop	high	383.3	0.8507	0.9951	kcsa_prok	56.1	0.8536	k2p	k2p wins by 327.2 bits (85.4% of 383.3) over 85% of the profile
+B_orthologues	O88454	k2p	ploop		correct	family	k2p	ploop	high	346.0	0.7438	0.7462	kcsa_prok	55.7	0.839	k2p	k2p wins by 290.3 bits (83.9% of 346.0) over 74% of the profile
+B_orthologues	Q3TBV4	k2p	ploop		correct	family	k2p	ploop	high	348.7	0.7463	0.9936	kcsa_prok	44.3	0.873	k2p	k2p wins by 304.4 bits (87.3% of 348.7) over 75% of the profile
+B_orthologues	Q8BUW1	k2p	ploop		correct	family	k2p	ploop	high	428.1	0.9602	0.8879	kcsa_prok	64.6	0.8491	k2p	k2p wins by 363.5 bits (84.9% of 428.1) over 96% of the profile
+B_orthologues	Q9ES08	k2p	ploop		correct	family	k2p	ploop	high	367.3	0.6816	0.6616	kcsa_prok	46.2	0.8742	k2p	k2p wins by 321.1 bits (87.4% of 367.3) over 68% of the profile
+B_orthologues	Q9JIS4	k2p	ploop		correct	family	k2p	ploop	high	427.0	0.9602	0.8829	kcsa_prok	64.5	0.8489	k2p	k2p wins by 362.5 bits (84.9% of 427.0) over 96% of the profile
+B_orthologues	Q9Z2T2	k2p	ploop		correct	family	k2p	ploop	high	421.8	0.7861	0.9256			1.0	k2p	k2p wins by 421.8 bits (100.0% of 421.8) over 79% of the profile
+B_orthologues	O70397	p2x	p2x		correct	family	p2x	p2x	high	580.8	0.92	0.7975			1.0	p2x	p2x wins by 580.8 bits (100.0% of 580.8) over 92% of the profile
+B_orthologues	Q80XM3	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	643.1	0.9388	0.8874	kv_shaker	401.7	0.3754	kv_modifier	kv_modifier wins by 241.4 bits (37.5% of 643.1) over 94% of the profile
+B_orthologues	Q9ER26	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	674.0	0.9536	0.9476	kv_shaker	427.8	0.3653	kv_modifier	kv_modifier wins by 246.2 bits (36.5% of 674.0) over 95% of the profile
+B_orthologues	Q9QYU3	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	621.7	0.9219	0.9	kv_shaker	376.1	0.395	kv_modifier	kv_modifier wins by 245.6 bits (39.5% of 621.7) over 92% of the profile
+B_orthologues	O88758	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	627.5	0.962	0.9577	kv_shaker	409.9	0.3468	kv_modifier	kv_modifier wins by 217.6 bits (34.7% of 627.5) over 96% of the profile
+B_orthologues	O88759	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	678.2	0.9515	0.9145	kv_shaker	456.3	0.3272	kv_modifier	kv_modifier wins by 221.9 bits (32.7% of 678.2) over 95% of the profile
+B_orthologues	P59053	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	587.1	0.8755	0.97	kv_shaker	391.7	0.3328	kv_modifier	kv_modifier wins by 195.4 bits (33.3% of 587.1) over 88% of the profile
+B_orthologues	Q52PG9	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	646.6	0.9583	0.9275	kv_modifier	370.3	0.4273	kv_shaker	kv_shaker wins by 276.3 bits (42.7% of 646.6) over 96% of the profile
+B_orthologues	Q8R523	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	588.0	0.8755	0.97	kv_shaker	392.2	0.333	kv_modifier	kv_modifier wins by 195.8 bits (33.3% of 588.0) over 88% of the profile
+B_orthologues	B2RQA1	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	681.6	0.7808	0.8434	kv_modifier	343.2	0.4965	kv_shaker	kv_shaker wins by 338.4 bits (49.6% of 681.6) over 78% of the profile
+B_orthologues	A2BDX4	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	664.9	0.9578	0.8988	kv_shaker	418.3	0.3709	kv_modifier	kv_modifier wins by 246.6 bits (37.1% of 664.9) over 96% of the profile
+B_orthologues	P97557	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	626.3	0.9599	0.9085	kv_shaker	429.9	0.3136	kv_modifier	kv_modifier wins by 196.4 bits (31.4% of 626.3) over 96% of the profile
+B_orthologues	Q7TSH7	kv_modifier	ploop		correct	family	kv_modifier	ploop	medium	608.2	0.9262	0.8742	kv_shaker	434.9	0.2849	kv_modifier	kv_modifier wins by 173.3 bits (28.5% of 608.2) over 93% of the profile
+B_orthologues	Q5REE3	pannexin	innexin_like		correct	family	pannexin	innexin_like	high	710.3	0.991	1.0			1.0	pannexin	pannexin wins by 710.3 bits (100.0% of 710.3) over 99% of the profile
+B_orthologues	Q9R1T9	kv_eag	ploop		correct	family	kv_eag	ploop	high	1258.8	0.996	0.9862	cng	187.4	0.8511	kv_eag	kv_eag wins by 1071.4 bits (85.1% of 1258.8) over 100% of the profile
+B_orthologues	Q9MZ15	vdac	porin		correct	family	vdac	porin	high	386.9	1.0	0.966			1.0	vdac	vdac wins by 386.9 bits (100.0% of 386.9) over 100% of the profile
+B_orthologues	Q9MZ16	vdac	porin		correct	family	vdac	porin	high	366.1	0.9964	1.0			1.0	vdac	vdac wins by 366.1 bits (100.0% of 366.1) over 100% of the profile
+B_orthologues	Q9TT15	vdac	porin		correct	family	vdac	porin	high	367.0	0.9964	1.0			1.0	vdac	vdac wins by 367.0 bits (100.0% of 367.0) over 100% of the profile
+B_orthologues	E1AZ71	cng	ploop		correct	family	cng	ploop	high	793.7	0.9335	0.5072	hcn	114.6	0.8556	cng	cng wins by 679.1 bits (85.6% of 793.7) over 93% of the profile
+B_orthologues	Q01815	cav	ploop		correct	family	cav	ploop	high	2992.7	0.9769	0.9509	nav	772.5	0.7419	cav	cav wins by 2220.2 bits (74.2% of 2992.7) over 98% of the profile
+B_orthologues	Q07652	cav	ploop		correct	family	cav	ploop	high	2667.3	0.9671	0.9883	nav	764.9	0.7132	cav	cav wins by 1902.4 bits (71.3% of 2667.3) over 97% of the profile
+B_orthologues	Q8BWC0	tpc	ploop		correct	family	tpc	ploop	high	886.9	0.9398	0.9822	catsper	117.2	0.8679	tpc	tpc wins by 769.7 bits (86.8% of 886.9) over 94% of the profile
+B_orthologues	Q9WTN5	tpc	ploop		correct	family	tpc	ploop	high	1048.6	0.9673	0.9082	catsper	168.4	0.8394	tpc	tpc wins by 880.2 bits (83.9% of 1048.6) over 97% of the profile
+B_orthologues	O35433	trpv	ploop		correct	family	trpv	ploop	high	1212.3	0.9889	0.9547	trpn	49.3	0.9593	trpv	trpv wins by 1163.0 bits (95.9% of 1212.3) over 99% of the profile
+B_orthologues	O88427	cav	ploop		correct	family	cav	ploop	high	1935.6	0.753	0.7979	nav	758.7	0.608	cav	cav wins by 1176.9 bits (60.8% of 1935.6) over 75% of the profile
+B_orthologues	Q80W99	catsper	ploop		correct	family	catsper	ploop	high	373.8	0.7248	0.9114	cav	99.1	0.7349	catsper	catsper wins by 274.7 bits (73.5% of 373.8) over 72% of the profile
+B_orthologues	Q91WD2	trpv	ploop		correct	family	trpv	ploop	high	942.8	0.9359	0.9492	trpn	48.8	0.9482	trpv	trpv wins by 894.0 bits (94.8% of 942.8) over 94% of the profile
+B_orthologues	Q9JIS7	cav	ploop		correct	family	cav	ploop	high	2737.6	0.9543	0.9557	nav	784.5	0.7134	cav	cav wins by 1953.1 bits (71.3% of 2737.6) over 95% of the profile
+B_orthologues	Q9WUD2	trpv	ploop		correct	family	trpv	ploop	high	1050.4	0.9248	0.9632	trpn	42.4	0.9596	trpv	trpv wins by 1008.0 bits (96.0% of 1050.4) over 92% of the profile
+B_orthologues	Q9Z0Y8	cav	ploop		correct	family	cav	ploop	high	1957.2	0.7237	0.7583	nav	753.0	0.6153	cav	cav wins by 1204.2 bits (61.5% of 1957.2) over 72% of the profile
+B_orthologues	Q9TU17	connexin	connexin		correct	family	connexin	connexin	high	405.9	0.9839	0.9879			1.0	connexin	connexin wins by 405.9 bits (100.0% of 405.9) over 98% of the profile
+B_orthologues	A2ARP9	catsper	ploop		correct	family	catsper	ploop	high	448.4	0.9733	0.9966	cav	128.6	0.7132	catsper	catsper wins by 319.8 bits (71.3% of 448.4) over 97% of the profile
+B_orthologues	P22002	cav	ploop		correct	family	cav	ploop	high	2955.4	0.9769	0.9378	nav	747.7	0.747	cav	cav wins by 2207.7 bits (74.7% of 2955.4) over 98% of the profile
+B_orthologues	P97445	cav	ploop		correct	family	cav	ploop	high	2712.7	0.9368	0.9607	nav	762.6	0.7189	cav	cav wins by 1950.1 bits (71.9% of 2712.7) over 94% of the profile
+B_orthologues	Q02789	cav	ploop		correct	family	cav	ploop	high	2870.4	0.9543	0.9838	nav	739.2	0.7425	cav	cav wins by 2131.2 bits (74.2% of 2870.4) over 95% of the profile
+B_orthologues	Q6RI86	trpa	ploop		correct	family	trpa	ploop	high	2152.2	0.9964	0.9929	trpn	187.1	0.9131	trpa	trpa wins by 1965.1 bits (91.3% of 2152.2) over 100% of the profile
+B_orthologues	Q91ZR5	catsper	ploop		correct	family	catsper	ploop	high	356.6	0.9097	0.6312	cav	81.0	0.7729	catsper	catsper wins by 275.6 bits (77.3% of 356.6) over 91% of the profile
+B_orthologues	Q9EQJ0	tpc	ploop		correct	family	tpc	ploop	high	1066.3	0.9856	0.9425	catsper	166.7	0.8437	tpc	tpc wins by 899.6 bits (84.4% of 1066.3) over 99% of the profile
+B_orthologues	Q9ERZ8	trpv	ploop		correct	family	trpv	ploop	high	1225.7	0.9914	0.9265	trpn	37.0	0.9698	trpv	trpv wins by 1188.7 bits (97.0% of 1225.7) over 99% of the profile
+B_orthologues	Q9R186	trpv	ploop		correct	family	trpv	ploop	high	941.0	0.9815	0.9896	trpn	47.0	0.9501	trpv	trpv wins by 894.0 bits (95.0% of 941.0) over 98% of the profile
+B_orthologues	P54282	cav	ploop		correct	family	cav	ploop	high	2680.3	0.9337	0.9901	nav	770.7	0.7125	cav	cav wins by 1909.6 bits (71.2% of 2680.3) over 93% of the profile
+B_orthologues	Q61290	cav	ploop		correct	family	cav	ploop	high	2688.6	0.9856	0.9833	nav	761.8	0.7167	cav	cav wins by 1926.8 bits (71.7% of 2688.6) over 99% of the profile
+B_orthologues	Q8BVN3	catsper	ploop		correct	family	catsper	ploop	high	443.2	0.8152	0.8552	nav	61.9	0.8603	catsper	catsper wins by 381.3 bits (86.0% of 443.2) over 82% of the profile
+B_orthologues	Q99246	cav	ploop		correct	family	cav	ploop	high	2998.3	0.9908	0.9752	nav	750.6	0.7497	cav	cav wins by 2247.7 bits (75.0% of 2998.3) over 99% of the profile
+B_orthologues	Q9EQ60	cav	ploop		correct	family	cav	ploop	high	1939.9	0.753	0.7974	nav	759.5	0.6085	cav	cav wins by 1180.4 bits (60.8% of 1939.9) over 75% of the profile
+B_orthologues	Q9JIP0	trpv	ploop		correct	family	trpv	ploop	high	867.1	0.8878	0.971	trpn	40.5	0.9533	trpv	trpv wins by 826.6 bits (95.3% of 867.1) over 89% of the profile
+B_orthologues	Q9WTR1	trpv	ploop		correct	family	trpv	ploop	high	1057.6	0.8841	0.9365	trpn	37.7	0.9644	trpv	trpv wins by 1019.9 bits (96.4% of 1057.6) over 88% of the profile
+B_orthologues	Q6S9C0	connexin	connexin		correct	family	connexin	connexin	high	417.8	0.9968	0.9974			1.0	connexin	connexin wins by 417.8 bits (100.0% of 417.8) over 100% of the profile
+B_orthologues	P27732	cav	ploop		correct	family	cav	ploop	high	2961.4	0.9908	0.9755	nav	767.5	0.7408	cav	cav wins by 2193.9 bits (74.1% of 2961.4) over 99% of the profile
+B_orthologues	P69744	trpv	ploop		correct	family	trpv	ploop	high	877.4	0.8841	0.9668	trpn	42.6	0.9514	trpv	trpv wins by 834.8 bits (95.1% of 877.4) over 88% of the profile
+B_orthologues	Q02294	cav	ploop		correct	family	cav	ploop	high	2764.1	1.0	1.0	nav	793.4	0.713	cav	cav wins by 1970.7 bits (71.3% of 2764.1) over 100% of the profile
+B_orthologues	Q02485	cav	ploop		correct	family	cav	ploop	high	2871.0	0.9548	0.9854	nav	737.8	0.743	cav	cav wins by 2133.2 bits (74.3% of 2871.0) over 95% of the profile
+B_orthologues	Q8BLA8	trpa	ploop		correct	family	trpa	ploop	high	2154.3	0.9964	0.9929	trpn	190.3	0.9117	trpa	trpa wins by 1964.0 bits (91.2% of 2154.3) over 100% of the profile
+B_orthologues	Q9EPK8	trpv	ploop		correct	family	trpv	ploop	high	1220.1	0.9926	0.9277	trpn	44.5	0.9635	trpv	trpv wins by 1175.6 bits (96.4% of 1220.1) over 99% of the profile
+B_orthologues	P55917	connexin	connexin		correct	family	connexin	connexin	high	400.3	0.9871	0.9909			1.0	connexin	connexin wins by 400.3 bits (100.0% of 400.3) over 99% of the profile
+B_orthologues	Q29101	connexin	connexin		correct	family	connexin	connexin	high	425.0	0.9968	0.9974			1.0	connexin	connexin wins by 425.0 bits (100.0% of 425.0) over 100% of the profile
+B_orthologues	P33725	connexin	connexin		correct	family	connexin	connexin	high	388.1	0.9904	0.9916			1.0	connexin	connexin wins by 388.1 bits (100.0% of 388.1) over 99% of the profile
+B_orthologues	Q697L1	trpv	ploop		correct	family	trpv	ploop	high	1238.7	0.9914	0.9571	trpn	47.6	0.9616	trpv	trpv wins by 1191.1 bits (96.2% of 1238.7) over 99% of the profile
+B_orthologues	O97741	enac	deg_enac		correct	family	enac	deg_enac	high	897.4	0.955	0.975	asic	200.7	0.7764	enac	enac wins by 696.7 bits (77.6% of 897.4) over 96% of the profile
+B_orthologues	O62816	enac	deg_enac		correct	family	enac	deg_enac	high	882.3	0.9984	0.9889	asic	189.5	0.7852	enac	enac wins by 692.8 bits (78.5% of 882.3) over 100% of the profile
+B_orthologues	O97742	enac	deg_enac		correct	family	enac	deg_enac	high	945.5	0.9984	0.9891	asic	217.0	0.7705	enac	enac wins by 728.5 bits (77.0% of 945.5) over 100% of the profile
+B_orthologues	Q95165	enac	deg_enac		correct	family	enac	deg_enac	high	970.1	0.9984	0.9891	asic	214.7	0.7787	enac	enac wins by 755.4 bits (77.9% of 970.1) over 100% of the profile
+B_orthologues	H2QAR6	enac	deg_enac		correct	family	enac	deg_enac	high	928.6	0.9411	0.9169	asic	183.7	0.8022	enac	enac wins by 744.9 bits (80.2% of 928.6) over 94% of the profile
+B_orthologues	Q9R1N2	enac	deg_enac		correct	family	enac	deg_enac	high	876.2	0.9628	0.9076	asic	204.3	0.7668	enac	enac wins by 671.9 bits (76.7% of 876.2) over 96% of the profile
+B_orthologues	H2Q5A1	enac	deg_enac		correct	family	enac	deg_enac	high	1005.8	0.9721	0.922	asic	205.6	0.7956	enac	enac wins by 800.2 bits (79.6% of 1005.8) over 97% of the profile
+B_orthologues	Q9GKE7	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	1461.4	1.0	1.0	clc_channel	270.3	0.815	clc_transporter	clc_transporter wins by 1191.1 bits (81.5% of 1461.4) over 100% of the profile
+B_orthologues	Q9WU45	clc_channel	clc		correct	family	clc_channel	clc	high	1558.0	0.9966	0.9956	clc_transporter	319.2	0.7951	clc_channel	clc_channel wins by 1238.8 bits (79.5% of 1558.0) over 100% of the profile
+B_orthologues	Q5RDJ7	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	1436.0	0.995	0.9975	clc_channel	223.0	0.8447	clc_transporter	clc_transporter wins by 1213.0 bits (84.5% of 1436.0) over 100% of the profile
+B_orthologues	Q9MZT1	clc_channel	clc		correct	family	clc_channel	clc	high	1503.4	0.9864	0.8924	clc_transporter	301.6	0.7994	clc_channel	clc_channel wins by 1201.8 bits (79.9% of 1503.4) over 99% of the profile
+B_orthologues	Q9R279	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	1494.7	0.995	0.9976	clc_channel	252.6	0.831	clc_transporter	clc_transporter wins by 1242.1 bits (83.1% of 1494.7) over 100% of the profile
+B_orthologues	P51789	clc_channel	clc		correct	family	clc_channel	clc	high	1582.9	0.9966	0.9944	clc_transporter	322.9	0.796	clc_channel	clc_channel wins by 1260.0 bits (79.6% of 1582.9) over 100% of the profile
+B_orthologues	A4K2T1	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	647.0	0.9662	0.9055	kv_shaker	418.2	0.3536	kv_modifier	kv_modifier wins by 228.8 bits (35.4% of 647.0) over 97% of the profile
+B_orthologues	P59994	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	644.1	0.9638	0.9335	kv_modifier	372.3	0.422	kv_shaker	kv_shaker wins by 271.8 bits (42.2% of 644.1) over 96% of the profile
+B_orthologues	A4K2N8	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	655.5	0.9726	0.9106	kv_shaker	423.9	0.3533	kv_modifier	kv_modifier wins by 231.6 bits (35.3% of 655.5) over 97% of the profile
+B_orthologues	A4K2R3	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	653.7	0.9726	0.9106	kv_shaker	423.8	0.3517	kv_modifier	kv_modifier wins by 229.9 bits (35.2% of 653.7) over 97% of the profile
+B_orthologues	Q9JL58	k2p	ploop		correct	family	k2p	ploop	high	389.6	0.8483	0.9918	kcsa_prok	54.3	0.8606	k2p	k2p wins by 335.3 bits (86.1% of 389.6) over 85% of the profile
+B_orthologues	Q0VC58	tric	tric		correct	family	tric	tric	high	444.2	0.9763	0.9897			1.0	tric	tric wins by 444.2 bits (100.0% of 444.2) over 98% of the profile
+B_orthologues	Q8BH10	orai	orai		correct	family	orai	orai	high	420.6	0.8778	0.924			1.0	orai	orai wins by 420.6 bits (100.0% of 420.6) over 88% of the profile
+B_orthologues	Q02343	cav	ploop		correct	family	cav	ploop	high	2658.0	0.9882	0.9863	nav	754.7	0.7161	cav	cav wins by 1903.3 bits (71.6% of 2658.0) over 99% of the profile
+B_orthologues	Q9XSM3	trpv	ploop		correct	family	trpv	ploop	high	888.9	0.8841	0.9589	trpn	43.9	0.9506	trpv	trpv wins by 845.0 bits (95.1% of 888.9) over 88% of the profile
+B_orthologues	Q6RX08	trpv	ploop		correct	family	trpv	ploop	high	1224.5	0.9914	0.9572	trpn	49.2	0.9598	trpv	trpv wins by 1175.3 bits (96.0% of 1224.5) over 99% of the profile
+B_orthologues	P27884	cav	ploop		correct	family	cav	ploop	high	2669.4	0.9271	0.9249	nav	755.8	0.7169	cav	cav wins by 1913.6 bits (71.7% of 2669.4) over 93% of the profile
+B_orthologues	Q6R5A3	trpv	ploop		correct	family	trpv	ploop	high	1201.4	0.9926	0.9583	trpn	50.0	0.9584	trpv	trpv wins by 1151.4 bits (95.8% of 1201.4) over 99% of the profile
+B_orthologues	P15381	cav	ploop		correct	family	cav	ploop	high	2992.4	0.9733	0.9383	nav	766.9	0.7437	cav	cav wins by 2225.5 bits (74.4% of 2992.4) over 97% of the profile
+B_orthologues	Q05152	cav	ploop		correct	family	cav	ploop	high	2743.7	0.9949	0.991	nav	774.7	0.7176	cav	cav wins by 1969.0 bits (71.8% of 2743.7) over 99% of the profile
+B_orthologues	Q9D7P7	clic	clic		correct	family	clic	clic	high	344.2	0.8153	0.9789			1.0	clic	clic wins by 344.2 bits (100.0% of 344.2) over 82% of the profile
+B_orthologues	Q8C428	tmc	tmem16_like		correct	family	tmc	tmem16_like	high	912.6	0.9005	0.9766			1.0	tmc	tmc wins by 912.6 bits (100.0% of 912.6) over 90% of the profile
+B_orthologues	Q7TQ65	tmc	tmem16_like		correct	family	tmc	tmem16_like	high	828.6	0.9094	0.9942			1.0	tmc	tmc wins by 828.6 bits (100.0% of 828.6) over 91% of the profile
+B_orthologues	P60572	pannexin	innexin_like		correct	family	pannexin	innexin_like	high	640.8	0.8688	0.9719			1.0	pannexin	pannexin wins by 640.8 bits (100.0% of 640.8) over 87% of the profile
+B_orthologues	P25305	connexin	connexin		correct	family	connexin	connexin	high	343.8	0.7878	0.8741			1.0	connexin	connexin wins by 343.8 bits (100.0% of 343.8) over 79% of the profile
+B_orthologues	P28235	connexin	connexin		correct	family	connexin	connexin	high	402.7	0.9743	0.991			1.0	connexin	connexin wins by 402.7 bits (100.0% of 402.7) over 97% of the profile
+B_orthologues	Q64448	connexin	connexin		correct	family	connexin	connexin	high	404.6	0.9743	0.8465			1.0	connexin	connexin wins by 404.6 bits (100.0% of 404.6) over 97% of the profile
+B_orthologues	O70610	connexin	connexin		correct	family	connexin	connexin	high	358.3	0.7653	0.919			1.0	connexin	connexin wins by 358.3 bits (100.0% of 358.3) over 77% of the profile
+B_orthologues	Q921C1	connexin	connexin		correct	family	connexin	connexin	high	236.7	0.7653	0.8736			1.0	connexin	connexin wins by 236.7 bits (100.0% of 236.7) over 77% of the profile
+B_orthologues	P28232	connexin	connexin		correct	family	connexin	connexin	high	332.3	0.7814	0.8487			1.0	connexin	connexin wins by 332.3 bits (100.0% of 332.3) over 78% of the profile
+B_orthologues	Q02739	connexin	connexin		correct	family	connexin	connexin	high	332.2	0.7974	0.8672			1.0	connexin	connexin wins by 332.2 bits (100.0% of 332.2) over 80% of the profile
+B_orthologues	Q6PB70	ano_scramblase	tmem16_like		correct	family	ano_scramblase	tmem16_like	high	724.9	0.8427	0.8387	ano_channel	145.5	0.7993	ano_scramblase	ano_scramblase wins by 579.4 bits (79.9% of 724.9) over 84% of the profile
+B_orthologues	Q8BH79	ano_scramblase	tmem16_like		correct	family	ano_scramblase	tmem16_like	high	658.7	0.7876	0.9727	ano_channel	118.5	0.8201	ano_scramblase	ano_scramblase wins by 540.2 bits (82.0% of 658.7) over 79% of the profile
+B_orthologues	F1MJW3	enac	deg_enac		correct	family	enac	deg_enac	high	985.8	0.9783	0.9755	asic	200.4	0.7967	enac	enac wins by 785.4 bits (79.7% of 985.8) over 98% of the profile
+B_orthologues	Q9JHS6	asic	deg_enac		correct	family	asic	deg_enac	high	779.4	0.9942	0.9703	enac	192.9	0.7525	asic	asic wins by 586.5 bits (75.3% of 779.4) over 99% of the profile
+B_orthologues	A6QLE6	ano_scramblase	tmem16_like		correct	family	ano_scramblase	tmem16_like	high	1371.6	0.9663	0.9804	ano_channel	844.8	0.3841	ano_scramblase	ano_scramblase wins by 526.8 bits (38.4% of 1371.6) over 97% of the profile
+B_orthologues	Q8JZN3	kir	ploop		correct	family	kir	ploop	high	584.9	0.8949	0.8618			1.0	kir	kir wins by 584.9 bits (100.0% of 584.9) over 89% of the profile
+B_orthologues	Q4PKH3	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	954.6	0.9988	0.9988	clc_channel	207.6	0.7825	clc_transporter	clc_transporter wins by 747.0 bits (78.3% of 954.6) over 100% of the profile
+B_orthologues	Q8VC57	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	185.5	0.6025	0.9829	kv_shaker	46.4	0.7499	nonchannel_kctd	nonchannel_kctd wins by 139.1 bits (75.0% of 185.5) over 60% of the profile
+B_orthologues	Q8BFX3	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	216.3	0.8644	0.8123	kv_shaker	42.9	0.8017	nonchannel_kctd	nonchannel_kctd wins by 173.4 bits (80.2% of 216.3) over 86% of the profile
+B_orthologues	Q50H33	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	262.1	0.9022	0.7626	kv_shaker	33.8	0.871	nonchannel_kctd	nonchannel_kctd wins by 228.3 bits (87.1% of 262.1) over 90% of the profile
+B_orthologues	Q5M956	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	202.2	0.9621	0.9572	kv_shaker	56.9	0.7186	nonchannel_kctd	nonchannel_kctd wins by 145.3 bits (71.9% of 202.2) over 96% of the profile
+B_orthologues	Q8R1P5	k2p	ploop		correct	family	k2p	ploop	high	358.3	0.8706	0.9753	kca_slo	38.8	0.8917	k2p	k2p wins by 319.5 bits (89.2% of 358.3) over 87% of the profile
+B_orthologues	Q9Z2T1	k2p	ploop		correct	family	k2p	ploop	high	273.4	0.6965	0.9186			1.0	k2p	k2p wins by 273.4 bits (100.0% of 273.4) over 70% of the profile
+B_orthologues	Q9ERS1	k2p	ploop		correct	family	k2p	ploop	high	362.1	0.8657	0.9279	kcsa_prok	33.0	0.9089	k2p	k2p wins by 329.1 bits (90.9% of 362.1) over 87% of the profile
+B_orthologues	Q9QZ65	kir	ploop		correct	family	kir	ploop	high	439.3	0.8044	0.9167			1.0	kir	kir wins by 439.3 bits (100.0% of 439.3) over 80% of the profile
+B_orthologues	Q64198	kir	ploop		correct	family	kir	ploop	high	606.5	0.9022	0.8941			1.0	kir	kir wins by 606.5 bits (100.0% of 606.5) over 90% of the profile
+B_orthologues	H2QAR5	enac	deg_enac		correct	family	enac	deg_enac	high	922.7	0.8899	0.9966	asic	177.5	0.8076	enac	enac wins by 745.2 bits (80.8% of 922.7) over 89% of the profile
+B_orthologues	Q28738	enac	deg_enac		correct	family	enac	deg_enac	high	983.9	0.9798	0.977	asic	202.3	0.7944	enac	enac wins by 781.6 bits (79.4% of 983.9) over 98% of the profile
+B_orthologues	Q99P66	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	1402.1	0.9314	1.0	clc_channel	271.9	0.8061	clc_transporter	clc_transporter wins by 1130.2 bits (80.6% of 1402.1) over 93% of the profile
+B_orthologues	O18894	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	1495.9	0.995	0.9976	clc_channel	252.5	0.8312	clc_transporter	clc_transporter wins by 1243.4 bits (83.1% of 1495.9) over 100% of the profile
+B_orthologues	Q5RBK4	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	1476.8	1.0	1.0	clc_channel	267.8	0.8187	clc_transporter	clc_transporter wins by 1209.0 bits (81.9% of 1476.8) over 100% of the profile
+B_orthologues	P51804	clc_channel	clc		correct	family	clc_channel	clc	high	1166.0	0.7891	0.9912	clc_transporter	250.0	0.7856	clc_channel	clc_channel wins by 916.0 bits (78.6% of 1166.0) over 79% of the profile
+B_orthologues	Q9TT16	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	961.5	0.9975	1.0	clc_channel	175.0	0.818	clc_transporter	clc_transporter wins by 786.5 bits (81.8% of 961.5) over 100% of the profile
+B_orthologues	Q9TTU3	clc_transporter	clc		decoy_ok	family	clc_transporter	clc	high	1468.2	1.0	1.0	clc_channel	269.3	0.8166	clc_transporter	clc_transporter wins by 1198.9 bits (81.7% of 1468.2) over 100% of the profile
+B_orthologues	Q0P583	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	628.0	0.9578	0.9066	kv_shaker	430.6	0.3143	kv_modifier	kv_modifier wins by 197.4 bits (31.4% of 628.0) over 96% of the profile
+B_orthologues	Q8BQZ8	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	678.4	0.9515	0.9145	kv_shaker	456.6	0.3269	kv_modifier	kv_modifier wins by 221.8 bits (32.7% of 678.4) over 95% of the profile
+B_orthologues	Q8BZN2	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	625.4	0.9599	0.9085	kv_shaker	429.7	0.3129	kv_modifier	kv_modifier wins by 195.7 bits (31.3% of 625.4) over 96% of the profile
+B_orthologues	Q8CFS6	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	575.1	0.943	0.8256	kv_shaker	393.0	0.3166	kv_modifier	kv_modifier wins by 182.1 bits (31.7% of 575.1) over 94% of the profile
+B_orthologues	A4K2S2	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	636.1	0.9599	0.9017	kv_shaker	421.4	0.3375	kv_modifier	kv_modifier wins by 214.7 bits (33.8% of 636.1) over 96% of the profile
+B_orthologues	A4K2W6	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	642.9	0.9684	0.9074	kv_shaker	419.6	0.3473	kv_modifier	kv_modifier wins by 223.3 bits (34.7% of 642.9) over 97% of the profile
+B_orthologues	A4K2Q6	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	634.8	0.9578	0.8996	kv_shaker	415.7	0.3451	kv_modifier	kv_modifier wins by 219.1 bits (34.5% of 634.8) over 96% of the profile
+B_orthologues	A4K2X4	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	643.2	0.9684	0.9074	kv_shaker	420.2	0.3467	kv_modifier	kv_modifier wins by 223.0 bits (34.7% of 643.2) over 97% of the profile
+B_orthologues	Q5RC10	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	630.2	0.9599	0.914	kv_shaker	432.8	0.3132	kv_modifier	kv_modifier wins by 197.4 bits (31.3% of 630.2) over 96% of the profile
+B_orthologues	A4K2Y2	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	646.5	0.9662	0.9055	kv_shaker	418.3	0.353	kv_modifier	kv_modifier wins by 228.2 bits (35.3% of 646.5) over 97% of the profile
+B_orthologues	Q9GKU7	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	630.2	0.9599	0.914	kv_shaker	432.8	0.3132	kv_modifier	kv_modifier wins by 197.4 bits (31.3% of 630.2) over 96% of the profile
+B_orthologues	Q9TT17	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	679.0	0.9494	0.9124	kv_shaker	453.8	0.3317	kv_modifier	kv_modifier wins by 225.2 bits (33.2% of 679.0) over 95% of the profile
+B_orthologues	A4K2M4	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	645.9	0.9662	0.9055	kv_shaker	418.7	0.3518	kv_modifier	kv_modifier wins by 227.2 bits (35.2% of 645.9) over 97% of the profile
+B_orthologues	A4K2P6	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	646.1	0.9641	0.9036	kv_shaker	418.6	0.3521	kv_modifier	kv_modifier wins by 227.5 bits (35.2% of 646.1) over 96% of the profile
+B_orthologues	A4K2V2	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	654.1	0.9726	0.9106	kv_shaker	422.7	0.3538	kv_modifier	kv_modifier wins by 231.4 bits (35.4% of 654.1) over 97% of the profile
+B_orthologues	Q60565	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	626.2	0.9599	0.9067	kv_shaker	430.4	0.3127	kv_modifier	kv_modifier wins by 195.8 bits (31.3% of 626.2) over 96% of the profile
+B_orthologues	Q6AXR8	orai	orai		correct	family	orai	orai	high	429.8	0.9074	0.9828			1.0	orai	orai wins by 429.8 bits (100.0% of 429.8) over 91% of the profile
+B_orthologues	Q5FWS4	calhm	calhm		correct	family	calhm	calhm	high	367.7	0.9905	0.9903			1.0	calhm	calhm wins by 367.7 bits (100.0% of 367.7) over 99% of the profile
+B_orthologues	Q8CE93	calhm	calhm		correct	family	calhm	calhm	high	317.0	0.8892	0.9333			1.0	calhm	calhm wins by 317.0 bits (100.0% of 317.0) over 89% of the profile
+B_orthologues	Q5RJQ8	calhm	calhm		correct	family	calhm	calhm	high	404.3	0.9778	0.9752			1.0	calhm	calhm wins by 404.3 bits (100.0% of 404.3) over 98% of the profile
+B_orthologues	Q8R100	calhm	calhm		correct	family	calhm	calhm	high	364.6	0.9905	0.9903			1.0	calhm	calhm wins by 364.6 bits (100.0% of 364.6) over 99% of the profile
+B_orthologues	Q5M7W4	tmc	tmem16_like		correct	family	tmc	tmem16_like	high	832.7	0.9426	0.8031			1.0	tmc	tmc wins by 832.7 bits (100.0% of 832.7) over 94% of the profile
+B_orthologues	Q9JLG4	trpp	ploop		correct	family	trpp	ploop	high	899.9	0.8228	0.9952	assoc_polycystin1	214.2	0.762	trpp	trpp wins by 685.7 bits (76.2% of 899.9) over 82% of the profile
+B_orthologues	Q7TQ69	tmc	tmem16_like		correct	family	tmc	tmem16_like	high	881.6	0.9056	0.677			1.0	tmc	tmc wins by 881.6 bits (100.0% of 881.6) over 91% of the profile
+B_orthologues	Q9MZ13	vdac	porin		correct	family	vdac	porin	high	370.0	0.9964	1.0			1.0	vdac	vdac wins by 370.0 bits (100.0% of 370.0) over 100% of the profile
+B_orthologues	A4IFL1	connexin	connexin		correct	family	connexin	connexin	high	402.8	0.9743	0.991			1.0	connexin	connexin wins by 402.8 bits (100.0% of 402.8) over 97% of the profile
+B_orthologues	P36380	connexin	connexin		correct	family	connexin	connexin	high	349.6	0.7717	0.8679			1.0	connexin	connexin wins by 349.6 bits (100.0% of 349.6) over 77% of the profile
+B_orthologues	Q2HJ66	connexin	connexin		correct	family	connexin	connexin	high	398.7	0.9807	0.9722			1.0	connexin	connexin wins by 398.7 bits (100.0% of 398.7) over 98% of the profile
+B_orthologues	Q5E9Z5	connexin	connexin		correct	family	connexin	connexin	high	373.5	0.7878	0.9195			1.0	connexin	connexin wins by 373.5 bits (100.0% of 373.5) over 79% of the profile
+B_orthologues	O18968	connexin	connexin		correct	family	connexin	connexin	high	380.6	0.8875	0.919			1.0	connexin	connexin wins by 380.6 bits (100.0% of 380.6) over 89% of the profile
+B_orthologues	A3KN25	connexin	connexin		correct	family	connexin	connexin	high	248.9	0.7878	0.88			1.0	connexin	connexin wins by 248.9 bits (100.0% of 248.9) over 79% of the profile
+B_orthologues	Q0VCR2	connexin	connexin		correct	family	connexin	connexin	high	382.5	0.9904	0.9916			1.0	connexin	connexin wins by 382.5 bits (100.0% of 382.5) over 99% of the profile
+B_orthologues	Q866T7	connexin	connexin		correct	family	connexin	connexin	high	358.3	0.7653	0.919			1.0	connexin	connexin wins by 358.3 bits (100.0% of 358.3) over 77% of the profile
+B_orthologues	Q8BSD4	connexin	connexin		correct	family	connexin	connexin	high	231.6	0.791	0.6703			1.0	connexin	connexin wins by 231.6 bits (100.0% of 231.6) over 79% of the profile
+B_orthologues	Q29RK8	connexin	connexin		correct	family	connexin	connexin	high	356.1	0.9936	0.9883			1.0	connexin	connexin wins by 356.1 bits (100.0% of 356.1) over 99% of the profile
+B_orthologues	Q7TNS7	asic	deg_enac		correct	family	asic	deg_enac	high	785.2	0.9942	0.9703	enac	194.0	0.7529	asic	asic wins by 591.2 bits (75.3% of 785.2) over 99% of the profile
+B_orthologues	Q8BNL5	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	192.4	0.8391	0.9578	kv_shaker	51.4	0.7328	nonchannel_kctd	nonchannel_kctd wins by 141.0 bits (73.3% of 192.4) over 84% of the profile
+B_orthologues	Q8R4G8	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	202.5	0.9621	0.9572	kv_shaker	57.0	0.7185	nonchannel_kctd	nonchannel_kctd wins by 145.5 bits (71.9% of 202.5) over 96% of the profile
+B_orthologues	Q2HJ48	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	200.8	0.9621	0.9572	kv_shaker	56.9	0.7166	nonchannel_kctd	nonchannel_kctd wins by 143.9 bits (71.7% of 200.8) over 96% of the profile
+B_orthologues	Q8K0E1	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	210.2	0.9685	0.8975	kv_shaker	51.4	0.7555	nonchannel_kctd	nonchannel_kctd wins by 158.8 bits (75.5% of 210.2) over 97% of the profile
+B_orthologues	B5DEL1	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	184.3	0.6025	0.9829	kv_shaker	47.7	0.7412	nonchannel_kctd	nonchannel_kctd wins by 136.6 bits (74.1% of 184.3) over 60% of the profile
+B_orthologues	A5PKG7	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	184.1	0.6025	0.9829	kv_shaker	47.5	0.742	nonchannel_kctd	nonchannel_kctd wins by 136.6 bits (74.2% of 184.1) over 60% of the profile
+B_orthologues	Q2T9W0	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	242.8	0.9306	0.9787			1.0	nonchannel_kctd	nonchannel_kctd wins by 242.8 bits (100.0% of 242.8) over 93% of the profile
+B_orthologues	Q3URF8	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	246.6	0.7823	0.9577	kv_shaker	46.6	0.811	nonchannel_kctd	nonchannel_kctd wins by 200.0 bits (81.1% of 246.6) over 78% of the profile
+B_orthologues	Q8R5I0	k2p	ploop		correct	family	k2p	ploop	high	332.4	0.6766	0.8208	kcsa_prok	52.1	0.8433	k2p	k2p wins by 280.3 bits (84.3% of 332.4) over 68% of the profile
+B_orthologues	Q9TT13	vdac	porin		correct	family	vdac	porin	high	369.4	0.9964	1.0			1.0	vdac	vdac wins by 369.4 bits (100.0% of 369.4) over 100% of the profile
+B_orthologues	Q6AXP6	catsper	ploop		correct	family	catsper	ploop	high	449.3	0.961	0.9897	cav	121.2	0.7302	catsper	catsper wins by 328.1 bits (73.0% of 449.3) over 96% of the profile
+B_orthologues	Q60HF7	connexin	connexin		correct	family	connexin	connexin	high	376.2	0.8842	0.9152			1.0	connexin	connexin wins by 376.2 bits (100.0% of 376.2) over 88% of the profile
+B_orthologues	Q9N0B3	connexin	connexin		correct	family	connexin	connexin	high	273.3	0.8875	0.9054			1.0	connexin	connexin wins by 273.3 bits (100.0% of 273.3) over 89% of the profile
+B_orthologues	O46547	enac	deg_enac		correct	family	enac	deg_enac	high	880.0	0.9597	0.9577	asic	155.1	0.8237	enac	enac wins by 724.9 bits (82.4% of 880.0) over 96% of the profile
+B_orthologues	P51803	clc_channel	clc		correct	family	clc_channel	clc	high	1189.2	0.7993	0.9913	clc_transporter	257.4	0.7836	clc_channel	clc_channel wins by 931.8 bits (78.4% of 1189.2) over 80% of the profile
+B_orthologues	Q58D78	connexin	connexin		correct	family	connexin	connexin	high	341.2	0.7749	0.8593			1.0	connexin	connexin wins by 341.2 bits (100.0% of 341.2) over 77% of the profile
+B_orthologues	A4IFB4	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	238.3	0.9085	0.91	kv_shaker	45.5	0.8091	nonchannel_kctd	nonchannel_kctd wins by 192.8 bits (80.9% of 238.3) over 91% of the profile
+B_orthologues	Q8CEZ0	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	medium	129.7	0.4669	0.6541	kv_shaker	28.0	0.7841	nonchannel_kctd	nonchannel_kctd wins by 101.7 bits (78.4% of 129.7) over 47% of the profile
+B_orthologues	Q0VD00	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	209.5	0.9685	0.8905	kv_shaker	51.3	0.7551	nonchannel_kctd	nonchannel_kctd wins by 158.2 bits (75.5% of 209.5) over 97% of the profile
+B_orthologues	Q58DF7	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	137.5	0.7035	0.9655			1.0	nonchannel_kctd	nonchannel_kctd wins by 137.5 bits (100.0% of 137.5) over 70% of the profile
+B_orthologues	A0A0R4IMY7	trpm	ploop		correct	family	trpm	ploop	high	1380.8	0.6931	0.8143	trpc	102.0	0.9261	trpm	trpm wins by 1278.8 bits (92.6% of 1380.8) over 69% of the profile
+B_orthologues	S5UH55	trpm	ploop		correct	family	trpm	ploop	high	1261.0	0.6492	0.9562	trpc	64.5	0.9489	trpm	trpm wins by 1196.5 bits (94.9% of 1261.0) over 65% of the profile
+B_orthologues	E7FKV8	assoc_polycystin1	ploop		decoy_ok	family	assoc_polycystin1	ploop	high	839.3	0.7547	0.7254	trpp	81.1	0.9034	assoc_polycystin1	assoc_polycystin1 wins by 758.2 bits (90.3% of 839.3) over 75% of the profile
+B_orthologues	A0JMD4	tpc	ploop		correct	family	tpc	ploop	high	702.9	0.9738	0.9961	catsper	112.3	0.8402	tpc	tpc wins by 590.6 bits (84.0% of 702.9) over 97% of the profile
+B_orthologues	Q7T1N4	asic	deg_enac		correct	family	asic	deg_enac	high	826.7	1.0	1.0	enac	223.0	0.7303	asic	asic wins by 603.7 bits (73.0% of 826.7) over 100% of the profile
+B_orthologues	Q9I830	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	708.7	0.8768	0.9615	kv_modifier	362.3	0.4888	kv_shaker	kv_shaker wins by 346.4 bits (48.9% of 708.7) over 88% of the profile
+B_orthologues	Q7ZVP8	tric	tric		correct	family	tric	tric	high	380.1	0.9627	0.9792			1.0	tric	tric wins by 380.1 bits (100.0% of 380.1) over 96% of the profile
+B_orthologues	F1QFU0	tmc	tmem16_like		correct	family	tmc	tmem16_like	high	864.4	0.9541	0.8374			1.0	tmc	tmc wins by 864.4 bits (100.0% of 864.4) over 95% of the profile
+B_orthologues	Q92052	connexin	connexin		correct	family	connexin	connexin	high	357.0	0.955	0.9184			1.0	connexin	connexin wins by 357.0 bits (100.0% of 357.0) over 96% of the profile
+B_orthologues	Q708S5	asic	deg_enac		correct	family	asic	deg_enac	high	768.6	0.975	0.9531	enac	197.2	0.7434	asic	asic wins by 571.4 bits (74.3% of 768.6) over 98% of the profile
+B_orthologues	Q6DC02	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	199.5	0.9495	0.9494	kv_shaker	50.7	0.7459	nonchannel_kctd	nonchannel_kctd wins by 148.8 bits (74.6% of 199.5) over 95% of the profile
+B_orthologues	Q6DHQ1	hv1	hv		correct	family	hv1	hv	high	269.3	0.902	0.9915	nonchannel_vsp	52.6	0.8047	hv1	hv1 wins by 216.7 bits (80.5% of 269.3) over 90% of the profile
+B_orthologues	Q4V8U5	ano_scramblase	tmem16_like		correct	family	ano_scramblase	tmem16_like	high	537.1	0.7517	0.9799	ano_channel	102.1	0.8099	ano_scramblase	ano_scramblase wins by 435.0 bits (81.0% of 537.1) over 75% of the profile
+B_orthologues	Q0VFV7	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	202.1	0.8864	0.863	kv_shaker	43.8	0.7833	nonchannel_kctd	nonchannel_kctd wins by 158.3 bits (78.3% of 202.1) over 89% of the profile
+B_orthologues	Q6DG99	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	185.3	0.8076	0.8903	kv_shaker	55.4	0.701	nonchannel_kctd	nonchannel_kctd wins by 129.9 bits (70.1% of 185.3) over 81% of the profile
+B_orthologues	Q8QFV0	kca_slo	ploop		correct	family	kca_slo	ploop	high	1133.4	0.9238	0.9584	k2p	44.2	0.961	kca_slo	kca_slo wins by 1089.2 bits (96.1% of 1133.4) over 92% of the profile
+B_orthologues	P52186	kir	ploop		correct	family	kir	ploop	high	642.3	0.9853	0.9742			1.0	kir	kir wins by 642.3 bits (100.0% of 642.3) over 99% of the profile
+B_orthologues	Q91755	kainate	iglur		correct	family	kainate	iglur	high	1718.0	0.9923	0.9901	ampa	763.1	0.5558	kainate	kainate wins by 954.9 bits (55.6% of 1718.0) over 99% of the profile
+B_orthologues	P22739	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	717.8	0.8551	0.9299	kv_modifier	353.9	0.507	kv_shaker	kv_shaker wins by 363.9 bits (50.7% of 717.8) over 86% of the profile
+B_orthologues	Q90854	kir	ploop		correct	family	kir	ploop	high	567.2	0.8509	0.7073			1.0	kir	kir wins by 567.2 bits (100.0% of 567.2) over 85% of the profile
+B_orthologues	P16863	connexin	connexin		correct	family	connexin	connexin	high	414.6	0.9968	0.9974			1.0	connexin	connexin wins by 414.6 bits (100.0% of 414.6) over 100% of the profile
+B_orthologues	P36381	connexin	connexin		correct	family	connexin	connexin	high	405.1	0.9936	0.995			1.0	connexin	connexin wins by 405.1 bits (100.0% of 405.1) over 99% of the profile
+B_orthologues	Q1XA76	asic	deg_enac		correct	family	asic	deg_enac	high	909.1	1.0	0.9981	enac	213.5	0.7652	asic	asic wins by 695.6 bits (76.5% of 909.1) over 100% of the profile
+B_orthologues	H1AFJ5	enac	deg_enac		correct	family	enac	deg_enac	high	728.1	0.9628	0.9237	asic	215.1	0.7046	enac	enac wins by 513.0 bits (70.5% of 728.1) over 96% of the profile
+B_orthologues	Q92075	enac	deg_enac		correct	family	enac	deg_enac	high	788.6	0.924	0.9011	asic	206.9	0.7376	enac	enac wins by 581.7 bits (73.8% of 788.6) over 92% of the profile
+B_orthologues	H1AFJ6	enac	deg_enac		correct	family	enac	deg_enac	high	766.1	0.9488	0.9555	asic	202.5	0.7357	enac	enac wins by 563.6 bits (73.6% of 766.1) over 95% of the profile
+B_orthologues	P51167	enac	deg_enac		correct	family	enac	deg_enac	high	755.3	0.9519	0.9399	asic	212.7	0.7184	enac	enac wins by 542.6 bits (71.8% of 755.3) over 95% of the profile
+B_orthologues	O73606	kv_modifier	ploop		correct	family	kv_modifier	ploop	high	632.9	0.8966	0.8282	kv_shaker	406.1	0.3584	kv_modifier	kv_modifier wins by 226.8 bits (35.8% of 632.9) over 90% of the profile
+B_orthologues	A0A1D5PXA5	trpv	ploop		correct	family	trpv	ploop	high	1160.8	0.9753	0.9202	trpn	44.2	0.9619	trpv	trpv wins by 1116.6 bits (96.2% of 1160.8) over 98% of the profile
+B_orthologues	P14154	connexin	connexin		correct	family	connexin	connexin	high	423.6	0.9968	0.9974			1.0	connexin	connexin wins by 423.6 bits (100.0% of 423.6) over 100% of the profile
+B_orthologues	P18860	connexin	connexin		correct	family	connexin	connexin	high	389.6	0.9936	0.9946			1.0	connexin	connexin wins by 389.6 bits (100.0% of 389.6) over 99% of the profile
+B_orthologues	P18861	connexin	connexin		correct	family	connexin	connexin	high	392.5	0.9743	0.9746			1.0	connexin	connexin wins by 392.5 bits (100.0% of 392.5) over 97% of the profile
+B_orthologues	P29415	connexin	connexin		correct	family	connexin	connexin	high	408.8	0.9968	0.998			1.0	connexin	connexin wins by 408.8 bits (100.0% of 408.8) over 100% of the profile
+B_orthologues	P51914	connexin	connexin		correct	family	connexin	connexin	high	410.7	0.9743	0.9915			1.0	connexin	connexin wins by 410.7 bits (100.0% of 410.7) over 97% of the profile
+B_orthologues	H9GBX2	enac	deg_enac		correct	family	enac	deg_enac	high	763.5	0.8775	0.8695	asic	200.6	0.7373	enac	enac wins by 562.9 bits (73.7% of 763.5) over 88% of the profile
+B_orthologues	K7FSQ4	enac	deg_enac		correct	family	enac	deg_enac	high	855.5	0.9783	0.9567	asic	208.1	0.7568	enac	enac wins by 647.4 bits (75.7% of 855.5) over 98% of the profile
+B_orthologues	K7GET2	enac	deg_enac		correct	family	enac	deg_enac	high	784.9	0.9612	0.9237	asic	204.0	0.7401	enac	enac wins by 580.9 bits (74.0% of 784.9) over 96% of the profile
+B_orthologues	H1AFJ7	enac	deg_enac		correct	family	enac	deg_enac	high	742.1	0.9767	0.9786	asic	190.7	0.743	enac	enac wins by 551.4 bits (74.3% of 742.1) over 98% of the profile
+B_orthologues	K7FQW8	enac	deg_enac		correct	family	enac	deg_enac	high	771.3	0.924	0.9967	asic	200.2	0.7404	enac	enac wins by 571.1 bits (74.0% of 771.3) over 92% of the profile
+B_orthologues	Q9W701	clc_channel	clc		correct	family	clc_channel	clc	high	1006.6	0.7268	0.939	clc_transporter	271.0	0.7308	clc_channel	clc_channel wins by 735.6 bits (73.1% of 1006.6) over 73% of the profile
+B_orthologues	Q7T199	kv_shaker	ploop		correct	family	kv_shaker	ploop	high	679.3	0.7464	0.781	kv_modifier	346.9	0.4893	kv_shaker	kv_shaker wins by 332.4 bits (48.9% of 679.3) over 75% of the profile
+B_orthologues	Q7ZY07	tric	tric		correct	family	tric	tric	high	493.7	1.0	1.0			1.0	tric	tric wins by 493.7 bits (100.0% of 493.7) over 100% of the profile
+B_orthologues	Q6P8F8	tric	tric		correct	family	tric	tric	high	494.4	1.0	1.0			1.0	tric	tric wins by 494.4 bits (100.0% of 494.4) over 100% of the profile
+B_orthologues	Q6P1U2	tweety	tweety		correct	family	tweety	tweety	high	732.4	0.9867	0.9813			1.0	tweety	tweety wins by 732.4 bits (100.0% of 732.4) over 99% of the profile
+B_orthologues	Q6GPA5	tweety	tweety		correct	family	tweety	tweety	high	715.4	0.9867	0.9904			1.0	tweety	tweety wins by 715.4 bits (100.0% of 715.4) over 99% of the profile
+B_orthologues	Q7ZWN9	tweety	tweety		correct	family	tweety	tweety	high	732.7	0.9924	0.985			1.0	tweety	tweety wins by 732.7 bits (100.0% of 732.7) over 99% of the profile
+B_orthologues	Q6NZH5	connexin	connexin		correct	family	connexin	connexin	high	377.8	0.8778	0.9814			1.0	connexin	connexin wins by 377.8 bits (100.0% of 377.8) over 88% of the profile
+B_orthologues	Q7ZXS7	connexin	connexin		correct	family	connexin	connexin	high	375.3	0.881	0.9841			1.0	connexin	connexin wins by 375.3 bits (100.0% of 375.3) over 88% of the profile
+B_orthologues	Q6DCX3	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	206.1	0.8991	0.9176	kv_shaker	51.8	0.7487	nonchannel_kctd	nonchannel_kctd wins by 154.3 bits (74.9% of 206.1) over 90% of the profile
+B_orthologues	Q5M8L8	hv1	hv		correct	family	hv1	hv	high	271.9	0.898	0.9783	nonchannel_vsp	46.1	0.8305	hv1	hv1 wins by 225.8 bits (83.0% of 271.9) over 90% of the profile
+B_orthologues	Q5M7E9	hv1	hv		correct	family	hv1	hv	high	267.1	0.898	0.9783	nonchannel_vsp	45.6	0.8293	hv1	hv1 wins by 221.5 bits (82.9% of 267.1) over 90% of the profile
+B_orthologues	Q6NZI6	orai	orai		correct	family	orai	orai	high	402.7	0.8667	0.9144			1.0	orai	orai wins by 402.7 bits (100.0% of 402.7) over 87% of the profile
+B_orthologues	Q5ZLW2	orai	orai		correct	family	orai	orai	high	413.8	0.8778	0.9222			1.0	orai	orai wins by 413.8 bits (100.0% of 413.8) over 88% of the profile
+B_orthologues	Q5YCC7	tmc	tmem16_like		correct	family	tmc	tmem16_like	high	861.9	0.8827	0.6722			1.0	tmc	tmc wins by 861.9 bits (100.0% of 861.9) over 88% of the profile
+B_orthologues	Q5ZJP7	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	222.8	0.9085	0.91	kv_shaker	47.7	0.7859	nonchannel_kctd	nonchannel_kctd wins by 175.1 bits (78.6% of 222.8) over 91% of the profile
+B_orthologues	Q6P3P4	nonchannel_kctd	ploop		decoy_ok	family	nonchannel_kctd	ploop	high	206.3	0.8991	0.9176	kv_shaker	52.5	0.7455	nonchannel_kctd	nonchannel_kctd wins by 153.8 bits (74.6% of 206.3) over 90% of the profile
+B_orthologues	A7T1N0	trpm	ploop		correct	family	trpm	ploop	high	1177.3	0.6646	0.7602	trpc	82.1	0.9303	trpm	trpm wins by 1095.2 bits (93.0% of 1177.3) over 66% of the profile
+B_orthologues	Q7Z020	trpa	ploop		correct	family	trpa	ploop	high	696.0	0.9115	0.8914	trpn	162.1	0.7671	trpa	trpa wins by 533.9 bits (76.7% of 696.0) over 91% of the profile
+B_orthologues	Q9SMX3	vdac	porin		correct	family	vdac	porin	high	299.6	0.9928	0.9927			1.0	vdac	vdac wins by 299.6 bits (100.0% of 299.6) over 99% of the profile
+B_orthologues	Q9SRH5	vdac	porin		correct	family	vdac	porin	high	307.2	0.9928	0.9928			1.0	vdac	vdac wins by 307.2 bits (100.0% of 307.2) over 99% of the profile
+B_orthologues	Q6K548	vdac	porin		correct	family	vdac	porin	high	334.2	0.9928	0.9964			1.0	vdac	vdac wins by 334.2 bits (100.0% of 334.2) over 99% of the profile
+B_orthologues	Q6L5I5	vdac	porin		correct	family	vdac	porin	high	308.2	0.9856	0.9679			1.0	vdac	vdac wins by 308.2 bits (100.0% of 308.2) over 99% of the profile
+B_orthologues	Q7F4F8	vdac	porin		correct	family	vdac	porin	high	338.1	0.9892	0.9964			1.0	vdac	vdac wins by 338.1 bits (100.0% of 338.1) over 99% of the profile

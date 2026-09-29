@@ -1,0 +1,835 @@
+family	superfamily	accession	rule	taxon_id	organism	group	length	v2_family	v2_tier
+ampa	iglur	P42261	R1	9606	Homo sapiens				
+ampa	iglur	P42262	R1	9606	Homo sapiens				
+ampa	iglur	P42263	R1	9606	Homo sapiens				
+ampa	iglur	P48058	R1	9606	Homo sapiens				
+ano_channel	tmem16_like	Q5XXA6	R1	9606	Homo sapiens				
+ano_channel	tmem16_like	Q9NQ90	R1	9606	Homo sapiens				
+ano_scramblase	tmem16_like	A1A5B4	R1	9606	Homo sapiens				
+ano_scramblase	tmem16_like	Q32M45	R1	9606	Homo sapiens				
+ano_scramblase	tmem16_like	Q4KMQ2	R1	9606	Homo sapiens				
+ano_scramblase	tmem16_like	Q6IWH7	R1	9606	Homo sapiens				
+ano_scramblase	tmem16_like	Q75V66	R1	9606	Homo sapiens				
+ano_scramblase	tmem16_like	Q9BYT9	R1	9606	Homo sapiens				
+ano_scramblase	tmem16_like	Q9HCE9	R1	9606	Homo sapiens				
+ano_scramblase	tmem16_like	Q9NW15	R1	9606	Homo sapiens				
+asic	deg_enac	P78348	R1	9606	Homo sapiens				
+asic	deg_enac	Q16515	R1	9606	Homo sapiens				
+asic	deg_enac	Q96FT7	R1	9606	Homo sapiens				
+asic	deg_enac	Q9NY37	R1	9606	Homo sapiens				
+asic	deg_enac	Q9UHC3	R1	9606	Homo sapiens				
+assoc_catsper_aux	ploop	Q5SY80	R1	9606	Homo sapiens				
+assoc_catsper_aux	ploop	Q6ZRH7	R1	9606	Homo sapiens				
+assoc_catsper_aux	ploop	Q86XM0	R1	9606	Homo sapiens				
+assoc_catsper_aux	ploop	Q9H7T0	R1	9606	Homo sapiens				
+assoc_catsper_aux	ploop	Q9NTU4	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	O00305	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	O60359	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	P54284	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	P54289	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	P62955	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	Q02641	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	Q06432	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	Q08289	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	Q7Z3S7	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	Q8IZS8	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	Q8WXS5	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	Q9BXT2	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	Q9NY47	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	Q9UBN1	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	Q9UF02	R1	9606	Homo sapiens				
+assoc_cav_aux	ploop	Q9Y698	R1	9606	Homo sapiens				
+assoc_clc_aux	clc	A8K7I4	R1	9606	Homo sapiens				
+assoc_clc_aux	clc	Q14CN2	R1	9606	Homo sapiens				
+assoc_clc_aux	clc	Q8WZ55	R1	9606	Homo sapiens				
+assoc_clc_aux	clc	Q9UQC9	R1	9606	Homo sapiens				
+assoc_iglur_aux	iglur	A6NL88	R1	9606	Homo sapiens				
+assoc_iglur_aux	iglur	B4DS77	R1	9606	Homo sapiens				
+assoc_iglur_aux	iglur	B8ZZ34	R1	9606	Homo sapiens				
+assoc_iglur_aux	iglur	Q6PI25	R1	9606	Homo sapiens				
+assoc_iglur_aux	iglur	Q6UXU4	R1	9606	Homo sapiens				
+assoc_iglur_aux	iglur	Q6ZSJ9	R1	9606	Homo sapiens				
+assoc_iglur_aux	iglur	Q8NC67	R1	9606	Homo sapiens				
+assoc_iglur_aux	iglur	Q8TBE1	R1	9606	Homo sapiens				
+assoc_iglur_aux	iglur	Q8TDF5	R1	9606	Homo sapiens				
+assoc_k_beta	ploop	O43448	R1	9606	Homo sapiens				
+assoc_k_beta	ploop	P42658	R1	9606	Homo sapiens				
+assoc_k_beta	ploop	Q13303	R1	9606	Homo sapiens				
+assoc_k_beta	ploop	Q14722	R1	9606	Homo sapiens				
+assoc_k_beta	ploop	Q16558	R1	9606	Homo sapiens				
+assoc_k_beta	ploop	Q2I0M4	R1	9606	Homo sapiens				
+assoc_k_beta	ploop	Q5VT99	R1	9606	Homo sapiens				
+assoc_k_beta	ploop	Q6ZSA7	R1	9606	Homo sapiens				
+assoc_k_beta	ploop	Q86W47	R1	9606	Homo sapiens				
+assoc_k_beta	ploop	Q8N608	R1	9606	Homo sapiens				
+assoc_k_beta	ploop	Q8N7C0	R1	9606	Homo sapiens				
+assoc_k_beta	ploop	Q9NPA1	R1	9606	Homo sapiens				
+assoc_k_beta	ploop	Q9Y691	R1	9606	Homo sapiens				
+assoc_kcne	ploop	P15382	R1	9606	Homo sapiens				
+assoc_kcne	ploop	Q8WWG9	R1	9606	Homo sapiens				
+assoc_kcne	ploop	Q9UJ90	R1	9606	Homo sapiens				
+assoc_kcne	ploop	Q9Y6H6	R1	9606	Homo sapiens				
+assoc_kcne	ploop	Q9Y6J6	R1	9606	Homo sapiens				
+assoc_mcu_reg	mcu	Q86XE3	R1	9606	Homo sapiens				
+assoc_mcu_reg	mcu	Q8IYU8	R1	9606	Homo sapiens				
+assoc_mcu_reg	mcu	Q96AQ8	R1	9606	Homo sapiens				
+assoc_mcu_reg	mcu	Q9BPX6	R1	9606	Homo sapiens				
+assoc_mcu_reg	mcu	Q9H4I9	R1	9606	Homo sapiens				
+assoc_nav_beta	ploop	O60939	R1	9606	Homo sapiens				
+assoc_nav_beta	ploop	Q07699	R1	9606	Homo sapiens				
+assoc_nav_beta	ploop	Q8IWT1	R1	9606	Homo sapiens				
+assoc_nav_beta	ploop	Q9NY72	R1	9606	Homo sapiens				
+assoc_polycystin1	ploop	P98161	R1	9606	Homo sapiens				
+assoc_polycystin1	ploop	Q7Z442	R1	9606	Homo sapiens				
+assoc_polycystin1	ploop	Q7Z443	R1	9606	Homo sapiens				
+assoc_polycystin1	ploop	Q8TDX9	R1	9606	Homo sapiens				
+assoc_stim	orai	Q13586	R1	9606	Homo sapiens				
+assoc_stim	orai	Q9P246	R1	9606	Homo sapiens				
+assoc_sur	abc_channel	O60706	R1	9606	Homo sapiens				
+assoc_sur	abc_channel	Q09428	R1	9606	Homo sapiens				
+bestrophin	bestrophin	O76090	R1	9606	Homo sapiens				
+bestrophin	bestrophin	Q8N1M1	R1	9606	Homo sapiens				
+bestrophin	bestrophin	Q8NFU0	R1	9606	Homo sapiens				
+bestrophin	bestrophin	Q8NFU1	R1	9606	Homo sapiens				
+bestrophin	bestrophin	W9BH30	R2						
+bestrophin	bestrophin	E1BF86	R3	9913	Bos taurus	Metazoa	512	bestrophin	architecture
+bestrophin	bestrophin	O18303	R3	6239	Caenorhabditis elegans	Metazoa	602	bestrophin	architecture
+bestrophin	bestrophin	O88870	R3	10090	Mus musculus	Metazoa	551	bestrophin	architecture
+bestrophin	bestrophin	Q6UY87	R3	9541	Macaca fascicularis	Metazoa	585	bestrophin	architecture
+bestrophin	bestrophin	Q8WMR7	R3	9823	Sus scrofa	Metazoa	581	bestrophin	architecture
+calhm	calhm	Q5JW98	R1	9606	Homo sapiens				
+calhm	calhm	Q5R3K3	R1	9606	Homo sapiens				
+calhm	calhm	Q86XJ0	R1	9606	Homo sapiens				
+calhm	calhm	Q8IU99	R1	9606	Homo sapiens				
+calhm	calhm	Q8N5C1	R1	9606	Homo sapiens				
+calhm	calhm	Q9HA72	R1	9606	Homo sapiens				
+calhm	calhm	A4FUN9	R3	7955	Danio rerio	Metazoa	310	calhm	architecture
+calhm	calhm	D3Z291	R3	10090	Mus musculus	Metazoa	348	calhm	architecture
+calhm	calhm	H2MCM1	R3	8090	Oryzias latipes	Metazoa	351	calhm	architecture
+calhm	calhm	Q18593	R3	6239	Caenorhabditis elegans	Metazoa	329	calhm	architecture
+calhm	calhm	Q2HJ63	R3	9913	Bos taurus	Metazoa	323	calhm	architecture
+calhm	calhm	Q561R8	R3	10116	Rattus norvegicus	Metazoa	315	calhm	architecture
+catsper	ploop	Q7RTX7	R1	9606	Homo sapiens				
+catsper	ploop	Q86XQ3	R1	9606	Homo sapiens				
+catsper	ploop	Q8NEC5	R1	9606	Homo sapiens				
+catsper	ploop	Q96P56	R1	9606	Homo sapiens				
+cav	ploop	O00555	R1	9606	Homo sapiens				
+cav	ploop	O43497	R1	9606	Homo sapiens				
+cav	ploop	O60840	R1	9606	Homo sapiens				
+cav	ploop	O95180	R1	9606	Homo sapiens				
+cav	ploop	Q00975	R1	9606	Homo sapiens				
+cav	ploop	Q01668	R1	9606	Homo sapiens				
+cav	ploop	Q13698	R1	9606	Homo sapiens				
+cav	ploop	Q13936	R1	9606	Homo sapiens				
+cav	ploop	Q15878	R1	9606	Homo sapiens				
+cav	ploop	Q9P0X4	R1	9606	Homo sapiens				
+cav	ploop	C9D7C2	R3	7460	Apis mellifera	Metazoa	1904	cav	motif
+cav	ploop	O35505	R3	10141	Cavia porcellus	Metazoa	2169	cav	motif
+cav	ploop	O54898	R3	10116	Rattus norvegicus	Metazoa	2254	cav	motif
+cav	ploop	O55017	R3	10090	Mus musculus	Metazoa	2327	cav	motif
+cav	ploop	O57483	R3	8400	Aquarana catesbeiana	Metazoa	1688	cav	motif
+cav	ploop	O73700	R3	9031	Gallus gallus	Metazoa	2190	cav	motif
+cav	ploop	P07293	R3	9986	Oryctolagus cuniculus	Metazoa	1873	cav	motif
+cav	ploop	P22316	R3	7962	Cyprinus carpio	Metazoa	1852	cav	motif
+cav	ploop	P56698	R3	1870830	Diplobatis ommata	Metazoa	2326	cav	motif
+cav	ploop	P91645	R3	7227	Drosophila melanogaster	Metazoa	1851	cav	motif
+cav	ploop	Q25452	R3	7370	Musca domestica	Metazoa	1687	cav	motif
+cav	ploop	Q99244	R3	10036	Mesocricetus auratus	Metazoa	1610	cav	motif
+cftr	abc_channel	P13569	R1	9606	Homo sapiens				
+cftr	abc_channel	P26361	R3	10090	Mus musculus	Metazoa	1476	cftr	hazard
+cftr	abc_channel	P26362	R3	7797	Squalus acanthias	Metazoa	1492	cftr	hazard
+cftr	abc_channel	P26363	R3	8355	Xenopus laevis	Metazoa	1485	cftr	hazard
+cftr	abc_channel	P34158	R3	10116	Rattus norvegicus	Metazoa	1476	cftr	hazard
+cftr	abc_channel	P35071	R3	9913	Bos taurus	Metazoa	1481	cftr	hazard
+cftr	abc_channel	Q00552	R3	10141	Cavia porcellus	Metazoa	1481	cftr	hazard
+cftr	abc_channel	Q00553	R3	9544	Macaca mulatta	Metazoa	1481	cftr	hazard
+cftr	abc_channel	Q00554	R3	9986	Oryctolagus cuniculus	Metazoa	1481	cftr	hazard
+cftr	abc_channel	Q00555	R3	9940	Ovis aries	Metazoa	1481	cftr	hazard
+cftr	abc_channel	Q00PJ2	R3	9368	Atelerix albiventris	Metazoa	1483	cftr	hazard
+cftr	abc_channel	Q07DV2	R3	37293	Aotus nancymaae	Metazoa	1481	cftr	hazard
+cftr	abc_channel	Q07DW5	R3	9886	Muntiacus reevesi	Metazoa	1481	cftr	hazard
+cftr	abc_channel	Q07DX5	R3	61853	Nomascus leucogenys	Metazoa	1480	cftr	hazard
+cftr	abc_channel	Q07DY5	R3	33548	Colobus guereza	Metazoa	1481	cftr	hazard
+cftr	abc_channel	Q07DZ6	R3	9258	Ornithorhynchus anatinus	Metazoa	1484	cftr	hazard
+cftr	abc_channel	Q07E16	R3	9669	Mustela putorius furo	Metazoa	1484	cftr	hazard
+cftr	abc_channel	Q07E42	R3	9361	Dasypus novemcinctus	Metazoa	1482	cftr	hazard
+cftr	abc_channel	Q09YH0	R3	39432	Saimiri boliviensis boliviensis	Metazoa	1481	cftr	hazard
+cftr	abc_channel	Q09YJ4	R3	9888	Muntiacus muntjak	Metazoa	1481	cftr	hazard
+cftr	abc_channel	Q09YK5	R3	9509	Ateles geoffroyi	Metazoa	1480	cftr	hazard
+cftr	abc_channel	Q108U0	R3	9785	Loxodonta africana	Metazoa	1482	cftr	hazard
+cftr	abc_channel	Q1LX78	R3	7955	Danio rerio	Metazoa	1485	cftr	hazard
+cftr	abc_channel	Q2IBA1	R3	9534	Chlorocebus aethiops	Metazoa	1481	cftr	hazard
+cftr	abc_channel	Q2IBB3	R3	59479	Rhinolophus ferrumequinum	Metazoa	1482	cftr	hazard
+cftr	abc_channel	Q2IBE4	R3	9601	Pongo abelii	Metazoa	1480	cftr	hazard
+cftr	abc_channel	Q2IBF6	R3	9595	Gorilla gorilla gorilla	Metazoa	1480	cftr	hazard
+cftr	abc_channel	Q2QL74	R3	9267	Didelphis virginiana	Metazoa	1482	cftr	hazard
+cftr	abc_channel	Q2QL83	R3	30608	Microcebus murinus	Metazoa	1481	cftr	hazard
+cftr	abc_channel	Q2QLA3	R3	9796	Equus caballus	Metazoa	1481	cftr	hazard
+cftr	abc_channel	Q2QLB4	R3	9523	Plecturocebus moloch	Metazoa	1480	cftr	hazard
+clc_channel	clc	P35523	R1	9606	Homo sapiens				
+clc_channel	clc	P51788	R1	9606	Homo sapiens				
+clc_channel	clc	P51800	R1	9606	Homo sapiens				
+clc_channel	clc	P51801	R1	9606	Homo sapiens				
+clc_prokaryotic	clc	P37019	R2						
+clc_transporter	clc	P51790	R1	9606	Homo sapiens				
+clc_transporter	clc	P51793	R1	9606	Homo sapiens				
+clc_transporter	clc	P51795	R1	9606	Homo sapiens				
+clc_transporter	clc	P51797	R1	9606	Homo sapiens				
+clc_transporter	clc	P51798	R1	9606	Homo sapiens				
+clic	clic	O00299	R1	9606	Homo sapiens				
+clic	clic	O15247	R1	9606	Homo sapiens				
+clic	clic	O95833	R1	9606	Homo sapiens				
+clic	clic	Q96NY7	R1	9606	Homo sapiens				
+clic	clic	Q9NZA1	R1	9606	Homo sapiens				
+clic	clic	Q9Y696	R1	9606	Homo sapiens				
+clic	clic	P35526	R3	9913	Bos taurus	Metazoa	437	clic	architecture
+clic	clic	Q5M883	R3	10116	Rattus norvegicus	Metazoa	245	clic	architecture
+clic	clic	Q5R957	R3	9601	Pongo abelii	Metazoa	253	clic	architecture
+clic	clic	Q8BHB9	R3	10090	Mus musculus	Metazoa	596	clic	architecture
+clic	clic	Q8WQA4	R3	6239	Caenorhabditis elegans	Metazoa	290	clic	architecture
+clic	clic	Q95MF9	R3	9986	Oryctolagus cuniculus	Metazoa	241	clic	architecture
+clic	clic	Q9VY78	R3	7227	Drosophila melanogaster	Metazoa	260	clic	architecture
+cng	ploop	P29973	R1	9606	Homo sapiens				
+cng	ploop	Q14028	R1	9606	Homo sapiens				
+cng	ploop	Q16280	R1	9606	Homo sapiens				
+cng	ploop	Q16281	R1	9606	Homo sapiens				
+cng	ploop	Q8IV77	R1	9606	Homo sapiens				
+cng	ploop	Q9NQW8	R1	9606	Homo sapiens				
+cng	ploop	P29974	R3	10090	Mus musculus	Metazoa	684	cng	architecture
+cng	ploop	P55934	R3	7998	Ictalurus punctatus	Metazoa	682	cng	architecture
+cng	ploop	Q00194	R3	9913	Bos taurus	Metazoa	690	cng	architecture
+cng	ploop	Q00195	R3	10116	Rattus norvegicus	Metazoa	664	cng	architecture
+cng	ploop	Q03611	R3	6239	Caenorhabditis elegans	Metazoa	733	cng	architecture
+cng	ploop	Q24278	R3	7227	Drosophila melanogaster	Metazoa	665	cng	architecture
+cng	ploop	Q28279	R3	9615	Canis lupus familiaris	Metazoa	691	cng	architecture
+cng	ploop	Q28718	R3	9986	Oryctolagus cuniculus	Metazoa	664	cng	architecture
+cng	ploop	Q90805	R3	9031	Gallus gallus	Metazoa	735	cng	architecture
+connexin	connexin	A6NN92	R1	9606	Homo sapiens				
+connexin	connexin	O75712	R1	9606	Homo sapiens				
+connexin	connexin	O95377	R1	9606	Homo sapiens				
+connexin	connexin	O95452	R1	9606	Homo sapiens				
+connexin	connexin	P08034	R1	9606	Homo sapiens				
+connexin	connexin	P17302	R1	9606	Homo sapiens				
+connexin	connexin	P29033	R1	9606	Homo sapiens				
+connexin	connexin	P35212	R1	9606	Homo sapiens				
+connexin	connexin	P36382	R1	9606	Homo sapiens				
+connexin	connexin	P36383	R1	9606	Homo sapiens				
+connexin	connexin	P48165	R1	9606	Homo sapiens				
+connexin	connexin	P57773	R1	9606	Homo sapiens				
+connexin	connexin	Q5T442	R1	9606	Homo sapiens				
+connexin	connexin	Q6PEY0	R1	9606	Homo sapiens				
+connexin	connexin	Q8N144	R1	9606	Homo sapiens				
+connexin	connexin	Q8NFK1	R1	9606	Homo sapiens				
+connexin	connexin	Q969M2	R1	9606	Homo sapiens				
+connexin	connexin	Q96KN9	R1	9606	Homo sapiens				
+connexin	connexin	Q9NTQ9	R1	9606	Homo sapiens				
+connexin	connexin	Q9UKL4	R1	9606	Homo sapiens				
+connexin	connexin	Q9Y6H8	R1	9606	Homo sapiens				
+connexin	connexin	A2VE67	R3	9913	Bos taurus	Metazoa	226	connexin	architecture
+connexin	connexin	A4GG66	R3	10116	Rattus norvegicus	Metazoa	396	connexin	architecture
+connexin	connexin	A4GVD1	R3	9823	Sus scrofa	Metazoa	396	connexin	architecture
+connexin	connexin	A6XKM2	R3	9643	Ursus americanus	Metazoa	382	connexin	architecture
+connexin	connexin	O54851	R3	10090	Mus musculus	Metazoa	321	connexin	architecture
+connexin	connexin	O57474	R3	7955	Danio rerio	Metazoa	381	connexin	architecture
+connexin	connexin	O93533	R3	9031	Gallus gallus	Metazoa	263	connexin	architecture
+connexin	connexin	P08983	R3	8355	Xenopus laevis	Metazoa	264	connexin	architecture
+connexin	connexin	P28228	R3	9615	Canis lupus familiaris	Metazoa	396	connexin	architecture
+connexin	connexin	P46691	R3	9940	Ovis aries	Metazoa	226	connexin	architecture
+connexin	connexin	P51915	R3	29154	Micropogonias undulatus	Metazoa	285	connexin	architecture
+connexin	connexin	P69998	R3	7782	Leucoraja erinaceus	Metazoa	302	connexin	architecture
+connexin	connexin	P69999	R3	173042	Leucoraja ocellata	Metazoa	302	connexin	architecture
+connexin	connexin	Q0V990	R3	8364	Xenopus tropicalis	Metazoa	352	connexin	architecture
+connexin	connexin	Q4R4S7	R3	9541	Macaca fascicularis	Metazoa	382	connexin	architecture
+connexin	connexin	Q6PYT3	R3	10036	Mesocricetus auratus	Metazoa	396	connexin	architecture
+connexin	connexin	Q6R4A8	R3	10029	Cricetulus griseus	Metazoa	396	connexin	architecture
+connexin	connexin	Q6TYA7	R3	9986	Oryctolagus cuniculus	Metazoa	382	connexin	architecture
+connexin	connexin	Q6TYA8	R3	9365	Erinaceus europaeus	Metazoa	382	connexin	architecture
+connexin	connexin	Q6TYA9	R3	9534	Chlorocebus aethiops	Metazoa	382	connexin	architecture
+connexin	connexin	Q6WGK6	R3	9796	Equus caballus	Metazoa	283	connexin	architecture
+connexin	connexin	Q7JGL3	R3	9580	Hylobates lar	Metazoa	226	connexin	architecture
+connexin	connexin	Q8MHW5	R3	9595	Gorilla gorilla gorilla	Metazoa	226	connexin	architecture
+connexin	connexin	Q8MIT8	R3	9544	Macaca mulatta	Metazoa	226	connexin	architecture
+connexin	connexin	Q8MIT9	R3	9600	Pongo pygmaeus	Metazoa	226	connexin	architecture
+deg_invertebrate	deg_enac	P24612	R2						
+deg_invertebrate	deg_enac	Q25011	R2						
+delta_glur	iglur	O43424	R1	9606	Homo sapiens				
+delta_glur	iglur	Q9ULK0	R1	9606	Homo sapiens				
+enac	deg_enac	P37088	R1	9606	Homo sapiens				
+enac	deg_enac	P51168	R1	9606	Homo sapiens				
+enac	deg_enac	P51170	R1	9606	Homo sapiens				
+enac	deg_enac	P51172	R1	9606	Homo sapiens				
+gabaa	cysloop	A8MPY1	R1	9606	Homo sapiens				
+gabaa	cysloop	O00591	R1	9606	Homo sapiens				
+gabaa	cysloop	O14764	R1	9606	Homo sapiens				
+gabaa	cysloop	P14867	R1	9606	Homo sapiens				
+gabaa	cysloop	P18505	R1	9606	Homo sapiens				
+gabaa	cysloop	P18507	R1	9606	Homo sapiens				
+gabaa	cysloop	P24046	R1	9606	Homo sapiens				
+gabaa	cysloop	P28472	R1	9606	Homo sapiens				
+gabaa	cysloop	P28476	R1	9606	Homo sapiens				
+gabaa	cysloop	P31644	R1	9606	Homo sapiens				
+gabaa	cysloop	P34903	R1	9606	Homo sapiens				
+gabaa	cysloop	P47869	R1	9606	Homo sapiens				
+gabaa	cysloop	P47870	R1	9606	Homo sapiens				
+gabaa	cysloop	P48169	R1	9606	Homo sapiens				
+gabaa	cysloop	P78334	R1	9606	Homo sapiens				
+gabaa	cysloop	Q16445	R1	9606	Homo sapiens				
+gabaa	cysloop	Q8N1C3	R1	9606	Homo sapiens				
+gabaa	cysloop	Q99928	R1	9606	Homo sapiens				
+gabaa	cysloop	Q9UN88	R1	9606	Homo sapiens				
+glyr	cysloop	O75311	R1	9606	Homo sapiens				
+glyr	cysloop	P23415	R1	9606	Homo sapiens				
+glyr	cysloop	P23416	R1	9606	Homo sapiens				
+glyr	cysloop	P48167	R1	9606	Homo sapiens				
+hcn	ploop	O60741	R1	9606	Homo sapiens				
+hcn	ploop	Q9P1Z3	R1	9606	Homo sapiens				
+hcn	ploop	Q9UL51	R1	9606	Homo sapiens				
+hcn	ploop	Q9Y3Q4	R1	9606	Homo sapiens				
+hcn	ploop	O70507	R3	10090	Mus musculus	Metazoa	1201	hcn	architecture
+hcn	ploop	Q9JKA7	R3	10116	Rattus norvegicus	Metazoa	1198	hcn	architecture
+hcn	ploop	Q9MZS1	R3	9986	Oryctolagus cuniculus	Metazoa	880	hcn	architecture
+ht3	cysloop	A5X5Y0	R1	9606	Homo sapiens				
+ht3	cysloop	O95264	R1	9606	Homo sapiens				
+ht3	cysloop	P46098	R1	9606	Homo sapiens				
+ht3	cysloop	Q70Z44	R1	9606	Homo sapiens				
+ht3	cysloop	Q8WXA8	R1	9606	Homo sapiens				
+hv1	hv	Q96D96	R1	9606	Homo sapiens				
+hv1	hv	Q1JV40	R2						
+hv1	hv	Q3U2S8	R3	10090	Mus musculus	Metazoa	269	hv1	hazard
+hv1	hv	Q5F4C0	R3	9031	Gallus gallus	Metazoa	235	hv1	hazard
+iglur_nonvertebrate	iglur	E9NA96	R2						
+iglur_nonvertebrate	iglur	Q8GXJ4	R2						
+iglur_prok	iglur	P73797	R2						
+innexin	innexin_like	P27716	R2						
+innexin	innexin_like	Q03412	R2						
+itpr	ca_release	Q14571	R1	9606	Homo sapiens				
+itpr	ca_release	Q14573	R1	9606	Homo sapiens				
+itpr	ca_release	Q14643	R1	9606	Homo sapiens				
+itpr	ca_release	P11881	R3	10090	Mus musculus	Metazoa	2749	itpr	hazard
+itpr	ca_release	P29993	R3	7227	Drosophila melanogaster	Metazoa	2837	itpr	hazard
+itpr	ca_release	P29994	R3	10116	Rattus norvegicus	Metazoa	2750	itpr	hazard
+itpr	ca_release	Q8WN95	R3	9913	Bos taurus	Metazoa	2664	itpr	hazard
+itpr	ca_release	Q8WSR4	R3	7594	Patiria pectinifera	Metazoa	2698	itpr	hazard
+itpr	ca_release	Q9Y0A1	R3	6239	Caenorhabditis elegans	Metazoa	2892	itpr	hazard
+k2p	ploop	O00180	R1	9606	Homo sapiens				
+k2p	ploop	O14649	R1	9606	Homo sapiens				
+k2p	ploop	O95069	R1	9606	Homo sapiens				
+k2p	ploop	O95279	R1	9606	Homo sapiens				
+k2p	ploop	P57789	R1	9606	Homo sapiens				
+k2p	ploop	Q7Z418	R1	9606	Homo sapiens				
+k2p	ploop	Q96T54	R1	9606	Homo sapiens				
+k2p	ploop	Q96T55	R1	9606	Homo sapiens				
+k2p	ploop	Q9H427	R1	9606	Homo sapiens				
+k2p	ploop	Q9HB14	R1	9606	Homo sapiens				
+k2p	ploop	Q9HB15	R1	9606	Homo sapiens				
+k2p	ploop	Q9NPC2	R1	9606	Homo sapiens				
+k2p	ploop	Q9NYG8	R1	9606	Homo sapiens				
+k2p	ploop	Q9Y257	R1	9606	Homo sapiens				
+k2p	ploop	Q9Y2U2	R1	9606	Homo sapiens				
+k2p	ploop	A8X8I4	R3	6238	Caenorhabditis briggsae	Metazoa	687	k2p	hazard
+k2p	ploop	G3V8R8	R3	10116	Rattus norvegicus	Metazoa	313	k2p	hazard
+k2p	ploop	G5E845	R3	10090	Mus musculus	Metazoa	292	k2p	hazard
+k2p	ploop	O17185	R3	6239	Caenorhabditis elegans	Metazoa	329	k2p	hazard
+k2p	ploop	Q0P5A0	R3	9913	Bos taurus	Metazoa	336	k2p	hazard
+k2p	ploop	Q5RD07	R3	9601	Pongo abelii	Metazoa	336	k2p	hazard
+k2p	ploop	Q5UE96	R3	9986	Oryctolagus cuniculus	Metazoa	336	k2p	hazard
+k2p	ploop	Q5VSE6	R3	7955	Danio rerio	Metazoa	412	k2p	hazard
+k2p	ploop	Q63ZI0	R3	8355	Xenopus laevis	Metazoa	374	k2p	hazard
+k2p	ploop	Q69TN4	R3	39947	Oryza sativa subsp. japonica	Viridiplantae	456	k2p	hazard
+k2p	ploop	Q8LBL1	R3	3702	Arabidopsis thaliana	Viridiplantae	363	k2p	hazard
+k2p	ploop	Q8R454	R3	10141	Cavia porcellus	Metazoa	336	k2p	hazard
+kainate	iglur	P39086	R1	9606	Homo sapiens				
+kainate	iglur	Q13002	R1	9606	Homo sapiens				
+kainate	iglur	Q13003	R1	9606	Homo sapiens				
+kainate	iglur	Q16099	R1	9606	Homo sapiens				
+kainate	iglur	Q16478	R1	9606	Homo sapiens				
+kca_sk	ploop	O15554	R1	9606	Homo sapiens				
+kca_sk	ploop	Q92952	R1	9606	Homo sapiens				
+kca_sk	ploop	Q9H2S1	R1	9606	Homo sapiens				
+kca_sk	ploop	Q9UGI6	R1	9606	Homo sapiens				
+kca_sk	ploop	O89109	R3	10090	Mus musculus	Metazoa	425	kca_sk	architecture
+kca_sk	ploop	P58392	R3	9823	Sus scrofa	Metazoa	724	kca_sk	architecture
+kca_sk	ploop	P70604	R3	10116	Rattus norvegicus	Metazoa	580	kca_sk	architecture
+kca_sk	ploop	Q11122	R3	6239	Caenorhabditis elegans	Metazoa	692	kca_sk	architecture
+kca_sk	ploop	Q7KVW5	R3	7227	Drosophila melanogaster	Metazoa	927	kca_sk	architecture
+kca_slo	ploop	A8MYU2	R1	9606	Homo sapiens				
+kca_slo	ploop	Q12791	R1	9606	Homo sapiens				
+kca_slo	ploop	Q5JUK3	R1	9606	Homo sapiens				
+kca_slo	ploop	Q6UVM3	R1	9606	Homo sapiens				
+kca_slo	ploop	A5LFX5	R3	9541	Macaca fascicularis	Metazoa	1149	kca_slo	architecture
+kca_slo	ploop	B7ZC96	R3	7955	Danio rerio	Metazoa	1184	kca_slo	architecture
+kca_slo	ploop	D3Z649	R3	10090	Mus musculus	Metazoa	1135	kca_slo	architecture
+kca_slo	ploop	D4A6Z8	R3	10116	Rattus norvegicus	Metazoa	1113	kca_slo	architecture
+kca_slo	ploop	Q03720	R3	7227	Drosophila melanogaster	Metazoa	1200	kca_slo	architecture
+kca_slo	ploop	Q28204	R3	9913	Bos taurus	Metazoa	1166	kca_slo	architecture
+kca_slo	ploop	Q8AYS8	R3	9031	Gallus gallus	Metazoa	1137	kca_slo	architecture
+kca_slo	ploop	Q90ZC7	R3	8355	Xenopus laevis	Metazoa	1196	kca_slo	architecture
+kca_slo	ploop	Q95V25	R3	6239	Caenorhabditis elegans	Metazoa	1140	kca_slo	architecture
+kca_slo	ploop	Q9BG98	R3	9986	Oryctolagus cuniculus	Metazoa	1179	kca_slo	architecture
+kcsa_prok	ploop	O27564	R2						
+kcsa_prok	ploop	P0A334	R2						
+kcsa_prok	ploop	Q81HW2	R2						
+kir	ploop	B7U540	R1	9606	Homo sapiens				
+kir	ploop	O60928	R1	9606	Homo sapiens				
+kir	ploop	P48048	R1	9606	Homo sapiens				
+kir	ploop	P48050	R1	9606	Homo sapiens				
+kir	ploop	P48051	R1	9606	Homo sapiens				
+kir	ploop	P48544	R1	9606	Homo sapiens				
+kir	ploop	P48549	R1	9606	Homo sapiens				
+kir	ploop	P63252	R1	9606	Homo sapiens				
+kir	ploop	P78508	R1	9606	Homo sapiens				
+kir	ploop	Q14500	R1	9606	Homo sapiens				
+kir	ploop	Q14654	R1	9606	Homo sapiens				
+kir	ploop	Q15842	R1	9606	Homo sapiens				
+kir	ploop	Q92806	R1	9606	Homo sapiens				
+kir	ploop	Q99712	R1	9606	Homo sapiens				
+kir	ploop	Q9NPI9	R1	9606	Homo sapiens				
+kir	ploop	Q9UNX9	R1	9606	Homo sapiens				
+kir	ploop	E1BN00	R3	9913	Bos taurus	Metazoa	360	kir	hazard
+kir	ploop	F1NHE9	R3	9031	Gallus gallus	Metazoa	429	kir	hazard
+kir	ploop	O02670	R3	9823	Sus scrofa	Metazoa	419	kir	hazard
+kir	ploop	O02822	R3	9986	Oryctolagus cuniculus	Metazoa	390	kir	hazard
+kir	ploop	O70339	R3	10141	Cavia porcellus	Metazoa	375	kir	hazard
+kir	ploop	O70596	R3	10116	Rattus norvegicus	Metazoa	434	kir	hazard
+kir	ploop	O88335	R3	10090	Mus musculus	Metazoa	372	kir	hazard
+kir	ploop	P49658	R3	10036	Mesocricetus auratus	Metazoa	425	kir	hazard
+kir	ploop	P52192	R3	6239	Caenorhabditis elegans	Metazoa	544	kir	hazard
+kir	ploop	P63253	R3	9544	Macaca mulatta	Metazoa	427	kir	hazard
+kir	ploop	Q5NVJ6	R3	9601	Pongo abelii	Metazoa	423	kir	hazard
+kir	ploop	Q9MYY9	R3	9615	Canis lupus familiaris	Metazoa	427	kir	hazard
+kv_eag	ploop	O95259	R1	9606	Homo sapiens				
+kv_eag	ploop	Q12809	R1	9606	Homo sapiens				
+kv_eag	ploop	Q8NCM2	R1	9606	Homo sapiens				
+kv_eag	ploop	Q96L42	R1	9606	Homo sapiens				
+kv_eag	ploop	Q9H252	R1	9606	Homo sapiens				
+kv_eag	ploop	Q9NS40	R1	9606	Homo sapiens				
+kv_eag	ploop	Q9ULD8	R1	9606	Homo sapiens				
+kv_eag	ploop	Q9UQ05	R1	9606	Homo sapiens				
+kv_eag	ploop	O08962	R3	10116	Rattus norvegicus	Metazoa	1163	kv_eag	architecture
+kv_eag	ploop	O18965	R3	9913	Bos taurus	Metazoa	987	kv_eag	architecture
+kv_eag	ploop	O35219	R3	10090	Mus musculus	Metazoa	1162	kv_eag	architecture
+kv_eag	ploop	Q02280	R3	7227	Drosophila melanogaster	Metazoa	1174	kv_eag	architecture
+kv_eag	ploop	Q8WNY2	R3	9986	Oryctolagus cuniculus	Metazoa	1161	kv_eag	architecture
+kv_eag	ploop	Q9PT84	R3	9031	Gallus gallus	Metazoa	1202	kv_eag	architecture
+kv_eag	ploop	Q9TSZ3	R3	9615	Canis lupus familiaris	Metazoa	1158	kv_eag	architecture
+kv_eag	ploop	Q9TUI4	R3	9823	Sus scrofa	Metazoa	1154	kv_eag	architecture
+kv_kcnq	ploop	O43525	R1	9606	Homo sapiens				
+kv_kcnq	ploop	O43526	R1	9606	Homo sapiens				
+kv_kcnq	ploop	P51787	R1	9606	Homo sapiens				
+kv_kcnq	ploop	P56696	R1	9606	Homo sapiens				
+kv_kcnq	ploop	Q9NR82	R1	9606	Homo sapiens				
+kv_kcnq	ploop	O70344	R3	10141	Cavia porcellus	Metazoa	671	kv_kcnq	architecture
+kv_kcnq	ploop	O73925	R3	7797	Squalus acanthias	Metazoa	660	kv_kcnq	architecture
+kv_kcnq	ploop	O88943	R3	10116	Rattus norvegicus	Metazoa	852	kv_kcnq	architecture
+kv_kcnq	ploop	P58126	R3	9913	Bos taurus	Metazoa	866	kv_kcnq	architecture
+kv_kcnq	ploop	P70057	R3	8355	Xenopus laevis	Metazoa	652	kv_kcnq	architecture
+kv_kcnq	ploop	P97414	R3	10090	Mus musculus	Metazoa	668	kv_kcnq	architecture
+kv_kcnq	ploop	Q9MYS6	R3	9986	Oryctolagus cuniculus	Metazoa	661	kv_kcnq	architecture
+kv_kcnq	ploop	Q9TTJ7	R3	9823	Sus scrofa	Metazoa	673	kv_kcnq	architecture
+kv_modifier	ploop	Q6PIU1	R1	9606	Homo sapiens				
+kv_modifier	ploop	Q8TAE7	R1	9606	Homo sapiens				
+kv_modifier	ploop	Q8TDN1	R1	9606	Homo sapiens				
+kv_modifier	ploop	Q8TDN2	R1	9606	Homo sapiens				
+kv_modifier	ploop	Q96KK3	R1	9606	Homo sapiens				
+kv_modifier	ploop	Q9BQ31	R1	9606	Homo sapiens				
+kv_modifier	ploop	Q9H3M0	R1	9606	Homo sapiens				
+kv_modifier	ploop	Q9UIX4	R1	9606	Homo sapiens				
+kv_modifier	ploop	Q9UJ96	R1	9606	Homo sapiens				
+kv_modifier	ploop	Q9ULS6	R1	9606	Homo sapiens				
+kv_shaker	ploop	P16389	R1	9606	Homo sapiens				
+kv_shaker	ploop	P17658	R1	9606	Homo sapiens				
+kv_shaker	ploop	P22001	R1	9606	Homo sapiens				
+kv_shaker	ploop	P22459	R1	9606	Homo sapiens				
+kv_shaker	ploop	P22460	R1	9606	Homo sapiens				
+kv_shaker	ploop	P48547	R1	9606	Homo sapiens				
+kv_shaker	ploop	Q03721	R1	9606	Homo sapiens				
+kv_shaker	ploop	Q09470	R1	9606	Homo sapiens				
+kv_shaker	ploop	Q14003	R1	9606	Homo sapiens				
+kv_shaker	ploop	Q14721	R1	9606	Homo sapiens				
+kv_shaker	ploop	Q16322	R1	9606	Homo sapiens				
+kv_shaker	ploop	Q92953	R1	9606	Homo sapiens				
+kv_shaker	ploop	Q96PR1	R1	9606	Homo sapiens				
+kv_shaker	ploop	Q96RP8	R1	9606	Homo sapiens				
+kv_shaker	ploop	Q9NSA2	R1	9606	Homo sapiens				
+kv_shaker	ploop	Q9NZV8	R1	9606	Homo sapiens				
+kv_shaker	ploop	Q9UK17	R1	9606	Homo sapiens				
+kv_shaker	ploop	P08510	R2						
+kv_shaker	ploop	A6H8H5	R3	10090	Mus musculus	Metazoa	907	kv_shaker	architecture
+kv_shaker	ploop	O18868	R3	9823	Sus scrofa	Metazoa	858	kv_shaker	architecture
+kv_shaker	ploop	P15387	R3	10116	Rattus norvegicus	Metazoa	857	kv_shaker	architecture
+kv_shaker	ploop	Q4ZHA6	R3	9913	Bos taurus	Metazoa	911	kv_shaker	architecture
+kv_shaker	ploop	Q95L11	R3	9986	Oryctolagus cuniculus	Metazoa	911	kv_shaker	architecture
+lrrc8	innexin_like	Q6NSJ5	R1	9606	Homo sapiens				
+lrrc8	innexin_like	Q6P9F7	R1	9606	Homo sapiens				
+lrrc8	innexin_like	Q7L1W4	R1	9606	Homo sapiens				
+lrrc8	innexin_like	Q8IWT6	R1	9606	Homo sapiens				
+lrrc8	innexin_like	Q8TDW0	R1	9606	Homo sapiens				
+lrrc8	innexin_like	A5PK13	R3	9913	Bos taurus	Metazoa	803	lrrc8	architecture
+lrrc8	innexin_like	Q3KRC6	R3	10116	Rattus norvegicus	Metazoa	795	lrrc8	architecture
+lrrc8	innexin_like	Q5DU41	R3	10090	Mus musculus	Metazoa	803	lrrc8	architecture
+lrrc8	innexin_like	Q68F79	R3	8364	Xenopus tropicalis	Metazoa	806	lrrc8	architecture
+lrrc8	innexin_like	Q6NU09	R3	8355	Xenopus laevis	Metazoa	806	lrrc8	architecture
+mcu	mcu	Q8NE86	R1	9606	Homo sapiens				
+mcu	mcu	Q9NWR8	R1	9606	Homo sapiens				
+mcu	mcu	W2SDE2	R3	1220924	Cyphellophora europaea (strain CBS 101466)	Fungi	346	mcu	architecture
+mscl	msc	P0A742	R2						
+mscl	msc	A0A097ZPE6	R3	1549217	Emericella variicolor	Fungi	177	mscl	architecture
+mscl	msc	A0AKH0	R3	386043	Listeria welshimeri serovar 6b (strain ATCC 35897 / DSM 20650 / CCUG 15529 / CIP 8149 / NCTC 11857 / SLCC 5334 / V8)	Bacillati	130	mscl	architecture
+mscl	msc	A0K875	R3	331272	Burkholderia cenocepacia (strain HI2424)	Pseudomonadati	143	mscl	architecture
+mscl	msc	A0KNB2	R3	380703	Aeromonas hydrophila subsp. hydrophila (strain ATCC 7966 / DSM 30187 / BCRC 13018 / CCUG 14551 / JCM 1027 / KCTC 2358 / NCIMB 9240 / NCTC 8049)	Pseudomonadati	135	mscl	architecture
+mscl	msc	A0KSJ1	R3	94122	Shewanella sp. (strain ANA-3)	Pseudomonadati	136	mscl	architecture
+mscl	msc	A0PWB0	R3	362242	Mycobacterium ulcerans (strain Agy99)	Bacillati	151	mscl	architecture
+mscl	msc	A0RJR6	R3	412694	Bacillus thuringiensis (strain Al Hakam)	Bacillati	132	mscl	architecture
+mscl	msc	A1AGI2	R3	405955	Escherichia coli O1:K1 / APEC	Pseudomonadati	137	mscl	architecture
+mscl	msc	A1APN2	R3	338966	Pelobacter propionicus (strain DSM 2379 / NBRC 103807 / OttBd1)	Pseudomonadati	145	mscl	architecture
+mscl	msc	A1B4B3	R3	318586	Paracoccus denitrificans (strain Pd 1222)	Pseudomonadati	145	mscl	architecture
+mscl	msc	A1BFW8	R3	290317	Chlorobium phaeobacteroides (strain DSM 266 / SMG 266 / 2430)	Pseudomonadati	148	mscl	architecture
+mscl	msc	A1JRZ6	R3	393305	Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 / 8081)	Pseudomonadati	136	mscl	architecture
+mscl	msc	A1KC82	R3	418699	Azoarcus sp. (strain BH72)	Pseudomonadati	141	mscl	architecture
+mscl	msc	A1KHC1	R3	410289	Mycobacterium bovis (strain BCG / Pasteur 1173P2)	Bacillati	151	mscl	architecture
+mscl	msc	A1RFK8	R3	351745	Shewanella sp. (strain W3-18-1)	Pseudomonadati	136	mscl	architecture
+mscl	msc	A1TTF7	R3	397945	Paracidovorax citrulli (strain AAC00-1)	Pseudomonadati	143	mscl	architecture
+mscl	msc	A1URL2	R3	360095	Bartonella bacilliformis (strain ATCC 35685 / KC583 / Herrer 020/F12,63)	Pseudomonadati	138	mscl	architecture
+mscl	msc	A1V513	R3	320388	Burkholderia mallei (strain SAVP1)	Pseudomonadati	143	mscl	architecture
+mscl	msc	A1VK53	R3	365044	Polaromonas naphthalenivorans (strain CJ2)	Pseudomonadati	142	mscl	architecture
+mscl	msc	A2RNQ7	R3	416870	Lactococcus lactis subsp. cremoris (strain MG1363)	Bacillati	121	mscl	architecture
+mscl	msc	A4IMP7	R3	420246	Geobacillus thermodenitrificans (strain NG80-2)	Bacillati	131	mscl	architecture
+mscl	msc	A5FPV4	R3	216389	Dehalococcoides mccartyi (strain ATCC BAA-2100 / JCM 16839 / KCTC 5957 / BAV1)	Bacillati	154	mscl	architecture
+mscl	msc	A5ISN0	R3	359786	Staphylococcus aureus (strain JH9)	Bacillati	120	mscl	architecture
+mscl	msc	A5U127	R3	419947	Mycobacterium tuberculosis (strain ATCC 25177 / H37Ra)	Bacillati	151	mscl	architecture
+mscl	msc	A5UVR8	R3	357808	Roseiflexus sp. (strain RS-1)	Bacillati	126	mscl	architecture
+mscl	msc	A5VIB3	R3	557436	Limosilactobacillus reuteri (strain DSM 20016)	Bacillati	123	mscl	architecture
+mscl	msc	A6M387	R3	290402	Clostridium beijerinckii (strain ATCC 51743 / NCIMB 8052)	Bacillati	146	mscl	architecture
+mscl	msc	A6QGQ0	R3	426430	Staphylococcus aureus (strain Newman)	Bacillati	120	mscl	architecture
+mscl	msc	A6U1G8	R3	359787	Staphylococcus aureus (strain JH1)	Bacillati	120	mscl	architecture
+mscl	msc	Q8RFE0	R3	190304	Fusobacterium nucleatum subsp. nucleatum (strain ATCC 25586 / DSM 15643 / BCRC 10681 / CIP 101130 / JCM 8532 / KCTC 2640 / LMG 13131 / VPI 4355)	Fusobacteriati	142	mscl	architecture
+mscs	msc	P0C0S1	R2						
+mscs	msc	Q9LYG9	R2						
+mscs	msc	O52401	R3	634503	Edwardsiella ictaluri (strain 93-146)	Pseudomonadati	286	mscs	architecture
+mscs	msc	P0C0S2	R3	83334	Escherichia coli O157:H7	Pseudomonadati	286	mscs	architecture
+mscs	msc	P0C0S3	R3	623	Shigella flexneri	Pseudomonadati	286	mscs	architecture
+mscs	msc	P0DKS1	R3	36870	Wigglesworthia glossinidia brevipalpis	Pseudomonadati	280	mscs	architecture
+mscs	msc	P57527	R3	107806	Buchnera aphidicola subsp. Acyrthosiphon pisum (strain APS)	Pseudomonadati	305	mscs	architecture
+mscs	msc	Q55717	R3	1111708	Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa)	Bacillati	296	mscs	architecture
+mscs	msc	Q57634	R3	243232	Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440)	Methanobacteriati	350	mscs	architecture
+mscs	msc	Q89AB5	R3	224915	Buchnera aphidicola subsp. Baizongia pistaciae (strain Bp)	Pseudomonadati	281	mscs	architecture
+mscs	msc	Q8K9B1	R3	198804	Buchnera aphidicola subsp. Schizaphis graminum (strain Sg)	Pseudomonadati	283	mscs	architecture
+nachr	cysloop	P02708	R1	9606	Homo sapiens				
+nachr	cysloop	P07510	R1	9606	Homo sapiens				
+nachr	cysloop	P11230	R1	9606	Homo sapiens				
+nachr	cysloop	P17787	R1	9606	Homo sapiens				
+nachr	cysloop	P30532	R1	9606	Homo sapiens				
+nachr	cysloop	P30926	R1	9606	Homo sapiens				
+nachr	cysloop	P32297	R1	9606	Homo sapiens				
+nachr	cysloop	P36544	R1	9606	Homo sapiens				
+nachr	cysloop	P43681	R1	9606	Homo sapiens				
+nachr	cysloop	Q04844	R1	9606	Homo sapiens				
+nachr	cysloop	Q05901	R1	9606	Homo sapiens				
+nachr	cysloop	Q07001	R1	9606	Homo sapiens				
+nachr	cysloop	Q15822	R1	9606	Homo sapiens				
+nachr	cysloop	Q15825	R1	9606	Homo sapiens				
+nachr	cysloop	Q9GZZ6	R1	9606	Homo sapiens				
+nachr	cysloop	Q9UGM1	R1	9606	Homo sapiens				
+nachr	cysloop	P02711	R2						
+nalcn	ploop	Q8IZF0	R1	9606	Homo sapiens				
+nalcn	ploop	Q6Q760	R3	10116	Rattus norvegicus	Metazoa	1738	nalcn	motif
+nalcn	ploop	Q8BXR5	R3	10090	Mus musculus	Metazoa	1738	nalcn	motif
+nav	ploop	P35498	R1	9606	Homo sapiens				
+nav	ploop	P35499	R1	9606	Homo sapiens				
+nav	ploop	Q01118	R1	9606	Homo sapiens				
+nav	ploop	Q14524	R1	9606	Homo sapiens				
+nav	ploop	Q15858	R1	9606	Homo sapiens				
+nav	ploop	Q99250	R1	9606	Homo sapiens				
+nav	ploop	Q9NY46	R1	9606	Homo sapiens				
+nav	ploop	Q9UI33	R1	9606	Homo sapiens				
+nav	ploop	Q9UQD0	R1	9606	Homo sapiens				
+nav	ploop	Q9Y5Y9	R1	9606	Homo sapiens				
+nav	ploop	A8EVM5	R2						
+nav	ploop	A2APX8	R3	10090	Mus musculus	Metazoa	2009	nav	motif
+nav	ploop	D0E0C2	R3	6978	Periplaneta americana	Metazoa	1553	nav	motif
+nav	ploop	O08562	R3	10116	Rattus norvegicus	Metazoa	1984	nav	motif
+nav	ploop	O46669	R3	9615	Canis lupus familiaris	Metazoa	1962	nav	motif
+nav	ploop	P02719	R3	8005	Electrophorus electricus	Metazoa	1820	nav	motif
+nav	ploop	P0DMA5	R3	38674	Onychomys torridus	Metazoa	1959	nav	motif
+nav	ploop	P35500	R3	7227	Drosophila melanogaster	Metazoa	2131	nav	motif
+nav	ploop	Q20JQ7	R3	7955	Danio rerio	Metazoa	1784	nav	motif
+nav	ploop	Q28371	R3	9796	Equus caballus	Metazoa	1834	nav	motif
+nav	ploop	Q28644	R3	9986	Oryctolagus cuniculus	Metazoa	1984	nav	motif
+nav	ploop	Q2XVR4	R3	99883	Tetraodon nigroviridis	Metazoa	1715	nav	motif
+nav	ploop	Q2XVR6	R3	31033	Takifugu rubripes	Metazoa	1719	nav	motif
+nmda	iglur	O15399	R1	9606	Homo sapiens				
+nmda	iglur	O60391	R1	9606	Homo sapiens				
+nmda	iglur	Q05586	R1	9606	Homo sapiens				
+nmda	iglur	Q12879	R1	9606	Homo sapiens				
+nmda	iglur	Q13224	R1	9606	Homo sapiens				
+nmda	iglur	Q14957	R1	9606	Homo sapiens				
+nmda	iglur	Q8TCU5	R1	9606	Homo sapiens				
+nonchannel_achbp	cysloop	P58154	R2						
+nonchannel_class_c_gpcr	iglur	O00222	R1	9606	Homo sapiens				
+nonchannel_class_c_gpcr	iglur	O15303	R1	9606	Homo sapiens				
+nonchannel_class_c_gpcr	iglur	O75899	R1	9606	Homo sapiens				
+nonchannel_class_c_gpcr	iglur	P41180	R1	9606	Homo sapiens				
+nonchannel_class_c_gpcr	iglur	P41594	R1	9606	Homo sapiens				
+nonchannel_class_c_gpcr	iglur	Q13255	R1	9606	Homo sapiens				
+nonchannel_class_c_gpcr	iglur	Q14416	R1	9606	Homo sapiens				
+nonchannel_class_c_gpcr	iglur	Q14831	R1	9606	Homo sapiens				
+nonchannel_class_c_gpcr	iglur	Q14832	R1	9606	Homo sapiens				
+nonchannel_class_c_gpcr	iglur	Q14833	R1	9606	Homo sapiens				
+nonchannel_class_c_gpcr	iglur	Q7RTX0	R1	9606	Homo sapiens				
+nonchannel_class_c_gpcr	iglur	Q7RTX1	R1	9606	Homo sapiens				
+nonchannel_class_c_gpcr	iglur	Q8TE23	R1	9606	Homo sapiens				
+nonchannel_class_c_gpcr	iglur	Q9UBS5	R1	9606	Homo sapiens				
+nonchannel_gasdermin		O60443	R1	9606	Homo sapiens				
+nonchannel_gasdermin		P57764	R1	9606	Homo sapiens				
+nonchannel_gasdermin		Q0ZLH3	R1	9606	Homo sapiens				
+nonchannel_gasdermin		Q8TAX9	R1	9606	Homo sapiens				
+nonchannel_gasdermin		Q96QA5	R1	9606	Homo sapiens				
+nonchannel_gasdermin		Q9BYG8	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q14681	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q4G0X4	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q68DU8	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q693B1	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q6ZWB6	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q719H9	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q7Z5Y7	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q8N5Z5	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q8NC69	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q8WZ19	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q96CX2	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q96MP8	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q96SI1	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q9H3F6	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q9NXV2	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	Q9Y597	R1	9606	Homo sapiens				
+nonchannel_kctd	ploop	A3KMV1	R3	9913	Bos taurus	Metazoa	704	nonchannel_kctd	hazard
+nonchannel_kctd	ploop	A9ULR9	R3	7955	Danio rerio	Metazoa	330	nonchannel_kctd	hazard
+nonchannel_kctd	ploop	B1WC97	R3	10116	Rattus norvegicus	Metazoa	289	nonchannel_kctd	hazard
+nonchannel_kctd	ploop	D5SHR0	R3	7227	Drosophila melanogaster	Metazoa	367	nonchannel_kctd	hazard
+nonchannel_kctd	ploop	O65555	R3	3702	Arabidopsis thaliana	Viridiplantae	441	nonchannel_kctd	hazard
+nonchannel_kctd	ploop	O70479	R3	10090	Mus musculus	Metazoa	316	nonchannel_kctd	hazard
+nonchannel_kctd	ploop	Q03607	R3	6239	Caenorhabditis elegans	Metazoa	262	nonchannel_kctd	hazard
+nonchannel_kctd	ploop	Q03900	R3	559292	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	495	nonchannel_kctd	hazard
+nonchannel_kctd	ploop	Q28DC9	R3	8364	Xenopus tropicalis	Metazoa	319	nonchannel_kctd	hazard
+nonchannel_kctd	ploop	Q54KH0	R3	44689	Dictyostelium discoideum	Amoebozoa	780	nonchannel_kctd	hazard
+nonchannel_kctd	ploop	Q5EAX2	R3	8355	Xenopus laevis	Metazoa	319	nonchannel_kctd	hazard
+nonchannel_kctd	ploop	Q5F3E8	R3	9031	Gallus gallus	Metazoa	314	nonchannel_kctd	hazard
+nonchannel_kctd	ploop	Q5RBH4	R3	9601	Pongo abelii	Metazoa	316	nonchannel_kctd	hazard
+nonchannel_kctd	ploop	Q5UNZ6	R3	212035	Acanthamoeba polyphaga mimivirus	Varidnaviria	449	nonchannel_kctd	hazard
+nonchannel_pomt	ca_release	Q9UKY4	R1	9606	Homo sapiens				
+nonchannel_pomt	ca_release	Q9Y6A1	R1	9606	Homo sapiens				
+nonchannel_vsp	hv	P56180	R1	9606	Homo sapiens				
+nonchannel_vsp	hv	Q6XPS3	R1	9606	Homo sapiens				
+nonchannel_vsp	hv	Q4W8A1	R2						
+nonchannel_vsp	hv	Q4R6N0	R3	9541	Macaca fascicularis	Metazoa	566	nonchannel_vsp	hazard
+orai	orai	Q96D31	R1	9606	Homo sapiens				
+orai	orai	Q96SN7	R1	9606	Homo sapiens				
+orai	orai	Q9BRQ5	R1	9606	Homo sapiens				
+orai	orai	Q9U6B8	R2						
+orai	orai	Q09232	R3	6239	Caenorhabditis elegans	Metazoa	293	orai	architecture
+orai	orai	Q5EAU0	R3	8355	Xenopus laevis	Metazoa	258	orai	architecture
+orai	orai	Q5M848	R3	10116	Rattus norvegicus	Metazoa	304	orai	architecture
+orai	orai	Q5ZL05	R3	9031	Gallus gallus	Metazoa	226	orai	architecture
+orai	orai	Q616J1	R3	6238	Caenorhabditis briggsae	Metazoa	300	orai	architecture
+orai	orai	Q6P8G8	R3	10090	Mus musculus	Metazoa	290	orai	architecture
+orai	orai	Q6TLE6	R3	7955	Danio rerio	Metazoa	222	orai	architecture
+osca_tmem63	tmem16_like	O94886	R1	9606	Homo sapiens				
+osca_tmem63	tmem16_like	Q5T3F8	R1	9606	Homo sapiens				
+osca_tmem63	tmem16_like	Q9P1W3	R1	9606	Homo sapiens				
+osca_tmem63	tmem16_like	Q5XEZ5	R2						
+osca_tmem63	tmem16_like	A0A452G813	R3	9925	Capra hircus	Metazoa	803	osca_tmem63	architecture
+osca_tmem63	tmem16_like	A0A8V0ZB02	R3	9031	Gallus gallus	Metazoa	816	osca_tmem63	architecture
+osca_tmem63	tmem16_like	A9LIW2	R3	3707	Brassica juncea	Viridiplantae	723	osca_tmem63	architecture
+osca_tmem63	tmem16_like	B5TYT3	R3	3702	Arabidopsis thaliana	Viridiplantae	771	osca_tmem63	architecture
+osca_tmem63	tmem16_like	B6HTR9	R3	500485	Penicillium rubens (strain ATCC 28089 / DSM 1075 / NRRL 1951 / Wisconsin 54-1255)	Fungi	832	osca_tmem63	architecture
+osca_tmem63	tmem16_like	D3ZNF5	R3	10116	Rattus norvegicus	Metazoa	802	osca_tmem63	architecture
+osca_tmem63	tmem16_like	O43022	R3	284812	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	Fungi	865	osca_tmem63	architecture
+osca_tmem63	tmem16_like	Q03516	R3	559292	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	953	osca_tmem63	architecture
+osca_tmem63	tmem16_like	Q3TWI9	R3	10090	Mus musculus	Metazoa	832	osca_tmem63	architecture
+osca_tmem63	tmem16_like	Q5R826	R3	9601	Pongo abelii	Metazoa	807	osca_tmem63	architecture
+osca_tmem63	tmem16_like	Q6NP91	R3	7227	Drosophila melanogaster	Metazoa	760	osca_tmem63	architecture
+osca_tmem63	tmem16_like	X1WEM4	R3	7955	Danio rerio	Metazoa	825	osca_tmem63	architecture
+otop	otopetrin	Q7RTM1	R1	9606	Homo sapiens				
+otop	otopetrin	Q7RTS5	R1	9606	Homo sapiens				
+otop	otopetrin	Q7RTS6	R1	9606	Homo sapiens				
+otop	otopetrin	A9JTM7	R3	8364	Xenopus tropicalis	Metazoa	681	otop	architecture
+otop	otopetrin	Q7M734	R3	10116	Rattus norvegicus	Metazoa	600	otop	architecture
+otop	otopetrin	Q7ZWK8	R3	7955	Danio rerio	Metazoa	586	otop	architecture
+otop	otopetrin	Q80SX5	R3	10090	Mus musculus	Metazoa	563	otop	architecture
+outofscope_aquaporin		O14520	R1	9606	Homo sapiens				
+outofscope_aquaporin		O43315	R1	9606	Homo sapiens				
+outofscope_aquaporin		O94778	R1	9606	Homo sapiens				
+outofscope_aquaporin		P29972	R1	9606	Homo sapiens				
+outofscope_aquaporin		P41181	R1	9606	Homo sapiens				
+outofscope_aquaporin		P55064	R1	9606	Homo sapiens				
+outofscope_aquaporin		P55087	R1	9606	Homo sapiens				
+outofscope_aquaporin		Q13520	R1	9606	Homo sapiens				
+outofscope_aquaporin		Q8IXF9	R1	9606	Homo sapiens				
+outofscope_aquaporin		Q8NBQ7	R1	9606	Homo sapiens				
+outofscope_aquaporin		Q92482	R1	9606	Homo sapiens				
+outofscope_aquaporin		Q96PS8	R1	9606	Homo sapiens				
+outofscope_bacterial_porin	porin	P02931	R2						
+p2x	p2x	O15547	R1	9606	Homo sapiens				
+p2x	p2x	P51575	R1	9606	Homo sapiens				
+p2x	p2x	P56373	R1	9606	Homo sapiens				
+p2x	p2x	Q93086	R1	9606	Homo sapiens				
+p2x	p2x	Q99571	R1	9606	Homo sapiens				
+p2x	p2x	Q99572	R1	9606	Homo sapiens				
+p2x	p2x	Q9UBL9	R1	9606	Homo sapiens				
+p2x_nonmetazoan	p2x	Q86JM7	R2						
+pannexin	innexin_like	Q96QZ0	R1	9606	Homo sapiens				
+pannexin	innexin_like	Q96RD6	R1	9606	Homo sapiens				
+pannexin	innexin_like	Q96RD7	R1	9606	Homo sapiens				
+piezo	piezo	Q92508	R1	9606	Homo sapiens				
+piezo	piezo	Q9H5I5	R1	9606	Homo sapiens				
+piezo	piezo	A0A061ACU2	R3	6239	Caenorhabditis elegans	Metazoa	2442	piezo	architecture
+piezo	piezo	E2JF22	R3	10090	Mus musculus	Metazoa	2547	piezo	architecture
+piezo	piezo	M9MSG8	R3	7227	Drosophila melanogaster	Metazoa	2551	piezo	architecture
+piezo	piezo	Q0KL00	R3	10116	Rattus norvegicus	Metazoa	2535	piezo	architecture
+plgic_invertebrate	cysloop	G5EBR3	R2						
+plgic_invertebrate	cysloop	Q94900	R2						
+plgic_prok	cysloop	P0C7B7	R2						
+plgic_prok	cysloop	Q7NDN8	R2						
+ryr	ca_release	P21817	R1	9606	Homo sapiens				
+ryr	ca_release	Q15413	R1	9606	Homo sapiens				
+ryr	ca_release	Q92736	R1	9606	Homo sapiens				
+ryr	ca_release	A2AGL3	R3	10090	Mus musculus	Metazoa	4863	ryr	hazard
+ryr	ca_release	B0LPN4	R3	10116	Rattus norvegicus	Metazoa	4955	ryr	hazard
+ryr	ca_release	P11716	R3	9986	Oryctolagus cuniculus	Metazoa	5037	ryr	hazard
+ryr	ca_release	P16960	R3	9823	Sus scrofa	Metazoa	5035	ryr	hazard
+ryr	ca_release	Q24498	R3	7227	Drosophila melanogaster	Metazoa	5127	ryr	hazard
+tmc	tmem16_like	Q6UXY8	R1	9606	Homo sapiens				
+tmc	tmem16_like	Q7Z402	R1	9606	Homo sapiens				
+tmc	tmem16_like	Q7Z403	R1	9606	Homo sapiens				
+tmc	tmem16_like	Q7Z404	R1	9606	Homo sapiens				
+tmc	tmem16_like	Q7Z5M5	R1	9606	Homo sapiens				
+tmc	tmem16_like	Q8IU68	R1	9606	Homo sapiens				
+tmc	tmem16_like	Q8TDI7	R1	9606	Homo sapiens				
+tmc	tmem16_like	Q8TDI8	R1	9606	Homo sapiens				
+tmc	tmem16_like	D3KZG3	R3	6239	Caenorhabditis elegans	Metazoa	1285	tmc	architecture
+tmc	tmem16_like	E7FFT2	R3	7955	Danio rerio	Metazoa	916	tmc	architecture
+tmc	tmem16_like	Q32NZ6	R3	10090	Mus musculus	Metazoa	967	tmc	architecture
+tmc	tmem16_like	Q496Z4	R3	10116	Rattus norvegicus	Metazoa	698	tmc	architecture
+tmc	tmem16_like	Q4R7U0	R3	9541	Macaca fascicularis	Metazoa	723	tmc	architecture
+tmc	tmem16_like	Q5YCC5	R3	9031	Gallus gallus	Metazoa	735	tmc	architecture
+tmem175	tmem175	Q9BSA9	R1	9606	Homo sapiens				
+tmem175	tmem175	A5PN43	R3	7955	Danio rerio	Metazoa	520	tmem175	architecture
+tmem175	tmem175	Q32PG7	R3	9913	Bos taurus	Metazoa	479	tmem175	architecture
+tmem175	tmem175	Q5ZKY0	R3	9031	Gallus gallus	Metazoa	501	tmem175	architecture
+tmem175	tmem175	Q6AY05	R3	10116	Rattus norvegicus	Metazoa	499	tmem175	architecture
+tmem175	tmem175	Q9CXY1	R3	10090	Mus musculus	Metazoa	499	tmem175	architecture
+tpc	ploop	Q8NHX9	R1	9606	Homo sapiens				
+tpc	ploop	Q9ULQ1	R1	9606	Homo sapiens				
+tpc	ploop	Q94KI8	R2						
+transporter_slc26		O43511	R1	9606	Homo sapiens				
+transporter_slc26		P40879	R1	9606	Homo sapiens				
+transporter_slc26		P50443	R1	9606	Homo sapiens				
+transporter_slc26		P58743	R1	9606	Homo sapiens				
+transporter_slc26		Q7LBE3	R1	9606	Homo sapiens				
+transporter_slc26		Q86WA9	R1	9606	Homo sapiens				
+transporter_slc26		Q8TE54	R1	9606	Homo sapiens				
+transporter_slc26		Q96RN1	R1	9606	Homo sapiens				
+transporter_slc26		Q9BXS9	R1	9606	Homo sapiens				
+transporter_slc26		Q9H2B4	R1	9606	Homo sapiens				
+tric	tric	Q9H6F2	R1	9606	Homo sapiens				
+tric	tric	Q9NVV0	R1	9606	Homo sapiens				
+tric	tric	A4FV75	R3	9913	Bos taurus	Metazoa	299	tric	architecture
+tric	tric	A5A6S6	R3	9986	Oryctolagus cuniculus	Metazoa	295	tric	architecture
+tric	tric	A6ZIQ8	R3	10116	Rattus norvegicus	Metazoa	297	tric	architecture
+tric	tric	Q28FA9	R3	8364	Xenopus tropicalis	Metazoa	284	tric	architecture
+tric	tric	Q3KQE5	R3	8355	Xenopus laevis	Metazoa	284	tric	architecture
+tric	tric	Q3TMP8	R3	10090	Mus musculus	Metazoa	298	tric	architecture
+tric	tric	Q5ZK43	R3	9031	Gallus gallus	Metazoa	296	tric	architecture
+tric	tric	Q6P2T0	R3	7955	Danio rerio	Metazoa	295	tric	architecture
+tric	tric	Q9NA73	R3	6239	Caenorhabditis elegans	Metazoa	313	tric	architecture
+trpa	ploop	O75762	R1	9606	Homo sapiens				
+trpc	ploop	P48995	R1	9606	Homo sapiens				
+trpc	ploop	Q13507	R1	9606	Homo sapiens				
+trpc	ploop	Q9HCX4	R1	9606	Homo sapiens				
+trpc	ploop	Q9UBN4	R1	9606	Homo sapiens				
+trpc	ploop	Q9UL62	R1	9606	Homo sapiens				
+trpc	ploop	Q9Y210	R1	9606	Homo sapiens				
+trpc	ploop	P19334	R2						
+trpc	ploop	O18784	R3	9913	Bos taurus	Metazoa	793	trpc	architecture
+trpc	ploop	P34586	R3	6239	Caenorhabditis elegans	Metazoa	1027	trpc	architecture
+trpc	ploop	Q61056	R3	10090	Mus musculus	Metazoa	793	trpc	architecture
+trpc	ploop	Q9JMI9	R3	10116	Rattus norvegicus	Metazoa	909	trpc	architecture
+trpc	ploop	Q9TUN9	R3	9986	Oryctolagus cuniculus	Metazoa	759	trpc	architecture
+trpc	ploop	Q9VJJ7	R3	7227	Drosophila melanogaster	Metazoa	1128	trpc	architecture
+trpm	ploop	O94759	R1	9606	Homo sapiens				
+trpm	ploop	Q7Z2W7	R1	9606	Homo sapiens				
+trpm	ploop	Q7Z4N2	R1	9606	Homo sapiens				
+trpm	ploop	Q8TD43	R1	9606	Homo sapiens				
+trpm	ploop	Q96QT4	R1	9606	Homo sapiens				
+trpm	ploop	Q9BX84	R1	9606	Homo sapiens				
+trpm	ploop	Q9HCF6	R1	9606	Homo sapiens				
+trpm	ploop	Q9NZQ8	R1	9606	Homo sapiens				
+trpm	ploop	A8DYE2	R3	7227	Drosophila melanogaster	Metazoa	2023	trpm	architecture
+trpm	ploop	Q8CIR4	R3	10090	Mus musculus	Metazoa	2028	trpm	architecture
+trpm	ploop	Q925B3	R3	10116	Rattus norvegicus	Metazoa	1862	trpm	architecture
+trpml	ploop	Q8IZK6	R1	9606	Homo sapiens				
+trpml	ploop	Q8TDD5	R1	9606	Homo sapiens				
+trpml	ploop	Q9GZU1	R1	9606	Homo sapiens				
+trpml	ploop	F6RG56	R3	9483	Callithrix jacchus	Metazoa	553	trpml	hazard
+trpml	ploop	Q60HE8	R3	9541	Macaca fascicularis	Metazoa	580	trpml	hazard
+trpml	ploop	Q8K595	R3	10090	Mus musculus	Metazoa	566	trpml	hazard
+trpn	ploop	Q7KIQ2	R2						
+trpn	ploop	Q9GRV5	R2						
+trpp	ploop	Q13563	R1	9606	Homo sapiens				
+trpp	ploop	Q9NZM6	R1	9606	Homo sapiens				
+trpp	ploop	Q9P0L9	R1	9606	Homo sapiens				
+trpp	ploop	A2A259	R3	10090	Mus musculus	Metazoa	760	trpp	hazard
+trpp	ploop	H2LRU7	R3	8090	Oryzias latipes	Metazoa	901	trpp	hazard
+trpp	ploop	Q4GZT3	R3	9913	Bos taurus	Metazoa	970	trpp	hazard
+trpp	ploop	Q6IVV8	R3	7955	Danio rerio	Metazoa	904	trpp	hazard
+trpp	ploop	Q9U1S7	R3	6239	Caenorhabditis elegans	Metazoa	716	trpp	hazard
+trpv	ploop	Q8NER1	R1	9606	Homo sapiens				
+trpv	ploop	Q8NET8	R1	9606	Homo sapiens				
+trpv	ploop	Q9H1D0	R1	9606	Homo sapiens				
+trpv	ploop	Q9HBA0	R1	9606	Homo sapiens				
+trpv	ploop	Q9NQA5	R1	9606	Homo sapiens				
+trpv	ploop	Q9Y5S1	R1	9606	Homo sapiens				
+tweety	tweety	Q9BSA4	R1	9606	Homo sapiens				
+tweety	tweety	Q9C0H2	R1	9606	Homo sapiens				
+tweety	tweety	Q9H313	R1	9606	Homo sapiens				
+tweety	tweety	P0C5X8	R3	10116	Rattus norvegicus	Metazoa	450	tweety	architecture
+tweety	tweety	Q0V9V9	R3	8364	Xenopus tropicalis	Metazoa	449	tweety	architecture
+tweety	tweety	Q20332	R3	6239	Caenorhabditis elegans	Metazoa	519	tweety	architecture
+tweety	tweety	Q2KJ98	R3	9913	Bos taurus	Metazoa	450	tweety	architecture
+tweety	tweety	Q32LT7	R3	7955	Danio rerio	Metazoa	560	tweety	architecture
+tweety	tweety	Q3TH73	R3	10090	Mus musculus	Metazoa	532	tweety	architecture
+tweety	tweety	Q6AX57	R3	8355	Xenopus laevis	Metazoa	449	tweety	architecture
+tweety	tweety	Q9MZZ8	R3	9541	Macaca fascicularis	Metazoa	450	tweety	architecture
+tweety	tweety	Q9W5A5	R3	7227	Drosophila melanogaster	Metazoa	655	tweety	architecture
+vdac	porin	P21796	R1	9606	Homo sapiens				
+vdac	porin	P45880	R1	9606	Homo sapiens				
+vdac	porin	Q9Y277	R1	9606	Homo sapiens				
+vdac	porin	A0A6P7EFR0	R3	9940	Ovis aries	Metazoa	283	vdac	architecture
+vdac	porin	A1Z6L1	R3	7227	Drosophila melanogaster	Metazoa	340	vdac	architecture
+vdac	porin	A4F267	R3	10116	Rattus norvegicus	Metazoa	308	vdac	architecture
+vdac	porin	A6QR22	R3	9913	Bos taurus	Metazoa	308	vdac	architecture
+vdac	porin	J5JPV3	R3	655819	Beauveria bassiana (strain ARSEF 2860)	Fungi	283	vdac	architecture
+vdac	porin	O13656	R3	284812	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	Fungi	344	vdac	architecture
+vdac	porin	P04840	R3	559292	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	283	vdac	architecture
+vdac	porin	P07144	R3	367110	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	283	vdac	architecture
+vdac	porin	P42054	R3	3888	Pisum sativum	Viridiplantae	276	vdac	architecture
+vdac	porin	P42055	R3	4113	Solanum tuberosum	Viridiplantae	276	vdac	architecture
+vdac	porin	P42057	R3	4577	Zea mays	Viridiplantae	277	vdac	architecture
+vdac	porin	P46274	R3	4565	Triticum aestivum	Viridiplantae	275	vdac	architecture
+vdac	porin	P68003	R3	9986	Oryctolagus cuniculus	Metazoa	294	vdac	architecture
+vdac	porin	P81004	R3	8355	Xenopus laevis	Metazoa	282	vdac	architecture
+vdac	porin	P82013	R3	9103	Meleagris gallopavo	Metazoa	296	vdac	architecture
+vdac	porin	P83781	R3	237561	Candida albicans (strain SC5314 / ATCC MYA-2876)	Fungi	282	vdac	architecture
+vdac	porin	P86223	R3	10036	Mesocricetus auratus	Metazoa	295	vdac	architecture
+vdac	porin	Q01501	R3	44689	Dictyostelium discoideum	Amoebozoa	275	vdac	architecture
+vdac	porin	Q0JJV1	R3	39947	Oryza sativa subsp. japonica	Viridiplantae	317	vdac	architecture
+vdac	porin	Q18090	R3	6239	Caenorhabditis elegans	Metazoa	301	vdac	architecture
+vdac	porin	Q29380	R3	9823	Sus scrofa	Metazoa	283	vdac	architecture
+vdac	porin	Q5R7V4	R3	9601	Pongo abelii	Metazoa	284	vdac	architecture
+vdac	porin	Q60930	R3	10090	Mus musculus	Metazoa	295	vdac	architecture
+vdac	porin	Q61Z83	R3	6238	Caenorhabditis briggsae	Metazoa	301	vdac	architecture
+vdac	porin	Q6P825	R3	8364	Xenopus tropicalis	Metazoa	336	vdac	architecture
+vdac	porin	Q9FJX3	R3	3702	Arabidopsis thaliana	Viridiplantae	276	vdac	architecture
+viroporin	viroporin	A3DRP1	R2						
+viroporin	viroporin	P05919	R2						
+viroporin	viroporin	P0DTC4	R2						
+zac	cysloop	Q401N2	R1	9606	Homo sapiens				

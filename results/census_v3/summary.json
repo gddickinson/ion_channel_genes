@@ -1,0 +1,24 @@
+{
+  "records": 1245200,
+  "basis": {
+    "both": 310386,
+    "profile_only": 394289,
+    "superfamily_only": 93766,
+    "unassigned": 407787,
+    "conflict": 12857,
+    "s2_only": 26115
+  },
+  "status": {
+    "channel": 613270,
+    "transporter": 35214,
+    "superfamily_only": 93766,
+    "unassigned": 407787,
+    "conflict": 12857,
+    "channel_contested": 42154,
+    "non_channel_homolog": 38165,
+    "channel_associated": 1987
+  },
+  "human_correct_s2": 173,
+  "human_correct_v3": 318,
+  "human_genes": 320
+}

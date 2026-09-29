@@ -109,15 +109,37 @@ columns.
 
 ---
 
-## S3 — Profile-HMM sweep → census v3
+## S3a — Profile library + best-profile assignment → census v3a
 
-**Goal.** Find what domain search misses: build one HMM per census family
-from its S6 alignment, sweep the reference proteomes, and assign by
-*best profile* with a margin (D7).
+**Goal.** Resolve what S2's architecture tier could not (the 32 % that stop
+at the superfamily) with one profile per catalogue family and a best-profile
+call with a margin (D7) — and measure the instrument before using it.
 
-**Notes.** This is the tier that reaches families whose Pfam coverage is poor
-(H7) and lineages with no close reference. jackhmmer runs to convergence need
-a coded kill criterion (D10).
+**Steps.** (1) Seeds by stated, enforced rules (`s3_seed_spec.py`: R1
+curated human genes, R2 exemplars, R3 reviewed S2 family calls one per
+species); MAFFT L-INS-i single-threaded; hmmbuild — every catalogue family,
+controls included, so decoys have profiles to win. (2) Benchmark: S1 panel
+leave-one-out, plus held-out non-seed reviewed orthologues scored by gene
+symbol (never classified by it). (3) Sweep every profile over the
+non-redundant census v2. (4) Merge with S2 by a stated rule (agree / one
+speaks / conflict) and calibrate against S2's calls with seeds excluded.
+
+**Completion criteria.** Every family has a profile with a recorded seed
+set and SHA-256s; benchmark reported per family with LOO; every v2 record
+carries a profile verdict and a merged v3 call; conflicts counted, not
+resolved by fiat; report rendered from tables.
+
+---
+
+## S3b — Proteome sweep + jackhmmer → census v3
+
+**Goal.** Find what domain search misses: sweep S3a's profiles over S4's
+declared reference proteomes and assign by *best profile* with a margin
+(D7); jackhmmer runs to convergence with a coded kill criterion (D10),
+including a sister-family contamination rule (the parent project's K1–K3).
+
+**Notes.** This is the tier that reaches families whose Pfam coverage is
+poor (H7) and lineages with no close reference. Needs S4's manifest.
 
 ---
 

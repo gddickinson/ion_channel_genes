@@ -223,3 +223,43 @@ uncalled four-repeat filters (NEEE, DEEA, …); ZACN → AChBP persists.
 ### Next session
 **S3** — profile-HMM sweep. Read `results/census_v2/report.md` first; the
 superfamily-only table is S3's worklist.
+
+---
+
+## 2026-09-28 — S3a: profile library + best-profile assignment → census v3a
+
+**Split.** S3 as written could not run: its brief built profiles "from the
+S6 alignment" (S6 depends on S3) and swept "the reference proteomes" (S4
+declares them). Split into **S3a** (this session: profiles + assignment over
+census v2) and **S3b** (S4 proteome sweep + jackhmmer, pending on S4).
+
+**Ran.** `s3_build_profiles.py` (90 profiles, 28 s); `s3_benchmark.py`
+(80 s); `s3_sweep.py prep` (1,187,702 unique sequences) and `search --jobs 5
+--cpu 2` (90 profiles, 83 min wall, 6.9 profile-hours); `s3_census_v3.py`
+(65 s, 1.9 GB RSS); `s3_external_check.py`; `s3_report.py`. Drive attached
+throughout (670 GB free at start). Bulk under `<data root>/hmmer/s3/`.
+
+**Caught on the way.** The first profile build aborted on its own
+disjointness rule: `s0_lib.resolve_gene` matches synonyms, so TRPC7 resolved
+to TRPM2 (and six more pairs). S3 now resolves by primary gene name, and a
+within-family duplicate-accession check was added. The benchmark's first
+decoy explanation ("too few seeds") was wrong — assoc_k_beta has 13 seeds;
+the family pools unrelated proteins. Report corrected before commit.
+
+**Result.** Benchmark LOO 69/71 on S1 (vs 50/72); orthologues 534/534
+(vertebrate). Calibration vs S2 96.8 %. Census v3a family calls 58.7 %
+(27.8 % in S2); conflicts 12,857; human 318/320. External check vs
+`../ip3r_genes` census v6: 12,204/15,601 same call; the 502 swapped records
+are all S2's `H4-itpr` absence rule. The user asked mid-session whether
+PIEZO/IP3R/RyR could be taken from the parent projects instead of re-run:
+no (profiles are needed as competitors, cost already paid, D28 and the
+port-the-method rule) — they became the external check instead.
+
+**Emergent.** H4, H2, H13 absence rules; PF00520 superfamily conflicts;
+resolver synonyms; heterogeneous auxiliary families; no non-vertebrate test
+for the Cys-loop/iGluR/DEG/P2X splits; 2,258 PIEZO-census records
+unassigned. D32 recorded.
+
+### Next session
+**S4** — proteome scope. S3b waits on it. The S2 hazard-rule fixes (H2, H4,
+H13) are emergent rows and can precede S4 if the user prefers.

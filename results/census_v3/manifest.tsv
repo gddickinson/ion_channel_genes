@@ -1,0 +1,3 @@
+file	bytes	sha256	records
+hmmer/s3/census_v3.tsv.gz	21250688	71c5f87807707ee9399cc2917af31851d26dface6b9f074e06750c4336583d4c	1245200
+hmmer/s3/profile_calls.tsv.gz	32820224	fb8ca242e9eddb9a7e1dcb6980a60b74aecef309184b1e875cfc994a81b6575f	857837

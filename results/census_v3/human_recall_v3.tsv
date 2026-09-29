@@ -1,0 +1,321 @@
+gene	expected_family	accession	s2_family	p_call	p_family	v3_family	v3_basis	correct_s2	correct_v3
+GRIA1	ampa	P42261		family	ampa	ampa	profile_only	no	yes
+GRIA2	ampa	P42262		family	ampa	ampa	profile_only	no	yes
+GRIA3	ampa	P42263		family	ampa	ampa	profile_only	no	yes
+GRIA4	ampa	P48058		family	ampa	ampa	profile_only	no	yes
+ANO1	ano_channel	Q5XXA6		family	ano_channel	ano_channel	profile_only	no	yes
+ANO2	ano_channel	Q9NQ90		family	ano_channel	ano_channel	profile_only	no	yes
+ANO10	ano_scramblase	Q9NW15		family	ano_scramblase	ano_scramblase	profile_only	no	yes
+ANO3	ano_scramblase	Q9BYT9		family	ano_scramblase	ano_scramblase	profile_only	no	yes
+ANO4	ano_scramblase	Q32M45		family	ano_scramblase	ano_scramblase	profile_only	no	yes
+ANO5	ano_scramblase	Q75V66		family	ano_scramblase	ano_scramblase	profile_only	no	yes
+ANO6	ano_scramblase	Q4KMQ2		family	ano_scramblase	ano_scramblase	profile_only	no	yes
+ANO7	ano_scramblase	Q6IWH7		family	ano_scramblase	ano_scramblase	profile_only	no	yes
+ANO8	ano_scramblase	Q9HCE9		family	ano_scramblase	ano_scramblase	profile_only	no	yes
+ANO9	ano_scramblase	A1A5B4		family	ano_scramblase	ano_scramblase	profile_only	no	yes
+ASIC1	asic	P78348		family	asic	asic	profile_only	no	yes
+ASIC2	asic	Q16515		family	asic	asic	profile_only	no	yes
+ASIC3	asic	Q9UHC3		family	asic	asic	profile_only	no	yes
+ASIC4	asic	Q96FT7		family	asic	asic	profile_only	no	yes
+ASIC5	asic	Q9NY37		family	asic	asic	profile_only	no	yes
+BEST1	bestrophin	O76090	bestrophin	family	bestrophin	bestrophin	both	yes	yes
+BEST2	bestrophin	Q8NFU1	bestrophin	family	bestrophin	bestrophin	both	yes	yes
+BEST3	bestrophin	Q8N1M1	bestrophin	family	bestrophin	bestrophin	both	yes	yes
+BEST4	bestrophin	Q8NFU0	bestrophin	family	bestrophin	bestrophin	both	yes	yes
+CALHM1	calhm	Q8IU99	calhm	family	calhm	calhm	both	yes	yes
+CALHM2	calhm	Q9HA72	calhm	family	calhm	calhm	both	yes	yes
+CALHM3	calhm	Q86XJ0	calhm	family	calhm	calhm	both	yes	yes
+CALHM4	calhm	Q5JW98	calhm	family	calhm	calhm	both	yes	yes
+CALHM5	calhm	Q8N5C1	calhm	family	calhm	calhm	both	yes	yes
+CALHM6	calhm	Q5R3K3	calhm	family	calhm	calhm	both	yes	yes
+CATSPER1	catsper	Q8NEC5		family	catsper	catsper	profile_only	no	yes
+CATSPER2	catsper	Q96P56		family	catsper	catsper	profile_only	no	yes
+CATSPER3	catsper	Q86XQ3		family	catsper	catsper	profile_only	no	yes
+CATSPER4	catsper	Q7RTX7		family	catsper	catsper	profile_only	no	yes
+CACNA1A	cav	O00555	cav	family	cav	cav	both	yes	yes
+CACNA1B	cav	Q00975	cav	family	cav	cav	both	yes	yes
+CACNA1C	cav	Q13936	cav	family	cav	cav	both	yes	yes
+CACNA1D	cav	Q01668	cav	family	cav	cav	both	yes	yes
+CACNA1E	cav	Q15878	cav	family	cav	cav	both	yes	yes
+CACNA1F	cav	O60840	cav	family	cav	cav	both	yes	yes
+CACNA1G	cav	O43497	cav	family	cav	cav	both	yes	yes
+CACNA1H	cav	O95180	cav	family	cav	cav	both	yes	yes
+CACNA1I	cav	Q9P0X4	cav	family	cav	cav	both	yes	yes
+CACNA1S	cav	Q13698	cav	family	cav	cav	both	yes	yes
+CFTR	cftr	P13569	cftr	family	cftr	cftr	both	yes	yes
+CLCN1	clc_channel	P35523		family	clc_channel	clc_channel	profile_only	no	yes
+CLCN2	clc_channel	P51788		family	clc_channel	clc_channel	profile_only	no	yes
+CLCNKA	clc_channel	P51800		family	clc_channel	clc_channel	profile_only	no	yes
+CLCNKB	clc_channel	P51801		family	clc_channel	clc_channel	profile_only	no	yes
+CLIC1	clic	O00299	clic	family	clic	clic	both	yes	yes
+CLIC2	clic	O15247	clic	family	clic	clic	both	yes	yes
+CLIC3	clic	O95833	clic	family	clic	clic	both	yes	yes
+CLIC4	clic	Q9Y696	clic	family	clic	clic	both	yes	yes
+CLIC5	clic	Q9NZA1	clic	family	clic	clic	both	yes	yes
+CLIC6	clic	Q96NY7	clic	family	clic	clic	both	yes	yes
+CNGA1	cng	P29973	cng	family	cng	cng	both	yes	yes
+CNGA2	cng	Q16280	cng	family	cng	cng	both	yes	yes
+CNGA3	cng	Q16281	cng	family	cng	cng	both	yes	yes
+CNGA4	cng	Q8IV77	cng	family	cng	cng	both	yes	yes
+CNGB1	cng	Q14028		family	cng	cng	profile_only	no	yes
+CNGB3	cng	Q9NQW8		family	cng	cng	profile_only	no	yes
+GJA1	connexin	P17302	connexin	family	connexin	connexin	both	yes	yes
+GJA10	connexin	Q969M2	connexin	family	connexin	connexin	both	yes	yes
+GJA3	connexin	Q9Y6H8	connexin	family	connexin	connexin	both	yes	yes
+GJA4	connexin	P35212	connexin	family	connexin	connexin	both	yes	yes
+GJA5	connexin	P36382	connexin	family	connexin	connexin	both	yes	yes
+GJA8	connexin	P48165	connexin	family	connexin	connexin	both	yes	yes
+GJA9	connexin	P57773	connexin	family	connexin	connexin	both	yes	yes
+GJB1	connexin	P08034	connexin	family	connexin	connexin	both	yes	yes
+GJB2	connexin	P29033	connexin	family	connexin	connexin	both	yes	yes
+GJB3	connexin	O75712	connexin	family	connexin	connexin	both	yes	yes
+GJB4	connexin	Q9NTQ9	connexin	family	connexin	connexin	both	yes	yes
+GJB5	connexin	O95377	connexin	family	connexin	connexin	both	yes	yes
+GJB6	connexin	O95452	connexin	family	connexin	connexin	both	yes	yes
+GJB7	connexin	Q6PEY0	connexin	family	connexin	connexin	both	yes	yes
+GJC1	connexin	P36383	connexin	family	connexin	connexin	both	yes	yes
+GJC2	connexin	Q5T442	connexin	family	connexin	connexin	both	yes	yes
+GJC3	connexin	Q8NFK1	connexin	family	connexin	connexin	both	yes	yes
+GJD2	connexin	Q9UKL4	connexin	family	connexin	connexin	both	yes	yes
+GJD3	connexin	Q8N144	connexin	family	connexin	connexin	both	yes	yes
+GJD4	connexin	Q96KN9	connexin	family	connexin	connexin	both	yes	yes
+GJE1	connexin	A6NN92	connexin	family	connexin	connexin	both	yes	yes
+GRID1	delta_glur	Q9ULK0		family	delta_glur	delta_glur	profile_only	no	yes
+GRID2	delta_glur	O43424		family	delta_glur	delta_glur	profile_only	no	yes
+SCNN1A	enac	P37088		family	enac	enac	profile_only	no	yes
+SCNN1B	enac	P51168		family	enac	enac	profile_only	no	yes
+SCNN1D	enac	P51172		family	enac	enac	profile_only	no	yes
+SCNN1G	enac	P51170		family	enac	enac	profile_only	no	yes
+GABRA1	gabaa	P14867		family	gabaa	gabaa	profile_only	no	yes
+GABRA2	gabaa	P47869		family	gabaa	gabaa	profile_only	no	yes
+GABRA3	gabaa	P34903		family	gabaa	gabaa	profile_only	no	yes
+GABRA4	gabaa	P48169		family	gabaa	gabaa	profile_only	no	yes
+GABRA5	gabaa	P31644		family	gabaa	gabaa	profile_only	no	yes
+GABRA6	gabaa	Q16445		family	gabaa	gabaa	profile_only	no	yes
+GABRB1	gabaa	P18505		family	gabaa	gabaa	profile_only	no	yes
+GABRB2	gabaa	P47870		family	gabaa	gabaa	profile_only	no	yes
+GABRB3	gabaa	P28472		family	gabaa	gabaa	profile_only	no	yes
+GABRD	gabaa	O14764		family	gabaa	gabaa	profile_only	no	yes
+GABRE	gabaa	P78334		family	gabaa	gabaa	profile_only	no	yes
+GABRG1	gabaa	Q8N1C3		family	gabaa	gabaa	profile_only	no	yes
+GABRG2	gabaa	P18507		family	gabaa	gabaa	profile_only	no	yes
+GABRG3	gabaa	Q99928		family	gabaa	gabaa	profile_only	no	yes
+GABRP	gabaa	O00591		family	gabaa	gabaa	profile_only	no	yes
+GABRQ	gabaa	Q9UN88		family	gabaa	gabaa	profile_only	no	yes
+GABRR1	gabaa	P24046		family	gabaa	gabaa	profile_only	no	yes
+GABRR2	gabaa	P28476		family	gabaa	gabaa	profile_only	no	yes
+GABRR3	gabaa	A8MPY1		family	gabaa	gabaa	profile_only	no	yes
+GLRA1	glyr	P23415		family	glyr	glyr	profile_only	no	yes
+GLRA2	glyr	P23416		family	glyr	glyr	profile_only	no	yes
+GLRA3	glyr	O75311		family	glyr	glyr	profile_only	no	yes
+GLRA4	glyr						not_enumerated	no	no
+GLRB	glyr	P48167		family	glyr	glyr	profile_only	no	yes
+HCN1	hcn	O60741	hcn	family	hcn	hcn	both	yes	yes
+HCN2	hcn	Q9UL51	hcn	family	hcn	hcn	both	yes	yes
+HCN3	hcn	Q9P1Z3	hcn	family	hcn	hcn	both	yes	yes
+HCN4	hcn	Q9Y3Q4	hcn	family	hcn	hcn	both	yes	yes
+HTR3A	ht3	P46098		family	ht3	ht3	profile_only	no	yes
+HTR3B	ht3	O95264		family	ht3	ht3	profile_only	no	yes
+HTR3C	ht3	Q8WXA8		family	ht3	ht3	profile_only	no	yes
+HTR3D	ht3	Q70Z44		family	ht3	ht3	profile_only	no	yes
+HTR3E	ht3	A5X5Y0		family	ht3	ht3	profile_only	no	yes
+HVCN1	hv1	Q96D96	hv1	family	hv1	hv1	both	yes	yes
+ITPR1	itpr	Q14643	itpr	family	itpr	itpr	both	yes	yes
+ITPR2	itpr	Q14571	itpr	family	itpr	itpr	both	yes	yes
+ITPR3	itpr	Q14573	itpr	family	itpr	itpr	both	yes	yes
+KCNK1	k2p	O00180	k2p	family	k2p	k2p	both	yes	yes
+KCNK10	k2p	P57789	k2p	family	k2p	k2p	both	yes	yes
+KCNK12	k2p	Q9HB15	k2p	family	k2p	k2p	both	yes	yes
+KCNK13	k2p	Q9HB14	k2p	family	k2p	k2p	both	yes	yes
+KCNK15	k2p	Q9H427	k2p	family	k2p	k2p	both	yes	yes
+KCNK16	k2p	Q96T55	k2p	family	k2p	k2p	both	yes	yes
+KCNK17	k2p	Q96T54	k2p	family	k2p	k2p	both	yes	yes
+KCNK18	k2p	Q7Z418	k2p	family	k2p	k2p	both	yes	yes
+KCNK2	k2p	O95069	k2p	family	k2p	k2p	both	yes	yes
+KCNK3	k2p	O14649	k2p	family	k2p	k2p	both	yes	yes
+KCNK4	k2p	Q9NYG8	k2p	family	k2p	k2p	both	yes	yes
+KCNK5	k2p	O95279	k2p	family	k2p	k2p	both	yes	yes
+KCNK6	k2p	Q9Y257	k2p	family	k2p	k2p	both	yes	yes
+KCNK7	k2p	Q9Y2U2	k2p	family	k2p	k2p	both	yes	yes
+KCNK9	k2p	Q9NPC2	k2p	family	k2p	k2p	both	yes	yes
+GRIK1	kainate	P39086		family	kainate	kainate	profile_only	no	yes
+GRIK2	kainate	Q13002		family	kainate	kainate	profile_only	no	yes
+GRIK3	kainate	Q13003		family	kainate	kainate	profile_only	no	yes
+GRIK4	kainate	Q16099		family	kainate	kainate	profile_only	no	yes
+GRIK5	kainate	Q16478		family	kainate	kainate	profile_only	no	yes
+KCNN1	kca_sk	Q92952	kca_sk	family	kca_sk	kca_sk	both	yes	yes
+KCNN2	kca_sk	Q9H2S1	kca_sk	family	kca_sk	kca_sk	both	yes	yes
+KCNN3	kca_sk	Q9UGI6	kca_sk	family	kca_sk	kca_sk	both	yes	yes
+KCNN4	kca_sk	O15554	kca_sk	family	kca_sk	kca_sk	both	yes	yes
+KCNMA1	kca_slo	Q12791	kca_slo	family	kca_slo	kca_slo	both	yes	yes
+KCNT1	kca_slo	Q5JUK3	kca_slo	family	kca_slo	kca_slo	both	yes	yes
+KCNT2	kca_slo	Q6UVM3	kca_slo	family	kca_slo	kca_slo	both	yes	yes
+KCNU1	kca_slo	A8MYU2	kca_slo	family	kca_slo	kca_slo	both	yes	yes
+KCNJ1	kir	P48048	kir	family	kir	kir	both	yes	yes
+KCNJ10	kir	P78508	kir	family	kir	kir	both	yes	yes
+KCNJ11	kir	Q14654	kir	family	kir	kir	both	yes	yes
+KCNJ12	kir	Q14500	kir	family	kir	kir	both	yes	yes
+KCNJ13	kir	O60928	kir	family	kir	kir	both	yes	yes
+KCNJ14	kir	Q9UNX9	kir	family	kir	kir	both	yes	yes
+KCNJ15	kir	Q99712	kir	family	kir	kir	both	yes	yes
+KCNJ16	kir	Q9NPI9	kir	family	kir	kir	both	yes	yes
+KCNJ18	kir	B7U540	kir	family	kir	kir	both	yes	yes
+KCNJ2	kir	P63252	kir	family	kir	kir	both	yes	yes
+KCNJ3	kir	P48549	kir	family	kir	kir	both	yes	yes
+KCNJ4	kir	P48050	kir	family	kir	kir	both	yes	yes
+KCNJ5	kir	P48544	kir	family	kir	kir	both	yes	yes
+KCNJ6	kir	P48051	kir	family	kir	kir	both	yes	yes
+KCNJ8	kir	Q15842	kir	family	kir	kir	both	yes	yes
+KCNJ9	kir	Q92806	kir	family	kir	kir	both	yes	yes
+KCNH1	kv_eag	O95259	kv_eag	family	kv_eag	kv_eag	both	yes	yes
+KCNH2	kv_eag	Q12809	kv_eag	family	kv_eag	kv_eag	both	yes	yes
+KCNH3	kv_eag	Q9ULD8	kv_eag	family	kv_eag	kv_eag	both	yes	yes
+KCNH4	kv_eag	Q9UQ05		family	kv_eag	kv_eag	profile_only	no	yes
+KCNH5	kv_eag	Q8NCM2	kv_eag	family	kv_eag	kv_eag	both	yes	yes
+KCNH6	kv_eag	Q9H252	kv_eag	family	kv_eag	kv_eag	both	yes	yes
+KCNH7	kv_eag	Q9NS40	kv_eag	family	kv_eag	kv_eag	both	yes	yes
+KCNH8	kv_eag	Q96L42	kv_eag	family	kv_eag	kv_eag	both	yes	yes
+KCNQ1	kv_kcnq	P51787	kv_kcnq	family	kv_kcnq	kv_kcnq	both	yes	yes
+KCNQ2	kv_kcnq	O43526	kv_kcnq	family	kv_kcnq	kv_kcnq	both	yes	yes
+KCNQ3	kv_kcnq	O43525	kv_kcnq	family	kv_kcnq	kv_kcnq	both	yes	yes
+KCNQ4	kv_kcnq	P56696	kv_kcnq	family	kv_kcnq	kv_kcnq	both	yes	yes
+KCNQ5	kv_kcnq	Q9NR82	kv_kcnq	family	kv_kcnq	kv_kcnq	both	yes	yes
+KCNF1	kv_modifier	Q9H3M0		family	kv_modifier	kv_modifier	profile_only	no	yes
+KCNG1	kv_modifier	Q9UIX4		family	kv_modifier	kv_modifier	profile_only	no	yes
+KCNG2	kv_modifier	Q9UJ96		family	kv_modifier	kv_modifier	profile_only	no	yes
+KCNG3	kv_modifier	Q8TAE7		family	kv_modifier	kv_modifier	profile_only	no	yes
+KCNG4	kv_modifier	Q8TDN1		family	kv_modifier	kv_modifier	profile_only	no	yes
+KCNS1	kv_modifier	Q96KK3		family	kv_modifier	kv_modifier	profile_only	no	yes
+KCNS2	kv_modifier	Q9ULS6		family	kv_modifier	kv_modifier	profile_only	no	yes
+KCNS3	kv_modifier	Q9BQ31		family	kv_modifier	kv_modifier	profile_only	no	yes
+KCNV1	kv_modifier	Q6PIU1		family	kv_modifier	kv_modifier	profile_only	no	yes
+KCNV2	kv_modifier	Q8TDN2		family	kv_modifier	kv_modifier	profile_only	no	yes
+KCNA1	kv_shaker	Q09470		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCNA10	kv_shaker	Q16322		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCNA2	kv_shaker	P16389		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCNA3	kv_shaker	P22001		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCNA4	kv_shaker	P22459		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCNA5	kv_shaker	P22460		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCNA6	kv_shaker	P17658		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCNA7	kv_shaker	Q96RP8		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCNB1	kv_shaker	Q14721	kv_shaker	family	kv_shaker	kv_shaker	both	yes	yes
+KCNB2	kv_shaker	Q92953	kv_shaker	family	kv_shaker	kv_shaker	both	yes	yes
+KCNC1	kv_shaker	P48547		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCNC2	kv_shaker	Q96PR1		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCNC3	kv_shaker	Q14003		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCNC4	kv_shaker	Q03721		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCND1	kv_shaker	Q9NSA2		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCND2	kv_shaker	Q9NZV8		family	kv_shaker	kv_shaker	profile_only	no	yes
+KCND3	kv_shaker	Q9UK17		family	kv_shaker	kv_shaker	profile_only	no	yes
+LRRC8A	lrrc8	Q8IWT6	lrrc8	family	lrrc8	lrrc8	both	yes	yes
+LRRC8B	lrrc8	Q6P9F7	lrrc8	family	lrrc8	lrrc8	both	yes	yes
+LRRC8C	lrrc8	Q8TDW0	lrrc8	family	lrrc8	lrrc8	both	yes	yes
+LRRC8D	lrrc8	Q7L1W4	lrrc8	family	lrrc8	lrrc8	both	yes	yes
+LRRC8E	lrrc8	Q6NSJ5	lrrc8	family	lrrc8	lrrc8	both	yes	yes
+MCU	mcu	Q8NE86	mcu	family	mcu	mcu	both	yes	yes
+MCUB	mcu	Q9NWR8	mcu	family	mcu	mcu	both	yes	yes
+CHRNA1	nachr	P02708		family	nachr	nachr	profile_only	no	yes
+CHRNA10	nachr	Q9GZZ6		family	nachr	nachr	profile_only	no	yes
+CHRNA2	nachr	Q15822		family	nachr	nachr	profile_only	no	yes
+CHRNA3	nachr	P32297		family	nachr	nachr	profile_only	no	yes
+CHRNA4	nachr	P43681		family	nachr	nachr	profile_only	no	yes
+CHRNA5	nachr	P30532		family	nachr	nachr	profile_only	no	yes
+CHRNA6	nachr	Q15825		family	nachr	nachr	profile_only	no	yes
+CHRNA7	nachr	P36544		family	nachr	nachr	profile_only	no	yes
+CHRNA9	nachr	Q9UGM1		family	nachr	nachr	profile_only	no	yes
+CHRNB1	nachr	P11230		family	nachr	nachr	profile_only	no	yes
+CHRNB2	nachr	P17787		family	nachr	nachr	profile_only	no	yes
+CHRNB3	nachr	Q05901		family	nachr	nachr	profile_only	no	yes
+CHRNB4	nachr	P30926		family	nachr	nachr	profile_only	no	yes
+CHRND	nachr	Q07001		family	nachr	nachr	profile_only	no	yes
+CHRNE	nachr	Q04844		family	nachr	nachr	profile_only	no	yes
+CHRNG	nachr	P07510		family	nachr	nachr	profile_only	no	yes
+NALCN	nalcn	Q8IZF0	nalcn	family	nalcn	nalcn	both	yes	yes
+SCN10A	nav	Q9Y5Y9	nav	family	nav	nav	both	yes	yes
+SCN11A	nav	Q9UI33	nav	family	nav	nav	both	yes	yes
+SCN1A	nav	P35498	nav	family	nav	nav	both	yes	yes
+SCN2A	nav	Q99250	nav	family	nav	nav	both	yes	yes
+SCN3A	nav	Q9NY46	nav	family	nav	nav	both	yes	yes
+SCN4A	nav	P35499	nav	family	nav	nav	both	yes	yes
+SCN5A	nav	Q14524	nav	family	nav	nav	both	yes	yes
+SCN7A	nav	Q01118		family	nav	nav	profile_only	no	yes
+SCN8A	nav	Q9UQD0	nav	family	nav	nav	both	yes	yes
+SCN9A	nav	Q15858	nav	family	nav	nav	both	yes	yes
+GRIN1	nmda	Q05586		family	nmda	nmda	profile_only	no	yes
+GRIN2A	nmda	Q12879		family	nmda	nmda	profile_only	no	yes
+GRIN2B	nmda	Q13224		family	nmda	nmda	profile_only	no	yes
+GRIN2C	nmda	Q14957		family	nmda	nmda	profile_only	no	yes
+GRIN2D	nmda	O15399		family	nmda	nmda	profile_only	no	yes
+GRIN3A	nmda	Q8TCU5		family	nmda	nmda	profile_only	no	yes
+GRIN3B	nmda	O60391		family	nmda	nmda	profile_only	no	yes
+ORAI1	orai	Q96D31	orai	family	orai	orai	both	yes	yes
+ORAI2	orai	Q96SN7	orai	family	orai	orai	both	yes	yes
+ORAI3	orai	Q9BRQ5	orai	family	orai	orai	both	yes	yes
+TMEM63A	osca_tmem63	O94886	osca_tmem63	family	osca_tmem63	osca_tmem63	both	yes	yes
+TMEM63B	osca_tmem63	Q5T3F8	osca_tmem63	family	osca_tmem63	osca_tmem63	both	yes	yes
+TMEM63C	osca_tmem63	Q9P1W3	osca_tmem63	family	osca_tmem63	osca_tmem63	both	yes	yes
+OTOP1	otop	Q7RTM1	otop	family	otop	otop	both	yes	yes
+OTOP2	otop	Q7RTS6	otop	family	otop	otop	both	yes	yes
+OTOP3	otop	Q7RTS5	otop	family	otop	otop	both	yes	yes
+P2RX1	p2x	P51575		family	p2x	p2x	profile_only	no	yes
+P2RX2	p2x	Q9UBL9		family	p2x	p2x	profile_only	no	yes
+P2RX3	p2x	P56373		family	p2x	p2x	profile_only	no	yes
+P2RX4	p2x	Q99571		family	p2x	p2x	profile_only	no	yes
+P2RX5	p2x	Q93086		family	p2x	p2x	profile_only	no	yes
+P2RX6	p2x	O15547		family	p2x	p2x	profile_only	no	yes
+P2RX7	p2x	Q99572		family	p2x	p2x	profile_only	no	yes
+PANX1	pannexin	Q96RD7		family	pannexin	pannexin	profile_only	no	yes
+PANX2	pannexin	Q96RD6		family	pannexin	pannexin	profile_only	no	yes
+PANX3	pannexin	Q96QZ0		family	pannexin	pannexin	profile_only	no	yes
+PIEZO1	piezo	Q92508	piezo	family	piezo	piezo	both	yes	yes
+PIEZO2	piezo	Q9H5I5	piezo	family	piezo	piezo	both	yes	yes
+RYR1	ryr	P21817	ryr	family	ryr	ryr	both	yes	yes
+RYR2	ryr	Q92736	ryr	family	ryr	ryr	both	yes	yes
+RYR3	ryr	Q15413	ryr	family	ryr	ryr	both	yes	yes
+TMC1	tmc	Q8TDI8	tmc	family	tmc	tmc	both	yes	yes
+TMC2	tmc	Q8TDI7	tmc	family	tmc	tmc	both	yes	yes
+TMC3	tmc	Q7Z5M5	tmc	family	tmc	tmc	both	yes	yes
+TMC4	tmc	Q7Z404	tmc	family	tmc	tmc	both	yes	yes
+TMC5	tmc	Q6UXY8	tmc	family	tmc	tmc	both	yes	yes
+TMC6	tmc	Q7Z403	tmc	family	tmc	tmc	both	yes	yes
+TMC7	tmc	Q7Z402	tmc	family	tmc	tmc	both	yes	yes
+TMC8	tmc	Q8IU68	tmc	family	tmc	tmc	both	yes	yes
+TMEM175	tmem175	Q9BSA9	tmem175	family	tmem175	tmem175	both	yes	yes
+TPCN1	tpc	Q9ULQ1		family	tpc	tpc	profile_only	no	yes
+TPCN2	tpc	Q8NHX9		family	tpc	tpc	profile_only	no	yes
+TMEM38A	tric	Q9H6F2	tric	family	tric	tric	both	yes	yes
+TMEM38B	tric	Q9NVV0	tric	family	tric	tric	both	yes	yes
+TRPA1	trpa	O75762		family	trpa	trpa	profile_only	no	yes
+TRPC1	trpc	P48995	trpc	family	trpc	trpc	both	yes	yes
+TRPC3	trpc	Q13507	trpc	family	trpc	trpc	both	yes	yes
+TRPC4	trpc	Q9UBN4		family	trpc	trpc	profile_only	no	yes
+TRPC5	trpc	Q9UL62		family	trpc	trpc	profile_only	no	yes
+TRPC6	trpc	Q9Y210	trpc	family	trpc	trpc	both	yes	yes
+TRPC7	trpc	Q9HCX4	trpc	family	trpc	trpc	both	yes	yes
+TRPM1	trpm	Q7Z4N2		family	trpm	trpm	profile_only	no	yes
+TRPM2	trpm	O94759		family	trpm	trpm	profile_only	no	yes
+TRPM3	trpm	Q9HCF6		family	trpm	trpm	profile_only	no	yes
+TRPM4	trpm	Q8TD43		family	trpm	trpm	profile_only	no	yes
+TRPM5	trpm	Q9NZQ8		family	trpm	trpm	profile_only	no	yes
+TRPM6	trpm	Q9BX84	trpm	family	trpm	trpm	both	yes	yes
+TRPM7	trpm	Q96QT4	trpm	family	trpm	trpm	both	yes	yes
+TRPM8	trpm	Q7Z2W7		family	trpm	trpm	profile_only	no	yes
+MCOLN1	trpml	Q9GZU1	trpml	family	trpml	trpml	both	yes	yes
+MCOLN2	trpml	Q8IZK6	trpml	family	trpml	trpml	both	yes	yes
+MCOLN3	trpml	Q8TDD5	trpml	family	trpml	trpml	both	yes	yes
+PKD2	trpp	Q13563	trpp	family	trpp	trpp	both	yes	yes
+PKD2L1	trpp	Q9P0L9	trpp	family	trpp	trpp	both	yes	yes
+PKD2L2	trpp	Q9NZM6	trpp	family	trpp	trpp	both	yes	yes
+TRPV1	trpv	Q8NER1		family	trpv	trpv	profile_only	no	yes
+TRPV2	trpv	Q9Y5S1		family	trpv	trpv	profile_only	no	yes
+TRPV3	trpv	Q8NET8		family	trpv	trpv	profile_only	no	yes
+TRPV4	trpv	Q9HBA0		family	trpv	trpv	profile_only	no	yes
+TRPV5	trpv	Q9NQA5		family	trpv	trpv	profile_only	no	yes
+TRPV6	trpv	Q9H1D0		family	trpv	trpv	profile_only	no	yes
+TTYH1	tweety	Q9H313	tweety	family	tweety	tweety	both	yes	yes
+TTYH2	tweety	Q9BSA4	tweety	family	tweety	tweety	both	yes	yes
+TTYH3	tweety	Q9C0H2	tweety	family	tweety	tweety	both	yes	yes
+VDAC1	vdac	P21796	vdac	family	vdac	vdac	both	yes	yes
+VDAC2	vdac	P45880	vdac	family	vdac	vdac	both	yes	yes
+VDAC3	vdac	Q9Y277	vdac	family	vdac	vdac	both	yes	yes
+ZACN	zac	Q401N2	nonchannel_achbp	family	zac		conflict	no	no

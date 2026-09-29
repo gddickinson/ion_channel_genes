@@ -1,0 +1,26 @@
+{
+  "A_s1_panel": {
+    "positives": 71,
+    "correct": 69,
+    "sf_only_correct": 0,
+    "wrong_family_same_sf": 1,
+    "wrong_superfamily": 0,
+    "no_call": 1,
+    "decoy_ok": 26,
+    "decoy_called_channel": 0,
+    "loo": 95,
+    "sole_seed": 2
+  },
+  "B_orthologues": {
+    "positives": 534,
+    "correct": 534,
+    "sf_only_correct": 0,
+    "wrong_family_same_sf": 0,
+    "wrong_superfamily": 0,
+    "no_call": 0,
+    "decoy_ok": 49,
+    "decoy_called_channel": 0,
+    "loo": 0,
+    "sole_seed": 0
+  }
+}
