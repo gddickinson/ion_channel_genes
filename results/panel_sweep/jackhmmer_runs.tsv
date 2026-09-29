@@ -1,0 +1,69 @@
+family	seed	rounds	converged	verdict	rule	killed_at	accepted_rounds	n_accepted	seconds	reason
+kv_shaker	tr|F7EBT4|F7EBT4_MONDO	10	False	killed	K1	2	1	820	523.8	round 2: other-family share 73.0% (2128/2916), +36.1% on the round-1 baseline 36.8% (limit 10% points)
+kv_modifier	sp|Q9BQ31|KCNS3_HUMAN	10	False	killed	K3	10	9	8603	747.2	10-round ceiling without converging; no completeness claim may rest on this run
+kv_kcnq	sp|P97414|KCNQ1_MOUSE	10	False	killed	K3	10	9	4411	1258.1	10-round ceiling without converging; no completeness claim may rest on this run
+kv_eag	sp|Q12809|KCNH2_HUMAN	10	False	killed	K3	10	9	5181	3855.4	10-round ceiling without converging; no completeness claim may rest on this run
+kca_slo	sp|Q8AYS8|KCMA1_CHICK	10	False	killed	K1	2	1	300	1211.0	round 2: other-family share 83.8% (1932/2307), +29.8% on the round-1 baseline 54.0% (limit 10% points)
+kca_sk	sp|Q9UGI6|KCNN3_HUMAN	10	False	killed	K1	2	1	112	2147.2	round 2: other-family share 83.3% (1087/1305), +70.8% on the round-1 baseline 12.5% (limit 10% points)
+kir	sp|Q64273|KCNJ2_RAT	4	True	clean			4	308	60.0	no kill rule fired
+k2p	tr|A0A9J7HWA8|A0A9J7HWA8_BRAFL	10	False	killed	K1	2	1	403	982.9	round 2: other-family share 50.1% (525/1047), +50.1% on the round-1 baseline 0.0% (limit 10% points)
+kcsa_prok	sp|O27564|MTHK_METTH	10	False	killed	K2	2	1	128	103.3	round 2 grew the included set to 2193, 17.13× the previous 128 (limit 10.0×)
+nav	sp|Q99250|SCN2A_HUMAN	10	False	killed	K1	2	1	581	7563.7	round 2: other-family share 80.5% (1164/1445), +14.3% on the round-1 baseline 66.3% (limit 10% points)
+cav	sp|Q13936|CAC1C_HUMAN	10	False	killed	K1	2	1	574	8999.2	round 2: other-family share 73.1% (1089/1490), +27.8% on the round-1 baseline 45.3% (limit 10% points)
+nalcn	sp|Q8BXR5|NALCN_MOUSE	10	False	killed	K3	10	9	8841	7462.0	10-round ceiling without converging; no completeness claim may rest on this run
+catsper	sp|Q7RTX7|CTSR4_HUMAN	10	False	killed	K3	10	9	3977	2013.6	10-round ceiling without converging; no completeness claim may rest on this run
+tpc	sp|Q8NHX9|TPC2_HUMAN	10	False	killed	K1	2	1	441	1618.3	round 2: other-family share 84.0% (1240/1477), +11.6% on the round-1 baseline 72.3% (limit 10% points)
+cng	sp|P29973|CNGA1_HUMAN	10	False	killed	K1	2	1	1028	1727.0	round 2: other-family share 40.0% (1118/2793), +11.3% on the round-1 baseline 28.7% (limit 10% points)
+hcn	sp|Q9JKA7|HCN4_RAT	10	False	killed	K3	10	9	4705	6032.4	10-round ceiling without converging; no completeness claim may rest on this run
+trpc	sp|Q9UBN4|TRPC4_HUMAN	10	False	killed	K3	10	9	10557	3083.6	10-round ceiling without converging; no completeness claim may rest on this run
+trpv	sp|Q8NER1|TRPV1_HUMAN	10	False	killed	K2	2	1	267	2781.6	round 2 grew the included set to 5852, 21.92× the previous 267 (limit 10.0×)
+trpm	sp|Q9BX84|TRPM6_HUMAN	10	False	killed	K1	2	1	376	4255.0	round 2: other-family share 43.5% (358/823), +29.4% on the round-1 baseline 14.1% (limit 10% points)
+trpa	sp|O75762|TRPA1_HUMAN	10	False	killed	K1	3	2	7919	3157.1	round 3: other-family share 16.0% (1436/8962), +13.6% on the round-1 baseline 2.4% (limit 10% points)
+trpml	sp|Q8TDD5|MCLN3_HUMAN	10	False	killed	K1	2	1	84	706.3	round 2: other-family share 75.4% (402/533), +57.6% on the round-1 baseline 17.9% (limit 10% points)
+trpp	sp|Q13563|PKD2_HUMAN	10	False	killed	K1	2	1	416	1395.5	round 2: other-family share 75.2% (955/1270), +22.3% on the round-1 baseline 52.9% (limit 10% points)
+trpn	tr|Q9GRV5|Q9GRV5_CAEEL	10	False	killed	K1	4	3	8503	3082.7	round 4: other-family share 20.8% (1965/9424), +12.1% on the round-1 baseline 8.8% (limit 10% points)
+nachr	tr|A0A9J7KTV5|A0A9J7KTV5_BRAFL	10	True	clean			10	1635	893.2	no kill rule fired
+gabaa	tr|A0A803T7J4|A0A803T7J4_ANOCA	9	True	clean			9	1629	960.1	no kill rule fired
+glyr	sp|O75311|GLRA3_HUMAN	10	False	killed	K3	10	9	1623	539.6	10-round ceiling without converging; no completeness claim may rest on this run
+ht3	sp|A5X5Y0|5HT3E_HUMAN	7	True	clean			7	1625	276.6	no kill rule fired
+zac	sp|Q401N2|ZACN_HUMAN	7	True	clean			7	1624	100.1	no kill rule fired
+plgic_invertebrate	sp|G5EBR3|GLUCL_CAEEL	8	True	clean			8	1628	271.2	no kill rule fired
+plgic_prok	sp|Q7NDN8|GLIC_GLOVI	10	False	killed	K3	10	9	1613	64.3	10-round ceiling without converging; no completeness claim may rest on this run
+ampa	sp|P48058|GRIA4_HUMAN	10	False	killed	K1	6	5	2734	270.5	round 6: other-family share 71.7% (2326/3244), +13.9% on the round-1 baseline 57.8% (limit 10% points)
+kainate	sp|Q13002|GRIK2_HUMAN	10	False	killed	K1	2	1	714	351.0	round 2: other-family share 65.5% (1407/2147), +19.3% on the round-1 baseline 46.2% (limit 10% points)
+nmda	sp|Q13224|NMDE2_HUMAN	10	False	killed	K1	3	2	1192	273.7	round 3: other-family share 70.7% (1604/2269), +16.5% on the round-1 baseline 54.1% (limit 10% points)
+delta_glur	sp|O43424|GRID2_HUMAN	10	False	killed	K1	6	5	2693	649.6	round 6: other-family share 71.6% (2245/3137), +12.4% on the round-1 baseline 59.2% (limit 10% points)
+iglur_nonvertebrate	sp|Q8GXJ4|GLR34_ARATH	10	False	killed	K3	10	9	4146	684.0	10-round ceiling without converging; no completeness claim may rest on this run
+iglur_prok	tr|P73797|P73797_SYNY3	10	False	killed	K3	10	9	3670	114.2	10-round ceiling without converging; no completeness claim may rest on this run
+p2x	sp|Q93086|P2RX5_HUMAN	3	True	clean			3	125	19.0	no kill rule fired
+p2x_nonmetazoan	sp|Q86JM7|P2XA_DICDI	4	True	clean			4	125	15.5	no kill rule fired
+enac	sp|P51170|SCNNG_HUMAN	4	True	clean			4	490	66.5	no kill rule fired
+asic	sp|P78348|ASIC1_HUMAN	4	True	clean			4	491	28.8	no kill rule fired
+deg_invertebrate	sp|P24612|MEC4_CAEEL	7	True	clean			7	490	188.0	no kill rule fired
+clc_channel	sp|P51788|CLCN2_HUMAN	10	False	killed	K3	10	9	579	3252.9	10-round ceiling without converging; no completeness claim may rest on this run
+bestrophin	sp|O76090|BEST1_HUMAN	3	True	clean			3	117	93.0	no kill rule fired
+cftr	sp|P13569|CFTR_HUMAN	10	False	killed	K3	10	9	3504	3950.2	10-round ceiling without converging; no completeness claim may rest on this run
+tweety	sp|Q3TH73|TTYH2_MOUSE	10	False	killed	K3	10	9	179	660.5	10-round ceiling without converging; no completeness claim may rest on this run
+ano_channel	sp|Q9NQ90|ANO2_HUMAN	10	False	killed	K3	10	9	484	660.4	10-round ceiling without converging; no completeness claim may rest on this run
+ano_scramblase	sp|Q32M45|ANO4_HUMAN	10	False	killed	K1	8	7	414	959.3	round 8: other-family share 22.7% (102/449), +12.0% on the round-1 baseline 10.7% (limit 10% points)
+osca_tmem63	sp|Q5T3F8|TM63B_HUMAN	10	False	killed	K1	4	3	268	1233.6	round 4: other-family share 50.6% (278/549), +50.6% on the round-1 baseline 0.0% (limit 10% points)
+tmc	sp|Q8TDI7|TMC2_HUMAN	4	True	clean			4	158	822.0	no kill rule fired
+piezo	sp|E2JF22|PIEZ1_MOUSE	10	False	killed	K3	10	9	760	6135.6	10-round ceiling without converging; no completeness claim may rest on this run
+mscl	sp|P0A742|MSCL_ECOLI	2	True	clean			2	6	7.1	no kill rule fired
+mscs	sp|P0C0S1|MSCS_ECOLI	4	True	clean			4	81	16.0	no kill rule fired
+connexin	sp|P23242|CXA1_MOUSE	3	True	clean			3	401	243.8	no kill rule fired
+pannexin	sp|Q96RD7|PANX1_HUMAN	9	True	killed	K1	2	1	42	117.3	round 2: other-family share 30.4% (21/69), +30.4% on the round-1 baseline 0.0% (limit 10% points)
+innexin	sp|Q03412|UNC7_CAEEL	6	True	killed	K1	2	1	80	48.7	round 2: other-family share 27.3% (39/143), +26.0% on the round-1 baseline 1.2% (limit 10% points)
+lrrc8	sp|Q8TDW0|LRC8C_HUMAN	10	False	killed	K3	10	9	9025	530.9	10-round ceiling without converging; no completeness claim may rest on this run
+calhm	sp|Q9HA72|CAHM2_HUMAN	4	True	clean			4	95	16.6	no kill rule fired
+itpr	sp|P11881|ITPR1_MOUSE	10	False	killed	K1	3	2	341	1246.3	round 3: other-family share 55.9% (430/769), +38.8% on the round-1 baseline 17.1% (limit 10% points)
+ryr	sp|P21817|RYR1_HUMAN	10	False	killed	K3	10	9	6378	5278.2	10-round ceiling without converging; no completeness claim may rest on this run
+tric	sp|Q9H6F2|TM38A_HUMAN	3	True	clean			3	46	30.4	no kill rule fired
+mcu	sp|Q9NWR8|MCUB_HUMAN	5	True	clean			5	73	38.2	no kill rule fired
+vdac	sp|P45880|VDAC2_HUMAN	7	True	clean			7	158	25.9	no kill rule fired
+tmem175	sp|Q9CXY1|TM175_MOUSE	3	True	clean			3	49	13.6	no kill rule fired
+orai	sp|Q96D31|ORAI1_HUMAN	4	True	clean			4	59	36.3	no kill rule fired
+hv1	sp|Q96D96|HVCN1_HUMAN	10	False	killed	K1	2	1	80	543.3	round 2: other-family share 83.8% (656/783), +60.0% on the round-1 baseline 23.8% (limit 10% points)
+otop	sp|Q7RTM1|OTOP1_HUMAN	4	True	clean			4	92	238.0	no kill rule fired
+clic	sp|Q9Y696|CLIC4_HUMAN	10	False	killed	K3	10	9	1565	44.6	10-round ceiling without converging; no completeness claim may rest on this run
+viroporin	sp|P05919|VPU_HV1H2	2	True	clean			2	1	6.3	no kill rule fired

@@ -80,9 +80,10 @@ def prep() -> dict:
     return stats
 
 
-def _search(prof: str, db: Path, n_db: int, cpu: int) -> dict:
+def _search(prof: str, db: Path, n_db: int, cpu: int,
+            out_dir: Path | None = None) -> dict:
     hmm = s3_dir("profiles") / f"{prof}.hmm"
-    out = s3_dir("domtbl") / f"{prof}.domtbl"
+    out = (out_dir or s3_dir("domtbl")) / f"{prof}.domtbl"
     side = out.with_suffix(".json")
     h = sha256(hmm)
     if side.exists() and json.loads(side.read_text()).get("hmm_sha256") == h \

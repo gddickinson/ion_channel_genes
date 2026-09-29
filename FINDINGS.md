@@ -387,3 +387,43 @@ census, because the census never searched the protein signatures that
 define the viral channels. It is the only channel family with this gap. The
 profile sweep will cover these three viruses *(pending: S3b)*. A fix to the
 census itself is an open task.
+
+## S3b — what searching by protein signature misses (2026-09-29)
+
+**Searching by protein signature finds almost every ion channel in the 50
+organisms with a reference gene set, but not all of them.** The census was
+built by looking for the protein segments that databases annotate as
+channel pores. Searching the same organisms' complete gene sets with
+whole-family models finds 8,755 channels. 230 of them (2.6 %) carry no
+annotated pore segment at all, and 96 of those are confident. The losses
+are not random. **The voltage-gated proton channel Hv1** is the worst case
+among real channels: 25 of the 33 Hv1 proteins in the panel, in snails, a
+limpet, moss, fish, a sea anemone and *Trichoplax*, lack the annotation the
+census searched for. That fits the earlier finding that the Hv1 domain
+model was built from mammals. Chloride intracellular channels (CLICs) in
+plants, ciliates and invertebrates follow, and so do all three viral
+channels: HIV Vpu, influenza M2 and the SARS-CoV-2 envelope protein. The
+miss rate is 1 % in vertebrates, 3 % in invertebrates and 13 % in plants.
+Fungi and the malaria parasite show none, but they have few channels to
+miss.
+
+**One apparent discovery is an artefact, and the report says so.** Thirty-
+seven "new" TRPN (NOMPC) channels turned up, including in human and mouse,
+which have no TRPN. They are ankyrin-repeat proteins: the TRPN model is
+mostly its long ankyrin-repeat spring, so any protein made of ankyrin
+repeats matches enough of it to pass the coverage test. The same happens
+with leucine-rich repeats for LRRC8. These are counted as an upper bound,
+not as channels, and fixing the test is an open task.
+
+**Iterative search from a single channel reaches its whole superfamily in
+one step, not just its family.** Starting from one sodium channel, the
+first round already includes calcium channels, TPCs and CatSper, and the
+second round adds more of them. Starting
+from any Cys-loop receptor subunit (nicotinic, GABA-A, glycine, 5-HT3,
+ZAC, invertebrate or bacterial), the search converges on the same ~1,625
+receptors. The same holds for the DEG/ENaC (490) and P2X (125) families.
+In the 24 searches that converged cleanly, the iterative search recovers
+3,352 of the 3,356 family members the models call (99.9 %), so the census
+is not missing members that an unconstrained search would find. That
+claim is limited to those 24 families *(pending: S5 for absences, S15 for
+the per-superfamily recall curve)*.

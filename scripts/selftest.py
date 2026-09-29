@@ -273,6 +273,35 @@ check("assembly rank: annotated beats a better unannotated assembly",
       max([_a("GCA_1", False, "Chromosome", 10**8), _a("GCA_2", True, "Scaffold", 10**5)],
           key=_s4.assembly_rank)["accession"], "GCA_2")
 
+# ------------------------------------------------------------ S3b kill criterion
+print("\njackhmmer kill criterion (S3b, D10)")
+from scripts import s3b_kill as _k                            # noqa: E402
+_rd = lambda i, inc: {"round": i, "new_targets": 0, "included": inc}  # noqa: E731
+_fam = {f"o{i}": "nav" for i in range(50)} | {f"x{i}": "cav" for i in range(50)}
+_own = [f"o{i}" for i in range(50)]
+_x = [f"x{i}" for i in range(50)]
+check("K1: a high but steady other-family share at round 1 is homology, not drift",
+      _k.evaluate([_rd(1, _own[:20] + _x[:20]), _rd(2, _own[:25] + _x[:25])],
+                  _fam, "nav", converged=True)["verdict"], "clean")
+_ev = _k.evaluate([_rd(1, _own[:20]), _rd(2, _own[:20] + _x[:10])], _fam, "nav", True)
+check("K1: a rise in other-family share kills the run and keeps the rounds before it",
+      (_ev["rule"], _ev["accepted_rounds"]), ("K1", 1))
+check("K2: a ten-fold jump in the included set kills the run",
+      _k.evaluate([_rd(1, _own[:20]), _rd(2, _own[:20] + [f"u{i}" for i in range(300)])],
+                  _fam, "nav", True)["rule"], "K2")
+check("K3: converging on the last allowed round is not a ceiling kill",
+      _k.evaluate([_rd(i, _own[:5]) for i in range(1, _k.MAX_ITER + 1)], _fam, "nav",
+                  converged=True)["verdict"], "clean")
+check("K3: the ceiling without convergence is a kill",
+      _k.evaluate([_rd(i, _own[:5]) for i in range(1, _k.MAX_ITER + 1)], _fam, "nav",
+                  converged=False)["rule"], "K3")
+check("uncalled targets (module / no hit) never trip K1",
+      _k.evaluate([_rd(1, _own[:5]), _rd(2, _own[:5] + [f"u{i}" for i in range(40)])],
+                  _fam, "nav", True)["verdict"], "clean")
+check("accepted targets are the last accepted round's set",
+      _k.accepted_targets([_rd(1, ["a"]), _rd(2, ["a", "b"]), _rd(3, ["a", "b", "c"])], 2),
+      {"a", "b"})
+
 print()
 if FAILURES:
     print(f"{len(FAILURES)} invariant(s) FAILED: {', '.join(FAILURES)}")

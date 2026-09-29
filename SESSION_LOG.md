@@ -400,3 +400,34 @@ space** (SUBFAMILY signatures, D34 default) — emergent. (4) INTERFACE said
 
 ### Next session
 **S3b** — profile sweep over the S4 panel DB + jackhmmer to convergence (D10).
+
+---
+
+## 2026-09-29 — S3b: panel profile sweep + jackhmmer → census v3
+
+**Ran.** Protocol clean (drive attached, 668 GB free; catalogue and
+self-test clean). New: `scripts/s3b_lib.py`, `s3b_sweep.py`, `s3b_kill.py`,
+`s3b_jackhmmer.py`, `s3b_census_v3.py`, `s3b_report.py`; seven D10 self-test
+invariants; `s3_sweep._search` gained an `out_dir` parameter. 91 profiles ×
+822,499 panel entries (12.4 min wall); 68 jackhmmer runs (26.9 run-hours,
+6.1 h wall at 5×2 threads). Every table re-derivable offline from the
+archived domtbls and logs under `<data root>/hmmer/s3b/`.
+
+**Result.** Census v3 on the panel: 49,595 entries with evidence; 8,755
+census-family calls, 230 (2.6 %) outside census v2, 96 of them high
+confidence (CLIC 27, Hv1 15, CNG 10, TRPV 8, pannexin 8, viroporins 3/3).
+Instrument check vs S3a 99.8 %; human 319/320. jackhmmer: 24 clean, 44
+killed (K1 23, K2 2, K3 19); clean-run completeness 3,352 / 3,356.
+
+**Surprises.** (1) TRPN's "misses" are ankyrin-repeat proteins — D32's
+coverage gate fails for repeat-dominated profiles (emergent). (2) The first
+report counted auxiliary-subunit families as channel families
+(`startswith("channel")` matched `channel_associated`) — caught, fixed.
+(3) The ported K3 handling let non-converged runs contribute rounds 1–9:
+30,639 candidates → 7,980 once removed (D36). (4) K1 fires at round 2 in
+multi-family superfamilies; Cys-loop/DEG/P2X runs converge on one
+superfamily set — jackhmmer is a superfamily instrument there.
+
+### Next session
+**S5** — genomic tblastn + miniprot for absent cells of
+`family_by_species.tsv` and the two genome-only species (D4).

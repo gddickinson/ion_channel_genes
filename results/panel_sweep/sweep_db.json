@@ -1,0 +1,7 @@
+{
+  "db": "/Volumes/FANTOM/ION_CHANNEL_DATA/proteomes/s4/panel_refprot.fasta",
+  "db_sha256": "366dd895ad6b9a0c0695c910a1a889e877594071ab7dfd4498d1f61380e97857",
+  "sequences": 822499,
+  "unmapped_taxon": 0,
+  "species": 50
+}

@@ -1,0 +1,33 @@
+{
+  "panel_entries": 822499,
+  "with_evidence": 26936,
+  "in_census_v2": 12096,
+  "status": {
+    "channel": 8092,
+    "out_of_scope": 442,
+    "candidate": 7980,
+    "channel_associated": 3061,
+    "channel_contested": 663,
+    "transporter": 475,
+    "unassigned": 1410,
+    "superfamily_only": 1265,
+    "non_channel_homolog": 3476,
+    "conflict": 72
+  },
+  "basis": {
+    "v3a:both": 3736,
+    "panel_profile": 6860,
+    "jackhmmer_only": 7980,
+    "v3a:profile_only": 5544,
+    "v3a:unassigned": 1410,
+    "v3a:superfamily_only": 1231,
+    "v3a:conflict": 72,
+    "v3a:s2_only": 103
+  },
+  "human_recall": {
+    "right_family": 319,
+    "not_in_proteome": 1
+  },
+  "instrument_same": 12072,
+  "instrument_total": 12096
+}
