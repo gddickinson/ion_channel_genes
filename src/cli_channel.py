@@ -74,7 +74,7 @@ def resolve_symbol(symbol: str, taxon: int = 9606) -> str:
 def entry_meta(accession: str) -> dict:
     try:
         d = _json(f"{UNIPROT}/{accession}.json?fields=accession,gene_primary,"
-                  f"organism_name,length,ft_transmem")
+                  f"organism_name,length,ft_transmem,fragment")
     except Exception:
         return {}
     genes = d.get("genes") or [{}]
@@ -84,7 +84,13 @@ def entry_meta(accession: str) -> dict:
         "gene": (genes[0].get("geneName") or {}).get("value", ""),
         "species": (d.get("organism") or {}).get("scientificName", ""),
         "length": (d.get("sequence") or {}).get("length"),
-        "tm_count": tm or None,
+        # 0 is a measurement (the entry was fetched with its TM features and
+        # has none); only a failed fetch is unknown. `tm or None` turned every
+        # soluble protein into "unknown" — found in S2b, where the positive
+        # AChBP test (0 TM helices) then called nothing.
+        "tm_count": tm,
+        # UniProt's flag also carries "Precursor"; only "Fragment(s)" is one.
+        "fragment": "Fragment" in ((d.get("proteinDescription") or {}).get("flag") or ""),
     }
 
 
@@ -98,6 +104,7 @@ def build_query(accession: str, sleep_s: float = 0.1) -> ChannelQuery:
         accession=accession, sequence=seq, gene_symbol=meta.get("gene", ""),
         species=meta.get("species", ""), pfam_counts=counts,
         tm_count=meta.get("tm_count"), length_aa=meta.get("length"),
+        fragment=meta.get("fragment"),
     )
 
 

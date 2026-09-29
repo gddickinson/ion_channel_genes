@@ -60,6 +60,7 @@ class ChannelQuery:
     tm_count: int | None = None
     pore_loops: int | None = None
     length_aa: int | None = None
+    fragment: bool | None = None      # UniProt fragment flag; None = unknown
 
     def __post_init__(self) -> None:
         if self.length_aa is None and self.sequence:
@@ -140,7 +141,8 @@ def classify(query: ChannelQuery,
     votes: dict[str, str] = {}      # tier -> family key
 
     # -- tier 1: architecture ------------------------------------------
-    arch = match_architecture(query.pfam_counts)
+    arch = match_architecture(query.pfam_counts, tm_count=query.tm_count,
+                              length_aa=query.length_aa, fragment=query.fragment)
     fam, tier_name = _tier_family(arch)
     call.evidence.append(Evidence(tier_name, fam or arch.superfamily,
                                   arch.summary()))

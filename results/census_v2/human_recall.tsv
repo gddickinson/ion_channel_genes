@@ -120,9 +120,9 @@ HTR3C	ht3	Q8WXA8		superfamily_only	bronze		no
 HTR3D	ht3	Q70Z44		superfamily_only	bronze		no
 HTR3E	ht3	A5X5Y0		superfamily_only	bronze		no
 HVCN1	hv1	Q96D96	hv1	channel	silver	hazard	yes
-ITPR1	itpr	Q14643	itpr	channel	silver	hazard	yes
-ITPR2	itpr	Q14571	itpr	channel	silver	hazard	yes
-ITPR3	itpr	Q14573	itpr	channel	silver	hazard	yes
+ITPR1	itpr	Q14643		superfamily_only	bronze		no
+ITPR2	itpr	Q14571		superfamily_only	bronze		no
+ITPR3	itpr	Q14573		superfamily_only	bronze		no
 KCNK1	k2p	O00180	k2p	channel	silver	hazard	yes
 KCNK10	k2p	P57789	k2p	channel	silver	hazard	yes
 KCNK12	k2p	Q9HB15	k2p	channel	silver	hazard	yes
@@ -305,7 +305,7 @@ MCOLN2	trpml	Q8IZK6	trpml	channel	silver	hazard	yes
 MCOLN3	trpml	Q8TDD5	trpml	channel	silver	hazard	yes
 PKD2	trpp	Q13563	trpp	channel	silver	hazard	yes
 PKD2L1	trpp	Q9P0L9	trpp	channel	silver	hazard	yes
-PKD2L2	trpp	Q9NZM6	trpp	channel	silver	hazard	yes
+PKD2L2	trpp	Q9NZM6		superfamily_only	bronze		no
 TRPV1	trpv	Q8NER1		superfamily_only	bronze		no
 TRPV2	trpv	Q9Y5S1		superfamily_only	bronze		no
 TRPV3	trpv	Q8NET8		unassigned	unassigned		no
@@ -318,4 +318,4 @@ TTYH3	tweety	Q9C0H2	tweety	channel_contested	bronze	architecture	yes
 VDAC1	vdac	P21796	vdac	channel	bronze	architecture	yes
 VDAC2	vdac	P45880	vdac	channel	bronze	architecture	yes
 VDAC3	vdac	Q9Y277	vdac	channel	bronze	architecture	yes
-ZACN	zac	Q401N2	nonchannel_achbp	non_channel_homolog	silver	hazard	no
+ZACN	zac	Q401N2		superfamily_only	bronze		no

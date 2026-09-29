@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19 16:30:28",
+  "generated": "2026-09-28 20:51:17",
   "preset": "controls_benchmark",
   "anchor_validates": true,
   "mafft": "v7.526 (2024/Apr/26)",
@@ -16,17 +16,17 @@
   "specificity": 1.0,
   "hazards_defined": 16,
   "hazards_exercised": 16,
-  "elapsed_s": 866.0,
+  "elapsed_s": 1493.0,
   "counts_n": 97,
   "counts_called": 60,
   "counts_superfamily_only": 20,
   "counts_unassigned": 17,
   "counts_with_conflict": 2,
   "counts_census_members": 52,
-  "counts_conf_bronze": 42,
+  "counts_conf_bronze": 43,
   "counts_conf_silver": 13,
-  "counts_conf_gold": 25,
+  "counts_conf_gold": 24,
   "counts_conf_unassigned": 17,
   "counts_judged": 97,
-  "counts_correct": 57
+  "counts_correct": 58
 }

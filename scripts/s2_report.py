@@ -42,6 +42,7 @@ def main() -> int:
     s1 = read_tsv(OUT_DIR / "s1_panel.tsv")
     man = read_tsv(OUT_DIR / "manifest.tsv")
     part = read_tsv(OUT_DIR / "partial_architectures.tsv")
+    s2b = read_tsv(OUT_DIR / "s2b_transitions.tsv") if (OUT_DIR / "s2b_transitions.tsv").exists() else []
 
     n = S["records"]
     s1_pos = [r for r in s1 if CATALOGUE[r["expected_family"]].status.value in CHANNELISH]
@@ -59,7 +60,8 @@ def main() -> int:
 
     L = [f"# S2 — census v2: every UniProtKB protein carrying a pore signature",
          "", f"*Rendered from the tables in this directory by `scripts/s2_report.py`. "
-         f"UniProtKB release {S['uniprot_release']}.*", "",
+         f"UniProtKB release {S['uniprot_release']}. Revision "
+         f"{S.get('revision', 'r1')} — earlier revisions are in git history.*", "",
          "## Headline", "",
          f"- **{n:,} records** carry at least one of the catalogue's "
          f"{len(sigs)} pore signatures (union count {int(union['uniprot_count']):,}; "
@@ -150,6 +152,23 @@ def main() -> int:
           "in `s1_panel.tsv`.)", "",
           "## Bulk files (data root)", "",
           table(man, ["file", "bytes", "records", "sha256"]), ""]
+    if s2b:
+        R = json.loads((OUT_DIR / "s2b_revision.json").read_text())
+        L += ["", "## Revision r2 — hazard rules H2, H4, H13 as positive tests (S2b)", "",
+              "S3a's calibration and its check against the IP3R project's census "
+              "found three hazard rules that made a family call from what a "
+              "protein *lacks* — which this project's conventions forbid. Each "
+              "was rewritten so that a family is called only on a domain it "
+              "carries and its rivals do not; where no such domain exists "
+              "(ITPR against RyR; AChBP against a receptor fragment) the "
+              "architecture tier now stops at the superfamily and the family "
+              "call is left to a sequence-level tier. "
+              f"**{R['rechecked']:,} records** carry an accession those rules "
+              f"consult and were re-classified; **{R['changed']:,} calls "
+              f"changed**, and {R['changed_outside_recheck']} changed outside "
+              "that set (checked, not assumed). The r1 call files are archived "
+              "on the data root under `calls_r1/`.", "",
+              table(s2b, ["r1_call", "r2_call", "r2_hazards", "records"], 12), ""]
     (OUT_DIR / "report.md").write_text("\n".join(L))
     print(f"wrote {OUT_DIR / 'report.md'}")
     return 0

@@ -263,3 +263,46 @@ unassigned. D32 recorded.
 ### Next session
 **S4** — proteome scope. S3b waits on it. The S2 hazard-rule fixes (H2, H4,
 H13) are emergent rows and can precede S4 if the user prefers.
+
+---
+
+## 2026-09-28 — S2b: hazard rules H2, H4, H13 rewritten as positive tests
+
+**Why.** User-directed, straight after S3a, whose calibration and external
+check traced most S2 errors to three rules that call a family from an
+absence (CLAUDE.md forbids it).
+
+**Measured first.** Which domains separate each pair in census v2 (with the
+S3a profile call as the independent label): `PF02026` and `PF06459` each sit
+only on profile-RyR records; PLAT/REJ/GPS only on polycystin-1-like;
+`PF18109` only (1,358/1,358) on profile-TRPP. ITPR has no domain RyR lacks.
+
+**Changed.** `rules.py`: H4-ryr + H4-ryr-tm positive, H4-core superfamily;
+H13 PC1 by PLAT/REJ/GPS/PKD×5, TRPP by `PF18109`, core superfamily; H2
+superfamily-only for any LBD without the TM region. Rule engine gained
+whole-sequence bounds (TM, length, completeness). Catalogue: `trpp` PF20519
+FAMILY → SHARED_WITH_DECOY. Hazard records rewritten. D33 recorded.
+
+**H2 took three passes, and the record should show it.** (1) A positive
+"soluble, ≤ 300 aa" AChBP test called nothing at all — which exposed a bug:
+`tm_count` 0 was passed as None in `s2_classify.py` *and* `cli_channel.py`.
+(2) With that fixed it called 6,644, mostly 106–150-aa scraps and flagged
+fragments; adding a lower bound and a completeness test exposed a second
+bug: UniProt's flag "Precursor" (the Lymnaea AChBP itself) was read as a
+fragment. (3) The final shape test called 2,164, agreed with the profiles on
+53/1,263, and ~75 % of its calls were in Ecdysozoa/Chordata, which have no
+AChBP. Rejected: no positive AChBP test exists at the architecture tier.
+Each r2 intermediate call set is archived (`calls_r2a/`, `r2b/`, `r2c/`).
+
+**Result.** 108,407 records re-classified, 27,028 calls changed, 0 outside
+the re-checked set. S1 benchmark unchanged (50/72, 25/25) — ITPR1 now by
+reference, PKD1 now positively. S2 r2 human: 169 right, 0 wrong. Census v3a
+re-merged: conflicts 12,857 → 3,288; ITPR/RYR swaps vs IP3R 502 → 0; human
+319/320. The S1 re-run used an intermediate H2 rule; no panel protein can
+tell the versions apart (ZACN has 4 TM helices).
+
+**Emergent.** H11/H12 still absence rules; census `fragment` column
+conflates Precursor; S3a R3 seeds drawn from r1 calls.
+
+### Next session
+**S4** — proteome scope (S3b waits on it).

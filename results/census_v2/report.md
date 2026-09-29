@@ -1,14 +1,14 @@
 # S2 — census v2: every UniProtKB protein carrying a pore signature
 
-*Rendered from the tables in this directory by `scripts/s2_report.py`. UniProtKB release 2026_03.*
+*Rendered from the tables in this directory by `scripts/s2_report.py`. UniProtKB release 2026_03. Revision r2 (S2b, 2026-09-28: H2/H4/H13 positive tests) — earlier revisions are in git history.*
 
 ## Headline
 
 - **1,245,200 records** carry at least one of the catalogue's 67 pore signatures (union count 1,245,200; fetched 1,245,200).
-- **346,627 (27.8 %) get a family call**, 281,007 of them to a family catalogued as a channel; 398,282 (32.0 %) reach a superfamily only; 500,291 (40.2 %) are `unassigned` and stay in the census with that label.
-- **Every family call was made without the reference tier**: 315,261 by architecture or hazard rules and 31,366 by the selectivity-filter motif (37,393 four-repeat records projected onto Nav1.5).
-- **Human census genes: 319/320 enumerated, 173/320 called to the right family** (reviewed human entries; the gene symbol is used here to *score*, never to classify — H15).
-- **S1 panel: 75/97 enumerated; 45 correct without the reference tier vs 57 with it in S1.** Panel members from channel families enumerated: **71/71**. Non-channel members: 22/26 carry no pore signature and are excluded at enumeration; of the 4 that are enumerated, **0 are called to a channel family** (CLCN7 → superfamily_only, PKD1 → superfamily_only, KCTD1 → nonchannel_kctd, TPTE → nonchannel_vsp).
+- **324,769 (26.1 %) get a family call**, 267,581 of them to a family catalogued as a channel; 420,155 (33.7 %) reach a superfamily only; 500,276 (40.2 %) are `unassigned` and stay in the census with that label.
+- **Every family call was made without the reference tier**: 293,403 by architecture or hazard rules and 31,366 by the selectivity-filter motif (37,393 four-repeat records projected onto Nav1.5).
+- **Human census genes: 319/320 enumerated, 169/320 called to the right family** (reviewed human entries; the gene symbol is used here to *score*, never to classify — H15).
+- **S1 panel: 75/97 enumerated; 45 correct without the reference tier vs 57 with it in S1.** Panel members from channel families enumerated: **71/71**. Non-channel members: 22/26 carry no pore signature and are excluded at enumeration; of the 4 that are enumerated, **0 are called to a channel family** (CLCN7 → superfamily_only, PKD1 → assoc_polycystin1, KCTD1 → nonchannel_kctd, TPTE → nonchannel_vsp).
 
 ## Completeness
 
@@ -51,20 +51,18 @@ UniProt and InterPro run on different release cycles, so their counts for the sa
 
 | family | superfamily | records | reviewed | human | eukaryota | bacteria | archaea | viruses | gold | silver | bronze |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| k2p | ploop | 26005 | 61 | 38 | 26003 | 2 | 0 | 0 | 0 | 26005 | 0 |
+| k2p | ploop | 26006 | 61 | 38 | 26004 | 2 | 0 | 0 | 0 | 26006 | 0 |
 | cav | ploop | 20079 | 43 | 77 | 20079 | 0 | 0 | 0 | 5180 | 14084 | 815 |
 | connexin | connexin | 19856 | 111 | 52 | 19856 | 0 | 0 | 0 | 0 | 0 | 19856 |
 | osca_tmem63 | tmem16_like | 18520 | 35 | 16 | 18520 | 0 | 0 | 0 | 0 | 0 | 18520 |
-| kir | ploop | 17509 | 68 | 50 | 17458 | 51 | 0 | 0 | 0 | 17509 | 0 |
+| kir | ploop | 17510 | 68 | 50 | 17459 | 51 | 0 | 0 | 0 | 17510 | 0 |
 | vdac | porin | 17058 | 68 | 53 | 17058 | 0 | 0 | 0 | 0 | 0 | 17058 |
 | mscl | msc | 16591 | 385 | 0 | 1049 | 15494 | 46 | 2 | 0 | 0 | 16591 |
 | kca_slo | ploop | 13002 | 24 | 79 | 13002 | 0 | 0 | 0 | 0 | 0 | 13002 |
-| nav | ploop | 12207 | 39 | 35 | 12207 | 0 | 0 | 0 | 6569 | 4175 | 1463 |
+| nav | ploop | 12204 | 39 | 35 | 12204 | 0 | 0 | 0 | 6569 | 4175 | 1460 |
 | kv_kcnq | ploop | 8842 | 21 | 45 | 8842 | 0 | 0 | 0 | 0 | 0 | 8842 |
 | bestrophin | bestrophin | 8233 | 25 | 29 | 8233 | 0 | 0 | 0 | 0 | 0 | 8233 |
-| trpp | ploop | 7576 | 19 | 22 | 7576 | 0 | 0 | 0 | 0 | 6819 | 757 |
 | kv_eag | ploop | 7492 | 27 | 20 | 7485 | 7 | 0 | 0 | 0 | 0 | 7492 |
-| itpr | ca_release | 7208 | 15 | 17 | 7208 | 0 | 0 | 0 | 0 | 7208 | 0 |
 | tmem175 | tmem175 | 6987 | 10 | 15 | 1131 | 5672 | 184 | 0 | 0 | 0 | 6987 |
 | mcu | mcu | 6471 | 20 | 7 | 6468 | 3 | 0 | 0 | 0 | 0 | 6471 |
 | trpc | ploop | 6220 | 17 | 20 | 6220 | 0 | 0 | 0 | 0 | 0 | 6220 |
@@ -73,7 +71,7 @@ UniProt and InterPro run on different release cycles, so their counts for the sa
 | ryr | ca_release | 5618 | 13 | 20 | 5618 | 0 | 0 | 0 | 0 | 5297 | 321 |
 | calhm | calhm | 4946 | 19 | 8 | 4946 | 0 | 0 | 0 | 0 | 0 | 4946 |
 | cng | ploop | 4713 | 22 | 10 | 4713 | 0 | 0 | 0 | 0 | 0 | 4713 |
-| trpml | ploop | 4691 | 8 | 32 | 4691 | 0 | 0 | 0 | 0 | 3864 | 827 |
+| trpml | ploop | 4692 | 8 | 32 | 4692 | 0 | 0 | 0 | 0 | 3865 | 827 |
 | kca_sk | ploop | 4553 | 15 | 25 | 4553 | 0 | 0 | 0 | 0 | 0 | 4553 |
 | lrrc8 | innexin_like | 4357 | 17 | 29 | 4356 | 1 | 0 | 0 | 0 | 0 | 4357 |
 | orai | orai | 3586 | 16 | 11 | 3586 | 0 | 0 | 0 | 0 | 0 | 3586 |
@@ -82,6 +80,7 @@ UniProt and InterPro run on different release cycles, so their counts for the sa
 | tric | tric | 2673 | 19 | 16 | 2672 | 1 | 0 | 0 | 0 | 0 | 2673 |
 | trpm | ploop | 2280 | 6 | 3 | 2280 | 0 | 0 | 0 | 0 | 0 | 2280 |
 | cftr | abc_channel | 1469 | 42 | 16 | 1469 | 0 | 0 | 0 | 0 | 1445 | 24 |
+| trpp | ploop | 1358 | 7 | 8 | 1358 | 0 | 0 | 0 | 0 | 1358 | 0 |
 | nalcn | ploop | 1358 | 3 | 8 | 1358 | 0 | 0 | 0 | 0 | 1358 | 0 |
 | kv_shaker | ploop | 932 | 11 | 3 | 932 | 0 | 0 | 0 | 0 | 0 | 932 |
 | hv1 | hv | 685 | 3 | 5 | 685 | 0 | 0 | 0 | 0 | 685 | 0 |
@@ -93,14 +92,14 @@ These records carry a pore signature and were positively called to a family the 
 
 | family | superfamily | catalogue_status | records | reviewed | eukaryota | bacteria | archaea | viruses |
 |---|---|---|---|---|---|---|---|---|
-| nonchannel_kctd | ploop | non_channel_homolog | 31776 | 88 | 31711 | 1 | 0 | 64 |
-| nonchannel_achbp | cysloop | non_channel_homolog | 12570 | 13 | 12378 | 184 | 8 | 0 |
+| nonchannel_kctd | ploop | non_channel_homolog | 31777 | 88 | 31712 | 1 | 0 | 64 |
 | tmc | tmem16_like | channel_contested | 8494 | 27 | 8494 | 0 | 0 | 0 |
 | clic | clic | channel_contested | 6354 | 25 | 6353 | 1 | 0 | 0 |
 | tweety | tweety | channel_contested | 4678 | 20 | 4677 | 1 | 0 | 0 |
+| assoc_polycystin1 | ploop | channel_associated | 4136 | 11 | 4136 | 0 | 0 | 0 |
 | assoc_sur | abc_channel | channel_associated | 980 | 0 | 62 | 918 | 0 | 0 |
 | nonchannel_vsp | hv | non_channel_homolog | 767 | 3 | 767 | 0 | 0 | 0 |
-| nonchannel_class_c_gpcr | iglur | non_channel_homolog | 1 | 0 | 1 | 0 | 0 | 0 |
+| nonchannel_class_c_gpcr | iglur | non_channel_homolog | 2 | 0 | 2 | 0 | 0 | 0 |
 
 ## Superfamily only
 
@@ -108,25 +107,26 @@ These records carry a pore signature and were positively called to a family the 
 
 | superfamily | records | ambiguous | reviewed | eukaryota | bacteria | archaea | viruses |
 |---|---|---|---|---|---|---|---|
-| ploop | 164252 | 29040 | 283 | 131855 | 31125 | 1232 | 39 |
-| cysloop | 70846 | 0 | 249 | 70785 | 61 | 0 | 0 |
+| ploop | 166350 | 28029 | 284 | 133953 | 31125 | 1232 | 39 |
+| cysloop | 83413 | 0 | 262 | 83160 | 245 | 8 | 0 |
 | iglur | 56369 | 0 | 127 | 55605 | 763 | 0 | 1 |
 | clc | 47655 | 0 | 192 | 27507 | 19886 | 261 | 0 |
 | deg_enac | 25925 | 25925 | 78 | 25925 | 0 | 0 | 0 |
 | tmem16_like | 13287 | 13287 | 17 | 13287 | 0 | 0 | 0 |
 | innexin_like | 11653 | 0 | 40 | 11651 | 0 | 0 | 2 |
 | p2x | 8295 | 8295 | 29 | 8295 | 0 | 0 | 0 |
+| ca_release | 7208 | 0 | 15 | 7208 | 0 | 0 | 0 |
 
 ## Which tier decided
 
 | decisive_tier | status | records |
 |---|---|---|
-| architecture | channel | 180809 |
-| hazard | channel | 68832 |
-| hazard | non_channel_homolog | 45114 |
+| architecture | channel | 180049 |
+| hazard | channel | 56166 |
+| hazard | non_channel_homolog | 32546 |
 | motif | channel | 31366 |
 | architecture | channel_contested | 19526 |
-| hazard | channel_associated | 980 |
+| hazard | channel_associated | 5116 |
 
 ## Four-repeat selectivity filters
 
@@ -166,15 +166,15 @@ These records carry a pore signature and were positively called to a family the 
 |---|---|---|---|---|---|---|
 | PF00027 | 149676 | 148190 | 44284 | 105376 | 16 | 0 |
 | PF00497 | 117066 | 115927 | 982 | 115648 | 434 | 2 |
-| PF13426 | 112925 | 111788 | 18187 | 89759 | 4977 | 1 |
+| PF13426 | 112924 | 111788 | 18186 | 89759 | 4977 | 1 |
 | PF00924 | 63768 | 29370 | 9340 | 51623 | 2804 | 1 |
 | PF21082 | 31906 | 143 | 92 | 30000 | 1814 | 0 |
-| PF23317 | 12289 | 10388 | 12289 | 0 | 0 | 0 |
+| PF23317 | 12287 | 10386 | 12287 | 0 | 0 | 0 |
 | PF04547 | 11053 | 10965 | 11053 | 0 | 0 | 0 |
 | PF02932 | 7307 | 7295 | 7282 | 21 | 4 | 0 |
 | PF18139 | 4720 | 1954 | 4720 | 0 | 0 | 0 |
 | PF05552 | 4569 | 3083 | 4 | 4042 | 523 | 0 |
-| PF10613 | 3849 | 3838 | 3844 | 5 | 0 | 0 |
+| PF10613 | 3852 | 3838 | 3847 | 5 | 0 | 0 |
 | PF25508 | 3682 | 643 | 3682 | 0 | 0 | 0 |
 | PF02714 | 3046 | 1293 | 3046 | 0 | 0 | 0 |
 | PF14703 | 2301 | 598 | 2301 | 0 | 0 | 0 |
@@ -183,11 +183,11 @@ These records carry a pore signature and were positively called to a family the 
 | PF22614 | 2058 | 2056 | 1911 | 147 | 0 | 0 |
 | PF23188 | 1802 | 107 | 1802 | 0 | 0 | 0 |
 | PF01365 | 1459 | 1156 | 1458 | 1 | 0 | 0 |
-| PF02026 | 1332 | 1080 | 684 | 570 | 13 | 65 |
 | PF13967 | 1331 | 528 | 1331 | 0 | 0 | 0 |
+| PF02026 | 1326 | 1074 | 678 | 570 | 13 | 65 |
 | PF24871 | 1125 | 766 | 1125 | 0 | 0 | 0 |
-| PF17655 | 1079 | 1069 | 1051 | 28 | 0 | 0 |
-| PF08344 | 938 | 938 | 938 | 0 | 0 | 0 |
+| PF17655 | 1078 | 1069 | 1050 | 28 | 0 | 0 |
+| PF08344 | 933 | 933 | 933 | 0 | 0 | 0 |
 | PF15917 | 788 | 252 | 788 | 0 | 0 | 0 |
 | PF16178 | 614 | 614 | 614 | 0 | 0 | 0 |
 | PF03530 | 603 | 602 | 603 | 0 | 0 | 0 |
@@ -201,23 +201,22 @@ A derived family rule requires *every* `FAMILY`-level signature the catalogue de
 
 | family | declared_family_signatures | unassigned_records |
 |---|---|---|
-| (several) |  | 174777 |
-| iglur_prok | PF00497,PF07885 | 115930 |
+| (several) |  | 174773 |
+| iglur_prok | PF00497,PF07885 | 115929 |
 | kv_eag | PF00027,PF13426 | 111789 |
 | mscs | PF00924,PF05552,PF21082 | 65506 |
-| (none) |  | 12687 |
+| (none) |  | 12690 |
 | osca_tmem63 | PF02714,PF13967,PF14703 | 4505 |
 | trpm | PF16519,PF18139,PF23317,PF25508 | 3960 |
 | piezo | PF12166,PF15917,PF23188,PF24871,PF24874 | 3939 |
 | kca_slo | PF03493,PF22614 | 2243 |
-| ryr | PF02026,PF06459 | 1503 |
-| kir | PF01007,PF08466,PF17655 | 1081 |
+| ryr | PF02026,PF06459 | 1497 |
+| kir | PF01007,PF08466,PF17655 | 1080 |
 | kca_sk | PF02888,PF03530 | 981 |
-| trpc | PF08344,PF23317 | 938 |
+| trpc | PF08344,PF23317 | 933 |
 | hcn | PF00027,PF08412 | 291 |
 | nav | PF06512,PF11933 | 99 |
 | cng | PF00027,PF16526 | 61 |
-| trpp | PF20519 | 1 |
 
 ## Human census genes
 
@@ -227,7 +226,7 @@ Not enumerated (1): the reviewed human entry carries none of the pore signatures
 |---|---|
 | GLRA4 | glyr |
 
-Enumerated but not called to the expected family (146):
+Enumerated but not called to the expected family (150):
 
 | gene | expected_family | accession | s2_family | s2_status | confidence |
 |---|---|---|---|---|---|
@@ -294,6 +293,9 @@ Enumerated but not called to the expected family (146):
 | HTR3C | ht3 | Q8WXA8 |  | superfamily_only | bronze |
 | HTR3D | ht3 | Q70Z44 |  | superfamily_only | bronze |
 | HTR3E | ht3 | A5X5Y0 |  | superfamily_only | bronze |
+| ITPR1 | itpr | Q14643 |  | superfamily_only | bronze |
+| ITPR2 | itpr | Q14571 |  | superfamily_only | bronze |
+| ITPR3 | itpr | Q14573 |  | superfamily_only | bronze |
 | GRIK1 | kainate | P39086 |  | superfamily_only | bronze |
 | GRIK2 | kainate | Q13002 |  | superfamily_only | bronze |
 | GRIK3 | kainate | Q13003 |  | superfamily_only | bronze |
@@ -370,13 +372,14 @@ Enumerated but not called to the expected family (146):
 | TRPM4 | trpm | Q8TD43 |  | superfamily_only | bronze |
 | TRPM5 | trpm | Q9NZQ8 |  | superfamily_only | bronze |
 | TRPM8 | trpm | Q7Z2W7 |  | unassigned | unassigned |
+| PKD2L2 | trpp | Q9NZM6 |  | superfamily_only | bronze |
 | TRPV1 | trpv | Q8NER1 |  | superfamily_only | bronze |
 | TRPV2 | trpv | Q9Y5S1 |  | superfamily_only | bronze |
 | TRPV3 | trpv | Q8NET8 |  | unassigned | unassigned |
 | TRPV4 | trpv | Q9HBA0 |  | superfamily_only | bronze |
 | TRPV5 | trpv | Q9NQA5 |  | superfamily_only | bronze |
 | TRPV6 | trpv | Q9H1D0 |  | superfamily_only | bronze |
-| ZACN | zac | Q401N2 | nonchannel_achbp | non_channel_homolog | silver |
+| ZACN | zac | Q401N2 |  | superfamily_only | bronze |
 
 ## S1 panel: S1 call vs S2 call
 
@@ -391,7 +394,9 @@ Enumerated but not called to the expected family (146):
 | Q9UBL9 | P2RX2 | p2x | p2x |  | superfamily_only | yes | no |
 | P35523 | CLCN1 | clc_channel | clc_channel |  | superfamily_only | yes | no |
 | Q5XXA6 | ANO1 | ano_channel | ano_channel |  | superfamily_only | yes | no |
+| Q14643 | ITPR1 | itpr | itpr |  | superfamily_only | yes | no |
 | Q09428 | ABCC8 | assoc_sur | assoc_sur |  | not_enumerated | yes | no |
+| P98161 | PKD1 | assoc_polycystin1 |  | assoc_polycystin1 | channel_associated | no | yes |
 | Q13255 | GRM1 | nonchannel_class_c_gpcr | nonchannel_class_c_gpcr |  | not_enumerated | yes | no |
 | Q9UBS5 | GABBR1 | nonchannel_class_c_gpcr | nonchannel_class_c_gpcr |  | not_enumerated | yes | no |
 | Q9Y6A1 | POMT1 | nonchannel_pomt | nonchannel_pomt |  | not_enumerated | yes | no |
@@ -403,5 +408,25 @@ Enumerated but not called to the expected family (146):
 
 | file | bytes | records | sha256 |
 |---|---|---|---|
-| raw_api/s2/census_v2.tsv.gz | 28605904 | 1245200 | abae909252a06abc3ed8b58f8b34c47ec5a96c5d1902150258d473c6f52045a7 |
-| raw_api/s2/census_v2.fasta.gz | 288662881 | 1245200 | 356737dfcc04644aebedeae91cdff223d480acf6633dcb280d98e5fba23f96a2 |
+| raw_api/s2/census_v2.tsv.gz | 28583664 | 1245200 | 3df545e4677fb6a426448ac51af621332119dcc0a309d4218b911c09c4e61a16 |
+| raw_api/s2/census_v2.fasta.gz | 288674179 | 1245200 | 7ec998de2b88733c39efefd56d8384fedcbff2dd44c2317b57685b046911923d |
+
+
+## Revision r2 — hazard rules H2, H4, H13 as positive tests (S2b)
+
+S3a's calibration and its check against the IP3R project's census found three hazard rules that made a family call from what a protein *lacks* — which this project's conventions forbid. Each was rewritten so that a family is called only on a domain it carries and its rivals do not; where no such domain exists (ITPR against RyR; AChBP against a receptor fragment) the architecture tier now stops at the superfamily and the family call is left to a sequence-level tier. **108,407 records** carry an accession those rules consult and were re-classified; **27,028 calls changed**, and 0 changed outside that set (checked, not assumed). The r1 call files are archived on the data root under `calls_r1/`.
+
+| r1_call | r2_call | r2_hazards | records |
+|---|---|---|---|
+| nonchannel_achbp | [cysloop] | H2 | 12567 |
+| itpr | [ca_release] | H4 | 7208 |
+| trpp | assoc_polycystin1 | H13 | 3125 |
+| trpp | [ploop] | H13 | 3093 |
+| [ploop] | assoc_polycystin1 | H13 | 1011 |
+| unassigned | [ploop] | H13 | 13 |
+| nav | [ploop] | H13 | 3 |
+| nonchannel_achbp | unassigned | H2,H3 | 3 |
+| unassigned | nonchannel_kctd | H12,H15,H2 | 1 |
+| unassigned | trpml | H13,H2,H7 | 1 |
+| unassigned | kir | H16,H2,H8 | 1 |
+| unassigned | k2p | H16,H2,H8 | 1 |

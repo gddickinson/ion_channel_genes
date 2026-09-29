@@ -11,7 +11,7 @@ assoc_k_beta	decoy	K+ channel beta and gamma subunits (KCNAB, KCNMB, LRRC26, DPP
 assoc_kcne	decoy	KCNE (MinK-related) accessory subunits	1	0	0.000			unassigned
 assoc_mcu_reg	decoy	MCU regulators (MICU1–3, EMRE/SMDT1, MCUR1)	2	0	0.000			unassigned
 assoc_nav_beta	decoy	Nav beta subunits (SCN1B–SCN4B)	1	0	0.000			unassigned
-assoc_polycystin1	decoy	Polycystin-1 family (PKD1, PKD1L1–3)	1	0	0.000			unassigned
+assoc_polycystin1	decoy	Polycystin-1 family (PKD1, PKD1L1–3)	1	1	1.000	hazard=1	silver=1	
 assoc_stim	decoy	STIM proteins (STIM1, STIM2)	1	0	0.000			unassigned
 assoc_sur	decoy	Sulfonylurea receptors (ABCC8, ABCC9)	1	1	1.000	hazard=1	silver=1	
 bestrophin	positive	Bestrophins (BEST1–BEST4)	1	1	1.000	architecture=1	bronze=1	
@@ -31,7 +31,7 @@ glyr	positive	Glycine receptors	1	0	0.000			unassigned
 hcn	positive	Hyperpolarisation-activated cyclic-nucleotide-gated channels (HCN)	2	2	1.000	reference=2	gold=2	
 ht3	positive	5-HT3 serotonin receptors	1	0	0.000			unassigned
 hv1	positive	Voltage-gated proton channel (HVCN1 / Hv1)	1	1	1.000	hazard=1	silver=1	
-itpr	positive	Inositol 1,4,5-trisphosphate receptors (ITPR1–3)	1	1	1.000	hazard=1	gold=1	
+itpr	positive	Inositol 1,4,5-trisphosphate receptors (ITPR1–3)	1	1	1.000	reference=1	bronze=1	
 k2p	positive	Two-pore-domain K+ channels (K2P)	2	2	1.000	hazard=2	silver=2	
 kainate	positive	Kainate receptors (GluK1–5)	1	0	0.000			unassigned
 kca_sk	positive	Small/intermediate-conductance Ca2+-activated K+ channels (SK, IK)	1	1	1.000	architecture=1	bronze=1	
@@ -73,4 +73,4 @@ trpp	positive	TRPP / polycystin-2 channels	1	1	1.000	hazard=1	gold=1
 trpv	positive	TRPV — vanilloid receptor channels	2	0	0.000			unassigned
 tweety	positive	Tweety homologues (TTYH1–TTYH3)	1	1	1.000	architecture=1	bronze=1	
 vdac	positive	Voltage-dependent anion channels (VDAC1–3)	1	1	1.000	reference=1	gold=1	
-zac	positive	Zinc-activated channel (ZACN)	1	0	0.000			nonchannel_achbp
+zac	positive	Zinc-activated channel (ZACN)	1	0	0.000			unassigned

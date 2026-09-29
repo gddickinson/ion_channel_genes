@@ -122,6 +122,7 @@ def section_benchmark(T, J) -> list[str]:
 
 def section_census(T, J) -> list[str]:
     S = J["summary"]
+    S2 = json.loads((OUT_DIR.parent / "census_v2" / "summary.json").read_text())
     n = S["records"]
     basis = {r["basis"]: int(r["records"]) for r in T["v3_basis"]}
     fam_calls = basis.get("both", 0) + basis.get("s2_only", 0) + basis.get("profile_only", 0)
@@ -171,7 +172,8 @@ def section_census(T, J) -> list[str]:
         f"**{n:,} records**; **{fam_calls:,} ({pct(fam_calls, n)}) now carry "
         f"a family call** — both instruments {basis.get('both', 0):,}, S2 "
         f"only {basis.get('s2_only', 0):,}, profile only "
-        f"{basis.get('profile_only', 0):,} — against 346,627 (27.8 %) in S2. "
+        f"{basis.get('profile_only', 0):,} — against {S2['family_calls']:,} "
+        f"({pct(S2['family_calls'], n)}) in S2 ({S2.get('revision', 'r1')}). "
         f"Superfamily only {basis.get('superfamily_only', 0):,}; unassigned "
         f"{basis.get('unassigned', 0):,}; **conflict "
         f"{basis.get('conflict', 0):,}**, kept and counted.",
@@ -209,8 +211,9 @@ def section_census(T, J) -> list[str]:
         "`s2_only` is a family call S2 made that the profile did not "
         "confirm — usually because the profile abstained (`module`: the "
         "record matches under 30 % of the family profile). These calls are "
-        "only as good as S2's rule, and section 6 shows one rule that is "
-        "not good enough. Largest groups (`call_support.tsv`):",
+        "only as good as S2's rule: the first S3a merge found three S2 "
+        "rules that were not (H2, H4, H13 — rewritten in S2b, see the "
+        "census v2 report). Largest groups (`call_support.tsv`):",
         "",
         table(sorted((r for r in T["call_support"] if r["v3_basis"] == "s2_only"),
                      key=lambda r: -int(r["records"])),
@@ -288,19 +291,19 @@ def section_external() -> list[str]:
         "",
         table(ext, ["project", "parent_call", "verdict", "records"]),
         "",
-        f"**The {swapped:,} swapped records are all one error, and it is "
-        f"S2's.** {sw_h4:,} of them were called ITPR by S2's hazard rule "
-        f"`H4-itpr` — `PF08709` *without* `PF02026`/`PF06459` — while the "
-        f"profile abstained (median length {sw_len} aa). `PF08709` is a "
-        "domain ITPR and RyR *share* (H4: they share every diagnostic "
-        "domain), so the rule is an absence test, which this project's "
-        "conventions forbid, and it calls N-terminal RyR fragments IP3 "
-        "receptors. On evidence both families carry, the right answer is "
-        "no family call — not ITPR, and not necessarily RYR either. The "
-        "parent project's basis for each RYR call is in `parent_reason`; "
-        f"{sw_arch:,} of the {swapped:,} are its architecture-only calls. "
-        "The profile does not repeat the error; the merge inherits it "
-        "because an abstaining profile leaves S2's call standing.",
+        (f"**No ITPR/RYR swap remains.** The first S3a merge found "
+         "every swap to be one S2 error — the absence rule `H4-itpr` "
+         "(`PF08709`, which both families carry, without the RyR domains ⇒ "
+         "ITPR) calling N-terminal RyR fragments IP3 receptors. S2b removed "
+         "it: ITPR has no positive architectural test, so those records are "
+         "superfamily-only unless the profile calls them. That is why "
+         "fewer parent ITPR calls are matched than before — the ones "
+         "withdrawn had agreed by chance, on evidence that could not "
+         "decide."
+         if swapped == 0 else
+         f"**{swapped:,} records swap ITPR and RYR** — {sw_h4:,} of them "
+         f"S2 hazard calls the profile did not confirm (median length "
+         f"{sw_len} aa). See `external_disagreements.tsv`."),
         "",
         f"PIEZO census v5 is a membership list that includes fragments and "
         f"short-motif hits; {pz_un:,} of its records are unassigned here. "

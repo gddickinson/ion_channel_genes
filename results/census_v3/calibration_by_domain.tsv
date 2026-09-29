@@ -1,5 +1,5 @@
 domain	v2_calls	agree	disagree	profile_superfamily_only	profile_ambiguous	profile_module	profile_low_score	profile_no_hit	agreement
-Archaea	271	130	8	0	0	75	16	42	0.942
-Bacteria	28380	22728	177	26	0	3289	770	1390	0.9923
-Eukaryota	317366	286973	9936	960	12	17198	617	1670	0.9665
+Archaea	263	130	0	0	0	75	16	42	1.0
+Bacteria	28198	22728	0	21	0	3289	770	1390	1.0
+Eukaryota	295712	282866	552	382	6	10277	372	1257	0.9981
 Viruses	65	15	0	0	0	19	9	22	1.0

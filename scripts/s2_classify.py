@@ -78,8 +78,12 @@ def classify_row(rec: dict) -> dict:
     project = counts.get("PF00520", 0) >= FOUR_REPEAT_MIN
     q = ChannelQuery(accession=rec["accession"], sequence=rec["sequence"],
                      gene_symbol=rec["gene"], pfam_counts=counts,
-                     tm_count=rec["tm_count"] if rec["tm_count"] else None,
-                     length_aa=rec["length"])
+                     # 0 TM helices is a measurement, not a missing value
+                     # (S2b: a truthiness test here made it None).
+                     tm_count=rec["tm_count"] if rec["tm_count"] not in ("", None) else None,
+                     length_aa=rec["length"],
+                     # UniProt's flag: "Fragment(s)" is a fragment; "Precursor" is not
+                     fragment="Fragment" in (rec["fragment"] or ""))
     c = classify(q, refs=None, nav_reference=_NAV if project else "")
     decisive = next((e.tier for e in c.evidence if e.decisive), "")
     motif = next((e.detail for e in c.evidence if e.tier == "motif"), "")
@@ -127,11 +131,56 @@ def run_shard(key: str, pool: Pool, limit: int | None) -> int:
     return len(recs)
 
 
+def recheck_shard(key: str, pool: Pool, accs: frozenset, archive: str) -> tuple[int, int]:
+    """Re-classify only the records carrying one of `accs`; copy the rest.
+
+    For a rule change that can only affect records carrying one of a known
+    set of accessions (every rewritten rule requires one of them), the other
+    calls are pure functions of unchanged evidence and are copied verbatim.
+    The previous call file is moved to `calls_<archive>/`, never overwritten.
+    """
+    src = raw_dir() / "calls" / f"{key}.tsv.gz"
+    if (raw_dir() / f"calls_{archive}" / src.name).exists():
+        raise SystemExit(f"{key}: calls_{archive}/{src.name} exists — this shard "
+                         "was already re-checked; refusing to overwrite the archive")
+    old = {}
+    with gzip.open(src, "rt", newline="") as fh:
+        for r in csv.DictReader(fh, delimiter="\t"):
+            old[r["accession"]] = r
+    recs, order = [], []
+    for r in iter_pages(key):
+        order.append(r["accession"])
+        if set(pfam_dict(r["pfam"])) & accs:
+            recs.append(r)
+    if len(order) != len(old):
+        raise SystemExit(f"{key}: {len(order)} page records vs {len(old)} calls")
+    new = {row["accession"]: row for row in pool.imap(classify_row, recs, chunksize=200)}
+    arch = raw_dir() / f"calls_{archive}"
+    arch.mkdir(exist_ok=True)
+    tmp = src.with_suffix(".part")
+    with gzip.open(tmp, "wt", newline="") as fh:
+        w = csv.DictWriter(fh, COLS, delimiter="\t", extrasaction="ignore")
+        w.writeheader()
+        for a in order:
+            w.writerow(new.get(a) or old[a])
+    src.rename(arch / src.name)
+    tmp.rename(src)
+    changed = sum(new[a]["family"] != old[a]["family"] or
+                  new[a]["superfamily"] != old[a]["superfamily"] for a in new)
+    print(f"  {key}: {len(recs):,} re-classified, {changed:,} calls changed", flush=True)
+    return len(recs), changed
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("-j", "--jobs", type=int, default=max(1, (os.cpu_count() or 2) - 2))
     ap.add_argument("--shard", action="append")
     ap.add_argument("--limit", type=int)
+    ap.add_argument("--recheck", default="",
+                    help="comma-separated Pfam accessions: re-classify only the "
+                         "records carrying one, copy every other call")
+    ap.add_argument("--archive", default="r1",
+                    help="suffix for the archived previous call files (--recheck)")
     a = ap.parse_args()
     nav = nav_reference()
     if not verify_anchor(nav, FOUR_REPEAT_ANCHOR):
@@ -143,7 +192,10 @@ def main() -> int:
     with Pool(a.jobs, initializer=_init, initargs=(nav, seeds)) as pool:
         for n, key in enumerate(keys):
             live([(f"classify {k}", i < n) for i, k in enumerate(keys)], a.jobs)
-            run_shard(key, pool, a.limit)
+            if a.recheck:
+                recheck_shard(key, pool, frozenset(a.recheck.split(",")), a.archive)
+            else:
+                run_shard(key, pool, a.limit)
     live([(f"classify {k}", True) for k in keys], a.jobs)
     return 0
 

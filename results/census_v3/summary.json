@@ -1,24 +1,24 @@
 {
   "records": 1245200,
   "basis": {
-    "both": 310386,
-    "profile_only": 394289,
-    "superfamily_only": 93766,
-    "unassigned": 407787,
-    "conflict": 12857,
-    "s2_only": 26115
+    "both": 306270,
+    "profile_only": 407974,
+    "superfamily_only": 101942,
+    "unassigned": 407779,
+    "s2_only": 17947,
+    "conflict": 3288
   },
   "status": {
-    "channel": 613270,
+    "channel": 617442,
     "transporter": 35214,
-    "superfamily_only": 93766,
-    "unassigned": 407787,
-    "conflict": 12857,
+    "superfamily_only": 101942,
+    "unassigned": 407779,
+    "conflict": 3288,
     "channel_contested": 42154,
-    "non_channel_homolog": 38165,
-    "channel_associated": 1987
+    "channel_associated": 5135,
+    "non_channel_homolog": 32246
   },
-  "human_correct_s2": 173,
-  "human_correct_v3": 318,
+  "human_correct_s2": 169,
+  "human_correct_v3": 319,
   "human_genes": 320
 }

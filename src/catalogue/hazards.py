@@ -55,15 +55,19 @@ HAZARDS: list[Hazard] = [
         shared_evidence=("`PF02931` (Neur_chan_LBD) is a complete soluble "
                          "protein in the molluscan acetylcholine-binding "
                          "proteins."),
-        discriminator=("Require `PF02932` (the TM region) as well as the LBD. "
-                       "**Measured 2026-08-19: three catalogued channels are "
-                       "annotated with the LBD and no TM region — human ZACN, "
-                       "and both prokaryotic pentamers GLIC and ELIC.** The "
-                       "rule therefore rejects the superfamily's own rooting "
-                       "outgroup. It keeps its priority and the three false "
-                       "negatives are recorded, because a rule relaxed to fit "
-                       "its exceptions has stopped being a test; the fix "
-                       "belongs in S3's profile methods, not here."),
+        discriminator=("Require `PF02932` (the TM region) as well as the LBD "
+                       "for a channel. **There is no positive AChBP test at "
+                       "the architecture tier (S2b, measured):** the absence "
+                       "rule (LBD without `PF02932` ⇒ AChBP) called 6,633 "
+                       "receptor-length proteins AChBP, and its best positive "
+                       "replacement — a complete, soluble, AChBP-sized LBD — "
+                       "agreed with the S3a profiles on 53 of 1,263 records, "
+                       "~75 % of its calls in lineages with no known AChBP. "
+                       "An LBD without the TM region is superfamily-only; "
+                       "AChBP is called by a sequence-level tier (reference "
+                       "margin, or the S3a profile margin — D32). ZACN, GLIC "
+                       "and ELIC, which carry the LBD with no `PF02932`, fall "
+                       "to the superfamily the same way."),
         test_owner="src/classify/rules.py:ARCHITECTURE_RULES",
         severity="high", provenance=P.DB,
     ),
@@ -86,9 +90,15 @@ HAZARDS: list[Hazard] = [
         shared_evidence=("`PF08709`, `PF01365`, `PF08454`, `PF02815` are all "
                          "carried by both. The parent project measured 49 % of "
                          "zebrafish `PF08709` records to be RyRs."),
-        discriminator=("`PF02026` (the RyR repeat, ×4) and `PF06459` are "
-                       "present in RYR and absent from ITPR; confirm with the "
-                       "labelled-bait identity margin (D14a). Length (2.7 kaa "
+        discriminator=("`PF02026` (the RyR repeat, ×4) or `PF06459` with the "
+                       "shared core ⇒ RYR (positive). **There is no positive "
+                       "ITPR test at the architecture tier** — ITPR carries "
+                       "no domain RyR lacks — so the core alone is "
+                       "superfamily-only and the ITPR call comes from the "
+                       "labelled-bait identity margin (D14a) or the S3a "
+                       "profile margin (D32). The absence rule it replaced "
+                       "(S2b) called N-terminal RyR fragments ITPR: 502 "
+                       "records the IP3R project calls RYR. Length (2.7 kaa "
                        "vs 5.0 kaa) supports the call and never makes it."),
         test_owner="src/classify/rules.py + src/discovery/candidates.py",
         severity="high", provenance=P.DB,
@@ -193,10 +203,15 @@ HAZARDS: list[Hazard] = [
         ("trpml", "trpp", "assoc_polycystin1"),
         shared_evidence=("Measured: MCOLN1, PKD2 and PKD1 all carry "
                          "`PF08016` (Polycystin cation channel)."),
-        discriminator=("`PF21381` (MCLN_ECD) ⇒ TRPML; `PF20519` without "
-                       "`PF00801`×many ⇒ TRPP; `PF00801`×15 + `PF02010` (REJ) "
-                       "⇒ polycystin-1, which is catalogued as "
-                       "channel-associated."),
+        discriminator=("Each family by a domain it carries (S2b): `PF21381` "
+                       "(MCLN_ECD) ⇒ TRPML; `PF18109` with `PF20519` ⇒ TRPP; "
+                       "PLAT (`PF01477`), REJ (`PF02010`), GPS (`PF01825`) or "
+                       "`PF00801`×≥5 with the channel domain ⇒ polycystin-1 "
+                       "(channel-associated). The channel domain alone is "
+                       "superfamily-only. The absence rule it replaced "
+                       "(`PF20519` without the mucolipin domain ⇒ TRPP) was "
+                       "measured in S3a calling 2,989 polycystin-1-like "
+                       "proteins (median 2,263 aa) TRPP."),
         test_owner="src/classify/rules.py:ARCHITECTURE_RULES",
         severity="medium", provenance=P.DB,
     ),

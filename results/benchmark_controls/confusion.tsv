@@ -11,7 +11,7 @@ assoc_k_beta	unassigned	3
 assoc_kcne	unassigned	1
 assoc_mcu_reg	unassigned	2
 assoc_nav_beta	unassigned	1
-assoc_polycystin1	unassigned	1
+assoc_polycystin1	assoc_polycystin1	1
 assoc_stim	unassigned	1
 assoc_sur	assoc_sur	1
 bestrophin	bestrophin	1
@@ -77,4 +77,4 @@ trpp	trpp	1
 trpv	unassigned	2
 tweety	tweety	1
 vdac	vdac	1
-zac	nonchannel_achbp	1
+zac	unassigned	1

@@ -286,9 +286,14 @@ FAMILIES: list[CF] = [
         tm_per_subunit=6, pore_loops_per_subunit=1,
         signatures=(Sig("pfam", "PF08016", "PKD_channel", L.SHARED_WITH_DECOY, 1, P.DB,
                         "shared with TRPML and with PKD1 (H13)"),
-                    Sig("pfam", "PF20519", "Polycystin_dom", L.FAMILY, 1, P.DB,
-                        "also on PKD1 — the discriminator is PF21381's absence"),
-                    Sig("pfam", "PF18109", "Fer4_24", L.SUBFAMILY, 1, P.DB)),
+                    Sig("pfam", "PF20519", "Polycystin_dom", L.SHARED_WITH_DECOY, 1, P.DB,
+                        "also on polycystin-1 (H13) — was FAMILY until S2b, "
+                        "which made the derived rule an absence test; S3a "
+                        "measured 2,989 polycystin-1-like proteins called TRPP"),
+                    Sig("pfam", "PF18109", "Fer4_24", L.SUBFAMILY, 1, P.DB,
+                        "the positive TRPP test (H13): measured in census v2 on "
+                        "1,358 records, all carrying PF20519, all profile-called "
+                        "TRPP; present on ~38 % of TRPP")),
         exemplars=(Ex("Hs_PKD2", "PKD2", "Homo sapiens", "Q13563"),
                    Ex("Hs_PKD2L1", "PKD2L1", "Homo sapiens")),
         human_genes=("PKD2", "PKD2L1", "PKD2L2"),

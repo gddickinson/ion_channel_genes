@@ -286,3 +286,32 @@ superfamily-conflict fix; not yet verified as proton channels)*.
 **Two independent projects agree on the IP3 and ryanodine receptors.** On
 15,600 proteins both censuses contain, the same family is called for 12,200,
 and the largest disagreement traces to one identifiable rule.
+
+---
+
+## S2b — rules that decide by absence, replaced (2026-09-28)
+
+**Two pairs of channel families cannot be told apart by their domains at
+all, and the census now says so instead of guessing.** IP3 receptors carry
+no domain that ryanodine receptors lack; a protein fragment carrying only
+their shared N-terminal domain could be either. Likewise, nothing in a
+Cys-loop binding domain's annotation, size or lack of membrane helices
+separates the soluble snail acetylcholine-binding protein from a receptor
+gene model that stops before its membrane region — a test built on those
+features put three quarters of its "AChBPs" in insects, worms and
+vertebrates, which have none. These proteins now stop at the superfamily
+unless a sequence-level method names them.
+
+**Where a positive marker exists, it works.** Ryanodine receptors are
+recognised by their own repeat or membrane region, polycystin-1 relatives by
+their PLAT, REJ or GPS domains, and a large subset of TRPP channels by a
+C-terminal domain found on no other family. Checked against the independent
+profile method, those calls agree 99.9–100 %.
+
+**The census got more honest, not smaller.** The profile method still names
+most of these proteins, so 58.8 % of records carry a family. What changed
+is that the calls resting on a missing domain are gone: conflicts between
+the two methods fell from 12,857 to 3,288, the census no longer calls any
+ryanodine-receptor fragment an IP3 receptor where the IP3R project's
+independent census disagrees, and 319 of 320 human channel genes are placed
+correctly.

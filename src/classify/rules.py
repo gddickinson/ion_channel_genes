@@ -38,6 +38,7 @@ P_FAMILY = 40           # one family-level signature
 P_SUPERFAMILY = 10      # superfamily evidence only — no family call
 
 
+
 @dataclass(frozen=True)
 class ArchitectureRule:
     rid: str
@@ -49,13 +50,30 @@ class ArchitectureRule:
     priority: int = P_FAMILY
     hazard: str = ""
     rationale: str = ""
+    # Whole-sequence measurements a rule may require. A rule that states one
+    # does not fire when the measurement is unknown: a positive test needs
+    # the measurement, and "unknown" is not "zero".
+    max_tm: int | None = None         # predicted TM helices ≤ this
+    max_length: int = 0               # sequence length ≤ this (0 = no bound)
+    min_length: int = 0               # sequence length ≥ this (0 = no bound)
+    complete_only: bool = False       # UniProt does not flag it a fragment
 
-    def matches(self, counts: dict[str, int]) -> bool:
+    def matches(self, counts: dict[str, int], tm_count: int | None = None,
+                length_aa: int | None = None,
+                fragment: bool | None = None) -> bool:
         if any(a not in counts for a in self.require):
             return False
         if any(counts.get(a, 0) < n for a, n in self.min_copies):
             return False
         if any(a in counts for a in self.forbid):
+            return False
+        if self.max_tm is not None and (tm_count is None or tm_count > self.max_tm):
+            return False
+        if self.max_length and (not length_aa or length_aa > self.max_length):
+            return False
+        if self.min_length and (not length_aa or length_aa < self.min_length):
+            return False
+        if self.complete_only and fragment is not False:
             return False
         return bool(self.require or self.min_copies)
 
@@ -67,6 +85,12 @@ class ArchitectureRule:
             bits.append(f"{a}×≥{n}")
         if self.forbid:
             bits.append("without " + "/".join(self.forbid))
+        if self.max_tm is not None:
+            bits.append(f"TM≤{self.max_tm}")
+        if self.min_length or self.max_length:
+            bits.append(f"{self.min_length or 0}–{self.max_length or '∞'} aa")
+        if self.complete_only:
+            bits.append("complete")
         return " ".join(bits)
 
 
@@ -77,10 +101,20 @@ HAZARD_RULES: list[ArchitectureRule] = [
                      priority=P_HAZARD, hazard="H2",
                      rationale="LBD + TM region ⇒ Cys-loop channel; family "
                                "within the superfamily needs the reference tier"),
-    ArchitectureRule("H2-achbp", "nonchannel_achbp", "cysloop", ("PF02931",),
-                     forbid=("PF02932",), priority=P_HAZARD, hazard="H2",
-                     rationale="LBD alone ⇒ soluble acetylcholine-binding "
-                               "protein (known false negative: human ZACN)"),
+    # H2 has no positive AChBP test at this tier (S2b, measured). The absence
+    # rule (LBD without PF02932 ⇒ AChBP) called 6,633 receptor-length
+    # proteins AChBP. Its best positive replacement — a complete, soluble
+    # (0 TM helices), AChBP-sized LBD — agreed with the S3a profiles on 53 of
+    # 1,263 records where both called, and ~75 % of its 2,164 calls were in
+    # Ecdysozoa and Chordata, which have no known AChBP: it recognises
+    # truncated receptor gene models as readily as AChBP. So an LBD without
+    # the TM region is superfamily evidence, and AChBP is called by a
+    # sequence-level tier (reference identity, or the S3a profile margin).
+    ArchitectureRule("H2-lbd", "", "cysloop", ("PF02931",),
+                     priority=P_HAZARD, hazard="H2",
+                     rationale="a Cys-loop LBD without the TM region: AChBP, "
+                               "a receptor lacking its TM annotation, or a "
+                               "fragment — superfamily only"),
     # H3 — the iGluR clamshell is also the class C GPCR ligand-binding domain.
     ArchitectureRule("H3-gpcr", "nonchannel_class_c_gpcr", "iglur",
                      ("PF01094", "PF00003"), priority=P_HAZARD, hazard="H3",
@@ -88,14 +122,27 @@ HAZARD_RULES: list[ArchitectureRule] = [
     ArchitectureRule("H3-iglur", "", "iglur", ("PF00060",), forbid=("PF00003",),
                      priority=P_HAZARD, hazard="H3",
                      rationale="the pore region is what makes it ionotropic"),
-    # H4 — ITPR versus RYR (inherited decision D14).
+    # H4 — ITPR versus RYR (inherited decision D14). ITPR has no domain RyR
+    # lacks, so there is no positive ITPR test at this tier: the shared core
+    # places a protein in the superfamily and the family call is left to a
+    # sequence-level tier (reference identity, or S3a's profile margin).
+    # S3a measured the old absence rule (PF08709 without RyR domains ⇒ ITPR)
+    # calling N-terminal RyR fragments ITPR — 502 records the IP3R project
+    # calls RYR. PF02026 and PF06459 are each positive RyR evidence: on
+    # PF08709 carriers in census v2, 5,160 and 4,789 records respectively,
+    # every one profile-called RYR.
     ArchitectureRule("H4-ryr", "ryr", "ca_release", ("PF08709", "PF02026"),
                      priority=P_HAZARD, hazard="H4",
                      rationale="the RyR repeat is present in RYR and absent "
                                "from ITPR"),
-    ArchitectureRule("H4-itpr", "itpr", "ca_release", ("PF08709",),
-                     forbid=("PF02026", "PF06459"), priority=P_HAZARD, hazard="H4",
-                     rationale="IP3R core without any RyR-specific domain"),
+    ArchitectureRule("H4-ryr-tm", "ryr", "ca_release", ("PF08709", "PF06459"),
+                     priority=P_HAZARD, hazard="H4",
+                     rationale="RyR TM4-6 region with the shared N-terminal core"),
+    ArchitectureRule("H4-core", "", "ca_release", ("PF08709",),
+                     priority=P_HAZARD, hazard="H4",
+                     rationale="the IP3R/RyR core both families carry: "
+                               "superfamily only — ITPR has no positive "
+                               "architectural test"),
     # H9 — a voltage-sensor domain is not evidence of a channel.
     ArchitectureRule("H9-vsp", "nonchannel_vsp", "hv", ("PF00520", "PF10409"),
                      priority=P_HAZARD, hazard="H9",
@@ -121,16 +168,34 @@ HAZARD_RULES: list[ArchitectureRule] = [
     ArchitectureRule("H12-kctd", "nonchannel_kctd", "ploop", ("PF02214",),
                      forbid=("PF00520", "PF07885"), priority=P_HAZARD, hazard="H12",
                      rationale="T1/BTB without any pore module ⇒ KCTD"),
-    # H13 — PF08016 covers TRPML, TRPP and polycystin-1.
-    ArchitectureRule("H13-pkd1", "assoc_polycystin1", "ploop", ("PF08016",),
-                     min_copies=(("PF00801", 5),), priority=P_HAZARD, hazard="H13",
-                     rationale="a long PKD-repeat ectodomain ⇒ polycystin-1"),
+    # H13 — PF08016 / PF20519 cover TRPML, TRPP and polycystin-1. Each
+    # family is called on a domain it carries and the others do not; the
+    # shared channel domain alone is superfamily evidence. S3a measured the
+    # old absence rule (polycystin domain without the mucolipin domain ⇒
+    # TRPP) calling 2,989 polycystin-1-like proteins (median 2,263 aa) TRPP.
+    *[ArchitectureRule(f"H13-pkd1-{mk}-{core}", "assoc_polycystin1", "ploop",
+                       (core, mk), priority=P_HAZARD, hazard="H13",
+                       rationale=f"polycystin-1 ectodomain marker {name}")
+      for core in ("PF08016", "PF20519")
+      for mk, name in (("PF01477", "PLAT"), ("PF02010", "REJ"), ("PF01825", "GPS"))],
+    *[ArchitectureRule(f"H13-pkd1-repeats-{core}", "assoc_polycystin1", "ploop",
+                       (core,), min_copies=(("PF00801", 5),), priority=P_HAZARD,
+                       hazard="H13",
+                       rationale="a long PKD-repeat ectodomain ⇒ polycystin-1")
+      for core in ("PF08016", "PF20519")],
     ArchitectureRule("H13-trpml", "trpml", "ploop", ("PF08016", "PF21381"),
                      priority=P_HAZARD, hazard="H13",
                      rationale="the mucolipin extracytosolic domain"),
-    ArchitectureRule("H13-trpp", "trpp", "ploop", ("PF08016", "PF20519"),
-                     forbid=("PF21381",), priority=P_HAZARD, hazard="H13",
-                     rationale="polycystin domain without the mucolipin domain"),
+    ArchitectureRule("H13-trpp", "trpp", "ploop", ("PF20519", "PF18109"),
+                     priority=P_HAZARD, hazard="H13",
+                     rationale="the TRPP C-terminal domain PF18109 (measured: "
+                               "1,358 census records, every one profile-called "
+                               "TRPP)"),
+    *[ArchitectureRule(f"H13-core-{core}", "", "ploop", (core,),
+                       priority=P_HAZARD, hazard="H13",
+                       rationale="polycystin channel domain shared by TRPP and "
+                                 "polycystin-1: superfamily only")
+      for core in ("PF08016", "PF20519")],
     # H16 — Kir and K2P differ by the copy number of one accession.
     ArchitectureRule("H16-k2p", "k2p", "ploop", min_copies=(("PF07885", 2),),
                      priority=P_HAZARD, hazard="H16",
@@ -239,10 +304,14 @@ class RuleMatch:
 
 
 def match_architecture(counts: dict[str, int],
-                       rules: list[ArchitectureRule] | None = None) -> RuleMatch:
-    """Match a `{accession: copies}` multiset against the rule table."""
+                       rules: list[ArchitectureRule] | None = None,
+                       tm_count: int | None = None,
+                       length_aa: int | None = None,
+                       fragment: bool | None = None) -> RuleMatch:
+    """Match a `{accession: copies}` multiset (plus the whole-sequence TM
+    count and length, for the rules that measure them) against the table."""
     rules = rules if rules is not None else all_rules()
-    fired = [r for r in rules if r.matches(counts)]
+    fired = [r for r in rules if r.matches(counts, tm_count, length_aa, fragment)]
     if not fired:
         return RuleMatch()
     best = max(r.priority for r in fired)

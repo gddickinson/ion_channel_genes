@@ -46,6 +46,10 @@ from src.catalogue.registry import human_genes                        # noqa: E4
 DOMAINS = ("Eukaryota", "Bacteria", "Archaea", "Viruses")
 CONF = ("gold", "silver", "bronze", "unassigned")
 PROV = ["source", "release", "shard"]
+# r1 = S2 as run 2026-09-28. r2 = S2b: hazard rules H2, H4, H13 rewritten as
+# positive tests; the 108,407 records carrying PF02931/PF08709/PF08016/PF20519
+# re-classified (`s2_classify.py --recheck`), r1 calls and bulk archived.
+REVISION = "r2 (S2b, 2026-09-28: H2/H4/H13 positive tests)"
 
 #: {family: its FAMILY-level accessions} — what a derived rule requires in full.
 FAMILY_SIGS = {k: {s.accession for s in f.signatures if s.level is Level.FAMILY}
@@ -243,6 +247,7 @@ def write_tables(n, status_conf, fam, sfo, tiers, uc, us, filters, projected,
     no_ref = sum(k for (t, _), k in tiers.items() if t in ("architecture", "hazard"))
     (OUT_DIR / "summary.json").write_text(json.dumps({
         "uniprot_release": release, "records": n, "family_calls": fam_calls,
+        "revision": REVISION,
         "family_calls_channel": sum(k for (t, s), k in tiers.items() if s == "channel"),
         "superfamily_only": sum(c["records"] for c in sfo.values()),
         "unassigned": sum(k for (s, _), k in status_conf.items() if s == "unassigned"),

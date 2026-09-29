@@ -27,7 +27,7 @@ sys.path.insert(0, str(ROOT))
 from src.catalogue import CATALOGUE, HAZARDS, validate
 from src.classify import ChannelQuery, classify, k_filter_hits
 from src.classify.motifs import FILTER_CALLS
-from src.classify.rules import match_architecture
+from src.classify.rules import HAZARD_RULES, match_architecture
 from src.phylo import NotAlignable, build_tier2, refused_superfamilies
 from src.utils.mafft import (alignment_stats, percent_identity,
                              project_positions)
@@ -60,7 +60,7 @@ check("every hazard has a discriminator",
 # ------------------------------------------- architecture / hazard rules
 print("\narchitecture rules — the hazard cases, by synthetic architecture")
 CASES = [
-    # (name, pfam counts, expected family, expected ambiguity)
+    # (name, pfam counts, expected family, expected ambiguity[, tm, length])
     ("Nav (H1)",        {"PF00520": 4, "PF06512": 1, "PF11933": 1}, "nav", []),
     ("Cav3 (H1)",       {"PF00520": 4}, "", []),          # filter tier's job
     ("KCTD (H12)",      {"PF02214": 1}, "nonchannel_kctd", []),
@@ -68,19 +68,29 @@ CASES = [
      ["kv_modifier", "kv_shaker"]),                        # honest ambiguity
     ("K2P (H16)",       {"PF07885": 2}, "k2p", []),
     ("Kir (H16)",       {"PF01007": 1}, "kir", []),
-    ("AChBP (H2)",      {"PF02931": 1}, "nonchannel_achbp", []),
+    # S2b: no architecture-tier AChBP call exists (measured non-diagnostic).
+    ("AChBP-shaped LBD (H2)",             {"PF02931": 1}, "", [], 0, 229, False),
+    ("LBD + TM helices, no PF02932 (H2)", {"PF02931": 1}, "", [], 4, 383, False),
     ("mGluR (H3)",      {"PF01094": 1, "PF00003": 1}, "nonchannel_class_c_gpcr", []),
     ("RyR (H4)",        {"PF08709": 1, "PF02026": 4, "PF02815": 1}, "ryr", []),
-    ("ITPR (H4)",       {"PF08709": 1, "PF02815": 1, "PF01365": 2}, "itpr", []),
+    # S2b: ITPR has no domain RyR lacks — superfamily only at this tier.
+    ("ITPR (H4)",       {"PF08709": 1, "PF02815": 1, "PF01365": 2}, "", []),
+    ("RyR N-terminal fragment (H4)", {"PF08709": 1}, "", []),
+    ("RyR TM4-6 (H4)",  {"PF08709": 1, "PF06459": 1}, "ryr", []),
     ("POMT (H10)",      {"PF02815": 1, "PF02366": 1}, "nonchannel_pomt", []),
     ("CFTR (H11)",      {"PF00664": 2, "PF00005": 2, "PF14396": 1}, "cftr", []),
     ("SUR1 (H11)",      {"PF00664": 2, "PF00005": 2}, "assoc_sur", []),
     ("VSP (H9)",        {"PF00520": 1, "PF10409": 1}, "nonchannel_vsp", []),
     ("PKD1 (H13)",      {"PF08016": 1, "PF00801": 15}, "assoc_polycystin1", []),
     ("TRPML (H13)",     {"PF08016": 1, "PF21381": 1}, "trpml", []),
+    ("TRPP (H13)",      {"PF08016": 1, "PF20519": 1, "PF18109": 1}, "trpp", []),
+    ("PKD1L-like, few PKD repeats (H13)",
+     {"PF08016": 1, "PF20519": 1, "PF01477": 1, "PF02010": 1}, "assoc_polycystin1", []),
+    ("polycystin channel domain alone (H13)", {"PF08016": 1, "PF20519": 1}, "", []),
 ]
-for name, counts, want_family, want_ambig in CASES:
-    m = match_architecture(counts)
+for name, counts, want_family, want_ambig, *meas in CASES:
+    tm, length, frag = (meas + [None, None, None])[:3]
+    m = match_architecture(counts, tm_count=tm, length_aa=length, fragment=frag)
     check(f"{name} family", m.family, want_family)
     if want_ambig:
         check(f"{name} ambiguity", sorted(m.ambiguous), sorted(want_ambig))
@@ -163,6 +173,25 @@ check("UniProt MatchStatus is read as a copy number",
       pfam_dict(_rec["pfam"]), {"PF00520": 4, "PF06512": 1})
 check("only Transmembrane features are counted", _rec["tm_count"], 24)
 check("census shard keys are unique", len({k for k, _ in SHARDS}), len(SHARDS))
+from scripts.s2_classify import classify_row                  # noqa: E402
+# Whole-sequence measurements reach the rule engine intact (S2b bugs: a
+# truthiness test turned 0 TM helices into "unknown", and UniProt's
+# "Precursor" flag was read as "Fragment"). Probed with a synthetic rule.
+from src.classify import rules as _rules                       # noqa: E402
+_probe = _rules.ArchitectureRule("probe", "nonchannel_achbp", "cysloop", ("PF99999",),
+                                 max_tm=0, min_length=150, max_length=300,
+                                 complete_only=True, priority=_rules.P_HAZARD)
+_saved = list(_rules.HAZARD_RULES)
+_rules.HAZARD_RULES.append(_probe)
+_row = {"accession": "X", "sequence": "M" * 229, "gene": "", "pfam": "PF99999:1",
+        "tm_count": 0, "length": 229, "fragment": "Precursor"}
+check("S2's row classifier passes 0 TM helices and 'Precursor' as measurements",
+      classify_row(_row)["family"], "nonchannel_achbp")
+check("… and 'Fragment' as a fragment",
+      classify_row({**_row, "fragment": "Fragment"})["family"], "")
+check("… and an unknown TM count as unknown, not zero",
+      classify_row({**_row, "tm_count": ""})["family"], "")
+_rules.HAZARD_RULES[:] = _saved
 
 # ------------------------------------------------ profile assignment (S3a)
 print("\nprofile assignment — D7 / D30 at HMM scale")
@@ -196,6 +225,12 @@ check("a profile call outside S2's superfamily → conflict",
       merge({"family": "", "superfamily": "cysloop"},
             {"p_call": "family", "p_family": "kir", "p_superfamily": "ploop"}, {})["v3_basis"],
       "conflict")
+check("no hazard rule makes a family call from an absence alone (S2b)",
+      # a family-naming rule may forbid a domain only as a guard beside a
+      # positive whole-sequence measurement. H11-abcc and H12-kctd are
+      # still absence rules (emergent row) and are not yet held to this.
+      [r.rid for r in HAZARD_RULES if r.target and r.forbid and r.max_tm is None
+       and not r.max_length and r.hazard in ("H2", "H4", "H13")], [])
 check("a profile call inside S2's superfamily resolves it",
       merge({"family": "", "superfamily": "cysloop"},
             {"p_call": "family", "p_family": "nachr", "p_superfamily": "cysloop"}, {})["v3_family"],
