@@ -543,3 +543,33 @@ further than a shared model can bridge.
 families — two-pore-domain K⁺ channels, nicotinic receptors, CNG channels —
 automatic trimming keeps only 3–4 % of aligned columns; whether that is
 enough to resolve their trees is S7's first question *(pending: S7)*.
+
+## S7a — preparing the family trees (2026-09-29)
+
+**No new biology yet; this step fixes how the family trees will be read.**
+The trees themselves are still being computed *(pending: S7b)*.
+
+**Automatic alignment trimming was throwing away the evolutionary signal
+in the most diverse families.** Its default mode, on low-identity families,
+keeps only columns that are well conserved, which removes exactly the
+variable positions that tell close relatives apart. Keeping every
+position where at least half of the family has a residue retains about
+50 % more informative positions per family, and twice as many in the
+two-pore-domain K⁺ channels and the nicotinic receptors. The rule was fixed
+before any tree was built, so it cannot have been chosen to produce a
+preferred answer.
+
+**Each family tree's root comes from a declared outgroup, and where there is
+none the tree is left unrooted.** 36 families have a declared outgroup: a
+relative outside the family, such as the bacterial potassium channels for the
+voltage-gated-like channels. For 27 there is none, either because the family
+*is* its group's outgroup or because nothing related is known. For the
+largest voltage-gated channels the bacterial outgroup covers only a sixth of
+the alignment, so where their roots fall is itself a result to check
+*(pending: S7b)*.
+
+**A possible surprise to check:** four animal proteins (from amphioxus, a
+sea hare and a limpet) score as *bacterial*-type pentameric ligand-gated
+channels, a group otherwise known from bacteria. They could be a
+real ancient lineage or horizontal transfer, or a quirk of a
+thinly-seeded model *(pending: S8/S21)*.

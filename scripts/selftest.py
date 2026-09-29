@@ -403,6 +403,27 @@ check("A2M map: states, deletions and inserts; a cut keeps inserts inside the sp
       (_st[1:], _res, _cut(_st, _res, "MKACDX", 1, 4)),
       ([3, 4, None, 5], [0.5, 0.5, 1, 2, 4, 4.5], (3, 5, 0.75)))
 
+# --- S7: tier-1 rooting and tree reading (D41) ------------------------------
+from scripts.s7_newick import (ingroup_support as _isup, parse as _nwk,  # noqa: E402
+                               split_support as _ssup)
+from scripts.s7_lib import apply_mask as _mask, metrics as _met  # noqa: E402
+from scripts.s7_trees import root_rule as _rr                  # noqa: E402
+check("D41 rooting comes from the catalogue: sister family, else unrooted and said so",
+      (_rr("kv_shaker"), _rr("kcsa_prok"), _rr("piezo"), _rr("ryr"), _rr("itpr")),
+      (("rooted", "kcsa_prok"), ("unrooted:is_superfamily_outgroup", ""),
+       ("unrooted:no_declared_outgroup", ""), ("rooted", "itpr"),
+       ("unrooted:is_superfamily_outgroup", "")))
+_t = _nwk("((a:1,b:1)90:1,(c:1,d:1)99:1,(OG_x:1,OG_y:1)80:1);")
+check("split test: an outgroup clade is found with its UFBoot; a non-clade is not",
+      (_ssup(_t, {"OG_x", "OG_y"}), _ssup(_t, {"a", "c"})[0],
+       _ssup(_t, {"a", "b", "c", "d"})), ((True, 80.0), False, (True, 80.0)))
+check("ingroup support counts only edges inside the family",
+      _isup(_t, {"OG_x", "OG_y"})["internal_edges"], 2)
+check("the trim mask is one column set for every row; informative = 2 states x 2",
+      (_mask([("a", "AC-D"), ("b", "AG-E")], [0, 1, 3]),
+       _met([("a", "AAC"), ("b", "AAC"), ("c", "GAT"), ("d", "GA-")], [0, 1, 2])["informative"]),
+      ([("a", "ACD"), ("b", "AGE")], 1))
+
 print()
 if FAILURES:
     print(f"{len(FAILURES)} invariant(s) FAILED: {', '.join(FAILURES)}")

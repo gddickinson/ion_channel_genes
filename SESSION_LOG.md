@@ -552,3 +552,36 @@ instrument that made the census calls, so it is a census revision (D39).
 ### Next session
 **S7** — tier-1 trees on the 63 trimmed alignments, rooted via
 `mafft --add --keeplength`. Settle the trimming question first (emergent row).
+
+## 2026-09-29 — S7a: tier-1 design, inputs and the detached tree run (S7 split)
+
+**Task.** S7 (tier-1 phylogenies). Split into **S7a** (this session: trimming,
+rooting, driver, run launched) and **S7b** (parse, report, figure), because the
+trees need ~15–25 h wall and a background job here is cut at 2 h.
+
+**Ran.** `s7_trim.py` (4 trimming candidates × 63 families, 32 s);
+`s7_trees.py prep` (outgroups added by L-INS-i `--add --keeplength` to 36
+families, D41 masks, 6.5 min); `s7_trees.py run` twice (first with the full
+ModelFinder set, stopped after ~2 min when the per-model cost was measured;
+then `-mset LG,WAG,JTT,Q.pfam`, killed at the 2 h background limit with no
+family finished — connexin was at tree-search iteration 31, JTT+F+R9 chosen).
+The driver now resumes from IQ-TREE checkpoints (no `-redo`). The user
+launched the full run detached (`nohup caffeinate -i … run --jobs 5
+--threads 2`, log `<data root>/trees/s7/run.log`).
+
+**Result.** D41: trimAl `-gt 0.5` for every family — median 504 informative
+sites against 324 (automated1), ≥ in 62/63, 91 % of each member's residues
+kept. Rooting: 36 rooted on the catalogue's `root_with` exemplars, 5 are the
+superfamily outgroup, 22 have no declared outgroup (unrooted, reported). The
+P-loop outgroups fill only 5–16 % of Nav/Cav/NALCN/TRPM/TRPN columns
+(emergent). Found on the way: 4 animal proteins in the `plgic_prok` D39 set
+(emergent). Self-test +4 invariants (catalogue rooting rule, split test,
+ingroup support, trim mask). I first quoted the rooting split as 39/6/18 —
+miscounted; the table says 36/5/22.
+
+### Next session
+**S7b** — check the detached run finished (`pgrep -fl iqtree2`; `run.json` in
+every `<data root>/trees/s7/iqtree/<fam>/`); re-launch the same command if it
+died (resumes). Then `s7_trees.py parse`, `s7_report.py`, `s7_figures.py`
+(piezo1 env), and read root support / outgroup monophyly. D41 is not changed
+after any tree is read.

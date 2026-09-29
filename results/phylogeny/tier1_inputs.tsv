@@ -1,0 +1,64 @@
+family	superfamily	n_ingroup	root_rule	outgroup_family	outgroup	og_dropped	cols	informative	gap_frac	og_occupancy	input_sha256
+ampa	iglur	62	rooted	iglur_prok	OG_Ss_GluR0		902	522	0.0238	0.43	d932e3e6a7517aeda2301a8fe9a6937e3ec90dbd1cd1d8377069769923e97e14
+ano_channel	tmem16_like	31	unrooted:no_declared_outgroup				981	625	0.0698		92c68c5f001b18eac563a5653c9d5f20734bbcf436ecd0c6df0e91d84d9350fe
+ano_scramblase	tmem16_like	9	unrooted:no_declared_outgroup				796	412	0.0974		d47afa8a9c0314637326e6810f4b5604daa81849321cc57a68f508ee863835b0
+asic	deg_enac	187	rooted	deg_invertebrate	OG_Ce_mec-4,OG_Ha_FaNaC		460	443	0.0822	0.95,0.97	61790fd36a4522bf19472b9a171d7e4013b0d0bf69fc697bd60912ef1dbd35af
+bestrophin	bestrophin	103	unrooted:no_declared_outgroup				447	434	0.0868		68acc8a2ca91a84f670eefb59c11d2183bd3b938a1c5c783eca300e0d19c30a7
+calhm	calhm	82	unrooted:no_declared_outgroup				311	300	0.0592		e92090729d9e32edd03adba5c84c6002b8906334f72407191c70b701405a2b56
+catsper	ploop	41	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		421	411	0.0988	0.33,0.48,0.25	947252720667a027aaefbe15cfa247ba1fab7b0e6dee48b17e6f7045ce8d76d2
+cav	ploop	201	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		1786	1763	0.1157	0.09,0.16,0.06	a7ec383dbc277868354e0bea2d2775e058fe945c84c57daccc18698b1430888a
+cftr	abc_channel	14	unrooted:no_declared_outgroup				1486	751	0.0119		08b5b0c3e94ba94bc9bd1b8faf8d7a2af41c063b103f6ce9fa61642a775dab43
+clc_channel	clc	72	rooted	clc_prokaryotic	OG_Ec_ClC-ec1		835	758	0.0913	0.55	0f6334378830d52a1ad1e3e45d2f9f1cf4044f4fbe1fe81205f35f0e1070bdb1
+clic	clic	8	unrooted:no_declared_outgroup				242	135	0.0604		8feb3e8dbbfe5a0e727bf5b9d5f4525351a3f9edd7f6208fa813d5d2de5217ca
+cng	ploop	313	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		768	767	0.1531	0.19,0.42,0.15	37f488f852bc0c6be4d4d8784347969211238945b9851d0cb89964f32b6172eb
+connexin	connexin	402	unrooted:no_declared_outgroup				278	269	0.0946		1fc99d66f84ddf66faa4b9a9f81bf478a01d37d44563c679156414e885553617
+deg_invertebrate	deg_enac	12	unrooted:is_superfamily_outgroup				762	467	0.1896		bf4ab66c6aa7cc826c88689181f3add39fafdd5d78b48344da39bc044c332158
+enac	deg_enac	41	rooted	deg_invertebrate	OG_Ce_mec-4,OG_Ha_FaNaC		654	580	0.071	0.86,0.76	149b66f35a51cecf8e0b68ee6feba6837ed552823fecab291f209839d08108b6
+gabaa	cysloop	279	rooted	plgic_prok	OG_Gv_GLIC,OG_Ec_ELIC		441	405	0.0733	0.75,0.69	22e62dd88c60cf1f70c65c1b906475cd0103d3be95a63288739073110c20f6ea
+glyr	cysloop	65	rooted	plgic_prok	OG_Gv_GLIC,OG_Ec_ELIC		454	281	0.0354	0.75,0.68	05d0aff6c83a74097b23f46c7ab1fa0463dd171db3e9435f5f58ad5252f8acba
+hcn	ploop	64	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		937	731	0.1354	0.16,0.30,0.11	c96176f7856363e4e320ea7d971b36711535cdb7d31659d3bcce531393c4ba3d
+ht3	cysloop	52	rooted	plgic_prok	OG_Gv_GLIC,OG_Ec_ELIC		457	417	0.0813	0.71,0.67	fa508b7e7597212d59e208ae03eec8e60d93583759293186a9bdf7c96397067f
+hv1	hv	26	unrooted:no_declared_outgroup				308	287	0.1533		336c7bba490fe5c81a19ca43a3993fffba39f754e36ac678eebd3bc7f10fb31f
+iglur_nonvertebrate	iglur	38	rooted	iglur_prok	OG_Ss_GluR0		916	864	0.0566	0.40	2e786a13842191e8add2b393c47276998e31d9dc2645004d92f4b5c8945875d0
+innexin	innexin_like	82	unrooted:no_declared_outgroup				401	386	0.0566		aeada75428936e620d28cb7aa8c99da4e5eec163f75509f7e5863c2b715da46e
+itpr	ca_release	89	unrooted:is_superfamily_outgroup				2643	2583	0.0702		647f25788c1ec6c052cdacaef9fe2d9e13f7a6b94d0c76e283fa90162c9a8ac9
+k2p	ploop	380	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		302	299	0.1031	0.43,0.68,0.32	14fb94805928b6960e3b6b767d0a43588fab0b70b7158d89902ae749f98aaff9
+kainate	iglur	78	rooted	iglur_prok	OG_Ss_GluR0		902	732	0.0303	0.42	ae5e225231f5a9f0377aa2e629f750598f899cfc9c97372402b47d3b79889215
+kca_sk	ploop	80	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		544	519	0.0899	0.28,0.46,0.19	540956cd08dc578c1a4781ebd5e117dad60aa33b231a10bcca7aaeada185236f
+kca_slo	ploop	106	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		1033	1009	0.1043	0.15,0.30,0.10	39fdf060c99a226ce0ea46b03566509c9cbfcc54961c79086396173cad9c7c6d
+kcsa_prok	ploop	4	unrooted:is_superfamily_outgroup				350	9	0.1693		b79b2938b248c71d3a1cb6dd19e884560a2768d5b246f1ecbe8b0c042e121f2a
+kir	ploop	298	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		377	371	0.0625	0.37,0.60,0.26	a47b08deffadde61180915b7ad89e7afe0d7085dc23244155007663c0659aa62
+kv_eag	ploop	158	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		909	887	0.1137	0.17,0.30,0.12	0c2333553fdec79e4bf3fe9c947e0ec41c75471cb93fe9fe32763355a3863e00
+kv_kcnq	ploop	97	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		667	602	0.1135	0.23,0.42,0.17	fe99a4ed88ac6879cce73fc1297fbcf4957e934935f562fcf4d52b62f542eda3
+kv_modifier	ploop	90	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		499	439	0.0669	0.30,0.30,0.21	a40571923e103738fe96bf81f8a87b186c7b36a9f3a8f42ad21ad973347321bd
+kv_shaker	ploop	312	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		458	444	0.0715	0.32,0.34,0.22	d961c018ccd541c28a320308ad804c0c737d7504ef80b4241a9d64afe2b51e85
+lrrc8	innexin_like	102	unrooted:no_declared_outgroup				806	694	0.0333		d12d98b84d85d0462038a9afedd8bfd72a75150dd53a41cc5825368f0b67a01e
+mcu	mcu	43	unrooted:no_declared_outgroup				326	291	0.0377		81a68be27008ca626c52563f077b82c1d1839e21ed91693a98f9349d48323def
+mscl	msc	6	unrooted:no_declared_outgroup				143	41	0.0653		ead254dfab995708f41ed7e5e814c2f49e06c7af5f5995286c9897856fe46ddb
+mscs	msc	67	unrooted:no_declared_outgroup				430	427	0.1522		9ae0f062aa79b7f0cad9eac17f77d01e3b2ca79a4247d4889aa9b7b32e82c87d
+nachr	cysloop	726	rooted	plgic_prok	OG_Gv_GLIC,OG_Ec_ELIC		440	437	0.0995	0.71,0.67	810b50f80df7cd15ba5769527bc108903b6a08b0341409799b91c5400223f026
+nalcn	ploop	24	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		1738	1103	0.0563	0.09,0.18,0.06	49111bb989bd2e1e295b1ae7b50555463bb66a9ed0cb72173532275add3333c9
+nav	ploop	138	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		1947	1806	0.0914	0.07,0.16,0.05	e1117e6149f4eeb0ad385675e6b684a456e78f97e14331f81193ade481de3e8b
+nmda	iglur	131	rooted	iglur_prok	OG_Ss_GluR0		1009	966	0.084	0.38	e76c95bded18206957ccea31789d00267fbe0ceee99db91207d4630de0962fce
+orai	orai	54	unrooted:no_declared_outgroup				256	206	0.0942		52fe449d68d89ebd29e3babcc679e3e639d7f50128da4444a96ae7b424a4b18d
+osca_tmem63	tmem16_like	143	unrooted:no_declared_outgroup				718	714	0.071		a755a16f61384782f0c263dd37719769c48aeaf3b51256d2a11bde47d3c9105b
+otop	otopetrin	81	unrooted:no_declared_outgroup				522	514	0.0663		780121e21040d7b05fa7763feba415477499188017356d75a792e7e751101c44
+p2x	p2x	114	rooted	p2x_nonmetazoan	OG_Dd_P2XA		398	366	0.0459	0.83	eddf837225ae38a4766b6dac03e832f22be85cff3a0386bbf3ba15354bb16024
+p2x_nonmetazoan	p2x	10	unrooted:is_superfamily_outgroup				376	242	0.0604		4e7543267ce94c4668e6492a0a98e2c162d10ec23f7ddba0efa23ad8c236d77f
+pannexin	innexin_like	46	unrooted:no_declared_outgroup				437	411	0.0656		adcf0d8c292afa70b4371e6577b3ba4ee62e12d218af1f67209fed5df9811132
+piezo	piezo	45	unrooted:no_declared_outgroup				2566	2343	0.0939		9f23529922e129cf364b24fda37026ab971185ef39dcf5cbba5809c0cb4eea23
+plgic_invertebrate	cysloop	7	rooted	plgic_prok	OG_Gv_GLIC,OG_Ec_ELIC		446	169	0.0416	0.71,0.68	459e19c83ebbdf23a475c0e8c67f7e6b9ae42470918e248fd603fc3435f717e1
+plgic_prok	cysloop	5	unrooted:is_superfamily_outgroup				375	45	0.0624		5e12b4d4b259042f4981447b75e98f7b44a0a433ac87e4cd0d44381c0b87d597
+ryr	ca_release	56	rooted	itpr	OG_Hs_ITPR1,OG_Hs_ITPR2,OG_Hs_ITPR3		4964	3945	0.0412	0.47,0.46,0.46	026240a50e412599fc78e04937b16b682b8612906520c8d1bc0ac8ef8db9dd92
+tmc	tmem16_like	4	unrooted:no_declared_outgroup				857	30	0.1301		c8d14f1d2c059c0f08d56f25cc97014475ba135f9ff9863dd4b3c6a963b63db7
+tmem175	tmem175	45	unrooted:no_declared_outgroup				524	504	0.0545		265ee32c2d77defbf5a9ba1fa35670d69b97e4fa567b9caf0a2c19f6ca651f10
+tpc	ploop	100	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		732	727	0.0856	0.17,0.23,0.15	2949301a5712c08d197935118dca6f6d02c33db87d73212e0041323cfd5e1e66
+tric	tric	48	unrooted:no_declared_outgroup				292	279	0.0437		36ae00bc4db27d6866bf4de072709077b9bdaf3bc87674f2c4139a4165f55b73
+trpa	ploop	49	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		1125	1079	0.0752	0.12,0.19,0.10	c80d8a709bddd2954d140753e4222ca6e55288a91eaee5947c1af24c729279c2
+trpc	ploop	174	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		772	764	0.0772	0.19,0.31,0.14	45f3bd4983ec9486302d95cfa09622181e91dc9644db52887aec22bc8d6d6bd4
+trpm	ploop	145	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		1355	1324	0.1062	0.10,0.22,0.07	abf2b6af3dfce8bf3c1128d7267e679394e270c4600eaf56d6200ab66cd5a6c6
+trpml	ploop	62	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		558	519	0.0498	0.27,0.49,0.19	164db293d3d47dcfd4a6ae840bc4359928ad81af8e0d4331d45f5d24039088d0
+trpn	ploop	19	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		1634	1291	0.0405	0.09,0.19,0.07	5dfd68c306a556b1da6640831d1cc179b5d4e116a74a70ac1b1c9e114a2ea373
+trpp	ploop	65	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		749	720	0.1135	0.18,0.37,0.12	854cc4382773ea6af1f3cbbe1ade3a9994486fb32773e8d7e9690b5776caa0f5
+trpv	ploop	115	rooted	kcsa_prok	OG_Sl_KcsA,OG_Mt_MthK,OG_Bc_NaK		683	663	0.0829	0.21,0.36,0.15	8c884c837d39484f25ba34106f76c00ec9503382ad9aa4dff023244adc7ecf7c
+vdac	porin	146	unrooted:no_declared_outgroup				282	280	0.059		d0f158823de9d40bcafeb56452bf9a43c63a9c936029d9363fcbcb5e40b9ba2c

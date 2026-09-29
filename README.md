@@ -22,7 +22,7 @@ Three deliverables, in order:
 
 | | |
 |---|---|
-| **Ledger** | S0, S1 complete 2026-08-19; S2 complete 2026-09-28 (**r3 after S2b/S2c**: every hazard rule a positive test); **S3a complete 2026-09-28**; **S4 complete 2026-09-28**; **S3b complete 2026-09-29** (census v3 over the 50-proteome panel: 2.6 % of channel-family members missed by domain search, 96 at high confidence; jackhmmer D10 24 clean / 44 killed); **S5a complete 2026-09-29** (genomic-sweep instrument + 7-genome pilot, D37); **S5b complete 2026-09-29** (all 52 genomes: matched detection 99.3 %, 72 controlled absences, 11 proteome misses, census v4, D38); **S6 complete 2026-09-29** (63 family alignments, 5,228 pore modules, D39/D40); S7 next. 30 tasks (`PUBLICATION_ROADMAP.md`). |
+| **Ledger** | S0, S1 complete 2026-08-19; S2 complete 2026-09-28 (**r3 after S2b/S2c**: every hazard rule a positive test); **S3a complete 2026-09-28**; **S4 complete 2026-09-28**; **S3b complete 2026-09-29** (census v3 over the 50-proteome panel: 2.6 % of channel-family members missed by domain search, 96 at high confidence; jackhmmer D10 24 clean / 44 killed); **S5a complete 2026-09-29** (genomic-sweep instrument + 7-genome pilot, D37); **S5b complete 2026-09-29** (all 52 genomes: matched detection 99.3 %, 72 controlled absences, 11 proteome misses, census v4, D38); **S6 complete 2026-09-29** (63 family alignments, 5,228 pore modules, D39/D40); **S7a complete 2026-09-29** (tier-1 trimming fixed at trimAl `-gt 0.5`, catalogue rooting, D41; trees running detached); S7b next. 30 tasks (`PUBLICATION_ROADMAP.md`). |
 | **Catalogue** | 91 families · 25 superfamilies · 320 human census genes · 16 hazards · validation clean |
 | **Verification** | S0 clean on the third pass: **115/115 Pfam accessions verified**, **162/162 exemplars resolved**, 52/52 taxon ids, 769 live requests, 0 failures ([report](results/s0_baseline/report.md)) |
 | **Classifier** | benchmarked: **recall 50/72, specificity 25/25, 16/16 hazards exercised**, leave-one-out. 29 calls from domain rules and 7 from the filter motif against 24 from identity — not a nearest-neighbour lookup ([report](results/benchmark_controls/report.md)) |
@@ -98,6 +98,12 @@ including a phosphatase. Drawn from `results/s0_baseline/` by
 ![S6: alignment sets, family alignments, module validation, the span vote](results/alignments/figures/alignments_modules.png)
 
 *What went into the trees, and whether the pore modules are right. **A** — every census v4 row called to a family, by superfamily: included in an alignment (high-confidence profile call or intact genome locus, D39) or excluded, with the reason. **B** — each family's L-INS-i alignment against the columns trimAl keeps (dot area ~ sequences): the largest, most divergent families keep 3–4 %. **C** — each extracted pore module against the same protein's own UniProt-annotated module (never a reference's): median Jaccard 0.97. **D** — the vote that places the module in the six unannotated families, measured with a held-out model on the annotated ones: ≤ 12 profile states across P-loop and iGluR, not usable in the innexin clan (where every family is annotated). Drawn from `results/alignments/` by `scripts/s6_figures.py`.*
+
+**S7a — trimming for the tier-1 trees.**
+
+![S7a: informative sites under trimAl -gt 0.5 against -automated1](results/phylogeny/figures/tier1_trim.png)
+
+*The trimming for the family trees, chosen before any tree existed (D41). One dot per family alignment: informative sites under S6's trimAl `-automated1` (x) against the `-gt 0.5` gap threshold adopted for S7 (y), log scales, dashed line equal. `-gt 0.5` keeps at least as many in 62 of 63 families (median 504 against 324), doubling K2P and nAChR. Drawn from `results/phylogeny/tier1_trim_compare.tsv` by `scripts/s7_figures.py`.*
 ---
 
 ## What makes this hard, in three examples

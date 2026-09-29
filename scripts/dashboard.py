@@ -51,6 +51,9 @@ FIGURES: list[tuple[str, str]] = [
     ("results/alignments/figures/alignments_modules.png",
      "S6 — what entered the family alignments (D39), and the pore modules "
      "checked against UniProt topology and the held-out span vote (D40)"),
+    ("results/phylogeny/figures/tier1_trim.png",
+     "S7a — trimming for the tier-1 trees, measured before any tree: "
+     "informative sites under trimAl -gt 0.5 (D41) against S6's -automated1"),
 ]
 
 #: Auto-discovered figures are capped so the page stays a reasonable size.

@@ -1,0 +1,38 @@
+{
+ "trim": {
+  "none": {
+   "cols": 1963.0,
+   "informative": 869.0,
+   "gap_frac": 0.6272,
+   "retention_median": 1.0,
+   "retention_min": 1.0
+  },
+  "automated1": {
+   "cols": 388.0,
+   "informative": 324.0,
+   "gap_frac": 0.0337,
+   "retention_median": 0.6069,
+   "retention_min": 0.3165
+  },
+  "gappyout": {
+   "cols": 474.0,
+   "informative": 408.0,
+   "gap_frac": 0.0212,
+   "retention_median": 0.7953,
+   "retention_min": 0.4337
+  },
+  "gt0.5": {
+   "cols": 558.0,
+   "informative": 504.0,
+   "gap_frac": 0.0733,
+   "retention_median": 0.9138,
+   "retention_min": 0.5322
+  }
+ },
+ "rooting": {
+  "rooted": 36,
+  "unrooted:no_declared_outgroup": 22,
+  "unrooted:is_superfamily_outgroup": 5
+ },
+ "trees": {}
+}
