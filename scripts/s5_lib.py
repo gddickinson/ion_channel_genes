@@ -43,6 +43,10 @@ LIVE = ROOT / "results" / "session_live.json"
 #: family-called loci (`s5_calibrate.py`); S5b takes its value from there.
 MAX_INTRON_PROK = 2_000          # no spliceosomal introns; miniprot needs a value
 MAX_INTRON_EUK = 200_000         # miniprot's default
+#: Measured before S5b (D38): 1.5 Mb on mouse lost 9 high-confidence loci
+#: (Hvcn1 among them) to chaining across genes and gained no call needing an
+#: intron > 1 Mb; Asic2's 996 kb intron is already recovered intact at 1 Mb.
+#: A wider intron splits a gene into partial loci — `introns.tsv` `over_G`.
 MAX_INTRON_LARGE = 1_000_000     # genomes >= LARGE_GENOME_BP
 LARGE_GENOME_BP = 1_000_000_000
 

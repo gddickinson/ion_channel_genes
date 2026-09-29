@@ -21,7 +21,7 @@ import zipfile
 from bisect import bisect_right
 from pathlib import Path
 
-from s5_genome_io import DATASETS, genome_dir
+from s5_genome_io import DATASETS, build_fai, fna_path, genome_dir, read_fai
 
 MIN_EXON_FRAC = 0.50
 
@@ -73,17 +73,26 @@ def ensure_annotation(accession: str) -> tuple[Path | None, str]:
 
 
 def seqid_map(accession: str) -> dict[str, str]:
-    """Any sequence accession (GenBank or RefSeq) → the GenBank name in the
-    searched FASTA."""
+    """Any sequence accession (GenBank or RefSeq) → the name the searched
+    FASTA actually carries.
+
+    A GCA assembly's FASTA names its sequences by GenBank accession, a GCF
+    assembly's by RefSeq accession; mapping onto GenBank names alone left
+    every GCF genome with no annotated locus (found in S5b: six genomes).
+    """
     p = genome_dir(accession) / "sequence_report.jsonl"
+    fna = fna_path(accession)
+    in_fasta = set(read_fai(build_fai(fna))) if fna else set()
     out = {}
     if p.exists():
         for line in p.read_text().splitlines():
             r = json.loads(line)
-            gb = r.get("genbankAccession")
-            for k in ("genbankAccession", "refseqAccession"):
-                if r.get(k) and r[k] != "na" and gb and gb != "na":
-                    out[r[k]] = gb
+            names = [r.get(k) for k in ("genbankAccession", "refseqAccession")
+                     if r.get(k) and r[k] != "na"]
+            target = next((n for n in names if n in in_fasta), None)
+            for n in names:
+                if target:
+                    out[n] = target
     return out
 
 
@@ -100,7 +109,7 @@ def read_genes(gff_gz: Path, names: dict[str, str]) -> list[dict]:
     The widest intron of a gene is the widest over its transcripts: `-G`
     must admit every isoform's structure, not just the longest's.
     """
-    genes, mrna_gene, exons = {}, {}, {}
+    genes, mrna_gene, exons, cds = {}, {}, {}, {}
     with gzip.open(gff_gz, "rt") as fh:
         for line in fh:
             if line.startswith("#"):
@@ -120,6 +129,17 @@ def read_genes(gff_gz: Path, names: dict[str, str]) -> list[dict]:
                 mrna_gene[_attr(a, "ID")] = _attr(a, "Parent")
             elif t == "exon":
                 exons.setdefault(_attr(a, "Parent"), []).append((int(f[3]), int(f[4])))
+            elif t == "CDS":
+                cds.setdefault(_attr(a, "Parent"), []).append((int(f[3]), int(f[4])))
+    # Some annotations carry the structure only in CDS: one exon spanning
+    # the transcript (Lymnaea, GCA_964033795.1), or no mRNA/exon at all with
+    # CDS parented on the gene (Paramecium, GCA_000165425.1). A transcript
+    # with at most one exon takes its CDS blocks instead.
+    for tid, blocks in cds.items():
+        if len(exons.get(tid, [])) <= 1 and len(blocks) > 1:
+            exons[tid] = blocks
+        if tid in genes and tid not in mrna_gene:
+            mrna_gene[tid] = tid
     for tid, blocks in exons.items():
         g = genes.get(mrna_gene.get(tid, ""))
         if g is None:

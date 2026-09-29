@@ -467,3 +467,46 @@ At the default, a search would report these genes as fragments.
 genome alone,** including Hv1 and CLIC
 and the full molluscan complement of P-loop, Cys-loop and iGluR channels
 *(pending: S5b for the snail's own ledger and for *Torpedo*)*.
+
+## S5b — what 52 genomes add to the proteome census (2026-09-29)
+
+**The gene sets are nearly complete for channels, and where they are not,
+the gap can be large.** Across all 52 genomes the search recovered 1,317 of
+1,326 channel families each genome's own gene set says are present, with
+that species' own sequences excluded from the search. Against that control,
+only 11 cells show an intact, confidently identified channel gene that the
+reference proteome lacks. The most striking: **the pufferfish *Takifugu*
+reference proteome contains no ryanodine receptor at all**, while its genome
+carries six intact RyR genes at 61–80 % identity to other vertebrate RyRs.
+Also found: a NALCN in *Ciona*, TRPN (NOMPC, the fly's mechanotransduction
+channel) in *Trichoplax*, *Nematostella*, *Daphnia* and *Lottia*, and a
+second P2X receptor of the non-animal type in the choanoflagellate
+*Monosiga* *(pending: S16 for which are annotation gaps and which are
+pseudogenes)*.
+
+**An MscS in a sea anemone is probably not a sea-anemone gene.** The
+*Nematostella* MscS loci sit on contigs of 6.7 and 3.1 kb, the usual mark
+of bacterial contamination in an assembly. Whether any animal has MscS is
+one of this project's open questions, and this is not yet an answer
+*(pending: S10)*.
+
+**72 absences survive every check** — an in-lineage bait, a genome whose
+control passes, and contiguity sufficient for the family's typical gene
+size. The long-reported absences hold: no voltage-gated sodium channel in
+*C. elegans* or in the sponge *Amphimedon*, no P2X in *C. elegans* or
+*Drosophila*, no ENaC in zebrafish or *Takifugu* (teleosts are reported to
+have lost it), no Hv1 in *C. elegans* or *Drosophila*, and no ZAC in rat
+(mouse has only a broken ZAC-like model) *(pending: reference verification)*.
+ZAC also reads absent in eight non-mammalian or non-therian vertebrates, and
+*Daphnia*'s old, fragmented assembly accounts for five absences including
+Piezo — both need checking before they become claims *(pending: S10)*.
+
+**Genome-only species.** The garden snail *Cornu* carries 48 channel
+families by genome alone; the marbled electric ray *Torpedo*, whose electric
+organ is the classical source of the nicotinic receptor, carries 56.
+
+**Some channel genes are larger than the search's limits, and are still
+found.** Human ASIC2 has an intron of 1.04 Mb, beyond the 1 Mb the aligner
+was allowed. It was still recovered, as were four smaller-genome cases.
+Allowing longer introns made results worse, not better: the aligner began
+joining neighbouring genes into false ones.

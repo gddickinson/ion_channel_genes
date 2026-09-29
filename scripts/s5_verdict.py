@@ -13,7 +13,8 @@
    call).
 3. **D4**: a family's contiguity bar is its measured gene span
    (`spans.tsv`, from annotation — `s5_calibrate.py`); a genome whose
-   searched-file N50 is below it cannot carry an absence.
+   searched-file N50 is below it cannot carry an absence. Which span is
+   the bar is `d4_bar()` (D38), fixed before S5b read any cell.
 4. **Verdict** per zero cell, as listed in `s5_ledger.py`.
 """
 
@@ -31,13 +32,17 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from s3_hmm_lib import read_tsv, write_tsv  # noqa: E402
 from s5_genome_io import fna_path  # noqa: E402
 from s5_ledger import CELL_FIELDS, build_cells, controls, load_loci  # noqa: E402
-from s5_lib import OUT_DIR, load_bait_meta, manifest  # noqa: E402
+from s5_lib import OUT_DIR, PROK_GROUPS, load_bait_meta, manifest  # noqa: E402
+from src.catalogue import registry  # noqa: E402
 from s5_rescue import outside_loci, read_hsps, run_tblastn, traces  # noqa: E402
 
 #: A genome whose instrument detects fewer than this share of its own
 #: proteome-present families cannot carry an absence. Set from the pilot's
 #: measured detection (see report); not tuned on the zero cells it judges.
 CONTROL_FLOOR = 0.90
+#: D38: a group's own median span is the bar once this many of the family's
+#: genes are annotated in that group; below it, the pooled median.
+GROUP_BAR_MIN_GENES = 3
 TRACE_FIELDS = ["species", "family", "contig", "start", "end", "n_hsps",
                 "bitscore", "evalue", "pident", "bait", "cell_kind"]
 CONTROL_FIELDS = ["species", "group", "control_cells", "found", "partial",
@@ -72,14 +77,45 @@ def rescue(run: dict, cells: list[dict], meta: dict) -> list[dict]:
     return rows
 
 
-def spans() -> dict[str, int]:
+def spans() -> dict[str, dict]:
+    """family → {"pooled": bp, "groups": {group: (median bp, n genes)}}."""
     p = OUT_DIR / "spans.tsv"
     if not p.exists():
         return {}
-    return {r["family"]: int(float(r["bar_bp"])) for r in read_tsv(p) if r["bar_bp"]}
+    out = {}
+    for r in read_tsv(p):
+        if not r["bar_bp"]:
+            continue
+        med = dict(x.split(":") for x in r["by_group"].split(";") if x)
+        n = dict(x.split(":") for x in r.get("by_group_n", "").split(";") if x)
+        out[r["family"]] = {"pooled": int(float(r["bar_bp"])),
+                            "groups": {g: (int(med[g]), int(n.get(g, 0))) for g in med}}
+    return out
 
 
-def verdict(c: dict, run: dict, ctl: dict, bar: dict) -> str:
+def d4_bar(family: str, group: str, span: dict, band_max_aa: int) -> tuple:
+    """D38 — the contiguity bar for one cell → (bp or None, source).
+
+    1. A prokaryotic or viral genome has no spliceosomal introns: the gene
+       is its CDS, 3 bp × the family's upper length band.
+    2. The family's median annotated span in the cell's own group, if at
+       least GROUP_BAR_MIN_GENES genes were annotated there.
+    3. Else the pooled median across every annotated genome.
+    4. Else no bar: the cell stays `absent_bar_unmeasured` (D28), never a
+       guessed one.
+    """
+    if group in PROK_GROUPS:
+        return (3 * band_max_aa, "cds") if band_max_aa else (None, "unmeasured")
+    s = span.get(family)
+    if s is None:
+        return None, "unmeasured"
+    med, n = s["groups"].get(group, (0, 0))
+    if n >= GROUP_BAR_MIN_GENES:
+        return med, "group"
+    return s["pooled"], "pooled"
+
+
+def verdict(c: dict, run: dict, ctl: dict) -> str:
     if int(c["proteome_records"]) > 0:
         return "present"
     g = c["genome"]
@@ -101,8 +137,8 @@ def verdict(c: dict, run: dict, ctl: dict, bar: dict) -> str:
     det = ctl.get(c["species"], {}).get("matched_detection")
     if det == "" or det is None or float(det) < CONTROL_FLOOR:
         return "uncontrolled"
-    need = bar.get(c["family"])
-    if need is None:
+    need = c.get("bar_bp")
+    if need in (None, ""):
         return "absent_bar_unmeasured"
     return "absent" if int(run["n50"]) >= need else "absent_below_bar"
 
@@ -142,11 +178,15 @@ def main() -> int:
                                                     if not c["detected"])),
                  unmatched_cells=len(u), unmatched_detected=sum(c["detected"] for c in u))
     ctl = {r["species"]: r for r in ctl_rows}
-    bar = spans()
+    span = spans()
+    band = {f.key: f.length_band_aa[1] for f in registry.CATALOGUE.values()}
     run_of = {r["species"]: r for r in runs}
     for c in cells:
-        c["verdict"] = verdict(c, run_of[c["species"]], ctl, bar)
-    write_tsv(OUT_DIR / "cells.tsv", CELL_FIELDS + ["detected"], cells)
+        bp, src = d4_bar(c["family"], c["group"], span, band.get(c["family"], 0))
+        c["bar_bp"], c["bar_source"] = ("" if bp is None else bp), src
+        c["verdict"] = verdict(c, run_of[c["species"]], ctl)
+    write_tsv(OUT_DIR / "cells.tsv",
+              CELL_FIELDS + ["detected", "bar_bp", "bar_source"], cells)
     write_tsv(OUT_DIR / "controls.tsv", CONTROL_FIELDS, ctl_rows)
     write_tsv(OUT_DIR / "traces.tsv", TRACE_FIELDS, trace_rows)
     for r in ctl_rows:

@@ -1,0 +1,10 @@
+{
+  "census_v3_rows": 26936,
+  "genome_rows": 434,
+  "genome_only_rows": 420,
+  "genome_found_rows": 14,
+  "genome_cells_added": 115,
+  "census_v3_sha256": "e73010ff3984bf4739ffc20efe83ae4526b5486c91d48b23dcb688a36f2aefad",
+  "census_v4_sha256": "6991b21f3e96f057be4878dd44ea227e4459e30e7ddce2e14f60218498145bb1",
+  "census_v4": "/Volumes/FANTOM/ION_CHANNEL_DATA/genomes/s5/census_v4.tsv.gz"
+}

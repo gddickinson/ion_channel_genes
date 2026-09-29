@@ -1,8 +1,53 @@
 species	group	annotation_accession	called_loci	annotated_loci	widest_annotated_intron	widest_gene	max_intron_used	over_G
 Escherichia coli	prokaryote	GCA_000005845.2	2	2	0	mscL (mscl)	2000	0
+Bacillus subtilis	prokaryote	GCA_000009045.1	1	1	0	mscL (mscl)	2000	0
+Streptomyces lividans	prokaryote	GCA_000739105.1	1	1	0	SLIV_21740 (mscl)	2000	0
+Synechocystis sp. PCC 6803	prokaryote	GCA_000009725.1	2	2	0	mscL (mscl)	2000	0
+Gloeobacter violaceus	prokaryote	GCA_000011385.1	1	1	0	glr1073 (mscl)	2000	0
+Aliarcobacter butzleri	prokaryote	GCA_000014025.1	1	1	0	mscS (mscs)	2000	0
+Methanothermobacter thermautotrophicus	prokaryote	GCA_000008645.1	0	0			2000	0
+Thermus thermophilus	prokaryote	GCA_000091545.1	1	1	0	TTHA0627 (mscl)	2000	0
 Saccharomyces cerevisiae	fungi	GCA_000146045.2	0	0			200000	0
+Schizosaccharomyces pombe	fungi	GCA_000002945.3	1	1	0	SPOM_SPAC24H6.13 (osca_tmem63)	200000	0
 Arabidopsis thaliana	plant	GCA_000001735.2	33	32	766	KCO2 (k2p)	200000	0
+Oryza sativa	plant	GCA_001433935.1	23	22	2026	Os03g0202200 (vdac)	200000	0
+Physcomitrium patens	plant	GCF_000002425.5	21	21	1257	LOC112275199 (clic)	200000	0
+Chlamydomonas reinhardtii	algae	GCA_000002595.3	4	3	614	CHLRE_17g720600v5 (cav)	200000	0
+Dictyostelium discoideum	amoebozoa	GCA_000004695.1	5	5	227	orfR1062 (osca_tmem63)	200000	0
+Paramecium tetraurelia	ciliate	GCA_000165425.1	9	8	37	GSPATT00036989001 (cng)	200000	0
+Tetrahymena thermophila	ciliate	GCA_000189635.1	4	4	648	TTHERM_00378480 (cav)	200000	0
+Trypanosoma brucei	excavate	GCA_000002445.1	0	0			200000	0
+Plasmodium falciparum	apicomplexa	GCA_000002765.3	0	0			200000	0
+Monosiga brevicollis	holozoa	GCA_000002865.1	15	13	426	MONBRDRAFT_33881 (kca_slo)	200000	0
+Capsaspora owczarzaki	holozoa	GCA_000151315.2	8	8	1886	CAOG_009776 (itpr)	200000	0
+Amphimedon queenslandica	basal_metazoan	GCF_000090795.2	28	27	4644	LOC100641967 (p2x_nonmetazoan)	200000	0
+Trichoplax adhaerens	basal_metazoan	GCA_000150275.1	58	43	8354	TRIADDRAFT_51003 (k2p)	200000	0
+Nematostella vectensis	cnidarian	GCA_000209225.1	120	85	12060	NEMVEDRAFT_v1g118813 (kv_eag)	200000	0
+Hydra vulgaris	cnidarian	GCF_038396675.1	71	71	35258	LOC100204665 (cav)	200000	0
 Caenorhabditis elegans	invertebrate	GCA_000002985.3	101	98	20089	unc-7 (innexin)	200000	0
 Drosophila melanogaster	invertebrate	GCA_000001215.4	68	68	87537	shakB (innexin)	200000	0
+Daphnia pulex	invertebrate	GCA_000187875.1	87	82	35180	DAPPUDRAFT_321681 (nachr)	200000	0
+Lottia gigantea	invertebrate	GCA_000327385.1	105	92	38063	LOTGIDRAFT_105753 (kv_shaker)	200000	0
+Aplysia californica	invertebrate	GCF_000002075.1	69	63	204025	LOC101855406 (trpc)	200000	1
+Lymnaea stagnalis	invertebrate	GCA_964033795.1	94	87	76732	GSLYS_00019449001 (kca_sk)	200000	0
 Cornu aspersum	invertebrate		152	0			1000000	
+Strongylocentrotus purpuratus	deuterostome	GCF_000002235.5	105	103	64435	LOC589158 (trpc)	200000	0
+Branchiostoma floridae	deuterostome	GCF_000003815.2	121	115	256433	LOC118408435 (asic)	200000	1
+Ciona intestinalis	deuterostome	GCF_000224145.3	79	78	28393	LOC104265353 (nav)	200000	0
+Petromyzon marinus	vertebrate	GCF_048934315.1	333	270	364747	KCND1 (kv_shaker)	1000000	0
+Callorhinchus milii	vertebrate	GCF_000165045.1	212	208	223342	asic2 (asic)	200000	2
+Torpedo marmorata	vertebrate		228	0			1000000	
+Danio rerio	vertebrate	GCF_049306965.2	331	330	728175	asic4b (asic)	1000000	0
+Takifugu rubripes	vertebrate	GCF_901000725.3	351	337	149854	asic2 (asic)	200000	0
+Latimeria chalumnae	vertebrate	GCF_000225785.1	236	235	637219	GRID1 (delta_glur)	1000000	0
+Xenopus tropicalis	vertebrate	GCF_000004195.4	233	231	217542	asic2 (asic)	1000000	0
+Anolis carolinensis	vertebrate	GCF_000090745.2	209	207	471577	asic2 (asic)	1000000	0
+Gallus gallus	vertebrate	GCF_016699485.2	204	203	294756	TRPM3 (trpm)	1000000	0
+Ornithorhynchus anatinus	vertebrate	GCF_004115215.2	222	221	410530	KCNQ5 (kv_kcnq)	1000000	0
+Monodelphis domestica	vertebrate	GCF_000002295.2	239	233	801144	TRPM3 (trpm)	1000000	0
 Mus musculus	vertebrate	GCF_000001635.27	231	220	996015	Asic2 (asic)	1000000	0
+Rattus norvegicus	vertebrate	GCF_036323735.1	240	226	975271	Asic2 (asic)	1000000	0
+Homo sapiens	vertebrate	GCF_000001405.40	305	269	1043910	ASIC2 (asic)	1000000	1
+Influenza A virus	virus	GCF_000865725.1	0	0			2000	0
+Human immunodeficiency virus type 1	virus		0	0			2000	
+Severe acute respiratory syndrome coronavirus 2	virus	GCA_009858895.3	0	0			2000	0

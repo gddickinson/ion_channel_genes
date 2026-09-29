@@ -469,3 +469,45 @@ CDS-on-exons settled it (220). (6) Mouse VDAC: 12 high-confidence loci for
 **S5b** — `s5_sweep.py run --all` over the 52 genomes (~42 Gbp, ~3 h
 miniprot + downloads), after deciding the `-G` margin and the D4 fallback
 bar (emergent rows).
+
+## 2026-09-29 — S5b: the full genomic sweep (52 genomes) → census v4
+
+**Start.** Dashboard opened, `git pull` clean, data root attached (660 GB
+free), catalogue + self-test clean. Task: S5b.
+
+**Decided before the run (D38).** (1) `-G`: tested a 1.5 Mb margin on mouse
+instead of assuming it — high-confidence loci 320 → 311, confirmed 304 →
+295, Hvcn1 lost, an ASIC locus chained to a 643 kb chimera, and no call used
+an intron > 1 Mb (Asic2's 996 kb intron already recovered at 1 Mb). Kept
+1 Mb; mouse's 1 Mb outputs restored (the 1.5 Mb run kept beside them under
+`genomes/s5/GCA_000001635.9/G1500000/`). (2) D4 bar per cell,
+`s5_verdict.d4_bar()`: group median (≥ 3 genes) → pooled → 3 × band in
+prokaryote/virus genomes → none. Two new self-test invariants.
+
+**Ran.** Prefetch of 45 genomes (MD5-verified, 0 failures); `s5_sweep.py run
+--all` — 52/52, 42.5 Gbp, 1.94 miniprot CPU-h, ~2.3 h wall (*Torpedo* 3
+chunks, 15 min); `s5_calibrate.py`; `s5_verdict.py`; new `s5_census_v4.py`;
+`s5_report.py` rewritten for panel scale.
+
+**Result.** 11,878 loci, 8,048 profile-called. Matched detection 1,317 /
+1,326; viruses below the floor, 4 single-species groups with no matched
+control. 247 informative zero cells: 72 absent, 102 genome-present (*Cornu*
+48, *Torpedo* 56 families), 9 informative proteome misses (11 overall) —
+*Takifugu* RyR (6 loci; the proteome has none), *Ciona* NALCN, TRPN in four
+invertebrates, *Nematostella* MscS (tiny contigs — contamination suspected).
+Literature-expected absences all consistent; rat ZAC `absent`, mouse
+`genome_weak`. Census v4 = 26,936 proteome rows + 434 genome loci.
+
+**Bugs found.** (1) `seqid_map` mapped every name to GenBank, so the six GCF
+genomes had 0 annotated loci — now maps to whatever the searched FASTA
+carries. (2) CDS-only gene structures (*Lymnaea*: one exon per transcript;
+*Paramecium*: no mRNA/exon at all) read as intronless — CDS blocks used
+where exons carry none. (3) The roadmap's S3b row said 49,595 panel entries
+with evidence; the committed tables say 26,936 — corrected. Five annotated
+genes have an intron beyond `-G` (human ASIC2 1,043,910 bp); all called.
+
+### Next session
+**S6** — MAFFT L-INS-i + trimAl per census family and pore-module extraction
+for tier 2, from census v3 + v4's genome loci. Six S5b emergent rows (Takifugu
+RyR, Nematostella MscS, Daphnia absences, ZAC distribution, `-G` edge,
+unjudgeable groups) are for S10/S16, not S6.

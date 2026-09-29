@@ -9,8 +9,9 @@ come out, neither from miniprot, whose `-G` shapes what it reports:
 
 * `spans.tsv` — per family, the annotated gene spans; **D4's bar is the
   median** (the parent's rule: half the family's genes fit in a scaffold of
-  that length). Pooled over the annotated pilot genomes, with the per-group
-  spread kept beside it, because a nematode gene is not a mouse gene.
+  that length). Pooled over the annotated genomes, with the per-group
+  median and count kept beside it, because a nematode gene is not a mouse
+  gene; `s5_verdict.d4_bar` chooses between them (D38).
 * `introns.tsv` — per genome, the widest annotated intron at a called locus
   against the `-G` the sweep used. An annotated intron wider than `-G` is a
   gene miniprot can only report split.
@@ -37,7 +38,7 @@ LOCUS_FIELDS = ["species", "group", "family", "locus", "gene_id", "gene_name",
                 "gene_span", "annotated_max_intron", "n_exons",
                 "miniprot_max_intron", "annotation_accession"]
 SPAN_FIELDS = ["family", "n_genes", "n_species", "median_span", "min_span",
-               "max_span", "bar_bp", "by_group"]
+               "max_span", "bar_bp", "by_group", "by_group_n"]
 INTRON_FIELDS = ["species", "group", "annotation_accession", "called_loci",
                  "annotated_loci", "widest_annotated_intron", "widest_gene",
                  "max_intron_used", "over_G"]
@@ -104,7 +105,8 @@ def main() -> int:
             "median_span": int(statistics.median(s)), "min_span": min(s),
             "max_span": max(s), "bar_bp": int(statistics.median(s)),
             "by_group": ";".join(f"{g}:{int(statistics.median(v))}"
-                                 for g, v in sorted(grp.items()))})
+                                 for g, v in sorted(grp.items())),
+            "by_group_n": ";".join(f"{g}:{len(v)}" for g, v in sorted(grp.items()))})
     write_tsv(OUT_DIR / "annotated_loci.tsv", LOCUS_FIELDS, rows)
     write_tsv(OUT_DIR / "spans.tsv", SPAN_FIELDS, span_rows)
     write_tsv(OUT_DIR / "introns.tsv", INTRON_FIELDS, intron_rows)

@@ -307,7 +307,7 @@ print("\ngenomic sweep (S5)")
 import tempfile as _tf                                        # noqa: E402
 sys.path.insert(0, str(ROOT / "scripts"))
 from scripts import s5_lib as _l, s5_rescue as _r, s5_ledger as _g  # noqa: E402
-from scripts.s5_verdict import verdict as _v                 # noqa: E402
+from scripts.s5_verdict import d4_bar as _bar, verdict as _v  # noqa: E402
 _gff = ("##PAF\tx\n##STA\tMKV\n"
         "c1\tminiprot\tmRNA\t100\t400\t50\t+\t.\tID=MP1;Identity=0.5;Target=kv|A 1 100\n"
         "c1\tminiprot\tCDS\t100\t200\t.\t+\t0\tParent=MP1;Target=kv|A 1 34\n"
@@ -340,20 +340,28 @@ check("genome status: the profile call decides, not the bait that found the locu
        _g.genome_status("kv", [_L("module", "", "kv", edge="1")])["genome"]),
       ("no_locus", "gap"))
 _cell = lambda **k: {"proteome_records": "0", "genome": "no_locus", "n_traces": 0,  # noqa: E731
-                     "informative": 1, "matched": 1, "species": "S", "family": "kv", **k}
+                     "informative": 1, "matched": 1, "species": "S", "family": "kv",
+                     "bar_bp": 5000, **k}
 _ctl = {"S": {"matched_detection": 0.95}}
 check("verdict: absent needs a matched bait, a passing control and the D4 bar",
-      (_v(_cell(), {"n50": "10000"}, _ctl, {"kv": 5000}),
-       _v(_cell(), {"n50": "1000"}, _ctl, {"kv": 5000}),
-       _v(_cell(matched=0), {"n50": "10000"}, _ctl, {"kv": 5000}),
-       _v(_cell(), {"n50": "10000"}, {"S": {"matched_detection": 0.5}}, {"kv": 5000}),
-       _v(_cell(n_traces=1), {"n50": "10000"}, _ctl, {"kv": 5000})),
+      (_v(_cell(), {"n50": "10000"}, _ctl),
+       _v(_cell(), {"n50": "1000"}, _ctl),
+       _v(_cell(matched=0), {"n50": "10000"}, _ctl),
+       _v(_cell(), {"n50": "10000"}, {"S": {"matched_detection": 0.5}}),
+       _v(_cell(n_traces=1), {"n50": "10000"}, _ctl)),
       ("absent", "absent_below_bar", "unmatched", "uncontrolled", "trace"))
+_sp = {"kv": {"pooled": 50000, "groups": {"invertebrate": (8000, 3), "plant": (2000, 2)}}}
+check("D4 bar (D38): prokaryote = CDS; own group with >= 3 genes; else pooled; else none",
+      (_bar("kv", "prokaryote", _sp, 600), _bar("kv", "invertebrate", _sp, 600),
+       _bar("kv", "plant", _sp, 600), _bar("nav", "plant", _sp, 600)),
+      ((1800, "cds"), (8000, "group"), (50000, "pooled"), (None, "unmeasured")))
+check("verdict: an unmeasured bar never reads as absent",
+      _v(_cell(bar_bp=""), {"n50": "10000"}, _ctl), "absent_bar_unmeasured")
 
 check("verdict: a proteome miss needs a high-confidence intact locus; genome-only is presence",
-      (_v(_cell(genome="found", n_strong=1), {"n50": "1"}, _ctl, {}),
-       _v(_cell(genome="found", n_strong=0), {"n50": "1"}, _ctl, {}),
-       _v(_cell(genome="found", n_strong=0), {"n50": "1", "status": "genome_only"}, _ctl, {})),
+      (_v(_cell(genome="found", n_strong=1), {"n50": "1"}, _ctl),
+       _v(_cell(genome="found", n_strong=0), {"n50": "1"}, _ctl),
+       _v(_cell(genome="found", n_strong=0), {"n50": "1", "status": "genome_only"}, _ctl)),
       ("genome_found", "genome_weak", "genome_present"))
 from scripts.s5_annotation import GeneIndex as _GI           # noqa: E402
 _gi = _GI([{"contig": "c", "start": 1, "end": 100000, "strand": "+", "gene_id": "g",

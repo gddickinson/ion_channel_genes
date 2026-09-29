@@ -1,0 +1,12 @@
+species	family	genome_loci	genome_loci_called	proteome_near	near_min_margin	near_calls
+Monosiga brevicollis	p2x_nonmetazoan	1	1	1	0.7876	A9URI5:p2x:0.7876
+Trichoplax adhaerens	trpn	1	1	1	0.7958	B3S2T9:trpv:0.7958
+Nematostella vectensis	trpn	2	2	6	0.4029	A7RH68:trpc:0.8362;A7RJX1:trpc:0.8246;A7RSZ7:trpc:0.8483;A7SB40:trpa:0.4029;A7ST04:trpa:0.7507;A7T9H1:trpa:0.7103
+Nematostella vectensis	mscs	6	2	0		
+Daphnia pulex	hcn	1	1	1	0.7983	E9H807:cng:0.7983
+Daphnia pulex	trpn	1	1	5	0.4192	E9FR19:trpa:0.475;E9G142:trpv:0.8008;E9G3A4:trpc:0.9114;E9GZL1:trpc:0.9059;E9HAK3:trpa:0.4192
+Lottia gigantea	trpa	2	2	0		
+Lottia gigantea	trpn	1	1	8	0.2036	V3ZJ74:trpv:0.8077;V3ZY04:trpv:0.2036;V4A7H8:trpc:0.8907;V4AET5:trpc:0.8955;V4AQE6:trpc:0.8454;V4B2L8:trpc:0.8753;V4CIQ9:trpc:0.9295;V4CRW8:trpm:0.965
+Ciona intestinalis	nalcn	1	1	0		
+Takifugu rubripes	ryr	6	6	3	0.9355	H2SPX2:itpr:0.9355;H2TJZ0:itpr:0.9461;H2TJZ1:itpr:0.9469
+Takifugu rubripes	tmem175	1	1	0		

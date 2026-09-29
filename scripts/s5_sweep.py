@@ -89,7 +89,7 @@ def run(species_list: list[str]) -> None:
     done = {r["species"]: r for r in read_tsv(runs_path)} if runs_path.exists() else {}
     steps = [[s, False] for s in species_list]
     for i, s in enumerate(species_list):
-        live_progress(LIVE, "S5a", [(f"{x} genome sweep", d) for x, d in steps])
+        live_progress(LIVE, "S5", [(f"{x} genome sweep", d) for x, d in steps])
         print(f"[{i + 1}/{len(species_list)}] {s}", flush=True)
         try:
             rec = run_one(s, man[s], bait_sha, meta)
@@ -105,7 +105,7 @@ def run(species_list: list[str]) -> None:
         order = list(man)
         write_tsv(runs_path, RUN_FIELDS,
                   sorted(done.values(), key=lambda r: order.index(r["species"])))
-    live_progress(LIVE, "S5a", [(f"{x} genome sweep", True) for x, _ in steps])
+    live_progress(LIVE, "S5", [(f"{x} genome sweep", True) for x, _ in steps])
 
 
 def main() -> int:
