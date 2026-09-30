@@ -445,6 +445,15 @@ check("S15 curve step: genome first, then domain call, enumeration, profile",
        _step({"source": "proteome", "v3a_basis": "", "in_v2": "0"})),
       ("genome", "domain_call", "domain_enumeration", "profile"))
 
+# --- S5 r4: the new families' genome sweep never touches an old cell (D43) --
+from scripts.s5_ledger import _r4_keep as _k4                    # noqa: E402
+check("r4 genome loci count only toward r4 families (called to one, or partial on its bait)",
+      (_k4({"p_call": "family", "p_family": "pacc", "bait_family": "pacc"}),
+       _k4({"p_call": "family", "p_family": "kv_shaker", "bait_family": "assoc_kchip"}),
+       _k4({"p_call": "no_hit", "p_family": "", "bait_family": "gphr"}),
+       _k4({"p_call": "module", "p_family": "", "bait_family": "kv_shaker"})),
+      (True, False, True, False))
+
 print()
 if FAILURES:
     print(f"{len(FAILURES)} invariant(s) FAILED: {', '.join(FAILURES)}")

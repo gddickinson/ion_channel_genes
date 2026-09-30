@@ -35,6 +35,11 @@ OUT_DIR = ROOT / "results" / "genome_sweep"
 MANIFEST = ROOT / "results" / "proteome_scope" / "proteome_manifest.tsv"
 BAITS_FAA = OUT_DIR / "baits.faa"
 BAITS_TSV = OUT_DIR / "baits.tsv"
+#: Census revision r4's families get their own bait panel and their own
+#: miniprot run per genome (`s5r4_sweep.py`), so S5b's panel, runs and loci
+#: stay byte-identical (D43).
+BAITS_R4_FAA = OUT_DIR / "baits_r4.faa"
+BAITS_R4_TSV = OUT_DIR / "baits_r4.tsv"
 LIVE = ROOT / "results" / "session_live.json"
 
 #: miniprot's max intron (-G). A too-small value does not lose a gene, it
@@ -95,8 +100,18 @@ def max_intron_for(group: str, genome_bp: int) -> int:
 
 
 def load_bait_meta() -> dict[str, dict]:
-    with open(BAITS_TSV) as fh:
-        return {r["bait"]: r for r in csv.DictReader(fh, delimiter="\t")}
+    out = {}
+    for p in (BAITS_TSV, BAITS_R4_TSV):
+        if p.exists():
+            with open(p) as fh:
+                out.update({r["bait"]: r for r in csv.DictReader(fh, delimiter="\t")})
+    return out
+
+
+def r4_families() -> frozenset[str]:
+    """The families census revision r4 added (their loci live in `r4/`)."""
+    from s3r4_sweep import NEW_PROFILES
+    return frozenset(NEW_PROFILES)
 
 
 # ---------------------------------------------------------------- miniprot

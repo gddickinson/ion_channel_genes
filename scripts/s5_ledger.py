@@ -79,8 +79,31 @@ def band_by_species() -> Counter:
 
 
 def load_loci(assembly: str) -> list[dict]:
+    """S5b's loci, plus census revision r4's (`r4/loci.tsv.gz`) where they
+    bear on an r4 family: called to one, or a partial on one of its baits.
+
+    An r4 bait that lands on an old family's gene (a KChIP bait on
+    calmodulin) is dropped here, so a new bait panel can never change an old
+    family's cell (D43). `r4_dropped_loci()` counts what was dropped.
+    """
     p = s5_dir(assembly) / "loci.tsv.gz"
+    old = read_tsv(p) if p.exists() else []
+    return old + [L for L in _r4_loci(assembly) if _r4_keep(L)]
+
+
+def _r4_loci(assembly: str) -> list[dict]:
+    p = s5_dir(assembly) / "r4" / "loci.tsv.gz"
     return read_tsv(p) if p.exists() else []
+
+
+def _r4_keep(L: dict) -> bool:
+    from s5_lib import r4_families
+    r4 = r4_families()
+    return (L["p_family"] in r4 if L["p_call"] == "family" else L["bait_family"] in r4)
+
+
+def r4_dropped_loci(assembly: str) -> list[dict]:
+    return [L for L in _r4_loci(assembly) if not _r4_keep(L)]
 
 
 def genome_status(fam: str, loci: list[dict]) -> dict:
@@ -134,9 +157,9 @@ def matched_baits() -> set[tuple[str, str, str]]:
     bait. An absence is judged only where the nearest bait is in-group, and
     the control that bounds it is measured on cells in the same condition.
     """
-    with open(BAITS_TSV) as fh:
-        return {(r["group"], r["family"], r["species"])
-                for r in csv.DictReader(fh, delimiter="\t")}
+    from s5_lib import load_bait_meta
+    return {(r["group"], r["family"], r["species"])
+            for r in load_bait_meta().values()}
 
 
 def build_cells(species_rows: list[dict], man: dict) -> list[dict]:

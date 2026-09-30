@@ -7,8 +7,8 @@ proteome	panel_profile	channel_associated	2960
 proteome	v3a:unassigned	unassigned	1419
 proteome	v3a:superfamily_only	superfamily_only	1234
 proteome	panel_profile	out_of_scope	442
+genome	genome_only	genome_locus	435
 proteome	v3a:profile_only	channel_contested	423
-genome	genome_only	genome_locus	420
 proteome	v3a:profile_only	non_channel_homolog	382
 proteome	v3a:both	channel_contested	355
 proteome	panel_profile	transporter	308
@@ -20,6 +20,6 @@ proteome	v3a:s2_only	channel	91
 proteome	panel_profile	superfamily_only	73
 proteome	v3a:conflict	conflict	72
 proteome	panel_profile	channel_contested	63
-genome	genome_found	genome_locus	14
+genome	genome_found	genome_locus	17
 proteome	v3a:s2_only	channel_contested	11
 proteome	v3a:s2_only	channel_associated	8

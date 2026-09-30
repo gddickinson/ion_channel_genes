@@ -104,8 +104,11 @@ def spread(rows: list[dict], cap: int = MAX_BAITS) -> list[dict]:
 
 
 def build(cap: int = MAX_BAITS, faa: Path = BAITS_FAA,
-          tsv: Path = BAITS_TSV) -> dict:
-    families = {f.key: f for f in registry.families()}
+          tsv: Path = BAITS_TSV, only: frozenset | None = None) -> dict:
+    """`only` restricts the panel to those families (census revision r4's
+    own panel, `baits_r4.*`); the rules are the same."""
+    families = {f.key: f for f in registry.families()
+                if only is None or f.key in only}
     pool = pool_rows(families)
     seqs = {h.split()[0]: s for h, s in iter_fasta(panel_db())}
     code_map = _species_code_map()

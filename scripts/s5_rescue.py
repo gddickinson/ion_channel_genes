@@ -44,14 +44,14 @@ def blast_db(acc: str, fna: Path) -> Path:
 
 
 def run_tblastn(acc: str, fna: Path, baits: list[str], tag: str,
-                threads: int = 8) -> Path:
+                threads: int = 8, faa: Path = BAITS_FAA) -> Path:
     """One tblastn over the genome for the listed baits; cached by tag."""
     out = s5_dir(acc, "rescue") / f"{tag}.tsv"
     if out.exists():
         return out
     want = set(baits)
     q = s5_dir(acc, "rescue") / f"{tag}.faa"
-    write_fasta(q, [(h.split()[0], s) for h, s in iter_fasta(BAITS_FAA)
+    write_fasta(q, [(h.split()[0], s) for h, s in iter_fasta(faa)
                     if h.split()[0] in want])
     db = blast_db(acc, fna)
     tmp = out.with_suffix(".partial")

@@ -708,3 +708,24 @@ changed, all with a new family involved. Benchmark set B 542/542 + 57 decoys
 **Not done (emergent rows).** Genome sweep for the new families; H18's
 TMEM87/GOST upper bound; 7 single-seed profiles; S6/S7/S20-panel/jackhmmer
 predate r4.
+
+## 2026-09-30 — S5c (user-directed): the genome sweep for the r4 families
+
+**Ran.** `s5r4_sweep.py check / baits / run` (mouse first as a test, then
+all 52; 50 min miniprot), `s5_calibrate.py`, `s5_verdict.py` (old families'
+tblastn from S5b's cache), `s5r4_compare.py --base <S5b snapshot>`,
+`s5_census_v4.py`, `s5_report.py`, `s5r4_figures.py`.
+
+**Result.** 287 baits, 52/52 genomes, 1,267 loci (774 called to an r4
+family). All 3,536 S5b cells unchanged, 0 verdicts changed; 41 genomes'
+control sets grew, and none crossed the floor. New families: 3 proteome
+misses (*Trichoplax* TMEM87, *Daphnia* GPHR, *Xenopus* MITOK), 11 controlled
+absences, 11 genome-only presences. Census v4: 452 genome loci.
+
+**Caught.** The first verdict run changed one old cell's trace count
+(*Monosiga* VDAC): the rescue discarded HSPs inside *any* locus, r4's
+included. It is fixed so an old family's traces are judged against S5b's
+loci only, and the re-run gives 0 of 3,536 changed.
+
+### Next
+S7b when the IQ-TREE run finishes.

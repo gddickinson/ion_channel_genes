@@ -6,97 +6,97 @@ Rendered by `scripts/s5_report.py` from the tables in this directory (D13). S5a 
 
 - **Bait panel**: 1808 baits for 91 catalogue families (controls included) from 50 panel species, one per species (B1–B3, D37).
 - **Sweep**: 52 genomes, 42.5 Gbp, 0 failures; 11,878 loci, **8,048 called to a family by the S3a profiles** (D32); miniprot 1.94 h. `-G` 1 Mb for genomes ≥ 1 Gbp, measured not assumed (D38).
-- **Positive control**: 1,311 of 1,420 control cells *found* (a profile-called locus), 1,396 detected by the whole instrument, with the genome's own species' baits excluded.
-- **Matched detection — the number every absence inherits: 1,317 / 1,326** control cells with an in-group non-self bait; unmatched 79 / 94. Below the 90% floor: Human immunodeficiency virus type 1, Influenza A virus, Severe acute respiratory syndrome coronavirus 2. No matched control at all (single-species groups — no absence readable): Chlamydomonas reinhardtii, Dictyostelium discoideum, Plasmodium falciparum, Trypanosoma brucei.
-- **Census v4**: census v3's 28,891 proteome rows unchanged + **434 genome loci** (420 from the genome-only species, 14 proteome misses) in 115 cells (`s5_census_v4.py`; SHA-256 in `census_v4.json`). A genome row is a locus, never merged into a proteome call.
+- **Positive control**: 1,449 of 1,575 control cells *found* (a profile-called locus), 1,548 detected by the whole instrument, with the genome's own species' baits excluded.
+- **Matched detection — the number every absence inherits: 1,456 / 1,466** control cells with an in-group non-self bait; unmatched 92 / 109. Below the 90% floor: Human immunodeficiency virus type 1, Influenza A virus, Severe acute respiratory syndrome coronavirus 2. No matched control at all (single-species groups — no absence readable): Chlamydomonas reinhardtii, Dictyostelium discoideum, Plasmodium falciparum, Trypanosoma brucei.
+- **Census v4**: census v3's 28,891 proteome rows unchanged + **452 genome loci** (435 from the genome-only species, 17 proteome misses) in 129 cells (`s5_census_v4.py`; SHA-256 in `census_v4.json`). A genome row is a locus, never merged into a proteome call.
 
 ## Per-genome control
 
 | species | group | control | found | detected | matched | m. detected | m. rate | m. undetected | unmatched | u. detected |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Aliarcobacter butzleri | prokaryote | 2 | 1 | 2 | 2 | 2 | 1.0 |  | 0 | 0 |
-| Amphimedon queenslandica | basal_metazoan | 26 | 23 | 24 | 15 | 15 | 1.0 |  | 11 | 9 |
-| Anolis carolinensis | vertebrate | 55 | 55 | 55 | 55 | 55 | 1.0 |  | 0 | 0 |
-| Aplysia californica | invertebrate | 43 | 42 | 43 | 43 | 43 | 1.0 |  | 0 | 0 |
-| Arabidopsis thaliana | plant | 9 | 8 | 9 | 8 | 8 | 1.0 |  | 1 | 1 |
+| Amphimedon queenslandica | basal_metazoan | 30 | 26 | 27 | 17 | 17 | 1.0 |  | 13 | 10 |
+| Anolis carolinensis | vertebrate | 61 | 61 | 61 | 61 | 61 | 1.0 |  | 0 | 0 |
+| Aplysia californica | invertebrate | 47 | 45 | 47 | 47 | 47 | 1.0 |  | 0 | 0 |
+| Arabidopsis thaliana | plant | 11 | 10 | 11 | 10 | 10 | 1.0 |  | 1 | 1 |
 | Bacillus subtilis | prokaryote | 2 | 1 | 2 | 2 | 2 | 1.0 |  | 0 | 0 |
-| Branchiostoma floridae | deuterostome | 47 | 42 | 45 | 43 | 42 | 0.9767 | tweety | 4 | 3 |
-| Caenorhabditis elegans | invertebrate | 39 | 36 | 38 | 38 | 37 | 0.9737 | tweety | 1 | 1 |
-| Callorhinchus milii | vertebrate | 56 | 56 | 56 | 56 | 56 | 1.0 |  | 0 | 0 |
-| Capsaspora owczarzaki | holozoa | 17 | 7 | 15 | 9 | 9 | 1.0 |  | 8 | 6 |
-| Chlamydomonas reinhardtii | algae | 11 | 2 | 8 | 0 | 0 |  |  | 11 | 8 |
-| Ciona intestinalis | deuterostome | 36 | 31 | 34 | 34 | 32 | 0.9412 | tmem175,tric | 2 | 2 |
-| Cornu aspersum | invertebrate | 27 | 27 | 27 | 27 | 27 | 1.0 |  | 0 | 0 |
-| Danio rerio | vertebrate | 54 | 54 | 54 | 54 | 54 | 1.0 |  | 0 | 0 |
-| Daphnia pulex | invertebrate | 38 | 36 | 38 | 38 | 38 | 1.0 |  | 0 | 0 |
-| Dictyostelium discoideum | amoebozoa | 10 | 4 | 8 | 0 | 0 |  |  | 10 | 8 |
-| Drosophila melanogaster | invertebrate | 40 | 38 | 40 | 40 | 40 | 1.0 |  | 0 | 0 |
+| Branchiostoma floridae | deuterostome | 52 | 46 | 50 | 47 | 46 | 0.9787 | tweety | 5 | 4 |
+| Caenorhabditis elegans | invertebrate | 42 | 39 | 41 | 41 | 40 | 0.9756 | tweety | 1 | 1 |
+| Callorhinchus milii | vertebrate | 61 | 61 | 61 | 61 | 61 | 1.0 |  | 0 | 0 |
+| Capsaspora owczarzaki | holozoa | 20 | 10 | 18 | 11 | 11 | 1.0 |  | 9 | 7 |
+| Chlamydomonas reinhardtii | algae | 13 | 3 | 9 | 0 | 0 |  |  | 13 | 9 |
+| Ciona intestinalis | deuterostome | 38 | 33 | 36 | 36 | 34 | 0.9444 | tmem175,tric | 2 | 2 |
+| Cornu aspersum | invertebrate | 29 | 29 | 29 | 29 | 29 | 1.0 |  | 0 | 0 |
+| Danio rerio | vertebrate | 61 | 61 | 61 | 61 | 61 | 1.0 |  | 0 | 0 |
+| Daphnia pulex | invertebrate | 40 | 38 | 40 | 40 | 40 | 1.0 |  | 0 | 0 |
+| Dictyostelium discoideum | amoebozoa | 12 | 6 | 10 | 0 | 0 |  |  | 12 | 10 |
+| Drosophila melanogaster | invertebrate | 43 | 41 | 43 | 43 | 43 | 1.0 |  | 0 | 0 |
 | Escherichia coli | prokaryote | 3 | 2 | 3 | 3 | 3 | 1.0 |  | 0 | 0 |
-| Gallus gallus | vertebrate | 54 | 54 | 54 | 54 | 54 | 1.0 |  | 0 | 0 |
+| Gallus gallus | vertebrate | 61 | 60 | 61 | 61 | 61 | 1.0 |  | 0 | 0 |
 | Gloeobacter violaceus | prokaryote | 4 | 1 | 3 | 3 | 3 | 1.0 |  | 1 | 0 |
-| Homo sapiens | vertebrate | 56 | 56 | 56 | 56 | 56 | 1.0 |  | 0 | 0 |
+| Homo sapiens | vertebrate | 63 | 63 | 63 | 63 | 63 | 1.0 |  | 0 | 0 |
 | Human immunodeficiency virus type 1 | virus | 1 | 0 | 0 | 1 | 0 | 0.0 | viroporin | 0 | 0 |
-| Hydra vulgaris | cnidarian | 37 | 32 | 37 | 27 | 27 | 1.0 |  | 10 | 10 |
+| Hydra vulgaris | cnidarian | 40 | 35 | 40 | 29 | 29 | 1.0 |  | 11 | 11 |
 | Influenza A virus | virus | 1 | 0 | 0 | 1 | 0 | 0.0 | viroporin | 0 | 0 |
-| Latimeria chalumnae | vertebrate | 55 | 55 | 55 | 55 | 55 | 1.0 |  | 0 | 0 |
-| Lottia gigantea | invertebrate | 39 | 39 | 39 | 38 | 38 | 1.0 |  | 1 | 1 |
-| Lymnaea stagnalis | invertebrate | 39 | 39 | 39 | 39 | 39 | 1.0 |  | 0 | 0 |
+| Latimeria chalumnae | vertebrate | 62 | 61 | 62 | 62 | 62 | 1.0 |  | 0 | 0 |
+| Lottia gigantea | invertebrate | 43 | 42 | 42 | 42 | 41 | 0.9762 | clcc1 | 1 | 1 |
+| Lymnaea stagnalis | invertebrate | 44 | 43 | 44 | 43 | 43 | 1.0 |  | 1 | 1 |
 | Methanothermobacter thermautotrophicus | prokaryote | 2 | 0 | 2 | 2 | 2 | 1.0 |  | 0 | 0 |
-| Monodelphis domestica | vertebrate | 56 | 56 | 56 | 56 | 56 | 1.0 |  | 0 | 0 |
-| Monosiga brevicollis | holozoa | 17 | 10 | 16 | 9 | 9 | 1.0 |  | 8 | 7 |
-| Mus musculus | vertebrate | 55 | 55 | 55 | 55 | 55 | 1.0 |  | 0 | 0 |
-| Nematostella vectensis | cnidarian | 36 | 32 | 35 | 32 | 31 | 0.9688 | tweety | 4 | 4 |
-| Ornithorhynchus anatinus | vertebrate | 55 | 55 | 55 | 55 | 55 | 1.0 |  | 0 | 0 |
-| Oryza sativa | plant | 8 | 8 | 8 | 8 | 8 | 1.0 |  | 0 | 0 |
-| Paramecium tetraurelia | ciliate | 12 | 6 | 12 | 10 | 10 | 1.0 |  | 2 | 2 |
-| Petromyzon marinus | vertebrate | 54 | 54 | 54 | 54 | 54 | 1.0 |  | 0 | 0 |
-| Physcomitrium patens | plant | 11 | 9 | 11 | 8 | 8 | 1.0 |  | 3 | 3 |
-| Plasmodium falciparum | apicomplexa | 3 | 0 | 1 | 0 | 0 |  |  | 3 | 1 |
-| Rattus norvegicus | vertebrate | 55 | 54 | 55 | 55 | 55 | 1.0 |  | 0 | 0 |
-| Saccharomyces cerevisiae | fungi | 2 | 0 | 2 | 2 | 2 | 1.0 |  | 0 | 0 |
-| Schizosaccharomyces pombe | fungi | 4 | 1 | 4 | 2 | 2 | 1.0 |  | 2 | 2 |
+| Monodelphis domestica | vertebrate | 63 | 63 | 63 | 63 | 63 | 1.0 |  | 0 | 0 |
+| Monosiga brevicollis | holozoa | 19 | 12 | 18 | 11 | 11 | 1.0 |  | 8 | 7 |
+| Mus musculus | vertebrate | 62 | 62 | 62 | 62 | 62 | 1.0 |  | 0 | 0 |
+| Nematostella vectensis | cnidarian | 39 | 35 | 38 | 35 | 34 | 0.9714 | tweety | 4 | 4 |
+| Ornithorhynchus anatinus | vertebrate | 62 | 62 | 62 | 62 | 62 | 1.0 |  | 0 | 0 |
+| Oryza sativa | plant | 10 | 10 | 10 | 10 | 10 | 1.0 |  | 0 | 0 |
+| Paramecium tetraurelia | ciliate | 14 | 8 | 14 | 12 | 12 | 1.0 |  | 2 | 2 |
+| Petromyzon marinus | vertebrate | 60 | 60 | 60 | 60 | 60 | 1.0 |  | 0 | 0 |
+| Physcomitrium patens | plant | 12 | 10 | 12 | 9 | 9 | 1.0 |  | 3 | 3 |
+| Plasmodium falciparum | apicomplexa | 5 | 0 | 3 | 0 | 0 |  |  | 5 | 3 |
+| Rattus norvegicus | vertebrate | 62 | 61 | 62 | 62 | 62 | 1.0 |  | 0 | 0 |
+| Saccharomyces cerevisiae | fungi | 3 | 0 | 3 | 2 | 2 | 1.0 |  | 1 | 1 |
+| Schizosaccharomyces pombe | fungi | 5 | 1 | 5 | 2 | 2 | 1.0 |  | 3 | 3 |
 | Severe acute respiratory syndrome coronavirus 2 | virus | 1 | 0 | 0 | 1 | 0 | 0.0 | viroporin | 0 | 0 |
 | Streptomyces lividans | prokaryote | 3 | 1 | 3 | 3 | 3 | 1.0 |  | 0 | 0 |
-| Strongylocentrotus purpuratus | deuterostome | 43 | 40 | 42 | 43 | 42 | 0.9767 | tmem175 | 0 | 0 |
+| Strongylocentrotus purpuratus | deuterostome | 47 | 43 | 46 | 47 | 46 | 0.9787 | tmem175 | 0 | 0 |
 | Synechocystis sp. PCC 6803 | prokaryote | 5 | 3 | 5 | 3 | 3 | 1.0 |  | 2 | 2 |
-| Takifugu rubripes | vertebrate | 51 | 51 | 51 | 51 | 51 | 1.0 |  | 0 | 0 |
-| Tetrahymena thermophila | ciliate | 10 | 4 | 10 | 10 | 10 | 1.0 |  | 0 | 0 |
+| Takifugu rubripes | vertebrate | 57 | 56 | 57 | 57 | 57 | 1.0 |  | 0 | 0 |
+| Tetrahymena thermophila | ciliate | 12 | 4 | 12 | 12 | 12 | 1.0 |  | 0 | 0 |
 | Thermus thermophilus | prokaryote | 2 | 1 | 2 | 2 | 2 | 1.0 |  | 0 | 0 |
-| Torpedo marmorata | vertebrate | 50 | 50 | 50 | 50 | 50 | 1.0 |  | 0 | 0 |
-| Trichoplax adhaerens | basal_metazoan | 29 | 26 | 29 | 20 | 20 | 1.0 |  | 9 | 9 |
-| Trypanosoma brucei | excavate | 1 | 0 | 0 | 0 | 0 |  |  | 1 | 0 |
-| Xenopus tropicalis | vertebrate | 54 | 54 | 54 | 54 | 54 | 1.0 |  | 0 | 0 |
+| Torpedo marmorata | vertebrate | 52 | 52 | 52 | 52 | 52 | 1.0 |  | 0 | 0 |
+| Trichoplax adhaerens | basal_metazoan | 31 | 28 | 31 | 22 | 22 | 1.0 |  | 9 | 9 |
+| Trypanosoma brucei | excavate | 2 | 0 | 1 | 0 | 0 |  |  | 2 | 1 |
+| Xenopus tropicalis | vertebrate | 59 | 59 | 59 | 59 | 59 | 1.0 |  | 0 | 0 |
 
 ## Zero cells: what the genomes say about S3b's absences
 
-2,056 zero cells (census family × species with no proteome call); 247 informative (the family is present at high confidence in another species of the group). Every cell is in `cells.tsv`.
+2,253 zero cells (census family × species with no proteome call); 277 informative (the family is present at high confidence in another species of the group). Every cell is in `cells.tsv`.
 
 | verdict | all | informative |
 |---|---|---|
-| no_locus_unrescued | 1442 | 0 |
-| partial | 290 | 24 |
-| genome_present | 104 | 102 |
-| gap | 101 | 11 |
-| absent | 72 | 72 |
-| trace | 17 | 17 |
-| genome_weak | 15 | 8 |
-| genome_found | 11 | 9 |
+| no_locus_unrescued | 1581 | 0 |
+| partial | 314 | 27 |
+| genome_present | 115 | 113 |
+| gap | 107 | 11 |
+| absent | 83 | 83 |
+| trace | 18 | 18 |
+| genome_weak | 17 | 9 |
+| genome_found | 14 | 12 |
 | unmatched | 4 | 4 |
 
 Informative zero cells by group:
 
-| group | genome_present | absent | partial | trace | gap | genome_found | genome_weak | unmatched | total |
+| group | genome_present | absent | partial | trace | genome_found | gap | genome_weak | unmatched | total |
 |---|---|---|---|---|---|---|---|---|---|
 | prokaryote |  | 29 |  | 3 |  |  |  |  | 32 |
-| fungi |  |  | 1 | 1 |  |  |  |  | 2 |
-| plant |  | 1 | 5 | 1 |  |  |  |  | 7 |
+| fungi |  | 1 | 1 | 1 |  |  |  |  | 3 |
+| plant |  | 1 | 6 | 1 |  |  |  |  | 8 |
 | ciliate |  |  |  | 1 |  |  |  |  | 1 |
-| holozoa |  | 1 | 2 | 1 | 4 | 1 | 2 | 2 | 13 |
-| basal_metazoan |  | 5 | 2 | 1 | 3 |  |  | 2 | 13 |
-| cnidarian |  | 1 | 1 | 2 |  | 1 | 1 |  | 6 |
-| invertebrate | 46 | 17 | 4 | 5 | 1 | 4 |  |  | 77 |
-| deuterostome |  | 6 | 3 | 2 |  | 1 | 3 |  | 15 |
-| vertebrate | 56 | 12 | 6 |  | 3 | 2 | 2 |  | 81 |
+| holozoa |  | 2 | 2 | 1 | 1 | 4 | 2 | 2 | 14 |
+| basal_metazoan |  | 6 | 2 | 1 | 1 | 3 |  | 2 | 15 |
+| cnidarian |  | 1 | 1 | 2 | 1 |  | 1 |  | 6 |
+| invertebrate | 51 | 22 | 4 | 5 | 5 | 1 |  |  | 88 |
+| deuterostome |  | 6 | 3 | 3 | 1 |  | 4 |  | 17 |
+| vertebrate | 62 | 15 | 8 |  | 3 | 3 | 2 |  | 93 |
 
 ### Proteome misses: a high-confidence intact gene the proteome has no call for
 
@@ -106,15 +106,18 @@ Informative zero cells by group:
 |---|---|---|---|---|---|
 | Monosiga brevicollis | p2x_nonmetazoan | 1 | 1 | 1 | 0.7876 |
 | Trichoplax adhaerens | trpn | 1 | 1 | 1 | 0.7958 |
+| Trichoplax adhaerens | tmem87 | 1 | 1 | 0 |  |
 | Nematostella vectensis | trpn | 2 | 2 | 6 | 0.4029 |
 | Nematostella vectensis | mscs | 6 | 2 | 0 |  |
 | Daphnia pulex | hcn | 1 | 1 | 1 | 0.7983 |
 | Daphnia pulex | trpn | 1 | 1 | 5 | 0.4192 |
+| Daphnia pulex | gphr | 1 | 1 | 0 |  |
 | Lottia gigantea | trpa | 2 | 2 | 0 |  |
 | Lottia gigantea | trpn | 1 | 1 | 8 | 0.2036 |
 | Ciona intestinalis | nalcn | 1 | 1 | 0 |  |
 | Takifugu rubripes | ryr | 6 | 6 | 3 | 0.9355 |
 | Takifugu rubripes | tmem175 | 1 | 1 | 0 |  |
+| Xenopus tropicalis | mitok | 1 | 1 | 0 |  |
 
 ### Weak loci (not claims)
 
@@ -124,6 +127,7 @@ A profile-called locus without a high-confidence intact frame: retrocopies, fram
 |---|---|---|---|---|---|---|
 | Schizosaccharomyces pombe | hcn | 0 | 1 | medium | 0 | CU329670.1:3580313-3648173+ |
 | Oryza sativa | orai | 0 | 1 | medium | 0 | AP014964.1:14295917-14353313+ |
+| Chlamydomonas reinhardtii | tmem109 | 0 | 1 | medium | 0 | r4_CM008964.1:2476484-2543755- |
 | Paramecium tetraurelia | kcsa_prok | 0 | 1 | medium | 0 | CT868665.1:186255-266224- |
 | Monosiga brevicollis | hcn | 0 | 1 | medium | 0 | CH991580.1:26721-72525- |
 | Monosiga brevicollis | trpa | 0 | 2 | medium | 0 | CH991544.1:112966-215252+;CH991570.1:73607-167889+ |
@@ -135,6 +139,7 @@ A profile-called locus without a high-confidence intact frame: retrocopies, fram
 | Ciona intestinalis | trpn | 1 | 1 | high | 0 | HT000012.2:4294893-4318182- |
 | Ciona intestinalis | nmda | 1 | 1 | medium | 0 | HT000014.2:4000191-4004598- |
 | Ciona intestinalis | piezo | 1 | 1 | high | 0 | HT000012.2:5256279-5295291- |
+| Ciona intestinalis | gphr | 1 | 1 | high | 0 | r4_HT000005.2:1226492-1227891+ |
 | Xenopus tropicalis | tmem175 | 1 | 1 | medium | 0 | NC_030684.2:112668717-113117206- |
 | Mus musculus | zac | 1 | 1 | medium | 0 | CM000997.3:41266303-41666273+ |
 
@@ -147,22 +152,28 @@ A profile-called locus without a high-confidence intact frame: retrocopies, fram
 | bestrophin | absent | 6 | B. subtilis, S. lividans, G. violaceus, A. butzleri, M. thermautotrophicus, T. thermophilus | cds |
 | calhm | absent | 5 | H. vulgaris, D. pulex, A. californica, L. stagnalis, S. purpuratus | pooled |
 | catsper | absent | 1 | P. marinus | group |
+| clcc1 | absent | 3 | C. elegans, D. melanogaster, D. pulex | pooled |
 | deg_invertebrate | absent | 2 | D. melanogaster, D. pulex | group |
 | enac | absent | 2 | D. rerio, T. rubripes | group |
+| gphr | absent | 1 | S. pombe | pooled |
 | hv1 | absent | 2 | C. elegans, D. melanogaster | group |
 | iglur_prok | absent | 6 | E. coli, S. lividans, G. violaceus, A. butzleri, M. thermautotrophicus, T. thermophilus | cds |
 | kca_slo | absent | 1 | A. thaliana | pooled |
 | kcsa_prok | absent | 1 | T. thermophilus | cds |
 | kir | absent | 7 | E. coli, B. subtilis, S. lividans, G. violaceus, A. butzleri, M. thermautotrophicus, T. thermophilus | cds |
 | mcu | absent | 1 | T. adhaerens | pooled |
+| mitok | absent | 2 | D. melanogaster, L. gigantea | pooled |
 | mscl | absent | 2 | A. butzleri, M. thermautotrophicus | cds |
 | nav | absent | 2 | A. queenslandica, C. elegans | group, pooled |
 | osca_tmem63 | absent | 2 | C. elegans, C. intestinalis | group, pooled |
 | p2x | absent | 3 | C. elegans, D. melanogaster, C. intestinalis | group |
 | p2x_nonmetazoan | absent | 1 | T. adhaerens | pooled |
+| pacc | absent | 2 | T. adhaerens, T. rubripes | group, pooled |
 | pannexin | absent | 2 | S. purpuratus, C. intestinalis | pooled |
 | piezo | absent | 1 | D. pulex | group |
 | plgic_prok | absent | 9 | E. coli, B. subtilis, S. lividans, S. sp. PCC 6803, A. butzleri, M. thermautotrophicus, T. thermophilus, D. pulex, C. intestinalis | cds, pooled |
+| tmco1 | absent | 1 | M. brevicollis | pooled |
+| tmem109 | absent | 2 | P. marinus, C. milii | group |
 | tmem175 | absent | 1 | T. adhaerens | pooled |
 | tpc | absent | 2 | C. elegans, D. melanogaster | group |
 | tric | absent | 1 | M. brevicollis | pooled |
@@ -182,8 +193,8 @@ A profile-called locus without a high-confidence intact frame: retrocopies, fram
 
 ### Genome-only species
 
-- *Cornu aspersum*: **48 census families present** by a profile-called locus — ampa, ano_scramblase, asic, bestrophin, cav, clc_channel, clic, cng, deg_invertebrate, delta_glur, gabaa, hcn, hv1, iglur_nonvertebrate, innexin, itpr, k2p, kainate, kca_sk, kca_slo, kir, kv_eag, kv_kcnq, kv_shaker, mcu, nachr, nalcn, nav, nmda, orai, osca_tmem63, otop, p2x, piezo, plgic_prok, ryr, tmc, tpc, tric, trpa, trpc, trpm, trpml, trpn, trpp, trpv, tweety, vdac.
-- *Torpedo marmorata*: **56 census families present** by a profile-called locus — ampa, ano_channel, ano_scramblase, asic, bestrophin, calhm, catsper, cav, cftr, clc_channel, clic, cng, connexin, delta_glur, enac, gabaa, glyr, hcn, ht3, hv1, itpr, k2p, kainate, kca_sk, kca_slo, kir, kv_eag, kv_kcnq, kv_modifier, kv_shaker, lrrc8, mcu, nachr, nalcn, nav, nmda, orai, osca_tmem63, otop, p2x, pannexin, piezo, ryr, tmc, tmem175, tpc, tric, trpa, trpc, trpm, trpml, trpn, trpp, trpv, tweety, vdac.
+- *Cornu aspersum*: **53 census families present** by a profile-called locus — ampa, ano_scramblase, asic, bestrophin, cav, clc_channel, clcc1, clic, cng, deg_invertebrate, delta_glur, gabaa, gphr, hcn, hv1, iglur_nonvertebrate, innexin, itpr, k2p, kainate, kca_sk, kca_slo, kir, kv_eag, kv_kcnq, kv_shaker, mcu, mitok, nachr, nalcn, nav, nmda, orai, osca_tmem63, otop, p2x, piezo, plgic_prok, ryr, tmc, tmco1, tmem87, tpc, tric, trpa, trpc, trpm, trpml, trpn, trpp, trpv, tweety, vdac.
+- *Torpedo marmorata*: **62 census families present** by a profile-called locus — ampa, ano_channel, ano_scramblase, asic, bestrophin, calhm, catsper, cav, cftr, clc_channel, clcc1, clic, cng, connexin, delta_glur, enac, gabaa, glyr, gphr, hcn, ht3, hv1, itpr, k2p, kainate, kca_sk, kca_slo, kir, kv_eag, kv_kcnq, kv_modifier, kv_shaker, lrrc8, mcu, mitok, nachr, nalcn, nav, nmda, orai, osca_tmem63, otop, p2x, pacc, pannexin, piezo, ryr, tmc, tmco1, tmem175, tmem87, tpc, tric, trpa, trpc, trpm, trpml, trpn, trpp, trpv, tweety, vdac.
 
 ## Calibration from annotation (not from miniprot)
 
@@ -201,45 +212,45 @@ Widest annotated intron at a high-confidence family-called locus, against the `-
 | Thermus thermophilus | GCA_000091545.1 | 1 | 1 | 0 | TTHA0627 (mscl) | 2000 | 0 |
 | Saccharomyces cerevisiae | GCA_000146045.2 | 0 | 0 |  |  | 200000 | 0 |
 | Schizosaccharomyces pombe | GCA_000002945.3 | 1 | 1 | 0 | SPOM_SPAC24H6.13 (osca_tmem63) | 200000 | 0 |
-| Arabidopsis thaliana | GCA_000001735.2 | 33 | 32 | 766 | KCO2 (k2p) | 200000 | 0 |
-| Oryza sativa | GCA_001433935.1 | 23 | 22 | 2026 | Os03g0202200 (vdac) | 200000 | 0 |
-| Physcomitrium patens | GCF_000002425.5 | 21 | 21 | 1257 | LOC112275199 (clic) | 200000 | 0 |
-| Chlamydomonas reinhardtii | GCA_000002595.3 | 4 | 3 | 614 | CHLRE_17g720600v5 (cav) | 200000 | 0 |
-| Dictyostelium discoideum | GCA_000004695.1 | 5 | 5 | 227 | orfR1062 (osca_tmem63) | 200000 | 0 |
-| Paramecium tetraurelia | GCA_000165425.1 | 9 | 8 | 37 | GSPATT00036989001 (cng) | 200000 | 0 |
+| Arabidopsis thaliana | GCA_000001735.2 | 37 | 36 | 798 | GTG2 (gphr) | 200000 | 0 |
+| Oryza sativa | GCA_001433935.1 | 25 | 24 | 2026 | Os03g0202200 (vdac) | 200000 | 0 |
+| Physcomitrium patens | GCF_000002425.5 | 22 | 22 | 1257 | LOC112275199 (clic) | 200000 | 0 |
+| Chlamydomonas reinhardtii | GCA_000002595.3 | 5 | 4 | 614 | CHLRE_17g720600v5 (cav) | 200000 | 0 |
+| Dictyostelium discoideum | GCA_000004695.1 | 8 | 8 | 227 | orfR1062 (osca_tmem63) | 200000 | 0 |
+| Paramecium tetraurelia | GCA_000165425.1 | 12 | 11 | 37 | GSPATT00036989001 (cng) | 200000 | 0 |
 | Tetrahymena thermophila | GCA_000189635.1 | 4 | 4 | 648 | TTHERM_00378480 (cav) | 200000 | 0 |
 | Trypanosoma brucei | GCA_000002445.1 | 0 | 0 |  |  | 200000 | 0 |
 | Plasmodium falciparum | GCA_000002765.3 | 0 | 0 |  |  | 200000 | 0 |
-| Monosiga brevicollis | GCA_000002865.1 | 15 | 13 | 426 | MONBRDRAFT_33881 (kca_slo) | 200000 | 0 |
-| Capsaspora owczarzaki | GCA_000151315.2 | 8 | 8 | 1886 | CAOG_009776 (itpr) | 200000 | 0 |
-| Amphimedon queenslandica | GCF_000090795.2 | 28 | 27 | 4644 | LOC100641967 (p2x_nonmetazoan) | 200000 | 0 |
-| Trichoplax adhaerens | GCA_000150275.1 | 58 | 43 | 8354 | TRIADDRAFT_51003 (k2p) | 200000 | 0 |
-| Nematostella vectensis | GCA_000209225.1 | 120 | 85 | 12060 | NEMVEDRAFT_v1g118813 (kv_eag) | 200000 | 0 |
-| Hydra vulgaris | GCF_038396675.1 | 71 | 71 | 35258 | LOC100204665 (cav) | 200000 | 0 |
-| Caenorhabditis elegans | GCA_000002985.3 | 101 | 98 | 20089 | unc-7 (innexin) | 200000 | 0 |
-| Drosophila melanogaster | GCA_000001215.4 | 68 | 68 | 87537 | shakB (innexin) | 200000 | 0 |
-| Daphnia pulex | GCA_000187875.1 | 87 | 82 | 35180 | DAPPUDRAFT_321681 (nachr) | 200000 | 0 |
-| Lottia gigantea | GCA_000327385.1 | 105 | 92 | 38063 | LOTGIDRAFT_105753 (kv_shaker) | 200000 | 0 |
-| Aplysia californica | GCF_000002075.1 | 69 | 63 | 204025 | LOC101855406 (trpc) | 200000 | 1 |
-| Lymnaea stagnalis | GCA_964033795.1 | 94 | 87 | 76732 | GSLYS_00019449001 (kca_sk) | 200000 | 0 |
-| Cornu aspersum |  | 152 | 0 |  |  | 1000000 |  |
-| Strongylocentrotus purpuratus | GCF_000002235.5 | 105 | 103 | 64435 | LOC589158 (trpc) | 200000 | 0 |
-| Branchiostoma floridae | GCF_000003815.2 | 121 | 115 | 256433 | LOC118408435 (asic) | 200000 | 1 |
-| Ciona intestinalis | GCF_000224145.3 | 79 | 78 | 28393 | LOC104265353 (nav) | 200000 | 0 |
-| Petromyzon marinus | GCF_048934315.1 | 333 | 270 | 364747 | KCND1 (kv_shaker) | 1000000 | 0 |
-| Callorhinchus milii | GCF_000165045.1 | 212 | 208 | 223342 | asic2 (asic) | 200000 | 2 |
-| Torpedo marmorata |  | 228 | 0 |  |  | 1000000 |  |
-| Danio rerio | GCF_049306965.2 | 331 | 330 | 728175 | asic4b (asic) | 1000000 | 0 |
-| Takifugu rubripes | GCF_901000725.3 | 351 | 337 | 149854 | asic2 (asic) | 200000 | 0 |
-| Latimeria chalumnae | GCF_000225785.1 | 236 | 235 | 637219 | GRID1 (delta_glur) | 1000000 | 0 |
-| Xenopus tropicalis | GCF_000004195.4 | 233 | 231 | 217542 | asic2 (asic) | 1000000 | 0 |
-| Anolis carolinensis | GCF_000090745.2 | 209 | 207 | 471577 | asic2 (asic) | 1000000 | 0 |
-| Gallus gallus | GCF_016699485.2 | 204 | 203 | 294756 | TRPM3 (trpm) | 1000000 | 0 |
-| Ornithorhynchus anatinus | GCF_004115215.2 | 222 | 221 | 410530 | KCNQ5 (kv_kcnq) | 1000000 | 0 |
-| Monodelphis domestica | GCF_000002295.2 | 239 | 233 | 801144 | TRPM3 (trpm) | 1000000 | 0 |
-| Mus musculus | GCF_000001635.27 | 231 | 220 | 996015 | Asic2 (asic) | 1000000 | 0 |
-| Rattus norvegicus | GCF_036323735.1 | 240 | 226 | 975271 | Asic2 (asic) | 1000000 | 0 |
-| Homo sapiens | GCF_000001405.40 | 305 | 269 | 1043910 | ASIC2 (asic) | 1000000 | 1 |
+| Monosiga brevicollis | GCA_000002865.1 | 17 | 15 | 426 | MONBRDRAFT_33881 (kca_slo) | 200000 | 0 |
+| Capsaspora owczarzaki | GCA_000151315.2 | 11 | 11 | 1886 | CAOG_009776 (itpr) | 200000 | 0 |
+| Amphimedon queenslandica | GCF_000090795.2 | 32 | 31 | 4833 | LOC100636084 (gphr) | 200000 | 0 |
+| Trichoplax adhaerens | GCA_000150275.1 | 61 | 45 | 8354 | TRIADDRAFT_51003 (k2p) | 200000 | 0 |
+| Nematostella vectensis | GCA_000209225.1 | 123 | 88 | 12060 | NEMVEDRAFT_v1g118813 (kv_eag) | 200000 | 0 |
+| Hydra vulgaris | GCF_038396675.1 | 74 | 74 | 35258 | LOC100204665 (cav) | 200000 | 0 |
+| Caenorhabditis elegans | GCA_000002985.3 | 106 | 103 | 20089 | unc-7 (innexin) | 200000 | 0 |
+| Drosophila melanogaster | GCA_000001215.4 | 71 | 71 | 87537 | shakB (innexin) | 200000 | 0 |
+| Daphnia pulex | GCA_000187875.1 | 90 | 84 | 35180 | DAPPUDRAFT_321681 (nachr) | 200000 | 0 |
+| Lottia gigantea | GCA_000327385.1 | 108 | 95 | 38063 | LOTGIDRAFT_105753 (kv_shaker) | 200000 | 0 |
+| Aplysia californica | GCF_000002075.1 | 72 | 66 | 204025 | LOC101855406 (trpc) | 200000 | 1 |
+| Lymnaea stagnalis | GCA_964033795.1 | 98 | 91 | 76732 | GSLYS_00019449001 (kca_sk) | 200000 | 0 |
+| Cornu aspersum |  | 156 | 0 |  |  | 1000000 |  |
+| Strongylocentrotus purpuratus | GCF_000002235.5 | 109 | 107 | 64435 | LOC589158 (trpc) | 200000 | 0 |
+| Branchiostoma floridae | GCF_000003815.2 | 125 | 119 | 256433 | LOC118408435 (asic) | 200000 | 1 |
+| Ciona intestinalis | GCF_000224145.3 | 82 | 81 | 28393 | LOC104265353 (nav) | 200000 | 0 |
+| Petromyzon marinus | GCF_048934315.1 | 340 | 277 | 364747 | KCND1 (kv_shaker) | 1000000 | 0 |
+| Callorhinchus milii | GCF_000165045.1 | 218 | 214 | 223342 | asic2 (asic) | 200000 | 2 |
+| Torpedo marmorata |  | 236 | 0 |  |  | 1000000 |  |
+| Danio rerio | GCF_049306965.2 | 340 | 338 | 728175 | asic4b (asic) | 1000000 | 0 |
+| Takifugu rubripes | GCF_901000725.3 | 358 | 344 | 149854 | asic2 (asic) | 200000 | 0 |
+| Latimeria chalumnae | GCF_000225785.1 | 244 | 243 | 637219 | GRID1 (delta_glur) | 1000000 | 0 |
+| Xenopus tropicalis | GCF_000004195.4 | 240 | 238 | 217542 | asic2 (asic) | 1000000 | 0 |
+| Anolis carolinensis | GCF_000090745.2 | 217 | 215 | 471577 | asic2 (asic) | 1000000 | 0 |
+| Gallus gallus | GCF_016699485.2 | 210 | 209 | 294756 | TRPM3 (trpm) | 1000000 | 0 |
+| Ornithorhynchus anatinus | GCF_004115215.2 | 230 | 229 | 410530 | KCNQ5 (kv_kcnq) | 1000000 | 0 |
+| Monodelphis domestica | GCF_000002295.2 | 247 | 240 | 801144 | TRPM3 (trpm) | 1000000 | 0 |
+| Mus musculus | GCF_000001635.27 | 238 | 227 | 996015 | Asic2 (asic) | 1000000 | 0 |
+| Rattus norvegicus | GCF_036323735.1 | 248 | 233 | 975271 | Asic2 (asic) | 1000000 | 0 |
+| Homo sapiens | GCF_000001405.40 | 314 | 277 | 1043910 | ASIC2 (asic) | 1000000 | 1 |
 | Influenza A virus | GCF_000865725.1 | 0 | 0 |  |  | 2000 | 0 |
 | Human immunodeficiency virus type 1 |  | 0 | 0 |  |  | 2000 |  |
 | Severe acute respiratory syndrome coronavirus 2 | GCA_009858895.3 | 0 | 0 |  |  | 2000 | 0 |
@@ -254,7 +265,7 @@ Annotated genes with an intron beyond `-G` (5) — each still called, which is w
 | Callorhinchus milii | trpm | trpm3 | 292682 | 208680 | 200000 | KI636021.1:118940-278611- |
 | Homo sapiens | asic | ASIC2 | 1143682 | 1043910 | 1000000 | CM000679.2:33013965-34156532- |
 
-Gene spans (4,328 annotated loci) → D4's bar (D38; 65 families measured):
+Gene spans (4,484 annotated loci) → D4's bar (D38; 72 families measured):
 
 | family | n_genes | n_species | median_span | min_span | max_span | by_group | by_group_n |
 |---|---|---|---|---|---|---|---|
@@ -268,6 +279,7 @@ Gene spans (4,328 annotated loci) → D4's bar (D38; 65 families measured):
 | cav | 185 | 29 | 111694 | 5255 | 996004 | algae:14442;basal_metazoan:12789;ciliate:5290;cnidarian:114056;deuterostome:97047;invertebrate:30011;vertebrate:158445 | algae:3;basal_metazoan:4;ciliate:3;cnidarian:12;deuterostome:10;invertebrate:14;vertebrate:139 |
 | cftr | 13 | 13 | 114587 | 18949 | 204606 | vertebrate:114587 | vertebrate:13 |
 | clc_channel | 46 | 25 | 27541 | 3353 | 214269 | basal_metazoan:7736;deuterostome:33992;holozoa:4435;invertebrate:9955;vertebrate:34098 | basal_metazoan:2;deuterostome:3;holozoa:3;invertebrate:9;vertebrate:29 |
+| clcc1 | 13 | 13 | 24963 | 4401 | 50085 | vertebrate:24963 | vertebrate:13 |
 | clic | 81 | 25 | 16767 | 600 | 248993 | basal_metazoan:1601;cnidarian:5831;deuterostome:16767;invertebrate:4552;plant:2367;vertebrate:29323 | basal_metazoan:1;cnidarian:1;deuterostome:3;invertebrate:9;plant:6;vertebrate:61 |
 | cng | 85 | 27 | 13070 | 936 | 200372 | basal_metazoan:3533;ciliate:3239;cnidarian:5992;deuterostome:21941;invertebrate:12978;vertebrate:14114 | basal_metazoan:2;ciliate:3;cnidarian:5;deuterostome:7;invertebrate:16;vertebrate:52 |
 | connexin | 220 | 14 | 7447 | 741 | 72007 | deuterostome:5816;vertebrate:7591 | deuterostome:11;vertebrate:209 |
@@ -276,6 +288,7 @@ Gene spans (4,328 annotated loci) → D4's bar (D38; 65 families measured):
 | enac | 27 | 11 | 29250 | 7756 | 127086 | vertebrate:29250 | vertebrate:27 |
 | gabaa | 156 | 18 | 62765 | 4748 | 491652 | deuterostome:47828;invertebrate:30264;vertebrate:65716 | deuterostome:7;invertebrate:2;vertebrate:147 |
 | glyr | 47 | 13 | 81300 | 7109 | 646471 | vertebrate:81300 | vertebrate:47 |
+| gphr | 36 | 32 | 8880 | 1432 | 97515 | algae:5352;amoebozoa:1834;basal_metazoan:6222;ciliate:1432;cnidarian:14048;deuterostome:8096;holozoa:2801;invertebrate:7283;plant:5664;vertebrate:28499 | algae:1;amoebozoa:1;basal_metazoan:3;ciliate:1;cnidarian:2;deuterostome:3;holozoa:2;invertebrate:6;plant:3;vertebrate:14 |
 | hcn | 61 | 20 | 45326 | 4690 | 592243 | deuterostome:31861;invertebrate:45125;vertebrate:46649 | deuterostome:3;invertebrate:5;vertebrate:53 |
 | ht3 | 29 | 13 | 9932 | 2883 | 24160 | vertebrate:9932 | vertebrate:29 |
 | hv1 | 27 | 22 | 10311 | 769 | 96364 | basal_metazoan:1888;cnidarian:10434;deuterostome:7998;invertebrate:5196;vertebrate:12537 | basal_metazoan:2;cnidarian:2;deuterostome:4;invertebrate:7;vertebrate:12 |
@@ -293,6 +306,7 @@ Gene spans (4,328 annotated loci) → D4's bar (D38; 65 families measured):
 | kv_shaker | 186 | 25 | 8376 | 1071 | 603805 | basal_metazoan:1107;cnidarian:3184;deuterostome:14137;invertebrate:11198;vertebrate:8739 | basal_metazoan:1;cnidarian:17;deuterostome:9;invertebrate:12;vertebrate:147 |
 | lrrc8 | 44 | 14 | 17509 | 1554 | 161222 | cnidarian:1554;vertebrate:17527 | cnidarian:1;vertebrate:43 |
 | mcu | 38 | 27 | 42106 | 1784 | 195552 | basal_metazoan:1998;cnidarian:19175;deuterostome:39007;holozoa:4656;invertebrate:16207;plant:2461;vertebrate:70290 | basal_metazoan:1;cnidarian:2;deuterostome:4;holozoa:1;invertebrate:6;plant:1;vertebrate:23 |
+| mitok | 16 | 16 | 7089 | 1547 | 30179 | deuterostome:3824;invertebrate:3159;vertebrate:10868 | deuterostome:1;invertebrate:2;vertebrate:13 |
 | mscl | 6 | 6 | 424 | 375 | 545 | prokaryote:424 | prokaryote:6 |
 | mscs | 15 | 6 | 3591 | 861 | 7207 | plant:3612;prokaryote:891 | plant:12;prokaryote:3 |
 | nachr | 245 | 24 | 14153 | 1056 | 209967 | cnidarian:6371;deuterostome:11173;invertebrate:7440;vertebrate:19262 | cnidarian:22;deuterostome:37;invertebrate:48;vertebrate:138 |
@@ -304,13 +318,17 @@ Gene spans (4,328 annotated loci) → D4's bar (D38; 65 families measured):
 | otop | 50 | 22 | 9707 | 1128 | 74430 | cnidarian:2060;deuterostome:2527;invertebrate:3315;vertebrate:12653 | cnidarian:2;deuterostome:1;invertebrate:18;vertebrate:29 |
 | p2x | 72 | 25 | 17913 | 1146 | 89348 | basal_metazoan:4685;cnidarian:27704;deuterostome:44420;holozoa:2549;invertebrate:12950;vertebrate:18385 | basal_metazoan:3;cnidarian:2;deuterostome:4;holozoa:2;invertebrate:4;vertebrate:57 |
 | p2x_nonmetazoan | 2 | 2 | 7022 | 6156 | 7888 | basal_metazoan:6156;cnidarian:7888 | basal_metazoan:1;cnidarian:1 |
+| pacc | 12 | 12 | 25219 | 8542 | 118533 | vertebrate:25219 | vertebrate:12 |
 | pannexin | 39 | 13 | 16888 | 2997 | 69966 | vertebrate:16888 | vertebrate:39 |
 | piezo | 48 | 25 | 91415 | 9690 | 592590 | amoebozoa:9690;basal_metazoan:13188;cnidarian:169344;deuterostome:88642;holozoa:9889;invertebrate:67905;vertebrate:100151 | amoebozoa:1;basal_metazoan:2;cnidarian:1;deuterostome:3;holozoa:1;invertebrate:4;vertebrate:36 |
 | plgic_invertebrate | 7 | 3 | 7124 | 2284 | 44517 | invertebrate:7124 | invertebrate:7 |
 | plgic_prok | 1 | 1 | 6302 | 6302 | 6302 | invertebrate:6302 | invertebrate:1 |
 | ryr | 54 | 24 | 145702 | 15515 | 791805 | basal_metazoan:22879;deuterostome:129206;holozoa:20522;invertebrate:27734;vertebrate:184748 | basal_metazoan:2;deuterostome:3;holozoa:1;invertebrate:5;vertebrate:43 |
 | tmc | 93 | 25 | 23313 | 1839 | 316690 | basal_metazoan:5830;cnidarian:11408;deuterostome:17773;invertebrate:15126;vertebrate:36081 | basal_metazoan:5;cnidarian:4;deuterostome:9;invertebrate:12;vertebrate:63 |
+| tmco1 | 35 | 32 | 3835 | 652 | 54808 | amoebozoa:686;basal_metazoan:1652;ciliate:656;cnidarian:2692;deuterostome:12291;holozoa:948;invertebrate:1918;plant:1096;vertebrate:17476 | amoebozoa:1;basal_metazoan:2;ciliate:2;cnidarian:2;deuterostome:4;holozoa:1;invertebrate:6;plant:4;vertebrate:13 |
+| tmem109 | 7 | 7 | 11087 | 7404 | 64975 | vertebrate:11087 | vertebrate:7 |
 | tmem175 | 15 | 15 | 16107 | 2193 | 81178 | basal_metazoan:3112;cnidarian:2239;deuterostome:9929;vertebrate:17988 | basal_metazoan:1;cnidarian:2;deuterostome:1;vertebrate:11 |
+| tmem87 | 37 | 28 | 22473 | 2255 | 96840 | amoebozoa:2255;basal_metazoan:4794;cnidarian:32484;deuterostome:21101;holozoa:2980;invertebrate:7747;vertebrate:27123 | amoebozoa:1;basal_metazoan:1;cnidarian:2;deuterostome:3;holozoa:2;invertebrate:6;vertebrate:22 |
 | tpc | 51 | 28 | 23273 | 2494 | 121915 | amoebozoa:6260;basal_metazoan:4322;cnidarian:33929;deuterostome:26164;holozoa:3334;invertebrate:16324;plant:6555;vertebrate:42416 | amoebozoa:1;basal_metazoan:3;cnidarian:3;deuterostome:6;holozoa:2;invertebrate:7;plant:5;vertebrate:24 |
 | tric | 32 | 20 | 16800 | 1728 | 100927 | deuterostome:6948;invertebrate:9078;vertebrate:25435 | deuterostome:1;invertebrate:7;vertebrate:24 |
 | trpa | 29 | 22 | 38785 | 2482 | 365399 | basal_metazoan:3800;cnidarian:100591;deuterostome:30185;invertebrate:23384;vertebrate:44375 | basal_metazoan:1;cnidarian:1;deuterostome:7;invertebrate:6;vertebrate:14 |

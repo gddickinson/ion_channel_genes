@@ -705,3 +705,26 @@ for a KChIP. With it, exactly the four human KChIPs are identified.
 **Not yet known:** whether any species' genome carries these new channels
 where its annotated gene set does not. The genome sweep has not been run for
 them *(pending: genome sweep extension)*.
+
+## S5c — the newly added channels in the 52 genomes (2026-09-30)
+
+**Where the eight newly added channels are, and where they are not.** Most
+are found wherever their relatives are expected. The Golgi pH regulators and
+the ER calcium-leak channel TMCO1 are nearly universal in eukaryotes,
+including plants, protists and the malaria parasite. PACC1, the
+proton-activated chloride channel, is an animal gene: found in sponges and
+vertebrates, and measured as absent from the placozoan *Trichoplax* and,
+surprisingly, the pufferfish *Takifugu*. The ER chloride channel CLCC1 is
+present in the cnidarians, molluscs and vertebrates. It is absent from all
+three moulting animals in the panel (nematode, fruit fly, water flea), which
+suggests a loss in that lineage *(pending: S10, literature check)*.
+
+**Three genomes carry one of these genes that their annotated gene set
+lacks:** a TMEM87 in *Trichoplax*, a Golgi pH regulator in *Daphnia*, and
+the proposed mitochondrial K⁺ channel MITOK in the frog *Xenopus*.
+
+**What this does not show:** TMEM87 appears in fungi, plants and slime
+moulds. That is almost certainly the method confusing it with its
+non-channel Golgi relatives (hazard H18), not a real range. And adding these
+families changed nothing previously concluded about any other channel in
+any genome.

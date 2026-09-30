@@ -32,7 +32,8 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from s3_hmm_lib import read_tsv, write_tsv  # noqa: E402
 from s5_genome_io import fna_path  # noqa: E402
 from s5_ledger import CELL_FIELDS, build_cells, controls, load_loci  # noqa: E402
-from s5_lib import OUT_DIR, PROK_GROUPS, load_bait_meta, manifest  # noqa: E402
+from s5_lib import (BAITS_FAA, BAITS_R4_FAA, OUT_DIR, PROK_GROUPS,  # noqa: E402
+                    load_bait_meta, manifest, r4_families)
 from src.catalogue import registry  # noqa: E402
 from s5_rescue import outside_loci, read_hsps, run_tblastn, traces  # noqa: E402
 
@@ -61,13 +62,26 @@ def rescue(run: dict, cells: list[dict], meta: dict) -> list[dict]:
     if not want:
         return []
     fams = {c["family"] for c in want}
-    baits = sorted(b for b, m in meta.items()
-                   if m["family"] in fams and m["species"] != sp)
     fna = fna_path(run["assembly"])
-    tag = "rescue_" + hashlib.sha256("\n".join(baits).encode()).hexdigest()[:12]
-    hsps = read_hsps(run_tblastn(run["assembly"], fna, baits, tag))
+    # r4's families are rescued in a call of their own (their own bait
+    # file), so the old families' bait list — and its cached tblastn — is
+    # exactly S5b's (D43)
+    r4 = r4_families()
+    hsps = []
+    for part, faa in ((fams - r4, BAITS_FAA), (fams & r4, BAITS_R4_FAA)):
+        baits = sorted(b for b, m in meta.items()
+                       if m["family"] in part and m["species"] != sp)
+        if not baits:
+            continue
+        tag = "rescue_" + hashlib.sha256("\n".join(baits).encode()).hexdigest()[:12]
+        hsps += read_hsps(run_tblastn(run["assembly"], fna, baits, tag, faa=faa))
     hsps = [h for h in hsps if h["family"] in fams]
-    kept = outside_loci(hsps, load_loci(run["assembly"]))
+    # an old family's trace is judged against S5b's loci only: r4 loci must
+    # not change an old cell, not even its trace count (D43)
+    all_loci = load_loci(run["assembly"])
+    s5b_loci = [L for L in all_loci if not L["locus"].startswith("r4_")]
+    kept = (outside_loci([h for h in hsps if h["family"] not in r4], s5b_loci)
+            + outside_loci([h for h in hsps if h["family"] in r4], all_loci))
     kind = {c["family"]: ("control" if c["control"] else "zero")
             for c in want}
     rows = []

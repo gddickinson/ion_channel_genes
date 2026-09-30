@@ -30,6 +30,7 @@ Thermus thermophilus	mscs	AP008226.1	1609004	1609666	5	75.5	2.9e-16	24.5	mscs|Q5
 Saccharomyces cerevisiae	ano_scramblase	BK006936.2	421377	422681	1	107.0	4.78e-24	25.11	ano_scramblase|O13621	zero
 Saccharomyces cerevisiae	vdac	BK006947.3	517997	518866	28	183.0	1.45e-52	34.615	vdac|Q9P544	control
 Schizosaccharomyces pombe	ano_scramblase	CU329671.1	1430926	1432695	23	105.0	3.03e-23	21.163	ano_scramblase|E9FW08	control
+Schizosaccharomyces pombe	tmem87	CU329670.1	4131611	4132780	25	105.0	1.13e-23	25.072	tmem87|Q22938	control
 Arabidopsis thaliana	tweety	CP002684.1	26818728	26819081	1	52.8	2.14e-06	32.258	tweety|A9RMS1	zero
 Chlamydomonas reinhardtii	vdac	CM008966.1	1838395	1838979	23	97.4	4.54e-22	30.818	vdac|A9TKC4	control
 Dictyostelium discoideum	mscs	CM000151.3	7823754	7825226	4	137.0	4.19e-33	22.601	mscs|Q9LYG9	control
@@ -74,6 +75,7 @@ Tetrahymena thermophila	tpc	GG662602.1	92228	92578	1	53.1	1.93e-06	28.455	tpc|A9
 Tetrahymena thermophila	tpc	GG662644.1	257724	258713	5	62.0	5.19e-09	22.899	tpc|A0AAV2H3C9	control
 Tetrahymena thermophila	tpc	GG662794.1	111949	112708	2	40.4	1.7e-06	47.368	tpc|A0CNH5	control
 Tetrahymena thermophila	trpp	GG662639.1	763584	764276	1	60.5	1.4e-08	27.206	trpp|A0D267	control
+Plasmodium falciparum	tmco1	AL844509.3	2493140	2493700	32	92.4	3.17e-22	37.037	tmco1|F6VKC0	control
 Monosiga brevicollis	clic	CH991576.1	170223	171203	4	62.4	3.2e-11	22.188	clic|B3RWE0	control
 Monosiga brevicollis	vdac	CH991550.1	366241	366675	1	76.6	2.68e-15	31.579	vdac|Q18090	control
 Monosiga brevicollis	vdac	CH991582.1	320527	321485	27	115.0	1.09e-28	29.278	vdac|A0A0D2WY38	control
@@ -146,6 +148,7 @@ Lottia gigantea	plgic_invertebrate	KB202518.1	1777251	1779195	5	108.0	7.91e-24	5
 Lottia gigantea	plgic_invertebrate	KB203274.1	141603	142301	2	65.9	3.54e-10	23.333	plgic_invertebrate|Q94900	zero
 Lottia gigantea	plgic_invertebrate	KB203412.1	363235	363639	1	53.9	1.82e-06	29.452	plgic_invertebrate|E9H8S4	zero
 Lottia gigantea	plgic_invertebrate	KB203598.1	1274749	1275552	1	57.4	1.63e-07	21.147	plgic_invertebrate|Q94900	zero
+Aplysia californica	clcc1	NW_004797764.1	231303	231587	1	55.5	3.02e-06	26.316	clcc1|A0AAV2HRX2	control
 Aplysia californica	plgic_invertebrate	NW_004797338.1	283838	284581	1	58.9	1.25e-07	20.849	plgic_invertebrate|Q94900	zero
 Aplysia californica	plgic_invertebrate	NW_004797341.1	989988	990740	2	57.4	4.2e-07	26.222	plgic_invertebrate|G5EBR3	zero
 Aplysia californica	plgic_invertebrate	NW_004797362.1	1298393	1299076	2	67.4	2.96e-10	25.0	plgic_invertebrate|Q94900	zero
@@ -156,6 +159,7 @@ Aplysia californica	plgic_invertebrate	NW_004797559.1	230170	231006	1	55.1	2.1e-
 Aplysia californica	plgic_invertebrate	NW_004797809.1	448025	448252	2	58.9	1.22e-07	38.158	plgic_invertebrate|G5EBR3	zero
 Aplysia californica	plgic_invertebrate	NW_004798132.1	130897	131223	3	97.1	1.1e-19	50.0	plgic_invertebrate|Q94900	zero
 Aplysia californica	plgic_invertebrate	NW_004798161.1	118793	125526	5	94.7	6.07e-19	53.247	plgic_invertebrate|Q94900	zero
+Lymnaea stagnalis	clcc1	CAXITT010000236.1	939018	940670	2	57.4	8.41e-07	30.0	clcc1|A0ABM0K0I0	control
 Lymnaea stagnalis	plgic_invertebrate	CAXITT010000354.1	247193	255659	7	68.9	1.17e-10	52.778	plgic_invertebrate|Q94900	zero
 Lymnaea stagnalis	plgic_invertebrate	CAXITT010000548.1	124432	124707	1	54.3	3.61e-06	33.333	plgic_invertebrate|Q94900	zero
 Lymnaea stagnalis	plgic_invertebrate	CAXITT010000618.1	216258	217160	2	67.0	4.37e-10	21.935	plgic_invertebrate|Q94900	zero
@@ -169,10 +173,13 @@ Strongylocentrotus purpuratus	plgic_prok	AAGJ06000006.1	1017637	1019104	2	63.9	1
 Strongylocentrotus purpuratus	plgic_prok	AAGJ06000006.1	1364631	1366216	2	66.2	3.7e-10	45.455	plgic_prok|A0A9J7KP96	zero
 Strongylocentrotus purpuratus	plgic_prok	AAGJ06000006.1	24594463	24598044	2	69.3	4.47e-11	48.529	plgic_prok|A0A9J7KP96	zero
 Strongylocentrotus purpuratus	plgic_prok	AAGJ06000857.1	1182617	1186276	2	67.8	1.22e-10	48.529	plgic_prok|A0A9J7KP96	zero
+Branchiostoma floridae	clcc1	NC_049991.1	9150389	9150940	2	55.8	1.16e-06	28.571	clcc1|A0A6D2VWF0	control
 Branchiostoma floridae	pannexin	NC_049987.1	18603452	18619528	10	60.5	4.18e-08	26.066	pannexin|A0A4W3JI34	control
 Branchiostoma floridae	pannexin	NC_049987.1	18648219	18654853	12	80.5	2.82e-14	23.907	pannexin|A0A4W3JI34	control
 Branchiostoma floridae	pannexin	NC_049992.1	11947651	11948004	2	61.6	1.11e-08	31.783	pannexin|A0AAJ7UCG9	control
 Branchiostoma floridae	tric	NC_049984.1	12023632	12025507	22	69.3	5.84e-12	38.462	tric|X2JC76	control
 Branchiostoma floridae	tric	NC_049984.1	12051278	12051988	30	65.9	9.39e-11	43.939	tric|A0A7M7GI48	control
 Ciona intestinalis	calhm	HT000002.2	2673717	2674178	7	58.5	8.78e-09	25.735	calhm|Q18593	control
+Ciona intestinalis	clcc1	HT000074.2	7929	8990	16	150.0	5.2e-37	31.2	clcc1|A0A9J7LG52	zero
 Ciona intestinalis	otop	HT000006.2	55371	65784	32	67.0	1.06e-10	39.773	otop|A7RK62	control
+Latimeria chalumnae	tmem109	JH128797.1	7353	7562	2	63.2	2.1e-09	45.588	tmem109|A0A803T2Y2	control

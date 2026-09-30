@@ -67,6 +67,13 @@ Escherichia coli	prokaryote	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unr
 Escherichia coli	prokaryote	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
 Escherichia coli	prokaryote	clic	clic	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1920	cds
 Escherichia coli	prokaryote	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	825	cds
+Escherichia coli	prokaryote	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1200	cds
+Escherichia coli	prokaryote	tmco1	tmco1	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	840	cds
+Escherichia coli	prokaryote	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Escherichia coli	prokaryote	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	870	cds
+Escherichia coli	prokaryote	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Escherichia coli	prokaryote	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1410	cds
+Escherichia coli	prokaryote	gphr	gphr	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1560	cds
 Bacillus subtilis	prokaryote	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3300	cds
 Bacillus subtilis	prokaryote	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1800	cds
 Bacillus subtilis	prokaryote	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3000	cds
@@ -135,6 +142,13 @@ Bacillus subtilis	prokaryote	hv1	hv	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	8
 Bacillus subtilis	prokaryote	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
 Bacillus subtilis	prokaryote	clic	clic	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1920	cds
 Bacillus subtilis	prokaryote	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	825	cds
+Bacillus subtilis	prokaryote	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1200	cds
+Bacillus subtilis	prokaryote	tmco1	tmco1	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	840	cds
+Bacillus subtilis	prokaryote	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Bacillus subtilis	prokaryote	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	870	cds
+Bacillus subtilis	prokaryote	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Bacillus subtilis	prokaryote	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1410	cds
+Bacillus subtilis	prokaryote	gphr	gphr	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1560	cds
 Streptomyces lividans	prokaryote	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3300	cds
 Streptomyces lividans	prokaryote	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1800	cds
 Streptomyces lividans	prokaryote	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3000	cds
@@ -203,6 +217,13 @@ Streptomyces lividans	prokaryote	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locu
 Streptomyces lividans	prokaryote	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
 Streptomyces lividans	prokaryote	clic	clic	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1920	cds
 Streptomyces lividans	prokaryote	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	825	cds
+Streptomyces lividans	prokaryote	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1200	cds
+Streptomyces lividans	prokaryote	tmco1	tmco1	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	840	cds
+Streptomyces lividans	prokaryote	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Streptomyces lividans	prokaryote	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	870	cds
+Streptomyces lividans	prokaryote	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Streptomyces lividans	prokaryote	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1410	cds
+Streptomyces lividans	prokaryote	gphr	gphr	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1560	cds
 Synechocystis sp. PCC 6803	prokaryote	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3300	cds
 Synechocystis sp. PCC 6803	prokaryote	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1800	cds
 Synechocystis sp. PCC 6803	prokaryote	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3000	cds
@@ -271,6 +292,13 @@ Synechocystis sp. PCC 6803	prokaryote	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no
 Synechocystis sp. PCC 6803	prokaryote	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
 Synechocystis sp. PCC 6803	prokaryote	clic	clic	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1920	cds
 Synechocystis sp. PCC 6803	prokaryote	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	825	cds
+Synechocystis sp. PCC 6803	prokaryote	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1200	cds
+Synechocystis sp. PCC 6803	prokaryote	tmco1	tmco1	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	840	cds
+Synechocystis sp. PCC 6803	prokaryote	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Synechocystis sp. PCC 6803	prokaryote	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	870	cds
+Synechocystis sp. PCC 6803	prokaryote	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Synechocystis sp. PCC 6803	prokaryote	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1410	cds
+Synechocystis sp. PCC 6803	prokaryote	gphr	gphr	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1560	cds
 Gloeobacter violaceus	prokaryote	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3300	cds
 Gloeobacter violaceus	prokaryote	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1800	cds
 Gloeobacter violaceus	prokaryote	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3000	cds
@@ -339,6 +367,13 @@ Gloeobacter violaceus	prokaryote	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locu
 Gloeobacter violaceus	prokaryote	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
 Gloeobacter violaceus	prokaryote	clic	clic	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1920	cds
 Gloeobacter violaceus	prokaryote	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	825	cds
+Gloeobacter violaceus	prokaryote	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1200	cds
+Gloeobacter violaceus	prokaryote	tmco1	tmco1	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	840	cds
+Gloeobacter violaceus	prokaryote	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Gloeobacter violaceus	prokaryote	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	870	cds
+Gloeobacter violaceus	prokaryote	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Gloeobacter violaceus	prokaryote	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1410	cds
+Gloeobacter violaceus	prokaryote	gphr	gphr	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1560	cds
 Aliarcobacter butzleri	prokaryote	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3300	cds
 Aliarcobacter butzleri	prokaryote	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1800	cds
 Aliarcobacter butzleri	prokaryote	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3000	cds
@@ -407,6 +442,13 @@ Aliarcobacter butzleri	prokaryote	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_loc
 Aliarcobacter butzleri	prokaryote	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
 Aliarcobacter butzleri	prokaryote	clic	clic	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1920	cds
 Aliarcobacter butzleri	prokaryote	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	825	cds
+Aliarcobacter butzleri	prokaryote	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1200	cds
+Aliarcobacter butzleri	prokaryote	tmco1	tmco1	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	840	cds
+Aliarcobacter butzleri	prokaryote	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Aliarcobacter butzleri	prokaryote	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	870	cds
+Aliarcobacter butzleri	prokaryote	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Aliarcobacter butzleri	prokaryote	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1410	cds
+Aliarcobacter butzleri	prokaryote	gphr	gphr	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1560	cds
 Methanothermobacter thermautotrophicus	prokaryote	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3300	cds
 Methanothermobacter thermautotrophicus	prokaryote	kv_modifier	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	1800	cds
 Methanothermobacter thermautotrophicus	prokaryote	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3000	cds
@@ -475,6 +517,13 @@ Methanothermobacter thermautotrophicus	prokaryote	hv1	hv	0	0	0	0	0	0	no_locus	0	
 Methanothermobacter thermautotrophicus	prokaryote	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
 Methanothermobacter thermautotrophicus	prokaryote	clic	clic	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1920	cds
 Methanothermobacter thermautotrophicus	prokaryote	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	825	cds
+Methanothermobacter thermautotrophicus	prokaryote	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1200	cds
+Methanothermobacter thermautotrophicus	prokaryote	tmco1	tmco1	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	840	cds
+Methanothermobacter thermautotrophicus	prokaryote	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Methanothermobacter thermautotrophicus	prokaryote	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	870	cds
+Methanothermobacter thermautotrophicus	prokaryote	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Methanothermobacter thermautotrophicus	prokaryote	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1410	cds
+Methanothermobacter thermautotrophicus	prokaryote	gphr	gphr	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1560	cds
 Thermus thermophilus	prokaryote	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3300	cds
 Thermus thermophilus	prokaryote	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1800	cds
 Thermus thermophilus	prokaryote	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3000	cds
@@ -543,6 +592,13 @@ Thermus thermophilus	prokaryote	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus
 Thermus thermophilus	prokaryote	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
 Thermus thermophilus	prokaryote	clic	clic	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1920	cds
 Thermus thermophilus	prokaryote	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	825	cds
+Thermus thermophilus	prokaryote	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1200	cds
+Thermus thermophilus	prokaryote	tmco1	tmco1	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	840	cds
+Thermus thermophilus	prokaryote	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Thermus thermophilus	prokaryote	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	870	cds
+Thermus thermophilus	prokaryote	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Thermus thermophilus	prokaryote	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1410	cds
+Thermus thermophilus	prokaryote	gphr	gphr	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1560	cds
 Saccharomyces cerevisiae	fungi	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	8376	pooled
 Saccharomyces cerevisiae	fungi	kv_modifier	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	19092	pooled
 Saccharomyces cerevisiae	fungi	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	81838	pooled
@@ -611,6 +667,13 @@ Saccharomyces cerevisiae	fungi	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_
 Saccharomyces cerevisiae	fungi	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Saccharomyces cerevisiae	fungi	clic	clic	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	16767	pooled
 Saccharomyces cerevisiae	fungi	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0		unmeasured
+Saccharomyces cerevisiae	fungi	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Saccharomyces cerevisiae	fungi	tmco1	tmco1	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1	3835	pooled
+Saccharomyces cerevisiae	fungi	tmem87	tmem87	2	0	0	1	1	0	no_locus	0		0	0	0	0		present		0	22473	pooled
+Saccharomyces cerevisiae	fungi	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Saccharomyces cerevisiae	fungi	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
+Saccharomyces cerevisiae	fungi	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
+Saccharomyces cerevisiae	fungi	gphr	gphr	1	1	0	1	0	1	partial	0		0	1	0	0		present		1	8880	pooled
 Schizosaccharomyces pombe	fungi	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	8376	pooled
 Schizosaccharomyces pombe	fungi	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	19092	pooled
 Schizosaccharomyces pombe	fungi	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	81838	pooled
@@ -679,6 +742,13 @@ Schizosaccharomyces pombe	fungi	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus
 Schizosaccharomyces pombe	fungi	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Schizosaccharomyces pombe	fungi	clic	clic	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1	16767	pooled
 Schizosaccharomyces pombe	fungi	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0		unmeasured
+Schizosaccharomyces pombe	fungi	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Schizosaccharomyces pombe	fungi	tmco1	tmco1	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3835	pooled
+Schizosaccharomyces pombe	fungi	tmem87	tmem87	1	1	0	1	0	1	no_locus	0		0	0	0	1	105.0	present		1	22473	pooled
+Schizosaccharomyces pombe	fungi	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Schizosaccharomyces pombe	fungi	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
+Schizosaccharomyces pombe	fungi	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
+Schizosaccharomyces pombe	fungi	gphr	gphr	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	8880	pooled
 Arabidopsis thaliana	plant	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	8376	pooled
 Arabidopsis thaliana	plant	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	19092	pooled
 Arabidopsis thaliana	plant	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	81838	pooled
@@ -747,6 +817,13 @@ Arabidopsis thaliana	plant	hv1	hv	1	1	0	1	0	1	partial	0		0	2	0	0		present		1	103
 Arabidopsis thaliana	plant	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Arabidopsis thaliana	plant	clic	clic	4	4	0	1	1	1	found	4	high	4	2	0	0		present	CP002684.1:6773462-6774413-;CP002684.1:28250255-28251237-;CP002688.1:5483372-5484926+;CP002688.1:14292931-14293584+	1	2367	group
 Arabidopsis thaliana	plant	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0		unmeasured
+Arabidopsis thaliana	plant	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Arabidopsis thaliana	plant	tmco1	tmco1	2	2	0	1	1	1	found	2	high	2	1	0	0		present	r4_CP002688.1:2046863-2047453+;r4_CP002686.1:3834465-3835055-	1	1096	group
+Arabidopsis thaliana	plant	tmem87	tmem87	4	0	0	0	0	0	found	2	medium	0	0	0	0		present	r4_CP002684.1:27286613-27287510-;r4_CP002684.1:22767250-22771954+	1	22473	pooled
+Arabidopsis thaliana	plant	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Arabidopsis thaliana	plant	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
+Arabidopsis thaliana	plant	mitok	mitok	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	7089	pooled
+Arabidopsis thaliana	plant	gphr	gphr	2	2	0	1	1	1	found	2	high	2	0	0	0		present	r4_CP002684.1:24140183-24145875-;r4_CP002687.1:13791980-13802049-	1	5664	group
 Oryza sativa	plant	kv_shaker	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	8376	pooled
 Oryza sativa	plant	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	19092	pooled
 Oryza sativa	plant	kv_kcnq	ploop	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1	81838	pooled
@@ -815,6 +892,13 @@ Oryza sativa	plant	hv1	hv	0	0	0	1	1	0	partial	0		0	7	0	0		partial		1	10311	poole
 Oryza sativa	plant	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Oryza sativa	plant	clic	clic	2	2	0	1	1	1	found	2	high	2	4	0	0		present	AP014962.1:6892952-6895491-;AP014961.1:877444-880364-	1	2367	group
 Oryza sativa	plant	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1		unmeasured
+Oryza sativa	plant	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Oryza sativa	plant	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AP014959.1:29277818-29278447-	1	1096	group
+Oryza sativa	plant	tmem87	tmem87	4	0	0	0	0	0	found	2	medium	0	1	0	0		present	r4_AP014959.1:12382074-12386864-;r4_AP014965.1:16301631-16302983-	1	22473	pooled
+Oryza sativa	plant	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Oryza sativa	plant	clcc1	mclc	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1	24963	pooled
+Oryza sativa	plant	mitok	mitok	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	7089	pooled
+Oryza sativa	plant	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AP014960.1:30312129-30316149-	1	5664	group
 Physcomitrium patens	plant	kv_shaker	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	8376	pooled
 Physcomitrium patens	plant	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	19092	pooled
 Physcomitrium patens	plant	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	81838	pooled
@@ -883,6 +967,13 @@ Physcomitrium patens	plant	hv1	hv	3	0	0	1	1	0	partial	0		0	1	0	0		present		1	103
 Physcomitrium patens	plant	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Physcomitrium patens	plant	clic	clic	3	3	0	1	1	1	found	1	high	1	6	0	0		present	CM009337.2:3135399-3138546+	1	2367	group
 Physcomitrium patens	plant	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1		unmeasured
+Physcomitrium patens	plant	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Physcomitrium patens	plant	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	4	0	0		present	r4_CM009336.2:7220070-7220645+	1	1096	group
+Physcomitrium patens	plant	tmem87	tmem87	2	0	0	0	0	0	found	2	medium	0	0	0	0		present	r4_CM009316.2:18095627-18096685-;r4_CM009317.2:10731381-10732454+	1	22473	pooled
+Physcomitrium patens	plant	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	11087	pooled
+Physcomitrium patens	plant	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
+Physcomitrium patens	plant	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
+Physcomitrium patens	plant	gphr	gphr	0	0	0	1	1	0	partial	0		0	1	0	0		partial		1	5664	group
 Chlamydomonas reinhardtii	algae	kv_shaker	ploop	2	0	2	0	0	0	no_locus	0		0	0	0	0		present		0	8376	pooled
 Chlamydomonas reinhardtii	algae	kv_modifier	ploop	0	0	2	0	0	0	gap	0		0	8	1	0		gap		1	19092	pooled
 Chlamydomonas reinhardtii	algae	kv_kcnq	ploop	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1	81838	pooled
@@ -951,6 +1042,13 @@ Chlamydomonas reinhardtii	algae	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus
 Chlamydomonas reinhardtii	algae	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Chlamydomonas reinhardtii	algae	clic	clic	1	1	0	1	0	1	gap	0		0	5	2	0		present		1	16767	pooled
 Chlamydomonas reinhardtii	algae	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0		unmeasured
+Chlamydomonas reinhardtii	algae	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Chlamydomonas reinhardtii	algae	tmco1	tmco1	1	1	0	1	0	1	no_locus	0		0	0	0	0		present		0	3835	pooled
+Chlamydomonas reinhardtii	algae	tmem87	tmem87	0	0	0	0	0	0	gap	0		0	2	1	0		gap		1	22473	pooled
+Chlamydomonas reinhardtii	algae	tmem109	tmem109	0	0	0	0	0	0	found	1	medium	0	1	1	0		genome_weak	r4_CM008964.1:2476484-2543755-	1	11087	pooled
+Chlamydomonas reinhardtii	algae	clcc1	mclc	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1	24963	pooled
+Chlamydomonas reinhardtii	algae	mitok	mitok	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	7089	pooled
+Chlamydomonas reinhardtii	algae	gphr	gphr	1	1	0	1	0	1	found	1	high	1	0	0	0		present	r4_CM008977.1:6805224-6809791+	1	8880	pooled
 Dictyostelium discoideum	amoebozoa	kv_shaker	ploop	0	0	2	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	8376	pooled
 Dictyostelium discoideum	amoebozoa	kv_modifier	ploop	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1	19092	pooled
 Dictyostelium discoideum	amoebozoa	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	81838	pooled
@@ -1019,6 +1117,13 @@ Dictyostelium discoideum	amoebozoa	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_lo
 Dictyostelium discoideum	amoebozoa	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Dictyostelium discoideum	amoebozoa	clic	clic	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	16767	pooled
 Dictyostelium discoideum	amoebozoa	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1		unmeasured
+Dictyostelium discoideum	amoebozoa	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Dictyostelium discoideum	amoebozoa	tmco1	tmco1	1	1	0	1	0	1	found	1	high	1	3	0	0		present	r4_CM000152.2:4605058-4605740-	1	3835	pooled
+Dictyostelium discoideum	amoebozoa	tmem87	tmem87	1	0	0	0	0	0	found	1	high	1	0	0	0		present	r4_CM000153.2:3726537-3727872-	1	22473	pooled
+Dictyostelium discoideum	amoebozoa	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Dictyostelium discoideum	amoebozoa	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
+Dictyostelium discoideum	amoebozoa	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
+Dictyostelium discoideum	amoebozoa	gphr	gphr	1	1	0	1	0	1	found	1	high	1	0	0	0		present	r4_CM000153.2:1060594-1063298+	1	8880	pooled
 Paramecium tetraurelia	ciliate	kv_shaker	ploop	8	0	0	0	0	0	found	1	medium	0	1	0	0		present	CT867996.1:281446-282244-	1	8376	pooled
 Paramecium tetraurelia	ciliate	kv_modifier	ploop	0	0	0	0	0	0	partial	0		0	4	0	0		partial		1	19092	pooled
 Paramecium tetraurelia	ciliate	kv_kcnq	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	81838	pooled
@@ -1087,6 +1192,13 @@ Paramecium tetraurelia	ciliate	hv1	hv	0	0	0	0	0	0	gap	0		0	2	1	0		gap		1	10311	p
 Paramecium tetraurelia	ciliate	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Paramecium tetraurelia	ciliate	clic	clic	4	4	0	1	0	1	partial	0		0	1	0	0		present		1	16767	pooled
 Paramecium tetraurelia	ciliate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1		unmeasured
+Paramecium tetraurelia	ciliate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Paramecium tetraurelia	ciliate	tmco1	tmco1	2	2	0	1	1	1	found	2	high	0	1	0	0		present	r4_CT868255.1:1873-2383-;r4_CT868052.1:623887-624397-	1	3835	pooled
+Paramecium tetraurelia	ciliate	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	22473	pooled
+Paramecium tetraurelia	ciliate	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Paramecium tetraurelia	ciliate	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
+Paramecium tetraurelia	ciliate	mitok	mitok	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	7089	pooled
+Paramecium tetraurelia	ciliate	gphr	gphr	1	1	0	1	1	1	found	1	high	0	6	0	0		present	r4_CT867999.1:283229-284601-	1	8880	pooled
 Tetrahymena thermophila	ciliate	kv_shaker	ploop	1	0	1	0	0	0	no_locus	0		0	0	0	0		present		0	8376	pooled
 Tetrahymena thermophila	ciliate	kv_modifier	ploop	0	0	1	0	0	0	partial	0		0	2	0	0		partial		1	19092	pooled
 Tetrahymena thermophila	ciliate	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	81838	pooled
@@ -1155,6 +1267,13 @@ Tetrahymena thermophila	ciliate	hv1	hv	0	0	0	0	0	0	partial	0		0	1	0	0		partial		
 Tetrahymena thermophila	ciliate	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Tetrahymena thermophila	ciliate	clic	clic	0	0	0	1	1	0	no_locus	0		0	0	0	1	114.0	trace		1	16767	pooled
 Tetrahymena thermophila	ciliate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1		unmeasured
+Tetrahymena thermophila	ciliate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Tetrahymena thermophila	ciliate	tmco1	tmco1	1	1	0	1	1	1	partial	0		0	2	0	0		present		1	3835	pooled
+Tetrahymena thermophila	ciliate	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	22473	pooled
+Tetrahymena thermophila	ciliate	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Tetrahymena thermophila	ciliate	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
+Tetrahymena thermophila	ciliate	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
+Tetrahymena thermophila	ciliate	gphr	gphr	1	1	0	1	1	1	partial	0		0	4	0	0		present		1	8880	pooled
 Trypanosoma brucei	excavate	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	8376	pooled
 Trypanosoma brucei	excavate	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	19092	pooled
 Trypanosoma brucei	excavate	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	81838	pooled
@@ -1223,6 +1342,13 @@ Trypanosoma brucei	excavate	hv1	hv	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	10
 Trypanosoma brucei	excavate	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Trypanosoma brucei	excavate	clic	clic	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1	16767	pooled
 Trypanosoma brucei	excavate	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0		unmeasured
+Trypanosoma brucei	excavate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Trypanosoma brucei	excavate	tmco1	tmco1	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	3835	pooled
+Trypanosoma brucei	excavate	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	22473	pooled
+Trypanosoma brucei	excavate	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Trypanosoma brucei	excavate	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
+Trypanosoma brucei	excavate	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
+Trypanosoma brucei	excavate	gphr	gphr	1	1	0	1	0	1	partial	0		0	4	0	0		present		1	8880	pooled
 Plasmodium falciparum	apicomplexa	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	8376	pooled
 Plasmodium falciparum	apicomplexa	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	19092	pooled
 Plasmodium falciparum	apicomplexa	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	81838	pooled
@@ -1291,6 +1417,13 @@ Plasmodium falciparum	apicomplexa	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_loc
 Plasmodium falciparum	apicomplexa	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Plasmodium falciparum	apicomplexa	clic	clic	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	16767	pooled
 Plasmodium falciparum	apicomplexa	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1		unmeasured
+Plasmodium falciparum	apicomplexa	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Plasmodium falciparum	apicomplexa	tmco1	tmco1	1	1	0	1	0	1	no_locus	0		0	0	0	1	92.4	present		1	3835	pooled
+Plasmodium falciparum	apicomplexa	tmem87	tmem87	0	0	1	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	22473	pooled
+Plasmodium falciparum	apicomplexa	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Plasmodium falciparum	apicomplexa	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
+Plasmodium falciparum	apicomplexa	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
+Plasmodium falciparum	apicomplexa	gphr	gphr	2	2	0	1	0	1	partial	0		0	6	0	0		present		1	8880	pooled
 Monosiga brevicollis	holozoa	kv_shaker	ploop	1	0	0	0	0	0	found	1	medium	0	0	0	0		present	CH991554.1:246826-292627-	1	8376	pooled
 Monosiga brevicollis	holozoa	kv_modifier	ploop	0	0	0	0	0	0	gap	0		0	4	2	0		gap		1	19092	pooled
 Monosiga brevicollis	holozoa	kv_kcnq	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	81838	pooled
@@ -1359,6 +1492,13 @@ Monosiga brevicollis	holozoa	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_un
 Monosiga brevicollis	holozoa	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Monosiga brevicollis	holozoa	clic	clic	1	1	0	1	0	1	no_locus	0		0	0	0	1	62.4	present		1	16767	pooled
 Monosiga brevicollis	holozoa	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1		unmeasured
+Monosiga brevicollis	holozoa	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Monosiga brevicollis	holozoa	tmco1	tmco1	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	3835	pooled
+Monosiga brevicollis	holozoa	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CH991544.1:1598198-1666369-	1	22473	pooled
+Monosiga brevicollis	holozoa	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	11087	pooled
+Monosiga brevicollis	holozoa	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
+Monosiga brevicollis	holozoa	mitok	mitok	0	0	0	0	0	0	gap	0		0	1	1	0		gap		1	7089	pooled
+Monosiga brevicollis	holozoa	gphr	gphr	1	1	0	1	1	1	found	1	high	1	1	1	0		present	r4_CH991560.1:231230-233745+	1	8880	pooled
 Capsaspora owczarzaki	holozoa	kv_shaker	ploop	2	0	0	0	0	0	found	2	medium	0	0	0	0		present	KE346367.1:927028-1038382-;KE346373.1:839722-904913+	1	8376	pooled
 Capsaspora owczarzaki	holozoa	kv_modifier	ploop	0	0	0	0	0	0	gap	0		0	5	4	0		gap		1	19092	pooled
 Capsaspora owczarzaki	holozoa	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	81838	pooled
@@ -1427,6 +1567,13 @@ Capsaspora owczarzaki	holozoa	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_u
 Capsaspora owczarzaki	holozoa	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Capsaspora owczarzaki	holozoa	clic	clic	0	0	0	1	1	0	gap	0		0	4	3	0		gap		1	16767	pooled
 Capsaspora owczarzaki	holozoa	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1		unmeasured
+Capsaspora owczarzaki	holozoa	pacc	pac	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	25219	pooled
+Capsaspora owczarzaki	holozoa	tmco1	tmco1	1	1	0	1	0	1	found	1	high	1	1	1	0		present	r4_KE346365.1:1047333-1048280+	1	3835	pooled
+Capsaspora owczarzaki	holozoa	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_KE346367.1:314696-315845+	1	22473	pooled
+Capsaspora owczarzaki	holozoa	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Capsaspora owczarzaki	holozoa	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
+Capsaspora owczarzaki	holozoa	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
+Capsaspora owczarzaki	holozoa	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_KE346368.1:857409-866712+	1	8880	pooled
 Amphimedon queenslandica	basal_metazoan	kv_shaker	ploop	0	0	0	1	0	0	no_locus	0		0	0	0	0		unmatched		0	8376	pooled
 Amphimedon queenslandica	basal_metazoan	kv_modifier	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	19092	pooled
 Amphimedon queenslandica	basal_metazoan	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	81838	pooled
@@ -1495,6 +1642,13 @@ Amphimedon queenslandica	basal_metazoan	hv1	hv	0	0	0	1	1	0	gap	0		0	1	1	0		gap		
 Amphimedon queenslandica	basal_metazoan	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Amphimedon queenslandica	basal_metazoan	clic	clic	1	1	0	1	1	1	found	1	high	1	1	0	0		present	GL345218.1:126895-127576+	1	16767	pooled
 Amphimedon queenslandica	basal_metazoan	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1		unmeasured
+Amphimedon queenslandica	basal_metazoan	pacc	pac	1	1	0	1	0	1	no_locus	0		0	0	0	0		present		0	25219	pooled
+Amphimedon queenslandica	basal_metazoan	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_GL345301.1:42390-43655+	1	3835	pooled
+Amphimedon queenslandica	basal_metazoan	tmem87	tmem87	2	1	0	1	0	1	found	2	high	1	0	0	0		present	r4_GL345206.1:244819-247360+;r4_GL345206.1:263628-265205+	1	22473	pooled
+Amphimedon queenslandica	basal_metazoan	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Amphimedon queenslandica	basal_metazoan	clcc1	mclc	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	24963	pooled
+Amphimedon queenslandica	basal_metazoan	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
+Amphimedon queenslandica	basal_metazoan	gphr	gphr	2	2	0	1	1	1	found	2	high	1	0	0	0		present	r4_GL345446.1:87595-90631+;r4_GL345446.1:91909-99730+	1	6222	group
 Trichoplax adhaerens	basal_metazoan	kv_shaker	ploop	2	1	1	1	0	1	found	2	high	1	0	0	0		present	DS985241.1:5989756-5992890+;DS985262.1:388399-390225+	1	8376	pooled
 Trichoplax adhaerens	basal_metazoan	kv_modifier	ploop	0	0	1	0	0	0	partial	0		0	1	0	0		partial		1	19092	pooled
 Trichoplax adhaerens	basal_metazoan	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	81838	pooled
@@ -1563,6 +1717,13 @@ Trichoplax adhaerens	basal_metazoan	hv1	hv	3	2	0	1	0	1	found	2	high	2	0	0	0		pre
 Trichoplax adhaerens	basal_metazoan	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	9707	pooled
 Trichoplax adhaerens	basal_metazoan	clic	clic	2	1	0	1	1	1	partial	0		0	3	0	0		present		1	16767	pooled
 Trichoplax adhaerens	basal_metazoan	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1		unmeasured
+Trichoplax adhaerens	basal_metazoan	pacc	pac	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	25219	pooled
+Trichoplax adhaerens	basal_metazoan	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_DS985242.1:2513769-2515808-	1	3835	pooled
+Trichoplax adhaerens	basal_metazoan	tmem87	tmem87	0	0	0	1	1	0	found	1	high	1	0	0	0		genome_found	r4_DS985241.1:5894472-5897271+	1	22473	pooled
+Trichoplax adhaerens	basal_metazoan	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Trichoplax adhaerens	basal_metazoan	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
+Trichoplax adhaerens	basal_metazoan	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
+Trichoplax adhaerens	basal_metazoan	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_DS985244.1:6853477-6859692-	1	6222	group
 Nematostella vectensis	cnidarian	kv_shaker	ploop	42	18	1	1	1	1	found	19	high	10	0	0	0		present	DS469579.1:937380-939051+;DS469524.1:985484-997036-;DS469513.1:108673-109749-;DS469577.1:604324-612805-;DS469611.1:364590-365903+	1	3184	group
 Nematostella vectensis	cnidarian	kv_modifier	ploop	0	0	1	0	0	0	partial	0		0	1	0	0		partial		1	19092	pooled
 Nematostella vectensis	cnidarian	kv_kcnq	ploop	1	0	0	1	1	0	found	1	high	0	0	0	0		present	DS469560.1:182110-216157+	1	60647	group
@@ -1631,6 +1792,13 @@ Nematostella vectensis	cnidarian	hv1	hv	3	2	0	1	1	1	found	1	high	1	1	0	0		presen
 Nematostella vectensis	cnidarian	otop	otopetrin	2	2	0	1	1	1	found	2	high	1	1	0	0		present	DS469612.1:7072-8073-;DS469515.1:866053-867783+	1	9707	pooled
 Nematostella vectensis	cnidarian	clic	clic	4	4	0	1	1	1	partial	0		0	1	0	0		present		1	16767	pooled
 Nematostella vectensis	cnidarian	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1		unmeasured
+Nematostella vectensis	cnidarian	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Nematostella vectensis	cnidarian	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_DS469521.1:1331211-1335779+	1	3835	pooled
+Nematostella vectensis	cnidarian	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_DS469564.1:543476-572227+	1	22473	pooled
+Nematostella vectensis	cnidarian	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1	11087	pooled
+Nematostella vectensis	cnidarian	clcc1	mclc	1	0	0	0	0	0	partial	0		0	1	0	0		present		1	24963	pooled
+Nematostella vectensis	cnidarian	mitok	mitok	1	0	0	0	0	0	found	1	medium	0	0	0	0		present	r4_DS469550.1:1165771-1174786-	1	7089	pooled
+Nematostella vectensis	cnidarian	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_DS469733.1:142674-144308-	1	8880	pooled
 Hydra vulgaris	cnidarian	kv_shaker	ploop	34	15	1	1	1	1	found	20	high	7	0	0	0		present	NC_088925.1:21074400-21099372+;NC_088925.1:33521891-33631577+;NC_088922.1:59606118-59607592-;NC_088922.1:59692763-59710275-;NC_088925.1:20971625-20993761-	1	3184	group
 Hydra vulgaris	cnidarian	kv_modifier	ploop	0	0	5	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	19092	pooled
 Hydra vulgaris	cnidarian	kv_kcnq	ploop	6	4	0	1	0	1	found	6	high	4	0	0	0		present	NC_088923.1:37622340-37623728-;NC_088923.1:40427477-40502174-;NC_088934.1:6677482-6720909-;NC_088930.1:24867804-24868922+;NC_088923.1:37531024-37532304+	1	60647	group
@@ -1699,6 +1867,13 @@ Hydra vulgaris	cnidarian	hv1	hv	1	1	0	1	1	1	found	1	high	1	1	0	0		present	NC_088
 Hydra vulgaris	cnidarian	otop	otopetrin	1	1	0	1	1	1	found	1	high	1	1	0	0		present	NC_088926.1:13511520-13513480-	1	9707	pooled
 Hydra vulgaris	cnidarian	clic	clic	2	2	0	1	1	1	found	1	high	1	1	0	0		present	NC_088922.1:57976449-57977051+	1	16767	pooled
 Hydra vulgaris	cnidarian	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1		unmeasured
+Hydra vulgaris	cnidarian	pacc	pac	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	25219	pooled
+Hydra vulgaris	cnidarian	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	3	0	0		present	r4_NC_088931.1:54461762-54462322-	1	3835	pooled
+Hydra vulgaris	cnidarian	tmem87	tmem87	1	1	0	1	0	1	found	1	high	1	0	0	0		present	r4_NC_088925.1:10540847-10558245+	1	22473	pooled
+Hydra vulgaris	cnidarian	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Hydra vulgaris	cnidarian	clcc1	mclc	1	0	0	0	0	0	no_locus	0		0	0	0	0		present		0	24963	pooled
+Hydra vulgaris	cnidarian	mitok	mitok	1	0	0	0	0	0	no_locus	0		0	0	0	0		present		0	7089	pooled
+Hydra vulgaris	cnidarian	gphr	gphr	1	1	0	1	1	1	found	1	high	1	2	0	0		present	r4_NC_088932.1:9700017-9725112-	1	8880	pooled
 Caenorhabditis elegans	invertebrate	kv_shaker	ploop	5	3	6	1	1	1	found	5	high	2	0	0	0		present	BX284606.5:10741466-10774449+;BX284602.5:9765694-9767957+;BX284604.4:6372896-6383985-;BX284602.5:8306547-8310583-;BX284605.5:12973619-13022979-	1	11198	group
 Caenorhabditis elegans	invertebrate	kv_modifier	ploop	0	0	6	0	0	0	partial	0		0	4	0	0		partial		1	19092	pooled
 Caenorhabditis elegans	invertebrate	kv_kcnq	ploop	3	3	0	1	1	1	found	2	high	1	0	0	0		present	BX284606.5:6620947-6693845+;BX284602.5:13708459-13711850+	1	25067	group
@@ -1767,6 +1942,13 @@ Caenorhabditis elegans	invertebrate	hv1	hv	0	0	0	1	1	0	no_locus	0		0	0	0	0		abse
 Caenorhabditis elegans	invertebrate	otop	otopetrin	7	6	0	1	1	1	found	3	high	1	1	0	0		present	BX284605.5:4074563-4077473+;BX284605.5:8522711-8532405+;BX284606.5:12267197-12273901-	1	3315	group
 Caenorhabditis elegans	invertebrate	clic	clic	2	2	0	1	1	1	partial	0		0	2	0	0		present		1	4552	group
 Caenorhabditis elegans	invertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	7	0	0		partial		1		unmeasured
+Caenorhabditis elegans	invertebrate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Caenorhabditis elegans	invertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	2	0	0		present	r4_BX284602.5:8467171-8467798+	1	1918	group
+Caenorhabditis elegans	invertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_BX284606.5:4261202-4264276+	1	7747	group
+Caenorhabditis elegans	invertebrate	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Caenorhabditis elegans	invertebrate	clcc1	mclc	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	24963	pooled
+Caenorhabditis elegans	invertebrate	mitok	mitok	1	0	0	1	1	0	found	1	high	0	2	0	0		present	r4_BX284604.4:7103717-7104875+	1	7089	pooled
+Caenorhabditis elegans	invertebrate	gphr	gphr	2	2	0	1	1	1	found	2	high	2	0	0	0		present	r4_BX284603.4:12219090-12223828+;r4_BX284606.5:14305138-14307727-	1	7283	group
 Drosophila melanogaster	invertebrate	kv_shaker	ploop	5	3	0	1	1	1	found	2	high	2	0	0	0		present	AE014298.5:17869307-17959985-;AE014296.5:19476132-19574698-	1	11198	group
 Drosophila melanogaster	invertebrate	kv_modifier	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	19092	pooled
 Drosophila melanogaster	invertebrate	kv_kcnq	ploop	1	1	0	1	1	1	found	1	high	1	0	0	0		present	AE013599.5:10147089-10224997-	1	25067	group
@@ -1835,6 +2017,13 @@ Drosophila melanogaster	invertebrate	hv1	hv	0	0	0	1	1	0	no_locus	0		0	0	0	0		abs
 Drosophila melanogaster	invertebrate	otop	otopetrin	3	3	0	1	1	1	found	2	high	2	0	0	0		present	AE014298.5:5653881-5655775-;AE014134.6:3275958-3277756-	1	3315	group
 Drosophila melanogaster	invertebrate	clic	clic	1	1	0	1	1	1	found	1	high	1	3	0	0		present	AE014298.5:13813728-13821987-	1	4552	group
 Drosophila melanogaster	invertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	4	0	0		partial		1		unmeasured
+Drosophila melanogaster	invertebrate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Drosophila melanogaster	invertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AE014134.6:19049163-19049834+	1	1918	group
+Drosophila melanogaster	invertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AE014134.6:1707772-1724192-	1	7747	group
+Drosophila melanogaster	invertebrate	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Drosophila melanogaster	invertebrate	clcc1	mclc	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	24963	pooled
+Drosophila melanogaster	invertebrate	mitok	mitok	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	7089	pooled
+Drosophila melanogaster	invertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AE013599.5:15199307-15201030-	1	7283	group
 Daphnia pulex	invertebrate	kv_shaker	ploop	5	3	1	1	1	1	found	2	high	2	0	0	0		present	GL732578.1:234556-247134+;GL732560.1:133782-158250+	1	11198	group
 Daphnia pulex	invertebrate	kv_modifier	ploop	0	0	1	0	0	0	gap	0		0	1	1	0		gap		1	19092	pooled
 Daphnia pulex	invertebrate	kv_kcnq	ploop	1	0	0	1	1	0	found	1	high	0	0	0	0		present	GL732553.1:219423-337197+	1	25067	group
@@ -1903,6 +2092,13 @@ Daphnia pulex	invertebrate	hv1	hv	2	2	0	1	1	1	found	2	high	2	0	0	0		present	GL73
 Daphnia pulex	invertebrate	otop	otopetrin	8	7	0	1	1	1	found	8	high	5	0	0	0		present	GL732589.1:509879-575517-;GL732533.1:1203455-1205253-;GL732533.1:1209386-1211828-;GL732635.1:650-3169+;GL732635.1:43438-45953+	1	3315	group
 Daphnia pulex	invertebrate	clic	clic	2	2	0	1	1	1	found	2	high	2	1	0	0		present	GL732523.1:2076755-2079279-;GL732525.1:3615901-3616813+	1	4552	group
 Daphnia pulex	invertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1		unmeasured
+Daphnia pulex	invertebrate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Daphnia pulex	invertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_GL732543.1:1449175-1456274+	1	1918	group
+Daphnia pulex	invertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_GL732526.1:1778417-1797928+	1	7747	group
+Daphnia pulex	invertebrate	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Daphnia pulex	invertebrate	clcc1	mclc	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	24963	pooled
+Daphnia pulex	invertebrate	mitok	mitok	1	0	0	1	1	0	found	1	medium	0	1	0	0		present	r4_GL732600.1:514264-515241-	1	7089	pooled
+Daphnia pulex	invertebrate	gphr	gphr	0	0	0	1	1	0	found	1	high	1	0	0	0		genome_found	r4_GL732585.1:97163-99157-	1	7283	group
 Lottia gigantea	invertebrate	kv_shaker	ploop	17	4	2	1	1	1	found	5	high	2	0	0	0		present	KB201977.1:2184777-2185472-;KB202283.1:4647673-4688910+;KB202685.1:690853-691404-;KB199861.1:723384-723977+;KB203738.1:162909-164430+	1	11198	group
 Lottia gigantea	invertebrate	kv_modifier	ploop	0	0	2	0	0	0	partial	0		0	1	0	0		partial		1	19092	pooled
 Lottia gigantea	invertebrate	kv_kcnq	ploop	3	0	0	1	1	0	found	3	high	3	0	0	0		present	KB203275.1:1133902-1246438-;KB201750.1:2657496-2686897-;KB201750.1:2737793-2780875-	1	25067	group
@@ -1971,6 +2167,13 @@ Lottia gigantea	invertebrate	hv1	hv	6	3	0	1	1	1	found	1	high	1	0	0	0		present	KB
 Lottia gigantea	invertebrate	otop	otopetrin	5	4	0	1	1	1	found	4	high	2	0	0	0		present	KB201890.1:4407726-4411858-;KB203188.1:1251028-1261097+;KB203771.1:890542-893167+;KB202367.1:252621-256820+	1	3315	group
 Lottia gigantea	invertebrate	clic	clic	3	3	0	1	1	1	found	2	high	2	1	0	0		present	KB203855.1:456735-457466-;KB201750.1:2291839-2294068+	1	4552	group
 Lottia gigantea	invertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1		unmeasured
+Lottia gigantea	invertebrate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Lottia gigantea	invertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	3	1	0		present	r4_KB199651.1:392264-394470+	1	1918	group
+Lottia gigantea	invertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	0	0	0	0		present	r4_KB201847.1:855459-864856+	1	7747	group
+Lottia gigantea	invertebrate	tmem109	tmem109	0	0	0	0	0	0	gap	0		0	1	1	0		gap		1	11087	pooled
+Lottia gigantea	invertebrate	clcc1	mclc	1	1	0	1	1	1	no_locus	0		0	0	0	0		present		0	24963	pooled
+Lottia gigantea	invertebrate	mitok	mitok	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	7089	pooled
+Lottia gigantea	invertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_KB201166.1:263391-304869+	1	7283	group
 Aplysia californica	invertebrate	kv_shaker	ploop	14	4	1	1	1	1	found	3	high	2	0	0	0		present	NW_004798646.1:8576-9157+;NW_004797576.1:20879-79007+;NW_004797304.1:1413865-1597948+	1	11198	group
 Aplysia californica	invertebrate	kv_modifier	ploop	0	0	1	0	0	0	gap	0		0	6	6	0		gap		1	19092	pooled
 Aplysia californica	invertebrate	kv_kcnq	ploop	2	2	0	1	1	1	found	1	high	1	0	0	0		present	NW_004797289.1:1085670-1278726-	1	25067	group
@@ -2039,6 +2242,13 @@ Aplysia californica	invertebrate	hv1	hv	7	6	0	1	1	1	found	2	high	1	2	0	0		presen
 Aplysia californica	invertebrate	otop	otopetrin	3	2	0	1	1	1	found	2	high	1	1	1	0		present	NW_004797424.1:520529-535476-;NW_004797407.1:759538-773219+	1	3315	group
 Aplysia californica	invertebrate	clic	clic	4	4	0	1	1	1	found	2	high	2	2	1	0		present	NW_004797289.1:2328775-2367431-;NW_004797278.1:3227193-3227720+	1	4552	group
 Aplysia californica	invertebrate	viroporin	viroporin	0	0	0	0	0	0	gap	0		0	2	1	0		gap		1		unmeasured
+Aplysia californica	invertebrate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Aplysia californica	invertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NW_004797711.1:23953-33910+	1	1918	group
+Aplysia californica	invertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	0	0	0	0		present	r4_NW_004797273.1:4096983-4122885-	1	7747	group
+Aplysia californica	invertebrate	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	11087	pooled
+Aplysia californica	invertebrate	clcc1	mclc	1	1	0	1	1	1	no_locus	0		0	0	0	1	55.5	present		1	24963	pooled
+Aplysia californica	invertebrate	mitok	mitok	3	0	0	1	1	0	found	3	medium	0	0	0	0		present	r4_NW_004798040.1:162600-182199-;r4_NW_004799664.1:507-2546+;r4_NW_004800715.1:47-913-	1	7089	pooled
+Aplysia californica	invertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NW_004797405.1:1228297-1272325+	1	7283	group
 Lymnaea stagnalis	invertebrate	kv_shaker	ploop	14	4	1	1	1	1	found	3	high	2	0	0	0		present	CAXITT010000039.1:537545-538213-;CAXITT010000754.1:104241-161595+;CAXITT010000003.1:2547663-2739211-	1	11198	group
 Lymnaea stagnalis	invertebrate	kv_modifier	ploop	0	0	1	0	0	0	gap	0		0	1	1	0		gap		1	19092	pooled
 Lymnaea stagnalis	invertebrate	kv_kcnq	ploop	3	1	0	1	1	1	found	3	high	2	0	0	0		present	CAXITT010000660.1:224544-338559+;CAXITT010000296.1:728410-766554-;CAXITT010000946.1:100834-204630-	1	25067	group
@@ -2107,6 +2317,13 @@ Lymnaea stagnalis	invertebrate	hv1	hv	7	5	0	1	1	1	found	2	high	2	0	0	0		present	
 Lymnaea stagnalis	invertebrate	otop	otopetrin	3	3	0	1	1	1	found	3	high	2	0	0	0		present	CAXITT010000325.1:817020-841389+;CAXITT010000265.1:43082-60492-;CAXITT010000335.1:636369-672588-	1	3315	group
 Lymnaea stagnalis	invertebrate	clic	clic	3	2	0	1	1	1	found	2	high	2	5	1	0		present	CAXITT010000125.1:634094-647044-;CAXITT010000570.1:486094-487208+	1	4552	group
 Lymnaea stagnalis	invertebrate	viroporin	viroporin	0	0	0	0	0	0	gap	0		0	2	2	0		gap		1		unmeasured
+Lymnaea stagnalis	invertebrate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
+Lymnaea stagnalis	invertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	2	0	0		present	r4_CAXITT010000001.1:2892964-2896524+	1	1918	group
+Lymnaea stagnalis	invertebrate	tmem87	tmem87	1	1	0	1	1	1	found	2	high	1	0	0	0		present	r4_CAXITT010000094.1:1101732-1125917-;r4_CAXITT010000012.1:648246-749424+	1	7747	group
+Lymnaea stagnalis	invertebrate	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1	11087	pooled
+Lymnaea stagnalis	invertebrate	clcc1	mclc	2	1	0	1	1	1	no_locus	0		0	0	0	1	57.4	present		1	24963	pooled
+Lymnaea stagnalis	invertebrate	mitok	mitok	1	1	0	1	0	1	found	1	high	1	0	0	0		present	r4_CAXITT010000505.1:31566-33697+	1	7089	pooled
+Lymnaea stagnalis	invertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	3	0	0		present	r4_CAXITT010000635.1:221494-230268-	1	7283	group
 Cornu aspersum	invertebrate	kv_shaker	ploop	0	0	0	1	1	1	found	7	high	5	0	0	0		genome_present	OZ076457.1:15354237-15671279+;OZ076452.1:64776964-65205688+;OZ076453.1:38409958-39786631-;OZ076453.1:99256009-99761656-;OZ076458.1:41417115-42186785+	1	11198	group
 Cornu aspersum	invertebrate	kv_modifier	ploop	0	0	0	0	0	0	gap	0		0	3	1	0		gap		1	19092	pooled
 Cornu aspersum	invertebrate	kv_kcnq	ploop	0	0	0	1	1	0	found	6	high	4	0	0	0		genome_present	OZ076445.1:81130402-82218165-;OZ076454.1:57760042-58692771-;OZ076454.1:87307395-88379128-;OZ076445.1:96766187-97581740+;OZ076453.1:21552645-22401613-	1	25067	group
@@ -2175,6 +2392,13 @@ Cornu aspersum	invertebrate	hv1	hv	0	0	0	1	1	0	found	4	high	2	6	1	0		genome_pres
 Cornu aspersum	invertebrate	otop	otopetrin	0	0	0	1	1	1	found	6	high	5	4	0	0		genome_present	OZ076463.1:50637701-50824800-;OZ076453.1:15748887-15797137+;OZ076453.1:29646853-29682207+;OZ076468.1:34059573-34129980+;OZ076466.1:56744697-57033317-	1	3315	group
 Cornu aspersum	invertebrate	clic	clic	0	0	0	1	1	1	found	3	high	3	14	5	0		genome_present	OZ076445.1:86556680-86982551-;OZ076454.1:75469464-75506309+;OZ076445.1:785935-828073+	1	4552	group
 Cornu aspersum	invertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1		unmeasured
+Cornu aspersum	invertebrate	pacc	pac	0	0	0	0	0	0	gap	0		0	2	2	0		gap		1	25219	pooled
+Cornu aspersum	invertebrate	tmco1	tmco1	0	0	0	1	1	1	found	2	high	1	4	0	0		genome_present	r4_OZ076460.1:12074490-12095602-;r4_OZ076468.1:11445612-11992928-	1	1918	group
+Cornu aspersum	invertebrate	tmem87	tmem87	0	0	0	1	1	1	found	1	high	1	4	2	0		genome_present	r4_OZ076455.1:69350600-69858052-	1	7747	group
+Cornu aspersum	invertebrate	tmem109	tmem109	0	0	0	0	0	0	gap	0		0	4	1	0		gap		1	11087	pooled
+Cornu aspersum	invertebrate	clcc1	mclc	0	0	0	1	1	0	found	2	high	0	10	7	0		genome_present	r4_OZ076447.1:43367414-43562729-;r4_OZ076458.1:33389689-33775873-	1	24963	pooled
+Cornu aspersum	invertebrate	mitok	mitok	0	0	0	1	1	0	found	1	medium	0	3	1	0		genome_present	r4_OZ076452.1:15079626-15583149+	1	7089	pooled
+Cornu aspersum	invertebrate	gphr	gphr	0	0	0	1	1	0	found	1	high	1	12	4	0		genome_present	r4_OZ076445.1:112639332-113074348+	1	7283	group
 Strongylocentrotus purpuratus	deuterostome	kv_shaker	ploop	3	2	0	1	1	1	found	2	high	2	0	0	0		present	AAGJ06000006.1:54053280-54131079-;AAGJ06000018.1:30337863-30479241-	1	14137	group
 Strongylocentrotus purpuratus	deuterostome	kv_modifier	ploop	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	19092	pooled
 Strongylocentrotus purpuratus	deuterostome	kv_kcnq	ploop	3	3	0	1	1	1	found	3	high	2	0	0	0		present	AAGJ06000007.1:22965372-23098031+;AAGJ06000017.1:18862883-19009914-;AAGJ06000841.1:1515438-1673839+	1	42575	group
@@ -2243,6 +2467,13 @@ Strongylocentrotus purpuratus	deuterostome	hv1	hv	2	2	0	1	1	1	found	2	high	2	0	0
 Strongylocentrotus purpuratus	deuterostome	otop	otopetrin	1	1	0	1	1	1	partial	0		0	2	0	0		present		1	9707	pooled
 Strongylocentrotus purpuratus	deuterostome	clic	clic	3	2	0	1	1	1	found	2	high	1	3	0	0		present	AAGJ06000021.1:6097893-6178640-;AAGJ06000853.1:636504-713843-	1	16767	group
 Strongylocentrotus purpuratus	deuterostome	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1		unmeasured
+Strongylocentrotus purpuratus	deuterostome	pacc	pac	0	0	0	0	0	0	gap	0		0	1	1	0		gap		1	25219	pooled
+Strongylocentrotus purpuratus	deuterostome	tmco1	tmco1	1	1	0	1	1	1	found	2	high	2	0	0	0		present	r4_AAGJ06000004.1:18266116-18286116+;r4_AAGJ06000004.1:18942613-18961677+	1	12291	group
+Strongylocentrotus purpuratus	deuterostome	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AAGJ06000005.1:43944861-43968352+	1	21101	group
+Strongylocentrotus purpuratus	deuterostome	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
+Strongylocentrotus purpuratus	deuterostome	clcc1	mclc	1	1	0	1	1	1	partial	0		0	4	0	0		present		1	24963	pooled
+Strongylocentrotus purpuratus	deuterostome	mitok	mitok	1	0	0	1	1	0	found	1	medium	0	1	0	0		present	r4_AAGJ06000006.1:29917931-29919748-	1	7089	pooled
+Strongylocentrotus purpuratus	deuterostome	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AAGJ06000001.1:27054474-27066125-	1	8096	group
 Branchiostoma floridae	deuterostome	kv_shaker	ploop	41	35	0	1	1	1	found	6	high	4	0	0	0		present	NC_049997.1:1810164-1811744-;NC_049983.1:18956202-19003307-;NC_049979.1:24409155-24420131+;NC_049982.1:4718139-4719671-;NC_049995.1:14668971-14669474-	1	14137	group
 Branchiostoma floridae	deuterostome	kv_modifier	ploop	0	0	0	0	0	0	gap	0		0	1	1	0		gap		1	19092	pooled
 Branchiostoma floridae	deuterostome	kv_kcnq	ploop	2	2	0	1	1	1	found	2	high	2	0	0	0		present	NC_049997.1:5616377-5804664+;NC_049995.1:846684-898377-	1	42575	group
@@ -2311,6 +2542,13 @@ Branchiostoma floridae	deuterostome	hv1	hv	2	2	0	1	1	1	found	1	high	1	2	0	0		pre
 Branchiostoma floridae	deuterostome	otop	otopetrin	6	5	0	1	1	1	found	2	high	1	1	0	0		present	NC_049985.1:21145937-21147531-;NC_049979.1:9501698-9503164+	1	9707	pooled
 Branchiostoma floridae	deuterostome	clic	clic	1	1	0	1	1	1	partial	0		0	2	0	0		present		1	16767	group
 Branchiostoma floridae	deuterostome	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1		unmeasured
+Branchiostoma floridae	deuterostome	pacc	pac	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	25219	pooled
+Branchiostoma floridae	deuterostome	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_NC_049986.1:10405230-10408153+	1	12291	group
+Branchiostoma floridae	deuterostome	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_049979.1:29306221-29373215-	1	21101	group
+Branchiostoma floridae	deuterostome	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	11087	pooled
+Branchiostoma floridae	deuterostome	clcc1	mclc	1	1	0	1	1	1	no_locus	0		0	0	0	1	55.8	present		1	24963	pooled
+Branchiostoma floridae	deuterostome	mitok	mitok	1	1	0	1	0	1	found	1	high	1	0	0	0		present	r4_NC_049983.1:17758931-17760294+	1	7089	pooled
+Branchiostoma floridae	deuterostome	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_049989.1:3239240-3267880+	1	8096	group
 Ciona intestinalis	deuterostome	kv_shaker	ploop	4	3	2	1	1	1	found	4	high	2	0	0	0		present	HT000001.2:1775159-1788038-;HT000001.2:8903140-8913708-;HT000001.2:9296022-9300255+;HT000003.2:470219-481002-	1	14137	group
 Ciona intestinalis	deuterostome	kv_modifier	ploop	0	0	2	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	19092	pooled
 Ciona intestinalis	deuterostome	kv_kcnq	ploop	2	2	0	1	1	1	found	2	high	1	0	0	0		present	HT000007.2:6594901-6612738-;HT001056.1:17463-21996+	1	42575	group
@@ -2379,6 +2617,13 @@ Ciona intestinalis	deuterostome	hv1	hv	2	2	0	1	1	1	found	1	high	1	0	0	0		present
 Ciona intestinalis	deuterostome	otop	otopetrin	1	1	0	1	1	1	no_locus	0		0	0	0	1	67.0	present		1	9707	pooled
 Ciona intestinalis	deuterostome	clic	clic	2	2	0	1	1	1	found	1	high	1	1	1	0		present	HT000004.2:5093021-5116044+	1	16767	group
 Ciona intestinalis	deuterostome	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0		unmeasured
+Ciona intestinalis	deuterostome	pacc	pac	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	25219	pooled
+Ciona intestinalis	deuterostome	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_HT000005.2:1532544-1543891-	1	12291	group
+Ciona intestinalis	deuterostome	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_HT000014.2:682261-684177-	1	21101	group
+Ciona intestinalis	deuterostome	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	11087	pooled
+Ciona intestinalis	deuterostome	clcc1	mclc	0	0	0	1	1	0	no_locus	0		0	0	0	1	150.0	trace		1	24963	pooled
+Ciona intestinalis	deuterostome	mitok	mitok	1	0	0	1	1	0	found	1	medium	0	0	0	0		present	r4_HT000001.2:7439496-7441179-	1	7089	pooled
+Ciona intestinalis	deuterostome	gphr	gphr	0	0	0	1	1	0	found	1	high	0	0	0	0		genome_weak	r4_HT000005.2:1226492-1227891+	1	8096	group
 Petromyzon marinus	vertebrate	kv_shaker	ploop	32	28	0	1	1	1	found	23	high	18	0	0	0		present	NC_133669.1:6335645-6390617-;NC_133669.1:6443675-6591235-;NC_133731.1:4356830-4962210+;NC_133687.1:15085083-15480704+;NC_133674.1:9381726-9386601-	1	8739	group
 Petromyzon marinus	vertebrate	kv_modifier	ploop	14	4	0	1	1	1	found	6	high	3	0	0	0		present	NC_133691.1:2653252-2658746+;NC_133681.1:8192447-8193808+;NC_133711.1:4094721-4112933-;NC_133689.1:2725564-2731382+;NC_133678.1:4971311-4972810+	1	19092	group
 Petromyzon marinus	vertebrate	kv_kcnq	ploop	6	6	0	1	1	1	found	6	high	4	0	0	0		present	NC_133681.1:4324561-5238663+;NC_133693.1:7380114-8085242+;NC_133689.1:11203151-11813555+;NC_133678.1:11713274-12509476+;NC_133678.1:14840391-15742715+	1	124066	group
@@ -2447,6 +2692,13 @@ Petromyzon marinus	vertebrate	hv1	hv	3	3	0	1	1	1	found	1	high	1	0	0	0		present	N
 Petromyzon marinus	vertebrate	otop	otopetrin	1	1	0	1	1	1	found	3	high	2	2	0	0		present	NC_133748.1:2918257-3171156+;NW_027423585.1:25430-42909-;NC_133675.1:7849215-7942489-	1	12653	group
 Petromyzon marinus	vertebrate	clic	clic	4	4	0	1	1	1	found	3	high	3	0	0	0		present	NC_133688.1:14687065-14716019+;NC_133716.1:37044-134333+;NC_133715.1:3012292-3813500-	1	29323	group
 Petromyzon marinus	vertebrate	viroporin	viroporin	0	0	0	0	0	0	gap	0		0	7	2	0		gap		1		unmeasured
+Petromyzon marinus	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_133695.1:7576621-8045362-	1	25219	group
+Petromyzon marinus	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	2	0	0		present	r4_NC_133688.1:13652991-13669546+	1	17476	group
+Petromyzon marinus	vertebrate	tmem87	tmem87	2	2	0	1	1	1	found	2	high	2	1	0	0		present	r4_NC_133697.1:6720396-7201240+;r4_NC_133695.1:6347881-6831480+	1	27123	group
+Petromyzon marinus	vertebrate	tmem109	tmem109	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	11087	group
+Petromyzon marinus	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	8	1	0		present	r4_NC_133667.1:14284465-14729031-	1	24963	group
+Petromyzon marinus	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	2	1	0		present	r4_NC_133687.1:4560661-5232882+	1	10868	group
+Petromyzon marinus	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_133728.1:1790302-1810434-	1	28499	group
 Callorhinchus milii	vertebrate	kv_shaker	ploop	16	12	0	1	1	1	found	8	high	7	0	0	0		present	KI635973.1:1917812-1991955-;KI635973.1:2011619-2013022-;KI636127.1:232102-258725+;KI635887.1:2069177-2082476+;KI635887.1:2124425-2125909+	1	8739	group
 Callorhinchus milii	vertebrate	kv_modifier	ploop	12	6	0	1	1	1	found	7	high	5	0	0	0		present	KI635890.1:4713617-4714990-;KI635860.1:3185738-3220699-;KI635934.1:3664807-3680673+;KI635866.1:1842754-1845840+;KI635932.1:535217-536710+	1	19092	group
 Callorhinchus milii	vertebrate	kv_kcnq	ploop	5	5	0	1	1	1	found	5	high	4	0	0	0		present	KI635889.1:356704-649542-;KI635890.1:6141038-6283586+;KI635938.1:204462-236575+;KI636620.1:7204-26692-;KI635984.1:711024-821274+	1	124066	group
@@ -2515,6 +2767,13 @@ Callorhinchus milii	vertebrate	hv1	hv	2	2	0	1	1	1	found	1	high	1	0	0	0		present	
 Callorhinchus milii	vertebrate	otop	otopetrin	3	3	0	1	1	1	found	3	high	3	0	0	0		present	KI635864.1:9512181-9515666+;KI635907.1:4500250-4545626+;KI635965.1:2249505-2257285+	1	12653	group
 Callorhinchus milii	vertebrate	clic	clic	5	5	0	1	1	1	found	4	high	4	2	0	0		present	KI636006.1:692668-736524+;KI635975.1:738169-838393+;KI635960.1:1453303-1484042-;KI635856.1:4226134-4234256+	1	29323	group
 Callorhinchus milii	vertebrate	viroporin	viroporin	0	0	0	0	0	0	gap	0		0	2	1	0		gap		1		unmeasured
+Callorhinchus milii	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_KI635988.1:1029194-1038237-	1	25219	group
+Callorhinchus milii	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_KI635895.1:3945499-3951748+	1	17476	group
+Callorhinchus milii	vertebrate	tmem87	tmem87	1	0	0	1	1	0	found	1	high	1	1	0	0		present	r4_KI635885.1:4591249-4613654-	1	27123	group
+Callorhinchus milii	vertebrate	tmem109	tmem109	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	11087	group
+Callorhinchus milii	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_KI635861.1:12551823-12559149-	1	24963	group
+Callorhinchus milii	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_KI635869.1:1375562-1457943-	1	10868	group
+Callorhinchus milii	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_KI635874.1:8736590-8767034-	1	28499	group
 Torpedo marmorata	vertebrate	kv_shaker	ploop	0	0	0	1	1	1	found	9	high	9	0	0	0		genome_present	OZ360237.1:32746978-33243252-;OZ360235.1:32297989-32889447+;OZ360233.1:52162004-52306903+;OZ360233.1:77326975-77845315+;OZ360233.1:52025434-52625256-	1	8739	group
 Torpedo marmorata	vertebrate	kv_modifier	ploop	0	0	0	1	1	1	found	7	high	5	1	0	0		genome_present	OZ360225.1:59895091-60786950-;OZ360225.1:215653110-215659942-;OZ360224.1:144229057-144230547-;OZ360224.1:162852664-162942747-;OZ360236.1:8188269-8215600+	1	19092	group
 Torpedo marmorata	vertebrate	kv_kcnq	ploop	0	0	0	1	1	1	found	6	high	4	1	0	0		genome_present	OZ360224.1:173640410-174613914+;OZ360225.1:88849215-89761849-;OZ360237.1:72011763-73575500+;OZ360235.1:41338350-42446630+;OZ360236.1:3289730-3989244+	1	124066	group
@@ -2583,6 +2842,13 @@ Torpedo marmorata	vertebrate	hv1	hv	0	0	0	1	1	0	found	1	high	1	7	0	0		genome_pre
 Torpedo marmorata	vertebrate	otop	otopetrin	0	0	0	1	1	1	found	1	high	1	4	2	0		genome_present	OZ360219.1:61443689-62129210+	1	12653	group
 Torpedo marmorata	vertebrate	clic	clic	0	0	0	1	1	1	found	6	high	5	1	0	0		genome_present	OZ360224.1:124124125-124552241+;OZ360220.1:107487420-107944697+;OZ360234.1:102506033-102875348+;OZ360257.1:8391098-8599877-;OZ360229.1:33906085-34404645-	1	29323	group
 Torpedo marmorata	vertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	6	0	0		partial		1		unmeasured
+Torpedo marmorata	vertebrate	pacc	pac	0	0	0	1	1	0	found	1	high	1	0	0	0		genome_present	r4_OZ360222.1:88057501-88207274+	1	25219	group
+Torpedo marmorata	vertebrate	tmco1	tmco1	0	0	0	1	1	0	found	1	high	1	6	2	0		genome_present	r4_OZ360223.1:139753703-139831226+	1	17476	group
+Torpedo marmorata	vertebrate	tmem87	tmem87	0	0	0	1	1	0	found	3	high	1	1	0	0		genome_present	r4_OZ360224.1:93956093-94447493+;r4_OZ360228.1:18611661-19220327+;r4_OZ360251.1:31195744-31684138-	1	27123	group
+Torpedo marmorata	vertebrate	tmem109	tmem109	0	0	0	1	1	0	partial	0		0	3	0	0		partial		1	11087	group
+Torpedo marmorata	vertebrate	clcc1	mclc	0	0	0	1	1	1	found	1	high	1	8	1	0		genome_present	r4_OZ360223.1:153531232-153994721+	1	24963	group
+Torpedo marmorata	vertebrate	mitok	mitok	0	0	0	1	1	0	found	1	high	1	3	1	0		genome_present	r4_OZ360223.1:2389767-2717286+	1	10868	group
+Torpedo marmorata	vertebrate	gphr	gphr	0	0	0	1	1	1	found	1	high	1	4	0	0		genome_present	r4_OZ360226.1:26691758-27219494-	1	28499	group
 Danio rerio	vertebrate	kv_shaker	ploop	26	22	0	1	1	1	found	14	high	14	0	0	0		present	NC_133179.1:10933474-11541184+;NC_133200.1:21067336-21201071+;NC_133200.1:21207931-21209409+;NC_133182.1:32645678-32647447-;NC_133179.1:71276639-71578239-	1	8739	group
 Danio rerio	vertebrate	kv_modifier	ploop	15	7	0	1	1	1	found	8	high	6	0	0	0		present	NC_133193.1:15369731-15882640+;NC_133198.1:42177818-42621231+;NC_133181.1:20088409-20102337-;NC_133188.1:36006268-36007734-;NC_133195.1:15355271-15356518+	1	19092	group
 Danio rerio	vertebrate	kv_kcnq	ploop	8	8	0	1	1	1	found	7	high	5	0	0	0		present	NC_133176.1:34611999-35292293-;NC_133177.1:45654364-46228865-;NC_133200.1:2775048-3212186-;NC_133181.1:60798386-61747821+;NC_133188.1:30188233-30990838-	1	124066	group
@@ -2651,6 +2917,13 @@ Danio rerio	vertebrate	hv1	hv	2	2	0	1	1	1	found	1	high	1	0	0	0		present	NC_13318
 Danio rerio	vertebrate	otop	otopetrin	2	2	0	1	1	1	found	2	high	2	0	0	0		present	NC_133189.1:75234-145119+;NC_133178.1:61027784-61038366+	1	12653	group
 Danio rerio	vertebrate	clic	clic	8	8	0	1	1	1	found	6	high	5	2	0	0		present	NC_133176.1:2304002-2725690-;NC_133189.1:38463191-38468137+;NC_133192.1:26839951-26871423+;NC_133195.1:47259571-47278628+;NC_133194.1:20585309-21016996+	1	29323	group
 Danio rerio	vertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1		unmeasured
+Danio rerio	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_133192.1:50370336-50378199-	1	25219	group
+Danio rerio	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_133183.1:22979176-22984333-	1	17476	group
+Danio rerio	vertebrate	tmem87	tmem87	2	1	0	1	1	1	found	2	high	2	0	0	0		present	r4_NC_133188.1:51201703-51437610+;r4_NC_133190.1:31595940-32062956-	1	27123	group
+Danio rerio	vertebrate	tmem109	tmem109	1	1	0	1	1	1	found	2	high	1	1	0	0		present	r4_NC_133190.1:38826687-39150870+;r4_NC_133189.1:25355859-25366457-	1	11087	group
+Danio rerio	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_NC_133197.1:25397028-25895529+	1	24963	group
+Danio rerio	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_NC_133197.1:5904967-5909761-	1	10868	group
+Danio rerio	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_133184.1:5982162-6313686-	1	28499	group
 Takifugu rubripes	vertebrate	kv_shaker	ploop	26	21	0	1	1	1	found	19	high	15	0	0	0		present	LR584252.2:10176753-10183262-;LR584246.2:12930945-12957050+;LR584232.1:13494099-13495763+;LR584246.2:12609841-12651687-;LR584246.2:12655050-12656462-	1	8739	group
 Takifugu rubripes	vertebrate	kv_modifier	ploop	15	6	0	1	1	1	found	10	high	4	0	0	0		present	LR584232.1:11476654-11559712+;LR584246.2:4865601-4986819-;LR584235.1:18821355-18831581-;LR584237.1:16308365-16392344-;LR584245.2:1894542-1895801-	1	19092	group
 Takifugu rubripes	vertebrate	kv_kcnq	ploop	7	7	0	1	1	1	found	8	high	7	0	0	0		present	LR584246.2:11626815-11850277-;LR584232.1:13191441-13229026-;LR584237.1:4645629-4752875+;LR584243.1:15179708-15323132-;LR584242.2:6850179-6960410-	1	124066	group
@@ -2719,6 +2992,13 @@ Takifugu rubripes	vertebrate	hv1	hv	3	3	0	1	1	1	found	1	high	1	0	0	0		present	LR
 Takifugu rubripes	vertebrate	otop	otopetrin	2	2	0	1	1	1	found	3	high	2	1	0	0		present	LR584247.1:8894354-8896313-;LR584247.1:8908222-8910279+;LR584235.1:14258192-14347007+	1	12653	group
 Takifugu rubripes	vertebrate	clic	clic	8	8	0	1	1	1	found	7	high	5	1	0	0		present	LR584244.1:10635071-10636745+;LR584234.2:4842307-4885749+;LR584234.2:6352147-6358442+;LR584245.2:11747056-11845970+;LR584249.2:5496232-5525068+	1	29323	group
 Takifugu rubripes	vertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1		unmeasured
+Takifugu rubripes	vertebrate	pacc	pac	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	25219	group
+Takifugu rubripes	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_LR584236.2:1332199-1334285+	1	17476	group
+Takifugu rubripes	vertebrate	tmem87	tmem87	3	2	0	1	1	1	found	3	high	2	0	0	0		present	r4_LR584242.2:14805203-14813353-;r4_LR584241.1:527255-629817-;r4_LR584245.2:14636898-14754054+	1	27123	group
+Takifugu rubripes	vertebrate	tmem109	tmem109	2	2	0	1	1	1	partial	0		0	1	0	0		present		1	11087	group
+Takifugu rubripes	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_LR584236.2:10049388-10052132+	1	24963	group
+Takifugu rubripes	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_LR584235.1:1308636-1310138-	1	10868	group
+Takifugu rubripes	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	11	0	0		present	r4_LR584231.2:17622317-17627587-	1	28499	group
 Latimeria chalumnae	vertebrate	kv_shaker	ploop	16	14	1	1	1	1	found	11	high	11	0	0	0		present	JH126891.1:1387841-1394367+;JH126600.1:3126912-3128355+;JH126600.1:3306060-3307529+;JH126576.1:17868-30188-;JH126576.1:81771-83267-	1	8739	group
 Latimeria chalumnae	vertebrate	kv_modifier	ploop	12	5	1	1	1	1	found	5	high	4	2	0	0		present	JH127353.1:467114-492301-;JH126953.1:1196056-1197537+;JH127219.1:892112-893551+;JH129085.1:41422-149925+;JH127141.1:1103949-1127415-	1	19092	group
 Latimeria chalumnae	vertebrate	kv_kcnq	ploop	5	4	0	1	1	1	found	5	high	4	1	1	0		present	JH126899.1:19359-696997-;JH126957.1:19074-873242+;JH126929.1:410023-1336811-;JH127576.1:145794-645686+;JH126727.1:38256-327079+	1	124066	group
@@ -2787,6 +3067,13 @@ Latimeria chalumnae	vertebrate	hv1	hv	1	0	0	1	1	0	found	1	high	1	5	1	0		present	
 Latimeria chalumnae	vertebrate	otop	otopetrin	4	4	0	1	1	1	found	3	high	3	0	0	0		present	JH127000.1:460800-486906-;JH127000.1:506500-513072-;JH128463.1:75536-385008-	1	12653	group
 Latimeria chalumnae	vertebrate	clic	clic	6	6	0	1	1	1	found	5	high	5	2	1	0		present	JH126701.1:1105705-1240301+;JH128045.1:504753-514667-;JH126592.1:1052422-1566658-;JH127041.1:988658-1266779-;JH126781.1:1313269-1352306-	1	29323	group
 Latimeria chalumnae	vertebrate	viroporin	viroporin	0	0	0	0	0	0	gap	0		0	3	1	0		gap		1		unmeasured
+Latimeria chalumnae	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_JH130587.1:57942-93869-	1	25219	group
+Latimeria chalumnae	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	3	2	0		present	r4_JH126783.1:395354-428146+	1	17476	group
+Latimeria chalumnae	vertebrate	tmem87	tmem87	3	2	0	1	1	1	found	3	high	2	0	0	0		present	r4_JH126578.1:116109-591720-;r4_JH126731.1:324422-789515-;r4_JH127627.1:251144-744881-	1	27123	group
+Latimeria chalumnae	vertebrate	tmem109	tmem109	1	1	0	1	1	1	no_locus	0		0	0	0	1	63.2	present		1	11087	group
+Latimeria chalumnae	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_JH126970.1:663163-1132245+	1	24963	group
+Latimeria chalumnae	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_JH126903.1:962719-1341245+	1	10868	group
+Latimeria chalumnae	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	1	1	0		present	r4_JH129371.1:169961-209996+	1	28499	group
 Xenopus tropicalis	vertebrate	kv_shaker	ploop	17	15	0	1	1	1	found	10	high	9	0	0	0		present	NC_030679.2:19119440-19123653-;NC_030679.2:19194580-19199969-;NC_030679.2:19272975-19274420-;NC_030679.2:69069380-69712589+;NC_030680.2:19914737-19947344+	1	8739	group
 Xenopus tropicalis	vertebrate	kv_modifier	ploop	11	5	0	1	1	1	found	6	high	4	0	0	0		present	NC_030680.2:62097968-62538842+;NC_030682.2:97103823-97574562-;NC_030682.2:129142792-129144225-;NC_030686.2:35445567-36088677+;NC_030681.2:138638182-138638832+	1	19092	group
 Xenopus tropicalis	vertebrate	kv_kcnq	ploop	6	6	0	1	1	1	found	5	high	4	0	0	0		present	NC_030679.2:10170657-10779734-;NC_030680.2:24701994-25075197+;NC_030681.2:91369040-92635589-;NC_030678.2:87909069-88405586+;NC_030686.2:1518053-2439471+	1	124066	group
@@ -2855,6 +3142,13 @@ Xenopus tropicalis	vertebrate	hv1	hv	2	2	0	1	1	1	found	1	high	1	1	0	0		present	N
 Xenopus tropicalis	vertebrate	otop	otopetrin	8	8	0	1	1	1	found	2	high	2	0	0	0		present	NC_030686.2:44161594-44231079+;NC_030677.2:25954823-26410230+	1	12653	group
 Xenopus tropicalis	vertebrate	clic	clic	5	5	0	1	1	1	found	4	high	3	1	0	0		present	NC_030684.2:74971534-74991578+;NC_030678.2:14184648-14570829+;NC_030678.2:89964142-90012437+;NC_030681.2:146847258-147302966+	1	29323	group
 Xenopus tropicalis	vertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1		unmeasured
+Xenopus tropicalis	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_030681.2:14164281-14607436+	1	25219	group
+Xenopus tropicalis	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	3	0	0		present	r4_NC_030680.2:119252827-119268178-	1	17476	group
+Xenopus tropicalis	vertebrate	tmem87	tmem87	1	1	0	1	1	1	found	2	high	2	0	0	0		present	r4_NC_030681.2:38032048-38513851+;r4_NC_030684.2:113579236-113986674+	1	27123	group
+Xenopus tropicalis	vertebrate	tmem109	tmem109	0	0	0	1	1	0	partial	0		0	2	0	0		partial		1	11087	group
+Xenopus tropicalis	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	1	1	0		present	r4_NC_030680.2:111949761-111973905+	1	24963	group
+Xenopus tropicalis	vertebrate	mitok	mitok	0	0	0	1	1	0	found	1	high	1	0	0	0		genome_found	r4_NC_030680.2:139423529-139430073-	1	10868	group
+Xenopus tropicalis	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_030678.2:8081338-8474369-	1	28499	group
 Anolis carolinensis	vertebrate	kv_shaker	ploop	17	12	0	1	1	1	found	8	high	7	0	0	0		present	CM000941.1:80751125-80752675-;CM000941.1:80804519-81292384-;CM000937.1:59350772-59352631-;CM000940.1:106714652-107097259-;CM000940.1:126513393-127135661-	1	8739	group
 Anolis carolinensis	vertebrate	kv_modifier	ploop	9	6	0	1	1	1	found	6	high	4	0	0	0		present	CM000937.1:142932831-142934315-;CM000937.1:147293130-147547659-;CM000940.1:20882192-20883625+;CM000940.1:52511399-53033111+;GL343226.1:1982217-1985709+	1	19092	group
 Anolis carolinensis	vertebrate	kv_kcnq	ploop	6	6	0	1	1	1	found	6	high	5	0	0	0		present	CM000937.1:68991408-69709932-;CM000940.1:323766-488471-;CM000940.1:153723488-154594467-;GL343579.1:128597-384311+;GL343308.1:147696-359708+	1	124066	group
@@ -2923,6 +3217,13 @@ Anolis carolinensis	vertebrate	hv1	hv	1	1	0	1	1	1	found	1	high	0	0	0	0		present	
 Anolis carolinensis	vertebrate	otop	otopetrin	4	4	0	1	1	1	found	4	high	3	0	0	0		present	CM000938.1:115076358-115086499-;CM000938.1:115118194-115125367-;GL343239.1:175777-182999-;GL343236.1:558509-591223-	1	12653	group
 Anolis carolinensis	vertebrate	clic	clic	5	5	0	1	1	1	found	4	high	4	3	2	0		present	CM000939.1:142303344-142342204-;CM000937.1:138216582-138715606+;GL343464.1:102266-608330-;GL343570.1:208320-289695+	1	29323	group
 Anolis carolinensis	vertebrate	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0		unmeasured
+Anolis carolinensis	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM000937.1:238495821-238840616-	1	25219	group
+Anolis carolinensis	vertebrate	tmco1	tmco1	1	0	0	1	1	0	found	1	high	1	1	0	0		present	r4_CM000940.1:73812906-73827493-	1	17476	group
+Anolis carolinensis	vertebrate	tmem87	tmem87	2	2	0	1	1	1	found	2	high	1	1	1	0		present	r4_GL343635.1:29102-379276-;r4_CM000937.1:39634471-40037782+	1	27123	group
+Anolis carolinensis	vertebrate	tmem109	tmem109	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_GL343235.1:380625-384121+	1	11087	group
+Anolis carolinensis	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_GL343211.1:1735702-2592043+	1	24963	group
+Anolis carolinensis	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM000938.1:190227763-190399593+	1	10868	group
+Anolis carolinensis	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM000939.1:161957686-161984290-	1	28499	group
 Gallus gallus	vertebrate	kv_shaker	ploop	13	11	0	1	1	1	found	8	high	7	0	0	0		present	CM028482.1:23337631-23947209-;CM028482.1:73381960-73839299+;CM028482.1:73977121-73978596+;CM028482.1:74068296-74070191+;CM028486.1:4688040-4689899-	1	8739	group
 Gallus gallus	vertebrate	kv_modifier	ploop	11	6	0	1	1	1	found	6	high	4	0	0	0		present	CM028483.1:55997801-56481949-;CM028483.1:127237020-127238453+;CM028492.1:16304984-16466529-;CM028484.1:96702514-96703164+;CM028484.1:100027519-100029003+	1	19092	group
 Gallus gallus	vertebrate	kv_kcnq	ploop	5	5	0	1	1	1	found	4	high	3	0	0	0		present	CM028484.1:81121361-81506080-;CM028501.1:9056466-9800588-;CM028486.1:12540709-13432856-;CM028504.1:4833419-5671146+	1	124066	group
@@ -2991,6 +3292,13 @@ Gallus gallus	vertebrate	hv1	hv	3	3	0	1	1	1	found	1	high	1	3	0	0		present	CM0284
 Gallus gallus	vertebrate	otop	otopetrin	3	3	0	1	1	1	found	2	high	1	1	0	0		present	CM028485.1:78028482-78040453-;CM028499.1:11141826-11200299+	1	12653	group
 Gallus gallus	vertebrate	clic	clic	5	5	0	1	1	1	found	5	high	5	2	0	0		present	CM028485.1:1776198-2271284-;CM028482.1:106047077-106083845+;CM028484.1:109426989-109893934-;CM028504.1:2868560-3248868-;CM028498.1:1083174-1093684-	1	29323	group
 Gallus gallus	vertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	3	0	0		partial		1		unmeasured
+Gallus gallus	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM028484.1:21543145-21641454+	1	25219	group
+Gallus gallus	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM028489.1:5488146-5505472-	1	17476	group
+Gallus gallus	vertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM028486.1:24796495-25632028-	1	27123	group
+Gallus gallus	vertebrate	tmem109	tmem109	1	1	0	1	1	1	gap	0		0	4	1	0		present		1	11087	group
+Gallus gallus	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	2	1	0		present	r4_CM028489.1:1319765-1355320-	1	24963	group
+Gallus gallus	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM028493.1:11444591-11452881+	1	10868	group
+Gallus gallus	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	2	1	0		present	r4_CM028482.1:92666548-92686211+	1	28499	group
 Ornithorhynchus anatinus	vertebrate	kv_shaker	ploop	15	13	0	1	1	1	found	9	high	9	0	0	0		present	CM014202.1:44847397-44853412+;CM014206.1:57310240-57867080+;CM014206.1:69342201-69799300+;CM014206.1:69866042-69950955+;CM014209.1:53320801-53616023-	1	8739	group
 Ornithorhynchus anatinus	vertebrate	kv_modifier	ploop	10	6	0	1	1	1	found	7	high	5	0	0	0		present	CM014210.1:47702194-47871181+;CM014200.1:86086898-86318370+;CM014200.1:93427542-93429026+;CM014207.1:9001113-9401566-;CM014203.1:61004009-61005433+	1	19092	group
 Ornithorhynchus anatinus	vertebrate	kv_kcnq	ploop	5	5	0	1	1	1	found	5	high	2	0	0	0		present	CM014202.1:958279-1749868-;CM014200.1:84281508-85146305+;CM014203.1:5807973-6547874-;CM014207.1:18836405-19260874-;CM014215.1:40552015-41396618+	1	124066	group
@@ -3059,6 +3367,13 @@ Ornithorhynchus anatinus	vertebrate	hv1	hv	2	2	0	1	1	1	found	1	high	1	0	0	0		pre
 Ornithorhynchus anatinus	vertebrate	otop	otopetrin	3	3	0	1	1	1	found	2	high	1	1	0	0		present	CM014203.1:125750974-126093181-;RZJT02000087.1:540383-544365+	1	12653	group
 Ornithorhynchus anatinus	vertebrate	clic	clic	7	7	0	1	1	1	found	5	high	4	3	0	0		present	CM014205.1:13098402-13442806+;CM014225.1:7867308-7978205+;CM014216.1:20558683-20992422+;CM014215.1:42923915-43387439+;CM014208.1:36176924-36519583+	1	29323	group
 Ornithorhynchus anatinus	vertebrate	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0		unmeasured
+Ornithorhynchus anatinus	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM014218.1:12047753-12064903+	1	25219	group
+Ornithorhynchus anatinus	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM014215.1:2967901-3082483-	1	17476	group
+Ornithorhynchus anatinus	vertebrate	tmem87	tmem87	2	2	1	1	1	1	found	3	high	2	0	0	0		present	r4_CM014200.1:65115928-65549999+;r4_CM014204.1:3046486-3469678+;r4_CM014212.1:39205622-39834840+	1	27123	group
+Ornithorhynchus anatinus	vertebrate	tmem109	tmem109	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM014202.1:17790053-17804740-	1	11087	group
+Ornithorhynchus anatinus	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	4	0	0		present	r4_CM014203.1:82168355-82189049+	1	24963	group
+Ornithorhynchus anatinus	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM014221.1:86847548-87192321+	1	10868	group
+Ornithorhynchus anatinus	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM014215.1:849220-984155+	1	28499	group
 Monodelphis domestica	vertebrate	kv_shaker	ploop	15	11	0	1	1	1	found	11	high	9	0	0	0		present	CM000371.1:412865899-413115392-;CM000370.1:163786736-163787344-;CM000369.1:479701524-480822999-;CM000369.1:481326513-482220920-;CM000372.1:265234453-265846979-	1	8739	group
 Monodelphis domestica	vertebrate	kv_modifier	ploop	9	7	0	1	1	1	found	7	high	5	1	1	0		present	CM000368.1:494118243-494761299+;CM000368.1:728338497-728339975+;CM000368.1:527601427-527602092-;CM000368.1:687691197-688086839-;CM000370.1:311075656-311512594+	1	19092	group
 Monodelphis domestica	vertebrate	kv_kcnq	ploop	4	4	0	1	1	1	found	4	high	2	8	8	0		present	CM000368.1:473476764-474388455+;CM000371.1:424400763-425173898+;CM000369.1:324556716-325596894+;DS029686.1:4255-19950-	1	124066	group
@@ -3127,6 +3442,13 @@ Monodelphis domestica	vertebrate	hv1	hv	2	2	0	1	1	1	found	1	high	1	1	1	0		presen
 Monodelphis domestica	vertebrate	otop	otopetrin	1	1	0	1	1	1	found	2	high	1	1	1	0		present	CM000369.1:214568792-214593019-;CM000372.1:220891128-221364084-	1	12653	group
 Monodelphis domestica	vertebrate	clic	clic	6	5	0	1	1	1	found	5	high	5	5	0	0		present	CM000371.1:12720537-12852935-;CM000371.1:361102511-361532497+;CM000369.1:267897897-268397294-;CM000369.1:291490295-291851081-;CM000376.1:4708572-5069297+	1	29323	group
 Monodelphis domestica	vertebrate	viroporin	viroporin	0	0	0	0	0	0	gap	0		0	2	2	0		gap		1		unmeasured
+Monodelphis domestica	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM000369.1:120488651-120813870-	1	25219	group
+Monodelphis domestica	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	3	high	1	7	2	0		present	r4_CM000368.1:204337619-204338182+;r4_CM000369.1:57303297-57356633-;r4_CM000372.1:258180089-258535915-	1	17476	group
+Monodelphis domestica	vertebrate	tmem87	tmem87	1	1	1	1	1	1	found	2	high	1	3	2	0		present	r4_CM000368.1:199208644-200129246-;r4_CM000368.1:593462948-594185118+	1	27123	group
+Monodelphis domestica	vertebrate	tmem109	tmem109	1	1	0	1	1	1	found	1	high	1	3	1	0		present	r4_CM000372.1:299025836-299032170+	1	11087	group
+Monodelphis domestica	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM000369.1:477502281-477961878-	1	24963	group
+Monodelphis domestica	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	1	1	0		present	r4_CM000373.1:194226936-194709495-	1	10868	group
+Monodelphis domestica	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	6	5	0		present	r4_CM000369.1:494087205-494128335+	1	28499	group
 Mus musculus	vertebrate	kv_shaker	ploop	17	15	0	1	1	1	found	10	high	9	0	0	0		present	CM000999.3:21216298-21862315+;CM001000.3:44746315-45263196+;CM000995.3:107125397-107598543+;CM000996.3:105366132-105952120+;CM000996.3:106815554-106945325+	1	8739	group
 Mus musculus	vertebrate	kv_modifier	ploop	10	9	0	1	1	1	found	5	high	4	0	0	0		present	CM000995.3:168104303-168349627-;CM001008.3:34838639-34840072+;CM001001.3:119893854-120379414-;CM001011.3:80338889-80771655-;CM001005.3:11141222-11142697-	1	19092	group
 Mus musculus	vertebrate	kv_kcnq	ploop	5	5	0	1	1	1	found	5	high	3	7	1	0		present	CM000995.3:180302437-181275627-;CM001000.3:142661096-143412838+;CM000994.3:21236335-22031553-;CM000997.3:120077488-121053523-;CM001008.3:65867698-66397531-	1	124066	group
@@ -3195,6 +3517,13 @@ Mus musculus	vertebrate	hv1	hv	2	2	0	1	1	1	found	1	high	1	0	0	0		present	CM00099
 Mus musculus	vertebrate	otop	otopetrin	3	3	0	1	1	1	found	2	high	2	2	0	0		present	CM001004.3:114951268-115237271+;CM000998.3:38177968-38460237+	1	12653	group
 Mus musculus	vertebrate	clic	clic	6	5	0	1	1	1	found	5	high	4	28	0	0		present	CM000996.3:63080527-63436757-;CM001009.3:91919535-92336484+;CM000997.3:134944412-135406493-;CM001010.3:34888585-35277467+;CM001010.3:44054677-44586268+	1	29323	group
 Mus musculus	vertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1		unmeasured
+Mus musculus	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM000994.3:190830218-191082047+	1	25219	group
+Mus musculus	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	12	0	0		present	r4_CM000994.3:167136286-167157834+	1	17476	group
+Mus musculus	vertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	4	1	0		present	r4_CM000995.3:119880597-120562117-	1	27123	group
+Mus musculus	vertebrate	tmem109	tmem109	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM001012.3:10849122-10851842-	1	11087	group
+Mus musculus	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	3	0	0		present	r4_CM000996.3:108568674-109080199+	1	24963	group
+Mus musculus	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM001002.3:108778252-108921335+	1	10868	group
+Mus musculus	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	24	0	0		present	r4_CM000996.3:96778704-96812542-	1	28499	group
 Rattus norvegicus	vertebrate	kv_shaker	ploop	17	15	0	1	1	1	found	10	high	10	0	0	0		present	CM070394.1:50743038-51613282+;CM070391.1:104568145-105395663+;CM070392.1:195633081-196283427+;CM070392.1:197075873-197322155+;CM070392.1:197395920-197397440+	1	8739	group
 Rattus norvegicus	vertebrate	kv_modifier	ploop	10	9	0	1	1	1	found	6	high	5	0	0	0		present	CM070393.1:177238349-177604165-;CM070397.1:67908629-67910062+;CM070396.1:39527895-39529370-;CM070396.1:45691957-45692622-;CM070408.1:76018328-76405425-	1	19092	group
 Rattus norvegicus	vertebrate	kv_kcnq	ploop	5	5	0	1	1	1	found	5	high	1	5	0	0		present	CM070397.1:99383297-99963130-;CM070393.1:188152976-189003256-;CM070391.1:207597382-208263798+;CM070395.1:139102546-139843791-;CM070399.1:31046754-32342587-	1	124066	group
@@ -3263,6 +3592,13 @@ Rattus norvegicus	vertebrate	hv1	hv	2	2	0	1	1	1	partial	0		0	1	0	0		present		1	1
 Rattus norvegicus	vertebrate	otop	otopetrin	3	3	0	1	1	1	found	2	high	2	1	0	0		present	CM070400.1:100983667-101087209+;CM070404.1:76717330-77089903-	1	12653	group
 Rattus norvegicus	vertebrate	clic	clic	7	6	0	1	1	1	found	5	high	3	19	0	0		present	CM070395.1:152740488-153258498-;CM070401.1:44899649-45269643+;CM070399.1:24213526-24724921-;CM070410.1:85786-172255+;CM070410.1:3769754-4412643-	1	29323	group
 Rattus norvegicus	vertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	5	0	0		partial		1		unmeasured
+Rattus norvegicus	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM070403.1:105041955-105460442+	1	25219	group
+Rattus norvegicus	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	2	high	0	8	0	0		present	r4_CM070403.1:81993076-82015956+;r4_CM070410.1:51998523-52280633+	1	17476	group
+Rattus norvegicus	vertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	3	0	0		present	r4_CM070393.1:127343263-128250685-	1	27123	group
+Rattus norvegicus	vertebrate	tmem109	tmem109	1	1	0	1	1	1	found	1	high	1	2	0	0		present	r4_CM070391.1:216945606-216948246-	1	11087	group
+Rattus norvegicus	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	6	0	0		present	r4_CM070392.1:198994397-199486726+	1	24963	group
+Rattus norvegicus	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM070398.1:118616563-118619720+	1	10868	group
+Rattus norvegicus	vertebrate	gphr	gphr	1	1	0	1	1	1	found	2	high	1	15	0	0		present	r4_CM070392.1:226437621-226851239+;r4_CM070392.1:187097291-187134296-	1	28499	group
 Homo sapiens	vertebrate	kv_shaker	ploop	17	15	0	1	1	1	found	12	high	11	0	0	0		present	CM000674.2:4809465-4874171+;CM000674.2:4911379-4912866+;CM000674.2:5044400-5045764+;CM000669.2:120274633-120745914+;CM000663.2:110517270-110518532-	1	8739	group
 Homo sapiens	vertebrate	kv_modifier	ploop	10	9	0	1	1	1	found	6	high	6	0	0	0		present	CM000664.2:17931009-17932484+;CM000678.2:84222259-84412604-;CM000670.2:98427980-98429413+;CM000682.2:45094894-45098657-;CM000682.2:51004042-51493303-	1	19092	group
 Homo sapiens	vertebrate	kv_kcnq	ploop	5	5	0	1	1	1	found	6	high	3	1	1	0		present	CM000673.2:2330754-3204391+;CM000663.2:40760609-41918173+;CM000670.2:132129271-132674151-;CM000668.2:72622114-73660719+;CM000682.2:62952628-63909130-	1	124066	group
@@ -3331,6 +3667,13 @@ Homo sapiens	vertebrate	hv1	hv	2	2	0	1	1	1	found	1	high	1	1	0	0		present	CM00067
 Homo sapiens	vertebrate	otop	otopetrin	3	3	0	1	1	1	found	8	high	2	0	0	0		present	CM000664.2:89533185-89547106+;CM000664.2:91495526-91621424+;CM000663.2:143354221-143386122+;CM000663.2:143784477-144211729+;CM000663.2:144754662-145176679-	1	12653	group
 Homo sapiens	vertebrate	clic	clic	6	6	0	1	1	1	found	13	high	10	14	0	0		present	CM000663.2:24297989-25248953+;CM000668.2:31730842-32048630-;CM000668.2:45903088-46080242-;CM000685.2:40721827-41077757+;CM000681.2:6562134-6563889-	1	29323	group
 Homo sapiens	vertebrate	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	8	0	0		partial		1		unmeasured
+Homo sapiens	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	2	0	0		present	r4_CM000663.2:212365215-212760926-	1	25219	group
+Homo sapiens	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	4	0	0		present	r4_CM000663.2:165728023-165768751-	1	17476	group
+Homo sapiens	vertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM000677.2:42211708-42701346-	1	27123	group
+Homo sapiens	vertebrate	tmem109	tmem109	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM000673.2:60919691-61214517+	1	11087	group
+Homo sapiens	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	9	1	0		present	r4_CM000663.2:108560215-108950446-	1	24963	group
+Homo sapiens	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM000665.2:48432408-48919144-	1	10868	group
+Homo sapiens	vertebrate	gphr	gphr	2	2	0	1	1	1	found	3	high	2	0	0	0		present	r4_CM000663.2:145608131-145670040+;r4_CM000663.2:147724576-147992917+;r4_CM000668.2:27737001-27738352-	1	28499	group
 Influenza A virus	virus	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3300	cds
 Influenza A virus	virus	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1800	cds
 Influenza A virus	virus	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3000	cds
@@ -3399,6 +3742,13 @@ Influenza A virus	virus	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescu
 Influenza A virus	virus	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
 Influenza A virus	virus	clic	clic	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1920	cds
 Influenza A virus	virus	viroporin	viroporin	1	1	0	1	1	1	no_locus	0		0	0	0	0		present		0	825	cds
+Influenza A virus	virus	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1200	cds
+Influenza A virus	virus	tmco1	tmco1	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	840	cds
+Influenza A virus	virus	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Influenza A virus	virus	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	870	cds
+Influenza A virus	virus	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Influenza A virus	virus	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1410	cds
+Influenza A virus	virus	gphr	gphr	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1560	cds
 Human immunodeficiency virus type 1	virus	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3300	cds
 Human immunodeficiency virus type 1	virus	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1800	cds
 Human immunodeficiency virus type 1	virus	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3000	cds
@@ -3467,6 +3817,13 @@ Human immunodeficiency virus type 1	virus	hv1	hv	0	0	0	0	0	0	no_locus	0		0	0	0	0
 Human immunodeficiency virus type 1	virus	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
 Human immunodeficiency virus type 1	virus	clic	clic	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1920	cds
 Human immunodeficiency virus type 1	virus	viroporin	viroporin	1	1	0	1	1	1	no_locus	0		0	0	0	0		present		0	825	cds
+Human immunodeficiency virus type 1	virus	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1200	cds
+Human immunodeficiency virus type 1	virus	tmco1	tmco1	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	840	cds
+Human immunodeficiency virus type 1	virus	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Human immunodeficiency virus type 1	virus	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	870	cds
+Human immunodeficiency virus type 1	virus	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Human immunodeficiency virus type 1	virus	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1410	cds
+Human immunodeficiency virus type 1	virus	gphr	gphr	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1560	cds
 Severe acute respiratory syndrome coronavirus 2	virus	kv_shaker	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3300	cds
 Severe acute respiratory syndrome coronavirus 2	virus	kv_modifier	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1800	cds
 Severe acute respiratory syndrome coronavirus 2	virus	kv_kcnq	ploop	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3000	cds
@@ -3535,3 +3892,10 @@ Severe acute respiratory syndrome coronavirus 2	virus	hv1	hv	0	0	0	0	0	0	no_locu
 Severe acute respiratory syndrome coronavirus 2	virus	otop	otopetrin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
 Severe acute respiratory syndrome coronavirus 2	virus	clic	clic	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1920	cds
 Severe acute respiratory syndrome coronavirus 2	virus	viroporin	viroporin	1	1	0	1	1	1	no_locus	0		0	0	0	0		present		0	825	cds
+Severe acute respiratory syndrome coronavirus 2	virus	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1200	cds
+Severe acute respiratory syndrome coronavirus 2	virus	tmco1	tmco1	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	840	cds
+Severe acute respiratory syndrome coronavirus 2	virus	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Severe acute respiratory syndrome coronavirus 2	virus	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	870	cds
+Severe acute respiratory syndrome coronavirus 2	virus	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1860	cds
+Severe acute respiratory syndrome coronavirus 2	virus	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1410	cds
+Severe acute respiratory syndrome coronavirus 2	virus	gphr	gphr	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1560	cds

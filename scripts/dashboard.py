@@ -63,6 +63,9 @@ FIGURES: list[tuple[str, str]] = [
     ("results/census_v3/figures/census_r4.png",
      "S2d — census revision r4: the eight added channels' records, and whether "
      "their non-channel look-alikes separate (H17–H19)"),
+    ("results/genome_sweep/figures/genome_r4.png",
+     "S5c — the r4 families in the 52 genomes: proteome, genome-only, partial, "
+     "controlled absence"),
 ]
 
 #: Auto-discovered figures are capped so the page stays a reasonable size.

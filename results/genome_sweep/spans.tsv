@@ -9,6 +9,7 @@ catsper	27	13	12363	1315	26139	12363	basal_metazoan:1991;cnidarian:7750;deuteros
 cav	185	29	111694	5255	996004	111694	algae:14442;basal_metazoan:12789;ciliate:5290;cnidarian:114056;deuterostome:97047;invertebrate:30011;vertebrate:158445	algae:3;basal_metazoan:4;ciliate:3;cnidarian:12;deuterostome:10;invertebrate:14;vertebrate:139
 cftr	13	13	114587	18949	204606	114587	vertebrate:114587	vertebrate:13
 clc_channel	46	25	27541	3353	214269	27541	basal_metazoan:7736;deuterostome:33992;holozoa:4435;invertebrate:9955;vertebrate:34098	basal_metazoan:2;deuterostome:3;holozoa:3;invertebrate:9;vertebrate:29
+clcc1	13	13	24963	4401	50085	24963	vertebrate:24963	vertebrate:13
 clic	81	25	16767	600	248993	16767	basal_metazoan:1601;cnidarian:5831;deuterostome:16767;invertebrate:4552;plant:2367;vertebrate:29323	basal_metazoan:1;cnidarian:1;deuterostome:3;invertebrate:9;plant:6;vertebrate:61
 cng	85	27	13070	936	200372	13070	basal_metazoan:3533;ciliate:3239;cnidarian:5992;deuterostome:21941;invertebrate:12978;vertebrate:14114	basal_metazoan:2;ciliate:3;cnidarian:5;deuterostome:7;invertebrate:16;vertebrate:52
 connexin	220	14	7447	741	72007	7447	deuterostome:5816;vertebrate:7591	deuterostome:11;vertebrate:209
@@ -17,6 +18,7 @@ delta_glur	29	13	696754	69352	1915375	696754	vertebrate:696754	vertebrate:29
 enac	27	11	29250	7756	127086	29250	vertebrate:29250	vertebrate:27
 gabaa	156	18	62765	4748	491652	62765	deuterostome:47828;invertebrate:30264;vertebrate:65716	deuterostome:7;invertebrate:2;vertebrate:147
 glyr	47	13	81300	7109	646471	81300	vertebrate:81300	vertebrate:47
+gphr	36	32	8880	1432	97515	8880	algae:5352;amoebozoa:1834;basal_metazoan:6222;ciliate:1432;cnidarian:14048;deuterostome:8096;holozoa:2801;invertebrate:7283;plant:5664;vertebrate:28499	algae:1;amoebozoa:1;basal_metazoan:3;ciliate:1;cnidarian:2;deuterostome:3;holozoa:2;invertebrate:6;plant:3;vertebrate:14
 hcn	61	20	45326	4690	592243	45326	deuterostome:31861;invertebrate:45125;vertebrate:46649	deuterostome:3;invertebrate:5;vertebrate:53
 ht3	29	13	9932	2883	24160	9932	vertebrate:9932	vertebrate:29
 hv1	27	22	10311	769	96364	10311	basal_metazoan:1888;cnidarian:10434;deuterostome:7998;invertebrate:5196;vertebrate:12537	basal_metazoan:2;cnidarian:2;deuterostome:4;invertebrate:7;vertebrate:12
@@ -34,6 +36,7 @@ kv_modifier	62	13	19092	1440	170021	19092	vertebrate:19092	vertebrate:62
 kv_shaker	186	25	8376	1071	603805	8376	basal_metazoan:1107;cnidarian:3184;deuterostome:14137;invertebrate:11198;vertebrate:8739	basal_metazoan:1;cnidarian:17;deuterostome:9;invertebrate:12;vertebrate:147
 lrrc8	44	14	17509	1554	161222	17509	cnidarian:1554;vertebrate:17527	cnidarian:1;vertebrate:43
 mcu	38	27	42106	1784	195552	42106	basal_metazoan:1998;cnidarian:19175;deuterostome:39007;holozoa:4656;invertebrate:16207;plant:2461;vertebrate:70290	basal_metazoan:1;cnidarian:2;deuterostome:4;holozoa:1;invertebrate:6;plant:1;vertebrate:23
+mitok	16	16	7089	1547	30179	7089	deuterostome:3824;invertebrate:3159;vertebrate:10868	deuterostome:1;invertebrate:2;vertebrate:13
 mscl	6	6	424	375	545	424	prokaryote:424	prokaryote:6
 mscs	15	6	3591	861	7207	3591	plant:3612;prokaryote:891	plant:12;prokaryote:3
 nachr	245	24	14153	1056	209967	14153	cnidarian:6371;deuterostome:11173;invertebrate:7440;vertebrate:19262	cnidarian:22;deuterostome:37;invertebrate:48;vertebrate:138
@@ -45,13 +48,17 @@ osca_tmem63	73	29	27853	2549	166446	27853	amoebozoa:2549;basal_metazoan:6209;cni
 otop	50	22	9707	1128	74430	9707	cnidarian:2060;deuterostome:2527;invertebrate:3315;vertebrate:12653	cnidarian:2;deuterostome:1;invertebrate:18;vertebrate:29
 p2x	72	25	17913	1146	89348	17913	basal_metazoan:4685;cnidarian:27704;deuterostome:44420;holozoa:2549;invertebrate:12950;vertebrate:18385	basal_metazoan:3;cnidarian:2;deuterostome:4;holozoa:2;invertebrate:4;vertebrate:57
 p2x_nonmetazoan	2	2	7022	6156	7888	7022	basal_metazoan:6156;cnidarian:7888	basal_metazoan:1;cnidarian:1
+pacc	12	12	25219	8542	118533	25219	vertebrate:25219	vertebrate:12
 pannexin	39	13	16888	2997	69966	16888	vertebrate:16888	vertebrate:39
 piezo	48	25	91415	9690	592590	91415	amoebozoa:9690;basal_metazoan:13188;cnidarian:169344;deuterostome:88642;holozoa:9889;invertebrate:67905;vertebrate:100151	amoebozoa:1;basal_metazoan:2;cnidarian:1;deuterostome:3;holozoa:1;invertebrate:4;vertebrate:36
 plgic_invertebrate	7	3	7124	2284	44517	7124	invertebrate:7124	invertebrate:7
 plgic_prok	1	1	6302	6302	6302	6302	invertebrate:6302	invertebrate:1
 ryr	54	24	145702	15515	791805	145702	basal_metazoan:22879;deuterostome:129206;holozoa:20522;invertebrate:27734;vertebrate:184748	basal_metazoan:2;deuterostome:3;holozoa:1;invertebrate:5;vertebrate:43
 tmc	93	25	23313	1839	316690	23313	basal_metazoan:5830;cnidarian:11408;deuterostome:17773;invertebrate:15126;vertebrate:36081	basal_metazoan:5;cnidarian:4;deuterostome:9;invertebrate:12;vertebrate:63
+tmco1	35	32	3835	652	54808	3835	amoebozoa:686;basal_metazoan:1652;ciliate:656;cnidarian:2692;deuterostome:12291;holozoa:948;invertebrate:1918;plant:1096;vertebrate:17476	amoebozoa:1;basal_metazoan:2;ciliate:2;cnidarian:2;deuterostome:4;holozoa:1;invertebrate:6;plant:4;vertebrate:13
+tmem109	7	7	11087	7404	64975	11087	vertebrate:11087	vertebrate:7
 tmem175	15	15	16107	2193	81178	16107	basal_metazoan:3112;cnidarian:2239;deuterostome:9929;vertebrate:17988	basal_metazoan:1;cnidarian:2;deuterostome:1;vertebrate:11
+tmem87	37	28	22473	2255	96840	22473	amoebozoa:2255;basal_metazoan:4794;cnidarian:32484;deuterostome:21101;holozoa:2980;invertebrate:7747;vertebrate:27123	amoebozoa:1;basal_metazoan:1;cnidarian:2;deuterostome:3;holozoa:2;invertebrate:6;vertebrate:22
 tpc	51	28	23273	2494	121915	23273	amoebozoa:6260;basal_metazoan:4322;cnidarian:33929;deuterostome:26164;holozoa:3334;invertebrate:16324;plant:6555;vertebrate:42416	amoebozoa:1;basal_metazoan:3;cnidarian:3;deuterostome:6;holozoa:2;invertebrate:7;plant:5;vertebrate:24
 tric	32	20	16800	1728	100927	16800	deuterostome:6948;invertebrate:9078;vertebrate:25435	deuterostome:1;invertebrate:7;vertebrate:24
 trpa	29	22	38785	2482	365399	38785	basal_metazoan:3800;cnidarian:100591;deuterostome:30185;invertebrate:23384;vertebrate:44375	basal_metazoan:1;cnidarian:1;deuterostome:7;invertebrate:6;vertebrate:14
