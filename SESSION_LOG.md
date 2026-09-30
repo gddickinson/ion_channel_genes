@@ -826,3 +826,13 @@ on 33/36. The TMEM87A/B split is not resolved by the tree (D45 amended).
 order 439 / family 1,093 proteomes (1.1 / 2.7 / 11 / 25 M sequences; profile
 sweep 0.3–6.3 h). Recommendation: one per order, proteome-level; the
 user chooses.
+
+## 2026-09-30 — S4b (user decision: one proteome per order), in progress
+
+Selected 439 orders from release 2026_03's README (35 keep their S4
+proteome; 86 proteomes lack an order rank); 439/439 files MD5-verified
+(2.5 GB); dense DB 8,759,024 sequences; entry counts equal the README's for
+438/439, the exception being human (the D35 reissue). The profile sweep was
+launched detached (`nohup caffeinate -i … s4b_sweep.py search --jobs 3 --cpu 2`,
+log `<data root>/proteomes/s4b/search.log`). **NEXT**: when it finishes,
+`s4b_sweep.py assign`, `matrix`, then report + figure, and close S4b.
