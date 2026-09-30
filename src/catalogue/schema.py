@@ -112,6 +112,12 @@ class Fold(str, Enum):
     BESTROPHIN = "bestrophin"
     LRRC8 = "lrrc8"                   # VRAC; connexin-like fold
     VIROPORIN = "viroporin"
+    PAC = "pac"                       # PACC1/TMEM206: trimeric, 2 TM per subunit
+    OXA1_LIKE = "oxa1_like"           # TMCO1 / EMC3 membrane insertase fold
+    GOST = "gost"                     # TMEM87 GOLD + seven-TM (GOST) proteins
+    TMEM109 = "tmem109"               # mitsugumin-23
+    MCLC = "mclc"                     # CLCC1, Mid-1-related chloride channel
+    GPHR = "gphr"                     # Golgi pH regulator (GPR89)
     UNKNOWN = "unknown"
 
 

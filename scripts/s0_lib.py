@@ -42,7 +42,11 @@ class Fetcher:
                                   "User-Agent": "ion-channel-census/0.1"})
                 with urllib.request.urlopen(req, timeout=self.timeout_s) as r:
                     self.n_requests += 1
-                    payload = json.load(r)
+                    # InterPro answers "no matches" with 204 and an empty
+                    # body, which urlopen returns as success (CCDC51, the
+                    # first catalogued protein with no Pfam domain).
+                    body = r.read()
+                    payload = json.loads(body) if (body.strip() and r.status != 204) else None
                 time.sleep(self.sleep_s)
                 return payload
             except urllib.error.HTTPError as e:

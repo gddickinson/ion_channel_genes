@@ -36,9 +36,11 @@
 ## `src/catalogue/` — the project's definition of its own subject
 
 **The single place any channel family, signature, size band or exemplar is
-declared.** Nothing else in `src/` hard-codes a gene name. 91 families in 25
-superfamilies, of which 68 are census families covering 320 human genes; the
-other 23 exist so they can be excluded.
+declared.** Nothing else in `src/` hard-codes a gene name. 102 families in 32
+superfamilies, of which 75 are census families covering 328 human genes; the
+other 27 exist so they can be excluded. (Census v2–v4 and S6 were built on the
+68-family / 320-gene catalogue; the 7 families and 8 genes in `proposed.py`
+were added after S20 and have not been searched yet, D34.)
 
 | File | Contents |
 |------|----------|
@@ -50,10 +52,11 @@ other 23 exist so they can be excluded.
 | `tmem16_like.py` | Anoctamin channels, anoctamin scramblases, OSCA/TMEM63, TMC — one fold, `alignable=False`. |
 | `mechano.py` | Piezo, MscL, MscS. |
 | `largepore.py` | Connexins; the innexin/pannexin/LRRC8 clan; CALHM. |
-| `intracellular.py` | ITPR, RYR (the parent project's whole subject, here two families of ninety-one), TRIC, MCU, VDAC, TMEM175. |
+| `intracellular.py` | ITPR, RYR (the parent project's whole subject, here two families of 102), TRIC, MCU, VDAC, TMEM175. |
 | `other.py` | ORAI, Hv1, otopetrins, CLIC, viroporins. |
-| `controls.py` | The 23 non-census families: auxiliary subunits, domain-sharing non-channels (KCTD, class C GPCRs, AChBP, the generic ABC-transporter decoy (S3a2), POMT, VSP), transporters, and the out-of-scope channels (aquaporins, bacterial porins, gasdermins). |
-| `hazards.py` | **The hazard registry** — 16 recorded ways to classify wrongly, each with the families involved, the shared evidence, the discriminating positive test, and the module that owns it. |
+| `proposed.py` | **Added after S20** (user-directed): eight proposed channels as seven single-family superfamilies — PACC1 (`channel`), TMCO1, TMEM87A, TMEM109, CLCC1, CCDC51/MITOK, GPHRA/B (`channel_contested`) — and the three look-alikes that share their only domain (EMC3, GOST proteins, BRI3BP; hazards H17–H19). Every signature `enumerate=False` until a census revision (D34). |
+| `controls.py` | The non-census families: auxiliary subunits, domain-sharing non-channels (KCTD, class C GPCRs, AChBP, the generic ABC-transporter decoy (S3a2), POMT, VSP), transporters, and the out-of-scope channels (aquaporins, bacterial porins, gasdermins). |
+| `hazards.py` | **The hazard registry** — 19 recorded ways to classify wrongly (H17–H19, added with `proposed.py`, are open until the new families have profiles), each with the families involved, the shared evidence, the discriminating positive test, and the module that owns it. |
 | `registry.py` | Assembly and lookup: `CATALOGUE`, `SUPERFAMILIES`, `census_families()`, `control_families()`, `human_genes()`, `signature_index()`, `shared_signatures()`, `pore_signatures()` (the H7 fix), `exemplars()`, `reference_panel()`, `hazards_for()`, `validate()`, `stats()`. |
 | `__main__.py` | `python3 -m src.catalogue [--families] [--shared] [--census]` — validate and print. Exits non-zero on any validation problem, so it works as a pre-commit gate. |
 

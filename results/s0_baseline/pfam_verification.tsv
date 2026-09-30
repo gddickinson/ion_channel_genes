@@ -33,6 +33,7 @@ PF01365	RYDR_ITPR	RYDR_ITPR	RIH domain	13177	ok	2
 PF01459	Porin_3	Porin_3	Eukaryotic porin	17018	ok	1
 PF01740	STAS	STAS	STAS domain	95127	ok	1
 PF01741	MscL	MscL	Large-conductance mechanosensitive channel, MscL	16658	ok	1
+PF01956	EMC3_TMCO1	EMC3_TMCO1	Integral membrane protein EMC3/TMCO1-like	7159	ok	2
 PF02026	RyR	RyR	RyR domain	7031	ok	1
 PF02060	ISK_Channel	ISK_Channel	Slow voltage-gated potassium channel	3016	ok	1
 PF02214	BTB_2	BTB_2	BTB/POZ domain	60555	ok	3
@@ -57,9 +58,11 @@ PF04678	MCU	MCU	Mitochondrial calcium uniporter	6435	ok	1
 PF04906	Tweety	Tweety	Tweety	4676	ok	1
 PF05197	TRIC	TRIC	TRIC channel	2675	ok	1
 PF05552	MS_channel_1st_1	MS_channel_1st_1	Mechanosensitive ion channel, conserved TM helix	10516	ok	1
+PF05934	MCLC	MCLC	Mid-1-related chloride channel (MCLC)	1570	ok	1
 PF06459	RR_TM4-6	RR_TM4-6	Ryanodine Receptor TM 4-6	5604	ok	1
 PF06512	Na_trans_assoc	Na_trans_assoc	Sodium ion transport-associated	13867	ok	1
 PF06736	TMEM175	TMEM175	Endosomal/lysosomal potassium channel TMEM175	7039	ok	1
+PF06814	GOST_TM	GOST_TM	GOST, seven transmembrane domain	11289	ok	2
 PF07647	SAM_2	SAM_2	SAM domain (Sterile alpha motif)	65066	ok	1
 PF07686	V-set	V-set	Immunoglobulin V-set domain	217115	ok	1
 PF07810	TMC	TMC	TMC domain	8467	ok	1
@@ -80,17 +83,23 @@ PF11289	bCoV_viroporin	bCoV_viroporin	Betacoronavirus viroporin	78	ok	1
 PF11933	Na_trans_cytopl	Na_trans_cytopl	Cytoplasmic domain of voltage-gated Na+ ion channel	10488	ok	1
 PF12052	VGCC_beta4Aa_N	VGCC_beta4Aa_N	Voltage gated calcium channel subunit beta domain 4Aa N terminal	8780	ok	1
 PF12166	Piezo_cap	Piezo_cap	Piezo non-specific cation channel, cap domain	5778	ok	1
+PF12430	ABA_GPCR	ABA_GPCR	Abscisic acid G-protein coupled receptor	3935	ok	1
 PF12534	Pannexin_like	Pannexin_like	Pannexin-like TM region of LRRC8	4365	ok	1
+PF12537	GPHR_N	GPHR_N	The Golgi pH Regulator (GPHR) Family N-terminal	3809	ok	1
 PF12796	Ank_2	Ank_2	Ankyrin repeats (3 copies)	542452	ok	4
 PF13410	GST_C_2	GST_C_2	Glutathione S-transferase, C-terminal domain	58895	ok	1
 PF13426	PAS_9	PAS_9	PAS domain	121772	ok	1
+PF13499	EF-hand_7	EF-hand_7	EF-hand domain pair	239985	ok	1
 PF13637	Ank_4	Ank_4	Ankyrin repeats (many copies)	83264	ok	1
-PF13833	EF-hand_8	EF-hand_8	EF-hand domain pair	38381	ok	1
+PF13833	EF-hand_8	EF-hand_8	EF-hand domain pair	38381	ok	2
 PF13855	LRR_8	LRR_8	Leucine rich repeat	364110	ok	1
 PF13967	RSN1_TM	RSN1_TM	Late exocytosis, associated with Golgi transport	19711	ok	1
 PF14396	CFTR_R	CFTR_R	Cystic fibrosis TM conductance regulator (CFTR), regulator domain	1469	ok	1
 PF14703	PHM7_cyt	PHM7_cyt	Cytosolic domain of 10TM putative phosphate transporter	20741	ok	1
 PF14798	Ca_hom_mod	Ca_hom_mod	Calcium homeostasis modulator	4977	ok	1
+PF14965	BRI3BP	BRI3BP	Negative regulator of p53/TP53	1690	ok	2
+PF15108	TMEM37	TMEM37	Voltage-dependent calcium channel gamma-like subunit protein family	440	ok	1
+PF15122	TMEM206	TMEM206	TMEM206 protein family	992	ok	1
 PF15149	CATSPERB_C	CATSPERB_C	CATSPERB, C-terminal domain	339	ok	1
 PF15462	Barttin	Barttin	Bartter syndrome, infantile, with sensorineural deafness (Barttin)	643	ok	1
 PF15917	Piezo_TM25-28	Piezo_TM25-28	Piezo TM25-28	4299	ok	1
@@ -109,6 +118,7 @@ PF20871	KCTD1-15_CTD	KCTD1-15_CTD	BTB/POZ domain-containing protein KCTD1/15, C-
 PF21014	Slowpoke_C	Slowpoke_C	Ca2+-activated K+ channel Slowpoke, TrkA_C like domain	7165	ok	1
 PF21082	MS_channel_3rd	MS_channel_3rd	Mechanosensitive ion channel MscS, C-terminal	37581	ok	1
 PF21381	MCLN_ECD	MCLN_ECD	Mucolipin, extracytosolic domain	4756	ok	1
+PF21901	TMEM87A-B_GOLD	TMEM87A-B_GOLD	TMEM87A/B, GOLD domain	1660	ok	1
 PF22441	CLIC-like_N	CLIC-like_N	CLIC-like N-terminal domain	6312	ok	1
 PF22614	Slo-like_RCK	Slo-like_RCK	Calcium-activated potassium channel slowpoke-like RCK domain	15780	ok	1
 PF23110	H1_KCTD8_12_16	H1_KCTD8_12_16	KCTD8/12/16 H1 domain	3759	ok	1

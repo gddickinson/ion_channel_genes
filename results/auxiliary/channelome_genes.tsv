@@ -52,7 +52,7 @@ HGNC:13628	CACNG8	CACNG8	symbol	assoc_cav_aux	ploop	CHANNEL_ASSOCIATED	auxiliary
 HGNC:13800	CHRNA10	CHRNA10	symbol	nachr	cysloop	CHANNEL	pore_census	1	1	1	3	Nicotinic acetylcholine receptors (nACh)	Cholinergic receptors nicotinic subunits
 HGNC:13814	KCNK15	KCNK15	symbol	k2p	ploop	CHANNEL	pore_census	1	1	1	3	Two-pore domain potassium channels (K2P)	Potassium two pore domain channel subfamily K
 HGNC:13823	NETO1	NETO1	symbol	assoc_iglur_aux	iglur	CHANNEL_ASSOCIATED	auxiliary	0	0	0	0		
-HGNC:13840	GPHRB						uncatalogued	0	0	1	1		
+HGNC:13840	GPHRB	GPHRB	symbol	gphr	gphr	CHANNEL_CONTESTED	pore_census	0	0	1	1		
 HGNC:13877	TTYH2	TTYH2	symbol	tweety	tweety	CHANNEL_CONTESTED	pore_census	0	0	1	1		
 HGNC:1388	CACNA1A	CACNA1A	symbol	cav	ploop	CHANNEL	pore_census	1	1	1	3	Voltage-gated calcium channels (CaV)	Calcium voltage-gated channel alpha1 subunits
 HGNC:1389	CACNA1B	CACNA1B	symbol	cav	ploop	CHANNEL	pore_census	1	1	1	3	Voltage-gated calcium channels (CaV)	Calcium voltage-gated channel alpha1 subunits
@@ -78,6 +78,7 @@ HGNC:1407	CACNG3	CACNG3	symbol	assoc_cav_aux	ploop	CHANNEL_ASSOCIATED	auxiliary	
 HGNC:14079	CHRNA9	CHRNA9	symbol	nachr	cysloop	CHANNEL	pore_census	1	1	1	3	Nicotinic acetylcholine receptors (nACh)	Cholinergic receptors nicotinic subunits
 HGNC:1408	CACNG4	CACNG4	symbol	assoc_cav_aux	ploop	CHANNEL_ASSOCIATED	auxiliary	0	1	1	2		Calcium channel auxiliary gamma subunits
 HGNC:1409	CACNG5	CACNG5	symbol	assoc_cav_aux	ploop	CHANNEL_ASSOCIATED	auxiliary	0	1	0	1		Calcium channel auxiliary gamma subunits
+HGNC:14251	BRI3BP	BRI3BP	symbol	nonchannel_bri3bp	tmem109	NON_CHANNEL_HOMOLOG	non_channel_homolog	0	0	0	0		
 HGNC:14323	TRPM5	TRPM5	symbol	trpm	ploop	CHANNEL	pore_census	1	1	1	3	Transient Receptor Potential channels (TRP)	Transient receptor potential cation channel subfamily M
 HGNC:14448	TAS1R1	TAS1R1	symbol	nonchannel_class_c_gpcr	iglur	NON_CHANNEL_HOMOLOG	non_channel_homolog	0	0	0	0		
 HGNC:14454	GABRQ	GABRQ	symbol	gabaa	cysloop	CHANNEL	pore_census	1	1	1	3	GABAA receptors	Gamma-aminobutyric acid type A receptor subunits
@@ -98,9 +99,9 @@ HGNC:1514	CASR	CASR	symbol	nonchannel_class_c_gpcr	iglur	NON_CHANNEL_HOMOLOG	non
 HGNC:1530	MICU1	MICU1	symbol	assoc_mcu_reg	mcu	CHANNEL_ASSOCIATED	auxiliary	1	0	0	1	Mitochondrial calcium uniporter (MCU) complex	
 HGNC:15459	P2RX2	P2RX2	symbol	p2x	p2x	CHANNEL	pore_census	1	1	1	3	P2X receptors	Purinergic receptors P2X
 HGNC:15460	CACNA2D3	CACNA2D3	symbol	assoc_cav_aux	ploop	CHANNEL_ASSOCIATED	auxiliary	0	1	1	2		Calcium voltage-gated channel auxiliary alpha2delta subunits
-HGNC:15521	KCNIP1						uncatalogued	0	0	1	1		
-HGNC:15522	KCNIP2						uncatalogued	0	0	1	1		
-HGNC:15523	KCNIP3						uncatalogued	0	0	1	1		
+HGNC:15521	KCNIP1	KCNIP1	symbol	assoc_kchip	ploop	CHANNEL_ASSOCIATED	auxiliary	0	0	1	1		
+HGNC:15522	KCNIP2	KCNIP2	symbol	assoc_kchip	ploop	CHANNEL_ASSOCIATED	auxiliary	0	0	1	1		
+HGNC:15523	KCNIP3	KCNIP3	symbol	assoc_kchip	ploop	CHANNEL_ASSOCIATED	auxiliary	0	0	1	1		
 HGNC:15661	TAS1R3	TAS1R3	symbol	nonchannel_class_c_gpcr	iglur	NON_CHANNEL_HOMOLOG	non_channel_homolog	0	0	0	0		
 HGNC:15963	CHRNA6	CHRNA6	symbol	nachr	cysloop	CHANNEL	pore_census	1	1	1	3	Nicotinic acetylcholine receptors (nACh)	Cholinergic receptors nicotinic subunits
 HGNC:16029	AQP10	AQP10	symbol	outofscope_aquaporin		OUT_OF_SCOPE	out_of_scope	1	1	0	2	Aquaporins	Aquaporins
@@ -124,6 +125,8 @@ HGNC:17494	GJC2	GJC2	symbol	connexin	connexin	CHANNEL	pore_census	1	1	0	2	Connex
 HGNC:17495	GJC3	GJC3	symbol	connexin	connexin	CHANNEL	pore_census	1	1	0	2	Connexins and Pannexins	Gap junction proteins
 HGNC:17537	ASIC5	ASIC5	symbol	asic	deg_enac	CHANNEL	pore_census	0	1	1	2		Acid sensing ion channel subunits
 HGNC:17735	TMEM63B	TMEM63B	symbol	osca_tmem63	tmem16_like	CHANNEL	pore_census	0	0	1	1		
+HGNC:17829	GPR108	GPR108	symbol	nonchannel_gost	tmem87	NON_CHANNEL_HOMOLOG	non_channel_homolog	0	0	0	0		
+HGNC:17830	GPR107	GPR107	symbol	nonchannel_gost	tmem87	NON_CHANNEL_HOMOLOG	non_channel_homolog	0	0	0	0		
 HGNC:17961	TRPM8	TRPM8	symbol	trpm	ploop	CHANNEL	pore_census	1	0	1	2	Transient Receptor Potential channels (TRP)	
 HGNC:17969	GABRR3	GABRR3	symbol	gabaa	cysloop	CHANNEL	pore_census	1	1	1	3	GABAA receptors	Gamma-aminobutyric acid type A receptor subunits
 HGNC:17992	TRPM3	TRPM3	symbol	trpm	ploop	CHANNEL	pore_census	1	1	1	3	Transient Receptor Potential channels (TRP)	Transient receptor potential cation channel subfamily M
@@ -136,8 +139,8 @@ HGNC:18082	TRPV2	TRPV2	symbol	trpv	ploop	CHANNEL	pore_census	1	1	1	3	Transient R
 HGNC:18083	TRPV4	TRPV4	symbol	trpv	ploop	CHANNEL	pore_census	1	1	1	3	Transient Receptor Potential channels (TRP)	Transient receptor potential cation channel subfamily V
 HGNC:18084	TRPV3	TRPV3	symbol	trpv	ploop	CHANNEL	pore_census	1	1	1	3	Transient Receptor Potential channels (TRP)	Transient receptor potential cation channel subfamily V
 HGNC:18182	TPCN1	TPCN1	symbol	tpc	ploop	CHANNEL	pore_census	1	1	1	3	CatSper and Two-Pore channels (TPC)	Two pore segment channels
-HGNC:18188	TMCO1						uncatalogued	0	0	1	1		
-HGNC:18216	TMEM37						uncatalogued	0	0	1	1		
+HGNC:18188	TMCO1	TMCO1	symbol	tmco1	tmco1	CHANNEL_CONTESTED	pore_census	0	0	1	1		
+HGNC:18216	TMEM37	TMEM37	symbol	assoc_cav_aux	ploop	CHANNEL_ASSOCIATED	auxiliary	0	0	1	1		
 HGNC:18249	KCTD1	KCTD1	symbol	nonchannel_kctd	ploop	NON_CHANNEL_HOMOLOG	non_channel_homolog	0	0	0	0		
 HGNC:18306	KCNG3	KCNG3	symbol	kv_modifier	ploop	CHANNEL	pore_census	1	1	1	3	Voltage-gated potassium channels (Kv)	Potassium voltage-gated channels
 HGNC:18351	SHISA8	SHISA8	symbol	assoc_iglur_aux	iglur	CHANNEL_ASSOCIATED	auxiliary	0	0	0	0		
@@ -249,22 +252,24 @@ HGNC:23526	MCU	MCU	symbol	mcu	mcu	CHANNEL	pore_census	1	0	1	2	Mitochondrial calc
 HGNC:23690	GSDMB	GSDMB	symbol	nonchannel_gasdermin		NON_CHANNEL_HOMOLOG	non_channel_homolog	0	0	0	0		
 HGNC:23787	TMEM63C	TMEM63C	symbol	osca_tmem63	tmem16_like	CHANNEL	pore_census	0	0	1	1		
 HGNC:23837	ANO4	ANO4	symbol	ano_scramblase	tmem16_like	CHANNEL_CONTESTED	pore_census	0	1	0	1		Anoctamins
+HGNC:23999	EMC3	EMC3	symbol	nonchannel_emc3	tmco1	NON_CHANNEL_HOMOLOG	non_channel_homolog	0	0	0	0		
 HGNC:24003	HTR3C	HTR3C	symbol	ht3	cysloop	CHANNEL	pore_census	1	1	1	3	5-HT3 receptors	5-hydroxytryptamine receptors, ionotropic
 HGNC:24004	HTR3D	HTR3D	symbol	ht3	cysloop	CHANNEL	pore_census	1	1	1	3	5-HT3 receptors	5-hydroxytryptamine receptors, ionotropic
 HGNC:24005	HTR3E	HTR3E	symbol	ht3	cysloop	CHANNEL	pore_census	1	1	1	3	5-HT3 receptors	5-hydroxytryptamine receptors, ionotropic
-HGNC:24522	TMEM87A						uncatalogued	0	0	1	1		
+HGNC:24522	TMEM87A	TMEM87A	symbol	tmem87	tmem87	CHANNEL_CONTESTED	pore_census	0	0	1	1		
 HGNC:25055	SMDT1	SMDT1	symbol	assoc_mcu_reg	mcu	CHANNEL_ASSOCIATED	auxiliary	1	0	0	1	Mitochondrial calcium uniporter (MCU) complex	
 HGNC:25075	LRRC8C	LRRC8C	symbol	lrrc8	innexin_like	CHANNEL	pore_census	0	1	1	2		Volume regulated anion channel subunits
 HGNC:25240	ANO6	ANO6	symbol	ano_scramblase	tmem16_like	CHANNEL_CONTESTED	pore_census	0	1	1	2		Anoctamins
 HGNC:25243	CATSPERG	CATSPERG	symbol	assoc_catsper_aux	ploop	CHANNEL_ASSOCIATED	auxiliary	0	0	0	0		
 HGNC:25519	ANO10	ANO10	symbol	ano_scramblase	tmem16_like	CHANNEL_CONTESTED	pore_census	0	1	0	1		Anoctamins
 HGNC:25535	TMEM38B	TMEM38B	symbol	tric	tric	CHANNEL	pore_census	0	0	1	1		
-HGNC:25593	PACC1						uncatalogued	0	0	1	1		
+HGNC:25593	PACC1	PACC1	symbol	pacc	pac	CHANNEL	pore_census	0	0	1	1		
 HGNC:25697	GSDMD	GSDMD	symbol	nonchannel_gasdermin		NON_CHANNEL_HOMOLOG	non_channel_homolog	0	0	0	0		
 HGNC:25705	KCTD17	KCTD17	symbol	nonchannel_kctd	ploop	NON_CHANNEL_HOMOLOG	non_channel_homolog	0	0	0	0		
-HGNC:25714	CCDC51						uncatalogued	0	0	1	1		
+HGNC:25714	CCDC51	CCDC51	symbol	mitok	mitok	CHANNEL_CONTESTED	pore_census	0	0	1	1		
 HGNC:2578	CYBB						uncatalogued	0	0	1	1		
 HGNC:25896	ORAI1	ORAI1	symbol	orai	orai	CHANNEL	pore_census	1	1	1	3	Orai channels	ORAI calcium release-activated calcium modulators
+HGNC:25913	TMEM87B	TMEM87B	symbol	nonchannel_gost	tmem87	NON_CHANNEL_HOMOLOG	non_channel_homolog	0	0	0	0		
 HGNC:26076	MCUB	MCUB	symbol	mcu	mcu	CHANNEL	pore_census	1	0	0	1	Mitochondrial calcium uniporter (MCU) complex	
 HGNC:26270	PIEZO2	PIEZO2	symbol	piezo	piezo	CHANNEL	pore_census	1	1	1	3	Piezo channels	Piezo type mechanosensitive ion channel components
 HGNC:26272	LRRC8E	LRRC8E	symbol	lrrc8	innexin_like	CHANNEL	pore_census	0	1	1	2		Volume regulated anion channel subunits
@@ -284,15 +289,15 @@ HGNC:28491	CATSPERE	CATSPERE	symbol	assoc_catsper_aux	ploop	CHANNEL_ASSOCIATED	a
 HGNC:28598	CATSPERD	CATSPERD	symbol	assoc_catsper_aux	ploop	CHANNEL_ASSOCIATED	auxiliary	0	0	0	0		
 HGNC:28709	TMEM175	TMEM175	symbol	tmem175	tmem175	CHANNEL	pore_census	0	0	1	1		
 HGNC:28744	CNIH2	CNIH2	symbol	assoc_iglur_aux	iglur	CHANNEL_ASSOCIATED	auxiliary	0	0	0	0		
-HGNC:28771	TMEM109						uncatalogued	0	0	1	1		
+HGNC:28771	TMEM109	TMEM109	symbol	tmem109	tmem109	CHANNEL_CONTESTED	pore_census	0	0	1	1		
 HGNC:28993	PIEZO1	PIEZO1	symbol	piezo	piezo	CHANNEL	pore_census	1	1	1	3	Piezo channels	Piezo type mechanosensitive ion channel components
 HGNC:29118	TMEM63A	TMEM63A	symbol	osca_tmem63	tmem16_like	CHANNEL	pore_census	0	0	1	1		
 HGNC:29244	KCTD16	KCTD16	symbol	nonchannel_kctd	ploop	NON_CHANNEL_HOMOLOG	non_channel_homolog	0	0	0	0		
 HGNC:29329	ANO8	ANO8	symbol	ano_scramblase	tmem16_like	CHANNEL_CONTESTED	pore_census	0	1	0	1		Anoctamins
 HGNC:29502	PJVK	PJVK	symbol	nonchannel_gasdermin		NON_CHANNEL_HOMOLOG	non_channel_homolog	0	0	0	0		
 HGNC:29504	ZACN	ZACN	symbol	zac	cysloop	CHANNEL	pore_census	1	1	1	3	ZAC	Zinc activated channels
-HGNC:29675	CLCC1						uncatalogued	0	0	1	1		
-HGNC:30083	KCNIP4						uncatalogued	0	0	1	1		
+HGNC:29675	CLCC1	CLCC1	symbol	clcc1	mclc	CHANNEL_CONTESTED	pore_census	0	0	1	1		
+HGNC:30083	KCNIP4	KCNIP4	symbol	assoc_kchip	ploop	CHANNEL_ASSOCIATED	auxiliary	0	0	1	1		
 HGNC:3010	DPP6	DPP6	symbol	assoc_k_beta	ploop	CHANNEL_ASSOCIATED	auxiliary	0	0	0	0		
 HGNC:3018	SLC26A3	SLC26A3	symbol	transporter_slc26		TRANSPORTER	transporter	0	0	0	0		
 HGNC:30692	LRRC8B	LRRC8B	symbol	lrrc8	innexin_like	CHANNEL	pore_census	0	1	1	2		Volume regulated anion channel subunits
@@ -302,7 +307,7 @@ HGNC:3145	TRPV5	TRPV5	symbol	trpv	ploop	CHANNEL	pore_census	1	1	1	3	Transient Re
 HGNC:31677	ANO7	ANO7	symbol	ano_scramblase	tmem16_like	CHANNEL_CONTESTED	pore_census	0	1	0	1		Anoctamins
 HGNC:31715	GLRA4	GLRA4	symbol	glyr	cysloop	CHANNEL	pore_census	1	1	0	2	Glycine receptors	Glycine receptors
 HGNC:31830	MICU2	MICU2	symbol	assoc_mcu_reg	mcu	CHANNEL_ASSOCIATED	auxiliary	1	0	0	1	Mitochondrial calcium uniporter (MCU) complex	
-HGNC:31984	GPHRA						uncatalogued	0	0	1	1		
+HGNC:31984	GPHRA	GPHRA	symbol	gphr	gphr	CHANNEL_CONTESTED	pore_census	0	0	1	1		
 HGNC:32156	LRRC52	LRRC52	symbol	assoc_k_beta	ploop	CHANNEL_ASSOCIATED	auxiliary	0	0	1	1		
 HGNC:32324	LRRC55	LRRC55	symbol	assoc_k_beta	ploop	CHANNEL_ASSOCIATED	auxiliary	0	0	1	1		
 HGNC:32542	GJA6P						uncatalogued	0	1	0	1		Gap junction proteins

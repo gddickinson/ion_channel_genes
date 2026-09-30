@@ -641,3 +641,33 @@ built on domain annotation undercounts by construction.
 with no protein annotation at all. Where a species' gene set exists, it
 rarely misses a whole channel gene; the clearest exception is the
 pufferfish ryanodine receptor (S5b).
+
+## Catalogue additions after S20 (2026-09-29)
+
+**Eight more proposed ion channels are now part of the project's definition
+of its subject, but none has been searched for yet.** The proton-activated
+chloride channel PACC1 is added as an established channel. Seven are added
+as contested proposals, each reported to conduct ions but without the weight
+of evidence behind the classical families:
+- an ER calcium-leak channel (TMCO1);
+- a Golgi cation channel (TMEM87A);
+- an ER cation channel (TMEM109);
+- an ER chloride channel (CLCC1);
+- a proposed mitochondrial potassium channel (MITOK);
+- the Golgi pH regulators GPHRA/B.
+
+The human count of pore-forming genes in the catalogue rises from 320 to
+328. The census numbers stay on the original 320 until a census revision
+searches for the new families *(pending: census revision)*.
+
+**Three of them are indistinguishable from non-channels by their domains.**
+TMCO1's only domain is shared with an ER membrane-protein insertase (EMC3),
+TMEM87A's with Golgi seven-helix proteins (GPR107/GPR108 and its own
+paralogue TMEM87B), and TMEM109's with BRI3BP. Domain annotation alone would
+call all of these channels, or none, so they have to be separated by
+sequence profiles. The proposed mitochondrial K⁺ channel MITOK carries no
+annotated domain at all.
+
+**The four KChIPs**, calcium sensors that set the kinetics of Kv4 potassium
+channels, and a calcium-channel γ-like subunit (TMEM37) are added as
+auxiliary subunits.

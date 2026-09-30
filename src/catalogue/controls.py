@@ -14,7 +14,7 @@ line a pore. KCNE1 is 129 residues that change KCNQ1's kinetics beyond
 recognition; SUR1 is an ABC transporter that makes Kir6.2 ATP-sensitive;
 barttin is required for CLC-K to reach the membrane at all. They are
 essential and they are not channels, and a census that counts them inflates
-by roughly 15 %.
+by 24 % (S20: 76 human auxiliary genes against 320 pore genes).
 
 `NON_CHANNEL_HOMOLOG` — proteins that carry a channel's diagnostic domain
 and have nothing to do with conduction. Measured here, not assumed: KCTD1
@@ -91,18 +91,40 @@ FAMILIES: list[CF] = [
                     Sig("pfam", "PF12052", "VGCC_beta4Aa_N", L.FAMILY, 1, P.DB),
                     Sig("pfam", "PF08473", "VGCC_alpha2", L.FAMILY, 1, P.DB),
                     Sig("pfam", "PF00822", "PMP22_Claudin", L.FAMILY, 1, P.DB,
-                        "the gamma/TARP subunits are claudins")),
+                        "the gamma/TARP subunits are claudins"),
+                    Sig("pfam", "PF15108", "TMEM37", L.FAMILY, 1, P.DB,
+                        "TMEM37 (PR1, the gamma-like subunit): its own model, "
+                        "not the CACNG one (measured 2026-09-29)")),
         exemplars=(Ex("Hs_CACNB1", "CACNB1", "Homo sapiens", "Q02641"),
                    Ex("Hs_CACNA2D1", "CACNA2D1", "Homo sapiens", "P54289"),
                    Ex("Hs_CACNG2", "CACNG2", "Homo sapiens", "Q9Y698", "stargazin")),
         human_genes=("CACNB1", "CACNB2", "CACNB3", "CACNB4",
                      "CACNA2D1", "CACNA2D2", "CACNA2D3", "CACNA2D4",
                      "CACNG1", "CACNG2", "CACNG3", "CACNG4", "CACNG5",
-                     "CACNG6", "CACNG7", "CACNG8"),
+                     "CACNG6", "CACNG7", "CACNG8", "TMEM37"),
         notes=("The `CACNG` symbols are the worst false-friend set in the "
                "catalogue: CACNG2–8 are TARPs, AMPA-receptor subunits with a "
                "claudin fold and no role in calcium channels at all. "
-               "α2δ (CACNA2D1) is the gabapentin/pregabalin target."),
+               "α2δ (CACNA2D1) is the gabapentin/pregabalin target. TMEM37 "
+               "(voltage-dependent calcium channel γ-like subunit) added after "
+               "S20 found it on UniProt KW-0407."),
+    ),
+    CF(
+        key="assoc_kchip",
+        name="Kv channel-interacting proteins (KChIP1–4)",
+        superfamily="ploop", status=St.CHANNEL_ASSOCIATED, fold=Fold.UNKNOWN,
+        selectivity=Sel.UNKNOWN, gating=_NONE, stoichiometry="4 per Kv4 channel",
+        signatures=(Sig("pfam", "PF13499", "EF-hand_7", L.SHARED_WITH_DECOY, 1, P.DB,
+                        "EF-hands of the neuronal calcium sensor family "
+                        "(recoverin, hippocalcin, NCS1) — never evidence"),
+                    Sig("pfam", "PF13833", "EF-hand_8", L.SHARED_WITH_DECOY, 1, P.DB)),
+        exemplars=(Ex("Hs_KCNIP1", "KCNIP1", "Homo sapiens", "Q9NZI2"),),
+        human_genes=("KCNIP1", "KCNIP2", "KCNIP3", "KCNIP4"),
+        length_band_aa=(200, 290), provenance=P.CURATED,
+        notes=("Cytosolic Ca2+ sensors that bind the Kv4 T1 domain and set "
+               "the A-type current; KCNIP3 is also DREAM/calsenilin, a "
+               "transcriptional repressor. Added after S20 found all four on "
+               "UniProt KW-0407."),
     ),
     CF(
         key="assoc_nav_beta",

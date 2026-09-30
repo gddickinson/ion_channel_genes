@@ -7,7 +7,7 @@ ryanodine-receptor decoys as candidate novel IP3 receptors. The fix — a
 positive test on distances to a labelled sister-family bait — became its
 decision D14 and is carried here as D14 too.
 
-Across all ion channels the same shape of problem recurs at least sixteen
+Across all ion channels the same shape of problem recurs at least nineteen
 times, so it is data rather than prose. Every hazard names the families it
 confuses, the evidence that makes them look alike, the positive test that
 separates them, and the module that owns that test. `scripts/s1_benchmark.py`
@@ -253,7 +253,8 @@ HAZARDS: list[Hazard] = [
                          "inside the channel symbol space."),
         discriminator=("Membership is decided by pore evidence only. Symbols "
                        "are never used to include or exclude — measured cost of "
-                       "getting this wrong: roughly +15 % on the human count."),
+                       "getting this wrong: +24 % on the human count (S20: 76 "
+                       "auxiliary genes against 320 pore genes)."),
         test_owner="src/classify/classifier.py (symbol never consulted)",
         severity="high", provenance=P.DB,
     ),
@@ -270,6 +271,44 @@ HAZARDS: list[Hazard] = [
                        "different models, and a rule written the first way "
                        "would have failed on every Kir."),
         test_owner="src/classify/rules.py:ARCHITECTURE_RULES",
+        severity="low", provenance=P.DB,
+    ),
+    Hazard(
+        "H17", "TMCO1 shares its only domain with the EMC3 insertase",
+        ("tmco1", "nonchannel_emc3"),
+        shared_evidence=("`PF01956` (EMC3/TMCO1-like) is the whole Pfam "
+                         "architecture of both; human reviewed carriers are "
+                         "exactly TMCO1 and EMC3 (measured 2026-09-29)."),
+        discriminator=("None at the architecture tier: `PF01956` is "
+                       "SHARED_WITH_DECOY and stops at the superfamily (D33). "
+                       "The family call needs a sequence-level margin (S3a "
+                       "profile or reference, D7/D32) against an EMC3 "
+                       "profile — neither built yet."),
+        test_owner="(open — needs profiles for tmco1 and nonchannel_emc3)",
+        severity="medium", provenance=P.DB,
+    ),
+    Hazard(
+        "H18", "TMEM87A shares its domains with TMEM87B and the GOST proteins",
+        ("tmem87", "nonchannel_gost"),
+        shared_evidence=("`PF06814` (GOST seven-TM) on TMEM87A/B, GPR107, "
+                         "GPR108; `PF21901` (TMEM87 GOLD) on TMEM87A and "
+                         "TMEM87B (measured 2026-09-29)."),
+        discriminator=("None at the architecture tier; both signatures are "
+                       "SHARED_WITH_DECOY. Family call by profile margin only "
+                       "— and TMEM87A vs TMEM87B is a paralogue split no "
+                       "domain can make."),
+        test_owner="(open — needs profiles for tmem87 and nonchannel_gost)",
+        severity="medium", provenance=P.DB,
+    ),
+    Hazard(
+        "H19", "TMEM109 shares its only domain with BRI3BP",
+        ("tmem109", "nonchannel_bri3bp"),
+        shared_evidence=("`PF14965` is the whole Pfam architecture of both "
+                         "human reviewed carriers, TMEM109 and BRI3BP "
+                         "(measured 2026-09-29)."),
+        discriminator=("None at the architecture tier; family call by "
+                       "profile margin only."),
+        test_owner="(open — needs profiles for tmem109 and nonchannel_bri3bp)",
         severity="low", provenance=P.DB,
     ),
 ]

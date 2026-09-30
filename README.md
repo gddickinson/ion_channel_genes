@@ -1,11 +1,11 @@
 # Ion channels — census, classification and phylogeny
 
 **Identify, classify and reconstruct the phylogeny of every ion channel.**
-Not one family: the 25 independent superfamilies and 320 human pore-forming
+Not one family: the 32 independent superfamilies and 328 human pore-forming
 genes that the term covers, plus their relatives across the tree of life.
 The largest division, the voltage-gated-like (P-loop) superfamily, is 143 of
-those genes — 79 of them potassium channels — and the other 177 are spread
-across twenty-four superfamilies that share no ancestor with it.
+those genes — 79 of them potassium channels — and the other 185 are spread
+across thirty-one superfamilies that share no ancestor with it.
 
 Three deliverables, in order:
 
@@ -23,7 +23,7 @@ Three deliverables, in order:
 | | |
 |---|---|
 | **Ledger** | S0, S1 complete 2026-08-19; S2 complete 2026-09-28 (**r3 after S2b/S2c**: every hazard rule a positive test); **S3a complete 2026-09-28**; **S4 complete 2026-09-28**; **S3b complete 2026-09-29** (census v3 over the 50-proteome panel: 2.6 % of channel-family members missed by domain search, 96 at high confidence; jackhmmer D10 24 clean / 44 killed); **S5a complete 2026-09-29** (genomic-sweep instrument + 7-genome pilot, D37); **S5b complete 2026-09-29** (all 52 genomes: matched detection 99.3 %, 72 controlled absences, 11 proteome misses, census v4, D38); **S6 complete 2026-09-29** (63 family alignments, 5,228 pore modules, D39/D40); **S7a complete 2026-09-29** (tier-1 trimming fixed at trimAl `-gt 0.5`, catalogue rooting, D41; trees running detached); **S20 complete 2026-09-29** (out of order, user-directed: auxiliary subunits and the published channelome); **S15 complete 2026-09-29** (out of order: domain search finds 94 % of channels but names 44 %, Q3); S7b next once its trees finish. 30 tasks (`PUBLICATION_ROADMAP.md`). |
-| **Catalogue** | 91 families · 25 superfamilies · 320 human census genes · 16 hazards · validation clean |
+| **Catalogue** | 102 families · 32 superfamilies · 328 human census genes · 19 hazards · validation clean. The 7 families / 8 genes added after S20 (PACC1 and seven contested proposals, `proposed.py`) are declared but not yet searched; census v2–v4 are on the 320 (D34) |
 | **Verification** | S0 clean on the third pass: **115/115 Pfam accessions verified**, **162/162 exemplars resolved**, 52/52 taxon ids, 769 live requests, 0 failures ([report](results/s0_baseline/report.md)) |
 | **Classifier** | benchmarked: **recall 50/72, specificity 25/25, 16/16 hazards exercised**, leave-one-out. 29 calls from domain rules and 7 from the filter motif against 24 from identity — not a nearest-neighbour lookup ([report](results/benchmark_controls/report.md)) |
 | **Census v2** | **1,245,200 UniProtKB records** carry a pore signature — enumeration exact on every check (12/12 shards, 67/67 signatures). **r3** (S2b/S2c: every family call rests on a domain the family carries, D33): **24.6 % family · 35.1 % superfamily-only · 40.3 % unassigned**, reference tier not run (D31). **319/320 human census genes enumerated, 169 right family, 0 wrong** ([report](results/census_v2/report.md)) |
@@ -156,7 +156,7 @@ network with no branch lengths and no support values.
 ## Layout
 
 ```
-src/catalogue/    the subject: 91 families, 25 superfamilies, 16 hazards
+src/catalogue/    the subject: 102 families, 32 superfamilies, 19 hazards
 src/classify/     three tiers → one ChannelCall with an audit trail
 src/phylo/        pore modules, tier-1/tier-2 forests, the tier-3 network
 src/utils/scope.py  narrows the catalogue to a run's scope
@@ -204,7 +204,7 @@ from the PIEZO and IP3R projects, D23–D28 are new here.
 Ported from `../ip3r_genes` (the IP3 receptor family), itself ported from
 `../piezo_genes`. The app, the figure style, the dashboard, the
 manuscript-assembly and claim-checking tooling and the session protocol come
-from there; **no result does**. ITPR and RYR appear here as two of ninety-one
+from there; **no result does**. ITPR and RYR appear here as two of 102
 families, and the parent project's census of them is an external check on
 this one rather than an input to it.
 

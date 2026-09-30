@@ -637,3 +637,34 @@ designs (S3b / S5a emergent rows) — new instruments, left open.
 
 ### Next
 S7b when the detached IQ-TREE run finishes (check `pgrep -f iqtree2`).
+
+## 2026-09-29 — catalogue additions from S20 (user-directed)
+
+**Asked.** "Add the uncatalogued channels and missing auxiliary genes" — the
+13 genes S20 found on the database lists and not in the catalogue.
+
+**Done.** `src/catalogue/proposed.py` (new division): PACC1 (`channel`) and
+TMCO1, TMEM87A, TMEM109, CLCC1, CCDC51/MITOK, GPHRA/B (`channel_contested`),
+each its own superfamily with a new `Fold`; Pfam architectures measured live
+first. Three share their only domain with a non-channel, so the decoys are
+catalogued beside them — EMC3, GOST (GPR107/GPR108/TMEM87B), BRI3BP — with
+the domains SHARED_WITH_DECOY and hazards **H17–H19** (open: need profiles).
+`controls.py`: `assoc_kchip` (KCNIP1–4; EF-hands SHARED_WITH_DECOY) and
+TMEM37 into `assoc_cav_aux` (its own PF15108, a fourth homology group).
+Catalogue now 102 families / 32 superfamilies / 75 census families / 328
+human census genes / 19 hazards; validate + self-test clean.
+
+**Search space unchanged (D42).** Every new signature `enumerate=False`:
+the self-test's pin on census v2's 67 signatures holds, and all census
+counts stay on 68 / 320 until the census-revision emergent row is done.
+
+**S0 re-run** (855 requests): 179/179 exemplars, 0 wrong-gene accessions,
+**no existing reference sequence changed** (frozen profiles and S7 outgroups
+untouched), 130/131 Pfam names verified. Fixed from it: PF21901's short name
+(TMEM87A-B_GOLD), and a fetcher bug — InterPro's 204 "no matches" (CCDC51,
+the first catalogued protein with no Pfam domain) was read as a request
+failure. Re-run for a clean record. S20 re-rendered on the new catalogue
+(union: 322 census pore, 44 auxiliary, 14 uncatalogued).
+
+**Docs.** "roughly 15 %" → measured 24 % also in `controls.py` and H15;
+catalogue counts updated in CLAUDE.md, README, INTERFACE, channel_background.

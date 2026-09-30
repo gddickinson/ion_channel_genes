@@ -42,8 +42,8 @@ space), a **classification** (what each thing is, by positive tests with an
 audit trail), and a **phylogeny** (a forest of trees plus a fold network,
 because the superfamilies are not homologous to one another).
 
-The subject is defined in `src/catalogue/` — 91 families, 25 superfamilies,
-16 hazards — and nothing else in `src/` hard-codes a channel name.
+The subject is defined in `src/catalogue/` — 102 families, 32 superfamilies,
+19 hazards — and nothing else in `src/` hard-codes a channel name.
 
 ## The three things that will bite you
 
@@ -72,7 +72,7 @@ receptor project (`../ip3r_genes`), itself ported from the PIEZO project
 (`../piezo_genes`). Their `INTERFACE.md` files map reference implementations
 for most tasks here. **Port the method; never port a result.** The one
 place the lineage shows in the science is `catalogue/intracellular.py`,
-where ITPR and RYR are two of this catalogue's ninety-one families and the
+where ITPR and RYR are two of this catalogue's 102 families and the
 parent project's census of them is an external check on ours.
 
 ## Conventions

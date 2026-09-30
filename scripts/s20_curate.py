@@ -36,23 +36,14 @@ CLASSES = {
     "out_of_scope_uncatalogued": "out of scope by D23 (water channel) and not listed in the catalogue",
 }
 
+#: KCNIP1–4, TMEM37 (auxiliary) and PACC1, TMCO1, TMEM87A, TMEM109, CLCC1,
+#: CCDC51, GPHRA/B (proposed pores) were classified here in S20 and have
+#: since been added to the catalogue (user-directed, 2026-09-29), so they
+#: now carry a catalogue category and no curated class.
 CURATED: dict[str, tuple[str, str]] = {
     "TRPC2": ("pseudogene", "HGNC locus type pseudogene; functional in rodents"),
     "GJA6P": ("pseudogene", "HGNC locus type pseudogene"),
     "FXYD6P3": ("pseudogene", "UniProt 'putative FXYD domain-containing ion transport regulator 8'"),
-    "KCNIP1": ("auxiliary_uncatalogued", "Kv channel-interacting protein (KChIP), Kv4 auxiliary"),
-    "KCNIP2": ("auxiliary_uncatalogued", "KChIP2, Kv4 auxiliary"),
-    "KCNIP3": ("auxiliary_uncatalogued", "KChIP3, Kv4 auxiliary"),
-    "KCNIP4": ("auxiliary_uncatalogued", "KChIP4, Kv4 auxiliary"),
-    "TMEM37": ("auxiliary_uncatalogued", "voltage-dependent calcium channel gamma-like subunit"),
-    "PACC1": ("pore_candidate", "proton-activated chloride channel (PAC / ASOR, TMEM206)"),
-    "TMCO1": ("pore_candidate", "calcium load-activated calcium channel (CLAC)"),
-    "TMEM87A": ("pore_candidate", "Golgi-pH regulating cation channel (Elkin1)"),
-    "TMEM109": ("pore_candidate", "voltage-gated cation channel TMEM109 (mitsugumin-23)"),
-    "CLCC1": ("pore_candidate", "ER anion channel 1 (chloride channel CLIC-like 1)"),
-    "CCDC51": ("pore_candidate", "mitochondrial potassium channel (MITOK)"),
-    "GPHRA": ("pore_candidate", "Golgi pH regulator A (GPR89A), reported anion channel"),
-    "GPHRB": ("pore_candidate", "Golgi pH regulator B (GPR89B), reported anion channel"),
     "MFSD8": ("transporter_or_enzyme", "MFS transporter CLN7, reported lysosomal Cl- channel"),
     "UCP1": ("transporter_or_enzyme", "mitochondrial carrier SLC25A7, H+ leak"),
     "SLC17A6": ("transporter_or_enzyme", "vesicular glutamate transporter 2, Cl- conductance"),

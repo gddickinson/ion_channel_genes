@@ -19,13 +19,13 @@ from __future__ import annotations
 from dataclasses import replace
 
 from . import anion, controls, intracellular, largepore, lgic, mechano
-from . import other, tmem16_like, vgic_cation, vgic_k
+from . import other, proposed, tmem16_like, vgic_cation, vgic_k
 from .hazards import HAZARD_BY_ID, HAZARDS
 from .schema import (CENSUS_STATUSES, ChannelFamily, Exemplar, Level,
                      Signature, Status, Superfamily)
 
 _DIVISIONS = (vgic_k, vgic_cation, lgic, anion, tmem16_like, mechano,
-              largepore, intracellular, other, controls)
+              largepore, intracellular, other, proposed, controls)
 
 #: Every superfamily, keyed by `Superfamily.key`.
 SUPERFAMILIES: dict[str, Superfamily] = {}

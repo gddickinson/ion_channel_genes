@@ -6,16 +6,16 @@ Rendered by `scripts/s20_report.py` from the tables in this directory (D13). Raw
 
 ## 1. Three database channelomes, one denominator
 
-Three human ion-channel lists maintained by databases, each archived with its release under `<data root>/raw_api/s20/`: **GtoPdb** (GtoPdb Version: 2026.3 - published: 2026-09-16; target types vgic, lgic, other_ic), **HGNC** (gene group 177 'Ion channels' and every group below it; HGNC group 177 branch, fetched Tue, 29 Sep 2026 23:24:34 GMT) and **UniProt** (reviewed human entries with keyword KW-0407 'Ion channel', UniProtKB 2026_03 — the release census v2 was enumerated from). Every gene is joined on its HGNC id; the catalogue's own symbols resolved 468/468 (renamed: AQP0 → MIP, TMEM249 → CATSPERQ).
+Three human ion-channel lists maintained by databases, each archived with its release under `<data root>/raw_api/s20/`: **GtoPdb** (GtoPdb Version: 2026.3 - published: 2026-09-16; target types vgic, lgic, other_ic), **HGNC** (gene group 177 'Ion channels' and every group below it; HGNC group 177 branch, fetched Tue, 29 Sep 2026 23:24:34 GMT) and **UniProt** (reviewed human entries with keyword KW-0407 'Ion channel', UniProtKB 2026_03 — the release census v2 was enumerated from). Every gene is joined on its HGNC id; the catalogue's own symbols resolved 486/486 (renamed: AQP0 → MIP, TMEM249 → CATSPERQ).
 
-**The three lists hold 285, 331 and 338 genes, and 400 together** — the published range of the human channelome, reproduced by three curated databases. Of the union, **314 are this catalogue's pore-forming census genes** (320 in the catalogue; 6 are on no list) and **86 are not**:
+**The three lists hold 285, 331 and 338 genes, and 400 together** — the published range of the human channelome, reproduced by three curated databases. Of the union, **322 are this catalogue's pore-forming census genes** (328 in the catalogue; 6 are on no list) and **78 are not**:
 
 | list | total | pore (census) | auxiliary | auxiliary uncatalogued | out of scope | out of scope uncatalogued | transporter | transporter or enzyme | pore candidate | paracellular | pseudogene | census pore genes missed |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| GtoPdb | 285 | 263 | 4 | 0 | 12 | 0 | 5 | 0 | 0 | 0 | 1 | 57 |
-| HGNC | 331 | 290 | 20 | 0 | 13 | 1 | 5 | 0 | 0 | 0 | 2 | 30 |
-| UniProt KW-0407 | 338 | 281 | 31 | 5 | 0 | 0 | 2 | 8 | 8 | 2 | 1 | 39 |
-| union | 400 | 314 | 39 | 5 | 13 | 1 | 7 | 8 | 8 | 2 | 3 | 6 |
+| GtoPdb | 285 | 263 | 4 | 0 | 12 | 0 | 5 | 0 | 0 | 0 | 1 | 65 |
+| HGNC | 331 | 290 | 20 | 0 | 13 | 1 | 5 | 0 | 0 | 0 | 2 | 38 |
+| UniProt KW-0407 | 338 | 289 | 36 | 0 | 0 | 0 | 2 | 8 | 0 | 2 | 1 | 39 |
+| union | 400 | 322 | 44 | 0 | 13 | 1 | 7 | 8 | 0 | 2 | 3 | 6 |
 
 Column meanings — *auxiliary*: a catalogued `channel_associated` subunit; *auxiliary uncatalogued*, *pore candidate*, *transporter or enzyme*, *paracellular*, *pseudogene*, *out of scope uncatalogued*: the hand-curated classes of §4; *out of scope*: catalogued aquaporins; *transporter*: catalogued CLC and SLC26 transporters.
 
@@ -23,8 +23,8 @@ Column meanings — *auxiliary*: a catalogued `channel_associated` subunit; *aux
 
 **238 genes are on all three lists, and all 238 of them are pore-forming census genes** — the agreed core is pure. The lists differ on two independent axes, and both are scope, not biology:
 
-* **What they add beyond the pore-forming genes**: GtoPdb 22; HGNC 41; UniProt KW-0407 57 — auxiliary subunits, aquaporins, CLC transporters, and (UniProt only) enzymes, transporters and claudins carrying the 'Ion channel' keyword.
-* **Which contested or large-pore families they leave out**: GtoPdb misses 57 census genes; HGNC misses 30 census genes; UniProt KW-0407 misses 39 census genes.
+* **What they add beyond the pore-forming genes**: GtoPdb 22; HGNC 41; UniProt KW-0407 49 — auxiliary subunits, aquaporins, CLC transporters, and (UniProt only) enzymes, transporters and claudins carrying the 'Ion channel' keyword.
+* **Which contested or large-pore families they leave out**: GtoPdb misses 65 census genes; HGNC misses 38 census genes; UniProt KW-0407 misses 39 census genes.
 
 | family | GtoPdb missed | HGNC missed | UniProt KW-0407 missed | genes |
 |---|---|---|---|---|
@@ -39,11 +39,18 @@ Column meanings — *auxiliary*: a catalogued `channel_associated` subunit; *aux
 | calhm | 6 | 0 | 0 | CALHM1, CALHM2, CALHM3, CALHM4, CALHM5, CALHM6 |
 | lrrc8 | 5 | 0 | 0 | LRRC8A, LRRC8B, LRRC8C, LRRC8D, LRRC8E |
 | bestrophin | 4 | 0 | 0 | BEST1, BEST2, BEST3, BEST4 |
+| gphr | 2 | 2 | 0 | GPHRA, GPHRB |
 | tric | 2 | 2 | 0 | TMEM38A, TMEM38B |
 | nav | 1 | 1 | 1 | SCN7A |
 | mcu | 0 | 2 | 1 | MCU, MCUB |
 | asic | 2 | 0 | 0 | ASIC4, ASIC5 |
+| tmco1 | 1 | 1 | 0 | TMCO1 |
+| tmem87 | 1 | 1 | 0 | TMEM87A |
+| pacc | 1 | 1 | 0 | PACC1 |
+| mitok | 1 | 1 | 0 | CCDC51 |
 | tmem175 | 1 | 1 | 0 | TMEM175 |
+| tmem109 | 1 | 1 | 0 | TMEM109 |
+| clcc1 | 1 | 1 | 0 | CLCC1 |
 | ano_channel | 1 | 0 | 0 | ANO2 |
 | trpm | 0 | 1 | 0 | TRPM8 |
 | glyr | 0 | 0 | 1 | GLRA4 |
@@ -53,17 +60,18 @@ Two of these are single annotation choices with large effects: **UniProt's KW-04
 
 ## 3. The auxiliary subunits — how many, and who counts them
 
-**The catalogue names 71 human auxiliary genes in 11 families; the lists add 5 it does not** (KCNIP1, KCNIP2, KCNIP3, KCNIP4, TMEM37). Counted as channels, all 76 would inflate the 320 pore-forming genes by **24%** — not the 'roughly 15 %' the scope document stated before this measurement.
+**The catalogue names 76 human auxiliary genes in 12 families; the lists add 0 it does not** (KCNIP1–4 and TMEM37 were uncatalogued when S20 ran; §4). Counted as channels, all 76 would inflate the 328 pore-forming genes by **23%** — not the 'roughly 15 %' the scope document stated before this measurement.
 
 **How often the lists count them**: GtoPdb 4 (1.4% of its total); HGNC 20 (6.0% of its total); UniProt KW-0407 36 (10.7% of its total); union 44 (11.0% of its total). Each list counts a different set:
 
 | auxiliary family | genes | GtoPdb | HGNC | UniProt |
 |---|---|---|---|---|
 | assoc_catsper_aux | 6 | 0 | 0 | 0 |
-| assoc_cav_aux | 16 | 0 | 16 | 15 |
+| assoc_cav_aux | 17 | 0 | 16 | 16 |
 | assoc_clc_aux | 5 | 0 | 0 | 0 |
 | assoc_iglur_aux | 9 | 0 | 0 | 0 |
 | assoc_k_beta | 13 | 0 | 0 | 9 |
+| assoc_kchip | 4 | 0 | 0 | 4 |
 | assoc_kcne | 5 | 0 | 0 | 3 |
 | assoc_mcu_reg | 5 | 4 | 0 | 0 |
 | assoc_nav_beta | 4 | 0 | 4 | 1 |
@@ -73,35 +81,22 @@ Two of these are single annotation choices with large effects: **UniProt's KW-04
 
 ## 4. Genes a list carries and the catalogue does not name
 
-**27 genes**, each classified by hand (`s20_curate.CURATED`, provenance CURATED — read from the UniProt record name or HGNC locus type, not yet checked against primary literature):
+**14 genes**, each classified by hand (`s20_curate.CURATED`, provenance CURATED — read from the UniProt record name or HGNC locus type, not yet checked against primary literature):
 
 | class | genes | meaning |
 |---|---|---|
 | pseudogene | 3 | not a protein-coding gene (HGNC locus type) or a UniProt 'putative' pseudogene product |
-| auxiliary_uncatalogued | 5 | an auxiliary subunit of a catalogued channel that the catalogue does not list |
-| pore_candidate | 8 | a proposed pore-forming channel not in the catalogue |
+| auxiliary_uncatalogued | 0 | an auxiliary subunit of a catalogued channel that the catalogue does not list |
+| pore_candidate | 0 | a proposed pore-forming channel not in the catalogue |
 | transporter_or_enzyme | 8 | a transporter or enzyme with a reported channel-like activity |
 | paracellular | 2 | forms paracellular (tight-junction) pores, not a transmembrane channel |
 | out_of_scope_uncatalogued | 1 | out of scope by D23 (water channel) and not listed in the catalogue |
 
 | gene | lists | class | reason |
 |---|---|---|---|
-| KCNIP1 | UniProt KW-0407 | auxiliary_uncatalogued | Kv channel-interacting protein (KChIP), Kv4 auxiliary |
-| KCNIP2 | UniProt KW-0407 | auxiliary_uncatalogued | KChIP2, Kv4 auxiliary |
-| KCNIP3 | UniProt KW-0407 | auxiliary_uncatalogued | KChIP3, Kv4 auxiliary |
-| KCNIP4 | UniProt KW-0407 | auxiliary_uncatalogued | KChIP4, Kv4 auxiliary |
-| TMEM37 | UniProt KW-0407 | auxiliary_uncatalogued | voltage-dependent calcium channel gamma-like subunit |
 | AQP12B | HGNC | out_of_scope_uncatalogued | aquaporin-12B; the catalogue lists AQP12A only |
 | CLDN17 | UniProt KW-0407 | paracellular | claudin-17, tight-junction anion pore |
 | CLDN4 | UniProt KW-0407 | paracellular | claudin-4, tight-junction pore |
-| CCDC51 | UniProt KW-0407 | pore_candidate | mitochondrial potassium channel (MITOK) |
-| CLCC1 | UniProt KW-0407 | pore_candidate | ER anion channel 1 (chloride channel CLIC-like 1) |
-| GPHRA | UniProt KW-0407 | pore_candidate | Golgi pH regulator A (GPR89A), reported anion channel |
-| GPHRB | UniProt KW-0407 | pore_candidate | Golgi pH regulator B (GPR89B), reported anion channel |
-| PACC1 | UniProt KW-0407 | pore_candidate | proton-activated chloride channel (PAC / ASOR, TMEM206) |
-| TMCO1 | UniProt KW-0407 | pore_candidate | calcium load-activated calcium channel (CLAC) |
-| TMEM109 | UniProt KW-0407 | pore_candidate | voltage-gated cation channel TMEM109 (mitsugumin-23) |
-| TMEM87A | UniProt KW-0407 | pore_candidate | Golgi-pH regulating cation channel (Elkin1) |
 | FXYD6P3 | UniProt KW-0407 | pseudogene | UniProt 'putative FXYD domain-containing ion transport regulator 8' |
 | GJA6P | HGNC | pseudogene | HGNC locus type pseudogene |
 | TRPC2 | GtoPdb, HGNC | pseudogene | HGNC locus type pseudogene; functional in rodents |
@@ -114,11 +109,11 @@ Two of these are single annotation choices with large effects: **UniProt's KW-04
 | STING1 | UniProt KW-0407 | transporter_or_enzyme | innate-immunity adaptor STING, reported H+ channel |
 | UCP1 | UniProt KW-0407 | transporter_or_enzyme | mitochondrial carrier SLC25A7, H+ leak |
 
-The two catalogue gaps are emergent rows, not edits made here: the `auxiliary_uncatalogued` genes (KChIP1–4, TMEM37) belong in `channel_associated` families, and the `pore_candidate` genes — PACC1 above all, a proton-activated Cl⁻ channel with solved structures — are candidate census families, which is a change to the census search space (D34).
+**Revision (2026-09-29, user-directed).** S20 first found 13 more uncatalogued genes here: five auxiliaries (KCNIP1–4, TMEM37) and eight proposed pores (PACC1, TMCO1, TMEM87A, TMEM109, CLCC1, CCDC51, GPHRA/B). All 13 have since been added to the catalogue (`src/catalogue/proposed.py`, `controls.py`; PACC1 `channel`, the other seven `channel_contested`), so the tables above now count them under their catalogue categories. Their signatures are declared `enumerate=False`: no census revision has searched for them yet (D34).
 
 ## 5. The auxiliary families are grouped by partner, not by descent
 
-All-against-all `phmmer` among each family's human members (E ≤ 1e-3 = homologous; groups are connected components): **6 of 11 auxiliary families pool unrelated proteins**, 25 homology groups in all. A profile built across a pooled family is not a detector of any of its parts (S3a: the LOO decoys got no hit), so the panel census below counts homology groups, not families.
+All-against-all `phmmer` among each family's human members (E ≤ 1e-3 = homologous; groups are connected components): **6 of 11 auxiliary families pool unrelated proteins**, 25 homology groups in all. A profile built across a pooled family is not a detector of any of its parts (S3a: the LOO decoys got no hit), so the panel census below counts homology groups, not families. Measured before KChIP1–4 (`assoc_kchip`, one EF-hand group) and TMEM37 (`assoc_cav_aux`, its own PF15108 domain — a fourth group there) were catalogued; neither has an S3a profile, so neither is in the panel census.
 
 | family | groups | homology groups (human genes) |
 |---|---|---|

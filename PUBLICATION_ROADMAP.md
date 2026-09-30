@@ -280,9 +280,10 @@ than expanding the task in progress.
 | 2026-09-29 | S7a | **The `plgic_prok` D39 set holds four animal proteins** (*Branchiostoma*, *Aplysia*, *Lottia* ×2) called prokaryotic pLGIC at high confidence beside GLIC. Either real bacterial-type pLGICs in animals (horizontal transfer or an ancient lineage) or a profile built on two prokaryotic seeds calling divergent animal subunits. Check against the Cys-loop tree and the literature before the Cys-loop outgroup is read (S8, S21) | open (S8/S21) |
 | 2026-09-29 | S7a | **Tree compute is the bottleneck for S8 too.** At `-mset` 4 matrices, 726-sequence nAChR was 17 models into ModelFinder after 2 h (2 threads). S8's per-superfamily trees must pick representatives by D8 before any run, not after | open (S8) |
 | 2026-09-29 | S20 | **Split the six pooled auxiliary families into their 22 homology groups** (`results/auxiliary/aux_groups.tsv`): each group its own catalogue family with its own profile. No census effect (none carries a pore signature), but the profile library changes, so it is a library revision with a benchmark, not an edit. Until then the panel auxiliary counts are per homology group by reciprocal best hit, and four groups are unreachable | open (library revision) |
-| 2026-09-29 | S20 | **Five auxiliary genes are missing from the catalogue** — KCNIP1–4 (KChIPs, Kv4) and TMEM37 (Cav γ-like), all on UniProt KW-0407. Add to `channel_associated` families with provenance; no census effect | open |
-| 2026-09-29 | S20 | **Eight proposed pore-forming channels are not in the catalogue** — PACC1 (proton-activated Cl⁻ channel, solved structures) above all; also TMCO1, TMEM87A, TMEM109, CLCC1, CCDC51 (MITOK), GPHRA/B. Each is a candidate census family, i.e. a change to the search space and a new census revision (D34) — the user's call, with literature checked first | open (user) |
+| 2026-09-29 | S20 | **Five auxiliary genes are missing from the catalogue** — KCNIP1–4 (KChIPs, Kv4) and TMEM37 (Cav γ-like), all on UniProt KW-0407. Add to `channel_associated` families with provenance; no census effect | closed 2026-09-29 (user-directed: `assoc_kchip` added; TMEM37 into `assoc_cav_aux` as its own PF15108 group) |
+| 2026-09-29 | S20 | **Eight proposed pore-forming channels are not in the catalogue** — PACC1 (proton-activated Cl⁻ channel, solved structures) above all; also TMCO1, TMEM87A, TMEM109, CLCC1, CCDC51 (MITOK), GPHRA/B. Each is a candidate census family, i.e. a change to the search space and a new census revision (D34) — the user's call, with literature checked first | closed 2026-09-29 (user-directed: added in `src/catalogue/proposed.py` — PACC1 `channel`, seven `channel_contested`; decoys EMC3, GOST, BRI3BP; H17–H19; declared not searched, D42 — see the census-revision row) |
 | 2026-09-29 | S20 | **The review still quotes the human channelome as '240–400' from the literature** (`docs/review/01_introduction.md`, `14_open.md`). S20 measured it on three databases (285 / 331 / 338 / 400, 238 shared, all pore). Update the review sources and rebuild at the next review pass | open (S14c) |
+| 2026-09-29 | user | **Census revision for the catalogue additions.** The seven new census families (pacc, tmco1, tmem87, tmem109, clcc1, mitok, gphr; 8 human genes) and four new controls (assoc_kchip, nonchannel_emc3, nonchannel_gost, nonchannel_bri3bp) have **no census members and no S3a profile**: their signatures are `enumerate=False` (D42). To bring them in: enumerate their FAMILY/SUPERFAMILY signatures (a census v2 revision), build their profiles alone as S3a2 did (the other 91 frozen), sweep them over census v2 and the S4 panel, benchmark (hazards H17–H19 need the decoy profiles to be testable), re-merge v3a/v3 and extend census v4. MITOK carries no Pfam domain — profile-only. Until then every census count stays on the 68-family / 320-gene catalogue | open |
 
 ---
 
@@ -563,6 +564,20 @@ non-clade outgroup leaves the root undefined, not repaired. (3) **IQ-TREE 2
 the full ModelFinder set (~500 models) was measured at 20–40 s per model on
 the largest families and restricted to four general empirical matrices
 before any tree finished.
+
+**D42 — A family added after the census is declared, not searched, until a
+census revision brings it in.** S20 found eight proposed channels and five
+auxiliary genes the catalogue lacked; they were added (user-directed,
+2026-09-29) with every new signature `enumerate=False`, so census v2's
+search space — pinned by the self-test (D34) — and every downstream count
+(census v2–v4, S6 alignments, S7 trees, S15, S20's panel frame) stay on the
+68-family / 320-gene catalogue they were built on. The catalogue's headline
+(75 census families, 328 human genes) and the census's (68 / 320) therefore
+differ until the census-revision emergent row is done, and every report says
+which it uses. Where a new family shares its only domain with a non-channel
+(TMCO1/EMC3, TMEM87A/GOST, TMEM109/BRI3BP) the decoy is catalogued with it and
+the domain is SHARED_WITH_DECOY, so the architecture tier can never call the
+family (D33); hazards H17–H19 are open until the profiles exist.
 
 **D28 — A missing tool disables a test, loudly.** `MafftUnavailable` is
 raised, not caught; a missing IQ-TREE writes the alignment and no tree, with

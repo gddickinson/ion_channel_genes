@@ -135,6 +135,18 @@ clic	Hs_CLIC4	CLIC4	Homo sapiens	9606	Q9Y696	Q9Y696	CLIC4	253	Chloride intracell
 viroporin	IAV_M2	M	Influenza A virus	11320		A3DRP1	M	97	Matrix protein 2	ok
 viroporin	HIV1_Vpu	vpu	Human immunodeficiency virus type 1	11676	P05919	P05919	vpu	82	Protein Vpu	ok
 viroporin	SARS2_E	E	Severe acute respiratory syndrome coronavirus 2	2697049		P0DTC4	E	75	Envelope small membrane protein	ok
+pacc	Hs_PACC1	PACC1	Homo sapiens	9606	Q9H813	Q9H813	PACC1	350	Proton-activated chloride channel	ok
+tmco1	Hs_TMCO1	TMCO1	Homo sapiens	9606	Q9UM00	Q9UM00	TMCO1	239	Calcium load-activated calcium channel	ok
+tmem87	Hs_TMEM87A	TMEM87A	Homo sapiens	9606	Q8NBN3	Q8NBN3	TMEM87A	555	Golgi-pH regulating cation channel	ok
+tmem109	Hs_TMEM109	TMEM109	Homo sapiens	9606	Q9BVC6	Q9BVC6	TMEM109	243	Voltage-gated monoatomic cation channel TMEM109	ok
+clcc1	Hs_CLCC1	CLCC1	Homo sapiens	9606	Q96S66	Q96S66	CLCC1	551	Chloride channel CLIC-like protein 1	ok
+mitok	Hs_CCDC51	CCDC51	Homo sapiens	9606	Q96ER9	Q96ER9	CCDC51	411	Mitochondrial potassium channel	ok
+gphr	Hs_GPHRA	GPHRA	Homo sapiens	9606	B7ZAQ6	B7ZAQ6	GPHRA	455	Golgi pH regulator A	ok
+gphr	Hs_GPHRB	GPHRB	Homo sapiens	9606	P0CG08	P0CG08	GPHRB	455	Golgi pH regulator B	ok
+nonchannel_emc3	Hs_EMC3	EMC3	Homo sapiens	9606	Q9P0I2	Q9P0I2	EMC3	261	ER membrane protein complex subunit 3	ok
+nonchannel_gost	Hs_GPR107	GPR107	Homo sapiens	9606	Q5VW38	Q5VW38	GPR107	600	Protein GPR107	ok
+nonchannel_gost	Hs_TMEM87B	TMEM87B	Homo sapiens	9606	Q96K49	Q96K49	TMEM87B	555	Transmembrane protein 87B	ok
+nonchannel_bri3bp	Hs_BRI3BP	BRI3BP	Homo sapiens	9606	Q8WY22	Q8WY22	BRI3BP	251	BRI3-binding protein	ok
 assoc_kcne	Hs_KCNE1	KCNE1	Homo sapiens	9606	P15382	P15382	KCNE1	129	Potassium voltage-gated channel subfamily E member 1	ok
 assoc_k_beta	Hs_KCNAB1	KCNAB1	Homo sapiens	9606	Q14722	Q14722	KCNAB1	419	Voltage-gated potassium channel subunit beta-1	ok
 assoc_k_beta	Hs_KCNMB1	KCNMB1	Homo sapiens	9606	Q16558	Q16558	KCNMB1	191	Calcium-activated potassium channel subunit beta-1	ok
@@ -142,6 +154,7 @@ assoc_k_beta	Hs_DPP6	DPP6	Homo sapiens	9606	P42658	P42658	DPP6	865	A-type potass
 assoc_cav_aux	Hs_CACNB1	CACNB1	Homo sapiens	9606	Q02641	Q02641	CACNB1	598	Voltage-dependent L-type calcium channel subunit beta-1	ok
 assoc_cav_aux	Hs_CACNA2D1	CACNA2D1	Homo sapiens	9606	P54289	P54289	CACNA2D1	1103	Voltage-dependent calcium channel subunit alpha-2/delta-1	ok
 assoc_cav_aux	Hs_CACNG2	CACNG2	Homo sapiens	9606	Q9Y698	Q9Y698	CACNG2	323	Voltage-dependent calcium channel gamma-2 subunit	ok
+assoc_kchip	Hs_KCNIP1	KCNIP1	Homo sapiens	9606	Q9NZI2	Q9NZI2	KCNIP1	227	A-type potassium channel modulatory protein KCNIP1	ok
 assoc_nav_beta	Hs_SCN1B	SCN1B	Homo sapiens	9606	Q07699	Q07699	SCN1B	218	Sodium channel regulatory subunit beta-1	ok
 assoc_sur	Hs_ABCC8	ABCC8	Homo sapiens	9606	Q09428	Q09428	ABCC8	1581	ATP-binding cassette sub-family C member 8	ok
 nonchannel_abc_transporter	Hs_ABCC1	ABCC1	Homo sapiens	9606	P33527	P33527	ABCC1	1531	ATP-binding cassette sub-family C member 1	ok

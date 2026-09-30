@@ -24,6 +24,7 @@ def sec_lists(L: list[str]) -> None:
     dec = {r["list"]: r for r in read_tsv(OUT_DIR / "list_decomposition.tsv")}
     genes = read_tsv(OUT_DIR / "channelome_genes.tsv")
     n_pore = sum(g["category"] == "pore_census" for g in genes)
+    n_cat = sum(g["category"] != "uncatalogued" for g in genes)
     u = dec["any_list"]
     L += ["## 1. Three database channelomes, one denominator", "",
           "Three human ion-channel lists maintained by databases, each archived with "
@@ -32,7 +33,8 @@ def sec_lists(L: list[str]) -> None:
           f"and every group below it; {meta['hgnc']}) and **UniProt** (reviewed human "
           f"entries with keyword KW-0407 'Ion channel', {meta['uniprot']} — the release "
           "census v2 was enumerated from). Every gene is joined on its HGNC id; the "
-          "catalogue's own symbols resolved 468/468 (renamed: "
+          f"catalogue's own symbols resolved {n_cat}"
+          f"/{n_cat + len(meta['catalogue_symbols_unresolved'])} (renamed: "
           + ", ".join(f"{k} → {v}" for k, v in meta["catalogue_symbols_renamed"].items())
           + ").", "",
           f"**The three lists hold {dec['gtopdb']['total']}, {dec['hgnc']['total']} and "
@@ -94,8 +96,9 @@ def sec_aux(L: list[str]) -> None:
     n_all = len(aux) + len(unc)
     L += ["## 3. The auxiliary subunits — how many, and who counts them", "",
           f"**The catalogue names {len(aux)} human auxiliary genes in {len(fams)} "
-          f"families; the lists add {len(unc)} it does not** ("
-          + ", ".join(r["symbol"] for r in unc) + "). "
+          f"families; the lists add {len(unc)} it does not**"
+          + (f" ({', '.join(r['symbol'] for r in unc)})" if unc else
+             " (KCNIP1–4 and TMEM37 were uncatalogued when S20 ran; §4)") + ". "
           f"Counted as channels, all {n_all} would inflate the {n_pore} pore-forming "
           f"genes by **{n_all / n_pore:.0%}** — not the 'roughly 15 %' the scope "
           "document stated before this measurement.", "",
@@ -127,11 +130,14 @@ def sec_uncat(L: list[str]) -> None:
     for r in rows:
         lists = ", ".join(NAMES[k] for k in LISTS if r[k] == "1")
         L.append(f"| {r['symbol']} | {lists} | {r['class']} | {r['reason']} |")
-    L += ["", "The two catalogue gaps are emergent rows, not edits made here: the "
-          "`auxiliary_uncatalogued` genes (KChIP1–4, TMEM37) belong in "
-          "`channel_associated` families, and the `pore_candidate` genes — PACC1 above "
-          "all, a proton-activated Cl⁻ channel with solved structures — are candidate "
-          "census families, which is a change to the census search space (D34).", ""]
+    L += ["", "**Revision (2026-09-29, user-directed).** S20 first found 13 more "
+          "uncatalogued genes here: five auxiliaries (KCNIP1–4, TMEM37) and eight "
+          "proposed pores (PACC1, TMCO1, TMEM87A, TMEM109, CLCC1, CCDC51, GPHRA/B). "
+          "All 13 have since been added to the catalogue (`src/catalogue/proposed.py`, "
+          "`controls.py`; PACC1 `channel`, the other seven `channel_contested`), so the "
+          "tables above now count them under their catalogue categories. Their "
+          "signatures are declared `enumerate=False`: no census revision has searched "
+          "for them yet (D34).", ""]
 
 
 def sec_groups(L: list[str]) -> None:
@@ -144,7 +150,10 @@ def sec_groups(L: list[str]) -> None:
           f"{len(fams)} auxiliary families pool unrelated proteins**, "
           f"{len(groups)} homology groups in all. A profile built across a pooled "
           "family is not a detector of any of its parts (S3a: the LOO decoys got no "
-          "hit), so the panel census below counts homology groups, not families.", "",
+          "hit), so the panel census below counts homology groups, not families. "
+          "Measured before KChIP1–4 (`assoc_kchip`, one EF-hand group) and TMEM37 "
+          "(`assoc_cav_aux`, its own PF15108 domain — a fourth group there) were "
+          "catalogued; neither has an S3a profile, so neither is in the panel census.", "",
           "| family | groups | homology groups (human genes) |", "|---|---|---|"]
     for f in sorted(fams):
         gs = [r for r in groups if r["family"] == f]

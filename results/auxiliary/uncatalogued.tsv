@@ -1,20 +1,7 @@
 symbol	hgnc_id	gtopdb	hgnc	uniprot	class	reason	provenance
-KCNIP1	HGNC:15521	0	0	1	auxiliary_uncatalogued	Kv channel-interacting protein (KChIP), Kv4 auxiliary	CURATED
-KCNIP2	HGNC:15522	0	0	1	auxiliary_uncatalogued	KChIP2, Kv4 auxiliary	CURATED
-KCNIP3	HGNC:15523	0	0	1	auxiliary_uncatalogued	KChIP3, Kv4 auxiliary	CURATED
-KCNIP4	HGNC:30083	0	0	1	auxiliary_uncatalogued	KChIP4, Kv4 auxiliary	CURATED
-TMEM37	HGNC:18216	0	0	1	auxiliary_uncatalogued	voltage-dependent calcium channel gamma-like subunit	CURATED
 AQP12B	HGNC:6096	0	1	0	out_of_scope_uncatalogued	aquaporin-12B; the catalogue lists AQP12A only	CURATED
 CLDN17	HGNC:2038	0	0	1	paracellular	claudin-17, tight-junction anion pore	CURATED
 CLDN4	HGNC:2046	0	0	1	paracellular	claudin-4, tight-junction pore	CURATED
-CCDC51	HGNC:25714	0	0	1	pore_candidate	mitochondrial potassium channel (MITOK)	CURATED
-CLCC1	HGNC:29675	0	0	1	pore_candidate	ER anion channel 1 (chloride channel CLIC-like 1)	CURATED
-GPHRA	HGNC:31984	0	0	1	pore_candidate	Golgi pH regulator A (GPR89A), reported anion channel	CURATED
-GPHRB	HGNC:13840	0	0	1	pore_candidate	Golgi pH regulator B (GPR89B), reported anion channel	CURATED
-PACC1	HGNC:25593	0	0	1	pore_candidate	proton-activated chloride channel (PAC / ASOR, TMEM206)	CURATED
-TMCO1	HGNC:18188	0	0	1	pore_candidate	calcium load-activated calcium channel (CLAC)	CURATED
-TMEM109	HGNC:28771	0	0	1	pore_candidate	voltage-gated cation channel TMEM109 (mitsugumin-23)	CURATED
-TMEM87A	HGNC:24522	0	0	1	pore_candidate	Golgi-pH regulating cation channel (Elkin1)	CURATED
 FXYD6P3	HGNC:31124	0	0	1	pseudogene	UniProt 'putative FXYD domain-containing ion transport regulator 8'	CURATED
 GJA6P	HGNC:32542	0	1	0	pseudogene	HGNC locus type pseudogene	CURATED
 TRPC2	HGNC:12334	1	1	0	pseudogene	HGNC locus type pseudogene; functional in rodents	CURATED

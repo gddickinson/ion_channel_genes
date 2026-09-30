@@ -19,9 +19,13 @@ PF00571	2	clc_channel,clc_transporter	channel,transporter	yes
 PF00864	2	p2x,p2x_nonmetazoan	channel	no
 PF00876	2	pannexin,innexin	channel	no
 PF01365	2	itpr,ryr	channel	no
+PF01956	2	tmco1,nonchannel_emc3	channel_contested,non_channel_homolog	yes
 PF04547	2	ano_channel,ano_scramblase	channel,channel_contested	yes
+PF06814	2	tmem87,nonchannel_gost	channel_contested,non_channel_homolog	yes
 PF08454	2	itpr,ryr	channel	no
 PF08709	2	itpr,ryr	channel	no
+PF13833	2	assoc_kchip,assoc_mcu_reg	channel_associated	no
+PF14965	2	tmem109,nonchannel_bri3bp	channel_contested,non_channel_homolog	yes
 PF16178	2	ano_channel,ano_scramblase	channel,channel_contested	yes
 PF20519	2	trpp,assoc_polycystin1	channel,channel_associated	yes
 PF23317	2	trpc,trpm	channel	no

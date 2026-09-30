@@ -1,6 +1,6 @@
 list	total	pore_census	auxiliary	transporter	non_channel_homolog	out_of_scope	uncatalogued
 gtopdb	285	263	4	5	0	12	1
 hgnc	331	290	20	5	0	13	3
-uniprot	338	281	31	2	0	0	24
-any_list	400	314	39	7	0	13	27
-catalogue	468	320	71	15	49	13	0
+uniprot	338	289	36	2	0	0	11
+any_list	400	322	44	7	0	13	14
+catalogue	486	328	76	15	54	13	0
