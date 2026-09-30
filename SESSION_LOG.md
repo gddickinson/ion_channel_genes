@@ -668,3 +668,43 @@ failure. Re-run for a clean record. S20 re-rendered on the new catalogue
 
 **Docs.** "roughly 15 %" → measured 24 % also in `controls.py` and H15;
 catalogue counts updated in CLAUDE.md, README, INTERFACE, channel_background.
+
+## 2026-09-29 — S2d (user-directed): census revision r4 for the families added after S20
+
+**Ran.** `s2r4_delta.py counts / walk / record` → `s2_enumerate.py verify` →
+`s2_classify.py` (12 delta shards; `--recheck` the 8 new accessions over the
+12 old shards, archive `r3`) → `s2b_revision.py --tag r4` → `s2_census.py`,
+`s2_report.py`; `s3_build_profiles.py --only` (11, then the NCS decoy) →
+`s3r4_sweep.py prep / search` → `s3_census_v3.py` → `s3r4_compare.py` →
+`s3_benchmark.py`; `s3b_sweep.py search / assign` → `s3b_census_v3.py`;
+`s5_census_v4.py`; `s3_report`, `s3b_report`, `s5_report`; S15 re-run; S0
+re-run twice (0 failures).
+
+**Result.** Delta 26,783 records, census v2 r4 = 1,271,983, every shard and
+signature exact; 11 old records re-classified, 2 changed, 0 outside. 12 new
+profiles, 91 frozen byte-identical, `-Z` held; 11 of 1,245,200 old v3a calls
+changed, all with a new family involved. Benchmark set B 542/542 + 57 decoys
+(H17, H19 pass; H18 partial). Panel human 327/328. Census v4 28,891 + 434.
+
+**Caught on the way.**
+- **A threading race in my first delta walk.** I monkeypatched
+  `s2_enumerate.shard_query` inside a thread pool, so shards fetched each
+  other's queries (mammalia 3,548 vs a count of 3,249). The per-shard
+  comparison exposed it. Pages deleted, count tables restored from git,
+  `walk_shard` given a `query=` argument; the re-walk is exact.
+- **The panel merge read only r3's sequence map** (panel entries in census
+  v2 stayed at 12,096). The r4 delta map was added: 12,402.
+- **The KChIP profile called the whole neuronal-calcium-sensor family.** It
+  had no decoy, so a `nonchannel_ncs` family was added, with its profile and
+  hazard H20. With the decoy, human KChIP calls are exactly KCNIP1–4.
+- **The r3-unchanged check fired on 4 records.** A new profile was the
+  runner-up that pulled the winner inside the margin; the check was widened
+  to include the runner-up (it had been too narrow; the records were fine).
+- **I declared NCS signatures by copying KChIP's.** S0 measured PF00036, not
+  PF13833, and the declaration was corrected.
+- **A stale S1-panel table.** S2's `s1_panel.tsv` had not been regenerated
+  after S2c (ABCC8 is uncalled since then); the r4 rebuild made it consistent.
+
+**Not done (emergent rows).** Genome sweep for the new families; H18's
+TMEM87/GOST upper bound; 7 single-seed profiles; S6/S7/S20-panel/jackhmmer
+predate r4.

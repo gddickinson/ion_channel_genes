@@ -60,6 +60,9 @@ FIGURES: list[tuple[str, str]] = [
     ("results/method_contribution/figures/method_contribution.png",
      "S15 — who finds each channel: domain search finds 94 % and names 44 %; "
      "profiles and genomes supply the rest (Q3)"),
+    ("results/census_v3/figures/census_r4.png",
+     "S2d — census revision r4: the eight added channels' records, and whether "
+     "their non-channel look-alikes separate (H17–H19)"),
 ]
 
 #: Auto-discovered figures are capped so the page stays a reasonable size.

@@ -65,6 +65,10 @@ assoc_k_beta	ploop	Q8N608	R1	9606	Homo sapiens
 assoc_k_beta	ploop	Q8N7C0	R1	9606	Homo sapiens				
 assoc_k_beta	ploop	Q9NPA1	R1	9606	Homo sapiens				
 assoc_k_beta	ploop	Q9Y691	R1	9606	Homo sapiens				
+assoc_kchip	ploop	Q6PIL6	R1	9606	Homo sapiens				
+assoc_kchip	ploop	Q9NS61	R1	9606	Homo sapiens				
+assoc_kchip	ploop	Q9NZI2	R1	9606	Homo sapiens				
+assoc_kchip	ploop	Q9Y2W7	R1	9606	Homo sapiens				
 assoc_kcne	ploop	P15382	R1	9606	Homo sapiens				
 assoc_kcne	ploop	Q8WWG9	R1	9606	Homo sapiens				
 assoc_kcne	ploop	Q9UJ90	R1	9606	Homo sapiens				
@@ -176,6 +180,7 @@ clc_transporter	clc	P51793	R1	9606	Homo sapiens
 clc_transporter	clc	P51795	R1	9606	Homo sapiens				
 clc_transporter	clc	P51797	R1	9606	Homo sapiens				
 clc_transporter	clc	P51798	R1	9606	Homo sapiens				
+clcc1	mclc	Q96S66	R1	9606	Homo sapiens				
 clic	clic	O00299	R1	9606	Homo sapiens				
 clic	clic	O15247	R1	9606	Homo sapiens				
 clic	clic	O95833	R1	9606	Homo sapiens				
@@ -281,6 +286,19 @@ glyr	cysloop	O75311	R1	9606	Homo sapiens
 glyr	cysloop	P23415	R1	9606	Homo sapiens				
 glyr	cysloop	P23416	R1	9606	Homo sapiens				
 glyr	cysloop	P48167	R1	9606	Homo sapiens				
+gphr	gphr	B7ZAQ6	R1	9606	Homo sapiens				
+gphr	gphr	P0CG08	R1	9606	Homo sapiens				
+gphr	gphr	A2XX57	R3	39946	Oryza sativa subsp. indica	Viridiplantae	468	gphr	architecture
+gphr	gphr	B2ZXD5	R3	10029	Cricetulus griseus	Metazoa	455	gphr	architecture
+gphr	gphr	B5X1G3	R3	8030	Salmo salar	Metazoa	455	gphr	architecture
+gphr	gphr	P38799	R3	559292	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	552	gphr	architecture
+gphr	gphr	Q0WQG8	R3	3702	Arabidopsis thaliana	Viridiplantae	467	gphr	architecture
+gphr	gphr	Q54QM5	R3	44689	Dictyostelium discoideum	Amoebozoa	547	gphr	architecture
+gphr	gphr	Q5BIM9	R3	9913	Bos taurus	Metazoa	455	gphr	architecture
+gphr	gphr	Q5F448	R3	9031	Gallus gallus	Metazoa	455	gphr	architecture
+gphr	gphr	Q6DDW6	R3	8355	Xenopus laevis	Metazoa	455	gphr	architecture
+gphr	gphr	Q7X7S8	R3	39947	Oryza sativa subsp. japonica	Viridiplantae	468	gphr	architecture
+gphr	gphr	Q8BS95	R3	10090	Mus musculus	Metazoa	455	gphr	architecture
 hcn	ploop	O60741	R1	9606	Homo sapiens				
 hcn	ploop	Q9P1Z3	R1	9606	Homo sapiens				
 hcn	ploop	Q9UL51	R1	9606	Homo sapiens				
@@ -472,6 +490,7 @@ lrrc8	innexin_like	Q6NU09	R3	8355	Xenopus laevis	Metazoa	806	lrrc8	architecture
 mcu	mcu	Q8NE86	R1	9606	Homo sapiens				
 mcu	mcu	Q9NWR8	R1	9606	Homo sapiens				
 mcu	mcu	W2SDE2	R3	1220924	Cyphellophora europaea (strain CBS 101466)	Fungi	346	mcu	architecture
+mitok	mitok	Q96ER9	R1	9606	Homo sapiens				
 mscl	msc	P0A742	R2						
 mscl	msc	A0A097ZPE6	R3	1549217	Emericella variicolor	Fungi	177	mscl	architecture
 mscl	msc	A0AKH0	R3	386043	Listeria welshimeri serovar 6b (strain ATCC 35897 / DSM 20650 / CCUG 15529 / CIP 8149 / NCTC 11857 / SLCC 5334 / V8)	Bacillati	130	mscl	architecture
@@ -577,6 +596,7 @@ nonchannel_abc_transporter	abc_channel	P08716	R2
 nonchannel_abc_transporter	abc_channel	P60752	R2						
 nonchannel_abc_transporter	abc_channel	P68579	R2						
 nonchannel_achbp	cysloop	P58154	R2						
+nonchannel_bri3bp	tmem109	Q8WY22	R1	9606	Homo sapiens				
 nonchannel_class_c_gpcr	iglur	O00222	R1	9606	Homo sapiens				
 nonchannel_class_c_gpcr	iglur	O15303	R1	9606	Homo sapiens				
 nonchannel_class_c_gpcr	iglur	O75899	R1	9606	Homo sapiens				
@@ -591,12 +611,16 @@ nonchannel_class_c_gpcr	iglur	Q7RTX0	R1	9606	Homo sapiens
 nonchannel_class_c_gpcr	iglur	Q7RTX1	R1	9606	Homo sapiens				
 nonchannel_class_c_gpcr	iglur	Q8TE23	R1	9606	Homo sapiens				
 nonchannel_class_c_gpcr	iglur	Q9UBS5	R1	9606	Homo sapiens				
+nonchannel_emc3	tmco1	Q9P0I2	R1	9606	Homo sapiens				
 nonchannel_gasdermin		O60443	R1	9606	Homo sapiens				
 nonchannel_gasdermin		P57764	R1	9606	Homo sapiens				
 nonchannel_gasdermin		Q0ZLH3	R1	9606	Homo sapiens				
 nonchannel_gasdermin		Q8TAX9	R1	9606	Homo sapiens				
 nonchannel_gasdermin		Q96QA5	R1	9606	Homo sapiens				
 nonchannel_gasdermin		Q9BYG8	R1	9606	Homo sapiens				
+nonchannel_gost	tmem87	Q5VW38	R1	9606	Homo sapiens				
+nonchannel_gost	tmem87	Q96K49	R1	9606	Homo sapiens				
+nonchannel_gost	tmem87	Q9NPR9	R1	9606	Homo sapiens				
 nonchannel_kctd	ploop	Q14681	R1	9606	Homo sapiens				
 nonchannel_kctd	ploop	Q4G0X4	R1	9606	Homo sapiens				
 nonchannel_kctd	ploop	Q68DU8	R1	9606	Homo sapiens				
@@ -627,6 +651,16 @@ nonchannel_kctd	ploop	Q5EAX2	R3	8355	Xenopus laevis	Metazoa	319	nonchannel_kctd	
 nonchannel_kctd	ploop	Q5F3E8	R3	9031	Gallus gallus	Metazoa	314	nonchannel_kctd	hazard
 nonchannel_kctd	ploop	Q5RBH4	R3	9601	Pongo abelii	Metazoa	316	nonchannel_kctd	hazard
 nonchannel_kctd	ploop	Q5UNZ6	R3	212035	Acanthamoeba polyphaga mimivirus	Varidnaviria	449	nonchannel_kctd	hazard
+nonchannel_ncs	ploop	O95843	R1	9606	Homo sapiens				
+nonchannel_ncs	ploop	P35243	R1	9606	Homo sapiens				
+nonchannel_ncs	ploop	P37235	R1	9606	Homo sapiens				
+nonchannel_ncs	ploop	P43080	R1	9606	Homo sapiens				
+nonchannel_ncs	ploop	P61601	R1	9606	Homo sapiens				
+nonchannel_ncs	ploop	P62166	R1	9606	Homo sapiens				
+nonchannel_ncs	ploop	P62760	R1	9606	Homo sapiens				
+nonchannel_ncs	ploop	P84074	R1	9606	Homo sapiens				
+nonchannel_ncs	ploop	Q9UM19	R1	9606	Homo sapiens				
+nonchannel_ncs	ploop	Q9UMX6	R1	9606	Homo sapiens				
 nonchannel_pomt	ca_release	Q9UKY4	R1	9606	Homo sapiens				
 nonchannel_pomt	ca_release	Q9Y6A1	R1	9606	Homo sapiens				
 nonchannel_vsp	hv	P56180	R1	9606	Homo sapiens				
@@ -688,6 +722,14 @@ p2x	p2x	Q99571	R1	9606	Homo sapiens
 p2x	p2x	Q99572	R1	9606	Homo sapiens				
 p2x	p2x	Q9UBL9	R1	9606	Homo sapiens				
 p2x_nonmetazoan	p2x	Q86JM7	R2						
+pacc	pac	Q9H813	R1	9606	Homo sapiens				
+pacc	pac	Q0IHD6	R3	8355	Xenopus laevis	Metazoa	350	pacc	architecture
+pacc	pac	Q0V9Z3	R3	8364	Xenopus tropicalis	Metazoa	352	pacc	architecture
+pacc	pac	Q2KHV2	R3	9913	Bos taurus	Metazoa	350	pacc	architecture
+pacc	pac	Q5RDP8	R3	9601	Pongo abelii	Metazoa	350	pacc	architecture
+pacc	pac	Q66H28	R3	10116	Rattus norvegicus	Metazoa	350	pacc	architecture
+pacc	pac	Q7SY31	R3	7955	Danio rerio	Metazoa	298	pacc	architecture
+pacc	pac	Q9D771	R3	10090	Mus musculus	Metazoa	350	pacc	architecture
 pannexin	innexin_like	Q96QZ0	R1	9606	Homo sapiens				
 pannexin	innexin_like	Q96RD6	R1	9606	Homo sapiens				
 pannexin	innexin_like	Q96RD7	R1	9606	Homo sapiens				
@@ -723,12 +765,15 @@ tmc	tmem16_like	Q32NZ6	R3	10090	Mus musculus	Metazoa	967	tmc	architecture
 tmc	tmem16_like	Q496Z4	R3	10116	Rattus norvegicus	Metazoa	698	tmc	architecture
 tmc	tmem16_like	Q4R7U0	R3	9541	Macaca fascicularis	Metazoa	723	tmc	architecture
 tmc	tmem16_like	Q5YCC5	R3	9031	Gallus gallus	Metazoa	735	tmc	architecture
+tmco1	tmco1	Q9UM00	R1	9606	Homo sapiens				
+tmem109	tmem109	Q9BVC6	R1	9606	Homo sapiens				
 tmem175	tmem175	Q9BSA9	R1	9606	Homo sapiens				
 tmem175	tmem175	A5PN43	R3	7955	Danio rerio	Metazoa	520	tmem175	architecture
 tmem175	tmem175	Q32PG7	R3	9913	Bos taurus	Metazoa	479	tmem175	architecture
 tmem175	tmem175	Q5ZKY0	R3	9031	Gallus gallus	Metazoa	501	tmem175	architecture
 tmem175	tmem175	Q6AY05	R3	10116	Rattus norvegicus	Metazoa	499	tmem175	architecture
 tmem175	tmem175	Q9CXY1	R3	10090	Mus musculus	Metazoa	499	tmem175	architecture
+tmem87	tmem87	Q8NBN3	R1	9606	Homo sapiens				
 tpc	ploop	Q8NHX9	R1	9606	Homo sapiens				
 tpc	ploop	Q9ULQ1	R1	9606	Homo sapiens				
 tpc	ploop	Q94KI8	R2						

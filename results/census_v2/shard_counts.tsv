@@ -11,4 +11,16 @@ viridiplantae	(taxonomy_id:33090)	74728	74728	ok
 fungi	(taxonomy_id:4751)	48186	48186	ok
 euk_other	(taxonomy_id:2759) NOT (taxonomy_id:33208) NOT (taxonomy_id:33090) NOT (taxonomy_id:4751)	36307	36307	ok
 unplaced	NOT (taxonomy_id:2) NOT (taxonomy_id:2157) NOT (taxonomy_id:2759) NOT (taxonomy_id:10239)	288	288	ok
-UNION	any pore signature	1245200	1245200	ok
+r4_bact_pseudomonadota	r4 delta: new signature, no r3 signature	1	1	ok
+r4_bact_other	r4 delta: new signature, no r3 signature	4	4	ok
+r4_archaea	r4 delta: new signature, no r3 signature	626	626	ok
+r4_virus	r4 delta: new signature, no r3 signature	4	4	ok
+r4_mammalia	r4 delta: new signature, no r3 signature	3249	3249	ok
+r4_actinopterygii	r4 delta: new signature, no r3 signature	3426	3426	ok
+r4_chordata_other	r4 delta: new signature, no r3 signature	4094	4094	ok
+r4_metazoa_other	r4 delta: new signature, no r3 signature	3548	3548	ok
+r4_viridiplantae	r4 delta: new signature, no r3 signature	6376	6376	ok
+r4_fungi	r4 delta: new signature, no r3 signature	4398	4398	ok
+r4_euk_other	r4 delta: new signature, no r3 signature	1039	1039	ok
+r4_unplaced	r4 delta: new signature, no r3 signature	18	18	ok
+UNION	any pore signature (75, r4)	1271983	1271983	ok

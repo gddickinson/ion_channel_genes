@@ -7,7 +7,7 @@ ryanodine-receptor decoys as candidate novel IP3 receptors. The fix — a
 positive test on distances to a labelled sister-family bait — became its
 decision D14 and is carried here as D14 too.
 
-Across all ion channels the same shape of problem recurs at least nineteen
+Across all ion channels the same shape of problem recurs at least twenty
 times, so it is data rather than prose. Every hazard names the families it
 confuses, the evidence that makes them look alike, the positive test that
 separates them, and the module that owns that test. `scripts/s1_benchmark.py`
@@ -309,6 +309,19 @@ HAZARDS: list[Hazard] = [
         discriminator=("None at the architecture tier; family call by "
                        "profile margin only."),
         test_owner="(open — needs profiles for tmem109 and nonchannel_bri3bp)",
+        severity="low", provenance=P.DB,
+    ),
+    Hazard(
+        "H20", "KChIPs are neuronal calcium sensors",
+        ("assoc_kchip", "nonchannel_ncs"),
+        shared_evidence=("KCNIP1–4 belong to the neuronal calcium sensor "
+                         "family and carry its EF-hand models (`PF13499`, "
+                         "`PF13833`), as do NCS1, hippocalcin, recoverin, the "
+                         "VILIPs and the GCAPs. Measured in r4: the KChIP "
+                         "profile alone called 22 human NCS/EF-hand proteins."),
+        discriminator=("None at the architecture tier. Profile margin between "
+                       "`assoc_kchip` and `nonchannel_ncs` (D32)."),
+        test_owner="scripts/s3r4_compare.py (r4_reviewed_calls.tsv)",
         severity="low", provenance=P.DB,
     ),
 ]

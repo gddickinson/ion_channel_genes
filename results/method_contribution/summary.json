@@ -1,24 +1,24 @@
 {
- "frame_members": 7196,
- "n_domain_call": 3175,
- "n_domain_enumeration": 3602,
- "n_profile": 96,
+ "frame_members": 7360,
+ "n_domain_call": 3245,
+ "n_domain_enumeration": 3682,
+ "n_profile": 110,
  "n_genome": 323,
- "proteome_members": 6873,
+ "proteome_members": 7037,
  "human": {
-  "genes": 320,
-  "enumerated": 319,
-  "domain_call": 169,
-  "profile_call": 319
+  "genes": 328,
+  "enumerated": 326,
+  "domain_call": 173,
+  "profile_call": 327
  },
  "q3_enumeration": {
-  "domain_search": 22,
+  "domain_search": 28,
   "domain_partial": 1,
-  "profile_or_genome_only": 2
+  "profile_or_genome_only": 3
  },
  "q3_call": {
   "domain_partial": 4,
-  "profile_or_genome_only": 10,
-  "domain_search": 11
+  "profile_or_genome_only": 14,
+  "domain_search": 14
  }
 }

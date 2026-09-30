@@ -84,18 +84,28 @@ def main() -> int:
     if len(paths) != n_prof:
         raise SystemExit(f"{len(paths)} domtblouts for {n_prof} profiles — "
                          "run s3_sweep.py search to completion first")
-    top = collect_hits(paths)
+    # Census v2 r4 (D43): the delta's own sequences, searched by every
+    # profile with -Z held at r3's size (s3r4_sweep.py). A target sequence
+    # is in exactly one of the two databases, so the hit lists never overlap.
+    r4 = sorted(s3_dir("domtbl_r4").glob("*.domtbl.gz"))
+    if r4 and len(r4) != n_prof:
+        raise SystemExit(f"{len(r4)} r4 domtblouts for {n_prof} profiles — "
+                         "run s3r4_sweep.py search to completion first")
+    top = collect_hits(paths + r4)
     calls = assign_all(top)
     print(f"[assign] {len(calls):,} sequences with ≥ 1 profile hit")
     pc = s3_dir() / "profile_calls.tsv.gz"
     write_tsv(pc, ASSIGN_FIELDS, (calls[t] for t in sorted(calls)))
 
     sid = {}
-    with gzip.open(s3_dir() / "census_v2.nr_map.tsv.gz", "rt") as fh:
-        next(fh)
-        for line in fh:
-            a, s, _ = line.rstrip("\n").split("\t")
-            sid[a] = s
+    for mp in ("census_v2.nr_map.tsv.gz", "census_v2.r4_delta.nr_map.tsv.gz"):
+        if not (s3_dir() / mp).exists():
+            continue
+        with gzip.open(s3_dir() / mp, "rt") as fh:
+            next(fh)
+            for line in fh:
+                a, s, _ = line.rstrip("\n").split("\t")
+                sid[a] = s
     fam_status = {f.key: f.status.value for f in registry.families()}
     seeds = {r["accession"] for r in read_tsv(OUT_DIR / "seed_manifest.tsv")}
     no_hit = {"p_call": "no_hit", "p_confidence": "none"}

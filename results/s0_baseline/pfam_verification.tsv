@@ -4,6 +4,7 @@ PF00005	ABC_tran	ABC_tran	ABC transporter	1659432	ok	3
 PF00023	Ank	Ank	Ankyrin repeat	210260	ok	1
 PF00027	cNMP_binding	cNMP_binding	Cyclic nucleotide-binding domain	185042	ok	3
 PF00029	Connexin	Connexin	Connexin	19851	ok	1
+PF00036	EF-hand_1	EF-hand_1	EF hand domain	26839	ok	1
 PF00060	Lig_chan	Lig_chan	Ligand-gated ion channel	56688	ok	5
 PF00230	MIP	MIP	Major intrinsic protein	69703	ok	1
 PF00248	Aldo_ket_red	Aldo_ket_red	Aldo/keto reductase family	239151	ok	1
@@ -89,7 +90,7 @@ PF12537	GPHR_N	GPHR_N	The Golgi pH Regulator (GPHR) Family N-terminal	3809	ok	1
 PF12796	Ank_2	Ank_2	Ankyrin repeats (3 copies)	542452	ok	4
 PF13410	GST_C_2	GST_C_2	Glutathione S-transferase, C-terminal domain	58895	ok	1
 PF13426	PAS_9	PAS_9	PAS domain	121772	ok	1
-PF13499	EF-hand_7	EF-hand_7	EF-hand domain pair	239985	ok	1
+PF13499	EF-hand_7	EF-hand_7	EF-hand domain pair	239985	ok	2
 PF13637	Ank_4	Ank_4	Ankyrin repeats (many copies)	83264	ok	1
 PF13833	EF-hand_8	EF-hand_8	EF-hand domain pair	38381	ok	2
 PF13855	LRR_8	LRR_8	Leucine rich repeat	364110	ok	1

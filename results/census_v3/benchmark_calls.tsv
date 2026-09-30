@@ -679,3 +679,19 @@ B_orthologues	Q9SRH5	vdac	porin		correct	family	vdac	porin	high	307.2	0.9928	0.9
 B_orthologues	Q6K548	vdac	porin		correct	family	vdac	porin	high	334.2	0.9928	0.9964			1.0	vdac	vdac wins by 334.2 bits (100.0% of 334.2) over 99% of the profile
 B_orthologues	Q6L5I5	vdac	porin		correct	family	vdac	porin	high	308.2	0.9856	0.9679			1.0	vdac	vdac wins by 308.2 bits (100.0% of 308.2) over 99% of the profile
 B_orthologues	Q7F4F8	vdac	porin		correct	family	vdac	porin	high	338.1	0.9892	0.9964			1.0	vdac	vdac wins by 338.1 bits (100.0% of 338.1) over 99% of the profile
+B_orthologues	Q921L3	tmco1	tmco1		correct	family	tmco1	tmco1	high	438.4	0.7866	1.0			1.0	tmco1	tmco1 wins by 438.4 bits (100.0% of 438.4) over 79% of the profile
+B_orthologues	A0A8I3PI99	tmco1	tmco1		correct	family	tmco1	tmco1	high	438.4	0.7866	1.0			1.0	tmco1	tmco1 wins by 438.4 bits (100.0% of 438.4) over 79% of the profile
+B_orthologues	Q5I0H4	tmco1	tmco1		correct	family	tmco1	tmco1	high	438.4	0.7866	1.0			1.0	tmco1	tmco1 wins by 438.4 bits (100.0% of 438.4) over 79% of the profile
+B_orthologues	Q3T0N3	tmco1	tmco1		correct	family	tmco1	tmco1	high	438.4	0.7866	1.0			1.0	tmco1	tmco1 wins by 438.4 bits (100.0% of 438.4) over 79% of the profile
+B_orthologues	C5HGF3	tmco1	tmco1		correct	family	tmco1	tmco1	high	438.4	0.7866	1.0			1.0	tmco1	tmco1 wins by 438.4 bits (100.0% of 438.4) over 79% of the profile
+B_orthologues	Q5R9B0	tmco1	tmco1		correct	family	tmco1	tmco1	high	438.4	0.7866	1.0			1.0	tmco1	tmco1 wins by 438.4 bits (100.0% of 438.4) over 79% of the profile
+B_orthologues	Q3ZCB8	nonchannel_emc3	tmco1		decoy_ok	family	nonchannel_emc3	tmco1	high	623.5	1.0	1.0			1.0	nonchannel_emc3	nonchannel_emc3 wins by 623.5 bits (100.0% of 623.5) over 100% of the profile
+B_orthologues	Q5U2V8	nonchannel_emc3	tmco1		decoy_ok	family	nonchannel_emc3	tmco1	high	624.5	1.0	1.0			1.0	nonchannel_emc3	nonchannel_emc3 wins by 624.5 bits (100.0% of 624.5) over 100% of the profile
+B_orthologues	Q99KI3	nonchannel_emc3	tmco1		decoy_ok	family	nonchannel_emc3	tmco1	high	624.5	1.0	1.0			1.0	nonchannel_emc3	nonchannel_emc3 wins by 624.5 bits (100.0% of 624.5) over 100% of the profile
+B_orthologues	Q5R7C1	nonchannel_emc3	tmco1		decoy_ok	family	nonchannel_emc3	tmco1	high	625.9	1.0	1.0			1.0	nonchannel_emc3	nonchannel_emc3 wins by 625.9 bits (100.0% of 625.9) over 100% of the profile
+B_orthologues	Q8BXV2	nonchannel_bri3bp	tmem109		decoy_ok	family	nonchannel_bri3bp	tmem109	high	455.6	1.0	1.0	tmem109	27.1	0.9405	nonchannel_bri3bp	nonchannel_bri3bp wins by 428.5 bits (94.1% of 455.6) over 100% of the profile
+B_orthologues	Q6DGW9	tmco1	tmco1		correct	family	tmco1	tmco1	high	419.1	0.7866	1.0			1.0	tmco1	tmco1 wins by 419.1 bits (100.0% of 419.1) over 79% of the profile
+B_orthologues	Q7SXW4	nonchannel_emc3	tmco1		decoy_ok	family	nonchannel_emc3	tmco1	high	558.3	1.0	1.0			1.0	nonchannel_emc3	nonchannel_emc3 wins by 558.3 bits (100.0% of 558.3) over 100% of the profile
+B_orthologues	P36039	nonchannel_emc3	tmco1		decoy_ok	family	nonchannel_emc3	tmco1	high	125.4	0.908	0.9842			1.0	nonchannel_emc3	nonchannel_emc3 wins by 125.4 bits (100.0% of 125.4) over 91% of the profile
+B_orthologues	Q54YN3	nonchannel_emc3	tmco1		decoy_ok	family	nonchannel_emc3	tmco1	high	143.0	0.9157	0.8153			1.0	nonchannel_emc3	nonchannel_emc3 wins by 143.0 bits (100.0% of 143.0) over 92% of the profile
+B_orthologues	Q54TU8	tmco1	tmco1		correct	family	tmco1	tmco1	high	178.7	0.7071	0.9194			1.0	tmco1	tmco1 wins by 178.7 bits (100.0% of 178.7) over 71% of the profile

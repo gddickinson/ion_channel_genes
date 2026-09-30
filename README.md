@@ -22,8 +22,8 @@ Three deliverables, in order:
 
 | | |
 |---|---|
-| **Ledger** | S0, S1 complete 2026-08-19; S2 complete 2026-09-28 (**r3 after S2b/S2c**: every hazard rule a positive test); **S3a complete 2026-09-28**; **S4 complete 2026-09-28**; **S3b complete 2026-09-29** (census v3 over the 50-proteome panel: 2.6 % of channel-family members missed by domain search, 96 at high confidence; jackhmmer D10 24 clean / 44 killed); **S5a complete 2026-09-29** (genomic-sweep instrument + 7-genome pilot, D37); **S5b complete 2026-09-29** (all 52 genomes: matched detection 99.3 %, 72 controlled absences, 11 proteome misses, census v4, D38); **S6 complete 2026-09-29** (63 family alignments, 5,228 pore modules, D39/D40); **S7a complete 2026-09-29** (tier-1 trimming fixed at trimAl `-gt 0.5`, catalogue rooting, D41; trees running detached); **S20 complete 2026-09-29** (out of order, user-directed: auxiliary subunits and the published channelome); **S15 complete 2026-09-29** (out of order: domain search finds 94 % of channels but names 44 %, Q3); S7b next once its trees finish. 30 tasks (`PUBLICATION_ROADMAP.md`). |
-| **Catalogue** | 102 families · 32 superfamilies · 328 human census genes · 19 hazards · validation clean. The 7 families / 8 genes added after S20 (PACC1 and seven contested proposals, `proposed.py`) are declared but not yet searched; census v2–v4 are on the 320 (D34) |
+| **Ledger** | S0, S1 complete 2026-08-19; S2 complete 2026-09-28 (**r3 after S2b/S2c**: every hazard rule a positive test); **S3a complete 2026-09-28**; **S4 complete 2026-09-28**; **S3b complete 2026-09-29** (census v3 over the 50-proteome panel: 2.6 % of channel-family members missed by domain search, 96 at high confidence; jackhmmer D10 24 clean / 44 killed); **S5a complete 2026-09-29** (genomic-sweep instrument + 7-genome pilot, D37); **S5b complete 2026-09-29** (all 52 genomes: matched detection 99.3 %, 72 controlled absences, 11 proteome misses, census v4, D38); **S6 complete 2026-09-29** (63 family alignments, 5,228 pore modules, D39/D40); **S7a complete 2026-09-29** (tier-1 trimming fixed at trimAl `-gt 0.5`, catalogue rooting, D41; trees running detached); **S20 complete 2026-09-29** (out of order, user-directed: auxiliary subunits and the published channelome); **S15 complete 2026-09-29** (out of order: domain search finds 94 % of channels but names 44 %, Q3); **S2d complete 2026-09-29** (census revision r4: +26,783 records, 12 new profiles, 11 of 1.25 M old calls changed, D43); S7b next once its trees finish. 30 tasks (`PUBLICATION_ROADMAP.md`). |
+| **Catalogue** | 103 families · 32 superfamilies · 328 human census genes · 20 hazards · validation clean. The 7 families / 8 genes added after S20 (PACC1 and seven contested proposals, `proposed.py`) entered the census in revision r4 (S2d, D43); S6 alignments and S7 trees still hold the original 68 families |
 | **Verification** | S0 clean on the third pass: **115/115 Pfam accessions verified**, **162/162 exemplars resolved**, 52/52 taxon ids, 769 live requests, 0 failures ([report](results/s0_baseline/report.md)) |
 | **Classifier** | benchmarked: **recall 50/72, specificity 25/25, 16/16 hazards exercised**, leave-one-out. 29 calls from domain rules and 7 from the filter motif against 24 from identity — not a nearest-neighbour lookup ([report](results/benchmark_controls/report.md)) |
 | **Census v2** | **1,245,200 UniProtKB records** carry a pore signature — enumeration exact on every check (12/12 shards, 67/67 signatures). **r3** (S2b/S2c: every family call rests on a domain the family carries, D33): **24.6 % family · 35.1 % superfamily-only · 40.3 % unassigned**, reference tier not run (D31). **319/320 human census genes enumerated, 169 right family, 0 wrong** ([report](results/census_v2/report.md)) |
@@ -34,6 +34,7 @@ Three deliverables, in order:
 | **Alignments** | S6: **6,658 sequences in 68 families** (high-confidence profile calls + intact genome loci, D39) → **63 MAFFT L-INS-i + trimAl alignments**. **5,228 pore modules** for the five tier-2 units, one extraction method per unit (projection through each family's own profile, D40); **median overlap 0.97 with UniProt-annotated modules** on 441 held-out members; six unannotated families located by a vote measured held-out to ≤ 12 residues ([report](results/alignments/report.md)) |
 | **Auxiliaries & published totals** | S20: three database channelomes — **GtoPdb 285, HGNC 331, UniProt KW-0407 338, 400 in union**; the 238 genes on all three are all pore-forming. The spread is scope: auxiliary subunits (44), aquaporins, transporters, and contested families left out (GtoPdb omits 57 census pore genes; UniProt's keyword misses all 21 connexins). Auxiliaries would inflate the 320 by 24 %; 6 of 11 auxiliary families pool unrelated proteins ([report](results/auxiliary/report.md)) |
 | **Method contribution** | S15 (Q3): of 7,196 final-census members, **94 % carry an enumerated pore signature but domain rules name the family for 44 %** — 0 % in Cys-loop, DEG/ENaC, P2X, CLC, iGluR, whose families share one architecture; profiles add 1.3 %, genomes 4.5 %. Human: 319 enumerated, 169 named by domain rules, 319 by profiles. Enumeration fails only for CLIC, Hv1 and viroporins ([report](results/method_contribution/report.md)) |
+| **Census revision r4** | S2d (user-directed): the eight channels added after S20 brought into the census as a delta — **+26,783 UniProt records (1,271,983 total, every count exact)**, 12 profiles built alone (7 families + KChIP + 4 decoys) with the other 91 frozen and `-Z` held, so **11 of 1,245,200 old calls changed** (all explained). Human 327/328 right family, all 8 new genes included (MITOK by profile alone). Look-alikes: TMCO1/EMC3 and TMEM109/BRI3BP separate; TMEM87A/GOST only partly — its count is an upper bound. Genome sweep not yet run for them ([report](results/census_v3/r4_report.md)) |
 | **Phylogeny** | builders and the tier-3 network built; smoke-tested on the Cys-loop superfamily (8 refs, rooted on GLIC/ELIC, 52 s — anion and cation receptors separate at 100 %); real trees run in S7/S8 |
 | **Review** | `docs/channel_review_2026.md` (+PDF) — 16 sections, ~9,500 words, **148 references, every one resolved against Europe PMC** before it could be cited, and **8 figures**, six rendered from committed tables |
 | **Toolchain** | MAFFT, HMMER, trimAl, IQ-TREE 2, miniprot, BLAST+, Foldseek, `datasets` — 12/12 resolve (`results/toolchain_manifest.txt`) |
@@ -118,6 +119,12 @@ including a phosphatase. Drawn from `results/s0_baseline/` by
 ![S15: who finds each channel per superfamily, and the human genes](results/method_contribution/figures/method_contribution.png)
 
 *Q3, measured. **A** — each superfamily's final-census members (census v4, high-confidence profile calls and intact genome loci) by the first method that finds them: domain search calling the right family (dark blue), domain search finding the record without naming its family (light blue), profile HMMs alone (orange), the genome sweep alone (green). **B** — the independent frame: the curated human genes per superfamily that domain search enumerates, that domain rules call right, and that the profiles call right. Drawn from `results/method_contribution/` by `scripts/s15_figures.py`.*
+
+**S2d — census revision r4 for the families added after S20.**
+
+![Census revision r4: records added per new family, and the look-alike margins](results/census_v3/figures/census_r4.png)
+
+*What bringing the eight added channels into the census found. **A** — the 26,783 records revision r4 added, by their census call and profile confidence: TMEM87's calls are mostly medium, the upper bound H18 records. **B** — every reviewed r4 record's margin over the runner-up profile (dashed line: the 0.30 high-confidence bar). TMCO1/EMC3 (H17) and TMEM109/BRI3BP (H19) separate at margins of 0.94–1.0; TMEM87/GOST (H18) does not reliably. Drawn from `results/census_v3/r4_*.tsv` by `scripts/s3r4_figures.py`.*
 ---
 
 ## What makes this hard, in three examples
@@ -156,7 +163,7 @@ network with no branch lengths and no support values.
 ## Layout
 
 ```
-src/catalogue/    the subject: 102 families, 32 superfamilies, 19 hazards
+src/catalogue/    the subject: 103 families, 32 superfamilies, 20 hazards
 src/classify/     three tiers → one ChannelCall with an audit trail
 src/phylo/        pore modules, tier-1/tier-2 forests, the tier-3 network
 src/utils/scope.py  narrows the catalogue to a run's scope
@@ -204,7 +211,7 @@ from the PIEZO and IP3R projects, D23–D28 are new here.
 Ported from `../ip3r_genes` (the IP3 receptor family), itself ported from
 `../piezo_genes`. The app, the figure style, the dashboard, the
 manuscript-assembly and claim-checking tooling and the session protocol come
-from there; **no result does**. ITPR and RYR appear here as two of 102
+from there; **no result does**. ITPR and RYR appear here as two of 103
 families, and the parent project's census of them is an external check on
 this one rather than an input to it.
 

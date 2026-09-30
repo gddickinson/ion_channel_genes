@@ -38,6 +38,7 @@ CATSPER1	catsper	sp|Q8NEC5|CTSR1_HUMAN	catsper	channel	v3a:profile_only	family	c
 CATSPER2	catsper	sp|Q96P56|CTSR2_HUMAN	catsper	channel	v3a:profile_only	family	catsper	right_family
 CATSPER3	catsper	sp|Q86XQ3|CTSR3_HUMAN	catsper	channel	v3a:profile_only	family	catsper	right_family
 CATSPER4	catsper	sp|Q7RTX7|CTSR4_HUMAN	catsper	channel	v3a:profile_only	family	catsper	right_family
+CCDC51	mitok	sp|Q96ER9|MITOK_HUMAN	mitok	channel_contested	panel_profile	family	mitok	right_family
 CFTR	cftr	sp|P13569|CFTR_HUMAN	cftr	channel	v3a:both	family	cftr	right_family
 CHRNA1	nachr	sp|P02708|ACHA_HUMAN	nachr	channel	v3a:profile_only	family	nachr	right_family
 CHRNA10	nachr	sp|Q9GZZ6|ACH10_HUMAN	nachr	channel	v3a:profile_only	family	nachr	right_family
@@ -55,6 +56,7 @@ CHRNB4	nachr	sp|P30926|ACHB4_HUMAN	nachr	channel	v3a:profile_only	family	nachr	r
 CHRND	nachr	sp|Q07001|ACHD_HUMAN	nachr	channel	v3a:profile_only	family	nachr	right_family
 CHRNE	nachr	sp|Q04844|ACHE_HUMAN	nachr	channel	v3a:profile_only	family	nachr	right_family
 CHRNG	nachr	sp|P07510|ACHG_HUMAN	nachr	channel	v3a:profile_only	family	nachr	right_family
+CLCC1	clcc1	sp|Q96S66|CLCC1_HUMAN	clcc1	channel_contested	v3a:both	family	clcc1	right_family
 CLCN1	clc_channel	sp|P35523|CLCN1_HUMAN	clc_channel	channel	v3a:profile_only	family	clc_channel	right_family
 CLCN2	clc_channel	sp|P51788|CLCN2_HUMAN	clc_channel	channel	v3a:profile_only	family	clc_channel	right_family
 CLCNKA	clc_channel	sp|P51800|CLCKA_HUMAN	clc_channel	channel	v3a:profile_only	family	clc_channel	right_family
@@ -116,6 +118,8 @@ GLRA2	glyr	sp|P23416|GLRA2_HUMAN	glyr	channel	v3a:profile_only	family	glyr	right
 GLRA3	glyr	sp|O75311|GLRA3_HUMAN	glyr	channel	v3a:profile_only	family	glyr	right_family
 GLRA4	glyr							not_in_proteome
 GLRB	glyr	sp|P48167|GLRB_HUMAN	glyr	channel	v3a:profile_only	family	glyr	right_family
+GPHRA	gphr	sp|B7ZAQ6|GPHRA_HUMAN	gphr	channel_contested	v3a:both	family	gphr	right_family
+GPHRB	gphr	sp|P0CG08|GPHRB_HUMAN	gphr	channel_contested	v3a:both	family	gphr	right_family
 GRIA1	ampa	sp|P42261|GRIA1_HUMAN	ampa	channel	v3a:profile_only	family	ampa	right_family
 GRIA2	ampa	sp|P42262|GRIA2_HUMAN	ampa	channel	v3a:profile_only	family	ampa	right_family
 GRIA3	ampa	sp|P42263|GRIA3_HUMAN	ampa	channel	v3a:profile_only	family	ampa	right_family
@@ -250,6 +254,7 @@ P2RX4	p2x	sp|Q99571|P2RX4_HUMAN	p2x	channel	v3a:profile_only	family	p2x	right_fa
 P2RX5	p2x	sp|Q93086|P2RX5_HUMAN	p2x	channel	v3a:profile_only	family	p2x	right_family
 P2RX6	p2x	sp|O15547|P2RX6_HUMAN	p2x	channel	v3a:profile_only	family	p2x	right_family
 P2RX7	p2x	sp|Q99572|P2RX7_HUMAN	p2x	channel	v3a:profile_only	family	p2x	right_family
+PACC1	pacc	sp|Q9H813|PACC1_HUMAN	pacc	channel	v3a:both	family	pacc	right_family
 PANX1	pannexin	sp|Q96RD7|PANX1_HUMAN	pannexin	channel	v3a:profile_only	family	pannexin	right_family
 PANX2	pannexin	sp|Q96RD6|PANX2_HUMAN	pannexin	channel	v3a:profile_only	family	pannexin	right_family
 PANX3	pannexin	sp|Q96QZ0|PANX3_HUMAN	pannexin	channel	v3a:profile_only	family	pannexin	right_family
@@ -283,12 +288,15 @@ TMC5	tmc	sp|Q6UXY8|TMC5_HUMAN	tmc	channel_contested	v3a:both	family	tmc	right_fa
 TMC6	tmc	sp|Q7Z403|TMC6_HUMAN	tmc	channel_contested	v3a:both	family	tmc	right_family
 TMC7	tmc	sp|Q7Z402|TMC7_HUMAN	tmc	channel_contested	v3a:both	family	tmc	right_family
 TMC8	tmc	sp|Q8IU68|TMC8_HUMAN	tmc	channel_contested	v3a:both	family	tmc	right_family
+TMCO1	tmco1	sp|Q9UM00|TMCO1_HUMAN	tmco1	channel_contested	v3a:profile_only	family	tmco1	right_family
+TMEM109	tmem109	sp|Q9BVC6|TM109_HUMAN	tmem109	channel_contested	v3a:profile_only	family	tmem109	right_family
 TMEM175	tmem175	sp|Q9BSA9|TM175_HUMAN	tmem175	channel	v3a:both	family	tmem175	right_family
 TMEM38A	tric	sp|Q9H6F2|TM38A_HUMAN	tric	channel	v3a:both	family	tric	right_family
 TMEM38B	tric	sp|Q9NVV0|TM38B_HUMAN	tric	channel	v3a:both	family	tric	right_family
 TMEM63A	osca_tmem63	sp|O94886|TM63A_HUMAN	osca_tmem63	channel	v3a:both	family	osca_tmem63	right_family
 TMEM63B	osca_tmem63	sp|Q5T3F8|TM63B_HUMAN	osca_tmem63	channel	v3a:both	family	osca_tmem63	right_family
 TMEM63C	osca_tmem63	sp|Q9P1W3|TM63C_HUMAN	osca_tmem63	channel	v3a:both	family	osca_tmem63	right_family
+TMEM87A	tmem87	sp|Q8NBN3|GPHCC_HUMAN	tmem87	channel_contested	v3a:profile_only	family	tmem87	right_family
 TPCN1	tpc	sp|Q9ULQ1|TPC1_HUMAN	tpc	channel	v3a:profile_only	family	tpc	right_family
 TPCN2	tpc	sp|Q8NHX9|TPC2_HUMAN	tpc	channel	v3a:profile_only	family	tpc	right_family
 TRPA1	trpa	sp|O75762|TRPA1_HUMAN	trpa	channel	v3a:profile_only	family	trpa	right_family

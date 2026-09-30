@@ -147,6 +147,10 @@ nonchannel_emc3	Hs_EMC3	EMC3	Homo sapiens	9606	Q9P0I2	Q9P0I2	EMC3	261	ER membran
 nonchannel_gost	Hs_GPR107	GPR107	Homo sapiens	9606	Q5VW38	Q5VW38	GPR107	600	Protein GPR107	ok
 nonchannel_gost	Hs_TMEM87B	TMEM87B	Homo sapiens	9606	Q96K49	Q96K49	TMEM87B	555	Transmembrane protein 87B	ok
 nonchannel_bri3bp	Hs_BRI3BP	BRI3BP	Homo sapiens	9606	Q8WY22	Q8WY22	BRI3BP	251	BRI3-binding protein	ok
+nonchannel_ncs	Hs_NCS1	NCS1	Homo sapiens	9606	P62166	P62166	NCS1	190	Neuronal calcium sensor 1	ok
+nonchannel_ncs	Hs_HPCA	HPCA	Homo sapiens	9606	P84074	P84074	HPCA	193	Neuron-specific calcium-binding protein hippocalcin	ok
+nonchannel_ncs	Hs_RCVRN	RCVRN	Homo sapiens	9606	P35243	P35243	RCVRN	200	Recoverin	ok
+nonchannel_ncs	Hs_GUCA1A	GUCA1A	Homo sapiens	9606	P43080	P43080	GUCA1A	201	Guanylyl cyclase-activating protein 1	ok
 assoc_kcne	Hs_KCNE1	KCNE1	Homo sapiens	9606	P15382	P15382	KCNE1	129	Potassium voltage-gated channel subfamily E member 1	ok
 assoc_k_beta	Hs_KCNAB1	KCNAB1	Homo sapiens	9606	Q14722	Q14722	KCNAB1	419	Voltage-gated potassium channel subunit beta-1	ok
 assoc_k_beta	Hs_KCNMB1	KCNMB1	Homo sapiens	9606	Q16558	Q16558	KCNMB1	191	Calcium-activated potassium channel subunit beta-1	ok

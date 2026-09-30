@@ -79,7 +79,7 @@ Q02641	CACNB1	assoc_cav_aux			not_enumerated		no	no
 P54289	CACNA2D1	assoc_cav_aux			not_enumerated		no	no
 Q9Y698	CACNG2	assoc_cav_aux			not_enumerated		no	no
 Q07699	SCN1B	assoc_nav_beta			not_enumerated		no	no
-Q09428	ABCC8	assoc_sur	assoc_sur		not_enumerated		yes	no
+Q09428	ABCC8	assoc_sur			not_enumerated		no	no
 Q13586	STIM1	assoc_stim			not_enumerated		no	no
 Q9BPX6	MICU1	assoc_mcu_reg			not_enumerated		no	no
 Q9H4I9	SMDT1	assoc_mcu_reg			not_enumerated		no	no

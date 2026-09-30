@@ -1,0 +1,78 @@
+accession	gene	organism	seed	p_family	p_confidence	rel_margin	runner	v3_family	v3_status
+Q57904		Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440)	0		none				unassigned
+Q6R7G8		Ostreid herpesvirus 1 (isolate France)	0	clcc1	medium	1.0		clcc1	channel_contested
+B7ZAQ6	GPHRA	Homo sapiens	1	gphr	high	1.0		gphr	channel_contested
+P0CG08	GPHRB	Homo sapiens	1	gphr	high	1.0		gphr	channel_contested
+Q8NBN3	TMEM87A	Homo sapiens	1	tmem87	high	0.7904	nonchannel_gost	tmem87	channel_contested
+Q8BS95	Gphr	Mus musculus	1	gphr	high	1.0		gphr	channel_contested
+Q8BXN9	Tmem87a	Mus musculus	0	tmem87	high	0.7758	nonchannel_gost	tmem87	channel_contested
+Q9H813	PACC1	Homo sapiens	1	pacc	high	1.0		pacc	channel
+Q96K49	TMEM87B	Homo sapiens	1	nonchannel_gost	medium	0.2654	tmem87	nonchannel_gost	non_channel_homolog
+Q96S66	CLCC1	Homo sapiens	1	clcc1	high	1.0		clcc1	channel_contested
+Q9BVC6	TMEM109	Homo sapiens	1	tmem109	high	1.0		tmem109	channel_contested
+Q9P0I2	EMC3	Homo sapiens	1	nonchannel_emc3	high	1.0		nonchannel_emc3	non_channel_homolog
+Q9UM00	TMCO1	Homo sapiens	1	tmco1	high	1.0		tmco1	channel_contested
+Q5BIM9	GPHR	Bos taurus	1	gphr	high	1.0		gphr	channel_contested
+Q5VW38	GPR107	Homo sapiens	1	nonchannel_gost	high	1.0		nonchannel_gost	non_channel_homolog
+Q9NPR9	GPR108	Homo sapiens	1	nonchannel_gost	high	1.0		nonchannel_gost	non_channel_homolog
+Q9WU61	Clcc1	Rattus norvegicus	0	clcc1	high	1.0		clcc1	channel_contested
+Q99LI2	Clcc1	Mus musculus	0	clcc1	high	1.0		clcc1	channel_contested
+B2ZXD5	GPHR	Cricetulus griseus	1	gphr	high	1.0		gphr	channel_contested
+Q921L3	Tmco1	Mus musculus	0	tmco1	high	1.0		tmco1	channel_contested
+Q91WD0	Gpr108	Mus musculus	0	nonchannel_gost	high	1.0		nonchannel_gost	non_channel_homolog
+O77751	TMEM109	Oryctolagus cuniculus	0	tmem109	high	1.0		tmem109	channel_contested
+A0A8I3PI99	TMCO1	Canis lupus familiaris	0	tmco1	high	1.0		tmco1	channel_contested
+Q8WY22	BRI3BP	Homo sapiens	1	nonchannel_bri3bp	high	0.95	tmem109	nonchannel_bri3bp	non_channel_homolog
+Q9D771	Pacc1	Mus musculus	1	pacc	high	1.0		pacc	channel
+Q3UBX0	Tmem109	Mus musculus	0	tmem109	high	1.0		tmem109	channel_contested
+Q1LZF8	CLCC1	Bos taurus	0	clcc1	high	1.0		clcc1	channel_contested
+Q8BKU8	Tmem87b	Mus musculus	0	nonchannel_gost	medium	0.1176	tmem87	nonchannel_gost	non_channel_homolog
+Q5I0H4	Tmco1	Rattus norvegicus	0	tmco1	high	1.0		tmco1	channel_contested
+Q3T0N3	TMCO1	Bos taurus	0	tmco1	high	1.0		tmco1	channel_contested
+D3ZWZ9	Gpr107	Rattus norvegicus	0	nonchannel_gost	high	0.9697	tmem87	nonchannel_gost	non_channel_homolog
+Q8BUV8	Gpr107	Mus musculus	0	nonchannel_gost	high	1.0		nonchannel_gost	non_channel_homolog
+C5HGF3	TMCO1	Sus scrofa	0	tmco1	high	1.0		tmco1	channel_contested
+Q5R9B0	TMCO1	Pongo abelii	0	tmco1	high	1.0		tmco1	channel_contested
+Q2KHV2	PACC1	Bos taurus	1	pacc	high	1.0		pacc	channel
+Q66H28	Pacc1	Rattus norvegicus	1	pacc	high	1.0		pacc	channel
+Q6AYQ4	Tmem109	Rattus norvegicus	0	tmem109	high	1.0		tmem109	channel_contested
+Q3ZCB8	EMC3	Bos taurus	0	nonchannel_emc3	high	1.0		nonchannel_emc3	non_channel_homolog
+Q5U2V8	Emc3	Rattus norvegicus	0	nonchannel_emc3	high	1.0		nonchannel_emc3	non_channel_homolog
+Q99KI3	Emc3	Mus musculus	0	nonchannel_emc3	high	1.0		nonchannel_emc3	non_channel_homolog
+Q5RDP8	PACC1	Pongo abelii	1	pacc	high	1.0		pacc	channel
+Q148L1	GPR108	Bos taurus	0	nonchannel_gost	high	1.0		nonchannel_gost	non_channel_homolog
+Q6P6V6	Gpr108	Rattus norvegicus	0	nonchannel_gost	high	1.0		nonchannel_gost	non_channel_homolog
+Q5R7C1	EMC3	Pongo abelii	0	nonchannel_emc3	high	1.0		nonchannel_emc3	non_channel_homolog
+Q8BXV2	Bri3bp	Mus musculus	0	nonchannel_bri3bp	high	0.9405	tmem109	nonchannel_bri3bp	non_channel_homolog
+A0A2R8Q3S9	clcc1	Danio rerio	0	clcc1	high	1.0		clcc1	channel_contested
+Q6DGW9	tmco1	Danio rerio	0	tmco1	high	1.0		tmco1	channel_contested
+Q7SXW4	emc3	Danio rerio	0	nonchannel_emc3	high	1.0		nonchannel_emc3	non_channel_homolog
+B5X1G3	gpr89	Salmo salar	1	gphr	high	1.0		gphr	channel_contested
+Q7SY31	pacc1	Danio rerio	1	pacc	high	1.0		pacc	channel
+Q28EW0	tmem87a	Xenopus tropicalis	0	tmem87	high	0.3223	nonchannel_gost	tmem87	channel_contested
+Q6DDW6	gphr-L	Xenopus laevis	1	gphr	high	1.0		gphr	channel_contested
+Q5F448	GPR89	Gallus gallus	1	gphr	high	1.0		gphr	channel_contested
+Q0V9Z3	pacc1	Xenopus tropicalis	1	pacc	high	1.0		pacc	channel
+Q91892	clcc1	Xenopus laevis	0	clcc1	high	1.0		clcc1	channel_contested
+Q0IHD6	pacc1	Xenopus laevis	1	pacc	high	1.0		pacc	channel
+Q19714		Caenorhabditis elegans	0	tmco1	high	1.0		tmco1	channel_contested
+Q9XIP7	GTG1	Arabidopsis thaliana	0	gphr	high	1.0		gphr	channel_contested
+Q7X7S8	COLD1	Oryza sativa subsp. japonica	1	gphr	high	1.0		gphr	channel_contested
+Q0WQG8	GTG2	Arabidopsis thaliana	1	gphr	high	1.0		gphr	channel_contested
+F4JY11	CAND7	Arabidopsis thaliana	0	nonchannel_gost	high	1.0		nonchannel_gost	non_channel_homolog
+A2XX57	COLD1	Oryza sativa subsp. indica	1	gphr	high	1.0		gphr	channel_contested
+Q9LZ39	CAND6	Arabidopsis thaliana	0	nonchannel_gost	high	1.0		nonchannel_gost	non_channel_homolog
+P36039	EMC3	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	0	nonchannel_emc3	high	1.0		nonchannel_emc3	non_channel_homolog
+P32857	PTM1	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	0	tmem87	medium	0.5967	nonchannel_gost	tmem87	channel_contested
+P38745		Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	0	tmem87	medium	1.0		tmem87	channel_contested
+A6ZZS6	PTM1	Saccharomyces cerevisiae (strain YJM789)	0	tmem87	medium	0.5967	nonchannel_gost	tmem87	channel_contested
+A7A082	AIM27	Saccharomyces cerevisiae (strain YJM789)	0	nonchannel_emc3	high	1.0		nonchannel_emc3	non_channel_homolog
+B3LQQ2	AIM27	Saccharomyces cerevisiae (strain RM11-1a)	0	nonchannel_emc3	high	1.0		nonchannel_emc3	non_channel_homolog
+B5VLV9	AIM27	Saccharomyces cerevisiae (strain AWRI1631)	0	nonchannel_emc3	high	1.0		nonchannel_emc3	non_channel_homolog
+Q9P787		Schizosaccharomyces pombe (strain 972 / ATCC 24843)	0	nonchannel_emc3	high	1.0		nonchannel_emc3	non_channel_homolog
+O13989		Schizosaccharomyces pombe (strain 972 / ATCC 24843)	0	tmem87	high	0.3408	nonchannel_gost	tmem87	channel_contested
+Q9Y7Y9		Schizosaccharomyces pombe (strain 972 / ATCC 24843)	0		none				unassigned
+P38799		Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	1	gphr	high	1.0		gphr	channel_contested
+Q54QM5	gpr89	Dictyostelium discoideum	1	gphr	high	1.0		gphr	channel_contested
+Q54YN3	emc3	Dictyostelium discoideum	0	nonchannel_emc3	high	1.0		nonchannel_emc3	non_channel_homolog
+Q54TU8	tmco1	Dictyostelium discoideum	0	tmco1	high	1.0		tmco1	channel_contested

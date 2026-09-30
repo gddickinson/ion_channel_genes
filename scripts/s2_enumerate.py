@@ -78,8 +78,11 @@ def _state_path(shard: str) -> Path:
     return raw_dir() / "pages" / shard / "state.json"
 
 
-def walk_shard(key: str, clause: str) -> dict:
-    """Walk one shard to exhaustion, resuming from its saved cursor."""
+def walk_shard(key: str, clause: str, query: str | None = None) -> dict:
+    """Walk one shard to exhaustion, resuming from its saved cursor.
+
+    `query` replaces the union-scoped shard query outright (r4's delta
+    shards, `s2r4_delta.py`)."""
     d = raw_dir() / "pages" / key
     d.mkdir(parents=True, exist_ok=True)
     sp = _state_path(key)
@@ -88,7 +91,7 @@ def walk_shard(key: str, clause: str) -> dict:
     if st["done"]:
         return st
     url, params = (st["next"], None) if st["next"] else (
-        UNIPROT, {"query": shard_query(clause), "fields": FIELDS,
+        UNIPROT, {"query": query or shard_query(clause), "fields": FIELDS,
                   "format": "json", "size": PAGE})
     while True:
         r = get(url, params)

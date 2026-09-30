@@ -47,6 +47,7 @@ CLCN1	clc_channel	P35523		family	clc_channel	clc_channel	profile_only	no	yes
 CLCN2	clc_channel	P51788		family	clc_channel	clc_channel	profile_only	no	yes
 CLCNKA	clc_channel	P51800		family	clc_channel	clc_channel	profile_only	no	yes
 CLCNKB	clc_channel	P51801		family	clc_channel	clc_channel	profile_only	no	yes
+CLCC1	clcc1	Q96S66	clcc1	family	clcc1	clcc1	both	yes	yes
 CLIC1	clic	O00299	clic	family	clic	clic	both	yes	yes
 CLIC2	clic	O15247	clic	family	clic	clic	both	yes	yes
 CLIC3	clic	O95833	clic	family	clic	clic	both	yes	yes
@@ -110,6 +111,8 @@ GLRA2	glyr	P23416		family	glyr	glyr	profile_only	no	yes
 GLRA3	glyr	O75311		family	glyr	glyr	profile_only	no	yes
 GLRA4	glyr						not_enumerated	no	no
 GLRB	glyr	P48167		family	glyr	glyr	profile_only	no	yes
+GPHRA	gphr	B7ZAQ6	gphr	family	gphr	gphr	both	yes	yes
+GPHRB	gphr	P0CG08	gphr	family	gphr	gphr	both	yes	yes
 HCN1	hcn	O60741	hcn	family	hcn	hcn	both	yes	yes
 HCN2	hcn	Q9UL51	hcn	family	hcn	hcn	both	yes	yes
 HCN3	hcn	Q9P1Z3	hcn	family	hcn	hcn	both	yes	yes
@@ -214,6 +217,7 @@ LRRC8D	lrrc8	Q7L1W4	lrrc8	family	lrrc8	lrrc8	both	yes	yes
 LRRC8E	lrrc8	Q6NSJ5	lrrc8	family	lrrc8	lrrc8	both	yes	yes
 MCU	mcu	Q8NE86	mcu	family	mcu	mcu	both	yes	yes
 MCUB	mcu	Q9NWR8	mcu	family	mcu	mcu	both	yes	yes
+CCDC51	mitok						not_enumerated	no	no
 CHRNA1	nachr	P02708		family	nachr	nachr	profile_only	no	yes
 CHRNA10	nachr	Q9GZZ6		family	nachr	nachr	profile_only	no	yes
 CHRNA2	nachr	Q15822		family	nachr	nachr	profile_only	no	yes
@@ -264,6 +268,7 @@ P2RX4	p2x	Q99571		family	p2x	p2x	profile_only	no	yes
 P2RX5	p2x	Q93086		family	p2x	p2x	profile_only	no	yes
 P2RX6	p2x	O15547		family	p2x	p2x	profile_only	no	yes
 P2RX7	p2x	Q99572		family	p2x	p2x	profile_only	no	yes
+PACC1	pacc	Q9H813	pacc	family	pacc	pacc	both	yes	yes
 PANX1	pannexin	Q96RD7		family	pannexin	pannexin	profile_only	no	yes
 PANX2	pannexin	Q96RD6		family	pannexin	pannexin	profile_only	no	yes
 PANX3	pannexin	Q96QZ0		family	pannexin	pannexin	profile_only	no	yes
@@ -280,7 +285,10 @@ TMC5	tmc	Q6UXY8	tmc	family	tmc	tmc	both	yes	yes
 TMC6	tmc	Q7Z403	tmc	family	tmc	tmc	both	yes	yes
 TMC7	tmc	Q7Z402	tmc	family	tmc	tmc	both	yes	yes
 TMC8	tmc	Q8IU68	tmc	family	tmc	tmc	both	yes	yes
+TMCO1	tmco1	Q9UM00		family	tmco1	tmco1	profile_only	no	yes
+TMEM109	tmem109	Q9BVC6		family	tmem109	tmem109	profile_only	no	yes
 TMEM175	tmem175	Q9BSA9	tmem175	family	tmem175	tmem175	both	yes	yes
+TMEM87A	tmem87	Q8NBN3		family	tmem87	tmem87	profile_only	no	yes
 TPCN1	tpc	Q9ULQ1		family	tpc	tpc	profile_only	no	yes
 TPCN2	tpc	Q8NHX9		family	tpc	tpc	profile_only	no	yes
 TMEM38A	tric	Q9H6F2	tric	family	tric	tric	both	yes	yes

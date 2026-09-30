@@ -1,0 +1,10 @@
+before	after	v3_basis	profile_family	records
+unassigned	[ploop]	superfamily_only		3
+trpml	conflict	conflict	clcc1	1
+connexin	gphr	both	gphr	1
+iglur_nonvertebrate	conflict	conflict	nonchannel_gost	1
+nachr	[cysloop]	superfamily_only		1
+asic	conflict	conflict	mitok	1
+unassigned	nonchannel_ncs	profile_only	nonchannel_ncs	1
+osca_tmem63	nonchannel_ncs	profile_only	nonchannel_ncs	1
+unassigned	gphr	both	gphr	1

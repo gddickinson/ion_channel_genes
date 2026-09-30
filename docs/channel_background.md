@@ -20,11 +20,11 @@ An ion channel is a gated aqueous pore. The full scope decision — auxiliary
 subunits, transporters with a channel fold, aquaporins, viroporins — is
 `docs/scope_and_boundaries.md`.
 
-**The catalogue holds 102 families in 32 superfamilies, of which 75 are
+**The catalogue holds 103 families in 32 superfamilies, of which 75 are
 census families covering 328 human pore-forming genes.** `[db]` (Eight of those
-genes — PACC1 and seven contested proposals — were added after S20 and are not
-yet in any census; the census counts below are on the 320.) The remaining
-27 families exist so they can be excluded: auxiliary subunits, domain-sharing
+genes — PACC1 and seven contested proposals — were added after S20 and
+entered the census in revision r4; counts from S2–S6 below are on the 320.) The remaining
+28 families exist so they can be excluded: auxiliary subunits, domain-sharing
 non-channels and channels that are not ion channels.
 
 Published counts of the human channelome run from about 240 to about 400.
@@ -108,7 +108,7 @@ measured 2026-08-19 unless noted; re-derive with
 
 ## 5. The hazards, in one line each
 
-The full registry with tests is `src/catalogue/hazards.py`; nineteen entries (H17–H19 added with the S20 catalogue additions).
+The full registry with tests is `src/catalogue/hazards.py`; twenty entries (H17–H20 added with the S20 catalogue additions and census revision r4).
 The five that will change a headline number:
 
 - **H1** Nav / Cav / NALCN / CatSper share one architecture → the filter locus.

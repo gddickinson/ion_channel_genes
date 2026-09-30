@@ -2,5 +2,11 @@
   "records": 1245200,
   "unique_sequences": 1187702,
   "unique_residues": 768363148,
-  "nr_sha256": "5c117eb3a7644dd2b0042e047c8164e7a4ce708308099735ce2e4394e8796c3a"
+  "nr_sha256": "5c117eb3a7644dd2b0042e047c8164e7a4ce708308099735ce2e4394e8796c3a",
+  "r4": {
+    "r4_records": 26783,
+    "r4_new_unique_sequences": 23986,
+    "r4_delta_sha256": "d02c51b0f62e00d51413efeb2533310eb9a6ef381f3abb4fb1471ebc688ffdbc",
+    "z_held_at_r3": 1187702
+  }
 }

@@ -14,11 +14,10 @@ claimed — with the evidence stated and every assertion `CURATED`:
   weight of evidence the census families carry. `CHANNEL_CONTESTED`, the
   reason attached, as the scope document requires of a live dispute.
 
-**Search space (D34).** Every signature below is declared with
-`enumerate=False`: census v2 did not enumerate them, and changing where the
-census looks is a new census revision, never a side effect of a catalogue
-edit. Until that revision these families have no census members and no
-S3a profile; the gap is recorded in the roadmap, not hidden.
+**Search space (D34, D43).** Declared first with `enumerate=False` (D42),
+then brought into the census by revision r4 (D43): census v2's 67
+signatures plus these eight, walked as a delta, with the old records and
+their calls kept unchanged.
 
 **Look-alikes.** Three of the eight share their only domain with a protein
 nobody calls a channel, so the domain is `SHARED_WITH_DECOY` and the decoy
@@ -42,11 +41,16 @@ from .schema import Signature as Sig
 from .schema import Status as St
 from .schema import Superfamily as SF
 
-_NOTE = "declared after S20; not in census v2's search space (D34)"
+_NOTE = "added after S20; enumerated from census v2 r4 (D43)"
 
 
-def _sig(acc: str, name: str, level: L = L.FAMILY, note: str = _NOTE) -> Sig:
-    return Sig("pfam", acc, name, level, 1, P.DB, note, enumerate=False)
+def _sig(acc: str, name: str, level: L = L.FAMILY, note: str = _NOTE,
+         enumerate: bool = True) -> Sig:
+    """Census-family signatures are enumerated from r4 on (D43) — including
+    the SHARED_WITH_DECOY ones, because for TMCO1, TMEM87A and TMEM109 the
+    shared domain is the only one there is; the decoy then arrives in the
+    census too and is told apart by its own profile."""
+    return Sig("pfam", acc, name, level, 1, P.DB, note, enumerate=enumerate)
 
 
 SUPERFAMILIES: list[SF] = [
@@ -172,5 +176,26 @@ FAMILIES: list[CF] = [
        exemplars=(Ex("Hs_BRI3BP", "BRI3BP", "Homo sapiens", "Q8WY22"),),
        human_genes=("BRI3BP",), length_band_aa=(210, 290), confusable_with=("H19",),
        notes="Carries TMEM109's only domain; no channel activity reported.",
+       provenance=P.CURATED),
+    CF(key="nonchannel_ncs",
+       name="Neuronal calcium sensors (NCS1, hippocalcin, recoverin, VILIPs, GCAPs)",
+       superfamily="ploop", status=St.NON_CHANNEL_HOMOLOG, fold=Fold.UNKNOWN,
+       selectivity=Sel.UNKNOWN, gating=(),
+       signatures=(Sig("pfam", "PF13499", "EF-hand_7", L.SHARED_WITH_DECOY, 1, P.DB),
+                   Sig("pfam", "PF00036", "EF-hand_1", L.SHARED_WITH_DECOY, 1, P.DB,
+                       "measured on NCS1, HPCA, GUCA1A (S0, 2026-09-29); the "
+                       "KChIPs carry PF13833 instead")),
+       exemplars=(Ex("Hs_NCS1", "NCS1", "Homo sapiens", "P62166"),
+                  Ex("Hs_HPCA", "HPCA", "Homo sapiens", "P84074"),
+                  Ex("Hs_RCVRN", "RCVRN", "Homo sapiens", "P35243"),
+                  Ex("Hs_GUCA1A", "GUCA1A", "Homo sapiens", "P43080")),
+       human_genes=("NCS1", "HPCA", "HPCAL1", "HPCAL4", "NCALD", "VSNL1",
+                    "RCVRN", "GUCA1A", "GUCA1B", "GUCA1C"),
+       length_band_aa=(180, 220), confusable_with=("H20",),
+       notes=("The KChIPs' own family: EF-hand calcium sensors with no channel "
+              "role. Added in r4 after the one-family KChIP profile called "
+              "recoverin, hippocalcin, NCS-1 and the GCAPs at high confidence — "
+              "a profile is evidence only when every family that could score "
+              "has one (S2c)."),
        provenance=P.CURATED),
 ]

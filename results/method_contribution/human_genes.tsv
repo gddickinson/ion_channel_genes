@@ -38,6 +38,7 @@ CATSPER1	catsper	ploop	1	0	1	superfamily_only
 CATSPER2	catsper	ploop	1	0	1	superfamily_only
 CATSPER3	catsper	ploop	1	0	1	superfamily_only
 CATSPER4	catsper	ploop	1	0	1	superfamily_only
+CCDC51	mitok	mitok	0	0	1	absent
 CFTR	cftr	abc_channel	1	1	1	channel
 CHRNA1	nachr	cysloop	1	0	1	superfamily_only
 CHRNA10	nachr	cysloop	1	0	1	superfamily_only
@@ -55,6 +56,7 @@ CHRNB4	nachr	cysloop	1	0	1	superfamily_only
 CHRND	nachr	cysloop	1	0	1	superfamily_only
 CHRNE	nachr	cysloop	1	0	1	superfamily_only
 CHRNG	nachr	cysloop	1	0	1	superfamily_only
+CLCC1	clcc1	mclc	1	1	1	channel_contested
 CLCN1	clc_channel	clc	1	0	1	superfamily_only
 CLCN2	clc_channel	clc	1	0	1	superfamily_only
 CLCNKA	clc_channel	clc	1	0	1	superfamily_only
@@ -116,6 +118,8 @@ GLRA2	glyr	cysloop	1	0	1	superfamily_only
 GLRA3	glyr	cysloop	1	0	1	superfamily_only
 GLRA4	glyr	cysloop	0	0	0	absent
 GLRB	glyr	cysloop	1	0	1	superfamily_only
+GPHRA	gphr	gphr	1	1	1	channel_contested
+GPHRB	gphr	gphr	1	1	1	channel_contested
 GRIA1	ampa	iglur	1	0	1	superfamily_only
 GRIA2	ampa	iglur	1	0	1	superfamily_only
 GRIA3	ampa	iglur	1	0	1	superfamily_only
@@ -250,6 +254,7 @@ P2RX4	p2x	p2x	1	0	1	superfamily_only
 P2RX5	p2x	p2x	1	0	1	superfamily_only
 P2RX6	p2x	p2x	1	0	1	superfamily_only
 P2RX7	p2x	p2x	1	0	1	superfamily_only
+PACC1	pacc	pac	1	1	1	channel
 PANX1	pannexin	innexin_like	1	0	1	superfamily_only
 PANX2	pannexin	innexin_like	1	0	1	superfamily_only
 PANX3	pannexin	innexin_like	1	0	1	superfamily_only
@@ -283,12 +288,15 @@ TMC5	tmc	tmem16_like	1	1	1	channel_contested
 TMC6	tmc	tmem16_like	1	1	1	channel_contested
 TMC7	tmc	tmem16_like	1	1	1	channel_contested
 TMC8	tmc	tmem16_like	1	1	1	channel_contested
+TMCO1	tmco1	tmco1	1	0	1	unassigned
+TMEM109	tmem109	tmem109	1	0	1	unassigned
 TMEM175	tmem175	tmem175	1	1	1	channel
 TMEM38A	tric	tric	1	1	1	channel
 TMEM38B	tric	tric	1	1	1	channel
 TMEM63A	osca_tmem63	tmem16_like	1	1	1	channel
 TMEM63B	osca_tmem63	tmem16_like	1	1	1	channel
 TMEM63C	osca_tmem63	tmem16_like	1	1	1	channel
+TMEM87A	tmem87	tmem87	1	0	1	unassigned
 TPCN1	tpc	ploop	1	0	1	superfamily_only
 TPCN2	tpc	ploop	1	0	1	superfamily_only
 TRPA1	trpa	ploop	1	0	1	superfamily_only

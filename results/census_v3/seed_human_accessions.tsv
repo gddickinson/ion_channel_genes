@@ -42,6 +42,7 @@ BEST1	bestrophin	O76090	585	ok
 BEST2	bestrophin	Q8NFU1	509	ok
 BEST3	bestrophin	Q8N1M1	668	ok
 BEST4	bestrophin	Q8NFU0	473	ok
+BRI3BP	nonchannel_bri3bp	Q8WY22	251	ok
 BSND	assoc_clc_aux	Q8WZ55	320	ok
 CACNA1A	cav	O00555	2506	ok
 CACNA1B	cav	Q00975	2339	ok
@@ -85,6 +86,7 @@ CATSPERD	assoc_catsper_aux	Q86XM0	798	ok
 CATSPERE	assoc_catsper_aux	Q5SY80	951	ok
 CATSPERG	assoc_catsper_aux	Q6ZRH7	1159	ok
 CATSPERZ	assoc_catsper_aux	Q9NTU4	200	ok
+CCDC51	mitok	Q96ER9	411	ok
 CFTR	cftr	P13569	1480	ok
 CHRNA1	nachr	P02708	457	ok
 CHRNA10	nachr	Q9GZZ6	450	ok
@@ -106,6 +108,7 @@ CLCA1	assoc_clc_aux	A8K7I4	914	ok
 CLCA2	assoc_clc_aux	Q9UQC9	943	ok
 CLCA3P	assoc_clc_aux			unresolved
 CLCA4	assoc_clc_aux	Q14CN2	919	ok
+CLCC1	clcc1	Q96S66	551	ok
 CLCN1	clc_channel	P35523	988	ok
 CLCN2	clc_channel	P51788	898	ok
 CLCN3	clc_transporter	P51790	818	ok
@@ -131,6 +134,7 @@ CNIH2	assoc_iglur_aux	Q6PI25	160	ok
 CNIH3	assoc_iglur_aux	Q8TBE1	160	ok
 DPP10	assoc_k_beta	Q8N608	796	ok
 DPP6	assoc_k_beta	P42658	865	ok
+EMC3	nonchannel_emc3	Q9P0I2	261	ok
 GABBR1	nonchannel_class_c_gpcr	Q9UBS5	961	ok
 GABBR2	nonchannel_class_c_gpcr	O75899	941	ok
 GABRA1	gabaa	P14867	456	ok
@@ -178,6 +182,10 @@ GLRA2	glyr	P23416	452	ok
 GLRA3	glyr	O75311	464	ok
 GLRA4	glyr			unresolved
 GLRB	glyr	P48167	497	ok
+GPHRA	gphr	B7ZAQ6	455	ok
+GPHRB	gphr	P0CG08	455	ok
+GPR107	nonchannel_gost	Q5VW38	600	ok
+GPR108	nonchannel_gost	Q9NPR9	543	ok
 GRIA1	ampa	P42261	906	ok
 GRIA2	ampa	P42262	883	ok
 GRIA3	ampa	P42263	894	ok
@@ -210,10 +218,16 @@ GSDMC	nonchannel_gasdermin	Q9BYG8	508	ok
 GSDMD	nonchannel_gasdermin	P57764	484	ok
 GSDME	nonchannel_gasdermin	O60443	496	ok
 GSG1L	assoc_iglur_aux	Q6UXU4	331	ok
+GUCA1A	nonchannel_ncs	P43080	201	ok
+GUCA1B	nonchannel_ncs	Q9UMX6	200	ok
+GUCA1C	nonchannel_ncs	O95843	209	ok
 HCN1	hcn	O60741	890	ok
 HCN2	hcn	Q9UL51	889	ok
 HCN3	hcn	Q9P1Z3	774	ok
 HCN4	hcn	Q9Y3Q4	1203	ok
+HPCA	nonchannel_ncs	P84074	193	ok
+HPCAL1	nonchannel_ncs	P37235	193	ok
+HPCAL4	nonchannel_ncs	Q9UM19	191	ok
 HTR3A	ht3	P46098	478	ok
 HTR3B	ht3	O95264	441	ok
 HTR3C	ht3	Q8WXA8	447	ok
@@ -261,6 +275,10 @@ KCNH5	kv_eag	Q8NCM2	988	ok
 KCNH6	kv_eag	Q9H252	958	ok
 KCNH7	kv_eag	Q9NS40	1196	ok
 KCNH8	kv_eag	Q96L42	1107	ok
+KCNIP1	assoc_kchip	Q9NZI2	227	ok
+KCNIP2	assoc_kchip	Q9NS61	270	ok
+KCNIP3	assoc_kchip	Q9Y2W7	256	ok
+KCNIP4	assoc_kchip	Q6PIL6	250	ok
 KCNJ1	kir	P48048	391	ok
 KCNJ10	kir	P78508	379	ok
 KCNJ11	kir	Q14654	390	ok
@@ -349,6 +367,8 @@ MICU1	assoc_mcu_reg	Q9BPX6	476	ok
 MICU2	assoc_mcu_reg	Q8IYU8	434	ok
 MICU3	assoc_mcu_reg	Q86XE3	530	ok
 NALCN	nalcn	Q8IZF0	1738	ok
+NCALD	nonchannel_ncs	P61601	193	ok
+NCS1	nonchannel_ncs	P62166	190	ok
 NETO1	assoc_iglur_aux	Q8TDF5	533	ok
 NETO2	assoc_iglur_aux	Q8NC67	525	ok
 ORAI1	orai	Q96D31	301	ok
@@ -364,6 +384,7 @@ P2RX4	p2x	Q99571	388	ok
 P2RX5	p2x	Q93086	444	ok
 P2RX6	p2x	O15547	441	ok
 P2RX7	p2x	Q99572	595	ok
+PACC1	pacc	Q9H813	350	ok
 PANX1	pannexin	Q96RD7	426	ok
 PANX2	pannexin	Q96RD6	677	ok
 PANX3	pannexin	Q96QZ0	392	ok
@@ -379,6 +400,7 @@ PKD2L1	trpp	Q9P0L9	805	ok
 PKD2L2	trpp	Q9NZM6	624	ok
 POMT1	nonchannel_pomt	Q9Y6A1	747	ok
 POMT2	nonchannel_pomt	Q9UKY4	750	ok
+RCVRN	nonchannel_ncs	P35243	200	ok
 RYR1	ryr	P21817	5038	ok
 RYR2	ryr	Q92736	4967	ok
 RYR3	ryr	Q15413	4870	ok
@@ -428,13 +450,18 @@ TMC5	tmc	Q6UXY8	1006	ok
 TMC6	tmc	Q7Z403	805	ok
 TMC7	tmc	Q7Z402	723	ok
 TMC8	tmc	Q8IU68	726	ok
+TMCO1	tmco1	Q9UM00	239	ok
+TMEM109	tmem109	Q9BVC6	243	ok
 TMEM175	tmem175	Q9BSA9	504	ok
 TMEM249	assoc_catsper_aux			unresolved
+TMEM37	assoc_cav_aux	Q8WXS4	190	ok
 TMEM38A	tric	Q9H6F2	299	ok
 TMEM38B	tric	Q9NVV0	291	ok
 TMEM63A	osca_tmem63	O94886	807	ok
 TMEM63B	osca_tmem63	Q5T3F8	832	ok
 TMEM63C	osca_tmem63	Q9P1W3	806	ok
+TMEM87A	tmem87	Q8NBN3	555	ok
+TMEM87B	nonchannel_gost	Q96K49	555	ok
 TPCN1	tpc	Q9ULQ1	816	ok
 TPCN2	tpc	Q8NHX9	752	ok
 TPTE	nonchannel_vsp	P56180	551	ok
@@ -466,4 +493,5 @@ TTYH3	tweety	Q9C0H2	523	ok
 VDAC1	vdac	P21796	283	ok
 VDAC2	vdac	P45880	294	ok
 VDAC3	vdac	Q9Y277	283	ok
+VSNL1	nonchannel_ncs	P62760	191	ok
 ZACN	zac	Q401N2	412	ok

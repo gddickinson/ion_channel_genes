@@ -36,11 +36,11 @@
 ## `src/catalogue/` — the project's definition of its own subject
 
 **The single place any channel family, signature, size band or exemplar is
-declared.** Nothing else in `src/` hard-codes a gene name. 102 families in 32
+declared.** Nothing else in `src/` hard-codes a gene name. 103 families in 32
 superfamilies, of which 75 are census families covering 328 human genes; the
-other 27 exist so they can be excluded. (Census v2–v4 and S6 were built on the
-68-family / 320-gene catalogue; the 7 families and 8 genes in `proposed.py`
-were added after S20 and have not been searched yet, D34.)
+other 28 exist so they can be excluded. (The 7 families and 8 genes in `proposed.py`
+were added after S20 and entered the census in revision r4, D43; S6's
+alignments and S7's trees were built before them.)
 
 | File | Contents |
 |------|----------|
@@ -52,11 +52,11 @@ were added after S20 and have not been searched yet, D34.)
 | `tmem16_like.py` | Anoctamin channels, anoctamin scramblases, OSCA/TMEM63, TMC — one fold, `alignable=False`. |
 | `mechano.py` | Piezo, MscL, MscS. |
 | `largepore.py` | Connexins; the innexin/pannexin/LRRC8 clan; CALHM. |
-| `intracellular.py` | ITPR, RYR (the parent project's whole subject, here two families of 102), TRIC, MCU, VDAC, TMEM175. |
+| `intracellular.py` | ITPR, RYR (the parent project's whole subject, here two families of 103), TRIC, MCU, VDAC, TMEM175. |
 | `other.py` | ORAI, Hv1, otopetrins, CLIC, viroporins. |
-| `proposed.py` | **Added after S20** (user-directed): eight proposed channels as seven single-family superfamilies — PACC1 (`channel`), TMCO1, TMEM87A, TMEM109, CLCC1, CCDC51/MITOK, GPHRA/B (`channel_contested`) — and the three look-alikes that share their only domain (EMC3, GOST proteins, BRI3BP; hazards H17–H19). Every signature `enumerate=False` until a census revision (D34). |
+| `proposed.py` | **Added after S20** (user-directed): eight proposed channels as seven single-family superfamilies — PACC1 (`channel`), TMCO1, TMEM87A, TMEM109, CLCC1, CCDC51/MITOK, GPHRA/B (`channel_contested`) — and the three look-alikes that share their only domain (EMC3, GOST proteins, BRI3BP; hazards H17–H19). Signatures declared `enumerate=False` first (D42), enumerated from census v2 r4 on (S2d, D43); the neuronal-calcium-sensor decoy for KChIP (H20) was added in r4. |
 | `controls.py` | The non-census families: auxiliary subunits, domain-sharing non-channels (KCTD, class C GPCRs, AChBP, the generic ABC-transporter decoy (S3a2), POMT, VSP), transporters, and the out-of-scope channels (aquaporins, bacterial porins, gasdermins). |
-| `hazards.py` | **The hazard registry** — 19 recorded ways to classify wrongly (H17–H19, added with `proposed.py`, are open until the new families have profiles), each with the families involved, the shared evidence, the discriminating positive test, and the module that owns it. |
+| `hazards.py` | **The hazard registry** — 20 recorded ways to classify wrongly (H17–H20 came with `proposed.py`; measured in census revision r4: H17, H19, H20 separate by profile margin, H18 only partly), each with the families involved, the shared evidence, the discriminating positive test, and the module that owns it. |
 | `registry.py` | Assembly and lookup: `CATALOGUE`, `SUPERFAMILIES`, `census_families()`, `control_families()`, `human_genes()`, `signature_index()`, `shared_signatures()`, `pore_signatures()` (the H7 fix), `exemplars()`, `reference_panel()`, `hazards_for()`, `validate()`, `stats()`. |
 | `__main__.py` | `python3 -m src.catalogue [--families] [--shared] [--census]` — validate and print. Exits non-zero on any validation problem, so it works as a pre-commit gate. |
 
@@ -215,6 +215,9 @@ operation and cannot be gated on an optional dependency.
 | `s7_figures.py`, `s7_report.py` | **S7** figure (`results/phylogeny/figures/tier1_trim.png` in S7a; `tier1_trees.png` once trees exist) and `tier1_report.md` (D13). |
 | `s15_contribution.py` | **S15** (Q3) — two frames: the 320 curated human genes (enumerated / domain call / profile call) and the final census (census v4 high-confidence census-family rows) with each row's first finding method (`step()`: domain call → domain enumeration → profile → genome); Q3 verdict per superfamily by fixed thresholds (`q3()`) → `results/method_contribution/curve_by_superfamily.tsv`, `curve_by_family.tsv`, `curve_by_group.tsv`, `human_genes.tsv`. |
 | `s15_figures.py`, `s15_report.py` | **S15** figure (`results/method_contribution/figures/method_contribution.png`) and `report.md` + `summary.json` (D13). |
+| `s2r4_delta.py` | **Census v2 r4** (D43) — `counts` (the delta per shard: new signature, none of r3's 67; partition + old union + delta = new union), `walk` (into `r4_<shard>` pages via `s2_enumerate.walk_shard(query=…)`), `record` (r4 rows into `shard_counts.tsv` / `signature_counts.tsv`). Then `s2_classify.py` on the r4 shards, `--recheck … --archive r3` on the old ones, `s2b_revision.py --tag r4`, `s2_census.py`. `s2_lib.CENSUS_SHARDS` = the 12 shards + their 12 delta shards. |
+| `s3r4_sweep.py` | **r4 profile sweep** — `prep` (the delta's NR sequences + map), `search` (new profiles over r3's NR, all profiles over the delta, `-Z` held at r3's size → `hmmer/s3/domtbl_r4/`). `s3_census_v3.py` and `s3b_census_v3.py` read both. |
+| `s3r4_compare.py` | **r4 check** — every r3 v3a call before/after (hard failure if one moves with no new family as call, winner or runner-up), the r4 records' calls, every reviewed r4 record's call → `results/census_v3/r4_*.tsv`, `r4_report.md`; `s3r4_figures.py` draws `results/census_v3/figures/census_r4.png`. |
 | `s20_lib.py` | **S20** shared pieces: the three database channelomes (`gtopdb_list()`, `hgnc_list()`, `uniprot_list()`, each archived under `<data root>/raw_api/s20/` with its release), `hgnc_resolve()` (catalogue symbol → HGNC id: approved, previous, alias; ambiguous left unresolved), `catalogue_genes()`, `category()`. |
 | `s20_lists.py` | **S20 step 1** — every list and catalogue gene joined on HGNC id → `results/auxiliary/channelome_genes.tsv`, `list_composition.tsv`, `lists.json`. |
 | `s20_curate.py` | **S20 step 2** — `CURATED`: the hand classification of every uncatalogued list gene (hard error if one is missing) → `uncatalogued.tsv`, `list_decomposition.tsv`, `census_missed_by_list.tsv`. |

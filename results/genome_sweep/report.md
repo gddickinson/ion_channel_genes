@@ -8,7 +8,7 @@ Rendered by `scripts/s5_report.py` from the tables in this directory (D13). S5a 
 - **Sweep**: 52 genomes, 42.5 Gbp, 0 failures; 11,878 loci, **8,048 called to a family by the S3a profiles** (D32); miniprot 1.94 h. `-G` 1 Mb for genomes ≥ 1 Gbp, measured not assumed (D38).
 - **Positive control**: 1,311 of 1,420 control cells *found* (a profile-called locus), 1,396 detected by the whole instrument, with the genome's own species' baits excluded.
 - **Matched detection — the number every absence inherits: 1,317 / 1,326** control cells with an in-group non-self bait; unmatched 79 / 94. Below the 90% floor: Human immunodeficiency virus type 1, Influenza A virus, Severe acute respiratory syndrome coronavirus 2. No matched control at all (single-species groups — no absence readable): Chlamydomonas reinhardtii, Dictyostelium discoideum, Plasmodium falciparum, Trypanosoma brucei.
-- **Census v4**: census v3's 26,936 proteome rows unchanged + **434 genome loci** (420 from the genome-only species, 14 proteome misses) in 115 cells (`s5_census_v4.py`; SHA-256 in `census_v4.json`). A genome row is a locus, never merged into a proteome call.
+- **Census v4**: census v3's 28,891 proteome rows unchanged + **434 genome loci** (420 from the genome-only species, 14 proteome misses) in 115 cells (`s5_census_v4.py`; SHA-256 in `census_v4.json`). A genome row is a locus, never merged into a proteome call.
 
 ## Per-genome control
 

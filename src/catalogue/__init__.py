@@ -13,7 +13,7 @@ Contents:
     other.py          — ORAI, Hv1, otopetrins, CLIC, viroporins
     proposed.py       — proposed channels added after S20 (PACC1 …) + their look-alikes
     controls.py       — auxiliary subunits, non-channel homologues, out-of-scope
-    hazards.py        — the nineteen recorded ways to get a classification wrong
+    hazards.py        — the twenty recorded ways to get a classification wrong
     registry.py       — assembly, lookups, `validate()`, `stats()`
 
 Import from `registry` (or from this package), never from a division file.

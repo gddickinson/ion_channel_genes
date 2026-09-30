@@ -39,7 +39,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from scripts.s0_lib import read_tsv, write_tsv                        # noqa: E402
 from scripts.s2_classify import COLS                                  # noqa: E402
-from scripts.s2_lib import OUT_DIR, ROOT, SHARDS, iter_pages, live, raw_dir  # noqa: E402
+from scripts.s2_lib import CENSUS_SHARDS as SHARDS, OUT_DIR, ROOT, iter_pages, live, raw_dir  # noqa: E402
 from src.catalogue import CATALOGUE, Level                            # noqa: E402
 from src.catalogue.registry import human_genes                        # noqa: E402
 

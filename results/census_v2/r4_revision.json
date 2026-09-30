@@ -1,0 +1,18 @@
+{
+  "base": "r3",
+  "head": "current",
+  "accessions": [
+    "PF01956",
+    "PF05934",
+    "PF06814",
+    "PF12430",
+    "PF12537",
+    "PF14965",
+    "PF15122",
+    "PF21901"
+  ],
+  "records": 1245200,
+  "rechecked": 11,
+  "changed": 2,
+  "changed_outside_recheck": 0
+}

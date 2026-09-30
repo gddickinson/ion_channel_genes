@@ -33,6 +33,18 @@ REVISIONS = [
      "called on its R domain, and the SUR rule is gone — no domain identifies "
      "SUR, and none of the 980 calls the absence rule made was one — 918 "
      "bacterial ABC transporters and 62 eukaryotic fused gene models."),
+    ("r4", "Revision r4 — eight signatures added after S20 (D43)",
+     "S20 found eight proposed channels no catalogue family named; they were "
+     "added (`src/catalogue/proposed.py`) and their eight Pfam signatures "
+     "brought into the search space. r4 walked only the delta — records with a "
+     "new signature and none of r3's 67 — in the same taxonomic shards: "
+     "26,783 records, r3's 1,245,200 + delta = UniProt's 1,271,983 for the "
+     "75-signature union, every shard and signature exact (release 2026_03). "
+     "The 11 r3 records that carry a new signature were re-classified; every "
+     "other call is copied. TMCO1, TMEM87A and TMEM109 carry only domains "
+     "shared with a non-channel (H17–H19), so domain rules leave them "
+     "unassigned by design; MITOK (CCDC51) carries no Pfam domain and is not "
+     "enumerable at all."),
 ]
 
 

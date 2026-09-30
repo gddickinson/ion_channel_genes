@@ -65,6 +65,13 @@ SHARDS: list[tuple[str, str]] = [
 ]
 
 
+#: Census v2 r4's delta shards (D43): records carrying a signature added after
+#: S20 and none of r3's 67, walked by `s2r4_delta.py` per taxonomic shard.
+R4_SHARDS: list[tuple[str, str]] = [(f"r4_{k}", c) for k, c in SHARDS]
+#: Every shard the census is assembled from.
+CENSUS_SHARDS: list[tuple[str, str]] = SHARDS + R4_SHARDS
+
+
 def signatures() -> list[str]:
     return sorted(s.accession for s in pore_signatures())
 

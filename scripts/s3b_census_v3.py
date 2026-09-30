@@ -144,12 +144,15 @@ def main() -> int:
 
     acc_to_t = {u["accession"]: t for t, u in uni.items()}
     v2_seq: dict[str, str] = {}
-    with gzip.open(s3_dir() / "census_v2.nr_map.tsv.gz", "rt") as fh:
-        next(fh)
-        for line in fh:
-            a, s, _ = line.rstrip("\n").split("\t")
-            if a in acc_to_t:
-                v2_seq[a] = s
+    for mp in ("census_v2.nr_map.tsv.gz", "census_v2.r4_delta.nr_map.tsv.gz"):
+        if not (s3_dir() / mp).exists():      # r4's delta map (D43)
+            continue
+        with gzip.open(s3_dir() / mp, "rt") as fh:
+            next(fh)
+            for line in fh:
+                a, s, _ = line.rstrip("\n").split("\t")
+                if a in acc_to_t:
+                    v2_seq[a] = s
     v3a = load_v3a(set(v2_seq))
     s3a = load_s3a_calls(v2_seq)
     print(f"[v3] {len(v2_seq):,} panel entries are census v2 records")

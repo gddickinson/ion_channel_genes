@@ -40,7 +40,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from scripts.s2_lib import ROOT, SHARDS, iter_pages, live, pfam_dict, raw_dir  # noqa: E402
+from scripts.s2_lib import CENSUS_SHARDS as SHARDS, ROOT, iter_pages, live, pfam_dict, raw_dir  # noqa: E402
 from src.classify.classifier import ChannelQuery, classify                     # noqa: E402
 from src.classify.motifs import FOUR_REPEAT_ANCHOR, verify_anchor              # noqa: E402
 from src.utils.mafft import parse_fasta                                        # noqa: E402

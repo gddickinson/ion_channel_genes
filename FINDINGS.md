@@ -671,3 +671,37 @@ annotated domain at all.
 **The four KChIPs**, calcium sensors that set the kinetics of Kv4 potassium
 channels, and a calcium-channel γ-like subunit (TMEM37) are added as
 auxiliary subunits.
+
+## Census revision r4 — searching for the newly added channels (2026-09-29)
+
+**The eight newly added channel families were found across eukaryotes, and
+adding them disturbed almost nothing else.** Searching UniProt for their
+domains added 26,783 proteins to the census. Only 11 of the 1.25 million
+proteins already there changed classification. The census families are:
+- the Golgi pH regulators (GPHR), 3,903 proteins, including the plant
+  proteins GTG1/2 and rice COLD1;
+- the ER calcium-leak channel TMCO1, 2,237;
+- the ER chloride channel CLCC1, 1,562;
+- the proton-activated chloride channel PACC1, 992;
+- TMEM109, 763.
+
+All eight new human genes are identified correctly, including the proposed
+mitochondrial potassium channel MITOK. MITOK carries no annotated domain and
+is found only by sequence-profile search.
+
+**Three of the new channels have close relatives that are not channels, and
+two of those pairs separate cleanly.** TMCO1 is told apart from the ER
+insertase EMC3 in every species tested. TMEM109 is likewise told apart from
+BRI3BP. The Golgi cation channel TMEM87A does not separate cleanly from its
+own family of Golgi seven-helix proteins: its paralogue TMEM87B, and fungal
+members of the wider family, sit on the boundary. So the 5,484 "TMEM87"
+proteins are an upper bound *(pending: a better-seeded decoy)*.
+
+**The KChIPs, auxiliary subunits of Kv4 potassium channels, look like any
+other calcium sensor.** Until a model of their parent family (recoverin,
+hippocalcin, NCS-1, the GCAPs) was added, every one of those was mistaken
+for a KChIP. With it, exactly the four human KChIPs are identified.
+
+**Not yet known:** whether any species' genome carries these new channels
+where its annotated gene set does not. The genome sweep has not been run for
+them *(pending: genome sweep extension)*.

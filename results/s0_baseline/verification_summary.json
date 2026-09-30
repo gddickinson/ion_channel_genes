@@ -1,42 +1,42 @@
 {
-  "generated": "2026-09-29 19:39:34",
+  "generated": "2026-09-29 20:39:29",
   "catalogue": {
     "superfamilies": 32,
-    "families_total": 102,
+    "families_total": 103,
     "families_census": 75,
-    "families_control": 27,
+    "families_control": 28,
     "human_genes_census": 328,
-    "human_genes_catalogued": 486,
-    "exemplars": 179,
-    "exemplars_with_accession": 129,
-    "signatures": 131,
-    "shared_signatures": 30,
-    "hazards": 19
+    "human_genes_catalogued": 496,
+    "exemplars": 183,
+    "exemplars_with_accession": 133,
+    "signatures": 132,
+    "shared_signatures": 31,
+    "hazards": 20
   },
   "internal_problems": 0,
   "pfam": {
-    "n": 131,
+    "n": 132,
     "missing": [],
     "renamed": []
   },
   "exemplars": {
-    "n": 179,
-    "resolved": 179,
+    "n": 183,
+    "resolved": 183,
     "unresolved": 0,
-    "declared_ok": 122,
+    "declared_ok": 126,
     "declared_bad": 0,
-    "sequences": 179,
-    "arch_mismatch": 37
+    "sequences": 183,
+    "arch_mismatch": 38
   },
   "taxonomy": {
     "n": 52,
     "bad": 0
   },
-  "shared_signatures": 30,
-  "requests": 852,
+  "shared_signatures": 31,
+  "requests": 866,
   "request_failures": [],
-  "elapsed_s": 560.7,
-  "hazards": 19,
+  "elapsed_s": 527.6,
+  "hazards": 20,
   "superfamilies_not_alignable": [
     "abc_channel",
     "tmem16_like",
