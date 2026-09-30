@@ -1,0 +1,11 @@
+#!/bin/sh
+# Run a script in the project's analysis environment (D18): Biopython,
+# matplotlib, BLAST+ live in the `piezo1` conda env, not the base
+# interpreter. `bin/envpy scripts/s7_figures.py` instead of the full path.
+# Override with ION_CHANNEL_PY=/path/to/python.
+PY="${ION_CHANNEL_PY:-/opt/anaconda3/envs/piezo1/bin/python}"
+if [ ! -x "$PY" ]; then
+    echo "bin/envpy: $PY not found — set ION_CHANNEL_PY to an interpreter with biopython + matplotlib (D18)" >&2
+    exit 127
+fi
+exec "$PY" "$@"

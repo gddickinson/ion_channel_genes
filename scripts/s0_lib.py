@@ -134,8 +134,18 @@ def resolve_gene(f: Fetcher, gene: str, taxon_id: int,
     rows = (d or {}).get("results", [])
     if not rows:
         return None
-    rows.sort(key=lambda r: -(r.get("sequence", {}).get("length") or 0))
-    r = rows[0]
+
+    def primary(r: dict) -> str:
+        return ((r.get("genes") or [{}])[0].get("geneName") or {}).get("value", "")
+
+    # `gene_exact` matches synonyms too, and the longest hit used to win:
+    # TRPC7 → TRPM2, GRIK2 → GRIK5, KCNG3 → KCNG4 (S3a). An entry whose
+    # *primary* name is the query now wins; a synonym-only match is kept as
+    # the fallback and flagged, never silently preferred.
+    own = [r for r in rows if primary(r).upper() == gene.upper()]
+    pool = own or rows
+    pool.sort(key=lambda r: -(r.get("sequence", {}).get("length") or 0))
+    r = pool[0]
     genes = r.get("genes") or [{}]
     return {
         "accession": r["primaryAccession"],
@@ -148,6 +158,7 @@ def resolve_gene(f: Fetcher, gene: str, taxon_id: int,
                     .get("recommendedName", {}).get("fullName", {})
                     .get("value", "")),
         "reviewed": r.get("entryType", "").startswith("UniProtKB reviewed"),
+        "synonym_match": not own,
         "n_candidates": len(rows),
     }
 

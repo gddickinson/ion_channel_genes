@@ -1,0 +1,12 @@
+reason	size	records
+below the 30 % coverage gate (partial)	< 500 aa	851
+below the 30 % coverage gate (partial)	fragment-flagged	558
+below the 30 % coverage gate (partial)	500–2,000 aa	543
+below the 30 % coverage gate (partial)	≥ 2,000 aa	244
+no profile hit	< 500 aa	17
+no profile hit	≥ 2,000 aa	14
+below the 30-bit score gate	< 500 aa	12
+below the 30-bit score gate	fragment-flagged	9
+no profile hit	fragment-flagged	6
+no profile hit	500–2,000 aa	3
+below the 30-bit score gate	500–2,000 aa	1

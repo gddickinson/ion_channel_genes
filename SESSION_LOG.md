@@ -729,3 +729,21 @@ loci only, and the re-run gives 0 of 3,536 changed.
 
 ### Next
 S7b when the IQ-TREE run finishes.
+
+## 2026-09-30 — open roadmap items, first batch (user-directed)
+
+Triage of the 51 open emergent rows: stale (closed with pointers),
+scheduled inside future ledger tasks (left), tractable now (done below),
+large method changes (left open, each its own task).
+
+**Done.** `s0_lib.resolve_gene` prefers a primary-name match (the synonym
+bug); 50 exemplar accessions folded into the catalogue (183/183); S1 panel
+evidence cached (`panel_evidence.json`); `bin/envpy`; ZACN measured (a Pfam
+coverage gap: 4 annotated TM helices, no PF02932); partial architectures and
+the 2,258 PIEZO-census records explained by the profile tier's gates
+(`s3_piezo_unassigned.py`); headline figures for S1, S2, S3a, S4, S3b, S5b.
+16 rows closed.
+
+**Caught.** The first S3b figure counted control families (aquaporins, SLC26,
+gasdermins) as "missed by domain search", which showed vertebrates at 47 %.
+It is restricted to census families now (1.2 %).

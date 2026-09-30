@@ -425,7 +425,7 @@ FAMILIES: list[CF] = [
         superfamily="porin", status=St.OUT_OF_SCOPE, fold=Fold.BETA_BARREL,
         selectivity=Sel.CATION_NONSELECTIVE, gating=_NONE, tm_per_subunit=16,
         signatures=(Sig("pfam", "PF00267", "Porin_1", L.FAMILY, 1, P.CURATED),),
-        exemplars=(Ex("Ec_OmpF", "ompF", "Escherichia coli"),),
+        exemplars=(Ex("Ec_OmpF", "ompF", "Escherichia coli", "P02931"),),
         other_genes=("ompF", "ompC", "phoE"),
         notes=("Ungated diffusion pores. Excluded on the gating criterion, "
                "which is what keeps VDAC — voltage-gated, eukaryotic, "

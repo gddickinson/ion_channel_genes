@@ -116,7 +116,7 @@ FAMILIES: list[CF] = [
         stoichiometry="trimer", tm_per_subunit=7,
         signatures=(Sig("pfam", "PF05197", "TRIC", L.FAMILY, 1, P.DB),),
         exemplars=(Ex("Hs_TMEM38A", "TMEM38A", "Homo sapiens", "Q9H6F2"),
-                   Ex("Hs_TMEM38B", "TMEM38B", "Homo sapiens")),
+                   Ex("Hs_TMEM38B", "TMEM38B", "Homo sapiens", "Q9NVV0")),
         human_genes=("TMEM38A", "TMEM38B"),
         length_band_aa=(280, 310),
         notes=("The counter-ion channel that lets the SR release calcium "

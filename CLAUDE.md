@@ -118,7 +118,8 @@ python3 scripts/dashboard.py --open
 The catalogue, classification and phylogeny commands need only the standard
 library plus `requests`. The search / analysis / GUI paths need Biopython and
 matplotlib, which live in the `piezo1` conda env — run those with
-`/opt/anaconda3/envs/piezo1/bin/python` (**D18**).
+`bin/envpy <script>` (a wrapper for `/opt/anaconda3/envs/piezo1/bin/python`;
+override with `ION_CHANNEL_PY`) (**D18**).
 
 ## Adding a family to the catalogue
 

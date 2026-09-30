@@ -80,7 +80,7 @@ matplotlib — run those with `/opt/anaconda3/envs/piezo1/bin/python` (D18).
 
 ## Results in figures
 
-One headline figure per completed task, newest last, each drawn by a script from that task's committed tables (roadmap end-of-session step 3b). S1–S5b predate this rule and have no figure yet (emergent row).
+One headline figure per completed task, in task order, each drawn by a script from that task's committed tables (roadmap end-of-session step 3b). S1–S5b's were drawn after the fact, from their tables as they now stand.
 
 **S0 — the catalogue.**
 
@@ -94,6 +94,42 @@ catalogued family. Red bars are the signatures also carried by something the
 catalogue does not count as a channel; `PF00520` reaches twenty families,
 including a phosphatase. Drawn from `results/s0_baseline/` by
 `scripts/s0_figures.py`.*
+
+**S1 — the classifier benchmark.**
+
+![S1: which tier made each call, and the hazards](results/benchmark_controls/figures/benchmark.png)
+
+*The 71 positive-panel proteins by the tier that made a correct call (architecture/hazard rule, selectivity-filter motif, reference identity) or by failure, per superfamily: most correct calls do not come from nearest-neighbour identity. **B** — every one of the 16 hazards the S1 panel exercises, called right and wrong (H2's absence rule failing is what S2b later rewrote; H17–H20 came later and are tested in the r4 benchmark). Drawn from `results/benchmark_controls/` by `scripts/s1_figures.py`.*
+
+**S2 — census v2.**
+
+![S2: records per superfamily by S2 call, and the largest families](results/census_v2/figures/census_v2.png)
+
+*Census v2 (now revision r4, 1,271,983 records). **A** — records per superfamily called to a family by S2's domain rules or stopping at the superfamily: Cys-loop, iGluR, CLC, DEG/ENaC and P2X stop there by design, their families sharing one architecture. **B** — the largest census families by domain-rule calls. Drawn from `results/census_v2/` by `scripts/s2_figures.py`.*
+
+**S3a — the profile library.**
+
+![S3a: profile calls against S2 calls, and what the profiles resolved](results/census_v3/figures/profiles.png)
+
+*Where S2's domain rules and the S3a profiles both make a call they agree 99.9 % of the time (seeds excluded; **A**, one dot per family). **B** — S2's superfamily-only records by what the profiles made of them. Drawn from `results/census_v3/` by `scripts/s3_figures.py`.*
+
+**S4 — the declared denominator.**
+
+![S4: 50 reference proteomes by BUSCO and scaffold N50](results/proteome_scope/figures/panel.png)
+
+*The 50 reference proteomes of the panel by BUSCO completeness and their assembly's scaffold N50, coloured by panel group; *Cornu* and *Torpedo* are genome-only. Drawn from `results/proteome_scope/proteome_manifest.tsv` by `scripts/s4_figures.py`.*
+
+**S3b — what domain search missed in the panel.**
+
+![S3b: channel members outside census v2, by family and by lineage](results/panel_sweep/figures/domain_search_missed.png)
+
+*High-confidence census-family members of the 50 proteomes that carry no enumerated pore signature (**A**, by family, with the share of the family), and the miss rate by lineage (**B**, census families only): 1 % in vertebrates, 12 % in plants. Includes the r4 families (MITOK has no Pfam domain at all). Drawn from `results/panel_sweep/` by `scripts/s3b_figures.py`.*
+
+**S5b — the presence matrix.**
+
+![S5b: every census family in every panel genome, by verdict](results/genome_sweep/figures/presence_matrix.png)
+
+*Every census family (columns, grouped by superfamily) in every panel species (rows), coloured by its genome verdict — the matrix S10's repertoire reconstruction starts from. Drawn from `results/genome_sweep/cells.tsv` by `scripts/s5_figures.py`.*
 
 
 **S6 — the alignments and the pore modules.**

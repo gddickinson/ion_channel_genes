@@ -74,7 +74,7 @@ FAMILIES: list[CF] = [
         stoichiometry="homodimer, two independent pores", tm_per_subunit=18,
         signatures=(CLC_SIG, CBS),
         exemplars=(Ex("Hs_CLCN1", "CLCN1", "Homo sapiens", "P35523"),
-                   Ex("Hs_CLCN2", "CLCN2", "Homo sapiens")),
+                   Ex("Hs_CLCN2", "CLCN2", "Homo sapiens", "P51788")),
         human_genes=("CLCN1", "CLCN2", "CLCNKA", "CLCNKB"),
         length_band_aa=(680, 1000), confusable_with=("clc_transporter", "H5"),
         notes=("CLC-K needs barttin (BSND) to traffic — an accessory subunit "
@@ -89,7 +89,7 @@ FAMILIES: list[CF] = [
         stoichiometry="homodimer", tm_per_subunit=18,
         signatures=(CLC_SIG, CBS),
         exemplars=(Ex("Hs_CLCN7", "CLCN7", "Homo sapiens", "P51798"),
-                   Ex("Hs_CLCN5", "CLCN5", "Homo sapiens")),
+                   Ex("Hs_CLCN5", "CLCN5", "Homo sapiens", "P51795")),
         human_genes=("CLCN3", "CLCN4", "CLCN5", "CLCN6", "CLCN7"),
         length_band_aa=(760, 900), confusable_with=("clc_channel", "H5"),
         notes=("Excluded from the channel census by mechanism, included in the "

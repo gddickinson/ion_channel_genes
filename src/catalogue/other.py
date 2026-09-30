@@ -70,7 +70,7 @@ FAMILIES: list[CF] = [
         signatures=(Sig("pfam", "PF07856", "Orai-1", L.FAMILY, 1, P.DB),),
         exemplars=(Ex("Hs_ORAI1", "ORAI1", "Homo sapiens", "Q96D31"),
                    Ex("Hs_ORAI2", "ORAI2", "Homo sapiens", "Q96SN7"),
-                   Ex("Dm_Orai", "Orai", "Drosophila melanogaster")),
+                   Ex("Dm_Orai", "Orai", "Drosophila melanogaster", "Q9U6B8")),
         human_genes=("ORAI1", "ORAI2", "ORAI3"),
         length_band_aa=(250, 310),
         notes=("Gated by STIM1 across an ER–plasma-membrane junction; ORAI1 "
@@ -151,9 +151,9 @@ FAMILIES: list[CF] = [
                     Sig("pfam", "PF00558", "Vpu", L.SUBFAMILY, 1, P.DB),
                     Sig("pfam", "PF02723", "CoV_E", L.SUBFAMILY, 1, P.DB),
                     Sig("pfam", "PF11289", "bCoV_viroporin", L.SUBFAMILY, 1, P.DB)),
-        exemplars=(Ex("IAV_M2", "M", "Influenza A virus"),
+        exemplars=(Ex("IAV_M2", "M", "Influenza A virus", "A3DRP1"),
                    Ex("HIV1_Vpu", "vpu", "Human immunodeficiency virus type 1", "P05919"),
-                   Ex("SARS2_E", "E", "Severe acute respiratory syndrome coronavirus 2")),
+                   Ex("SARS2_E", "E", "Severe acute respiratory syndrome coronavirus 2", "P0DTC4")),
         other_genes=("M2", "vpu", "E", "ORF3a", "p7", "2B"),
         length_band_aa=(60, 275),
         notes=("The amantadine target. In the catalogue with four subfamily "

@@ -24,6 +24,7 @@
 | `SESSION_LOG.md` | Running notes per session: what ran, what resulted, what's next. |
 | `FINDINGS.md` | **The biological story, task by task** — plain-language, appended after every completed task. |
 | `roadmap.md` | Feature-development history of the app itself (inherited v1.0–v1.7 plus this project's v2.x). |
+| `bin/envpy` | Runs a script in the `piezo1` analysis env (Biopython, matplotlib, BLAST+; D18): `bin/envpy scripts/s7_figures.py`. Override with `ION_CHANNEL_PY`. |
 | `data_root.txt` | Path to the bulk-data root, read by `src/utils/data_root.py`. |
 | `requirements.txt` | `requests` (required), `biopython` + `matplotlib` (search / analysis / figures only). |
 | `presets/` | `channelome_human` (all 320 census genes), `controls_benchmark` (the S1 panel: positives + one decoy per hazard), `ploop_domain_scan`, `channelome_all` (exhaustive mode), and the scoped surveys `kv_survey`, `cysloop_survey`, `intracellular_survey`, `channel_discovery`. |
@@ -224,6 +225,8 @@ operation and cannot be gated on an optional dependency.
 | `s20_curate.py` | **S20 step 2** — `CURATED`: the hand classification of every uncatalogued list gene (hard error if one is missing) → `uncatalogued.tsv`, `list_decomposition.tsv`, `census_missed_by_list.tsv`. |
 | `s20_aux.py` | **S20 step 3** — `groups` (all-vs-all phmmer among each auxiliary family's human genes → homology groups, `aux_groups.tsv`), `panel` (S3b auxiliary calls placed by reciprocal best hit against the whole human proteome → `aux_panel.tsv`, `aux_by_species.tsv`). |
 | `s20_figures.py`, `s20_report.py` | **S20** figure (`results/auxiliary/figures/auxiliary.png`) and `report.md` (D13). |
+| `s1_figures.py`, `s2_figures.py`, `s3_figures.py`, `s4_figures.py`, `s3b_figures.py`, `s5_figures.py` | The headline figures of S1–S5b, drawn after the fact from their committed tables: tier attribution + hazards; census v2 by superfamily; profile calibration + resolution; the denominator (BUSCO × N50); domain-search misses by family and lineage; the full presence matrix. |
+| `s3_piezo_unassigned.py` | Why census v3a leaves 2,258 PIEZO-census (v5) records unassigned — binned by D32 gate and length → `results/census_v3/piezo_unassigned*.tsv` (read-only comparison). |
 | `s14_lib.py`, `s14_figures.py`, `s14_claims.py`, `s14_deposit.py`, `s14_pdf.py`, `s14_assemble.py` | Manuscript assembly: page geometry and figure maps; figure copying under publication numbers; **the claim checker** (every load-bearing number declared with the table and op that recovers it, D12); the deposit manifest with SHA-256s; the typeset PDF; the driver with ordered stages and non-zero exit on a failed claim. |
 | `build_findings_page.py` + `findings_page.css` | Renders `docs/findings_summary.md` to one self-contained HTML page with figures inlined as WebP data URIs. |
 

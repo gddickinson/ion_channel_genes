@@ -97,8 +97,8 @@ FAMILIES: list[CF] = [
         selectivity=Sel.LARGE_PORE, gating=(G.VOLTAGE, G.CALCIUM),
         stoichiometry="octamer", tm_per_subunit=4,
         signatures=(INNEXIN,),
-        exemplars=(Ex("Ce_unc-7", "unc-7", "Caenorhabditis elegans"),
-                   Ex("Dm_ogre", "ogre", "Drosophila melanogaster")),
+        exemplars=(Ex("Ce_unc-7", "unc-7", "Caenorhabditis elegans", "Q03412"),
+                   Ex("Dm_ogre", "ogre", "Drosophila melanogaster", "P27716")),
         other_genes=("unc-7", "unc-9", "inx-6", "ogre", "shakB"),
         length_band_aa=(350, 550),
         notes=("~25 in *C. elegans*, ~8 in *Drosophila*. Invertebrates have no "

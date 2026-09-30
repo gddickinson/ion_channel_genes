@@ -31,6 +31,7 @@ close relative in the panel.
 from __future__ import annotations
 
 import argparse
+import dataclasses
 import json
 import sys
 import time
@@ -41,7 +42,7 @@ sys.path.insert(0, str(ROOT))
 
 from scripts.s0_lib import live_progress
 from src.catalogue import HAZARDS
-from src.classify import ReferenceSet, classify_all
+from src.classify import ChannelQuery, ReferenceSet, classify_all
 from src.classify.motifs import FOUR_REPEAT_ANCHOR, verify_anchor
 from src.classify.reference import fetch_uniprot_sequence
 from src.classify.report import (CALLS_HEADER, calls_table, confusion_table,
@@ -62,6 +63,9 @@ def main() -> int:
                     default=ROOT / "results" / "benchmark_controls")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--no-reference", action="store_true")
+    ap.add_argument("--refresh", action="store_true",
+                    help="re-fetch the panel's evidence instead of reading "
+                         "panel_evidence.json")
     args = ap.parse_args()
 
     out = args.out
@@ -81,7 +85,15 @@ def main() -> int:
         f"({FOUR_REPEAT_ANCHOR.reference_label} "
         f"{FOUR_REPEAT_ANCHOR.reference_uniprot} "
         f"{FOUR_REPEAT_ANCHOR.positions} == {FOUR_REPEAT_ANCHOR.expected})")
-    nav_ref = fetch_uniprot_sequence(FOUR_REPEAT_ANCHOR.reference_uniprot)
+    # The evidence the classifier consumes (sequence, Pfam counts, TM count,
+    # fragment flag) does not change between runs; it is cached in
+    # panel_evidence.json so the benchmark reruns offline (--refresh fetches).
+    cache_path = out / "panel_evidence.json"
+    ev = ({} if args.refresh or not cache_path.exists()
+          else json.loads(cache_path.read_text()))
+    nav_ref = ev.get("_nav_reference") or fetch_uniprot_sequence(
+        FOUR_REPEAT_ANCHOR.reference_uniprot)
+    ev["_nav_reference"] = nav_ref
     anchor_ok = bool(nav_ref) and verify_anchor(nav_ref)
     log(f"  anchor {'validates' if anchor_ok else 'DOES NOT VALIDATE'} "
         f"(reference {len(nav_ref)} aa)")
@@ -113,12 +125,16 @@ def main() -> int:
     live_progress(live, "S1", steps)
     queries, expected, alias = [], {}, {}
     for i, sym in enumerate(targets):
-        acc = sym if (len(sym) in (6, 10) and sym[1:2].isdigit()) \
-            else resolve_symbol(sym)
-        if not acc:
-            log(f"  [{i+1}/{len(targets)}] {sym}: UNRESOLVED")
-            continue
-        q = build_query(acc)
+        if sym in ev:
+            acc, q = ev[sym]["accession"], ChannelQuery(**ev[sym])
+        else:
+            acc = sym if (len(sym) in (6, 10) and sym[1:2].isdigit()) \
+                else resolve_symbol(sym)
+            if not acc:
+                log(f"  [{i+1}/{len(targets)}] {sym}: UNRESOLVED")
+                continue
+            q = build_query(acc)
+            ev[sym] = dataclasses.asdict(q)
         alias[acc] = sym
         if sym in expected_by_symbol:
             expected[acc] = expected_by_symbol[sym]
@@ -130,6 +146,7 @@ def main() -> int:
             f"{q.length_aa or '?':>5} aa  {len(q.pfam_counts)} pfam  "
             f"tm={q.tm_count}")
     live_progress(live, "S1", steps)
+    cache_path.write_text(json.dumps(ev, indent=0, sort_keys=True))
 
     # -- classify ---------------------------------------------------------
     n_self = 0

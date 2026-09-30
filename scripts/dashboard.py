@@ -48,6 +48,18 @@ FIGURES: list[tuple[str, str]] = [
     ("results/s0_baseline/figures/catalogue_scope.png",
      "S0 — what the catalogue counts, and which domain signatures are shared "
      "with something that is not a channel"),
+    ("results/benchmark_controls/figures/benchmark.png",
+     "S1 — which classifier tier made each call, and every hazard exercised"),
+    ("results/census_v2/figures/census_v2.png",
+     "S2 — census v2 by superfamily: family call or superfamily only"),
+    ("results/census_v3/figures/profiles.png",
+     "S3a — profile calls against S2's domain calls, and what they resolved"),
+    ("results/proteome_scope/figures/panel.png",
+     "S4 — the denominator: 50 proteomes by BUSCO and N50, plus 2 genome-only"),
+    ("results/panel_sweep/figures/domain_search_missed.png",
+     "S3b — channel members domain search never reaches, by family and lineage"),
+    ("results/genome_sweep/figures/presence_matrix.png",
+     "S5b — every census family in every panel genome, by verdict"),
     ("results/alignments/figures/alignments_modules.png",
      "S6 — what entered the family alignments (D39), and the pore modules "
      "checked against UniProt topology and the held-out span vote (D40)"),

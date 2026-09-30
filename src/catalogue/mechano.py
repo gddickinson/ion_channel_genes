@@ -55,7 +55,7 @@ FAMILIES: list[CF] = [
                     Sig("pfam", "PF23188", "THU_Piezo1", L.FAMILY, 1, P.DB),
                     Sig("pfam", "PF24874", "Piezo_THU9_anchor", L.FAMILY, 1, P.DB)),
         exemplars=(Ex("Hs_PIEZO1", "PIEZO1", "Homo sapiens", "Q92508"),
-                   Ex("Hs_PIEZO2", "PIEZO2", "Homo sapiens")),
+                   Ex("Hs_PIEZO2", "PIEZO2", "Homo sapiens", "Q9H5I5")),
         human_genes=("PIEZO1", "PIEZO2"),
         length_band_aa=(2500, 2850),
         notes=("38 TM helices per subunit — the largest TM count of any known "
@@ -89,7 +89,7 @@ FAMILIES: list[CF] = [
                     Sig("pfam", "PF05552", "MS_channel_1st_1", L.FAMILY, 1, P.DB),
                     Sig("pfam", "PF21082", "MS_channel_3rd", L.FAMILY, 1, P.DB)),
         exemplars=(Ex("Ec_MscS", "mscS", "Escherichia coli", "P0C0S1"),
-                   Ex("At_MSL10", "MSL10", "Arabidopsis thaliana")),
+                   Ex("At_MSL10", "MSL10", "Arabidopsis thaliana", "Q9LYG9")),
         other_genes=("mscS", "mscK", "MSL1", "MSL10"),
         length_band_aa=(250, 750),
         notes=("A superfamily in bacteria, archaea, plants, fungi and protists "
