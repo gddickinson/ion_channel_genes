@@ -611,3 +611,33 @@ and a calcium-channel γ-like protein) and eight proposed pore-forming
 channels are absent from it. The strongest case among the eight is the
 proton-activated chloride channel PACC1, whose structure has been solved
 *(pending: a catalogue decision)*.
+
+## S15 — which search methods find which channels (2026-09-29)
+
+**Searching for known protein domains finds almost every ion channel, but it
+usually cannot tell you which kind it is.** Of the 7,196 channel genes in the
+final census, 94 % carry one of the signature domains a standard database
+search looks for. For only 44 % do those domains identify the channel family.
+The worst cases are whole receptor classes:
+- nicotinic, GABA, glycine and serotonin receptors;
+- glutamate receptors;
+- the epithelial sodium and acid-sensing channels;
+- P2X receptors;
+- CLC chloride channels.
+
+In each class every family carries the same domains, so domain annotation
+can say "a pentameric receptor" but never "a GABA receptor". Sequence-profile
+methods separate them, and they get all but one of the 320 human channel
+genes right (the one missing is GLRA4, absent from the reference proteome)
+against 169 by domain annotation.
+
+**A few channels are nearly invisible to domain search.** The voltage-gated
+proton channel Hv1 is missed in 65 % of the species that have it, because its
+defining domain is only annotated in mammals. The CLIC chloride channels are
+missed in plants and ciliates, and the viral channels are missed entirely. For these a census
+built on domain annotation undercounts by construction.
+
+**Reading genomes directly adds about 5 %**, mostly from the two species
+with no protein annotation at all. Where a species' gene set exists, it
+rarely misses a whole channel gene; the clearest exception is the
+pufferfish ryanodine receptor (S5b).

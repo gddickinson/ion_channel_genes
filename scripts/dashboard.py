@@ -57,6 +57,9 @@ FIGURES: list[tuple[str, str]] = [
     ("results/auxiliary/figures/auxiliary.png",
      "S20 — three database channelomes (285 / 331 / 338, 400 in union) against the "
      "catalogue, and the auxiliary subunits' homology groups across the panel"),
+    ("results/method_contribution/figures/method_contribution.png",
+     "S15 — who finds each channel: domain search finds 94 % and names 44 %; "
+     "profiles and genomes supply the rest (Q3)"),
 ]
 
 #: Auto-discovered figures are capped so the page stays a reasonable size.

@@ -617,3 +617,23 @@ census revision; review text still quotes 240–400 from literature.
 
 ### Next
 S15 (user-directed), then S7b when the trees finish.
+
+## 2026-09-29 — S15 (out of order, user-directed): method contribution (Q3)
+
+**Ran.** `s15_contribution.py` (census v4 read once; human recall tables from
+S2 and S3b), `s15_report.py`, `s15_figures.py`. No network, no new searches —
+a measurement of the existing instruments against each other and against the
+curated human gene list.
+
+**Result.** Final-census frame 7,196 members: 94.2 % carry an enumerated pore
+signature, 44.1 % are named correctly by S2's domain rules, profiles add 1.3 %
+never enumerated, genomes 4.5 %. Human: 319 / 169 / 319. Enumeration < 95 %
+only for CLIC, Hv1, viroporins; the domain call is 0 % for Cys-loop,
+DEG/ENaC, P2X, CLC (and 0.3 % iGluR). Q3 thresholds (95 % / 50 %) fixed in the
+script before the table was read.
+
+**Not done.** The superfamily-seeded jackhmmer and six-frame profile scan
+designs (S3b / S5a emergent rows) — new instruments, left open.
+
+### Next
+S7b when the detached IQ-TREE run finishes (check `pgrep -f iqtree2`).

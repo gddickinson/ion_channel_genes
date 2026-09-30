@@ -1,0 +1,24 @@
+{
+ "frame_members": 7196,
+ "n_domain_call": 3175,
+ "n_domain_enumeration": 3602,
+ "n_profile": 96,
+ "n_genome": 323,
+ "proteome_members": 6873,
+ "human": {
+  "genes": 320,
+  "enumerated": 319,
+  "domain_call": 169,
+  "profile_call": 319
+ },
+ "q3_enumeration": {
+  "domain_search": 22,
+  "domain_partial": 1,
+  "profile_or_genome_only": 2
+ },
+ "q3_call": {
+  "domain_partial": 4,
+  "profile_or_genome_only": 10,
+  "domain_search": 11
+ }
+}

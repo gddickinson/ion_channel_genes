@@ -433,6 +433,18 @@ check("S20 category: census first; a channel_associated gene is auxiliary, never
 check("S20 homology groups are connected components (no edge = separate group)",
       _comp(["a", "b", "c", "d"], {("a", "b"), ("b", "c")}), [["a", "b", "c"], ["d"]])
 
+# --- S15: method contribution ------------------------------------------------
+from scripts.s15_contribution import q3 as _q3, step as _step     # noqa: E402
+check("S15 Q3 thresholds: >= 95 % domain search, >= 50 % partial, else profile/genome",
+      (_q3(0.95), _q3(0.94), _q3(0.5), _q3(0.49)),
+      ("domain_search", "domain_partial", "domain_partial", "profile_or_genome_only"))
+check("S15 curve step: genome first, then domain call, enumeration, profile",
+      (_step({"source": "genome", "v3a_basis": "both", "in_v2": "1"}),
+       _step({"source": "proteome", "v3a_basis": "both", "in_v2": "1"}),
+       _step({"source": "proteome", "v3a_basis": "profile_only", "in_v2": "1"}),
+       _step({"source": "proteome", "v3a_basis": "", "in_v2": "0"})),
+      ("genome", "domain_call", "domain_enumeration", "profile"))
+
 print()
 if FAILURES:
     print(f"{len(FAILURES)} invariant(s) FAILED: {', '.join(FAILURES)}")
