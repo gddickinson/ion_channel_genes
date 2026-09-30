@@ -632,7 +632,7 @@ genes right (the one missing is GLRA4, absent from the reference proteome)
 against 169 by domain annotation.
 
 **A few channels are nearly invisible to domain search.** The voltage-gated
-proton channel Hv1 is missed in 65 % of the species that have it, because its
+proton channel Hv1 is missed for 65 % of the panel's Hv1 genes, because its
 defining domain is only annotated in mammals. The CLIC chloride channels are
 missed in plants and ciliates, and the viral channels are missed entirely. For these a census
 built on domain annotation undercounts by construction.
