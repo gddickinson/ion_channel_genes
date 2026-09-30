@@ -20,21 +20,21 @@ S3a's **103 profiles**, unchanged (SHA-256 per profile in `sweep_runs.tsv`), sea
 
 The merge rule (fixed before the tables were read): an entry in census v2 keeps its v3a call; an entry outside it takes the S3b profile call (`panel_profile`); an entry only a jackhmmer run reaches is a `candidate`, never a family call (D14, D33).
 
-**28,897 of 822,499 panel entries** carry evidence; 12,406 are census v2 records.
+**28,891 of 822,499 panel entries** carry evidence; 12,406 are census v2 records.
 
 | v3_basis | v3_status | records |
 |---|---|---|
 | jackhmmer_only | candidate | 7980 |
 | v3a:profile_only | channel | 4789 |
-| panel_profile | non_channel_homolog | 4478 |
+| panel_profile | non_channel_homolog | 4472 |
 | v3a:both | channel | 3038 |
 | panel_profile | channel_associated | 2960 |
 | v3a:unassigned | unassigned | 1417 |
-| v3a:superfamily_only | superfamily_only | 1232 |
+| v3a:superfamily_only | superfamily_only | 1231 |
 | panel_profile | out_of_scope | 442 |
-| v3a:profile_only | channel_contested | 397 |
+| v3a:profile_only | channel_contested | 400 |
 | v3a:both | channel_contested | 389 |
-| v3a:profile_only | non_channel_homolog | 381 |
+| v3a:profile_only | non_channel_homolog | 379 |
 | panel_profile | transporter | 308 |
 | v3a:both | non_channel_homolog | 241 |
 | panel_profile | channel | 187 |
@@ -47,7 +47,7 @@ The merge rule (fixed before the tables were read): an entry in census v2 keeps 
 | v3a:s2_only | channel_contested | 9 |
 | v3a:s2_only | channel_associated | 8 |
 
-**Channel-family calls: 8,963, of which 250 (2.8 %) are outside census v2** — members of a census family that carry none of the 67 enumerated pore signatures, so no domain search over those signatures could have found them. **Only 107 of them are high-confidence profile calls** (margin ≥ 30 % and ≥ half the profile). The other 143 are medium, and the largest medium blocks are **not channels**: the TRPN profile is mostly its ankyrin-repeat array and the LRRC8 profile half leucine-rich repeat, so an ankyrin- or LRR-repeat protein (ANKRD52, ankyrin, IκB, titin…) can cover 30 % of the profile with the repeat module alone and pass D32's coverage gate. D32 assumed a shared module is a small part of the profile; for repeat-dominated profiles it is not (emergent). Read the high column as the finding and the rest as an upper bound. Per family, largest first:
+**Channel-family calls: 8,966, of which 250 (2.8 %) are outside census v2** — members of a census family that carry none of the 67 enumerated pore signatures, so no domain search over those signatures could have found them. **Only 107 of them are high-confidence profile calls** (margin ≥ 30 % and ≥ half the profile). The other 143 are medium, and the largest medium blocks are **not channels**: the TRPN profile is mostly its ankyrin-repeat array and the LRRC8 profile half leucine-rich repeat, so an ankyrin- or LRR-repeat protein (ANKRD52, ankyrin, IκB, titin…) can cover 30 % of the profile with the repeat module alone and pass D32's coverage gate. D32 assumed a shared module is a small part of the profile; for repeat-dominated profiles it is not (emergent). Read the high column as the finding and the rest as an upper bound. Per family, largest first:
 
 | family | superfamily | called | in_census_v2 | missed_by_domain_search | missed_high | missed_frac |
 |---|---|---|---|---|---|---|
@@ -77,7 +77,7 @@ The merge rule (fixed before the tables were read): an entry in census v2 keeps 
 | kv_eag | ploop | 243 | 241 | 2 | 0 | 0.0082 |
 | tweety | tweety | 61 | 59 | 2 | 2 | 0.0328 |
 
-Control families are reported apart: 8,188 of their 9,160 panel calls are outside census v2 — expected, since auxiliary subunits and non-channel homologues carry no pore signature by definition (D23).
+Control families are reported apart: 8,182 of their 9,152 panel calls are outside census v2 — expected, since auxiliary subunits and non-channel homologues carry no pore signature by definition (D23).
 
 By panel group (census families only):
 
@@ -95,8 +95,8 @@ By panel group (census families only):
 | algae | 71 | 4 | 1 | 5.3 % |
 | amoebozoa | 25 | 2 | 2 | 7.4 % |
 | excavate | 10 | 1 | 1 | 9.1 % |
-| fungi | 20 | 0 | 0 | 0.0 % |
-| apicomplexa | 8 | 0 | 0 | 0.0 % |
+| fungi | 22 | 0 | 0 | 0.0 % |
+| apicomplexa | 9 | 0 | 0 | 0.0 % |
 | virus | 3 | 0 | 0 | 0.0 % |
 
 Every missed record is listed in `missed_records.tsv`; the family × species counts S10 starts from are `family_by_species.tsv`.

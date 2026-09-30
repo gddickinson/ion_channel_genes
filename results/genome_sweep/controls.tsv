@@ -36,9 +36,9 @@ Oryza sativa	plant	11	11	0	0	1.0			11	1.0		10	10	1.0		1	1
 Paramecium tetraurelia	ciliate	14	8	4	2	0.5714	tpc,trpp	clic,itpr,mcu,osca_tmem63	14	1.0		12	12	1.0		2	2
 Petromyzon marinus	vertebrate	60	60	0	0	1.0			60	1.0		60	60	1.0		0	0
 Physcomitrium patens	plant	13	11	2	0	0.8462		kir,tweety	13	1.0		9	9	1.0		4	4
-Plasmodium falciparum	apicomplexa	5	0	2	3	0.0	osca_tmem63,tmco1,vdac	gphr,mscs	3	0.6	osca_tmem63,vdac	0	0			5	3
+Plasmodium falciparum	apicomplexa	6	0	2	4	0.0	osca_tmem63,tmco1,tmem87,vdac	gphr,mscs	4	0.6667	osca_tmem63,vdac	0	0			6	4
 Rattus norvegicus	vertebrate	62	61	1	0	0.9839		hv1	62	1.0		62	62	1.0		0	0
-Saccharomyces cerevisiae	fungi	3	0	2	1	0.0	vdac	gphr,osca_tmem63	3	1.0		2	2	1.0		1	1
+Saccharomyces cerevisiae	fungi	4	0	2	2	0.0	tmem87,vdac	gphr,osca_tmem63	3	0.75	tmem87	3	2	0.6667	tmem87	1	1
 Schizosaccharomyces pombe	fungi	5	1	2	2	0.2	ano_scramblase,tmem87	mscs,vdac	5	1.0		2	2	1.0		3	3
 Severe acute respiratory syndrome coronavirus 2	virus	1	0	0	1	0.0	viroporin		0	0.0	viroporin	1	0	0.0	viroporin	0	0
 Streptomyces lividans	prokaryote	3	1	0	2	0.3333	kcsa_prok,mscs		3	1.0		3	3	1.0		0	0

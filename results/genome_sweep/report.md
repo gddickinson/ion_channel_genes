@@ -6,9 +6,9 @@ Rendered by `scripts/s5_report.py` from the tables in this directory (D13). S5a 
 
 - **Bait panel**: 1808 baits for 91 catalogue families (controls included) from 50 panel species, one per species (B1–B3, D37).
 - **Sweep**: 52 genomes, 42.5 Gbp, 0 failures; 11,878 loci, **8,048 called to a family by the S3a profiles** (D32); miniprot 1.94 h. `-G` 1 Mb for genomes ≥ 1 Gbp, measured not assumed (D38).
-- **Positive control**: 1,457 of 1,584 control cells *found* (a profile-called locus), 1,557 detected by the whole instrument, with the genome's own species' baits excluded.
-- **Matched detection — the number every absence inherits: 1,460 / 1,470** control cells with an in-group non-self bait; unmatched 97 / 114. Below the 90% floor: Human immunodeficiency virus type 1, Influenza A virus, Severe acute respiratory syndrome coronavirus 2. No matched control at all (single-species groups — no absence readable): Chlamydomonas reinhardtii, Dictyostelium discoideum, Plasmodium falciparum, Trypanosoma brucei.
-- **Census v4**: census v3's 28,897 proteome rows unchanged + **451 genome loci** (435 from the genome-only species, 16 proteome misses) in 128 cells (`s5_census_v4.py`; SHA-256 in `census_v4.json`). A genome row is a locus, never merged into a proteome call.
+- **Positive control**: 1,457 of 1,586 control cells *found* (a profile-called locus), 1,558 detected by the whole instrument, with the genome's own species' baits excluded.
+- **Matched detection — the number every absence inherits: 1,460 / 1,471** control cells with an in-group non-self bait; unmatched 98 / 115. Below the 90% floor: Human immunodeficiency virus type 1, Influenza A virus, Saccharomyces cerevisiae, Severe acute respiratory syndrome coronavirus 2. No matched control at all (single-species groups — no absence readable): Chlamydomonas reinhardtii, Dictyostelium discoideum, Plasmodium falciparum, Trypanosoma brucei.
+- **Census v4**: census v3's 28,891 proteome rows unchanged + **451 genome loci** (435 from the genome-only species, 16 proteome misses) in 128 cells (`s5_census_v4.py`; SHA-256 in `census_v4.json`). A genome row is a locus, never merged into a proteome call.
 
 ## Per-genome control
 
@@ -51,9 +51,9 @@ Rendered by `scripts/s5_report.py` from the tables in this directory (D13). S5a 
 | Paramecium tetraurelia | ciliate | 14 | 8 | 14 | 12 | 12 | 1.0 |  | 2 | 2 |
 | Petromyzon marinus | vertebrate | 60 | 60 | 60 | 60 | 60 | 1.0 |  | 0 | 0 |
 | Physcomitrium patens | plant | 13 | 11 | 13 | 9 | 9 | 1.0 |  | 4 | 4 |
-| Plasmodium falciparum | apicomplexa | 5 | 0 | 3 | 0 | 0 |  |  | 5 | 3 |
+| Plasmodium falciparum | apicomplexa | 6 | 0 | 4 | 0 | 0 |  |  | 6 | 4 |
 | Rattus norvegicus | vertebrate | 62 | 61 | 62 | 62 | 62 | 1.0 |  | 0 | 0 |
-| Saccharomyces cerevisiae | fungi | 3 | 0 | 3 | 2 | 2 | 1.0 |  | 1 | 1 |
+| Saccharomyces cerevisiae | fungi | 4 | 0 | 3 | 3 | 2 | 0.6667 | tmem87 | 1 | 1 |
 | Schizosaccharomyces pombe | fungi | 5 | 1 | 5 | 2 | 2 | 1.0 |  | 3 | 3 |
 | Severe acute respiratory syndrome coronavirus 2 | virus | 1 | 0 | 0 | 1 | 0 | 0.0 | viroporin | 0 | 0 |
 | Streptomyces lividans | prokaryote | 3 | 1 | 3 | 3 | 3 | 1.0 |  | 0 | 0 |
@@ -69,15 +69,15 @@ Rendered by `scripts/s5_report.py` from the tables in this directory (D13). S5a 
 
 ## Zero cells: what the genomes say about S3b's absences
 
-2,253 zero cells (census family × species with no proteome call); 277 informative (the family is present at high confidence in another species of the group). Every cell is in `cells.tsv`.
+2,251 zero cells (census family × species with no proteome call); 276 informative (the family is present at high confidence in another species of the group). Every cell is in `cells.tsv`.
 
 | verdict | all | informative |
 |---|---|---|
-| no_locus_unrescued | 1581 | 0 |
+| no_locus_unrescued | 1580 | 0 |
 | partial | 314 | 27 |
 | genome_present | 115 | 113 |
 | gap | 107 | 11 |
-| absent | 84 | 84 |
+| absent | 83 | 83 |
 | trace | 18 | 18 |
 | genome_weak | 17 | 9 |
 | genome_found | 13 | 11 |
@@ -88,7 +88,7 @@ Informative zero cells by group:
 | group | genome_present | absent | partial | trace | genome_found | gap | genome_weak | unmatched | total |
 |---|---|---|---|---|---|---|---|---|---|
 | prokaryote |  | 29 |  | 3 |  |  |  |  | 32 |
-| fungi |  | 2 | 1 | 1 |  |  |  |  | 4 |
+| fungi |  | 1 | 1 | 1 |  |  |  |  | 3 |
 | plant |  | 1 | 6 | 1 |  |  |  |  | 8 |
 | ciliate |  |  |  | 1 |  |  |  |  | 1 |
 | holozoa |  | 2 | 2 | 1 | 1 | 4 | 2 | 2 | 14 |
@@ -174,7 +174,6 @@ A profile-called locus without a high-confidence intact frame: retrocopies, fram
 | tmco1 | absent | 1 | M. brevicollis | pooled |
 | tmem109 | absent | 2 | P. marinus, C. milii | group |
 | tmem175 | absent | 1 | T. adhaerens | pooled |
-| tmem87 | absent | 1 | S. cerevisiae | pooled |
 | tpc | absent | 2 | C. elegans, D. melanogaster | group |
 | tric | absent | 1 | M. brevicollis | pooled |
 | trpp | absent | 1 | D. pulex | group |

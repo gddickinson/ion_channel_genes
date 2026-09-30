@@ -1,26 +1,26 @@
 {
   "panel_entries": 822499,
-  "with_evidence": 28897,
+  "with_evidence": 28891,
   "in_census_v2": 12406,
   "status": {
     "channel": 8105,
     "out_of_scope": 442,
     "candidate": 7980,
     "channel_associated": 3143,
-    "channel_contested": 858,
-    "non_channel_homolog": 5100,
+    "channel_contested": 861,
+    "non_channel_homolog": 5092,
     "transporter": 475,
     "unassigned": 1417,
-    "superfamily_only": 1305,
+    "superfamily_only": 1304,
     "conflict": 72
   },
   "basis": {
     "v3a:both": 3843,
-    "panel_profile": 8511,
+    "panel_profile": 8505,
     "jackhmmer_only": 7980,
-    "v3a:profile_only": 5734,
+    "v3a:profile_only": 5735,
     "v3a:unassigned": 1417,
-    "v3a:superfamily_only": 1232,
+    "v3a:superfamily_only": 1231,
     "v3a:conflict": 72,
     "v3a:s2_only": 108
   },

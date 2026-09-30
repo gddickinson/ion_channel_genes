@@ -293,7 +293,7 @@ than expanding the task in progress.
 | 2026-09-29 | S2d | **Seven r4 profiles rested on one seed** | closed 2026-09-30 — R2 exemplars added (reviewed orthologues, others held out) and R3's fragment test fixed: TMCO1 4 seeds, EMC3 5, CLCC1 6, GOST 4, TMEM87 2, TMEM87B 2, TMEM109 2; MITOK and BRI3BP stay single-seed (no reviewed orthologue to spare / BRI3BP's only held-out decoy kept). Set B 542 → 745 orthologues (744 correct), 59 decoys, 0 called a channel |
 | 2026-09-29 | S2d | **Downstream tasks predate r4**: S6's D39 alignment sets and the running S7 trees hold no member of the new families; S20's auxiliary homology groups and panel test predate KChIP/TMEM37; S3b's jackhmmer completeness has no run for the new families. Each is noted in its report; extend when those tasks are next touched | open |
 | 2026-09-30 | S5c | **Eleven controlled absences of the r4 families are measurements, not literature.** Two stand out: PACC1 absent from *Takifugu* (zebrafish and every other vertebrate carry it) and CLCC1 absent from all three ecdysozoans. Each is a candidate for S10's checks against published distributions before any is stated as a loss; the single-seed CLCC1/MITOK/TMEM109 profiles bound how far the instrument reaches | open (S10) |
-| 2026-09-30 | S2f | **Are any non-animal GOST proteins TMEM87 orthologues?** None carries TMEM87's GOLD domain (PF21901, metazoan-only), yet plant, *S. pombe*, *Dictyostelium* and holozoan GOST proteins are called TMEM87 at high confidence against a GOST decoy seeded from animal GPR107/108, *Arabidopsis* CAND6 and yeast PTM1. A GOST-superfamily tree (TMEM87A/B, GPR107/108, fungal/plant GOST) answers it — and dates the TMEM87A/B duplication (the D45 premise). **Until then S10 restricts TMEM87 presence/absence to Metazoa**, and yeast TMEM87 'absent' is not a finding | open (S7/S8, S10) |
+| 2026-09-30 | S2f | **Are any non-animal GOST proteins TMEM87 orthologues?** None carries TMEM87's GOLD domain (PF21901, metazoan-only), yet plant, *S. pombe*, *Dictyostelium* and holozoan GOST proteins are called TMEM87 at high confidence against a GOST decoy seeded from animal GPR107/108, *Arabidopsis* CAND6 and yeast PTM1. A GOST-superfamily tree (TMEM87A/B, GPR107/108, fungal/plant GOST) answers it — and dates the TMEM87A/B duplication (the D45 premise). **Until then S10 restricts TMEM87 presence/absence to Metazoa**, and yeast TMEM87 'absent' is not a finding | closed 2026-09-30 — **yes: TMEM87 is a pan-eukaryotic lineage and its GOLD domain an animal addition.** GOST superfamily tree (`scripts/s7_gost_tree.py`, 115 panel proteins, Q.pfam+R7, 1000 UFBoot): the largest clade holding every animal TMEM87 and no animal GPR107/108 has **UFBoot 100** and contains 17 of 36 non-animal GOST proteins (plants, moss, both yeasts, *Dictyostelium*, *Plasmodium*, *Monosiga*, *Capsaspora*); the profile calls agree with the tree on 33/36 (the exceptions: the two yeast proteins, called GOST only because I had seeded the decoy with PTM1 — reverted — and *Plasmodium*, superfamily-only). A first reading took the smallest clade and concluded the opposite; corrected before any change was kept. The TMEM87A/B duplication is **not** dated by this tree (neither paralogue forms a clade) → `results/phylogeny/gost/report.md` |
 
 ---
 
@@ -631,6 +631,13 @@ for TMEM87A only — a literature note (D24). This differs from the CLC and
 anoctamin channel/non-channel splits, which are old enough that every
 lineage's genes fall clearly on one side. Counting by descent also turned
 H18 into a positive test (`PF21901`, D33). User decision, 2026-09-30.
+*Amended the same day*: the GOST tree shows TMEM87 is a pan-eukaryotic
+lineage (UFBoot 100) whose GOLD domain is an animal addition, so the family
+spans eukaryotes (PF21901 marks it only in animals; the profile margin marks
+it elsewhere). The tree does **not** resolve TMEM87A or TMEM87B as clades,
+so "the split is a vertebrate duplication" is unverified; D45 rests on the
+measured fact that no sequence method separated non-mammalian TMEM87 into A
+and B.
 
 **D28 — A missing tool disables a test, loudly.** `MafftUnavailable` is
 raised, not caught; a missing IQ-TREE writes the alignment and no tree, with

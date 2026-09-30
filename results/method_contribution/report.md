@@ -6,7 +6,7 @@ Rendered by `scripts/s15_report.py` from the tables in this directory (D13), whi
 
 ## The answer
 
-**Domain search finds the channels; it cannot name most of them.** Of the final census's 7,395 high-confidence census-family members (panel frame, below), **94.0% carry an enumerated pore signature**, but S2's domain rules call only **44.3%** of them to the family the profiles do. Profiles add 107 proteome members domain search never enumerated (1.4%); genomes add 336 loci the proteomes lack (4.5%).
+**Domain search finds the channels; it cannot name most of them.** Of the final census's 7,397 high-confidence census-family members (panel frame, below), **94.0% carry an enumerated pore signature**, but S2's domain rules call only **44.3%** of them to the family the profiles do. Profiles add 107 proteome members domain search never enumerated (1.4%); genomes add 336 loci the proteomes lack (4.5%).
 
 On the independent human frame (the 329 curated census genes): domain search enumerates **327**, calls **175** to the right family, and the profiles call **328**.
 
@@ -39,7 +39,7 @@ On the independent human frame (the 329 curated census genes): domain search enu
 | clc | 72 | 0% | 94% | 94% | 100% | domain_search | profile_or_genome_only | 0 | 4 / 0 / 4 of 4 | no clean run |
 | tweety | 63 | 92% | 92% | 95% | 100% | domain_search | domain_search | 1 | 3 / 3 / 3 of 3 | no clean run |
 | orai | 54 | 96% | 96% | 96% | 100% | domain_search | domain_search | 7 | 3 / 3 / 3 of 3 | 52/52 |
-| tmem87 | 51 | 59% | 94% | 94% | 100% | domain_search | domain_partial | 1 | 2 / 2 / 2 of 2 | no clean run |
+| tmem87 | 53 | 57% | 94% | 94% | 100% | domain_search | domain_partial | 1 | 2 / 2 / 2 of 2 | no clean run |
 | tric | 48 | 94% | 94% | 94% | 100% | domain_search | domain_search | 1 | 2 / 2 / 2 of 2 | 45/45 |
 | piezo | 45 | 91% | 98% | 98% | 100% | domain_search | domain_partial | 0 | 2 / 2 / 2 of 2 | no clean run |
 | tmem175 | 45 | 96% | 96% | 96% | 100% | domain_search | domain_search | 4 | 1 / 1 / 1 of 1 | 44/44 |

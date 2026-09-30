@@ -6,7 +6,7 @@ Sweep database: census v2 collapsed to **1,187,702 unique sequences** (1,245,200
 
 ## 1. The profile library
 
-**103 profiles**, one per catalogue family (census and control families alike, so a decoy has a profile to win), from **911 seeds**: R1 curated human genes 491, R2 catalogue exemplars 53, R3 reviewed S2 family calls (one per species, round-robin over groups) 367. Seeds are disjoint across families by construction (the build aborts otherwise). MAFFT L-INS-i single-threaded, hmmbuild; SHA-256 of every seed set, alignment and profile in `profile_build.tsv`. Match states total 76,953.
+**103 profiles**, one per catalogue family (census and control families alike, so a decoy has a profile to win), from **910 seeds**: R1 curated human genes 491, R2 catalogue exemplars 52, R3 reviewed S2 family calls (one per species, round-robin over groups) 367. Seeds are disjoint across families by construction (the build aborts otherwise). MAFFT L-INS-i single-threaded, hmmbuild; SHA-256 of every seed set, alignment and profile in `profile_build.tsv`. Match states total 76,974.
 
 **21 profiles rest on one or two sequences** — the families with no human genes and no S2 family calls. They are reported as thin, not padded:
 
@@ -97,17 +97,17 @@ Per family (largest 30; full table `calibration.tsv`):
 
 ## 4. Census v3a
 
-**1,275,990 records**; **756,063 (59.3 %) now carry a family call** — both instruments 300,922, S2 only 13,109, profile only 442,032 — against 314,205 (24.6 %) in S2 (r3 (S2c, 2026-09-28: H2/H4/H11/H12/H13 positive tests)). Superfamily only 107,123; unassigned 409,882; **conflict 2,922**, kept and counted.
+**1,275,990 records**; **756,515 (59.3 %) now carry a family call** — both instruments 300,922, S2 only 13,109, profile only 442,484 — against 314,205 (24.6 %) in S2 (r3 (S2c, 2026-09-28: H2/H4/H11/H12/H13 positive tests)). Superfamily only 106,616; unassigned 409,937; **conflict 2,922**, kept and counted.
 
 **What the profile-only calls have not been tested on.** The superfamily splits below (Cys-loop, iGluR, DEG/ENaC, P2X, CLC, TMEM16) are families S2 never called, so section 3 cannot check them, and section 2's orthologue test is vertebrate. Where those calls fall in invertebrates, plants and protists they rest on profiles seeded mostly from human genes and have no independent check yet.
 
 | status | records |
 |---|---|
 | channel | 622375 |
-| unassigned | 409882 |
-| superfamily_only | 107123 |
-| channel_contested | 55573 |
-| non_channel_homolog | 38721 |
+| unassigned | 409937 |
+| superfamily_only | 106616 |
+| channel_contested | 56769 |
+| non_channel_homolog | 37977 |
 | transporter | 35213 |
 | channel_associated | 4181 |
 | conflict | 2922 |
@@ -128,19 +128,19 @@ Per family (largest 30; full table `calibration.tsv`):
 
 ### What happened to S2's unassigned records
 
-524,177 records S2 left unassigned: `no_hit` 321,240 (61.3 %); `family` 113,046 (21.6 %); `module` 71,503 (13.6 %); `low_score` 17,136 (3.3 %); `superfamily_only` 1,249 (0.2 %); `ambiguous` 3 (0.0 %). A `module` verdict is a profile match over less than 30% of the family profile and is deliberately not a call; `no_hit` means no profile reported the record at all. S2 traced most of its unassigned records to three co-domain signatures (cNMP, SBP_bac_3, PAS); which of these two verdicts those records received is not broken down here.
+524,177 records S2 left unassigned: `no_hit` 321,285 (61.3 %); `family` 113,498 (21.7 %); `module` 71,503 (13.6 %); `low_score` 17,146 (3.3 %); `superfamily_only` 742 (0.1 %); `ambiguous` 3 (0.0 %). A `module` verdict is a profile match over less than 30% of the family profile and is deliberately not a call; `no_hit` means no profile reported the record at all. S2 traced most of its unassigned records to three co-domain signatures (cNMP, SBP_bac_3, PAS); which of these two verdicts those records received is not broken down here.
 
 | p_call | v3_family | records |
 |---|---|---|
-| no_hit | - | 321240 |
+| no_hit | - | 321285 |
 | module | - | 71503 |
 | family | mscs | 61863 |
-| low_score | - | 17136 |
+| low_score | - | 17146 |
 | family | ano_scramblase | 8732 |
-| family | nonchannel_gost | 5021 |
+| family | tmem87 | 4470 |
 | family | nonchannel_emc3 | 4294 |
+| family | nonchannel_gost | 4277 |
 | family | viroporin | 3560 |
-| family | tmem87 | 3274 |
 | family | trpm | 2831 |
 | family | osca_tmem63 | 2817 |
 | family | trpv | 2499 |
@@ -267,5 +267,5 @@ Reverse direction — of this census's own itpr / ryr / piezo calls, how many th
 
 | file | bytes | sha256 | records |
 |---|---|---|---|
-| hmmer/s3/census_v3.tsv.gz | 21786697 | 48580dc1549aad48e9e69c0ed995408c06a54b0aa495d9562b1f6f0e1b3aabc3 | 1275990 |
-| hmmer/s3/profile_calls.tsv.gz | 33925346 | 600bc2f9ece1b9d9a93c21dd942b9fb0eb69901728fb48aec7269f5d59b1ca21 | 883706 |
+| hmmer/s3/census_v3.tsv.gz | 21773073 | 76997c6b796b81de22958f2164194b5f04bb9fc4b0d8c7797bc2d2f22a77c8de | 1275990 |
+| hmmer/s3/profile_calls.tsv.gz | 33890462 | e7b47f946bcf287e0de6bc7ac3f2b4c95f9226886a828385152f64aaf1ece8f8 | 883661 |

@@ -9,16 +9,17 @@
   "family_called_loci": 8048,
   "miniprot_cpu_h": 1.94,
   "cells": 3900,
-  "control_cells": 1584,
+  "control_cells": 1586,
   "control_found": 1457,
-  "control_detected": 1557,
-  "matched_control_cells": 1470,
+  "control_detected": 1558,
+  "matched_control_cells": 1471,
   "matched_control_detected": 1460,
-  "unmatched_control_cells": 114,
-  "unmatched_control_detected": 97,
+  "unmatched_control_cells": 115,
+  "unmatched_control_detected": 98,
   "genomes_below_floor": [
     "Human immunodeficiency virus type 1",
     "Influenza A virus",
+    "Saccharomyces cerevisiae",
     "Severe acute respiratory syndrome coronavirus 2"
   ],
   "genomes_no_matched_control": [
@@ -27,11 +28,11 @@
     "Plasmodium falciparum",
     "Trypanosoma brucei"
   ],
-  "zero_cells": 2253,
+  "zero_cells": 2251,
   "zero_verdicts": {
-    "no_locus_unrescued": 1581,
+    "no_locus_unrescued": 1580,
     "partial": 314,
-    "absent": 84,
+    "absent": 83,
     "trace": 18,
     "gap": 107,
     "genome_weak": 17,
@@ -39,9 +40,9 @@
     "unmatched": 4,
     "genome_present": 115
   },
-  "informative_zero_cells": 277,
+  "informative_zero_cells": 276,
   "informative_verdicts": {
-    "absent": 84,
+    "absent": 83,
     "trace": 18,
     "partial": 27,
     "genome_found": 11,
@@ -50,18 +51,18 @@
     "gap": 11,
     "genome_present": 113
   },
-  "traces": 185,
+  "traces": 186,
   "families_with_span": 72,
   "annotated_loci": 4484,
   "control_floor": 0.9,
   "census_v4": {
-    "census_v3_rows": 28897,
+    "census_v3_rows": 28891,
     "genome_rows": 451,
     "genome_only_rows": 435,
     "genome_found_rows": 16,
     "genome_cells_added": 128,
-    "census_v3_sha256": "fe3fcc25a24e4b2bfe3aa58b7cdd79f14faa93058f5273e8e682aa0912e6e467",
-    "census_v4_sha256": "d6509d73fbb73e220a4e645b6be938a487c1b7f05f5247fcca55cf8c1fbbf160",
+    "census_v3_sha256": "38ea7f0e94cbb48865868efaa3324af1b51a394da1953ffc7d1a4fa5201f3067",
+    "census_v4_sha256": "5430d3d2c34e4ee96147910093658781c4b443ec8236833c945b7d4375b1d6c0",
     "census_v4": "/Volumes/FANTOM/ION_CHANNEL_DATA/genomes/s5/census_v4.tsv.gz"
   }
 }

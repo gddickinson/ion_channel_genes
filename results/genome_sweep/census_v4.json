@@ -1,10 +1,10 @@
 {
-  "census_v3_rows": 28897,
+  "census_v3_rows": 28891,
   "genome_rows": 451,
   "genome_only_rows": 435,
   "genome_found_rows": 16,
   "genome_cells_added": 128,
-  "census_v3_sha256": "fe3fcc25a24e4b2bfe3aa58b7cdd79f14faa93058f5273e8e682aa0912e6e467",
-  "census_v4_sha256": "d6509d73fbb73e220a4e645b6be938a487c1b7f05f5247fcca55cf8c1fbbf160",
+  "census_v3_sha256": "38ea7f0e94cbb48865868efaa3324af1b51a394da1953ffc7d1a4fa5201f3067",
+  "census_v4_sha256": "5430d3d2c34e4ee96147910093658781c4b443ec8236833c945b7d4375b1d6c0",
   "census_v4": "/Volumes/FANTOM/ION_CHANNEL_DATA/genomes/s5/census_v4.tsv.gz"
 }

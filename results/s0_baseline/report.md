@@ -1,6 +1,6 @@
 # S0 — catalogue verification baseline
 
-*Generated 2026-09-30 12:25:36 by `scripts/s0_report.py` from the tables in `results/s0_baseline`. Nothing here is hand-written (D13). 907 live requests, 0 failure(s), 605.8 s.*
+*Generated 2026-09-30 15:45:39 by `scripts/s0_report.py` from the tables in `results/s0_baseline`. Nothing here is hand-written (D13). 904 live requests, 0 failure(s), 600.5 s.*
 
 ## What the catalogue claims
 
@@ -12,8 +12,8 @@
 | families control | 28 |
 | human genes census | 329 |
 | human genes catalogued | 496 |
-| exemplars | 197 |
-| exemplars with accession | 197 |
+| exemplars | 196 |
+| exemplars with accession | 196 |
 | signatures | 132 |
 | shared signatures | 31 |
 | hazards | 20 |
@@ -45,11 +45,11 @@ The census denominator is **329 human pore-forming genes** across **75 families*
 
 ## 3. Exemplars
 
-197 exemplars declared; 190 resolved cleanly, 0 unresolvable, 0 with a declared accession that names a different gene, 0 where UniProt's primary symbol differs from the catalogue's.
+196 exemplars declared; 189 resolved cleanly, 0 unresolvable, 0 with a declared accession that names a different gene, 0 where UniProt's primary symbol differs from the catalogue's.
 
 | status | n |
 |---|---|
-| ok | 190 |
+| ok | 189 |
 | NO_GENE_NAME_IN_UNIPROT | 7 |
 
 Every exemplar that did not resolve cleanly:
@@ -64,11 +64,11 @@ Every exemplar that did not resolve cleanly:
 | bestrophin | Kp_BEST | best | Klebsiella pneumoniae | W9BH30 | W9BH30 | — | NO_GENE_NAME_IN_UNIPROT |
 | nonchannel_achbp | Ls_AChBP | achbp | Lymnaea stagnalis | P58154 | P58154 | — | NO_GENE_NAME_IN_UNIPROT |
 
-`reference_panel.fasta` holds 197 sequences — the panel the classifier's reference tier scores against.
+`reference_panel.fasta` holds 196 sequences — the panel the classifier's reference tier scores against.
 
 ## 4. Declared architecture vs observed
 
-197 exemplars had their Pfam architecture re-derived. **159 match the catalogue's declaration; 38 do not.**
+196 exemplars had their Pfam architecture re-derived. **158 match the catalogue's declaration; 38 do not.**
 
 A mismatch is not automatically an error in the catalogue — a signature declared for a family need not be present on every member, and that is exactly what hazard **H7** records for the TRP families. It is, however, always something a person should look at.
 

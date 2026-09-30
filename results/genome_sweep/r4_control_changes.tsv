@@ -29,9 +29,9 @@ Oryza sativa	control_cells,detected,matched_cells,matched_detected	8	1.0	11	1.0
 Paramecium tetraurelia	control_cells,detected,matched_cells,matched_detected	12	1.0	14	1.0
 Petromyzon marinus	control_cells,detected,matched_cells,matched_detected	54	1.0	60	1.0
 Physcomitrium patens	control_cells,detected,matched_cells,matched_detected	11	1.0	13	1.0
-Plasmodium falciparum	control_cells,detected,detection	3		5	
+Plasmodium falciparum	control_cells,detected,detection	3		6	
 Rattus norvegicus	control_cells,detected,matched_cells,matched_detected	55	1.0	62	1.0
-Saccharomyces cerevisiae	control_cells,detected	2	1.0	3	1.0
+Saccharomyces cerevisiae	control_cells,detected,detection,matched_cells,matched_detection	2	1.0	4	0.6667
 Schizosaccharomyces pombe	control_cells,detected	4	1.0	5	1.0
 Strongylocentrotus purpuratus	control_cells,detected,detection,matched_cells,matched_detected,matched_detection	43	0.9767	47	0.9787
 Takifugu rubripes	control_cells,detected,matched_cells,matched_detected	51	1.0	57	1.0

@@ -169,10 +169,11 @@ tmem175	deuterostome	6	1.0	1.0
 tmem175	holozoa	1	1.0	1.0
 tmem175	vertebrate	11	1.0	1.0
 tmem87	amoebozoa	1	1.0	0.0
+tmem87	apicomplexa	1	1.0	0.0
 tmem87	basal_metazoan	1	1.0	0.0
 tmem87	cnidarian	2	1.0	0.0
 tmem87	deuterostome	3	1.0	0.6667
-tmem87	fungi	1	1.0	0.0
+tmem87	fungi	2	1.0	0.0
 tmem87	holozoa	2	1.0	0.0
 tmem87	invertebrate	6	1.0	0.6667
 tmem87	plant	6	1.0	0.0

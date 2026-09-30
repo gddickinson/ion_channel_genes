@@ -76,6 +76,7 @@ Tetrahymena thermophila	tpc	GG662644.1	257724	258713	5	62.0	5.19e-09	22.899	tpc|
 Tetrahymena thermophila	tpc	GG662794.1	111949	112708	2	40.4	1.7e-06	47.368	tpc|A0CNH5	control
 Tetrahymena thermophila	trpp	GG662639.1	763584	764276	1	60.5	1.4e-08	27.206	trpp|A0D267	control
 Plasmodium falciparum	tmco1	AL844509.3	2493140	2493700	32	92.4	3.17e-22	37.037	tmco1|F6VKC0	control
+Plasmodium falciparum	tmem87	LN999947.1	642512	643513	21	84.7	6.97e-17	23.871	tmem87|A0A7M7PRI5	control
 Monosiga brevicollis	clic	CH991576.1	170223	171203	4	62.4	3.2e-11	22.188	clic|B3RWE0	control
 Monosiga brevicollis	vdac	CH991550.1	366241	366675	1	76.6	2.68e-15	31.579	vdac|Q18090	control
 Monosiga brevicollis	vdac	CH991582.1	320527	321485	27	115.0	1.09e-28	29.278	vdac|A0A0D2WY38	control

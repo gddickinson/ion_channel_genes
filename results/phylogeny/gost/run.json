@@ -1,0 +1,6 @@
+{
+ "sequences": 115,
+ "trimmed_columns": 442,
+ "model": "Q.pfam+R7",
+ "iqtree": "-m MFP -mset LG,WAG,JTT,Q.pfam -B 1000 -bnni -seed 1"
+}

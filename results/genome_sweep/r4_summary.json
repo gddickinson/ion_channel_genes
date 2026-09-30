@@ -6,10 +6,10 @@
   "controls_changed": 41,
   "r4_cells": 364,
   "r4_verdicts": {
-    "no_locus_unrescued": 139,
+    "no_locus_unrescued": 138,
     "partial": 24,
-    "absent": 12,
-    "present": 167,
+    "present": 169,
+    "absent": 11,
     "gap": 6,
     "genome_weak": 2,
     "genome_found": 2,

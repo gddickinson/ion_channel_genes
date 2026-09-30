@@ -183,15 +183,15 @@ FAMILIES: list[CF] = [
                   Ex("Mm_Gpr107", "Gpr107", "Mus musculus", "Q8BUV8"),
                   Ex("Mm_Gpr108", "Gpr108", "Mus musculus", "Q91WD0"),
                   Ex("At_CAND6", "CAND6", "Arabidopsis thaliana", "Q9LZ39",
-                     "plant GOST protein; no TMEM87 GOLD domain"),
-                  Ex("Sc_PTM1", "PTM1", "Saccharomyces cerevisiae", "P32857",
-                     "yeast GOST protein; no TMEM87 GOLD domain")),
+                     "plant GOST protein; no TMEM87 GOLD domain")),
        human_genes=("GPR107", "GPR108"), length_band_aa=(480, 650),
        confusable_with=("H18",),
        notes=("Golgi seven-TM proteins; GPR107/108 are not GPCRs despite the "
-              "symbol. They — and the fungal and plant GOST proteins, seeded "
-              "here after TMEM87-by-descent drew them in (D45) — lack TMEM87's "
-              "GOLD domain (PF21901), whose 1,660 carriers are all metazoan."),
+              "symbol, and *Arabidopsis* CAND6 is on their side of the GOST tree "
+              "(results/phylogeny/gost/). Neither they nor the non-animal "
+              "TMEM87s carry TMEM87's GOLD domain (PF21901), an animal addition "
+              "to a pan-eukaryotic TMEM87 lineage — so the domain cannot mark "
+              "the lineage outside animals; the profile margin does."),
        provenance=P.CURATED),
     CF(key="nonchannel_bri3bp", name="BRI3-binding protein (BRI3BP)",
        superfamily="tmem109", status=St.NON_CHANNEL_HOMOLOG, fold=Fold.TMEM109,

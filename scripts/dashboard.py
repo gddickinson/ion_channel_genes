@@ -78,6 +78,8 @@ FIGURES: list[tuple[str, str]] = [
     ("results/genome_sweep/figures/genome_r4.png",
      "S5c — the r4 families in the 52 genomes: proteome, genome-only, partial, "
      "controlled absence"),
+    ("results/phylogeny/gost/figures/gost_tree.png",
+     "TMEM87 is a pan-eukaryotic lineage: the GOST superfamily tree"),
 ]
 
 #: Auto-discovered figures are capped so the page stays a reasonable size.

@@ -37,6 +37,7 @@ trpv	ploop	channel	6799	0	0	6799	6799	0	0	0
 mcu	mcu	channel	6468	6191	277	0	6465	3	0	0
 clic	clic	channel_contested	6353	6290	63	0	6352	1	0	0
 clc_channel	clc	channel	6315	0	0	6315	6315	0	0	0
+tmem87	tmem87	channel_contested	6130	1602	58	4470	6130	0	0	0
 glyr	cysloop	channel	6125	0	0	6125	6125	0	0	0
 otop	otopetrin	channel	6107	5366	741	0	6107	0	0	0
 itpr	ca_release	channel	5906	0	0	5906	5906	0	0	0
@@ -46,13 +47,12 @@ catsper	ploop	channel	5633	0	0	5633	3627	2002	4	0
 tpc	ploop	channel	5390	0	0	5390	5390	0	0	0
 hcn	ploop	channel	5203	3537	3	1663	5203	0	0	0
 piezo	piezo	channel	5065	3512	1	1552	5065	0	0	0
-nonchannel_gost	tmem87	non_channel_homolog	5021	0	0	5021	5021	0	0	0
 calhm	calhm	channel	4946	4779	167	0	4946	0	0	0
-tmem87	tmem87	channel_contested	4934	1602	58	3274	4934	0	0	0
 trpml	ploop	channel	4707	4500	190	17	4707	0	0	0
 tweety	tweety	channel_contested	4677	4453	224	0	4676	1	0	0
 lrrc8	innexin_like	channel	4357	4109	248	0	4356	1	0	0
 nonchannel_emc3	tmco1	non_channel_homolog	4294	0	0	4294	4294	0	0	0
+nonchannel_gost	tmem87	non_channel_homolog	4277	0	0	4277	4277	0	0	0
 delta_glur	iglur	channel_contested	4169	0	0	4169	4169	0	0	0
 assoc_polycystin1	ploop	channel_associated	4160	3972	160	28	4160	0	0	0
 gphr	gphr	channel_contested	3905	3609	5	291	3905	0	0	0

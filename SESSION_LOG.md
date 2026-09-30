@@ -800,3 +800,29 @@ Benchmark 744/744, 0 decoys called a channel; panel human 328/329; S5c:
 **Left open (emergent).** Non-animal GOST proteins still split between the
 two profiles; none carries PF21901; S10 must restrict TMEM87 to Metazoa
 until a GOST tree answers the orthology.
+
+## 2026-09-30 — the two "open for later" items (user-directed)
+
+**1. Non-animal TMEM87 orthology.** GOST superfamily tree
+(`s7_gost_tree.py`: 115 panel proteins, L-INS-i, trimAl -gt 0.5, IQ-TREE
+Q.pfam+R7, 1000 UFBoot). **Answer: TMEM87 is pan-eukaryotic** — the largest
+clade holding all animal TMEM87s and no animal GPR107/108 has UFBoot 100 and
+holds 17/36 non-animal GOST proteins; the profile calls agree with the tree
+on 33/36. The TMEM87A/B split is not resolved by the tree (D45 amended).
+
+**My errors on the way, each corrected.**
+- I first read the tree with the *smallest* such clade, concluded TMEM87
+  was animal-specific, and added four non-animal decoy seeds on that
+  reading. The figure contradicted it; the test was redefined (largest
+  clade) and the seeds were removed before any result was kept.
+- The earlier yeast PTM1 decoy seed (S2f) was wrong too, since PTM1 is
+  TMEM87-lineage. It is reverted, so yeast TMEM87 is present again.
+- A watcher kill appeared to kill the IQ-TREE run. It had not: two runs
+  briefly shared a prefix, and the finished first run's tree was used
+  (verified identical).
+
+**2. Panel density.** `s10_panel_density.py` measured the options over
+3,521 eukaryotic reference proteomes: one per phylum 53 / class 141 /
+order 439 / family 1,093 proteomes (1.1 / 2.7 / 11 / 25 M sequences; profile
+sweep 0.3–6.3 h). Recommendation: one per order, proteome-level; the
+user chooses.

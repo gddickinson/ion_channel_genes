@@ -1,0 +1,9 @@
+leaves	ufboot	non_animal	non_animal_species
+38	73.0	0	
+41	98.0	0	
+42	89.0	1	Monosiga brevicollis
+52	70.0	11	Arabidopsis thaliana, Monosiga brevicollis, Oryza sativa, Physcomitrium patens
+53	55.0	12	Arabidopsis thaliana, Capsaspora owczarzaki, Monosiga brevicollis, Oryza sativa, Physcomitrium patens
+54	75.0	13	Arabidopsis thaliana, Capsaspora owczarzaki, Dictyostelium discoideum, Monosiga brevicollis, Oryza sativa, Physcomitrium patens
+57	80.0	16	Arabidopsis thaliana, Capsaspora owczarzaki, Dictyostelium discoideum, Monosiga brevicollis, Oryza sativa, Physcomitrium patens, Saccharomyces cerevisiae, Schizosaccharomyces pombe
+58	100.0	17	Arabidopsis thaliana, Capsaspora owczarzaki, Dictyostelium discoideum, Monosiga brevicollis, Oryza sativa, Physcomitrium patens, Plasmodium falciparum, Saccharomyces cerevisiae, Schizosaccharomyces pombe

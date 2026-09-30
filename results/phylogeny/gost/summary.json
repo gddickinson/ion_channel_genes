@@ -1,0 +1,28 @@
+{
+ "all animal TMEM87 (PF21901) vs animal GPR107/108": {
+  "split_present": true,
+  "ufboot": 100.0,
+  "leaves": 58
+ },
+ "vertebrate TMEM87 (A+B) as one clade, invertebrates outside": {
+  "split_present": false,
+  "ufboot": null,
+  "leaves": 25
+ },
+ "vertebrate TMEM87A a clade": {
+  "split_present": false,
+  "ufboot": null,
+  "leaves": 9
+ },
+ "vertebrate TMEM87B a clade": {
+  "split_present": false,
+  "ufboot": null,
+  "leaves": 8
+ },
+ "n_tmem87_animal": 32,
+ "n_gost_animal": 38,
+ "n_invertebrate_tmem87": 7,
+ "nonanimal_in_tmem87_lineage": 17,
+ "profile_agrees_with_tree": 33,
+ "nonanimal_total": 36
+}

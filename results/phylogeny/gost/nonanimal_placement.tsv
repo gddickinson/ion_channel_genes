@@ -1,0 +1,37 @@
+label	species	group	profile_call	gene	placement	edge_ufboot
+A0A0D2VP38_Capowc_nonchannel_gost	Capsaspora owczarzaki	holozoa	nonchannel_gost	CAOG_003166	GOST (GPR107/108) side	100.0
+A0A0D2VT47_Capowc_tmem87	Capsaspora owczarzaki	holozoa	tmem87	CAOG_005036	TMEM87 lineage	100.0
+A0A0D2WMJ3_Capowc_nonchannel_gost	Capsaspora owczarzaki	holozoa	nonchannel_gost	CAOG_003088	GOST (GPR107/108) side	100.0
+A0A0D2WR42_Capowc_nonchannel_gost	Capsaspora owczarzaki	holozoa	nonchannel_gost	CAOG_004352	GOST (GPR107/108) side	100.0
+A0A0P0VA50_Orysat_nonchannel_gost	Oryza sativa	plant	nonchannel_gost	Os01g0836700	GOST (GPR107/108) side	100.0
+A0A0P0WC88_Orysat_nonchannel_gost	Oryza sativa	plant	nonchannel_gost	Os04g0508600	GOST (GPR107/108) side	100.0
+A0A0P0WNE3_Orysat_nonchannel_gost	Oryza sativa	plant	nonchannel_gost	Os05g0462500	GOST (GPR107/108) side	100.0
+A0A0P0X9L8_Orysat_tmem87	Oryza sativa	plant	tmem87	Os07g0614600	TMEM87 lineage	100.0
+A0A2K1JZA6_Phypat_nonchannel_gost	Physcomitrium patens	plant	nonchannel_gost	LOC112287746	GOST (GPR107/108) side	100.0
+A0A2K3D4B8_Chlrei_nonchannel_gost	Chlamydomonas reinhardtii	algae	nonchannel_gost	CHLRE_12g523950v5	GOST (GPR107/108) side	100.0
+A0A7I4BRI8_Phypat_tmem87	Physcomitrium patens	plant	tmem87	LOC112287805	TMEM87 lineage	100.0
+A0A7I4D1N5_Phypat_tmem87	Physcomitrium patens	plant	tmem87	LOC112278721	TMEM87 lineage	100.0
+A9RYU2_Phypat_nonchannel_gost	Physcomitrium patens	plant	nonchannel_gost	LOC112291278	GOST (GPR107/108) side	100.0
+A9USS6_Monbre_tmem87	Monosiga brevicollis	holozoa	tmem87	MONBRDRAFT_35943	TMEM87 lineage	100.0
+A9V589_Monbre_nonchannel_gost	Monosiga brevicollis	holozoa	nonchannel_gost	MONBRDRAFT_27427	GOST (GPR107/108) side	100.0
+B0G155_Dicdis_tmem87	Dictyostelium discoideum	amoebozoa	tmem87	DDB_G0285943	TMEM87 lineage	100.0
+F4HVE3_Aratha_tmem87	Arabidopsis thaliana	plant	tmem87	At1g61670	TMEM87 lineage	100.0
+F4IM73_Aratha_tmem87	Arabidopsis thaliana	plant	tmem87	At2g01070	TMEM87 lineage	100.0
+F4JY11_Aratha_nonchannel_gost	Arabidopsis thaliana	plant	nonchannel_gost	CAND7	GOST (GPR107/108) side	100.0
+O04088_Aratha_tmem87	Arabidopsis thaliana	plant	tmem87	At1g10980	TMEM87 lineage	100.0
+O13989_Schpom_tmem87	Schizosaccharomyces pombe	fungi	tmem87	SPAC26H5.07c	TMEM87 lineage	100.0
+P32857_Saccer_nonchannel_gost	Saccharomyces cerevisiae	fungi	nonchannel_gost	PTM1	TMEM87 lineage	100.0
+P38745_Saccer_nonchannel_gost	Saccharomyces cerevisiae	fungi	nonchannel_gost	YHL017W	TMEM87 lineage	100.0
+Q0DZH4_Orysat_nonchannel_gost	Oryza sativa	plant	nonchannel_gost	Os02g0618700	GOST (GPR107/108) side	100.0
+Q10LU2_Orysat_tmem87	Oryza sativa	plant	tmem87	Os03g0334800	TMEM87 lineage	100.0
+Q2R2X1_Orysat_tmem87	Oryza sativa	plant	tmem87	Os11g0546100	TMEM87 lineage	100.0
+Q54F03_Dicdis_nonchannel_gost	Dictyostelium discoideum	amoebozoa	nonchannel_gost	DDB_G0291203	GOST (GPR107/108) side	100.0
+Q54LQ7_Dicdis_nonchannel_gost	Dictyostelium discoideum	amoebozoa	nonchannel_gost	DDB_G0286487	GOST (GPR107/108) side	100.0
+Q69P89_Orysat_tmem87	Oryza sativa	plant	tmem87	Os09g0439700	TMEM87 lineage	100.0
+Q8I5P8_Plafal_superfamily_only	Plasmodium falciparum	apicomplexa	superfamily_only	PF3D7_1215900	TMEM87 lineage	100.0
+Q8S1S0_Orysat_nonchannel_gost	Oryza sativa	plant	nonchannel_gost	Os01g0836800	GOST (GPR107/108) side	100.0
+Q9C5T6_Aratha_nonchannel_gost	Arabidopsis thaliana	plant	nonchannel_gost	At3g09570	GOST (GPR107/108) side	100.0
+Q9C9E6_Aratha_tmem87	Arabidopsis thaliana	plant	tmem87	At1g72480	TMEM87 lineage	100.0
+Q9FHX6_Aratha_nonchannel_gost	Arabidopsis thaliana	plant	nonchannel_gost	MJC20.20	GOST (GPR107/108) side	100.0
+Q9LZ39_Aratha_nonchannel_gost	Arabidopsis thaliana	plant	nonchannel_gost	CAND6	GOST (GPR107/108) side	100.0
+Q9SNM0_Orysat_nonchannel_gost	Oryza sativa	plant	nonchannel_gost	Os06g0132100	GOST (GPR107/108) side	100.0

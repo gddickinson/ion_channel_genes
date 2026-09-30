@@ -669,7 +669,7 @@ Saccharomyces cerevisiae	fungi	clic	clic	0	0	0	0	0	0	partial	0		0	1	0	0		partial
 Saccharomyces cerevisiae	fungi	viroporin	viroporin	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0		unmeasured
 Saccharomyces cerevisiae	fungi	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Saccharomyces cerevisiae	fungi	tmco1	tmco1	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1	3835	pooled
-Saccharomyces cerevisiae	fungi	tmem87	tmem87	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	22473	pooled
+Saccharomyces cerevisiae	fungi	tmem87	tmem87	2	1	0	1	1	1	no_locus	0		0	0	0	0		present		0	22473	pooled
 Saccharomyces cerevisiae	fungi	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Saccharomyces cerevisiae	fungi	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
 Saccharomyces cerevisiae	fungi	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
@@ -1419,7 +1419,7 @@ Plasmodium falciparum	apicomplexa	clic	clic	0	0	0	0	0	0	partial	0		0	1	0	0		part
 Plasmodium falciparum	apicomplexa	viroporin	viroporin	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1		unmeasured
 Plasmodium falciparum	apicomplexa	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Plasmodium falciparum	apicomplexa	tmco1	tmco1	1	1	0	1	0	1	no_locus	0		0	0	0	1	92.4	present		1	3835	pooled
-Plasmodium falciparum	apicomplexa	tmem87	tmem87	0	0	1	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	22473	pooled
+Plasmodium falciparum	apicomplexa	tmem87	tmem87	1	1	0	1	0	1	no_locus	0		0	0	0	1	84.7	present		1	22473	pooled
 Plasmodium falciparum	apicomplexa	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Plasmodium falciparum	apicomplexa	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
 Plasmodium falciparum	apicomplexa	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled

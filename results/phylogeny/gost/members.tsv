@@ -1,0 +1,116 @@
+label	accession	species	group	metazoa	call	confidence	gold_pf21901	gene	length
+D3ZWZ9_Ratnor_nonchannel_gost	D3ZWZ9	Rattus norvegicus	vertebrate	1	nonchannel_gost	high	0	Gpr107	551
+F4JY11_Aratha_nonchannel_gost	F4JY11	Arabidopsis thaliana	plant	0	nonchannel_gost	high	0	CAND7	440
+O13989_Schpom_tmem87	O13989	Schizosaccharomyces pombe	fungi	0	tmem87	high	0	SPAC26H5.07c	505
+P32857_Saccer_nonchannel_gost	P32857	Saccharomyces cerevisiae	fungi	0	nonchannel_gost	high	0	PTM1	523
+P38745_Saccer_nonchannel_gost	P38745	Saccharomyces cerevisiae	fungi	0	nonchannel_gost	high	0	YHL017W	532
+Q28EW0_Xentro_tmem87	Q28EW0	Xenopus tropicalis	vertebrate	1	tmem87	high	1	tmem87a	541
+Q5VW38_Homsap_nonchannel_gost	Q5VW38	Homo sapiens	vertebrate	1	nonchannel_gost	high	0	GPR107	600
+Q6P6V6_Ratnor_nonchannel_gost	Q6P6V6	Rattus norvegicus	vertebrate	1	nonchannel_gost	high	0	Gpr108	577
+Q8BKU8_Musmus_tmem87	Q8BKU8	Mus musculus	vertebrate	1	tmem87	high	1	Tmem87b	555
+Q8BUV8_Musmus_nonchannel_gost	Q8BUV8	Mus musculus	vertebrate	1	nonchannel_gost	high	0	Gpr107	551
+Q8BXN9_Musmus_tmem87	Q8BXN9	Mus musculus	vertebrate	1	tmem87	high	1	Tmem87a	555
+Q8NBN3_Homsap_tmem87	Q8NBN3	Homo sapiens	vertebrate	1	tmem87	high	1	TMEM87A	555
+Q91WD0_Musmus_nonchannel_gost	Q91WD0	Mus musculus	vertebrate	1	nonchannel_gost	high	0	Gpr108	569
+Q96K49_Homsap_tmem87	Q96K49	Homo sapiens	vertebrate	1	tmem87	high	1	TMEM87B	555
+Q9LZ39_Aratha_nonchannel_gost	Q9LZ39	Arabidopsis thaliana	plant	0	nonchannel_gost	high	0	CAND6	428
+Q9NPR9_Homsap_nonchannel_gost	Q9NPR9	Homo sapiens	vertebrate	1	nonchannel_gost	high	0	GPR108	543
+A0A0D2VP38_Capowc_nonchannel_gost	A0A0D2VP38	Capsaspora owczarzaki	holozoa	0	nonchannel_gost	medium	0	CAOG_003166	602
+A0A0D2VT47_Capowc_tmem87	A0A0D2VT47	Capsaspora owczarzaki	holozoa	0	tmem87	high	0	CAOG_005036	503
+A0A0D2WMJ3_Capowc_nonchannel_gost	A0A0D2WMJ3	Capsaspora owczarzaki	holozoa	0	nonchannel_gost	medium	0	CAOG_003088	461
+A0A0D2WR42_Capowc_nonchannel_gost	A0A0D2WR42	Capsaspora owczarzaki	holozoa	0	nonchannel_gost	high	0	CAOG_004352	506
+A0A0P0VA50_Orysat_nonchannel_gost	A0A0P0VA50	Oryza sativa	plant	0	nonchannel_gost	high	0	Os01g0836700	275
+A0A0P0WC88_Orysat_nonchannel_gost	A0A0P0WC88	Oryza sativa	plant	0	nonchannel_gost	high	0	Os04g0508600	450
+A0A0P0WNE3_Orysat_nonchannel_gost	A0A0P0WNE3	Oryza sativa	plant	0	nonchannel_gost	high	0	Os05g0462500	458
+A0A0P0X9L8_Orysat_tmem87	A0A0P0X9L8	Oryza sativa	plant	0	tmem87	medium	0	Os07g0614600	534
+A0A2K1JZA6_Phypat_nonchannel_gost	A0A2K1JZA6	Physcomitrium patens	plant	0	nonchannel_gost	high	0	LOC112287746	429
+A0A2K3D4B8_Chlrei_nonchannel_gost	A0A2K3D4B8	Chlamydomonas reinhardtii	algae	0	nonchannel_gost	high	0	CHLRE_12g523950v5	427
+A0A4W3GPE1_Calmil_tmem87	A0A4W3GPE1	Callorhinchus milii	vertebrate	1	tmem87	none	1		112
+A0A4W3IT01_Calmil_nonchannel_gost	A0A4W3IT01	Callorhinchus milii	vertebrate	1	nonchannel_gost	high	0		272
+A0A4W3ITL4_Calmil_nonchannel_gost	A0A4W3ITL4	Callorhinchus milii	vertebrate	1	nonchannel_gost	high	0	gpr107	548
+A0A4W3J9A4_Calmil_tmem87	A0A4W3J9A4	Callorhinchus milii	vertebrate	1	tmem87	high	0		385
+A0A4W3JE68_Calmil_nonchannel_gost	A0A4W3JE68	Callorhinchus milii	vertebrate	1	nonchannel_gost	medium	0		300
+A0A5F8GGY3_Mondom_tmem87	A0A5F8GGY3	Monodelphis domestica	vertebrate	1	tmem87	high	1	TMEM87A	556
+A0A674N908_Takrub_tmem87	A0A674N908	Takifugu rubripes	vertebrate	1	tmem87	high	1	tmem87b	617
+A0A674N9R2_Takrub_tmem87	A0A674N9R2	Takifugu rubripes	vertebrate	1	tmem87	high	1	tmem87a	524
+A0A674P9S6_Takrub_tmem87	A0A674P9S6	Takifugu rubripes	vertebrate	1	tmem87	high	1	zgc:162698	590
+A0A6I8MYL4_Ornana_tmem87	A0A6I8MYL4	Ornithorhynchus anatinus	vertebrate	1	tmem87	high	1	LOC107548049	609
+A0A6I8N423_Ornana_nonchannel_gost	A0A6I8N423	Ornithorhynchus anatinus	vertebrate	1	nonchannel_gost	high	0	GPR108	545
+A0A6I8NP44_Ornana_tmem87	A0A6I8NP44	Ornithorhynchus anatinus	vertebrate	1	tmem87	high	1	TMEM87A	501
+A0A6I8NSX0_Ornana_tmem87	A0A6I8NSX0	Ornithorhynchus anatinus	vertebrate	1	tmem87	high	1		369
+A0A7I4BRI8_Phypat_tmem87	A0A7I4BRI8	Physcomitrium patens	plant	0	tmem87	high	0	LOC112287805	540
+A0A7I4D1N5_Phypat_tmem87	A0A7I4D1N5	Physcomitrium patens	plant	0	tmem87	high	0	LOC112278721	594
+A0A7M7LT04_Strpur_nonchannel_gost	A0A7M7LT04	Strongylocentrotus purpuratus	deuterostome	1	nonchannel_gost	high	0		504
+A0A7M7PNS4_Strpur_nonchannel_gost	A0A7M7PNS4	Strongylocentrotus purpuratus	deuterostome	1	nonchannel_gost	high	0		610
+A0A7M7PRI5_Strpur_tmem87	A0A7M7PRI5	Strongylocentrotus purpuratus	deuterostome	1	tmem87	high	0		663
+A0A7M7RF23_Strpur_nonchannel_gost	A0A7M7RF23	Strongylocentrotus purpuratus	deuterostome	1	nonchannel_gost	high	0		610
+A0A803SUI8_Anocar_tmem87	A0A803SUI8	Anolis carolinensis	vertebrate	1	tmem87	high	0		455
+A0A803T2L9_Anocar_tmem87	A0A803T2L9	Anolis carolinensis	vertebrate	1	tmem87	high	1	TMEM87A	577
+A0A8I6GIL4_Ratnor_tmem87	A0A8I6GIL4	Rattus norvegicus	vertebrate	1	tmem87	high	1	Tmem87a	559
+A0A8J0QBA3_Xentro_nonchannel_gost	A0A8J0QBA3	Xenopus tropicalis	vertebrate	1	nonchannel_gost	high	0	gpr107	580
+A0A8M3ASE9_Danrer_nonchannel_gost	A0A8M3ASE9	Danio rerio	vertebrate	1	nonchannel_gost	high	0	gpr107	544
+A0A8V0Z9L2_Galgal_tmem87	A0A8V0Z9L2	Gallus gallus	vertebrate	1	tmem87	high	1	TMEM87B	571
+A0A8V1AJ53_Galgal_nonchannel_gost	A0A8V1AJ53	Gallus gallus	vertebrate	1	nonchannel_gost	high	0	GPR107	588
+A0A9J7LLH8_Braflo_nonchannel_gost	A0A9J7LLH8	Branchiostoma floridae	deuterostome	1	nonchannel_gost	high	0	LOC118421707	668
+A0A9J7M7H8_Braflo_tmem87	A0A9J7M7H8	Branchiostoma floridae	deuterostome	1	tmem87	high	1	LOC118429075	654
+A0AAJ7TIV8_Petmar_tmem87	A0AAJ7TIV8	Petromyzon marinus	vertebrate	1	tmem87	high	1	LOC116947271	606
+A0AAJ7TKR9_Petmar_tmem87	A0AAJ7TKR9	Petromyzon marinus	vertebrate	1	tmem87	high	1	LOC116947737	569
+A0AAJ7U3H5_Petmar_nonchannel_gost	A0AAJ7U3H5	Petromyzon marinus	vertebrate	1	nonchannel_gost	high	0	LOC116953198	644
+A0AAN0ID37_Ampque_tmem87	A0AAN0ID37	Amphimedon queenslandica	basal_metazoan	1	tmem87	high	0		608
+A0AAN0J271_Ampque_tmem87	A0AAN0J271	Amphimedon queenslandica	basal_metazoan	1	tmem87	medium	0		213
+A0AAV2H9T6_Lymsta_nonchannel_gost	A0AAV2H9T6	Lymnaea stagnalis	invertebrate	1	nonchannel_gost	high	0	GSLYS_00004649001	637
+A0AAV2HDD1_Lymsta_tmem87	A0AAV2HDD1	Lymnaea stagnalis	invertebrate	1	tmem87	high	1	GSLYS_00005737001	640
+A0AB32T8B2_Danrer_tmem87	A0AB32T8B2	Danio rerio	vertebrate	1	tmem87	high	1	wu:fc14d01	583
+A0ABM0ZUN0_Aplcal_tmem87	A0ABM0ZUN0	Aplysia californica	invertebrate	1	tmem87	high	1	LOC101857527	648
+A0ABM1A653_Aplcal_nonchannel_gost	A0ABM1A653	Aplysia californica	invertebrate	1	nonchannel_gost	high	0	LOC101848678	648
+A0ABM4BDP4_Hydvul_nonchannel_gost	A0ABM4BDP4	Hydra vulgaris	cnidarian	1	nonchannel_gost	high	0	LOC101239878	522
+A0ABM4C129_Hydvul_tmem87	A0ABM4C129	Hydra vulgaris	cnidarian	1	tmem87	high	0	LOC100198744	522
+A0AC58G554_Danrer_nonchannel_gost	A0AC58G554	Danio rerio	vertebrate	1	nonchannel_gost	high	0	gpr108	543
+A0AC58H396_Danrer_tmem87	A0AC58H396	Danio rerio	vertebrate	1	tmem87	high	1	tmem87b	561
+A7RMY0_Nemvec_nonchannel_gost	A7RMY0	Nematostella vectensis	cnidarian	1	nonchannel_gost	high	0	NEMVEDRAFT_v1g87080	329
+A7S1F2_Nemvec_tmem87	A7S1F2	Nematostella vectensis	cnidarian	1	tmem87	high	0	NEMVEDRAFT_v1g165271	328
+A9RYU2_Phypat_nonchannel_gost	A9RYU2	Physcomitrium patens	plant	0	nonchannel_gost	high	0	LOC112291278	432
+A9USS6_Monbre_tmem87	A9USS6	Monosiga brevicollis	holozoa	0	tmem87	high	0	MONBRDRAFT_35943	442
+A9V589_Monbre_nonchannel_gost	A9V589	Monosiga brevicollis	holozoa	0	nonchannel_gost	high	0	MONBRDRAFT_27427	541
+B0G155_Dicdis_tmem87	B0G155	Dictyostelium discoideum	amoebozoa	0	tmem87	high	0	DDB_G0285943	578
+B3RL90_Triadh_tmem87	B3RL90	Trichoplax adhaerens	basal_metazoan	1	tmem87	medium	1	TRIADDRAFT_51923	331
+B3RNG2_Triadh_nonchannel_gost	B3RNG2	Trichoplax adhaerens	basal_metazoan	1	nonchannel_gost	medium	0	TRIADDRAFT_20602	264
+D4A7B6_Ratnor_tmem87	D4A7B6	Rattus norvegicus	vertebrate	1	tmem87	high	1	Tmem87b	555
+E9FX77_Dappul_tmem87	E9FX77	Daphnia pulex	invertebrate	1	tmem87	high	1	DAPPUDRAFT_311546	540
+E9H0J3_Dappul_nonchannel_gost	E9H0J3	Daphnia pulex	invertebrate	1	nonchannel_gost	high	0	DAPPUDRAFT_199743	494
+E9H0W3_Dappul_nonchannel_gost	E9H0W3	Daphnia pulex	invertebrate	1	nonchannel_gost	high	0	DAPPUDRAFT_214831	509
+E9H254_Dappul_nonchannel_gost	E9H254	Daphnia pulex	invertebrate	1	nonchannel_gost	high	0	DAPPUDRAFT_226872	500
+F4HVE3_Aratha_tmem87	F4HVE3	Arabidopsis thaliana	plant	0	tmem87	medium	0	At1g61670	513
+F4IM73_Aratha_tmem87	F4IM73	Arabidopsis thaliana	plant	0	tmem87	high	0	At2g01070	496
+F6U1F4_Cioint_nonchannel_gost	F6U1F4	Ciona intestinalis	deuterostome	1	nonchannel_gost	medium	0	LOC100175424	211
+F6UFL2_Mondom_nonchannel_gost	F6UFL2	Monodelphis domestica	vertebrate	1	nonchannel_gost	high	0	GPR107	549
+F6ZJJ7_Mondom_tmem87	F6ZJJ7	Monodelphis domestica	vertebrate	1	tmem87	high	1	TMEM87B	437
+F7FLD9_Ornana_nonchannel_gost	F7FLD9	Ornithorhynchus anatinus	vertebrate	1	nonchannel_gost	high	0	GPR107	548
+F7GEG9_Mondom_nonchannel_gost	F7GEG9	Monodelphis domestica	vertebrate	1	nonchannel_gost	high	0		289
+H2UUB5_Takrub_nonchannel_gost	H2UUB5	Takifugu rubripes	vertebrate	1	nonchannel_gost	high	0	LOC101077879	564
+H2XRS4_Cioint_tmem87	H2XRS4	Ciona intestinalis	deuterostome	1	tmem87	high	1		528
+H3A2D2_Latcha_nonchannel_gost	H3A2D2	Latimeria chalumnae	vertebrate	1	nonchannel_gost	high	0	GPR107	565
+H3A4W6_Latcha_tmem87	H3A4W6	Latimeria chalumnae	vertebrate	1	tmem87	high	1	ZGC:162698	590
+H3AGY4_Latcha_tmem87	H3AGY4	Latimeria chalumnae	vertebrate	1	tmem87	high	1	TMEM87A	508
+H3AIY2_Latcha_tmem87	H3AIY2	Latimeria chalumnae	vertebrate	1	tmem87	high	1	TMEM87B	401
+H3B815_Latcha_nonchannel_gost	H3B815	Latimeria chalumnae	vertebrate	1	nonchannel_gost	high	0	GPR108	559
+O04088_Aratha_tmem87	O04088	Arabidopsis thaliana	plant	0	tmem87	medium	0	At1g10980	516
+Q0DZH4_Orysat_nonchannel_gost	Q0DZH4	Oryza sativa	plant	0	nonchannel_gost	high	0	Os02g0618700	464
+Q10LU2_Orysat_tmem87	Q10LU2	Oryza sativa	plant	0	tmem87	high	0	Os03g0334800	494
+Q18024_Caeele_nonchannel_gost	Q18024	Caenorhabditis elegans	invertebrate	1	nonchannel_gost	high	0	C15H9.5	581
+Q22938_Caeele_tmem87	Q22938	Caenorhabditis elegans	invertebrate	1	tmem87	high	0	C52B9.4	558
+Q2R2X1_Orysat_tmem87	Q2R2X1	Oryza sativa	plant	0	tmem87	high	0	Os11g0546100	514
+Q54F03_Dicdis_nonchannel_gost	Q54F03	Dictyostelium discoideum	amoebozoa	0	nonchannel_gost	high	0	DDB_G0291203	530
+Q54LQ7_Dicdis_nonchannel_gost	Q54LQ7	Dictyostelium discoideum	amoebozoa	0	nonchannel_gost	high	0	DDB_G0286487	449
+Q69P89_Orysat_tmem87	Q69P89	Oryza sativa	plant	0	tmem87	medium	0	Os09g0439700	532
+Q8I5P8_Plafal_superfamily_only	Q8I5P8	Plasmodium falciparum	apicomplexa	0	superfamily_only	low	0	PF3D7_1215900	655
+Q8S1S0_Orysat_nonchannel_gost	Q8S1S0	Oryza sativa	plant	0	nonchannel_gost	high	0	Os01g0836800	449
+Q9C5T6_Aratha_nonchannel_gost	Q9C5T6	Arabidopsis thaliana	plant	0	nonchannel_gost	high	0	At3g09570	439
+Q9C9E6_Aratha_tmem87	Q9C9E6	Arabidopsis thaliana	plant	0	tmem87	high	0	At1g72480	509
+Q9FHX6_Aratha_nonchannel_gost	Q9FHX6	Arabidopsis thaliana	plant	0	nonchannel_gost	high	0	MJC20.20	439
+Q9SNM0_Orysat_nonchannel_gost	Q9SNM0	Oryza sativa	plant	0	nonchannel_gost	high	0	Os06g0132100	454
+Q9VQ34_Dromel_tmem87	Q9VQ34	Drosophila melanogaster	invertebrate	1	tmem87	high	0	Dmel\CG17660	536
+Q9W2B3_Dromel_nonchannel_gost	Q9W2B3	Drosophila melanogaster	invertebrate	1	nonchannel_gost	medium	0	Dmel\CG9304	637
+Q9W366_Dromel_nonchannel_gost	Q9W366	Drosophila melanogaster	invertebrate	1	nonchannel_gost	high	0	Dmel\CG12121	738
+V3ZRY5_Lotgig_tmem87	V3ZRY5	Lottia gigantea	invertebrate	1	tmem87	high	1	LOTGIDRAFT_232452	589
+V4ASI6_Lotgig_nonchannel_gost	V4ASI6	Lottia gigantea	invertebrate	1	nonchannel_gost	high	0	LOTGIDRAFT_200945	379

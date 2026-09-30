@@ -12,19 +12,19 @@ Rendered by `scripts/s5r4_compare.py` from `baits_r4.tsv`, `genome_runs_r4.tsv`,
 
 | verdict | clcc1 | gphr | mitok | pacc | tmco1 | tmem109 | tmem87 |
 |---|---|---|---|---|---|---|---|
-| absent | 3 | 1 | 2 | 2 | 1 | 2 | 1 |
+| absent | 3 | 1 | 2 | 2 | 1 | 2 | 0 |
 | gap | 0 | 0 | 1 | 2 | 0 | 2 | 1 |
 | genome_found | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | genome_present | 2 | 2 | 2 | 1 | 2 | 0 | 2 |
 | genome_weak | 0 | 1 | 0 | 0 | 0 | 1 | 0 |
-| no_locus_unrescued | 23 | 11 | 21 | 30 | 11 | 28 | 15 |
+| no_locus_unrescued | 23 | 11 | 21 | 30 | 11 | 28 | 14 |
 | partial | 3 | 1 | 4 | 4 | 3 | 9 | 0 |
-| present | 20 | 35 | 21 | 13 | 35 | 10 | 33 |
+| present | 20 | 35 | 21 | 13 | 35 | 10 | 35 |
 | trace | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 **Proteome misses (high-confidence intact loci)**: *Daphnia pulex* gphr; *Xenopus tropicalis* mitok.
 
-**Controlled absences (matched bait, detection ≥ 0.90, D4 bar met)**: *Saccharomyces cerevisiae* tmem87 (bar pooled); *Schizosaccharomyces pombe* gphr (bar pooled); *Monosiga brevicollis* tmco1 (bar pooled); *Trichoplax adhaerens* pacc (bar pooled); *Caenorhabditis elegans* clcc1 (bar pooled); *Drosophila melanogaster* clcc1 (bar pooled); *Drosophila melanogaster* mitok (bar pooled); *Daphnia pulex* clcc1 (bar pooled); *Lottia gigantea* mitok (bar pooled); *Petromyzon marinus* tmem109 (bar group); *Callorhinchus milii* tmem109 (bar group); *Takifugu rubripes* pacc (bar group).
+**Controlled absences (matched bait, detection ≥ 0.90, D4 bar met)**: *Schizosaccharomyces pombe* gphr (bar pooled); *Monosiga brevicollis* tmco1 (bar pooled); *Trichoplax adhaerens* pacc (bar pooled); *Caenorhabditis elegans* clcc1 (bar pooled); *Drosophila melanogaster* clcc1 (bar pooled); *Drosophila melanogaster* mitok (bar pooled); *Daphnia pulex* clcc1 (bar pooled); *Lottia gigantea* mitok (bar pooled); *Petromyzon marinus* tmem109 (bar group); *Callorhinchus milii* tmem109 (bar group); *Takifugu rubripes* pacc (bar group).
 
 **Weak genome evidence**: *Chlamydomonas reinhardtii* tmem109; *Ciona intestinalis* gphr.
 

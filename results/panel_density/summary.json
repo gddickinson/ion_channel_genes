@@ -1,0 +1,49 @@
+{
+ "eukaryotic_reference_proteomes": 3521,
+ "with_rank_resolved": 3482,
+ "options": [
+  {
+   "option": "current panel (S4; eukaryotic proteomes)",
+   "rank": "",
+   "proteomes": 39,
+   "sequences": "",
+   "sweep_hours_91_profiles": ""
+  },
+  {
+   "option": "one per phylum",
+   "rank": "phylum",
+   "proteomes": 53,
+   "sequences": 1107971,
+   "sweep_hours_91_profiles": 0.3,
+   "covers_current_species_lineages": "37/39",
+   "by_kingdom": "Metazoa 18; (protists) 17; Fungi 16; Viridiplantae 2"
+  },
+  {
+   "option": "one per class",
+   "rank": "class",
+   "proteomes": 141,
+   "sequences": 2730111,
+   "sweep_hours_91_profiles": 0.7,
+   "covers_current_species_lineages": "38/39",
+   "by_kingdom": "Metazoa 48; Fungi 45; (protists) 32; Viridiplantae 16"
+  },
+  {
+   "option": "one per order",
+   "rank": "order",
+   "proteomes": 439,
+   "sequences": 10949076,
+   "sweep_hours_91_profiles": 2.8,
+   "covers_current_species_lineages": "36/39",
+   "by_kingdom": "Metazoa 194; Fungi 126; (protists) 62; Viridiplantae 57"
+  },
+  {
+   "option": "one per family",
+   "rank": "family",
+   "proteomes": 1093,
+   "sequences": 25189186,
+   "sweep_hours_91_profiles": 6.3,
+   "covers_current_species_lineages": "38/39",
+   "by_kingdom": "Metazoa 591; Fungi 313; Viridiplantae 112; (protists) 77"
+  }
+ ]
+}

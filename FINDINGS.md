@@ -768,3 +768,25 @@ related Golgi seven-helix proteins, and some score closer to TMEM87 than to
 its other relatives. None has the animal TMEM87's defining domain, though.
 Only a phylogenetic tree can settle it *(pending: S7/S8)*, so claims about
 TMEM87 stay within animals for now.
+
+## Correction — TMEM87 is found across eukaryotes (2026-09-30)
+
+**Two statements earlier in this file were wrong, and a family tree settles
+it.** The S5c entry said TMEM87 "appears in fungi, plants and slime moulds"
+because the method was confusing it with its non-channel relatives. The
+TMEM87 entry said whether fungi and plants have a TMEM87 was an open
+question. A tree of all 115 GOST-family proteins in the panel places the
+plant, moss, yeast, slime-mould, malaria-parasite and single-celled-relative
+proteins that the method had called TMEM87 in one lineage with the animal
+TMEM87s. They sit apart from the GPR107/108 relatives, with maximal
+bootstrap support.
+
+**So TMEM87 is an ancient gene present across eukaryotes.** The domain that
+identifies it in animals was added in the animal lineage. The search method
+had called these proteins correctly all along. A seed I added to the
+non-channel decoy made yeast look as if it lacked TMEM87; that was a mistake
+and has been reverted.
+
+Whether the eukaryote-wide TMEM87s conduct ions is unknown. Channel activity
+has been reported only for human TMEM87A. The tree also cannot say when the
+vertebrate TMEM87A/B split happened *(pending: a denser tree, S8)*.

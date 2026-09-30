@@ -2,20 +2,20 @@
   "records": 1275990,
   "basis": {
     "both": 300922,
-    "profile_only": 442032,
-    "superfamily_only": 107123,
-    "unassigned": 409882,
+    "profile_only": 442484,
+    "superfamily_only": 106616,
+    "unassigned": 409937,
     "s2_only": 13109,
     "conflict": 2922
   },
   "status": {
     "channel": 622375,
     "transporter": 35213,
-    "superfamily_only": 107123,
-    "unassigned": 409882,
+    "superfamily_only": 106616,
+    "unassigned": 409937,
     "conflict": 2922,
-    "channel_contested": 55573,
-    "non_channel_homolog": 38721,
+    "channel_contested": 56769,
+    "non_channel_homolog": 37977,
     "channel_associated": 4181
   },
   "human_correct_s2": 175,

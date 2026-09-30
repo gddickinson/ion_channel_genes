@@ -1,0 +1,6 @@
+option	rank	proteomes	sequences	sweep_hours_91_profiles	covers_current_species_lineages	by_kingdom
+current panel (S4; eukaryotic proteomes)		39				
+one per phylum	phylum	53	1107971	0.3	37/39	Metazoa 18; (protists) 17; Fungi 16; Viridiplantae 2
+one per class	class	141	2730111	0.7	38/39	Metazoa 48; Fungi 45; (protists) 32; Viridiplantae 16
+one per order	order	439	10949076	2.8	36/39	Metazoa 194; Fungi 126; (protists) 62; Viridiplantae 57
+one per family	family	1093	25189186	6.3	38/39	Metazoa 591; Fungi 313; Viridiplantae 112; (protists) 77
