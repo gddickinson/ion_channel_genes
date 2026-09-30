@@ -68,8 +68,9 @@ innexin_like	cnidarian	1	1.0	1.0
 innexin_like	deuterostome	4	0.25	0.0
 innexin_like	invertebrate	73	1.0	0.0
 innexin_like	vertebrate	136	0.9632	0.7132
+mclc	cnidarian	1	1.0	1.0
 mclc	deuterostome	2	1.0	1.0
-mclc	invertebrate	3	1.0	1.0
+mclc	invertebrate	6	1.0	1.0
 mclc	vertebrate	13	1.0	1.0
 mcu	basal_metazoan	1	1.0	1.0
 mcu	ciliate	1	1.0	1.0
@@ -148,8 +149,8 @@ tmco1	deuterostome	3	1.0	0.0
 tmco1	holozoa	1	1.0	0.0
 tmco1	invertebrate	6	1.0	0.0
 tmco1	plant	4	1.0	0.0
-tmco1	vertebrate	12	1.0	0.0
-tmem109	vertebrate	11	1.0	0.0
+tmco1	vertebrate	13	1.0	0.0
+tmem109	vertebrate	12	1.0	0.0
 tmem16_like	algae	10	1.0	0.8
 tmem16_like	amoebozoa	3	1.0	1.0
 tmem16_like	apicomplexa	1	1.0	0.0
@@ -167,13 +168,7 @@ tmem175	cnidarian	24	1.0	1.0
 tmem175	deuterostome	6	1.0	1.0
 tmem175	holozoa	1	1.0	1.0
 tmem175	vertebrate	11	1.0	1.0
-tmem87	basal_metazoan	1	1.0	0.0
-tmem87	cnidarian	2	1.0	0.0
-tmem87	deuterostome	3	1.0	0.0
-tmem87	fungi	1	1.0	0.0
-tmem87	holozoa	2	1.0	0.0
-tmem87	invertebrate	6	1.0	0.0
-tmem87	vertebrate	17	1.0	0.0
+tmem87	vertebrate	8	1.0	0.0
 tric	algae	1	1.0	1.0
 tric	basal_metazoan	2	1.0	1.0
 tric	cnidarian	2	1.0	1.0

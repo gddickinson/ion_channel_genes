@@ -37,7 +37,7 @@ from src.catalogue import registry                                      # noqa: 
 
 NEW_PROFILES = ("pacc", "tmco1", "tmem87", "tmem109", "clcc1", "mitok", "gphr",
                 "assoc_kchip", "nonchannel_emc3", "nonchannel_gost",
-                "nonchannel_bri3bp", "nonchannel_ncs")
+                "nonchannel_bri3bp", "nonchannel_ncs", "nonchannel_tmem87b")
 
 
 def delta_fasta() -> Path:

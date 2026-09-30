@@ -669,7 +669,7 @@ clic	clic	Saccharomyces cerevisiae	fungi	0	0	0	partial
 viroporin	viroporin	Saccharomyces cerevisiae	fungi	0	0	0	no_locus_unrescued
 pacc	pac	Saccharomyces cerevisiae	fungi	0	0	0	no_locus_unrescued
 tmco1	tmco1	Saccharomyces cerevisiae	fungi	0	0	0	partial
-tmem87	tmem87	Saccharomyces cerevisiae	fungi	2	0	0	present
+tmem87	tmem87	Saccharomyces cerevisiae	fungi	0	0	0	no_locus_unrescued
 tmem109	tmem109	Saccharomyces cerevisiae	fungi	0	0	0	no_locus_unrescued
 clcc1	mclc	Saccharomyces cerevisiae	fungi	0	0	0	no_locus_unrescued
 mitok	mitok	Saccharomyces cerevisiae	fungi	0	0	0	no_locus_unrescued
@@ -744,7 +744,7 @@ clic	clic	Schizosaccharomyces pombe	fungi	0	0	0	partial
 viroporin	viroporin	Schizosaccharomyces pombe	fungi	0	0	0	no_locus_unrescued
 pacc	pac	Schizosaccharomyces pombe	fungi	0	0	0	no_locus_unrescued
 tmco1	tmco1	Schizosaccharomyces pombe	fungi	0	0	0	no_locus_unrescued
-tmem87	tmem87	Schizosaccharomyces pombe	fungi	1	1	0	present
+tmem87	tmem87	Schizosaccharomyces pombe	fungi	0	0	0	no_locus_unrescued
 tmem109	tmem109	Schizosaccharomyces pombe	fungi	0	0	0	no_locus_unrescued
 clcc1	mclc	Schizosaccharomyces pombe	fungi	0	0	0	no_locus_unrescued
 mitok	mitok	Schizosaccharomyces pombe	fungi	0	0	0	no_locus_unrescued
@@ -819,7 +819,7 @@ clic	clic	Arabidopsis thaliana	plant	4	4	0	present
 viroporin	viroporin	Arabidopsis thaliana	plant	0	0	0	no_locus_unrescued
 pacc	pac	Arabidopsis thaliana	plant	0	0	0	no_locus_unrescued
 tmco1	tmco1	Arabidopsis thaliana	plant	2	2	0	present
-tmem87	tmem87	Arabidopsis thaliana	plant	4	0	0	present
+tmem87	tmem87	Arabidopsis thaliana	plant	0	0	0	partial
 tmem109	tmem109	Arabidopsis thaliana	plant	0	0	0	no_locus_unrescued
 clcc1	mclc	Arabidopsis thaliana	plant	0	0	0	no_locus_unrescued
 mitok	mitok	Arabidopsis thaliana	plant	0	0	0	partial
@@ -894,7 +894,7 @@ clic	clic	Oryza sativa	plant	2	2	0	present
 viroporin	viroporin	Oryza sativa	plant	0	0	0	partial
 pacc	pac	Oryza sativa	plant	0	0	0	no_locus_unrescued
 tmco1	tmco1	Oryza sativa	plant	1	1	0	present
-tmem87	tmem87	Oryza sativa	plant	4	0	0	present
+tmem87	tmem87	Oryza sativa	plant	1	0	0	present
 tmem109	tmem109	Oryza sativa	plant	0	0	0	no_locus_unrescued
 clcc1	mclc	Oryza sativa	plant	0	0	0	partial
 mitok	mitok	Oryza sativa	plant	0	0	0	partial
@@ -969,7 +969,7 @@ clic	clic	Physcomitrium patens	plant	3	3	0	present
 viroporin	viroporin	Physcomitrium patens	plant	0	0	0	partial
 pacc	pac	Physcomitrium patens	plant	0	0	0	no_locus_unrescued
 tmco1	tmco1	Physcomitrium patens	plant	1	1	0	present
-tmem87	tmem87	Physcomitrium patens	plant	2	0	0	present
+tmem87	tmem87	Physcomitrium patens	plant	0	0	0	partial
 tmem109	tmem109	Physcomitrium patens	plant	0	0	0	partial
 clcc1	mclc	Physcomitrium patens	plant	0	0	0	no_locus_unrescued
 mitok	mitok	Physcomitrium patens	plant	0	0	0	no_locus_unrescued
@@ -1494,7 +1494,7 @@ clic	clic	Monosiga brevicollis	holozoa	1	1	0	present
 viroporin	viroporin	Monosiga brevicollis	holozoa	0	0	0	partial
 pacc	pac	Monosiga brevicollis	holozoa	0	0	0	no_locus_unrescued
 tmco1	tmco1	Monosiga brevicollis	holozoa	0	0	0	absent
-tmem87	tmem87	Monosiga brevicollis	holozoa	1	1	0	present
+tmem87	tmem87	Monosiga brevicollis	holozoa	0	0	0	gap
 tmem109	tmem109	Monosiga brevicollis	holozoa	0	0	0	partial
 clcc1	mclc	Monosiga brevicollis	holozoa	0	0	0	no_locus_unrescued
 mitok	mitok	Monosiga brevicollis	holozoa	0	0	0	gap
@@ -1569,7 +1569,7 @@ clic	clic	Capsaspora owczarzaki	holozoa	0	0	0	gap
 viroporin	viroporin	Capsaspora owczarzaki	holozoa	0	0	0	partial
 pacc	pac	Capsaspora owczarzaki	holozoa	0	0	0	partial
 tmco1	tmco1	Capsaspora owczarzaki	holozoa	1	1	0	present
-tmem87	tmem87	Capsaspora owczarzaki	holozoa	1	1	0	present
+tmem87	tmem87	Capsaspora owczarzaki	holozoa	0	0	0	partial
 tmem109	tmem109	Capsaspora owczarzaki	holozoa	0	0	0	no_locus_unrescued
 clcc1	mclc	Capsaspora owczarzaki	holozoa	0	0	0	no_locus_unrescued
 mitok	mitok	Capsaspora owczarzaki	holozoa	0	0	0	no_locus_unrescued
@@ -1644,7 +1644,7 @@ clic	clic	Amphimedon queenslandica	basal_metazoan	1	1	0	present
 viroporin	viroporin	Amphimedon queenslandica	basal_metazoan	0	0	0	partial
 pacc	pac	Amphimedon queenslandica	basal_metazoan	1	1	0	present
 tmco1	tmco1	Amphimedon queenslandica	basal_metazoan	1	1	0	present
-tmem87	tmem87	Amphimedon queenslandica	basal_metazoan	2	1	0	present
+tmem87	tmem87	Amphimedon queenslandica	basal_metazoan	1	0	0	present
 tmem109	tmem109	Amphimedon queenslandica	basal_metazoan	0	0	0	no_locus_unrescued
 clcc1	mclc	Amphimedon queenslandica	basal_metazoan	0	0	0	partial
 mitok	mitok	Amphimedon queenslandica	basal_metazoan	0	0	0	no_locus_unrescued
@@ -1719,7 +1719,7 @@ clic	clic	Trichoplax adhaerens	basal_metazoan	2	1	0	present
 viroporin	viroporin	Trichoplax adhaerens	basal_metazoan	0	0	0	partial
 pacc	pac	Trichoplax adhaerens	basal_metazoan	0	0	0	absent
 tmco1	tmco1	Trichoplax adhaerens	basal_metazoan	1	1	0	present
-tmem87	tmem87	Trichoplax adhaerens	basal_metazoan	0	0	1	genome_found
+tmem87	tmem87	Trichoplax adhaerens	basal_metazoan	0	0	0	partial
 tmem109	tmem109	Trichoplax adhaerens	basal_metazoan	0	0	0	no_locus_unrescued
 clcc1	mclc	Trichoplax adhaerens	basal_metazoan	0	0	0	no_locus_unrescued
 mitok	mitok	Trichoplax adhaerens	basal_metazoan	0	0	0	no_locus_unrescued
@@ -1794,7 +1794,7 @@ clic	clic	Nematostella vectensis	cnidarian	4	4	0	present
 viroporin	viroporin	Nematostella vectensis	cnidarian	0	0	0	partial
 pacc	pac	Nematostella vectensis	cnidarian	0	0	0	no_locus_unrescued
 tmco1	tmco1	Nematostella vectensis	cnidarian	1	1	0	present
-tmem87	tmem87	Nematostella vectensis	cnidarian	1	1	0	present
+tmem87	tmem87	Nematostella vectensis	cnidarian	0	0	0	partial
 tmem109	tmem109	Nematostella vectensis	cnidarian	0	0	0	partial
 clcc1	mclc	Nematostella vectensis	cnidarian	1	0	0	present
 mitok	mitok	Nematostella vectensis	cnidarian	1	0	0	present
@@ -1869,9 +1869,9 @@ clic	clic	Hydra vulgaris	cnidarian	2	2	0	present
 viroporin	viroporin	Hydra vulgaris	cnidarian	0	0	0	partial
 pacc	pac	Hydra vulgaris	cnidarian	0	0	0	partial
 tmco1	tmco1	Hydra vulgaris	cnidarian	1	1	0	present
-tmem87	tmem87	Hydra vulgaris	cnidarian	1	1	0	present
+tmem87	tmem87	Hydra vulgaris	cnidarian	0	0	0	partial
 tmem109	tmem109	Hydra vulgaris	cnidarian	0	0	0	no_locus_unrescued
-clcc1	mclc	Hydra vulgaris	cnidarian	1	0	0	present
+clcc1	mclc	Hydra vulgaris	cnidarian	1	1	0	present
 mitok	mitok	Hydra vulgaris	cnidarian	1	0	0	present
 gphr	gphr	Hydra vulgaris	cnidarian	1	1	0	present
 kv_shaker	ploop	Caenorhabditis elegans	invertebrate	5	3	0	present
@@ -1944,7 +1944,7 @@ clic	clic	Caenorhabditis elegans	invertebrate	2	2	0	present
 viroporin	viroporin	Caenorhabditis elegans	invertebrate	0	0	0	partial
 pacc	pac	Caenorhabditis elegans	invertebrate	0	0	0	no_locus_unrescued
 tmco1	tmco1	Caenorhabditis elegans	invertebrate	1	1	0	present
-tmem87	tmem87	Caenorhabditis elegans	invertebrate	1	1	0	present
+tmem87	tmem87	Caenorhabditis elegans	invertebrate	0	0	0	partial
 tmem109	tmem109	Caenorhabditis elegans	invertebrate	0	0	0	no_locus_unrescued
 clcc1	mclc	Caenorhabditis elegans	invertebrate	0	0	0	absent
 mitok	mitok	Caenorhabditis elegans	invertebrate	1	0	0	present
@@ -2019,7 +2019,7 @@ clic	clic	Drosophila melanogaster	invertebrate	1	1	0	present
 viroporin	viroporin	Drosophila melanogaster	invertebrate	0	0	0	partial
 pacc	pac	Drosophila melanogaster	invertebrate	0	0	0	no_locus_unrescued
 tmco1	tmco1	Drosophila melanogaster	invertebrate	1	1	0	present
-tmem87	tmem87	Drosophila melanogaster	invertebrate	1	1	0	present
+tmem87	tmem87	Drosophila melanogaster	invertebrate	0	0	0	partial
 tmem109	tmem109	Drosophila melanogaster	invertebrate	0	0	0	no_locus_unrescued
 clcc1	mclc	Drosophila melanogaster	invertebrate	0	0	0	absent
 mitok	mitok	Drosophila melanogaster	invertebrate	0	0	0	absent
@@ -2094,7 +2094,7 @@ clic	clic	Daphnia pulex	invertebrate	2	2	0	present
 viroporin	viroporin	Daphnia pulex	invertebrate	0	0	0	partial
 pacc	pac	Daphnia pulex	invertebrate	0	0	0	no_locus_unrescued
 tmco1	tmco1	Daphnia pulex	invertebrate	1	1	0	present
-tmem87	tmem87	Daphnia pulex	invertebrate	1	1	0	present
+tmem87	tmem87	Daphnia pulex	invertebrate	0	0	0	partial
 tmem109	tmem109	Daphnia pulex	invertebrate	0	0	0	no_locus_unrescued
 clcc1	mclc	Daphnia pulex	invertebrate	0	0	0	absent
 mitok	mitok	Daphnia pulex	invertebrate	1	0	0	present
@@ -2169,9 +2169,9 @@ clic	clic	Lottia gigantea	invertebrate	3	3	0	present
 viroporin	viroporin	Lottia gigantea	invertebrate	0	0	0	partial
 pacc	pac	Lottia gigantea	invertebrate	0	0	0	no_locus_unrescued
 tmco1	tmco1	Lottia gigantea	invertebrate	1	1	0	present
-tmem87	tmem87	Lottia gigantea	invertebrate	1	1	0	present
+tmem87	tmem87	Lottia gigantea	invertebrate	0	0	0	partial
 tmem109	tmem109	Lottia gigantea	invertebrate	0	0	0	gap
-clcc1	mclc	Lottia gigantea	invertebrate	1	1	0	present
+clcc1	mclc	Lottia gigantea	invertebrate	2	2	0	present
 mitok	mitok	Lottia gigantea	invertebrate	0	0	0	absent
 gphr	gphr	Lottia gigantea	invertebrate	1	1	0	present
 kv_shaker	ploop	Aplysia californica	invertebrate	14	4	0	present
@@ -2244,9 +2244,9 @@ clic	clic	Aplysia californica	invertebrate	4	4	0	present
 viroporin	viroporin	Aplysia californica	invertebrate	0	0	0	gap
 pacc	pac	Aplysia californica	invertebrate	0	0	0	no_locus_unrescued
 tmco1	tmco1	Aplysia californica	invertebrate	1	1	0	present
-tmem87	tmem87	Aplysia californica	invertebrate	1	1	0	present
+tmem87	tmem87	Aplysia californica	invertebrate	0	0	0	gap
 tmem109	tmem109	Aplysia californica	invertebrate	0	0	0	partial
-clcc1	mclc	Aplysia californica	invertebrate	1	1	0	present
+clcc1	mclc	Aplysia californica	invertebrate	2	2	0	present
 mitok	mitok	Aplysia californica	invertebrate	3	0	0	present
 gphr	gphr	Aplysia californica	invertebrate	1	1	0	present
 kv_shaker	ploop	Lymnaea stagnalis	invertebrate	14	4	0	present
@@ -2319,9 +2319,9 @@ clic	clic	Lymnaea stagnalis	invertebrate	3	2	0	present
 viroporin	viroporin	Lymnaea stagnalis	invertebrate	0	0	0	gap
 pacc	pac	Lymnaea stagnalis	invertebrate	0	0	0	no_locus_unrescued
 tmco1	tmco1	Lymnaea stagnalis	invertebrate	1	1	0	present
-tmem87	tmem87	Lymnaea stagnalis	invertebrate	1	1	0	present
+tmem87	tmem87	Lymnaea stagnalis	invertebrate	0	0	0	gap
 tmem109	tmem109	Lymnaea stagnalis	invertebrate	0	0	0	partial
-clcc1	mclc	Lymnaea stagnalis	invertebrate	2	1	0	present
+clcc1	mclc	Lymnaea stagnalis	invertebrate	2	2	0	present
 mitok	mitok	Lymnaea stagnalis	invertebrate	1	1	0	present
 gphr	gphr	Lymnaea stagnalis	invertebrate	1	1	0	present
 kv_shaker	ploop	Cornu aspersum	invertebrate	0	0	7	genome_present
@@ -2394,7 +2394,7 @@ clic	clic	Cornu aspersum	invertebrate	0	0	3	genome_present
 viroporin	viroporin	Cornu aspersum	invertebrate	0	0	0	partial
 pacc	pac	Cornu aspersum	invertebrate	0	0	0	gap
 tmco1	tmco1	Cornu aspersum	invertebrate	0	0	2	genome_present
-tmem87	tmem87	Cornu aspersum	invertebrate	0	0	1	genome_present
+tmem87	tmem87	Cornu aspersum	invertebrate	0	0	0	gap
 tmem109	tmem109	Cornu aspersum	invertebrate	0	0	0	gap
 clcc1	mclc	Cornu aspersum	invertebrate	0	0	2	genome_present
 mitok	mitok	Cornu aspersum	invertebrate	0	0	1	genome_present
@@ -2469,7 +2469,7 @@ clic	clic	Strongylocentrotus purpuratus	deuterostome	3	2	0	present
 viroporin	viroporin	Strongylocentrotus purpuratus	deuterostome	0	0	0	partial
 pacc	pac	Strongylocentrotus purpuratus	deuterostome	0	0	0	gap
 tmco1	tmco1	Strongylocentrotus purpuratus	deuterostome	1	1	0	present
-tmem87	tmem87	Strongylocentrotus purpuratus	deuterostome	1	1	0	present
+tmem87	tmem87	Strongylocentrotus purpuratus	deuterostome	0	0	0	genome_weak
 tmem109	tmem109	Strongylocentrotus purpuratus	deuterostome	0	0	0	no_locus_unrescued
 clcc1	mclc	Strongylocentrotus purpuratus	deuterostome	1	1	0	present
 mitok	mitok	Strongylocentrotus purpuratus	deuterostome	1	0	0	present
@@ -2544,7 +2544,7 @@ clic	clic	Branchiostoma floridae	deuterostome	1	1	0	present
 viroporin	viroporin	Branchiostoma floridae	deuterostome	0	0	0	partial
 pacc	pac	Branchiostoma floridae	deuterostome	0	0	0	partial
 tmco1	tmco1	Branchiostoma floridae	deuterostome	1	1	0	present
-tmem87	tmem87	Branchiostoma floridae	deuterostome	1	1	0	present
+tmem87	tmem87	Branchiostoma floridae	deuterostome	0	0	0	partial
 tmem109	tmem109	Branchiostoma floridae	deuterostome	0	0	0	partial
 clcc1	mclc	Branchiostoma floridae	deuterostome	1	1	0	present
 mitok	mitok	Branchiostoma floridae	deuterostome	1	1	0	present
@@ -2619,7 +2619,7 @@ clic	clic	Ciona intestinalis	deuterostome	2	2	0	present
 viroporin	viroporin	Ciona intestinalis	deuterostome	0	0	0	no_locus_unrescued
 pacc	pac	Ciona intestinalis	deuterostome	0	0	0	partial
 tmco1	tmco1	Ciona intestinalis	deuterostome	1	1	0	present
-tmem87	tmem87	Ciona intestinalis	deuterostome	1	1	0	present
+tmem87	tmem87	Ciona intestinalis	deuterostome	0	0	0	partial
 tmem109	tmem109	Ciona intestinalis	deuterostome	0	0	0	partial
 clcc1	mclc	Ciona intestinalis	deuterostome	0	0	0	trace
 mitok	mitok	Ciona intestinalis	deuterostome	1	0	0	present
@@ -2694,7 +2694,7 @@ clic	clic	Petromyzon marinus	vertebrate	4	4	0	present
 viroporin	viroporin	Petromyzon marinus	vertebrate	0	0	0	gap
 pacc	pac	Petromyzon marinus	vertebrate	1	1	0	present
 tmco1	tmco1	Petromyzon marinus	vertebrate	1	1	0	present
-tmem87	tmem87	Petromyzon marinus	vertebrate	2	2	0	present
+tmem87	tmem87	Petromyzon marinus	vertebrate	0	0	0	genome_weak
 tmem109	tmem109	Petromyzon marinus	vertebrate	0	0	0	absent
 clcc1	mclc	Petromyzon marinus	vertebrate	1	1	0	present
 mitok	mitok	Petromyzon marinus	vertebrate	1	1	0	present
@@ -2769,7 +2769,7 @@ clic	clic	Callorhinchus milii	vertebrate	5	5	0	present
 viroporin	viroporin	Callorhinchus milii	vertebrate	0	0	0	gap
 pacc	pac	Callorhinchus milii	vertebrate	1	1	0	present
 tmco1	tmco1	Callorhinchus milii	vertebrate	1	1	0	present
-tmem87	tmem87	Callorhinchus milii	vertebrate	1	0	0	present
+tmem87	tmem87	Callorhinchus milii	vertebrate	0	0	0	partial
 tmem109	tmem109	Callorhinchus milii	vertebrate	0	0	0	absent
 clcc1	mclc	Callorhinchus milii	vertebrate	1	1	0	present
 mitok	mitok	Callorhinchus milii	vertebrate	1	1	0	present
@@ -2844,7 +2844,7 @@ clic	clic	Torpedo marmorata	vertebrate	0	0	6	genome_present
 viroporin	viroporin	Torpedo marmorata	vertebrate	0	0	0	partial
 pacc	pac	Torpedo marmorata	vertebrate	0	0	1	genome_present
 tmco1	tmco1	Torpedo marmorata	vertebrate	0	0	1	genome_present
-tmem87	tmem87	Torpedo marmorata	vertebrate	0	0	3	genome_present
+tmem87	tmem87	Torpedo marmorata	vertebrate	0	0	1	genome_present
 tmem109	tmem109	Torpedo marmorata	vertebrate	0	0	0	partial
 clcc1	mclc	Torpedo marmorata	vertebrate	0	0	1	genome_present
 mitok	mitok	Torpedo marmorata	vertebrate	0	0	1	genome_present
@@ -2919,8 +2919,8 @@ clic	clic	Danio rerio	vertebrate	8	8	0	present
 viroporin	viroporin	Danio rerio	vertebrate	0	0	0	partial
 pacc	pac	Danio rerio	vertebrate	1	1	0	present
 tmco1	tmco1	Danio rerio	vertebrate	1	1	0	present
-tmem87	tmem87	Danio rerio	vertebrate	2	1	0	present
-tmem109	tmem109	Danio rerio	vertebrate	1	1	0	present
+tmem87	tmem87	Danio rerio	vertebrate	0	0	0	partial
+tmem109	tmem109	Danio rerio	vertebrate	2	2	0	present
 clcc1	mclc	Danio rerio	vertebrate	1	1	0	present
 mitok	mitok	Danio rerio	vertebrate	1	1	0	present
 gphr	gphr	Danio rerio	vertebrate	1	1	0	present
@@ -2994,7 +2994,7 @@ clic	clic	Takifugu rubripes	vertebrate	8	8	0	present
 viroporin	viroporin	Takifugu rubripes	vertebrate	0	0	0	partial
 pacc	pac	Takifugu rubripes	vertebrate	0	0	0	absent
 tmco1	tmco1	Takifugu rubripes	vertebrate	1	1	0	present
-tmem87	tmem87	Takifugu rubripes	vertebrate	3	2	0	present
+tmem87	tmem87	Takifugu rubripes	vertebrate	2	0	0	present
 tmem109	tmem109	Takifugu rubripes	vertebrate	2	2	0	present
 clcc1	mclc	Takifugu rubripes	vertebrate	1	1	0	present
 mitok	mitok	Takifugu rubripes	vertebrate	1	1	0	present
@@ -3069,7 +3069,7 @@ clic	clic	Latimeria chalumnae	vertebrate	6	6	0	present
 viroporin	viroporin	Latimeria chalumnae	vertebrate	0	0	0	gap
 pacc	pac	Latimeria chalumnae	vertebrate	1	1	0	present
 tmco1	tmco1	Latimeria chalumnae	vertebrate	1	1	0	present
-tmem87	tmem87	Latimeria chalumnae	vertebrate	3	2	0	present
+tmem87	tmem87	Latimeria chalumnae	vertebrate	1	1	0	present
 tmem109	tmem109	Latimeria chalumnae	vertebrate	1	1	0	present
 clcc1	mclc	Latimeria chalumnae	vertebrate	1	1	0	present
 mitok	mitok	Latimeria chalumnae	vertebrate	1	1	0	present
@@ -3144,9 +3144,9 @@ clic	clic	Xenopus tropicalis	vertebrate	5	5	0	present
 viroporin	viroporin	Xenopus tropicalis	vertebrate	0	0	0	partial
 pacc	pac	Xenopus tropicalis	vertebrate	1	1	0	present
 tmco1	tmco1	Xenopus tropicalis	vertebrate	1	1	0	present
-tmem87	tmem87	Xenopus tropicalis	vertebrate	1	1	0	present
+tmem87	tmem87	Xenopus tropicalis	vertebrate	0	0	1	genome_found
 tmem109	tmem109	Xenopus tropicalis	vertebrate	0	0	0	partial
-clcc1	mclc	Xenopus tropicalis	vertebrate	1	1	0	present
+clcc1	mclc	Xenopus tropicalis	vertebrate	2	1	0	present
 mitok	mitok	Xenopus tropicalis	vertebrate	0	0	1	genome_found
 gphr	gphr	Xenopus tropicalis	vertebrate	1	1	0	present
 kv_shaker	ploop	Anolis carolinensis	vertebrate	17	12	0	present
@@ -3218,8 +3218,8 @@ otop	otopetrin	Anolis carolinensis	vertebrate	4	4	0	present
 clic	clic	Anolis carolinensis	vertebrate	5	5	0	present
 viroporin	viroporin	Anolis carolinensis	vertebrate	0	0	0	no_locus_unrescued
 pacc	pac	Anolis carolinensis	vertebrate	1	1	0	present
-tmco1	tmco1	Anolis carolinensis	vertebrate	1	0	0	present
-tmem87	tmem87	Anolis carolinensis	vertebrate	2	2	0	present
+tmco1	tmco1	Anolis carolinensis	vertebrate	1	1	0	present
+tmem87	tmem87	Anolis carolinensis	vertebrate	1	1	0	present
 tmem109	tmem109	Anolis carolinensis	vertebrate	1	1	0	present
 clcc1	mclc	Anolis carolinensis	vertebrate	1	1	0	present
 mitok	mitok	Anolis carolinensis	vertebrate	1	1	0	present
@@ -3369,7 +3369,7 @@ clic	clic	Ornithorhynchus anatinus	vertebrate	7	7	0	present
 viroporin	viroporin	Ornithorhynchus anatinus	vertebrate	0	0	0	no_locus_unrescued
 pacc	pac	Ornithorhynchus anatinus	vertebrate	1	1	0	present
 tmco1	tmco1	Ornithorhynchus anatinus	vertebrate	1	1	0	present
-tmem87	tmem87	Ornithorhynchus anatinus	vertebrate	2	2	0	present
+tmem87	tmem87	Ornithorhynchus anatinus	vertebrate	1	1	0	present
 tmem109	tmem109	Ornithorhynchus anatinus	vertebrate	1	1	0	present
 clcc1	mclc	Ornithorhynchus anatinus	vertebrate	1	1	0	present
 mitok	mitok	Ornithorhynchus anatinus	vertebrate	1	1	0	present

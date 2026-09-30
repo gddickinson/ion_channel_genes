@@ -3,23 +3,23 @@
   "old_cells_changed": 0,
   "old_verdicts_changed": 0,
   "changed_fields": {},
-  "controls_changed": 41,
+  "controls_changed": 40,
   "r4_cells": 364,
   "r4_verdicts": {
-    "no_locus_unrescued": 139,
-    "partial": 24,
-    "present": 167,
+    "no_locus_unrescued": 141,
+    "partial": 38,
+    "present": 146,
     "absent": 11,
-    "gap": 6,
-    "genome_weak": 2,
+    "gap": 10,
+    "genome_weak": 4,
     "genome_found": 3,
-    "genome_present": 11,
+    "genome_present": 10,
     "trace": 1
   },
   "r4_genome": {
     "no_locus": 163,
-    "partial": 32,
-    "found": 162,
-    "gap": 7
+    "partial": 48,
+    "found": 142,
+    "gap": 11
   }
 }

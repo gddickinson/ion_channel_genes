@@ -1985,7 +1985,7 @@ tr|A0A4W3JBW3|A0A4W3JBW3_CALMI	Callorhinchus milii	vertebrate	119	assoc_kcne	hig
 tr|A0A4W3JC94|A0A4W3JC94_CALMI	Callorhinchus milii	vertebrate	307	assoc_nav_beta	high	31.7	0.5402		1.0
 tr|A0A4W3JD05|A0A4W3JD05_CALMI	Callorhinchus milii	vertebrate	569	assoc_k_beta	medium	47.2	0.3465	lrrc8	0.303
 tr|A0A4W3JDR6|A0A4W3JDR6_CALMI	Callorhinchus milii	vertebrate	1459	assoc_k_beta	medium	62.7	0.6299	lrrc8	0.2568
-tr|A0A4W3JE68|A0A4W3JE68_CALMI	Callorhinchus milii	vertebrate	300	nonchannel_gost	medium	122.1	0.3912		1.0
+tr|A0A4W3JE68|A0A4W3JE68_CALMI	Callorhinchus milii	vertebrate	300	nonchannel_gost	medium	154.8	0.4099		1.0
 tr|A0A4W3JEE3|A0A4W3JEE3_CALMI	Callorhinchus milii	vertebrate	766	transporter_slc26	high	898.8	0.9681		1.0
 tr|A0A4W3JEE5|A0A4W3JEE5_CALMI	Callorhinchus milii	vertebrate	259	assoc_k_beta	medium	60.9	0.3045	lrrc8	0.5698
 tr|A0A4W3JEI6|A0A4W3JEI6_CALMI	Callorhinchus milii	vertebrate	627	assoc_k_beta	high	93.1	0.5249	lrrc8	0.4436
@@ -8101,7 +8101,6 @@ tr|Q3SEJ5|Q3SEJ5_PARTE	Paramecium tetraurelia	ciliate	170	nonchannel_ncs	high	37
 tr|Q50JT7|Q50JT7_CHLRE	Chlamydomonas reinhardtii	algae	1416	nonchannel_abc_transporter	high	1041.1	0.954	assoc_sur	0.4118
 tr|Q54CH3|Q54CH3_DICDI	Dictyostelium discoideum	amoebozoa	453	nonchannel_vsp	high	154.0	0.5236		1.0
 tr|Q54EY0|Q54EY0_DICDI	Dictyostelium discoideum	amoebozoa	823	trpml	high	139.7	0.8074		1.0
-tr|Q54F03|Q54F03_DICDI	Dictyostelium discoideum	amoebozoa	530	nonchannel_gost	high	32.4	0.5759		1.0
 tr|Q54FQ9|Q54FQ9_DICDI	Dictyostelium discoideum	amoebozoa	526	outofscope_aquaporin	high	63.4	0.8327		1.0
 tr|Q54GT8|Q54GT8_DICDI	Dictyostelium discoideum	amoebozoa	904	nonchannel_vsp	medium	169.5	0.3388		1.0
 tr|Q54JS1|Q54JS1_DICDI	Dictyostelium discoideum	amoebozoa	461	assoc_mcu_reg	high	211.0	0.777	nonchannel_ncs	0.7597

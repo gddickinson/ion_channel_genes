@@ -1,7 +1,6 @@
 species	family	genome_loci	genome_loci_called	proteome_near	near_min_margin	near_calls
 Monosiga brevicollis	p2x_nonmetazoan	1	1	1	0.7876	A9URI5:p2x:0.7876
 Trichoplax adhaerens	trpn	1	1	1	0.7958	B3S2T9:trpv:0.7958
-Trichoplax adhaerens	tmem87	1	1	0		
 Nematostella vectensis	trpn	2	2	6	0.4029	A7RH68:trpc:0.8362;A7RJX1:trpc:0.8246;A7RSZ7:trpc:0.8483;A7SB40:trpa:0.4029;A7ST04:trpa:0.7507;A7T9H1:trpa:0.7103
 Nematostella vectensis	mscs	6	2	0		
 Daphnia pulex	hcn	1	1	1	0.7983	E9H807:cng:0.7983
@@ -12,4 +11,5 @@ Lottia gigantea	trpn	1	1	8	0.2036	V3ZJ74:trpv:0.8077;V3ZY04:trpv:0.2036;V4A7H8:t
 Ciona intestinalis	nalcn	1	1	0		
 Takifugu rubripes	ryr	6	6	3	0.9355	H2SPX2:itpr:0.9355;H2TJZ0:itpr:0.9461;H2TJZ1:itpr:0.9469
 Takifugu rubripes	tmem175	1	1	0		
+Xenopus tropicalis	tmem87	2	1	1	0.2736	Q28EW0:nonchannel_tmem87b:0.2736
 Xenopus tropicalis	mitok	1	1	0		

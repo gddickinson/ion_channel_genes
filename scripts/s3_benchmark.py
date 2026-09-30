@@ -101,7 +101,8 @@ def test_sets() -> tuple[list[dict], dict[str, str]]:
     cols = ("accession", "reviewed", "taxon_id", "fragment", "gene")
     for r in iter_census_v2(cols):
         if (r["reviewed"] == "reviewed" and r["taxon_id"] != "9606"
-                and not r["fragment"] and r["accession"] not in seeds
+                and "Fragment" not in (r["fragment"] or "")   # "Precursor" is complete
+                and r["accession"] not in seeds
                 and r["gene"].upper() in genes):
             rows.append({"set": "B_orthologues", "accession": r["accession"],
                          "expected_family": genes[r["gene"].upper()]})

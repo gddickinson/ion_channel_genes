@@ -63,7 +63,7 @@ PF05934	MCLC	MCLC	Mid-1-related chloride channel (MCLC)	1570	ok	1
 PF06459	RR_TM4-6	RR_TM4-6	Ryanodine Receptor TM 4-6	5604	ok	1
 PF06512	Na_trans_assoc	Na_trans_assoc	Sodium ion transport-associated	13867	ok	1
 PF06736	TMEM175	TMEM175	Endosomal/lysosomal potassium channel TMEM175	7039	ok	1
-PF06814	GOST_TM	GOST_TM	GOST, seven transmembrane domain	11289	ok	2
+PF06814	GOST_TM	GOST_TM	GOST, seven transmembrane domain	11289	ok	3
 PF07647	SAM_2	SAM_2	SAM domain (Sterile alpha motif)	65066	ok	1
 PF07686	V-set	V-set	Immunoglobulin V-set domain	217115	ok	1
 PF07810	TMC	TMC	TMC domain	8467	ok	1
@@ -119,7 +119,7 @@ PF20871	KCTD1-15_CTD	KCTD1-15_CTD	BTB/POZ domain-containing protein KCTD1/15, C-
 PF21014	Slowpoke_C	Slowpoke_C	Ca2+-activated K+ channel Slowpoke, TrkA_C like domain	7165	ok	1
 PF21082	MS_channel_3rd	MS_channel_3rd	Mechanosensitive ion channel MscS, C-terminal	37581	ok	1
 PF21381	MCLN_ECD	MCLN_ECD	Mucolipin, extracytosolic domain	4756	ok	1
-PF21901	TMEM87A-B_GOLD	TMEM87A-B_GOLD	TMEM87A/B, GOLD domain	1660	ok	1
+PF21901	TMEM87A-B_GOLD	TMEM87A-B_GOLD	TMEM87A/B, GOLD domain	1660	ok	2
 PF22441	CLIC-like_N	CLIC-like_N	CLIC-like N-terminal domain	6312	ok	1
 PF22614	Slo-like_RCK	Slo-like_RCK	Calcium-activated potassium channel slowpoke-like RCK domain	15780	ok	1
 PF23110	H1_KCTD8_12_16	H1_KCTD8_12_16	KCTD8/12/16 H1 domain	3759	ok	1

@@ -1,10 +1,10 @@
 {
- "frame_members": 7360,
- "n_domain_call": 3245,
- "n_domain_enumeration": 3682,
+ "frame_members": 7353,
+ "n_domain_call": 3249,
+ "n_domain_enumeration": 3660,
  "n_profile": 110,
- "n_genome": 323,
- "proteome_members": 7037,
+ "n_genome": 334,
+ "proteome_members": 7019,
  "human": {
   "genes": 328,
   "enumerated": 326,

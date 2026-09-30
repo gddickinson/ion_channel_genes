@@ -6,11 +6,11 @@ Rendered by `scripts/s15_report.py` from the tables in this directory (D13), whi
 
 ## The answer
 
-**Domain search finds the channels; it cannot name most of them.** Of the final census's 7,360 high-confidence census-family members (panel frame, below), **94.1% carry an enumerated pore signature**, but S2's domain rules call only **44.1%** of them to the family the profiles do. Profiles add 110 proteome members domain search never enumerated (1.5%); genomes add 323 loci the proteomes lack (4.4%).
+**Domain search finds the channels; it cannot name most of them.** Of the final census's 7,353 high-confidence census-family members (panel frame, below), **94.0% carry an enumerated pore signature**, but S2's domain rules call only **44.2%** of them to the family the profiles do. Profiles add 110 proteome members domain search never enumerated (1.5%); genomes add 334 loci the proteomes lack (4.5%).
 
 On the independent human frame (the 328 curated census genes): domain search enumerates **326**, calls **173** to the right family, and the profiles call **327**.
 
-**Per superfamily (thresholds fixed in `s15_contribution.py` before any row was read: ≥ 95% / ≥ 50%)** — enumeration: domain_search 28, profile_or_genome_only 3, domain_partial 1; the family *call*: profile_or_genome_only 14, domain_search 14, domain_partial 4. Enumeration is not the bottleneck anywhere except clic (77%), hv (35%), mitok (0%), viroporin (0%). The call is: in cysloop, deg_enac, p2x, clc, tmco1, tmem87, mitok, tmem109, viroporin domain rules call **no** member to its family, because the families inside each share one architecture (D25) — S2 stops at the superfamily and only the profiles separate them.
+**Per superfamily (thresholds fixed in `s15_contribution.py` before any row was read: ≥ 95% / ≥ 50%)** — enumeration: domain_search 28, profile_or_genome_only 3, domain_partial 1; the family *call*: profile_or_genome_only 14, domain_search 14, domain_partial 4. Enumeration is not the bottleneck anywhere except clic (77%), hv (35%), mitok (0%), viroporin (0%). The call is: in cysloop, deg_enac, p2x, clc, tmco1, mitok, tmem109, tmem87, viroporin domain rules call **no** member to its family, because the families inside each share one architecture (D25) — S2 stops at the superfamily and only the profiles separate them.
 
 ## Two frames
 
@@ -42,16 +42,16 @@ On the independent human frame (the 328 curated census genes): domain search enu
 | tric | 48 | 94% | 94% | 94% | 100% | domain_search | domain_search | 1 | 2 / 2 / 2 of 2 | 45/45 |
 | piezo | 45 | 91% | 98% | 98% | 100% | domain_search | domain_partial | 0 | 2 / 2 / 2 of 2 | no clean run |
 | tmem175 | 45 | 96% | 96% | 96% | 100% | domain_search | domain_search | 4 | 1 / 1 / 1 of 1 | 44/44 |
+| gphr | 43 | 91% | 93% | 93% | 100% | domain_search | domain_search | 0 | 2 / 2 / 2 of 2 | no clean run |
 | mcu | 43 | 93% | 93% | 93% | 100% | domain_search | domain_search | 10 | 2 / 2 / 2 of 2 | 63/63 |
-| gphr | 40 | 98% | 100% | 100% | 100% | domain_search | domain_search | 0 | 2 / 2 / 2 of 2 | no clean run |
-| tmco1 | 36 | 0% | 100% | 100% | 100% | domain_search | profile_or_genome_only | 0 | 1 / 0 / 1 of 1 | no clean run |
-| tmem87 | 32 | 0% | 100% | 100% | 100% | domain_search | profile_or_genome_only | 0 | 1 / 0 / 1 of 1 | no clean run |
+| tmco1 | 40 | 0% | 92% | 92% | 100% | domain_search | profile_or_genome_only | 0 | 1 / 0 / 1 of 1 | no clean run |
 | hv | 26 | 31% | 31% | 88% | 100% | profile_or_genome_only | profile_or_genome_only | 0 | 1 / 1 / 1 of 1 | no clean run |
-| mclc | 18 | 100% | 100% | 100% | 100% | domain_search | domain_search | 7 | 1 / 1 / 1 of 1 | no clean run |
+| mclc | 23 | 96% | 96% | 96% | 100% | domain_search | domain_search | 4 | 1 / 1 / 1 of 1 | no clean run |
+| mitok | 16 | 0% | 0% | 88% | 100% | profile_or_genome_only | profile_or_genome_only | 0 | 0 / 0 / 1 of 1 | no clean run |
 | abc_channel | 14 | 93% | 93% | 93% | 100% | domain_search | domain_search | 0 | 1 / 1 / 1 of 1 | no clean run |
-| mitok | 14 | 0% | 0% | 100% | 100% | profile_or_genome_only | profile_or_genome_only | 0 | 0 / 0 / 1 of 1 | no clean run |
-| pac | 13 | 100% | 100% | 100% | 100% | domain_search | domain_search | 0 | 1 / 1 / 1 of 1 | no clean run |
-| tmem109 | 11 | 0% | 100% | 100% | 100% | domain_search | profile_or_genome_only | 0 | 1 / 0 / 1 of 1 | no clean run |
+| pac | 14 | 93% | 93% | 93% | 100% | domain_search | domain_search | 0 | 1 / 1 / 1 of 1 | no clean run |
+| tmem109 | 12 | 0% | 100% | 100% | 100% | domain_search | profile_or_genome_only | 0 | 1 / 0 / 1 of 1 | no clean run |
+| tmem87 | 9 | 0% | 89% | 89% | 100% | domain_search | profile_or_genome_only | 0 | 1 / 0 / 1 of 1 | no clean run |
 | viroporin | 3 | 0% | 0% | 100% | 100% | profile_or_genome_only | profile_or_genome_only | 0 | 0 / 0 / 0 of 0 | 1/3 |
 
 *Domain-only calls*: S2 family calls on census v4 rows the profiles do not call (census v3 basis `s2_only`) — domain search's unique contribution, outside the frame because no profile confirms them.

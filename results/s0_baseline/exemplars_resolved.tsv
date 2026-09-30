@@ -1,87 +1,87 @@
 family	label	gene	species	taxon_id	declared_accession	resolved_accession	resolved_gene	length_aa	protein_name	status
 kv_shaker	Hs_KCNA1	KCNA1	Homo sapiens	9606	Q09470	Q09470	KCNA1	495	Potassium voltage-gated channel subfamily A member 1	ok
-kv_shaker	Hs_KCNB1	KCNB1	Homo sapiens	9606		Q14721	KCNB1	858	Potassium voltage-gated channel subfamily B member 1	ok
-kv_shaker	Hs_KCND2	KCND2	Homo sapiens	9606		Q9NZV8	KCND2	630	A-type voltage-gated potassium channel KCND2	ok
+kv_shaker	Hs_KCNB1	KCNB1	Homo sapiens	9606	Q14721	Q14721	KCNB1	858	Potassium voltage-gated channel subfamily B member 1	ok
+kv_shaker	Hs_KCND2	KCND2	Homo sapiens	9606	Q9NZV8	Q9NZV8	KCND2	630	A-type voltage-gated potassium channel KCND2	ok
 kv_shaker	Dm_Shaker	Sh	Drosophila melanogaster	7227	P08510	P08510	Sh	655	Potassium voltage-gated channel protein Shaker	ok
-kv_modifier	Hs_KCNS3	KCNS3	Homo sapiens	9606		Q9BQ31	KCNS3	491	Delayed-rectifier potassium channel regulatory subunit KCNS3	ok
-kv_modifier	Hs_KCNV2	KCNV2	Homo sapiens	9606		Q8TDN2	KCNV2	545	Potassium voltage-gated channel subfamily V member 2	ok
+kv_modifier	Hs_KCNS3	KCNS3	Homo sapiens	9606	Q9BQ31	Q9BQ31	KCNS3	491	Delayed-rectifier potassium channel regulatory subunit KCNS3	ok
+kv_modifier	Hs_KCNV2	KCNV2	Homo sapiens	9606	Q8TDN2	Q8TDN2	KCNV2	545	Potassium voltage-gated channel subfamily V member 2	ok
 kv_kcnq	Hs_KCNQ1	KCNQ1	Homo sapiens	9606	P51787	P51787	KCNQ1	676	Potassium voltage-gated channel subfamily KQT member 1	ok
-kv_kcnq	Hs_KCNQ2	KCNQ2	Homo sapiens	9606		O43526	KCNQ2	872	Potassium voltage-gated channel subfamily KQT member 2	ok
+kv_kcnq	Hs_KCNQ2	KCNQ2	Homo sapiens	9606	O43526	O43526	KCNQ2	872	Potassium voltage-gated channel subfamily KQT member 2	ok
 kv_eag	Hs_KCNH2	KCNH2	Homo sapiens	9606	Q12809	Q12809	KCNH2	1159	Voltage-gated inwardly rectifying potassium channel KCNH2	ok
-kv_eag	Hs_KCNH1	KCNH1	Homo sapiens	9606		O95259	KCNH1	989	Voltage-gated delayed rectifier potassium channel KCNH1	ok
+kv_eag	Hs_KCNH1	KCNH1	Homo sapiens	9606	O95259	O95259	KCNH1	989	Voltage-gated delayed rectifier potassium channel KCNH1	ok
 kca_slo	Hs_KCNMA1	KCNMA1	Homo sapiens	9606	Q12791	Q12791	KCNMA1	1236	Calcium-activated potassium channel subunit alpha-1	ok
-kca_slo	Hs_KCNT1	KCNT1	Homo sapiens	9606		Q5JUK3	KCNT1	1230	Potassium channel subfamily T member 1	ok
-kca_sk	Hs_KCNN2	KCNN2	Homo sapiens	9606		Q9H2S1	KCNN2	579	Small conductance calcium-activated potassium channel protei	ok
-kca_sk	Hs_KCNN4	KCNN4	Homo sapiens	9606		O15554	KCNN4	427	Intermediate conductance calcium-activated potassium channel	ok
+kca_slo	Hs_KCNT1	KCNT1	Homo sapiens	9606	Q5JUK3	Q5JUK3	KCNT1	1230	Potassium channel subfamily T member 1	ok
+kca_sk	Hs_KCNN2	KCNN2	Homo sapiens	9606	Q9H2S1	Q9H2S1	KCNN2	579	Small conductance calcium-activated potassium channel protei	ok
+kca_sk	Hs_KCNN4	KCNN4	Homo sapiens	9606	O15554	O15554	KCNN4	427	Intermediate conductance calcium-activated potassium channel	ok
 kir	Hs_KCNJ2	KCNJ2	Homo sapiens	9606	P63252	P63252	KCNJ2	427	Inward rectifier potassium channel 2	ok
-kir	Hs_KCNJ11	KCNJ11	Homo sapiens	9606		Q14654	KCNJ11	390	ATP-sensitive inward rectifier potassium channel 11	ok
-k2p	Hs_KCNK2	KCNK2	Homo sapiens	9606		O95069	KCNK2	426	Potassium channel subfamily K member 2	ok
-k2p	Hs_KCNK3	KCNK3	Homo sapiens	9606		O14649	KCNK3	394	Potassium channel subfamily K member 3	ok
+kir	Hs_KCNJ11	KCNJ11	Homo sapiens	9606	Q14654	Q14654	KCNJ11	390	ATP-sensitive inward rectifier potassium channel 11	ok
+k2p	Hs_KCNK2	KCNK2	Homo sapiens	9606	O95069	O95069	KCNK2	426	Potassium channel subfamily K member 2	ok
+k2p	Hs_KCNK3	KCNK3	Homo sapiens	9606	O14649	O14649	KCNK3	394	Potassium channel subfamily K member 3	ok
 kcsa_prok	Sl_KcsA	kcsA	Streptomyces lividans	1916	P0A334	P0A334	kcsA	160	pH-gated potassium channel KcsA	ok
 kcsa_prok	Mt_MthK	mthK	Methanothermobacter thermautotrophicus	187420	O27564	O27564	mthK	336	Calcium-gated potassium channel MthK	ok
 kcsa_prok	Bc_NaK	nak	Bacillus cereus		Q81HW2	Q81HW2		114		NO_GENE_NAME_IN_UNIPROT
 nav	Hs_SCN5A	SCN5A	Homo sapiens	9606	Q14524	Q14524	SCN5A	2016	Sodium channel protein type 5 subunit alpha	ok
-nav	Hs_SCN1A	SCN1A	Homo sapiens	9606		P35498	SCN1A	2009	Sodium channel protein type 1 subunit alpha	ok
+nav	Hs_SCN1A	SCN1A	Homo sapiens	9606	P35498	P35498	SCN1A	2009	Sodium channel protein type 1 subunit alpha	ok
 nav	Ab_NavAb	navAb	Aliarcobacter butzleri	367737	A8EVM5	A8EVM5		267		NO_GENE_NAME_IN_UNIPROT
 cav	Hs_CACNA1C	CACNA1C	Homo sapiens	9606	Q13936	Q13936	CACNA1C	2221	Voltage-dependent L-type calcium channel subunit alpha-1C	ok
-cav	Hs_CACNA1G	CACNA1G	Homo sapiens	9606		O43497	CACNA1G	2377	Voltage-dependent T-type calcium channel subunit alpha-1G	ok
+cav	Hs_CACNA1G	CACNA1G	Homo sapiens	9606	O43497	O43497	CACNA1G	2377	Voltage-dependent T-type calcium channel subunit alpha-1G	ok
 nalcn	Hs_NALCN	NALCN	Homo sapiens	9606	Q8IZF0	Q8IZF0	NALCN	1738	Sodium leak channel NALCN	ok
-catsper	Hs_CATSPER1	CATSPER1	Homo sapiens	9606		Q8NEC5	CATSPER1	780	Cation channel sperm-associated protein 1	ok
-catsper	Hs_CATSPER2	CATSPER2	Homo sapiens	9606		Q96P56	CATSPER2	530	Cation channel sperm-associated protein 2	ok
-tpc	Hs_TPCN1	TPCN1	Homo sapiens	9606		Q9ULQ1	TPCN1	816	Two pore channel protein 1	ok
-tpc	Hs_TPCN2	TPCN2	Homo sapiens	9606		Q8NHX9	TPCN2	752	Two pore channel protein 2	ok
-tpc	At_TPC1	TPC1	Arabidopsis thaliana	3702		Q94KI8	TPC1	733	Two pore calcium channel protein 1	ok
+catsper	Hs_CATSPER1	CATSPER1	Homo sapiens	9606	Q8NEC5	Q8NEC5	CATSPER1	780	Cation channel sperm-associated protein 1	ok
+catsper	Hs_CATSPER2	CATSPER2	Homo sapiens	9606	Q96P56	Q96P56	CATSPER2	530	Cation channel sperm-associated protein 2	ok
+tpc	Hs_TPCN1	TPCN1	Homo sapiens	9606	Q9ULQ1	Q9ULQ1	TPCN1	816	Two pore channel protein 1	ok
+tpc	Hs_TPCN2	TPCN2	Homo sapiens	9606	Q8NHX9	Q8NHX9	TPCN2	752	Two pore channel protein 2	ok
+tpc	At_TPC1	TPC1	Arabidopsis thaliana	3702	Q94KI8	Q94KI8	TPC1	733	Two pore calcium channel protein 1	ok
 cng	Hs_CNGA1	CNGA1	Homo sapiens	9606	P29973	P29973	CNGA1	686	Cyclic nucleotide-gated channel alpha-1	ok
-cng	Hs_CNGB1	CNGB1	Homo sapiens	9606		Q14028	CNGB1	1251	Cyclic nucleotide-gated channel beta-1	ok
+cng	Hs_CNGB1	CNGB1	Homo sapiens	9606	Q14028	Q14028	CNGB1	1251	Cyclic nucleotide-gated channel beta-1	ok
 hcn	Hs_HCN1	HCN1	Homo sapiens	9606	O60741	O60741	HCN1	890	Potassium/sodium hyperpolarization-activated cyclic nucleoti	ok
-hcn	Hs_HCN4	HCN4	Homo sapiens	9606		Q9Y3Q4	HCN4	1203	Potassium/sodium hyperpolarization-activated cyclic nucleoti	ok
-trpc	Hs_TRPC3	TRPC3	Homo sapiens	9606		Q13507	TRPC3	921	Short transient receptor potential channel 3	ok
-trpc	Hs_TRPC6	TRPC6	Homo sapiens	9606		Q9Y210	TRPC6	931	Short transient receptor potential channel 6	ok
+hcn	Hs_HCN4	HCN4	Homo sapiens	9606	Q9Y3Q4	Q9Y3Q4	HCN4	1203	Potassium/sodium hyperpolarization-activated cyclic nucleoti	ok
+trpc	Hs_TRPC3	TRPC3	Homo sapiens	9606	Q13507	Q13507	TRPC3	921	Short transient receptor potential channel 3	ok
+trpc	Hs_TRPC6	TRPC6	Homo sapiens	9606	Q9Y210	Q9Y210	TRPC6	931	Short transient receptor potential channel 6	ok
 trpc	Dm_trp	trp	Drosophila melanogaster	7227	P19334	P19334	trp	1275	Transient receptor potential protein	ok
 trpv	Hs_TRPV1	TRPV1	Homo sapiens	9606	Q8NER1	Q8NER1	TRPV1	839	Transient receptor potential cation channel subfamily V memb	ok
-trpv	Hs_TRPV5	TRPV5	Homo sapiens	9606		Q9NQA5	TRPV5	729	Transient receptor potential cation channel subfamily V memb	ok
+trpv	Hs_TRPV5	TRPV5	Homo sapiens	9606	Q9NQA5	Q9NQA5	TRPV5	729	Transient receptor potential cation channel subfamily V memb	ok
 trpm	Hs_TRPM8	TRPM8	Homo sapiens	9606	Q7Z2W7	Q7Z2W7	TRPM8	1104	Transient receptor potential cation channel subfamily M memb	ok
-trpm	Hs_TRPM2	TRPM2	Homo sapiens	9606		O94759	TRPM2	1503	Transient receptor potential cation channel subfamily M memb	ok
-trpm	Hs_TRPM7	TRPM7	Homo sapiens	9606		Q96QT4	TRPM7	1865	Transient receptor potential cation channel subfamily M memb	ok
+trpm	Hs_TRPM2	TRPM2	Homo sapiens	9606	O94759	O94759	TRPM2	1503	Transient receptor potential cation channel subfamily M memb	ok
+trpm	Hs_TRPM7	TRPM7	Homo sapiens	9606	Q96QT4	Q96QT4	TRPM7	1865	Transient receptor potential cation channel subfamily M memb	ok
 trpa	Hs_TRPA1	TRPA1	Homo sapiens	9606	O75762	O75762	TRPA1	1119	Transient receptor potential cation channel subfamily A memb	ok
 trpml	Hs_MCOLN1	MCOLN1	Homo sapiens	9606	Q9GZU1	Q9GZU1	MCOLN1	580	Mucolipin-1	ok
 trpml	Hs_MCOLN2	MCOLN2	Homo sapiens	9606	Q8IZK6	Q8IZK6	MCOLN2	566	Mucolipin-2	ok
 trpp	Hs_PKD2	PKD2	Homo sapiens	9606	Q13563	Q13563	PKD2	968	Polycystin-2	ok
-trpp	Hs_PKD2L1	PKD2L1	Homo sapiens	9606		Q9P0L9	PKD2L1	805	Polycystin-2-like protein 1	ok
+trpp	Hs_PKD2L1	PKD2L1	Homo sapiens	9606	Q9P0L9	Q9P0L9	PKD2L1	805	Polycystin-2-like protein 1	ok
 trpn	Dm_nompC	nompC	Drosophila melanogaster	7227	Q7KIQ2	Q7KIQ2	nompC	1619		ok
-trpn	Ce_trp-4	trp-4	Caenorhabditis elegans	6239		Q9GRV5	trp-4	1924		ok
+trpn	Ce_trp-4	trp-4	Caenorhabditis elegans	6239	Q9GRV5	Q9GRV5	trp-4	1924		ok
 nachr	Hs_CHRNA1	CHRNA1	Homo sapiens	9606	P02708	P02708	CHRNA1	457	Acetylcholine receptor subunit alpha	ok
-nachr	Hs_CHRNA7	CHRNA7	Homo sapiens	9606		P36544	CHRNA7	502	Neuronal acetylcholine receptor subunit alpha-7	ok
+nachr	Hs_CHRNA7	CHRNA7	Homo sapiens	9606	P36544	P36544	CHRNA7	502	Neuronal acetylcholine receptor subunit alpha-7	ok
 nachr	Tm_nAChR_a	CHRNA1	Torpedo marmorata	7788	P02711	P02711	CHRNA1	461	Acetylcholine receptor subunit alpha	ok
 gabaa	Hs_GABRA1	GABRA1	Homo sapiens	9606	P14867	P14867	GABRA1	456	Gamma-aminobutyric acid receptor subunit alpha-1	ok
-gabaa	Hs_GABRB3	GABRB3	Homo sapiens	9606		P28472	GABRB3	473	Gamma-aminobutyric acid receptor subunit beta-3	ok
+gabaa	Hs_GABRB3	GABRB3	Homo sapiens	9606	P28472	P28472	GABRB3	473	Gamma-aminobutyric acid receptor subunit beta-3	ok
 glyr	Hs_GLRA1	GLRA1	Homo sapiens	9606	P23415	P23415	GLRA1	457	Glycine receptor subunit alpha-1	ok
 ht3	Hs_HTR3A	HTR3A	Homo sapiens	9606	P46098	P46098	HTR3A	478	5-hydroxytryptamine receptor 3A	ok
-zac	Hs_ZACN	ZACN	Homo sapiens	9606		Q401N2	ZACN	412	Ligand-gated cation channel ZACN	ok
-plgic_invertebrate	Ce_glc-1	glc-1	Caenorhabditis elegans	6239		G5EBR3	glc-1	461	Glutamate-gated chloride channel alpha	ok
-plgic_invertebrate	Dm_GluClalpha	GluClalpha	Drosophila melanogaster	7227		Q94900	GluClalpha	456	Glutamate-gated chloride channel	ok
+zac	Hs_ZACN	ZACN	Homo sapiens	9606	Q401N2	Q401N2	ZACN	412	Ligand-gated cation channel ZACN	ok
+plgic_invertebrate	Ce_glc-1	glc-1	Caenorhabditis elegans	6239	G5EBR3	G5EBR3	glc-1	461	Glutamate-gated chloride channel alpha	ok
+plgic_invertebrate	Dm_GluClalpha	GluClalpha	Drosophila melanogaster	7227	Q94900	Q94900	GluClalpha	456	Glutamate-gated chloride channel	ok
 plgic_prok	Gv_GLIC	glvI	Gloeobacter violaceus	33072	Q7NDN8	Q7NDN8	glvI	359	Proton-gated ion channel	ok
 plgic_prok	Ec_ELIC	elic	Dickeya chrysanthemi		P0C7B7	P0C7B7		321	Cys-loop ligand-gated ion channel	NO_GENE_NAME_IN_UNIPROT
 ampa	Hs_GRIA1	GRIA1	Homo sapiens	9606	P42261	P42261	GRIA1	906	Glutamate receptor 1	ok
-ampa	Hs_GRIA2	GRIA2	Homo sapiens	9606		P42262	GRIA2	883	Glutamate receptor 2	ok
+ampa	Hs_GRIA2	GRIA2	Homo sapiens	9606	P42262	P42262	GRIA2	883	Glutamate receptor 2	ok
 kainate	Hs_GRIK1	GRIK1	Homo sapiens	9606	P39086	P39086	GRIK1	918	Glutamate receptor ionotropic, kainate 1	ok
 nmda	Hs_GRIN1	GRIN1	Homo sapiens	9606	Q05586	Q05586	GRIN1	938	Glutamate receptor ionotropic, NMDA 1	ok
-nmda	Hs_GRIN2B	GRIN2B	Homo sapiens	9606		Q13224	GRIN2B	1484	Glutamate receptor ionotropic, NMDA 2B	ok
-delta_glur	Hs_GRID2	GRID2	Homo sapiens	9606		O43424	GRID2	1007	Glutamate receptor ionotropic, delta-2	ok
-iglur_nonvertebrate	At_GLR3.4	GLR3.4	Arabidopsis thaliana	3702		Q8GXJ4	GLR3.4	959	Glutamate receptor 3.4	ok
-iglur_nonvertebrate	Dm_IR25a	Ir25a	Drosophila melanogaster	7227		E9NA96	Ir25a	947	Ionotropic receptor 25a	ok
+nmda	Hs_GRIN2B	GRIN2B	Homo sapiens	9606	Q13224	Q13224	GRIN2B	1484	Glutamate receptor ionotropic, NMDA 2B	ok
+delta_glur	Hs_GRID2	GRID2	Homo sapiens	9606	O43424	O43424	GRID2	1007	Glutamate receptor ionotropic, delta-2	ok
+iglur_nonvertebrate	At_GLR3.4	GLR3.4	Arabidopsis thaliana	3702	Q8GXJ4	Q8GXJ4	GLR3.4	959	Glutamate receptor 3.4	ok
+iglur_nonvertebrate	Dm_IR25a	Ir25a	Drosophila melanogaster	7227	E9NA96	E9NA96	Ir25a	947	Ionotropic receptor 25a	ok
 iglur_prok	Ss_GluR0	glr0	Synechocystis sp. PCC 6803	1148	P73797	P73797		397		NO_GENE_NAME_IN_UNIPROT
 p2x	Hs_P2RX7	P2RX7	Homo sapiens	9606	Q99572	Q99572	P2RX7	595	P2X purinoceptor 7	ok
 p2x	Hs_P2RX2	P2RX2	Homo sapiens	9606	Q9UBL9	Q9UBL9	P2RX2	471	P2X purinoceptor 2	ok
-p2x_nonmetazoan	Dd_P2XA	p2xA	Dictyostelium discoideum	44689		Q86JM7	p2xA	378	P2X receptor A	ok
+p2x_nonmetazoan	Dd_P2XA	p2xA	Dictyostelium discoideum	44689	Q86JM7	Q86JM7	p2xA	378	P2X receptor A	ok
 enac	Hs_SCNN1A	SCNN1A	Homo sapiens	9606	P37088	P37088	SCNN1A	669	Epithelial sodium channel subunit alpha	ok
 asic	Hs_ASIC1	ASIC1	Homo sapiens	9606	P78348	P78348	ASIC1	528	Acid-sensing ion channel 1	ok
 deg_invertebrate	Ce_mec-4	mec-4	Caenorhabditis elegans	6239	P24612	P24612	mec-4	768	Degenerin mec-4	ok
 deg_invertebrate	Ha_FaNaC	fanac	Cornu aspersum	6535	Q25011	Q25011		625	FMRFamide-activated amiloride-sensitive sodium channel	NO_GENE_NAME_IN_UNIPROT
 clc_channel	Hs_CLCN1	CLCN1	Homo sapiens	9606	P35523	P35523	CLCN1	988	Chloride channel protein 1	ok
-clc_channel	Hs_CLCN2	CLCN2	Homo sapiens	9606		P51788	CLCN2	898	Chloride channel protein 2	ok
+clc_channel	Hs_CLCN2	CLCN2	Homo sapiens	9606	P51788	P51788	CLCN2	898	Chloride channel protein 2	ok
 clc_transporter	Hs_CLCN7	CLCN7	Homo sapiens	9606	P51798	P51798	CLCN7	805	H(+)/Cl(-) exchange transporter 7	ok
-clc_transporter	Hs_CLCN5	CLCN5	Homo sapiens	9606		P51795	CLCN5	816	H(+)/Cl(-) exchange transporter 5	ok
+clc_transporter	Hs_CLCN5	CLCN5	Homo sapiens	9606	P51795	P51795	CLCN5	816	H(+)/Cl(-) exchange transporter 5	ok
 clc_prokaryotic	Ec_ClC-ec1	clcA	Escherichia coli	83333	P37019	P37019	clcA	473	H(+)/Cl(-) exchange transporter ClcA	ok
 bestrophin	Hs_BEST1	BEST1	Homo sapiens	9606	O76090	O76090	BEST1	585	Bestrophin-1	ok
 bestrophin	Kp_BEST	best	Klebsiella pneumoniae		W9BH30	W9BH30		305		NO_GENE_NAME_IN_UNIPROT
@@ -96,16 +96,16 @@ osca_tmem63	At_OSCA1.2	OSCA1.2	Arabidopsis thaliana	3702	Q5XEZ5	Q5XEZ5	OSCA1.2	7
 tmc	Hs_TMC1	TMC1	Homo sapiens	9606	Q8TDI8	Q8TDI8	TMC1	760	Transmembrane channel-like protein 1	ok
 tmc	Hs_TMC2	TMC2	Homo sapiens	9606	Q8TDI7	Q8TDI7	TMC2	906	Transmembrane channel-like protein 2	ok
 piezo	Hs_PIEZO1	PIEZO1	Homo sapiens	9606	Q92508	Q92508	PIEZO1	2521	Piezo-type mechanosensitive ion channel component 1	ok
-piezo	Hs_PIEZO2	PIEZO2	Homo sapiens	9606		Q9H5I5	PIEZO2	2752	Piezo-type mechanosensitive ion channel component 2	ok
+piezo	Hs_PIEZO2	PIEZO2	Homo sapiens	9606	Q9H5I5	Q9H5I5	PIEZO2	2752	Piezo-type mechanosensitive ion channel component 2	ok
 mscl	Ec_MscL	mscL	Escherichia coli	83333	P0A742	P0A742	mscL	136	Large-conductance mechanosensitive channel	ok
 mscs	Ec_MscS	mscS	Escherichia coli	83333	P0C0S1	P0C0S1	mscS	286	Small-conductance mechanosensitive channel	ok
-mscs	At_MSL10	MSL10	Arabidopsis thaliana	3702		Q9LYG9	MSL10	734	Mechanosensitive ion channel protein 10	ok
+mscs	At_MSL10	MSL10	Arabidopsis thaliana	3702	Q9LYG9	Q9LYG9	MSL10	734	Mechanosensitive ion channel protein 10	ok
 connexin	Hs_GJA1	GJA1	Homo sapiens	9606	P17302	P17302	GJA1	382	Gap junction alpha-1 protein	ok
 connexin	Hs_GJB2	GJB2	Homo sapiens	9606	P29033	P29033	GJB2	226	Gap junction beta-2 protein	ok
 pannexin	Hs_PANX1	PANX1	Homo sapiens	9606	Q96RD7	Q96RD7	PANX1	426	Pannexin-1	ok
 pannexin	Hs_PANX2	PANX2	Homo sapiens	9606	Q96RD6	Q96RD6	PANX2	677	Pannexin-2	ok
-innexin	Ce_unc-7	unc-7	Caenorhabditis elegans	6239		Q03412	unc-7	522	Innexin unc-7	ok
-innexin	Dm_ogre	ogre	Drosophila melanogaster	7227		P27716	ogre	362	Innexin inx1	ok
+innexin	Ce_unc-7	unc-7	Caenorhabditis elegans	6239	Q03412	Q03412	unc-7	522	Innexin unc-7	ok
+innexin	Dm_ogre	ogre	Drosophila melanogaster	7227	P27716	P27716	ogre	362	Innexin inx1	ok
 lrrc8	Hs_LRRC8A	LRRC8A	Homo sapiens	9606	Q8IWT6	Q8IWT6	LRRC8A	810	Volume-regulated anion channel subunit LRRC8A	ok
 lrrc8	Hs_LRRC8B	LRRC8B	Homo sapiens	9606	Q6P9F7	Q6P9F7	LRRC8B	803	Volume-regulated anion channel subunit LRRC8B	ok
 calhm	Hs_CALHM1	CALHM1	Homo sapiens	9606	Q8IU99	Q8IU99	CALHM1	346	Calcium homeostasis modulator protein 1	ok
@@ -117,7 +117,7 @@ ryr	Hs_RYR1	RYR1	Homo sapiens	9606	P21817	P21817	RYR1	5038	Ryanodine receptor 1	
 ryr	Hs_RYR2	RYR2	Homo sapiens	9606	Q92736	Q92736	RYR2	4967	Ryanodine receptor 2	ok
 ryr	Hs_RYR3	RYR3	Homo sapiens	9606	Q15413	Q15413	RYR3	4870	Ryanodine receptor 3	ok
 tric	Hs_TMEM38A	TMEM38A	Homo sapiens	9606	Q9H6F2	Q9H6F2	TMEM38A	299	Trimeric intracellular cation channel type A	ok
-tric	Hs_TMEM38B	TMEM38B	Homo sapiens	9606		Q9NVV0	TMEM38B	291	Trimeric intracellular cation channel type B	ok
+tric	Hs_TMEM38B	TMEM38B	Homo sapiens	9606	Q9NVV0	Q9NVV0	TMEM38B	291	Trimeric intracellular cation channel type B	ok
 mcu	Hs_MCU	MCU	Homo sapiens	9606	Q8NE86	Q8NE86	MCU	351	Calcium uniporter protein, mitochondrial	ok
 mcu	Hs_MCUB	MCUB	Homo sapiens	9606	Q9NWR8	Q9NWR8	MCUB	336	Calcium uniporter regulatory subunit MCUb, mitochondrial	ok
 vdac	Hs_VDAC1	VDAC1	Homo sapiens	9606	P21796	P21796	VDAC1	283	Non-selective voltage-gated ion channel VDAC1	ok
@@ -125,27 +125,39 @@ vdac	Hs_VDAC2	VDAC2	Homo sapiens	9606	P45880	P45880	VDAC2	294	Non-selective volt
 tmem175	Hs_TMEM175	TMEM175	Homo sapiens	9606	Q9BSA9	Q9BSA9	TMEM175	504	Endosomal/lysosomal proton channel TMEM175	ok
 orai	Hs_ORAI1	ORAI1	Homo sapiens	9606	Q96D31	Q96D31	ORAI1	301	Calcium release-activated calcium channel protein 1	ok
 orai	Hs_ORAI2	ORAI2	Homo sapiens	9606	Q96SN7	Q96SN7	ORAI2	254	Protein orai-2	ok
-orai	Dm_Orai	Orai	Drosophila melanogaster	7227		Q9U6B8	Orai	351	Calcium release-activated calcium channel protein 1	ok
+orai	Dm_Orai	Orai	Drosophila melanogaster	7227	Q9U6B8	Q9U6B8	Orai	351	Calcium release-activated calcium channel protein 1	ok
 hv1	Hs_HVCN1	HVCN1	Homo sapiens	9606	Q96D96	Q96D96	HVCN1	273	Voltage-gated hydrogen channel 1	ok
 hv1	Ci_Hv1	HVCN1	Ciona intestinalis	7719	Q1JV40	Q1JV40	HVCN1	342	Voltage-gated hydrogen channel 1	ok
 otop	Hs_OTOP1	OTOP1	Homo sapiens	9606	Q7RTM1	Q7RTM1	OTOP1	612	Proton channel OTOP1	ok
 otop	Hs_OTOP2	OTOP2	Homo sapiens	9606	Q7RTS6	Q7RTS6	OTOP2	562	Proton channel OTOP2	ok
 clic	Hs_CLIC1	CLIC1	Homo sapiens	9606	O00299	O00299	CLIC1	241	Chloride intracellular channel protein 1	ok
 clic	Hs_CLIC4	CLIC4	Homo sapiens	9606	Q9Y696	Q9Y696	CLIC4	253	Chloride intracellular channel protein 4	ok
-viroporin	IAV_M2	M	Influenza A virus	11320		A3DRP1	M	97	Matrix protein 2	ok
+viroporin	IAV_M2	M	Influenza A virus	11320	A3DRP1	A3DRP1	M	97	Matrix protein 2	ok
 viroporin	HIV1_Vpu	vpu	Human immunodeficiency virus type 1	11676	P05919	P05919	vpu	82	Protein Vpu	ok
-viroporin	SARS2_E	E	Severe acute respiratory syndrome coronavirus 2	2697049		P0DTC4	E	75	Envelope small membrane protein	ok
+viroporin	SARS2_E	E	Severe acute respiratory syndrome coronavirus 2	2697049	P0DTC4	P0DTC4	E	75	Envelope small membrane protein	ok
 pacc	Hs_PACC1	PACC1	Homo sapiens	9606	Q9H813	Q9H813	PACC1	350	Proton-activated chloride channel	ok
 tmco1	Hs_TMCO1	TMCO1	Homo sapiens	9606	Q9UM00	Q9UM00	TMCO1	239	Calcium load-activated calcium channel	ok
+tmco1	Mm_Tmco1	Tmco1	Mus musculus	10090	Q921L3	Q921L3	Tmco1	188	Calcium load-activated calcium channel	ok
+tmco1	Dr_tmco1	tmco1	Danio rerio	7955	Q6DGW9	Q6DGW9	tmco1	188	Calcium load-activated calcium channel	ok
+tmco1	Dd_tmco1	tmco1	Dictyostelium discoideum	44689	Q54TU8	Q54TU8	tmco1	186	Calcium load-activated calcium channel homolog	ok
 tmem87	Hs_TMEM87A	TMEM87A	Homo sapiens	9606	Q8NBN3	Q8NBN3	TMEM87A	555	Golgi-pH regulating cation channel	ok
+tmem87	Mm_Tmem87a	Tmem87a	Mus musculus	10090	Q8BXN9	Q8BXN9	Tmem87a	555	Golgi-pH regulating cation channel	ok
 tmem109	Hs_TMEM109	TMEM109	Homo sapiens	9606	Q9BVC6	Q9BVC6	TMEM109	243	Voltage-gated monoatomic cation channel TMEM109	ok
+tmem109	Mm_Tmem109	Tmem109	Mus musculus	10090	Q3UBX0	Q3UBX0	Tmem109	243	Voltage-gated monoatomic cation channel TMEM109	ok
 clcc1	Hs_CLCC1	CLCC1	Homo sapiens	9606	Q96S66	Q96S66	CLCC1	551	Chloride channel CLIC-like protein 1	ok
 mitok	Hs_CCDC51	CCDC51	Homo sapiens	9606	Q96ER9	Q96ER9	CCDC51	411	Mitochondrial potassium channel	ok
 gphr	Hs_GPHRA	GPHRA	Homo sapiens	9606	B7ZAQ6	B7ZAQ6	GPHRA	455	Golgi pH regulator A	ok
 gphr	Hs_GPHRB	GPHRB	Homo sapiens	9606	P0CG08	P0CG08	GPHRB	455	Golgi pH regulator B	ok
 nonchannel_emc3	Hs_EMC3	EMC3	Homo sapiens	9606	Q9P0I2	Q9P0I2	EMC3	261	ER membrane protein complex subunit 3	ok
+nonchannel_emc3	Mm_Emc3	Emc3	Mus musculus	10090	Q99KI3	Q99KI3	Emc3	261	ER membrane protein complex subunit 3	ok
+nonchannel_emc3	Dr_emc3	emc3	Danio rerio	7955	Q7SXW4	Q7SXW4	emc3	261	ER membrane protein complex subunit 3	ok
+nonchannel_emc3	Sc_EMC3	EMC3	Saccharomyces cerevisiae	4932	P36039	P36039	EMC3	253	ER membrane protein complex subunit 3	ok
+nonchannel_emc3	Dd_emc3	emc3	Dictyostelium discoideum	44689	Q54YN3	Q54YN3	emc3	314	ER membrane protein complex subunit 3	ok
 nonchannel_gost	Hs_GPR107	GPR107	Homo sapiens	9606	Q5VW38	Q5VW38	GPR107	600	Protein GPR107	ok
-nonchannel_gost	Hs_TMEM87B	TMEM87B	Homo sapiens	9606	Q96K49	Q96K49	TMEM87B	555	Transmembrane protein 87B	ok
+nonchannel_gost	Mm_Gpr107	Gpr107	Mus musculus	10090	Q8BUV8	Q8BUV8	Gpr107	551	Protein GPR107	ok
+nonchannel_gost	Mm_Gpr108	Gpr108	Mus musculus	10090	Q91WD0	Q91WD0	Gpr108	569	Protein GPR108	ok
+nonchannel_tmem87b	Hs_TMEM87B	TMEM87B	Homo sapiens	9606	Q96K49	Q96K49	TMEM87B	555	Transmembrane protein 87B	ok
+nonchannel_tmem87b	Mm_Tmem87b	Tmem87b	Mus musculus	10090	Q8BKU8	Q8BKU8	Tmem87b	555	Transmembrane protein 87B	ok
 nonchannel_bri3bp	Hs_BRI3BP	BRI3BP	Homo sapiens	9606	Q8WY22	Q8WY22	BRI3BP	251	BRI3-binding protein	ok
 nonchannel_ncs	Hs_NCS1	NCS1	Homo sapiens	9606	P62166	P62166	NCS1	190	Neuronal calcium sensor 1	ok
 nonchannel_ncs	Hs_HPCA	HPCA	Homo sapiens	9606	P84074	P84074	HPCA	193	Neuron-specific calcium-binding protein hippocalcin	ok
@@ -181,4 +193,4 @@ nonchannel_vsp	Ci_VSP	Ci-VSP	Ciona intestinalis	7719	Q4W8A1	Q4W8A1	Ci-VSP	576	Pr
 nonchannel_gasdermin	Hs_GSDMD	GSDMD	Homo sapiens	9606	P57764	P57764	GSDMD	484	Gasdermin-D	ok
 transporter_slc26	Hs_SLC26A5	SLC26A5	Homo sapiens	9606	P58743	P58743	SLC26A5	744	Prestin	ok
 outofscope_aquaporin	Hs_AQP1	AQP1	Homo sapiens	9606	P29972	P29972	AQP1	269	Aquaporin-1	ok
-outofscope_bacterial_porin	Ec_OmpF	ompF	Escherichia coli	83333		P02931	ompF	362	Outer membrane porin F	ok
+outofscope_bacterial_porin	Ec_OmpF	ompF	Escherichia coli	83333	P02931	P02931	ompF	362	Outer membrane porin F	ok

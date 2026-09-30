@@ -30,7 +30,6 @@ Thermus thermophilus	mscs	AP008226.1	1609004	1609666	5	75.5	2.9e-16	24.5	mscs|Q5
 Saccharomyces cerevisiae	ano_scramblase	BK006936.2	421377	422681	1	107.0	4.78e-24	25.11	ano_scramblase|O13621	zero
 Saccharomyces cerevisiae	vdac	BK006947.3	517997	518866	28	183.0	1.45e-52	34.615	vdac|Q9P544	control
 Schizosaccharomyces pombe	ano_scramblase	CU329671.1	1430926	1432695	23	105.0	3.03e-23	21.163	ano_scramblase|E9FW08	control
-Schizosaccharomyces pombe	tmem87	CU329670.1	4131611	4132780	25	105.0	1.13e-23	25.072	tmem87|Q22938	control
 Arabidopsis thaliana	tweety	CP002684.1	26818728	26819081	1	52.8	2.14e-06	32.258	tweety|A9RMS1	zero
 Chlamydomonas reinhardtii	vdac	CM008966.1	1838395	1838979	23	97.4	4.54e-22	30.818	vdac|A9TKC4	control
 Dictyostelium discoideum	mscs	CM000151.3	7823754	7825226	4	137.0	4.19e-33	22.601	mscs|Q9LYG9	control
@@ -91,6 +90,7 @@ Nematostella vectensis	calhm	DS469537.1	1169717	1190960	17	68.2	1.79e-11	29.703	
 Nematostella vectensis	calhm	DS469553.1	228578	229246	1	78.6	2.96e-15	23.651	calhm|F6Y4T2	control
 Nematostella vectensis	calhm	DS469627.1	326468	327220	2	65.1	2.44e-10	23.843	calhm|Q18593	control
 Nematostella vectensis	calhm	DS469651.1	307738	308085	1	52.0	3.28e-06	27.778	calhm|Q9HA72	control
+Hydra vulgaris	clcc1	NC_088926.1	17732353	17732541	1	56.2	1.7e-06	39.683	clcc1|A0A9J7LG52	control
 Hydra vulgaris	cng	NC_088931.1	10264816	10265431	20	62.4	2.64e-08	48.077	cng|A0A7M7RDI5	control
 Hydra vulgaris	cng	NC_088931.1	10286915	10287649	24	168.0	1.18e-41	42.202	cng|A0A1X7V4G0	control
 Hydra vulgaris	lrrc8	NC_088920.1	18604418	18606103	37	78.2	4.67e-13	34.058	lrrc8|F7F2H1	zero

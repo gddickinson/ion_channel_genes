@@ -181,6 +181,11 @@ clc_transporter	clc	P51795	R1	9606	Homo sapiens
 clc_transporter	clc	P51797	R1	9606	Homo sapiens				
 clc_transporter	clc	P51798	R1	9606	Homo sapiens				
 clcc1	mclc	Q96S66	R1	9606	Homo sapiens				
+clcc1	mclc	A0A2R8Q3S9	R3	7955	Danio rerio	Metazoa	609	clcc1	architecture
+clcc1	mclc	Q1LZF8	R3	9913	Bos taurus	Metazoa	542	clcc1	architecture
+clcc1	mclc	Q91892	R3	8355	Xenopus laevis	Metazoa	508	clcc1	architecture
+clcc1	mclc	Q99LI2	R3	10090	Mus musculus	Metazoa	539	clcc1	architecture
+clcc1	mclc	Q9WU61	R3	10116	Rattus norvegicus	Metazoa	541	clcc1	architecture
 clic	clic	O00299	R1	9606	Homo sapiens				
 clic	clic	O15247	R1	9606	Homo sapiens				
 clic	clic	O95833	R1	9606	Homo sapiens				
@@ -612,6 +617,10 @@ nonchannel_class_c_gpcr	iglur	Q7RTX1	R1	9606	Homo sapiens
 nonchannel_class_c_gpcr	iglur	Q8TE23	R1	9606	Homo sapiens				
 nonchannel_class_c_gpcr	iglur	Q9UBS5	R1	9606	Homo sapiens				
 nonchannel_emc3	tmco1	Q9P0I2	R1	9606	Homo sapiens				
+nonchannel_emc3	tmco1	P36039	R2						
+nonchannel_emc3	tmco1	Q54YN3	R2						
+nonchannel_emc3	tmco1	Q7SXW4	R2						
+nonchannel_emc3	tmco1	Q99KI3	R2						
 nonchannel_gasdermin		O60443	R1	9606	Homo sapiens				
 nonchannel_gasdermin		P57764	R1	9606	Homo sapiens				
 nonchannel_gasdermin		Q0ZLH3	R1	9606	Homo sapiens				
@@ -619,8 +628,9 @@ nonchannel_gasdermin		Q8TAX9	R1	9606	Homo sapiens
 nonchannel_gasdermin		Q96QA5	R1	9606	Homo sapiens				
 nonchannel_gasdermin		Q9BYG8	R1	9606	Homo sapiens				
 nonchannel_gost	tmem87	Q5VW38	R1	9606	Homo sapiens				
-nonchannel_gost	tmem87	Q96K49	R1	9606	Homo sapiens				
 nonchannel_gost	tmem87	Q9NPR9	R1	9606	Homo sapiens				
+nonchannel_gost	tmem87	Q8BUV8	R2						
+nonchannel_gost	tmem87	Q91WD0	R2						
 nonchannel_kctd	ploop	Q14681	R1	9606	Homo sapiens				
 nonchannel_kctd	ploop	Q4G0X4	R1	9606	Homo sapiens				
 nonchannel_kctd	ploop	Q68DU8	R1	9606	Homo sapiens				
@@ -663,6 +673,8 @@ nonchannel_ncs	ploop	Q9UM19	R1	9606	Homo sapiens
 nonchannel_ncs	ploop	Q9UMX6	R1	9606	Homo sapiens				
 nonchannel_pomt	ca_release	Q9UKY4	R1	9606	Homo sapiens				
 nonchannel_pomt	ca_release	Q9Y6A1	R1	9606	Homo sapiens				
+nonchannel_tmem87b	tmem87	Q96K49	R1	9606	Homo sapiens				
+nonchannel_tmem87b	tmem87	Q8BKU8	R2						
 nonchannel_vsp	hv	P56180	R1	9606	Homo sapiens				
 nonchannel_vsp	hv	Q6XPS3	R1	9606	Homo sapiens				
 nonchannel_vsp	hv	Q4W8A1	R2						
@@ -766,7 +778,11 @@ tmc	tmem16_like	Q496Z4	R3	10116	Rattus norvegicus	Metazoa	698	tmc	architecture
 tmc	tmem16_like	Q4R7U0	R3	9541	Macaca fascicularis	Metazoa	723	tmc	architecture
 tmc	tmem16_like	Q5YCC5	R3	9031	Gallus gallus	Metazoa	735	tmc	architecture
 tmco1	tmco1	Q9UM00	R1	9606	Homo sapiens				
+tmco1	tmco1	Q54TU8	R2						
+tmco1	tmco1	Q6DGW9	R2						
+tmco1	tmco1	Q921L3	R2						
 tmem109	tmem109	Q9BVC6	R1	9606	Homo sapiens				
+tmem109	tmem109	Q3UBX0	R2						
 tmem175	tmem175	Q9BSA9	R1	9606	Homo sapiens				
 tmem175	tmem175	A5PN43	R3	7955	Danio rerio	Metazoa	520	tmem175	architecture
 tmem175	tmem175	Q32PG7	R3	9913	Bos taurus	Metazoa	479	tmem175	architecture
@@ -774,6 +790,7 @@ tmem175	tmem175	Q5ZKY0	R3	9031	Gallus gallus	Metazoa	501	tmem175	architecture
 tmem175	tmem175	Q6AY05	R3	10116	Rattus norvegicus	Metazoa	499	tmem175	architecture
 tmem175	tmem175	Q9CXY1	R3	10090	Mus musculus	Metazoa	499	tmem175	architecture
 tmem87	tmem87	Q8NBN3	R1	9606	Homo sapiens				
+tmem87	tmem87	Q8BXN9	R2						
 tpc	ploop	Q8NHX9	R1	9606	Homo sapiens				
 tpc	ploop	Q9ULQ1	R1	9606	Homo sapiens				
 tpc	ploop	Q94KI8	R2						

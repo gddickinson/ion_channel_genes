@@ -289,7 +289,7 @@ HAZARDS: list[Hazard] = [
     ),
     Hazard(
         "H18", "TMEM87A shares its domains with TMEM87B and the GOST proteins",
-        ("tmem87", "nonchannel_gost"),
+        ("tmem87", "nonchannel_tmem87b", "nonchannel_gost"),
         shared_evidence=("`PF06814` (GOST seven-TM) on TMEM87A/B, GPR107, "
                          "GPR108; `PF21901` (TMEM87 GOLD) on TMEM87A and "
                          "TMEM87B (measured 2026-09-29)."),

@@ -728,3 +728,19 @@ moulds. That is almost certainly the method confusing it with its
 non-channel Golgi relatives (hazard H18), not a real range. And adding these
 families changed nothing previously concluded about any other channel in
 any genome.
+
+## TMEM87: where a sequence census reaches its limit (2026-09-30)
+
+**The Golgi cation channel TMEM87A cannot be told from its paralogue
+TMEM87B outside mammals, and probably no sequence method could.** In mammals
+the two are distinct and are now separated cleanly. The duplication that
+made them appears to be a vertebrate event, however. In invertebrates and
+fish the single TMEM87 gene is the ancestor of both, so asking whether it is
+"A" or "B" has no answer. Whether the census should count TMEM87 by descent
+(both paralogues) or only the one reported to conduct is a scope decision
+*(pending: user)*. Until then, TMEM87 presence outside mammals is not
+interpretable.
+
+**Fungal relatives are no longer mistaken for the channel.** The yeast
+protein PTM1 and its fission-yeast counterpart now stop at "a TMEM87/GOST
+protein" rather than being called TMEM87A.

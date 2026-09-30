@@ -1,42 +1,41 @@
 species	fields	control_cells_before	matched_detection_before	control_cells_after	matched_detection_after
-Amphimedon queenslandica	control_cells,detected,detection,matched_cells,matched_detected	26	1.0	30	1.0
-Anolis carolinensis	control_cells,detected,matched_cells,matched_detected	55	1.0	61	1.0
-Aplysia californica	control_cells,detected,matched_cells,matched_detected	43	1.0	47	1.0
+Amphimedon queenslandica	control_cells,detected,detection,matched_cells,matched_detected	26	1.0	29	1.0
+Anolis carolinensis	control_cells,detected,matched_cells,matched_detected	55	1.0	62	1.0
+Aplysia californica	control_cells,detected,matched_cells,matched_detected	43	1.0	46	1.0
 Arabidopsis thaliana	control_cells,detected,matched_cells,matched_detected	9	1.0	11	1.0
-Branchiostoma floridae	control_cells,detected,detection,matched_cells,matched_detected,matched_detection	47	0.9767	52	0.9787
-Caenorhabditis elegans	control_cells,detected,detection,matched_cells,matched_detected,matched_detection	39	0.9737	42	0.9756
+Branchiostoma floridae	control_cells,detected,detection,matched_cells,matched_detected,matched_detection	47	0.9767	51	0.9783
+Caenorhabditis elegans	control_cells,detected,detection,matched_cells,matched_detected,matched_detection	39	0.9737	41	0.975
 Callorhinchus milii	control_cells,detected,matched_cells,matched_detected	56	1.0	61	1.0
-Capsaspora owczarzaki	control_cells,detected,detection,matched_cells,matched_detected	17	1.0	20	1.0
+Capsaspora owczarzaki	control_cells,detected,detection,matched_cells,matched_detected	17	1.0	19	1.0
 Chlamydomonas reinhardtii	control_cells,detected,detection	11		13	
-Ciona intestinalis	control_cells,detected,detection,matched_cells,matched_detected,matched_detection	36	0.9412	38	0.9444
-Cornu aspersum	control_cells,detected,matched_cells,matched_detected	27	1.0	29	1.0
-Danio rerio	control_cells,detected,matched_cells,matched_detected	54	1.0	61	1.0
-Daphnia pulex	control_cells,detected,matched_cells,matched_detected	38	1.0	40	1.0
+Ciona intestinalis	control_cells,detected,detection,matched_cells,matched_detected,matched_detection	36	0.9412	37	0.9429
+Cornu aspersum	control_cells,detected,matched_cells,matched_detected	27	1.0	28	1.0
+Danio rerio	control_cells,detected,matched_cells,matched_detected	54	1.0	60	1.0
+Daphnia pulex	control_cells,detected,matched_cells,matched_detected	38	1.0	39	1.0
 Dictyostelium discoideum	control_cells,detected,detection	10		12	
-Drosophila melanogaster	control_cells,detected,matched_cells,matched_detected	40	1.0	43	1.0
+Drosophila melanogaster	control_cells,detected,matched_cells,matched_detected	40	1.0	42	1.0
 Gallus gallus	control_cells,detected,matched_cells,matched_detected	54	1.0	61	1.0
 Homo sapiens	control_cells,detected,matched_cells,matched_detected	56	1.0	63	1.0
 Hydra vulgaris	control_cells,detected,matched_cells,matched_detected	37	1.0	40	1.0
 Latimeria chalumnae	control_cells,detected,matched_cells,matched_detected	55	1.0	62	1.0
-Lottia gigantea	control_cells,detected,detection,matched_cells,matched_detected,matched_detection	39	1.0	43	0.9762
-Lymnaea stagnalis	control_cells,detected,matched_cells,matched_detected	39	1.0	44	1.0
+Lottia gigantea	control_cells,detected,detection,matched_cells,matched_detected,matched_detection	39	1.0	42	0.9756
+Lymnaea stagnalis	control_cells,detected,matched_cells,matched_detected	39	1.0	43	1.0
 Monodelphis domestica	control_cells,detected,matched_cells,matched_detected	56	1.0	63	1.0
-Monosiga brevicollis	control_cells,detected,detection,matched_cells,matched_detected	17	1.0	19	1.0
+Monosiga brevicollis	control_cells,detected,detection,matched_cells,matched_detected	17	1.0	18	1.0
 Mus musculus	control_cells,detected,matched_cells,matched_detected	55	1.0	62	1.0
-Nematostella vectensis	control_cells,detected,detection,matched_cells,matched_detected,matched_detection	36	0.9688	39	0.9714
+Nematostella vectensis	control_cells,detected,detection,matched_cells,matched_detected,matched_detection	36	0.9688	38	0.9706
 Ornithorhynchus anatinus	control_cells,detected,matched_cells,matched_detected	55	1.0	62	1.0
 Oryza sativa	control_cells,detected,matched_cells,matched_detected	8	1.0	10	1.0
 Paramecium tetraurelia	control_cells,detected,matched_cells,matched_detected	12	1.0	14	1.0
-Petromyzon marinus	control_cells,detected,matched_cells,matched_detected	54	1.0	60	1.0
+Petromyzon marinus	control_cells,detected,matched_cells,matched_detected	54	1.0	59	1.0
 Physcomitrium patens	control_cells,detected,matched_cells,matched_detected	11	1.0	12	1.0
 Plasmodium falciparum	control_cells,detected,detection	3		5	
 Rattus norvegicus	control_cells,detected,matched_cells,matched_detected	55	1.0	62	1.0
 Saccharomyces cerevisiae	control_cells,detected	2	1.0	3	1.0
-Schizosaccharomyces pombe	control_cells,detected	4	1.0	5	1.0
-Strongylocentrotus purpuratus	control_cells,detected,detection,matched_cells,matched_detected,matched_detection	43	0.9767	47	0.9787
-Takifugu rubripes	control_cells,detected,matched_cells,matched_detected	51	1.0	57	1.0
+Strongylocentrotus purpuratus	control_cells,detected,detection,matched_cells,matched_detected,matched_detection	43	0.9767	46	0.9783
+Takifugu rubripes	control_cells,detected,matched_cells,matched_detected	51	1.0	56	1.0
 Tetrahymena thermophila	control_cells,detected,matched_cells,matched_detected	10	1.0	12	1.0
-Torpedo marmorata	control_cells,detected,matched_cells,matched_detected	50	1.0	52	1.0
+Torpedo marmorata	control_cells,detected,matched_cells,matched_detected	50	1.0	53	1.0
 Trichoplax adhaerens	control_cells,detected,matched_cells,matched_detected	29	1.0	31	1.0
 Trypanosoma brucei	control_cells,detected,detection	1		2	
-Xenopus tropicalis	control_cells,detected,matched_cells,matched_detected	54	1.0	59	1.0
+Xenopus tropicalis	control_cells,detected,matched_cells,matched_detected	54	1.0	58	1.0

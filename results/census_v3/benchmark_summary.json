@@ -12,13 +12,13 @@
     "sole_seed": 2
   },
   "B_orthologues": {
-    "positives": 542,
-    "correct": 542,
+    "positives": 745,
+    "correct": 744,
     "sf_only_correct": 0,
-    "wrong_family_same_sf": 0,
+    "wrong_family_same_sf": 1,
     "wrong_superfamily": 0,
     "no_call": 0,
-    "decoy_ok": 57,
+    "decoy_ok": 59,
     "decoy_called_channel": 0,
     "loo": 0,
     "sole_seed": 0

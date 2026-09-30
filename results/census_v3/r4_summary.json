@@ -3,10 +3,10 @@
   "r3_calls_changed": 11,
   "r4_records": 26783,
   "r4_status": {
-    "unassigned": 1916,
-    "channel_contested": 13949,
+    "unassigned": 1889,
+    "channel_contested": 9479,
     "channel": 992,
-    "non_channel_homolog": 9525,
-    "superfamily_only": 401
+    "non_channel_homolog": 11289,
+    "superfamily_only": 3134
   }
 }

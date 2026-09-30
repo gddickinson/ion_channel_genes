@@ -747,3 +747,30 @@ the 2,258 PIEZO-census records explained by the profile tier's gates
 **Caught.** The first S3b figure counted control families (aquaporins, SLC26,
 gasdermins) as "missed by domain search", which showed vertebrates at 47 %.
 It is restricted to census families now (1.2 %).
+
+## 2026-09-30 — open items, batch 2: reseeding the r4 profiles (H18)
+
+**Done.** R3's fragment test and set B's filter fixed ("Precursor" is
+complete); R2 exemplars for TMCO1, TMEM87, TMEM109, EMC3 and GOST (S0
+re-verified twice, 0 failures); TMEM87B split into its own decoy; human
+gene → family read from the catalogue, not the cache (D44). All 13 r4
+profiles rebuilt and the chain re-run: v3a (still 11 of 1,245,200 old calls
+changed), benchmark (set B 745, 744 correct; 59 decoys, 0 called a channel),
+panel census (human 327/328), S5c re-called (0 of 3,536 old cells changed),
+census v4, reports, figures, S15.
+
+**Result on H18.** Mammalian TMEM87A/B separate at ~0.60 (from 0.23);
+fungal GOST proteins stop at the superfamily; TMEM87 calls 5,484 → 995. But
+non-mammalian TMEM87 is co-orthologous to A and B: *Xenopus* tmem87a is
+called TMEM87B, and the genome matrix shows TMEM87 scattered. That's a
+scope decision for the user (TMEM87 by descent vs TMEM87A alone).
+
+**Caught (my errors).**
+- A `sed` tidy turned single-element tuples `(Ex(…),)` into bare Exemplars.
+  The build then ran on the broken catalogue, because a pipe hid the
+  validation failure; that is how TMCO1 kept one seed. The tuples were
+  restored and each step of the chain is now gated on its exit status.
+- The first TMEM87B split was refused by the seed-disjointness rule: the
+  human-accession cache still said TMEM87B belonged to GOST. Fixed (D44).
+- A chain run continued past that refused build and so repeated the old
+  results. It was discarded and re-run gated.

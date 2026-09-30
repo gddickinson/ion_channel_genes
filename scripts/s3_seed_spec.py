@@ -94,7 +94,10 @@ def human_accessions(refresh: bool = False) -> dict[str, dict]:
         if f.failures:
             raise SystemExit(f"{len(f.failures)} UniProt failures resolving "
                              f"human genes: {f.failures[:3]}")
-    out = {g: r for g, r in cached.items() if g in genes}
+    # the cache holds the accession; the *family* is always the catalogue's
+    # current one (a gene moved between families — TMEM87B, r4 — must not
+    # keep seeding its old family)
+    out = {g: {**r, "family": genes[g]} for g, r in cached.items() if g in genes}
     by_acc: dict[str, list[str]] = defaultdict(list)
     for g, r in out.items():
         if r["accession"]:
@@ -132,7 +135,12 @@ def r3_candidates(families: set[str]) -> dict[str, list[dict]]:
     for r in iter_census_v2(cols):
         fam = r["family"]
         if (fam not in families or r["reviewed"] != "reviewed"
-                or r["fragment"] or r["taxon_id"] == str(HUMAN_TAXON)):
+                # UniProt's flag: "Fragment(s)" is a fragment, "Precursor" is
+                # not (S2b). The first S3a build read any flag as a fragment,
+                # which left CLCC1 with one seed; the 91 frozen profiles keep
+                # the seeds they were built with (seed_manifest.tsv).
+                or "Fragment" in (r["fragment"] or "")
+                or r["taxon_id"] == str(HUMAN_TAXON)):
             continue
         lo, hi = bands[fam]
         if not lo <= int(r["length"]) <= hi:

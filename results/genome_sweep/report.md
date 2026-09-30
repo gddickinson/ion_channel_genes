@@ -6,80 +6,80 @@ Rendered by `scripts/s5_report.py` from the tables in this directory (D13). S5a 
 
 - **Bait panel**: 1808 baits for 91 catalogue families (controls included) from 50 panel species, one per species (B1–B3, D37).
 - **Sweep**: 52 genomes, 42.5 Gbp, 0 failures; 11,878 loci, **8,048 called to a family by the S3a profiles** (D32); miniprot 1.94 h. `-G` 1 Mb for genomes ≥ 1 Gbp, measured not assumed (D38).
-- **Positive control**: 1,449 of 1,575 control cells *found* (a profile-called locus), 1,548 detected by the whole instrument, with the genome's own species' baits excluded.
-- **Matched detection — the number every absence inherits: 1,456 / 1,466** control cells with an in-group non-self bait; unmatched 92 / 109. Below the 90% floor: Human immunodeficiency virus type 1, Influenza A virus, Severe acute respiratory syndrome coronavirus 2. No matched control at all (single-species groups — no absence readable): Chlamydomonas reinhardtii, Dictyostelium discoideum, Plasmodium falciparum, Trypanosoma brucei.
-- **Census v4**: census v3's 28,891 proteome rows unchanged + **452 genome loci** (435 from the genome-only species, 17 proteome misses) in 129 cells (`s5_census_v4.py`; SHA-256 in `census_v4.json`). A genome row is a locus, never merged into a proteome call.
+- **Positive control**: 1,432 of 1,558 control cells *found* (a profile-called locus), 1,531 detected by the whole instrument, with the genome's own species' baits excluded.
+- **Matched detection — the number every absence inherits: 1,441 / 1,451** control cells with an in-group non-self bait; unmatched 90 / 107. Below the 90% floor: Human immunodeficiency virus type 1, Influenza A virus, Severe acute respiratory syndrome coronavirus 2. No matched control at all (single-species groups — no absence readable): Chlamydomonas reinhardtii, Dictyostelium discoideum, Plasmodium falciparum, Trypanosoma brucei.
+- **Census v4**: census v3's 28,890 proteome rows unchanged + **449 genome loci** (432 from the genome-only species, 17 proteome misses) in 128 cells (`s5_census_v4.py`; SHA-256 in `census_v4.json`). A genome row is a locus, never merged into a proteome call.
 
 ## Per-genome control
 
 | species | group | control | found | detected | matched | m. detected | m. rate | m. undetected | unmatched | u. detected |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Aliarcobacter butzleri | prokaryote | 2 | 1 | 2 | 2 | 2 | 1.0 |  | 0 | 0 |
-| Amphimedon queenslandica | basal_metazoan | 30 | 26 | 27 | 17 | 17 | 1.0 |  | 13 | 10 |
-| Anolis carolinensis | vertebrate | 61 | 61 | 61 | 61 | 61 | 1.0 |  | 0 | 0 |
-| Aplysia californica | invertebrate | 47 | 45 | 47 | 47 | 47 | 1.0 |  | 0 | 0 |
+| Amphimedon queenslandica | basal_metazoan | 29 | 25 | 26 | 17 | 17 | 1.0 |  | 12 | 9 |
+| Anolis carolinensis | vertebrate | 62 | 62 | 62 | 62 | 62 | 1.0 |  | 0 | 0 |
+| Aplysia californica | invertebrate | 46 | 44 | 46 | 46 | 46 | 1.0 |  | 0 | 0 |
 | Arabidopsis thaliana | plant | 11 | 10 | 11 | 10 | 10 | 1.0 |  | 1 | 1 |
 | Bacillus subtilis | prokaryote | 2 | 1 | 2 | 2 | 2 | 1.0 |  | 0 | 0 |
-| Branchiostoma floridae | deuterostome | 52 | 46 | 50 | 47 | 46 | 0.9787 | tweety | 5 | 4 |
-| Caenorhabditis elegans | invertebrate | 42 | 39 | 41 | 41 | 40 | 0.9756 | tweety | 1 | 1 |
+| Branchiostoma floridae | deuterostome | 51 | 45 | 49 | 46 | 45 | 0.9783 | tweety | 5 | 4 |
+| Caenorhabditis elegans | invertebrate | 41 | 38 | 40 | 40 | 39 | 0.975 | tweety | 1 | 1 |
 | Callorhinchus milii | vertebrate | 61 | 61 | 61 | 61 | 61 | 1.0 |  | 0 | 0 |
-| Capsaspora owczarzaki | holozoa | 20 | 10 | 18 | 11 | 11 | 1.0 |  | 9 | 7 |
+| Capsaspora owczarzaki | holozoa | 19 | 9 | 17 | 10 | 10 | 1.0 |  | 9 | 7 |
 | Chlamydomonas reinhardtii | algae | 13 | 3 | 9 | 0 | 0 |  |  | 13 | 9 |
-| Ciona intestinalis | deuterostome | 38 | 33 | 36 | 36 | 34 | 0.9444 | tmem175,tric | 2 | 2 |
-| Cornu aspersum | invertebrate | 29 | 29 | 29 | 29 | 29 | 1.0 |  | 0 | 0 |
-| Danio rerio | vertebrate | 61 | 61 | 61 | 61 | 61 | 1.0 |  | 0 | 0 |
-| Daphnia pulex | invertebrate | 40 | 38 | 40 | 40 | 40 | 1.0 |  | 0 | 0 |
+| Ciona intestinalis | deuterostome | 37 | 32 | 35 | 35 | 33 | 0.9429 | tmem175,tric | 2 | 2 |
+| Cornu aspersum | invertebrate | 28 | 28 | 28 | 28 | 28 | 1.0 |  | 0 | 0 |
+| Danio rerio | vertebrate | 60 | 60 | 60 | 60 | 60 | 1.0 |  | 0 | 0 |
+| Daphnia pulex | invertebrate | 39 | 37 | 39 | 39 | 39 | 1.0 |  | 0 | 0 |
 | Dictyostelium discoideum | amoebozoa | 12 | 6 | 10 | 0 | 0 |  |  | 12 | 10 |
-| Drosophila melanogaster | invertebrate | 43 | 41 | 43 | 43 | 43 | 1.0 |  | 0 | 0 |
+| Drosophila melanogaster | invertebrate | 42 | 40 | 42 | 42 | 42 | 1.0 |  | 0 | 0 |
 | Escherichia coli | prokaryote | 3 | 2 | 3 | 3 | 3 | 1.0 |  | 0 | 0 |
 | Gallus gallus | vertebrate | 61 | 60 | 61 | 61 | 61 | 1.0 |  | 0 | 0 |
 | Gloeobacter violaceus | prokaryote | 4 | 1 | 3 | 3 | 3 | 1.0 |  | 1 | 0 |
 | Homo sapiens | vertebrate | 63 | 63 | 63 | 63 | 63 | 1.0 |  | 0 | 0 |
 | Human immunodeficiency virus type 1 | virus | 1 | 0 | 0 | 1 | 0 | 0.0 | viroporin | 0 | 0 |
-| Hydra vulgaris | cnidarian | 40 | 35 | 40 | 29 | 29 | 1.0 |  | 11 | 11 |
+| Hydra vulgaris | cnidarian | 40 | 34 | 40 | 29 | 29 | 1.0 |  | 11 | 11 |
 | Influenza A virus | virus | 1 | 0 | 0 | 1 | 0 | 0.0 | viroporin | 0 | 0 |
 | Latimeria chalumnae | vertebrate | 62 | 61 | 62 | 62 | 62 | 1.0 |  | 0 | 0 |
-| Lottia gigantea | invertebrate | 43 | 42 | 42 | 42 | 41 | 0.9762 | clcc1 | 1 | 1 |
-| Lymnaea stagnalis | invertebrate | 44 | 43 | 44 | 43 | 43 | 1.0 |  | 1 | 1 |
+| Lottia gigantea | invertebrate | 42 | 41 | 41 | 41 | 40 | 0.9756 | clcc1 | 1 | 1 |
+| Lymnaea stagnalis | invertebrate | 43 | 42 | 43 | 42 | 42 | 1.0 |  | 1 | 1 |
 | Methanothermobacter thermautotrophicus | prokaryote | 2 | 0 | 2 | 2 | 2 | 1.0 |  | 0 | 0 |
 | Monodelphis domestica | vertebrate | 63 | 63 | 63 | 63 | 63 | 1.0 |  | 0 | 0 |
-| Monosiga brevicollis | holozoa | 19 | 12 | 18 | 11 | 11 | 1.0 |  | 8 | 7 |
+| Monosiga brevicollis | holozoa | 18 | 11 | 17 | 10 | 10 | 1.0 |  | 8 | 7 |
 | Mus musculus | vertebrate | 62 | 62 | 62 | 62 | 62 | 1.0 |  | 0 | 0 |
-| Nematostella vectensis | cnidarian | 39 | 35 | 38 | 35 | 34 | 0.9714 | tweety | 4 | 4 |
+| Nematostella vectensis | cnidarian | 38 | 34 | 37 | 34 | 33 | 0.9706 | tweety | 4 | 4 |
 | Ornithorhynchus anatinus | vertebrate | 62 | 62 | 62 | 62 | 62 | 1.0 |  | 0 | 0 |
 | Oryza sativa | plant | 10 | 10 | 10 | 10 | 10 | 1.0 |  | 0 | 0 |
 | Paramecium tetraurelia | ciliate | 14 | 8 | 14 | 12 | 12 | 1.0 |  | 2 | 2 |
-| Petromyzon marinus | vertebrate | 60 | 60 | 60 | 60 | 60 | 1.0 |  | 0 | 0 |
+| Petromyzon marinus | vertebrate | 59 | 59 | 59 | 59 | 59 | 1.0 |  | 0 | 0 |
 | Physcomitrium patens | plant | 12 | 10 | 12 | 9 | 9 | 1.0 |  | 3 | 3 |
 | Plasmodium falciparum | apicomplexa | 5 | 0 | 3 | 0 | 0 |  |  | 5 | 3 |
 | Rattus norvegicus | vertebrate | 62 | 61 | 62 | 62 | 62 | 1.0 |  | 0 | 0 |
 | Saccharomyces cerevisiae | fungi | 3 | 0 | 3 | 2 | 2 | 1.0 |  | 1 | 1 |
-| Schizosaccharomyces pombe | fungi | 5 | 1 | 5 | 2 | 2 | 1.0 |  | 3 | 3 |
+| Schizosaccharomyces pombe | fungi | 4 | 1 | 4 | 2 | 2 | 1.0 |  | 2 | 2 |
 | Severe acute respiratory syndrome coronavirus 2 | virus | 1 | 0 | 0 | 1 | 0 | 0.0 | viroporin | 0 | 0 |
 | Streptomyces lividans | prokaryote | 3 | 1 | 3 | 3 | 3 | 1.0 |  | 0 | 0 |
-| Strongylocentrotus purpuratus | deuterostome | 47 | 43 | 46 | 47 | 46 | 0.9787 | tmem175 | 0 | 0 |
+| Strongylocentrotus purpuratus | deuterostome | 46 | 42 | 45 | 46 | 45 | 0.9783 | tmem175 | 0 | 0 |
 | Synechocystis sp. PCC 6803 | prokaryote | 5 | 3 | 5 | 3 | 3 | 1.0 |  | 2 | 2 |
-| Takifugu rubripes | vertebrate | 57 | 56 | 57 | 57 | 57 | 1.0 |  | 0 | 0 |
+| Takifugu rubripes | vertebrate | 56 | 55 | 56 | 56 | 56 | 1.0 |  | 0 | 0 |
 | Tetrahymena thermophila | ciliate | 12 | 4 | 12 | 12 | 12 | 1.0 |  | 0 | 0 |
 | Thermus thermophilus | prokaryote | 2 | 1 | 2 | 2 | 2 | 1.0 |  | 0 | 0 |
-| Torpedo marmorata | vertebrate | 52 | 52 | 52 | 52 | 52 | 1.0 |  | 0 | 0 |
+| Torpedo marmorata | vertebrate | 53 | 53 | 53 | 53 | 53 | 1.0 |  | 0 | 0 |
 | Trichoplax adhaerens | basal_metazoan | 31 | 28 | 31 | 22 | 22 | 1.0 |  | 9 | 9 |
 | Trypanosoma brucei | excavate | 2 | 0 | 1 | 0 | 0 |  |  | 2 | 1 |
-| Xenopus tropicalis | vertebrate | 59 | 59 | 59 | 59 | 59 | 1.0 |  | 0 | 0 |
+| Xenopus tropicalis | vertebrate | 58 | 58 | 58 | 58 | 58 | 1.0 |  | 0 | 0 |
 
 ## Zero cells: what the genomes say about S3b's absences
 
-2,253 zero cells (census family × species with no proteome call); 277 informative (the family is present at high confidence in another species of the group). Every cell is in `cells.tsv`.
+2,274 zero cells (census family × species with no proteome call); 279 informative (the family is present at high confidence in another species of the group). Every cell is in `cells.tsv`.
 
 | verdict | all | informative |
 |---|---|---|
-| no_locus_unrescued | 1581 | 0 |
-| partial | 314 | 27 |
-| genome_present | 115 | 113 |
-| gap | 107 | 11 |
+| no_locus_unrescued | 1583 | 0 |
+| partial | 328 | 29 |
+| genome_present | 114 | 112 |
+| gap | 111 | 11 |
 | absent | 83 | 83 |
+| genome_weak | 19 | 10 |
 | trace | 18 | 18 |
-| genome_weak | 17 | 9 |
 | genome_found | 14 | 12 |
 | unmatched | 4 | 4 |
 
@@ -92,11 +92,11 @@ Informative zero cells by group:
 | plant |  | 1 | 6 | 1 |  |  |  |  | 8 |
 | ciliate |  |  |  | 1 |  |  |  |  | 1 |
 | holozoa |  | 2 | 2 | 1 | 1 | 4 | 2 | 2 | 14 |
-| basal_metazoan |  | 6 | 2 | 1 | 1 | 3 |  | 2 | 15 |
+| basal_metazoan |  | 6 | 2 | 1 |  | 3 |  | 2 | 14 |
 | cnidarian |  | 1 | 1 | 2 | 1 |  | 1 |  | 6 |
-| invertebrate | 51 | 22 | 4 | 5 | 5 | 1 |  |  | 88 |
+| invertebrate | 50 | 22 | 4 | 5 | 5 | 1 |  |  | 87 |
 | deuterostome |  | 6 | 3 | 3 | 1 |  | 4 |  | 17 |
-| vertebrate | 62 | 15 | 8 |  | 3 | 3 | 2 |  | 93 |
+| vertebrate | 62 | 15 | 10 |  | 4 | 3 | 3 |  | 97 |
 
 ### Proteome misses: a high-confidence intact gene the proteome has no call for
 
@@ -106,7 +106,6 @@ Informative zero cells by group:
 |---|---|---|---|---|---|
 | Monosiga brevicollis | p2x_nonmetazoan | 1 | 1 | 1 | 0.7876 |
 | Trichoplax adhaerens | trpn | 1 | 1 | 1 | 0.7958 |
-| Trichoplax adhaerens | tmem87 | 1 | 1 | 0 |  |
 | Nematostella vectensis | trpn | 2 | 2 | 6 | 0.4029 |
 | Nematostella vectensis | mscs | 6 | 2 | 0 |  |
 | Daphnia pulex | hcn | 1 | 1 | 1 | 0.7983 |
@@ -117,6 +116,7 @@ Informative zero cells by group:
 | Ciona intestinalis | nalcn | 1 | 1 | 0 |  |
 | Takifugu rubripes | ryr | 6 | 6 | 3 | 0.9355 |
 | Takifugu rubripes | tmem175 | 1 | 1 | 0 |  |
+| Xenopus tropicalis | tmem87 | 2 | 1 | 1 | 0.2736 |
 | Xenopus tropicalis | mitok | 1 | 1 | 0 |  |
 
 ### Weak loci (not claims)
@@ -136,10 +136,12 @@ A profile-called locus without a high-confidence intact frame: retrocopies, fram
 | Nematostella vectensis | piezo | 1 | 1 | high | 0 | DS469520.1:1126602-1171342- |
 | Caenorhabditis elegans | ampa | 0 | 1 | medium | 0 | BX284603.4:8584641-8588089- |
 | Aplysia californica | glyr | 0 | 1 | medium | 0 | NW_004797315.1:100710-117076- |
+| Strongylocentrotus purpuratus | tmem87 | 0 | 1 | medium | 0 | r4_AAGJ06000005.1:43944861-43968352+ |
 | Ciona intestinalis | trpn | 1 | 1 | high | 0 | HT000012.2:4294893-4318182- |
 | Ciona intestinalis | nmda | 1 | 1 | medium | 0 | HT000014.2:4000191-4004598- |
 | Ciona intestinalis | piezo | 1 | 1 | high | 0 | HT000012.2:5256279-5295291- |
 | Ciona intestinalis | gphr | 1 | 1 | high | 0 | r4_HT000005.2:1226492-1227891+ |
+| Petromyzon marinus | tmem87 | 1 | 1 | medium | 0 | r4_NC_133697.1:6720396-7201240+ |
 | Xenopus tropicalis | tmem175 | 1 | 1 | medium | 0 | NC_030684.2:112668717-113117206- |
 | Mus musculus | zac | 1 | 1 | medium | 0 | CM000997.3:41266303-41666273+ |
 
@@ -193,7 +195,7 @@ A profile-called locus without a high-confidence intact frame: retrocopies, fram
 
 ### Genome-only species
 
-- *Cornu aspersum*: **53 census families present** by a profile-called locus — ampa, ano_scramblase, asic, bestrophin, cav, clc_channel, clcc1, clic, cng, deg_invertebrate, delta_glur, gabaa, gphr, hcn, hv1, iglur_nonvertebrate, innexin, itpr, k2p, kainate, kca_sk, kca_slo, kir, kv_eag, kv_kcnq, kv_shaker, mcu, mitok, nachr, nalcn, nav, nmda, orai, osca_tmem63, otop, p2x, piezo, plgic_prok, ryr, tmc, tmco1, tmem87, tpc, tric, trpa, trpc, trpm, trpml, trpn, trpp, trpv, tweety, vdac.
+- *Cornu aspersum*: **52 census families present** by a profile-called locus — ampa, ano_scramblase, asic, bestrophin, cav, clc_channel, clcc1, clic, cng, deg_invertebrate, delta_glur, gabaa, gphr, hcn, hv1, iglur_nonvertebrate, innexin, itpr, k2p, kainate, kca_sk, kca_slo, kir, kv_eag, kv_kcnq, kv_shaker, mcu, mitok, nachr, nalcn, nav, nmda, orai, osca_tmem63, otop, p2x, piezo, plgic_prok, ryr, tmc, tmco1, tpc, tric, trpa, trpc, trpm, trpml, trpn, trpp, trpv, tweety, vdac.
 - *Torpedo marmorata*: **62 census families present** by a profile-called locus — ampa, ano_channel, ano_scramblase, asic, bestrophin, calhm, catsper, cav, cftr, clc_channel, clcc1, clic, cng, connexin, delta_glur, enac, gabaa, glyr, gphr, hcn, ht3, hv1, itpr, k2p, kainate, kca_sk, kca_slo, kir, kv_eag, kv_kcnq, kv_modifier, kv_shaker, lrrc8, mcu, mitok, nachr, nalcn, nav, nmda, orai, osca_tmem63, otop, p2x, pacc, pannexin, piezo, ryr, tmc, tmco1, tmem175, tmem87, tpc, tric, trpa, trpc, trpm, trpml, trpn, trpp, trpv, tweety, vdac.
 
 ## Calibration from annotation (not from miniprot)
