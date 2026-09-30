@@ -12,10 +12,10 @@
     "sole_seed": 2
   },
   "B_orthologues": {
-    "positives": 745,
+    "positives": 744,
     "correct": 744,
     "sf_only_correct": 0,
-    "wrong_family_same_sf": 1,
+    "wrong_family_same_sf": 0,
     "wrong_superfamily": 0,
     "no_call": 0,
     "decoy_ok": 59,

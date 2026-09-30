@@ -1,5 +1,5 @@
 list	total	pore_census	auxiliary	auxiliary_uncatalogued	out_of_scope	out_of_scope_uncatalogued	transporter	transporter_or_enzyme	pore_candidate	paracellular	pseudogene	census_missed	not_pore_census	auxiliary_share
-gtopdb	285	263	4	0	12	0	5	0	0	0	1	65	22	0.014
-hgnc	331	290	20	0	13	1	5	0	0	0	2	38	41	0.0604
-uniprot	338	289	36	0	0	0	2	8	0	2	1	39	49	0.1065
-any_list	400	322	44	0	13	1	7	8	0	2	3	6	78	0.11
+gtopdb	285	263	4	0	12	0	5	0	0	0	1	66	22	0.014
+hgnc	331	290	20	0	13	1	5	0	0	0	2	39	41	0.0604
+uniprot	338	289	36	0	0	0	2	8	0	2	1	40	49	0.1065
+any_list	400	322	44	0	13	1	7	8	0	2	3	7	78	0.11

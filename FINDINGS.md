@@ -753,3 +753,18 @@ family. They are now included: 3,560 viroporins across influenza (M2), HIV
 (Vpu) and coronaviruses (the envelope protein E). None of the 1.27 million
 proteins already in the census carried one of these domains, so nothing else
 changed.
+
+## TMEM87 counted by descent (2026-09-30)
+
+**TMEM87 is found in every animal in the panel, from sponges to humans.**
+Counting the channel-reported TMEM87A together with its paralogue TMEM87B
+turned an uninterpretable scatter into a clean result. The single
+invertebrate gene is the ancestor of both, so treating them as one family is
+what the evolution calls for. A domain unique to the animal TMEM87s now
+identifies the family directly.
+
+**Whether fungi and plants have a TMEM87 is an open question.** They carry
+related Golgi seven-helix proteins, and some score closer to TMEM87 than to
+its other relatives. None has the animal TMEM87's defining domain, though.
+Only a phylogenetic tree can settle it *(pending: S7/S8)*, so claims about
+TMEM87 stay within animals for now.

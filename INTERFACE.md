@@ -38,7 +38,7 @@
 
 **The single place any channel family, signature, size band or exemplar is
 declared.** Nothing else in `src/` hard-codes a gene name. 103 families in 32
-superfamilies, of which 75 are census families covering 328 human genes; the
+superfamilies, of which 75 are census families covering 329 human genes; the
 other 28 exist so they can be excluded. (The 7 families and 8 genes in `proposed.py`
 were added after S20 and entered the census in revision r4, D43; S6's
 alignments and S7's trees were built before them.)

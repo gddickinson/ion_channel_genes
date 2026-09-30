@@ -27,7 +27,7 @@ from s3_hmm_lib import read_tsv  # noqa: E402
 D = ROOT / "results" / "census_v3"
 CONF = [("high", "#184f95"), ("medium", "#86b6ef"), ("low", "#d6d5cf"), ("none", "#e5e4df")]
 PAIRS = ["pacc", "clcc1", "gphr", "tmco1", "nonchannel_emc3", "tmem109",
-         "nonchannel_bri3bp", "tmem87", "nonchannel_tmem87b", "nonchannel_gost"]
+         "nonchannel_bri3bp", "tmem87", "nonchannel_gost"]
 
 
 def panel_a(ax) -> None:
@@ -65,7 +65,7 @@ def panel_b(ax) -> None:
                    edgecolor=fs.BLUES[5], zorder=3)
     ax.axvline(0.30, color=fs.ACCENT, lw=0.7, ls="--")
     ax.text(0.31, len(PAIRS) - 0.4, "high ≥ 0.30", fontsize=fs.FS_NOTE, color=fs.ACCENT)
-    for k, (a, b) in enumerate([(3, 4), (5, 6), (7, 9)]):
+    for k, (a, b) in enumerate([(3, 4), (5, 6), (7, 8)]):
         ax.axhspan(a - 0.45, b + 0.45, color=fs.HILITE, zorder=0)
         ax.text(1.02, (a + b) / 2, ["H17", "H19", "H18"][k], va="center",
                 fontsize=fs.FS_NOTE, color=fs.MUTED)

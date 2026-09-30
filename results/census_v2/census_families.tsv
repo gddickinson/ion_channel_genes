@@ -33,6 +33,7 @@ hcn	ploop	channel	3540	14	288	13	3540	0	0	0	0	0	0	3540
 piezo	piezo	channel	3513	7	209	7	3513	0	0	0	0	0	0	3513
 tric	tric	channel	2673	19	668	16	2672	1	0	0	0	0	0	2673
 trpm	ploop	channel	2280	6	377	3	2280	0	0	0	0	0	0	2280
+tmem87	tmem87	channel_contested	1660	5	77	28	1660	0	0	0	0	0	0	1660
 clcc1	mclc	channel_contested	1562	7	353	22	1558	0	0	4	0	0	0	1562
 cftr	abc_channel	channel	1469	42	322	16	1469	0	0	0	0	0	1445	24
 nalcn	ploop	channel	1359	3	140	8	1359	0	0	0	0	0	1359	0

@@ -53,6 +53,14 @@ REVISIONS = [
      "(3,994 viral), r4's 1,271,983 + delta = UniProt's 1,275,990 for the "
      "79-signature union, every shard and signature exact. No earlier record "
      "carries a viroporin signature, so no call was re-classified."),
+    ("r6", "Revision r6 — TMEM87 by descent, PF21901 a family test (D45)",
+     "TMEM87B joined TMEM87A in one family by descent (a user decision after "
+     "the r4 reseed showed that non-mammalian TMEM87 is co-orthologous to "
+     "both), which made the TMEM87 GOLD domain (`PF21901`) a positive family "
+     "test: its 1,660 UniProt carriers are all metazoan TMEM87s and none a "
+     "GOST protein. The records carrying it were re-classified: all 1,660 "
+     "moved from unassigned to `tmem87`, 0 calls changed outside that set "
+     "(checked over all 36 shards)."),
 ]
 
 

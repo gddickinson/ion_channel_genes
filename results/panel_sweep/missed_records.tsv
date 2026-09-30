@@ -1341,6 +1341,7 @@ tr|A0A0D2VJA7|A0A0D2VJA7_CAPO3	Capsaspora owczarzaki	holozoa	350	nonchannel_vsp	
 tr|A0A0D2VKY1|A0A0D2VKY1_CAPO3	Capsaspora owczarzaki	holozoa	813	transporter_slc26	high	382.5	0.8197		1.0
 tr|A0A0D2VLV9|A0A0D2VLV9_CAPO3	Capsaspora owczarzaki	holozoa	655	assoc_k_beta	medium	58.3	0.4698	lrrc8	0.2024
 tr|A0A0D2VNB1|A0A0D2VNB1_CAPO3	Capsaspora owczarzaki	holozoa	310	outofscope_aquaporin	high	141.5	0.8327		1.0
+tr|A0A0D2VP38|A0A0D2VP38_CAPO3	Capsaspora owczarzaki	holozoa	602	nonchannel_gost	medium	35.6	0.3487		1.0
 tr|A0A0D2VP71|A0A0D2VP71_CAPO3	Capsaspora owczarzaki	holozoa	1404	nonchannel_abc_transporter	medium	676.9	0.4831	assoc_sur	0.648
 tr|A0A0D2VQ30|A0A0D2VQ30_CAPO3	Capsaspora owczarzaki	holozoa	1522	assoc_k_beta	medium	235.8	0.5092	lrrc8	0.1853
 tr|A0A0D2VQK6|A0A0D2VQK6_CAPO3	Capsaspora owczarzaki	holozoa	767	nonchannel_pomt	medium	149.8	0.4323		1.0
@@ -1378,6 +1379,7 @@ tr|A0A0D2WM45|A0A0D2WM45_CAPO3	Capsaspora owczarzaki	holozoa	835	nonchannel_pomt
 tr|A0A0D2WMA0|A0A0D2WMA0_CAPO3	Capsaspora owczarzaki	holozoa	1175	nonchannel_class_c_gpcr	medium	109.1	0.3006		1.0
 tr|A0A0D2WME4|A0A0D2WME4_CAPO3	Capsaspora owczarzaki	holozoa	474	assoc_k_beta	medium	35.8	0.3045		1.0
 tr|A0A0D2WME8|A0A0D2WME8_CAPO3	Capsaspora owczarzaki	holozoa	797	nonchannel_abc_transporter	medium	351.7	0.4133	assoc_sur	0.6224
+tr|A0A0D2WMJ3|A0A0D2WMJ3_CAPO3	Capsaspora owczarzaki	holozoa	461	nonchannel_gost	medium	31.1	0.4855		1.0
 tr|A0A0D2WN79|A0A0D2WN79_CAPO3	Capsaspora owczarzaki	holozoa	1029	assoc_k_beta	medium	71.9	0.399	lrrc8	0.3672
 tr|A0A0D2WNJ5|A0A0D2WNJ5_CAPO3	Capsaspora owczarzaki	holozoa	944	nonchannel_ncs	high	48.2	0.6632	assoc_kchip	0.3361
 tr|A0A0D2WNL9|A0A0D2WNL9_CAPO3	Capsaspora owczarzaki	holozoa	991	assoc_k_beta	medium	52.0	0.4777	lrrc8	0.1154
@@ -1982,7 +1984,7 @@ tr|A0A4W3JBW3|A0A4W3JBW3_CALMI	Callorhinchus milii	vertebrate	119	assoc_kcne	hig
 tr|A0A4W3JC94|A0A4W3JC94_CALMI	Callorhinchus milii	vertebrate	307	assoc_nav_beta	high	31.7	0.5402		1.0
 tr|A0A4W3JD05|A0A4W3JD05_CALMI	Callorhinchus milii	vertebrate	569	assoc_k_beta	medium	47.2	0.3465	lrrc8	0.303
 tr|A0A4W3JDR6|A0A4W3JDR6_CALMI	Callorhinchus milii	vertebrate	1459	assoc_k_beta	medium	62.7	0.6299	lrrc8	0.2568
-tr|A0A4W3JE68|A0A4W3JE68_CALMI	Callorhinchus milii	vertebrate	300	nonchannel_gost	medium	154.8	0.4099		1.0
+tr|A0A4W3JE68|A0A4W3JE68_CALMI	Callorhinchus milii	vertebrate	300	nonchannel_gost	medium	128.7	0.3931		1.0
 tr|A0A4W3JEE3|A0A4W3JEE3_CALMI	Callorhinchus milii	vertebrate	766	transporter_slc26	high	898.8	0.9681		1.0
 tr|A0A4W3JEE5|A0A4W3JEE5_CALMI	Callorhinchus milii	vertebrate	259	assoc_k_beta	medium	60.9	0.3045	lrrc8	0.5698
 tr|A0A4W3JEI6|A0A4W3JEI6_CALMI	Callorhinchus milii	vertebrate	627	assoc_k_beta	high	93.1	0.5249	lrrc8	0.4436
@@ -2600,6 +2602,7 @@ tr|A0A7M7HPZ6|A0A7M7HPZ6_STRPU	Strongylocentrotus purpuratus	deuterostome	1443	n
 tr|A0A7M7HQS0|A0A7M7HQS0_STRPU	Strongylocentrotus purpuratus	deuterostome	901	assoc_k_beta	medium	79.0	0.3806		1.0
 tr|A0A7M7HR98|A0A7M7HR98_STRPU	Strongylocentrotus purpuratus	deuterostome	837	trpa	medium	86.6	0.3664	trpn	0.5115
 tr|A0A7M7LNZ5|A0A7M7LNZ5_STRPU	Strongylocentrotus purpuratus	deuterostome	1137	assoc_k_beta	medium	129.0	0.5302	lrrc8	0.1566
+tr|A0A7M7LT04|A0A7M7LT04_STRPU	Strongylocentrotus purpuratus	deuterostome	504	nonchannel_gost	high	30.7	0.5164		1.0
 tr|A0A7M7LTB5|A0A7M7LTB5_STRPU	Strongylocentrotus purpuratus	deuterostome	916	assoc_k_beta	medium	114.8	0.4777		1.0
 tr|A0A7M7LTI0|A0A7M7LTI0_STRPU	Strongylocentrotus purpuratus	deuterostome	149	nonchannel_ncs	high	57.0	0.5751		1.0
 tr|A0A7M7LTI9|A0A7M7LTI9_STRPU	Strongylocentrotus purpuratus	deuterostome	928	assoc_k_beta	medium	80.8	0.3438		1.0
@@ -6299,6 +6302,7 @@ tr|E9GYL6|E9GYL6_DAPPU	Daphnia pulex	invertebrate	170	nonchannel_ncs	high	74.1	0
 tr|E9GZJ9|E9GZJ9_DAPPU	Daphnia pulex	invertebrate	480	assoc_mcu_reg	high	349.9	0.7365	nonchannel_ncs	0.8757
 tr|E9GZL8|E9GZL8_DAPPU	Daphnia pulex	invertebrate	923	assoc_clc_aux	high	381.3	0.91		1.0
 tr|E9H0T3|E9H0T3_DAPPU	Daphnia pulex	invertebrate	266	outofscope_aquaporin	high	252.6	0.8932		1.0
+tr|E9H0W3|E9H0W3_DAPPU	Daphnia pulex	invertebrate	509	nonchannel_gost	high	45.9	0.5973		1.0
 tr|E9H1G0|E9H1G0_DAPPU	Daphnia pulex	invertebrate	970	nonchannel_class_c_gpcr	medium	233.7	0.4452		1.0
 tr|E9H1I4|E9H1I4_DAPPU	Daphnia pulex	invertebrate	963	nonchannel_class_c_gpcr	high	173.5	0.5164		1.0
 tr|E9H1I5|E9H1I5_DAPPU	Daphnia pulex	invertebrate	1258	nonchannel_class_c_gpcr	high	301.3	0.8384		1.0
@@ -8098,6 +8102,7 @@ tr|Q3SEJ5|Q3SEJ5_PARTE	Paramecium tetraurelia	ciliate	170	nonchannel_ncs	high	37
 tr|Q50JT7|Q50JT7_CHLRE	Chlamydomonas reinhardtii	algae	1416	nonchannel_abc_transporter	high	1041.1	0.954	assoc_sur	0.4118
 tr|Q54CH3|Q54CH3_DICDI	Dictyostelium discoideum	amoebozoa	453	nonchannel_vsp	high	154.0	0.5236		1.0
 tr|Q54EY0|Q54EY0_DICDI	Dictyostelium discoideum	amoebozoa	823	trpml	high	139.7	0.8074		1.0
+tr|Q54F03|Q54F03_DICDI	Dictyostelium discoideum	amoebozoa	530	nonchannel_gost	high	30.6	0.5511		1.0
 tr|Q54FQ9|Q54FQ9_DICDI	Dictyostelium discoideum	amoebozoa	526	outofscope_aquaporin	high	63.4	0.8327		1.0
 tr|Q54GT8|Q54GT8_DICDI	Dictyostelium discoideum	amoebozoa	904	nonchannel_vsp	medium	169.5	0.3388		1.0
 tr|Q54JS1|Q54JS1_DICDI	Dictyostelium discoideum	amoebozoa	461	assoc_mcu_reg	high	211.0	0.777	nonchannel_ncs	0.7597
@@ -8231,6 +8236,7 @@ tr|Q9W0C5|Q9W0C5_DROME	Drosophila melanogaster	invertebrate	743	nonchannel_abc_t
 tr|Q9W0M9|Q9W0M9_DROME	Drosophila melanogaster	invertebrate	151	nonchannel_ncs	medium	30.3	0.4404		1.0
 tr|Q9W1M2|Q9W1M2_DROME	Drosophila melanogaster	invertebrate	270	outofscope_aquaporin	high	184.0	0.8292		1.0
 tr|Q9W1M4|Q9W1M4_DROME	Drosophila melanogaster	invertebrate	238	outofscope_aquaporin	high	114.8	0.7829		1.0
+tr|Q9W2B3|Q9W2B3_DROME	Drosophila melanogaster	invertebrate	637	nonchannel_gost	medium	35.3	0.4798		1.0
 tr|Q9W2I5|Q9W2I5_DROME	Drosophila melanogaster	invertebrate	1312	nonchannel_abc_transporter	high	1203.7	0.9594	cftr	0.3943
 tr|Q9W3K8|Q9W3K8_DROME	Drosophila melanogaster	invertebrate	324	assoc_kchip	medium	66.1	0.4263	nonchannel_ncs	0.1679
 tr|Q9XW36|Q9XW36_CAEEL	Caenorhabditis elegans	invertebrate	421	outofscope_aquaporin	high	213.0	0.8968		1.0

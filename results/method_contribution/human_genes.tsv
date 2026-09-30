@@ -296,7 +296,8 @@ TMEM38B	tric	tric	1	1	1	channel
 TMEM63A	osca_tmem63	tmem16_like	1	1	1	channel
 TMEM63B	osca_tmem63	tmem16_like	1	1	1	channel
 TMEM63C	osca_tmem63	tmem16_like	1	1	1	channel
-TMEM87A	tmem87	tmem87	1	0	1	unassigned
+TMEM87A	tmem87	tmem87	1	1	1	channel_contested
+TMEM87B	tmem87	tmem87	1	1	1	channel_contested
 TPCN1	tpc	ploop	1	0	1	superfamily_only
 TPCN2	tpc	ploop	1	0	1	superfamily_only
 TRPA1	trpa	ploop	1	0	1	superfamily_only

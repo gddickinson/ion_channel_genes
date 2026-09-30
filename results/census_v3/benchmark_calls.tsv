@@ -889,14 +889,13 @@ B_orthologues	O77751	tmem109	tmem109		correct	family	tmem109	tmem109	high	488.2	
 B_orthologues	A0A8I3PI99	tmco1	tmco1		correct	family	tmco1	tmco1	high	395.9	1.0	1.0			1.0	tmco1	tmco1 wins by 395.9 bits (100.0% of 395.9) over 100% of the profile
 B_orthologues	Q5I0H4	tmco1	tmco1		correct	family	tmco1	tmco1	high	395.9	1.0	1.0			1.0	tmco1	tmco1 wins by 395.9 bits (100.0% of 395.9) over 100% of the profile
 B_orthologues	Q3T0N3	tmco1	tmco1		correct	family	tmco1	tmco1	high	395.9	1.0	1.0			1.0	tmco1	tmco1 wins by 395.9 bits (100.0% of 395.9) over 100% of the profile
-B_orthologues	D3ZWZ9	nonchannel_gost	tmem87		decoy_ok	family	nonchannel_gost	tmem87	high	994.5	0.9926	0.9782	nonchannel_tmem87b	43.0	0.9568	nonchannel_gost	nonchannel_gost wins by 951.5 bits (95.7% of 994.5) over 99% of the profile
+B_orthologues	D3ZWZ9	nonchannel_gost	tmem87		decoy_ok	family	nonchannel_gost	tmem87	high	853.2	0.9807	0.9655	tmem87	42.8	0.9498	nonchannel_gost	nonchannel_gost wins by 810.4 bits (95.0% of 853.2) over 98% of the profile
 B_orthologues	C5HGF3	tmco1	tmco1		correct	family	tmco1	tmco1	high	395.9	1.0	1.0			1.0	tmco1	tmco1 wins by 395.9 bits (100.0% of 395.9) over 100% of the profile
 B_orthologues	Q5R9B0	tmco1	tmco1		correct	family	tmco1	tmco1	high	395.9	1.0	1.0			1.0	tmco1	tmco1 wins by 395.9 bits (100.0% of 395.9) over 100% of the profile
 B_orthologues	Q6AYQ4	tmem109	tmem109		correct	family	tmem109	tmem109	high	480.8	1.0	1.0			1.0	tmem109	tmem109 wins by 480.8 bits (100.0% of 480.8) over 100% of the profile
 B_orthologues	Q3ZCB8	nonchannel_emc3	tmco1		decoy_ok	family	nonchannel_emc3	tmco1	high	471.0	1.0	1.0			1.0	nonchannel_emc3	nonchannel_emc3 wins by 471.0 bits (100.0% of 471.0) over 100% of the profile
 B_orthologues	Q5U2V8	nonchannel_emc3	tmco1		decoy_ok	family	nonchannel_emc3	tmco1	high	473.3	1.0	1.0			1.0	nonchannel_emc3	nonchannel_emc3 wins by 473.3 bits (100.0% of 473.3) over 100% of the profile
-B_orthologues	Q148L1	nonchannel_gost	tmem87		decoy_ok	family	nonchannel_gost	tmem87	high	1008.8	1.0	1.0	nonchannel_tmem87b	41.1	0.9593	nonchannel_gost	nonchannel_gost wins by 967.7 bits (95.9% of 1008.8) over 100% of the profile
-B_orthologues	Q6P6V6	nonchannel_gost	tmem87		decoy_ok	family	nonchannel_gost	tmem87	high	1033.5	1.0	1.0	nonchannel_tmem87b	39.3	0.962	nonchannel_gost	nonchannel_gost wins by 994.2 bits (96.2% of 1033.5) over 100% of the profile
+B_orthologues	Q148L1	nonchannel_gost	tmem87		decoy_ok	family	nonchannel_gost	tmem87	high	795.6	0.9865	0.9945	tmem87	37.1	0.9534	nonchannel_gost	nonchannel_gost wins by 758.5 bits (95.3% of 795.6) over 99% of the profile
+B_orthologues	Q6P6V6	nonchannel_gost	tmem87		decoy_ok	family	nonchannel_gost	tmem87	high	833.8	0.9865	0.9948	tmem87	37.5	0.955	nonchannel_gost	nonchannel_gost wins by 796.3 bits (95.5% of 833.8) over 99% of the profile
 B_orthologues	Q5R7C1	nonchannel_emc3	tmco1		decoy_ok	family	nonchannel_emc3	tmco1	high	473.3	1.0	1.0			1.0	nonchannel_emc3	nonchannel_emc3 wins by 473.3 bits (100.0% of 473.3) over 100% of the profile
 B_orthologues	Q8BXV2	nonchannel_bri3bp	tmem109		decoy_ok	family	nonchannel_bri3bp	tmem109	high	455.6	1.0	1.0	tmem109	29.2	0.9359	nonchannel_bri3bp	nonchannel_bri3bp wins by 426.4 bits (93.6% of 455.6) over 100% of the profile
-B_orthologues	Q28EW0	tmem87	tmem87		wrong_family_same_sf	family	nonchannel_tmem87b	tmem87	medium	764.5	0.9299	0.9778	tmem87	555.3	0.2736	nonchannel_tmem87b	nonchannel_tmem87b wins by 209.2 bits (27.4% of 764.5) over 93% of the profile

@@ -142,6 +142,8 @@ tmco1	Dr_tmco1	tmco1	Danio rerio	7955	Q6DGW9	Q6DGW9	tmco1	188	Calcium load-activ
 tmco1	Dd_tmco1	tmco1	Dictyostelium discoideum	44689	Q54TU8	Q54TU8	tmco1	186	Calcium load-activated calcium channel homolog	ok
 tmem87	Hs_TMEM87A	TMEM87A	Homo sapiens	9606	Q8NBN3	Q8NBN3	TMEM87A	555	Golgi-pH regulating cation channel	ok
 tmem87	Mm_Tmem87a	Tmem87a	Mus musculus	10090	Q8BXN9	Q8BXN9	Tmem87a	555	Golgi-pH regulating cation channel	ok
+tmem87	Hs_TMEM87B	TMEM87B	Homo sapiens	9606	Q96K49	Q96K49	TMEM87B	555	Transmembrane protein 87B	ok
+tmem87	Mm_Tmem87b	Tmem87b	Mus musculus	10090	Q8BKU8	Q8BKU8	Tmem87b	555	Transmembrane protein 87B	ok
 tmem109	Hs_TMEM109	TMEM109	Homo sapiens	9606	Q9BVC6	Q9BVC6	TMEM109	243	Voltage-gated monoatomic cation channel TMEM109	ok
 tmem109	Mm_Tmem109	Tmem109	Mus musculus	10090	Q3UBX0	Q3UBX0	Tmem109	243	Voltage-gated monoatomic cation channel TMEM109	ok
 clcc1	Hs_CLCC1	CLCC1	Homo sapiens	9606	Q96S66	Q96S66	CLCC1	551	Chloride channel CLIC-like protein 1	ok
@@ -156,8 +158,8 @@ nonchannel_emc3	Dd_emc3	emc3	Dictyostelium discoideum	44689	Q54YN3	Q54YN3	emc3	3
 nonchannel_gost	Hs_GPR107	GPR107	Homo sapiens	9606	Q5VW38	Q5VW38	GPR107	600	Protein GPR107	ok
 nonchannel_gost	Mm_Gpr107	Gpr107	Mus musculus	10090	Q8BUV8	Q8BUV8	Gpr107	551	Protein GPR107	ok
 nonchannel_gost	Mm_Gpr108	Gpr108	Mus musculus	10090	Q91WD0	Q91WD0	Gpr108	569	Protein GPR108	ok
-nonchannel_tmem87b	Hs_TMEM87B	TMEM87B	Homo sapiens	9606	Q96K49	Q96K49	TMEM87B	555	Transmembrane protein 87B	ok
-nonchannel_tmem87b	Mm_Tmem87b	Tmem87b	Mus musculus	10090	Q8BKU8	Q8BKU8	Tmem87b	555	Transmembrane protein 87B	ok
+nonchannel_gost	At_CAND6	CAND6	Arabidopsis thaliana	3702	Q9LZ39	Q9LZ39	CAND6	428	Protein CANDIDATE G PROTEIN-COUPLED RECEPTOR 6	ok
+nonchannel_gost	Sc_PTM1	PTM1	Saccharomyces cerevisiae	4932	P32857	P32857	PTM1	523	Membrane protein PTM1	ok
 nonchannel_bri3bp	Hs_BRI3BP	BRI3BP	Homo sapiens	9606	Q8WY22	Q8WY22	BRI3BP	251	BRI3-binding protein	ok
 nonchannel_ncs	Hs_NCS1	NCS1	Homo sapiens	9606	P62166	P62166	NCS1	190	Neuronal calcium sensor 1	ok
 nonchannel_ncs	Hs_HPCA	HPCA	Homo sapiens	9606	P84074	P84074	HPCA	193	Neuron-specific calcium-binding protein hippocalcin	ok

@@ -454,6 +454,12 @@ check("r4 genome loci count only toward r4 families (called to one, or partial o
        _k4({"p_call": "module", "p_family": "", "bait_family": "kv_shaker"})),
       (True, False, True, False))
 
+# --- H18 as a positive test (D45) --------------------------------------------
+_q87 = lambda pf: classify(ChannelQuery(accession="x", pfam_counts=pf, tm_count=7,  # noqa: E731
+                                        length_aa=555, fragment=False), refs=None).family
+check("H18: the TMEM87 GOLD domain calls TMEM87; the GOST seven-TM alone calls nothing",
+      (_q87({"PF06814": 1, "PF21901": 1}), _q87({"PF06814": 1})), ("tmem87", ""))
+
 print()
 if FAILURES:
     print(f"{len(FAILURES)} invariant(s) FAILED: {', '.join(FAILURES)}")

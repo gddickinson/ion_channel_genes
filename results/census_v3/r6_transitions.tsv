@@ -1,0 +1,18 @@
+before	after	v3_basis	profile_family	records
+[tmem87]	tmem87	profile_only	tmem87	2229
+nonchannel_tmem87b	tmem87	profile_only	tmem87	867
+nonchannel_tmem87b	tmem87	both	tmem87	531
+[tmem87]	tmem87	both	tmem87	333
+nonchannel_tmem87b	nonchannel_gost	profile_only	nonchannel_gost	328
+[tmem87]	nonchannel_gost	profile_only	nonchannel_gost	321
+nonchannel_tmem87b	[tmem87]	superfamily_only		217
+unassigned	nonchannel_gost	profile_only	nonchannel_gost	93
+tmem87	nonchannel_gost	profile_only	nonchannel_gost	39
+tmem87	[tmem87]	superfamily_only		38
+unassigned	tmem87	s2_only		33
+unassigned	tmem87	profile_only	tmem87	20
+unassigned	tmem87	both	tmem87	6
+nonchannel_tmem87b	unassigned	unassigned		6
+tmem87	unassigned	unassigned		3
+nonchannel_gost	unassigned	unassigned		2
+unassigned	[tmem87]	superfamily_only		2

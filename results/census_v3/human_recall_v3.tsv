@@ -288,7 +288,8 @@ TMC8	tmc	Q8IU68	tmc	family	tmc	tmc	both	yes	yes
 TMCO1	tmco1	Q9UM00		family	tmco1	tmco1	profile_only	no	yes
 TMEM109	tmem109	Q9BVC6		family	tmem109	tmem109	profile_only	no	yes
 TMEM175	tmem175	Q9BSA9	tmem175	family	tmem175	tmem175	both	yes	yes
-TMEM87A	tmem87	Q8NBN3		family	tmem87	tmem87	profile_only	no	yes
+TMEM87A	tmem87	Q8NBN3	tmem87	family	tmem87	tmem87	both	yes	yes
+TMEM87B	tmem87	Q96K49	tmem87	family	tmem87	tmem87	both	yes	yes
 TPCN1	tpc	Q9ULQ1		family	tpc	tpc	profile_only	no	yes
 TPCN2	tpc	Q8NHX9		family	tpc	tpc	profile_only	no	yes
 TMEM38A	tric	Q9H6F2	tric	family	tric	tric	both	yes	yes

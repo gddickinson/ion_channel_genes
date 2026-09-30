@@ -296,7 +296,8 @@ TMEM38B	tric	sp|Q9NVV0|TM38B_HUMAN	tric	channel	v3a:both	family	tric	right_famil
 TMEM63A	osca_tmem63	sp|O94886|TM63A_HUMAN	osca_tmem63	channel	v3a:both	family	osca_tmem63	right_family
 TMEM63B	osca_tmem63	sp|Q5T3F8|TM63B_HUMAN	osca_tmem63	channel	v3a:both	family	osca_tmem63	right_family
 TMEM63C	osca_tmem63	sp|Q9P1W3|TM63C_HUMAN	osca_tmem63	channel	v3a:both	family	osca_tmem63	right_family
-TMEM87A	tmem87	sp|Q8NBN3|GPHCC_HUMAN	tmem87	channel_contested	v3a:profile_only	family	tmem87	right_family
+TMEM87A	tmem87	sp|Q8NBN3|GPHCC_HUMAN	tmem87	channel_contested	v3a:both	family	tmem87	right_family
+TMEM87B	tmem87	sp|Q96K49|TM87B_HUMAN	tmem87	channel_contested	v3a:both	family	tmem87	right_family
 TPCN1	tpc	sp|Q9ULQ1|TPC1_HUMAN	tpc	channel	v3a:profile_only	family	tpc	right_family
 TPCN2	tpc	sp|Q8NHX9|TPC2_HUMAN	tpc	channel	v3a:profile_only	family	tpc	right_family
 TRPA1	trpa	sp|O75762|TRPA1_HUMAN	trpa	channel	v3a:profile_only	family	trpa	right_family

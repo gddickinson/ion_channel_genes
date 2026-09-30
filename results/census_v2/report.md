@@ -5,9 +5,9 @@
 ## Headline
 
 - **1,275,990 records** carry at least one of the catalogue's 79 pore signatures (union count 1,275,990; fetched 1,275,990).
-- **312,545 (24.5 %) get a family call**, 268,583 of them to a family catalogued as a channel; 437,608 (34.3 %) reach a superfamily only; 525,837 (41.2 %) are `unassigned` and stay in the census with that label.
-- **Every family call was made without the reference tier**: 281,177 by architecture or hazard rules and 31,368 by the selectivity-filter motif (37,393 four-repeat records projected onto Nav1.5).
-- **Human census genes: 326/328 enumerated, 173/328 called to the right family** (reviewed human entries; the gene symbol is used here to *score*, never to classify — H15).
+- **314,205 (24.6 %) get a family call**, 268,583 of them to a family catalogued as a channel; 437,608 (34.3 %) reach a superfamily only; 524,177 (41.1 %) are `unassigned` and stay in the census with that label.
+- **Every family call was made without the reference tier**: 282,837 by architecture or hazard rules and 31,368 by the selectivity-filter motif (37,393 four-repeat records projected onto Nav1.5).
+- **Human census genes: 327/329 enumerated, 175/329 called to the right family** (reviewed human entries; the gene symbol is used here to *score*, never to classify — H15).
 - **S1 panel: 75/97 enumerated; 45 correct without the reference tier vs 57 with it in S1.** Panel members from channel families enumerated: **71/71**. Non-channel members: 22/26 carry no pore signature and are excluded at enumeration; of the 4 that are enumerated, **0 are called to a channel family** (CLCN7 → superfamily_only, PKD1 → assoc_polycystin1, KCTD1 → nonchannel_kctd, TPTE → nonchannel_vsp).
 
 ## Completeness
@@ -123,6 +123,7 @@ These records carry a pore signature and were positively called to a family the 
 | tweety | tweety | channel_contested | 4678 | 20 | 4677 | 1 | 0 | 0 |
 | assoc_polycystin1 | ploop | channel_associated | 4137 | 11 | 4137 | 0 | 0 | 0 |
 | gphr | gphr | channel_contested | 3614 | 14 | 3614 | 0 | 0 | 0 |
+| tmem87 | tmem87 | channel_contested | 1660 | 5 | 1660 | 0 | 0 | 0 |
 | clcc1 | mclc | channel_contested | 1562 | 7 | 1558 | 0 | 0 | 4 |
 | nonchannel_vsp | hv | non_channel_homolog | 767 | 3 | 767 | 0 | 0 | 0 |
 | nonchannel_class_c_gpcr | iglur | non_channel_homolog | 2 | 0 | 2 | 0 | 0 | 0 |
@@ -150,7 +151,7 @@ These records carry a pore signature and were positively called to a family the 
 | architecture | channel | 181043 |
 | hazard | channel | 56172 |
 | motif | channel | 31368 |
-| architecture | channel_contested | 24702 |
+| architecture | channel_contested | 26362 |
 | hazard | non_channel_homolog | 15123 |
 | hazard | channel_associated | 4137 |
 
@@ -196,8 +197,8 @@ These records carry a pore signature and were positively called to a family the 
 | PF00924 | 63770 | 29372 | 9342 | 51623 | 2804 | 1 |
 | PF21082 | 31906 | 143 | 92 | 30000 | 1814 | 0 |
 | PF23317 | 12289 | 10388 | 12289 | 0 | 0 | 0 |
-| PF06814 | 11160 | 9563 | 11160 | 0 | 0 | 0 |
 | PF04547 | 11053 | 10965 | 11053 | 0 | 0 | 0 |
+| PF06814 | 9565 | 9563 | 9565 | 0 | 0 | 0 |
 | PF02932 | 7307 | 7294 | 7282 | 21 | 4 | 0 |
 | PF01956 | 7252 | 7250 | 6625 | 1 | 626 | 0 |
 | PF18139 | 4720 | 1954 | 4720 | 0 | 0 | 0 |
@@ -212,7 +213,6 @@ These records carry a pore signature and were positively called to a family the 
 | PF22614 | 2058 | 2056 | 1911 | 147 | 0 | 0 |
 | PF23188 | 1802 | 107 | 1802 | 0 | 0 | 0 |
 | PF14965 | 1691 | 1691 | 1691 | 0 | 0 | 0 |
-| PF21901 | 1660 | 65 | 1660 | 0 | 0 | 0 |
 | PF01365 | 1459 | 1156 | 1458 | 1 | 0 | 0 |
 | PF00558 | 1386 | 1386 | 3 | 6 | 0 | 1377 |
 | PF13967 | 1331 | 528 | 1331 | 0 | 0 | 0 |
@@ -220,6 +220,7 @@ These records carry a pore signature and were positively called to a family the 
 | PF24871 | 1125 | 766 | 1125 | 0 | 0 | 0 |
 | PF17655 | 1074 | 1069 | 1046 | 28 | 0 | 0 |
 | PF08344 | 933 | 933 | 933 | 0 | 0 | 0 |
+| PF15917 | 788 | 252 | 788 | 0 | 0 | 0 |
 
 ## Unassigned records carrying part of one family's architecture
 
@@ -231,7 +232,7 @@ A derived family rule requires *every* `FAMILY`-level signature the catalogue de
 | iglur_prok | PF00497,PF07885 | 115928 |
 | kv_eag | PF00027,PF13426 | 111789 |
 | mscs | PF00924,PF05552,PF21082 | 65508 |
-| (none) |  | 36861 |
+| (none) |  | 35201 |
 | osca_tmem63 | PF02714,PF13967,PF14703 | 4505 |
 | trpm | PF16519,PF18139,PF23317,PF25508 | 3960 |
 | piezo | PF12166,PF15917,PF23188,PF24871,PF24874 | 3939 |
@@ -254,7 +255,7 @@ Not enumerated (2): the reviewed human entry carries none of the pore signatures
 | GLRA4 | glyr |
 | CCDC51 | mitok |
 
-Enumerated but not called to the expected family (153):
+Enumerated but not called to the expected family (152):
 
 | gene | expected_family | accession | s2_family | s2_status | confidence |
 |---|---|---|---|---|---|
@@ -391,7 +392,6 @@ Enumerated but not called to the expected family (153):
 | PANX3 | pannexin | Q96QZ0 |  | superfamily_only | bronze |
 | TMCO1 | tmco1 | Q9UM00 |  | unassigned | unassigned |
 | TMEM109 | tmem109 | Q9BVC6 |  | unassigned | unassigned |
-| TMEM87A | tmem87 | Q8NBN3 |  | unassigned | unassigned |
 | TPCN1 | tpc | Q9ULQ1 |  | superfamily_only | bronze |
 | TPCN2 | tpc | Q8NHX9 |  | superfamily_only | bronze |
 | TRPA1 | trpa | O75762 |  | superfamily_only | bronze |
@@ -437,8 +437,8 @@ Enumerated but not called to the expected family (153):
 
 | file | bytes | records | sha256 |
 |---|---|---|---|
-| raw_api/s2/census_v2.tsv.gz | 29264751 | 1275990 | a70d663f7ad0a9de802861ce8be5f875014772c2568748f43d239261df59b79f |
-| raw_api/s2/census_v2.fasta.gz | 291874862 | 1275990 | f94e3a13bdad217171692b163cc33175ee23765f62fc4b7a721b8e141af4b824 |
+| raw_api/s2/census_v2.tsv.gz | 29273333 | 1275990 | 1d9b3a46c2cc2f2514f34ccd6e72157cb53b1925dda9f524f20a6edbca41b278 |
+| raw_api/s2/census_v2.fasta.gz | 291875954 | 1275990 | 88e1d1fe9d8c4a8f767d5a9fa2650e8bd13fd2d9b79d351e0e908fe7a781b692 |
 
 
 ## Revision r2 — hazard rules H2, H4, H13 as positive tests (S2b)

@@ -288,7 +288,8 @@ TMC8	tmc	Q8IU68	tmc	channel_contested	bronze	architecture	yes
 TMCO1	tmco1	Q9UM00		unassigned	unassigned		no
 TMEM109	tmem109	Q9BVC6		unassigned	unassigned		no
 TMEM175	tmem175	Q9BSA9	tmem175	channel	bronze	architecture	yes
-TMEM87A	tmem87	Q8NBN3		unassigned	unassigned		no
+TMEM87A	tmem87	Q8NBN3	tmem87	channel_contested	bronze	architecture	yes
+TMEM87B	tmem87	Q96K49	tmem87	channel_contested	bronze	architecture	yes
 TPCN1	tpc	Q9ULQ1		superfamily_only	bronze		no
 TPCN2	tpc	Q8NHX9		superfamily_only	bronze		no
 TMEM38A	tric	Q9H6F2	tric	channel	bronze	architecture	yes

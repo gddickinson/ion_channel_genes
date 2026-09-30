@@ -288,16 +288,18 @@ HAZARDS: list[Hazard] = [
         severity="medium", provenance=P.DB,
     ),
     Hazard(
-        "H18", "TMEM87A shares its domains with TMEM87B and the GOST proteins",
-        ("tmem87", "nonchannel_tmem87b", "nonchannel_gost"),
+        "H18", "TMEM87 shares its seven-TM domain with the GOST proteins",
+        ("tmem87", "nonchannel_gost"),
         shared_evidence=("`PF06814` (GOST seven-TM) on TMEM87A/B, GPR107, "
-                         "GPR108; `PF21901` (TMEM87 GOLD) on TMEM87A and "
-                         "TMEM87B (measured 2026-09-29)."),
-        discriminator=("None at the architecture tier; both signatures are "
-                       "SHARED_WITH_DECOY. Family call by profile margin only "
-                       "— and TMEM87A vs TMEM87B is a paralogue split no "
-                       "domain can make."),
-        test_owner="(open — needs profiles for tmem87 and nonchannel_gost)",
+                         "GPR108 and fungal/plant GOST proteins (measured "
+                         "2026-09-29)."),
+        discriminator=("`PF21901` (TMEM87 GOLD) ⇒ TMEM87: all 1,660 UniProt "
+                       "carriers are metazoan TMEM87s and none a GOST protein "
+                       "(measured 2026-09-30); GOST seven-TM without it stops "
+                       "at the superfamily (D33). The TMEM87A/TMEM87B paralogue "
+                       "split is not a family call: the family is TMEM87 by "
+                       "descent (D45)."),
+        test_owner="src/classify/rules.py (derived family rule on PF21901)",
         severity="medium", provenance=P.DB,
     ),
     Hazard(

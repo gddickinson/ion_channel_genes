@@ -629,8 +629,10 @@ nonchannel_gasdermin		Q96QA5	R1	9606	Homo sapiens
 nonchannel_gasdermin		Q9BYG8	R1	9606	Homo sapiens				
 nonchannel_gost	tmem87	Q5VW38	R1	9606	Homo sapiens				
 nonchannel_gost	tmem87	Q9NPR9	R1	9606	Homo sapiens				
+nonchannel_gost	tmem87	P32857	R2						
 nonchannel_gost	tmem87	Q8BUV8	R2						
 nonchannel_gost	tmem87	Q91WD0	R2						
+nonchannel_gost	tmem87	Q9LZ39	R2						
 nonchannel_kctd	ploop	Q14681	R1	9606	Homo sapiens				
 nonchannel_kctd	ploop	Q4G0X4	R1	9606	Homo sapiens				
 nonchannel_kctd	ploop	Q68DU8	R1	9606	Homo sapiens				
@@ -673,8 +675,6 @@ nonchannel_ncs	ploop	Q9UM19	R1	9606	Homo sapiens
 nonchannel_ncs	ploop	Q9UMX6	R1	9606	Homo sapiens				
 nonchannel_pomt	ca_release	Q9UKY4	R1	9606	Homo sapiens				
 nonchannel_pomt	ca_release	Q9Y6A1	R1	9606	Homo sapiens				
-nonchannel_tmem87b	tmem87	Q96K49	R1	9606	Homo sapiens				
-nonchannel_tmem87b	tmem87	Q8BKU8	R2						
 nonchannel_vsp	hv	P56180	R1	9606	Homo sapiens				
 nonchannel_vsp	hv	Q6XPS3	R1	9606	Homo sapiens				
 nonchannel_vsp	hv	Q4W8A1	R2						
@@ -790,7 +790,10 @@ tmem175	tmem175	Q5ZKY0	R3	9031	Gallus gallus	Metazoa	501	tmem175	architecture
 tmem175	tmem175	Q6AY05	R3	10116	Rattus norvegicus	Metazoa	499	tmem175	architecture
 tmem175	tmem175	Q9CXY1	R3	10090	Mus musculus	Metazoa	499	tmem175	architecture
 tmem87	tmem87	Q8NBN3	R1	9606	Homo sapiens				
+tmem87	tmem87	Q96K49	R1	9606	Homo sapiens				
+tmem87	tmem87	Q8BKU8	R2						
 tmem87	tmem87	Q8BXN9	R2						
+tmem87	tmem87	Q28EW0	R3	8364	Xenopus tropicalis	Metazoa	541	tmem87	architecture
 tpc	ploop	Q8NHX9	R1	9606	Homo sapiens				
 tpc	ploop	Q9ULQ1	R1	9606	Homo sapiens				
 tpc	ploop	Q94KI8	R2						

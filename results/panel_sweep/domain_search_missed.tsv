@@ -97,9 +97,8 @@ ano_scramblase	tmem16_like	channel_contested	254	254	0	0	0.0
 osca_tmem63	tmem16_like	channel	160	156	4	1	0.025
 tmc	tmem16_like	channel_contested	155	149	6	4	0.0387
 tmem175	tmem175	channel	48	48	0	0	0.0
-nonchannel_gost	tmem87	non_channel_homolog	51	50	1	0	0.0196
-nonchannel_tmem87b	tmem87	non_channel_homolog	13	13	0	0	0.0
-tmem87	tmem87	channel_contested	13	13	0	0	0.0
+nonchannel_gost	tmem87	non_channel_homolog	59	52	7	3	0.1186
+tmem87	tmem87	channel_contested	55	55	0	0	0.0
 tric	tric	channel	46	46	0	0	0.0
 tweety	tweety	channel_contested	61	59	2	2	0.0328
 viroporin	viroporin	channel	3	3	0	0	0.0

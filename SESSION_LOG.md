@@ -783,3 +783,20 @@ to `--rev`, with the merges reading every `domtbl_r*` and delta map. r5: 4,007
 records (3,994 viral), every count exact, 0 earlier calls changed (S2 and
 v3a), 3,560 profile-called viroporins; benchmark unchanged (744/745); panel
 census, census v4, S15, reports and figures re-run.
+
+## 2026-09-30 — S2f (user decision): TMEM87 by descent, census revision r6
+
+**Done.** `tmem87` holds TMEM87A and TMEM87B; the TMEM87B decoy retired;
+PF21901 (the TMEM87 GOLD domain, 1,660 carriers all metazoan TMEM87s)
+promoted to family level, so H18 is a positive test (+ a self-test
+invariant). S0 re-run twice (0 failures). S2 r6: 1,660 records → `tmem87`,
+0 outside (all 36 shards). Profiles TMEM87 and GOST rebuilt; the GOST decoy
+got CAND6 and PTM1 after the first r6 merge showed fungal/plant GOST calls
+drifting to TMEM87. v3a: 5,068 changes, all within TMEM87/GOST (the compare
+check needed the *old* runner-up too — a record held by the retired decoy).
+Benchmark 744/744, 0 decoys called a channel; panel human 328/329; S5c:
+0 of 3,536 old cells changed; TMEM87 present in every animal genome.
+
+**Left open (emergent).** Non-animal GOST proteins still split between the
+two profiles; none carries PF21901; S10 must restrict TMEM87 to Metazoa
+until a GOST tree answers the orthology.

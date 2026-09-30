@@ -4,7 +4,7 @@ _Rendered by `scripts/s3b_report.py` from the tables in this directory (D13). Do
 
 ## 1. The sweep
 
-S3a's **104 profiles**, unchanged (SHA-256 per profile in `sweep_runs.tsv`), searched against S4's declared denominator: **822,499 canonical entries from 50 reference proteomes** (release 2026_03, D35; DB SHA-256 `366dd895ad6b9a0c…`). `-Z` fixed to the DB size; 0.8 profile-hours. Assignment is S3a's D32 rule with its constants imported, not restated: ≥ 30 bits, ≥ 30% of the profile's match states, ≥ 10% relative margin over the best other profile.
+S3a's **103 profiles**, unchanged (SHA-256 per profile in `sweep_runs.tsv`), searched against S4's declared denominator: **822,499 canonical entries from 50 reference proteomes** (release 2026_03, D35; DB SHA-256 `366dd895ad6b9a0c…`). `-Z` fixed to the DB size; 0.8 profile-hours. Assignment is S3a's D32 rule with its constants imported, not restated: ≥ 30 bits, ≥ 30% of the profile's match states, ≥ 10% relative margin over the best other profile.
 
 **Instrument check.** 12,406 panel entries are also census v2 records, so S3a already scored the same sequence with the same profiles; only `-Z` differs, which moves domain i-E-values and so coverage. **Same verdict and family on 12,382 / 12,406 (99.8 %).** The differences:
 
@@ -20,21 +20,21 @@ S3a's **104 profiles**, unchanged (SHA-256 per profile in `sweep_runs.tsv`), sea
 
 The merge rule (fixed before the tables were read): an entry in census v2 keeps its v3a call; an entry outside it takes the S3b profile call (`panel_profile`); an entry only a jackhmmer run reaches is a `candidate`, never a family call (D14, D33).
 
-**28,891 of 822,499 panel entries** carry evidence; 12,406 are census v2 records.
+**28,897 of 822,499 panel entries** carry evidence; 12,406 are census v2 records.
 
 | v3_basis | v3_status | records |
 |---|---|---|
 | jackhmmer_only | candidate | 7980 |
 | v3a:profile_only | channel | 4789 |
-| panel_profile | non_channel_homolog | 4472 |
+| panel_profile | non_channel_homolog | 4478 |
 | v3a:both | channel | 3038 |
 | panel_profile | channel_associated | 2960 |
-| v3a:unassigned | unassigned | 1419 |
-| v3a:superfamily_only | superfamily_only | 1261 |
+| v3a:unassigned | unassigned | 1417 |
+| v3a:superfamily_only | superfamily_only | 1232 |
 | panel_profile | out_of_scope | 442 |
-| v3a:profile_only | non_channel_homolog | 392 |
-| v3a:profile_only | channel_contested | 387 |
-| v3a:both | channel_contested | 358 |
+| v3a:profile_only | channel_contested | 397 |
+| v3a:both | channel_contested | 389 |
+| v3a:profile_only | non_channel_homolog | 381 |
 | panel_profile | transporter | 308 |
 | v3a:both | non_channel_homolog | 241 |
 | panel_profile | channel | 187 |
@@ -44,10 +44,10 @@ The merge rule (fixed before the tables were read): an entry in census v2 keeps 
 | panel_profile | superfamily_only | 73 |
 | v3a:conflict | conflict | 72 |
 | panel_profile | channel_contested | 63 |
-| v3a:s2_only | channel_contested | 8 |
+| v3a:s2_only | channel_contested | 9 |
 | v3a:s2_only | channel_associated | 8 |
 
-**Channel-family calls: 8,921, of which 250 (2.8 %) are outside census v2** — members of a census family that carry none of the 67 enumerated pore signatures, so no domain search over those signatures could have found them. **Only 107 of them are high-confidence profile calls** (margin ≥ 30 % and ≥ half the profile). The other 143 are medium, and the largest medium blocks are **not channels**: the TRPN profile is mostly its ankyrin-repeat array and the LRRC8 profile half leucine-rich repeat, so an ankyrin- or LRR-repeat protein (ANKRD52, ankyrin, IκB, titin…) can cover 30 % of the profile with the repeat module alone and pass D32's coverage gate. D32 assumed a shared module is a small part of the profile; for repeat-dominated profiles it is not (emergent). Read the high column as the finding and the rest as an upper bound. Per family, largest first:
+**Channel-family calls: 8,963, of which 250 (2.8 %) are outside census v2** — members of a census family that carry none of the 67 enumerated pore signatures, so no domain search over those signatures could have found them. **Only 107 of them are high-confidence profile calls** (margin ≥ 30 % and ≥ half the profile). The other 143 are medium, and the largest medium blocks are **not channels**: the TRPN profile is mostly its ankyrin-repeat array and the LRRC8 profile half leucine-rich repeat, so an ankyrin- or LRR-repeat protein (ANKRD52, ankyrin, IκB, titin…) can cover 30 % of the profile with the repeat module alone and pass D32's coverage gate. D32 assumed a shared module is a small part of the profile; for repeat-dominated profiles it is not (emergent). Read the high column as the finding and the rest as an upper bound. Per family, largest first:
 
 | family | superfamily | called | in_census_v2 | missed_by_domain_search | missed_high | missed_frac |
 |---|---|---|---|---|---|---|
@@ -77,25 +77,25 @@ The merge rule (fixed before the tables were read): an entry in census v2 keeps 
 | kv_eag | ploop | 243 | 241 | 2 | 0 | 0.0082 |
 | tweety | tweety | 61 | 59 | 2 | 2 | 0.0328 |
 
-Control families are reported apart: 8,182 of their 9,165 panel calls are outside census v2 — expected, since auxiliary subunits and non-channel homologues carry no pore signature by definition (D23).
+Control families are reported apart: 8,188 of their 9,160 panel calls are outside census v2 — expected, since auxiliary subunits and non-channel homologues carry no pore signature by definition (D23).
 
 By panel group (census families only):
 
 | group | in_census_v2 | missed_by_domain_search | missed_high | missed |
 |---|---|---|---|---|
-| vertebrate | 4611 | 58 | 31 | 1.2 % |
-| invertebrate | 1387 | 51 | 23 | 3.5 % |
+| vertebrate | 4628 | 58 | 31 | 1.2 % |
+| invertebrate | 1393 | 51 | 23 | 3.5 % |
 | ciliate | 685 | 36 | 13 | 5.0 % |
-| plant | 213 | 30 | 10 | 12.3 % |
-| deuterostome | 845 | 25 | 9 | 2.9 % |
-| basal_metazoan | 161 | 17 | 7 | 9.6 % |
-| cnidarian | 518 | 16 | 5 | 3.0 % |
-| holozoa | 70 | 6 | 2 | 7.9 % |
+| plant | 222 | 30 | 10 | 11.9 % |
+| deuterostome | 848 | 25 | 9 | 2.9 % |
+| basal_metazoan | 163 | 17 | 7 | 9.4 % |
+| cnidarian | 520 | 16 | 5 | 3.0 % |
+| holozoa | 72 | 6 | 2 | 7.7 % |
 | prokaryote | 45 | 4 | 3 | 8.2 % |
 | algae | 71 | 4 | 1 | 5.3 % |
 | amoebozoa | 25 | 2 | 2 | 7.4 % |
 | excavate | 10 | 1 | 1 | 9.1 % |
-| fungi | 19 | 0 | 0 | 0.0 % |
+| fungi | 20 | 0 | 0 | 0.0 % |
 | apicomplexa | 8 | 0 | 0 | 0.0 % |
 | virus | 3 | 0 | 0 | 0.0 % |
 
@@ -176,7 +176,7 @@ All families: `jackhmmer_completeness.tsv`.
 
 ## 5. Human positive control
 
-The 328 human census genes against the human reference proteome (gene symbol used to *score* the call, never to make it — H15): **right_family 327**, **not_in_proteome 1**.
+The 329 human census genes against the human reference proteome (gene symbol used to *score* the call, never to make it — H15): **right_family 328**, **not_in_proteome 1**.
 
 | gene | family | target | v3_family | v3_status | v3_basis | p_call | p_family | verdict |
 |---|---|---|---|---|---|---|---|---|

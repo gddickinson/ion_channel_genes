@@ -57,35 +57,35 @@ Thermus thermophilus	prokaryote	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_
 Thermus thermophilus	prokaryote	gphr	gphr	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	1560	cds
 Saccharomyces cerevisiae	fungi	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Saccharomyces cerevisiae	fungi	tmco1	tmco1	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1	3835	pooled
-Saccharomyces cerevisiae	fungi	tmem87	tmem87	0	0	1	0	1	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	22473	pooled
+Saccharomyces cerevisiae	fungi	tmem87	tmem87	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	22473	pooled
 Saccharomyces cerevisiae	fungi	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Saccharomyces cerevisiae	fungi	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
 Saccharomyces cerevisiae	fungi	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
 Saccharomyces cerevisiae	fungi	gphr	gphr	1	1	0	1	0	1	partial	0		0	1	0	0		present		1	8880	pooled
 Schizosaccharomyces pombe	fungi	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Schizosaccharomyces pombe	fungi	tmco1	tmco1	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	3835	pooled
-Schizosaccharomyces pombe	fungi	tmem87	tmem87	0	0	1	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	22473	pooled
+Schizosaccharomyces pombe	fungi	tmem87	tmem87	1	1	0	1	0	1	no_locus	0		0	0	0	1	105.0	present		1	22473	pooled
 Schizosaccharomyces pombe	fungi	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Schizosaccharomyces pombe	fungi	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
 Schizosaccharomyces pombe	fungi	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
 Schizosaccharomyces pombe	fungi	gphr	gphr	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	8880	pooled
 Arabidopsis thaliana	plant	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Arabidopsis thaliana	plant	tmco1	tmco1	2	2	0	1	1	1	found	2	high	2	1	0	0		present	r4_CP002688.1:2046863-2047453+;r4_CP002686.1:3834465-3835055-	1	1096	group
-Arabidopsis thaliana	plant	tmem87	tmem87	0	0	3	0	0	0	partial	0		0	1	0	0		partial		1	22473	pooled
+Arabidopsis thaliana	plant	tmem87	tmem87	4	2	0	1	0	1	found	2	medium	0	0	0	0		present	r4_CP002684.1:27286613-27287510-;r4_CP002684.1:22767250-22771954+	1	22473	pooled
 Arabidopsis thaliana	plant	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Arabidopsis thaliana	plant	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
 Arabidopsis thaliana	plant	mitok	mitok	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	7089	pooled
 Arabidopsis thaliana	plant	gphr	gphr	2	2	0	1	1	1	found	2	high	2	0	0	0		present	r4_CP002684.1:24140183-24145875-;r4_CP002687.1:13791980-13802049-	1	5664	group
 Oryza sativa	plant	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Oryza sativa	plant	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AP014959.1:29277818-29278447-	1	1096	group
-Oryza sativa	plant	tmem87	tmem87	1	0	3	0	0	0	partial	0		0	2	0	0		present		1	22473	pooled
+Oryza sativa	plant	tmem87	tmem87	4	2	0	1	0	1	found	2	medium	0	1	0	0		present	r4_AP014959.1:12382074-12386864-;r4_AP014965.1:16301631-16302983-	1	22473	pooled
 Oryza sativa	plant	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Oryza sativa	plant	clcc1	mclc	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1	24963	pooled
 Oryza sativa	plant	mitok	mitok	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	7089	pooled
 Oryza sativa	plant	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AP014960.1:30312129-30316149-	1	5664	group
 Physcomitrium patens	plant	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Physcomitrium patens	plant	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	4	0	0		present	r4_CM009336.2:7220070-7220645+	1	1096	group
-Physcomitrium patens	plant	tmem87	tmem87	0	0	2	0	0	0	partial	0		0	2	0	0		partial		1	22473	pooled
+Physcomitrium patens	plant	tmem87	tmem87	2	2	0	1	0	1	found	2	high	2	0	0	0		present	r4_CM009316.2:18095627-18096685-;r4_CM009317.2:10731381-10732454+	1	22473	pooled
 Physcomitrium patens	plant	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	11087	pooled
 Physcomitrium patens	plant	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
 Physcomitrium patens	plant	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
@@ -99,7 +99,7 @@ Chlamydomonas reinhardtii	algae	mitok	mitok	0	0	0	0	0	0	partial	0		0	1	0	0		part
 Chlamydomonas reinhardtii	algae	gphr	gphr	1	1	0	1	0	1	found	1	high	1	0	0	0		present	r4_CM008977.1:6805224-6809791+	1	8880	pooled
 Dictyostelium discoideum	amoebozoa	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Dictyostelium discoideum	amoebozoa	tmco1	tmco1	1	1	0	1	0	1	found	1	high	1	3	0	0		present	r4_CM000152.2:4605058-4605740-	1	3835	pooled
-Dictyostelium discoideum	amoebozoa	tmem87	tmem87	1	0	0	0	0	0	found	1	medium	0	0	0	0		present	r4_CM000153.2:3726537-3727872-	1	22473	pooled
+Dictyostelium discoideum	amoebozoa	tmem87	tmem87	1	1	0	1	0	1	found	1	high	1	0	0	0		present	r4_CM000153.2:3726537-3727872-	1	22473	pooled
 Dictyostelium discoideum	amoebozoa	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Dictyostelium discoideum	amoebozoa	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
 Dictyostelium discoideum	amoebozoa	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
@@ -127,175 +127,175 @@ Trypanosoma brucei	excavate	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locu
 Trypanosoma brucei	excavate	gphr	gphr	1	1	0	1	0	1	partial	0		0	4	0	0		present		1	8880	pooled
 Plasmodium falciparum	apicomplexa	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Plasmodium falciparum	apicomplexa	tmco1	tmco1	1	1	0	1	0	1	no_locus	0		0	0	0	1	92.4	present		1	3835	pooled
-Plasmodium falciparum	apicomplexa	tmem87	tmem87	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	22473	pooled
+Plasmodium falciparum	apicomplexa	tmem87	tmem87	0	0	1	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	22473	pooled
 Plasmodium falciparum	apicomplexa	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Plasmodium falciparum	apicomplexa	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
 Plasmodium falciparum	apicomplexa	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
 Plasmodium falciparum	apicomplexa	gphr	gphr	2	2	0	1	0	1	partial	0		0	6	0	0		present		1	8880	pooled
 Monosiga brevicollis	holozoa	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Monosiga brevicollis	holozoa	tmco1	tmco1	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	3835	pooled
-Monosiga brevicollis	holozoa	tmem87	tmem87	0	0	1	0	1	0	gap	0		0	1	1	0		gap		1	22473	pooled
+Monosiga brevicollis	holozoa	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CH991544.1:1598198-1666369-	1	22473	pooled
 Monosiga brevicollis	holozoa	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	11087	pooled
 Monosiga brevicollis	holozoa	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
 Monosiga brevicollis	holozoa	mitok	mitok	0	0	0	0	0	0	gap	0		0	1	1	0		gap		1	7089	pooled
 Monosiga brevicollis	holozoa	gphr	gphr	1	1	0	1	1	1	found	1	high	1	1	1	0		present	r4_CH991560.1:231230-233745+	1	8880	pooled
 Capsaspora owczarzaki	holozoa	pacc	pac	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	25219	pooled
 Capsaspora owczarzaki	holozoa	tmco1	tmco1	1	1	0	1	0	1	found	1	high	1	1	1	0		present	r4_KE346365.1:1047333-1048280+	1	3835	pooled
-Capsaspora owczarzaki	holozoa	tmem87	tmem87	0	0	1	0	1	0	partial	0		0	2	0	0		partial		1	22473	pooled
+Capsaspora owczarzaki	holozoa	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_KE346367.1:314696-315845+	1	22473	pooled
 Capsaspora owczarzaki	holozoa	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Capsaspora owczarzaki	holozoa	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
 Capsaspora owczarzaki	holozoa	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
 Capsaspora owczarzaki	holozoa	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_KE346368.1:857409-866712+	1	8880	pooled
 Amphimedon queenslandica	basal_metazoan	pacc	pac	1	1	0	1	0	1	no_locus	0		0	0	0	0		present		0	25219	pooled
 Amphimedon queenslandica	basal_metazoan	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_GL345301.1:42390-43655+	1	3835	pooled
-Amphimedon queenslandica	basal_metazoan	tmem87	tmem87	1	0	1	0	0	0	partial	0		0	2	0	0		present		1	22473	pooled
+Amphimedon queenslandica	basal_metazoan	tmem87	tmem87	2	1	0	1	0	1	found	2	high	1	0	0	0		present	r4_GL345206.1:244819-247360+;r4_GL345206.1:263628-265205+	1	22473	pooled
 Amphimedon queenslandica	basal_metazoan	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Amphimedon queenslandica	basal_metazoan	clcc1	mclc	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	24963	pooled
 Amphimedon queenslandica	basal_metazoan	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
 Amphimedon queenslandica	basal_metazoan	gphr	gphr	2	2	0	1	1	1	found	2	high	1	0	0	0		present	r4_GL345446.1:87595-90631+;r4_GL345446.1:91909-99730+	1	6222	group
 Trichoplax adhaerens	basal_metazoan	pacc	pac	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	25219	pooled
 Trichoplax adhaerens	basal_metazoan	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_DS985242.1:2513769-2515808-	1	3835	pooled
-Trichoplax adhaerens	basal_metazoan	tmem87	tmem87	0	0	0	0	1	0	partial	0		0	1	0	0		partial		1	22473	pooled
+Trichoplax adhaerens	basal_metazoan	tmem87	tmem87	1	0	0	1	1	0	found	1	high	1	0	0	0		present	r4_DS985241.1:5894472-5897271+	1	22473	pooled
 Trichoplax adhaerens	basal_metazoan	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Trichoplax adhaerens	basal_metazoan	clcc1	mclc	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	24963	pooled
 Trichoplax adhaerens	basal_metazoan	mitok	mitok	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	7089	pooled
 Trichoplax adhaerens	basal_metazoan	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_DS985244.1:6853477-6859692-	1	6222	group
 Nematostella vectensis	cnidarian	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Nematostella vectensis	cnidarian	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_DS469521.1:1331211-1335779+	1	3835	pooled
-Nematostella vectensis	cnidarian	tmem87	tmem87	0	0	1	0	1	0	partial	0		0	1	0	0		partial		1	22473	pooled
+Nematostella vectensis	cnidarian	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_DS469564.1:543476-572227+	1	22473	pooled
 Nematostella vectensis	cnidarian	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1	11087	pooled
 Nematostella vectensis	cnidarian	clcc1	mclc	1	0	0	1	0	0	partial	0		0	1	0	0		present		1	24963	pooled
 Nematostella vectensis	cnidarian	mitok	mitok	1	0	0	0	0	0	found	1	medium	0	0	0	0		present	r4_DS469550.1:1165771-1174786-	1	7089	pooled
 Nematostella vectensis	cnidarian	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_DS469733.1:142674-144308-	1	8880	pooled
 Hydra vulgaris	cnidarian	pacc	pac	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	25219	pooled
 Hydra vulgaris	cnidarian	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	3	0	0		present	r4_NC_088931.1:54461762-54462322-	1	3835	pooled
-Hydra vulgaris	cnidarian	tmem87	tmem87	0	0	1	0	0	0	partial	0		0	1	0	0		partial		1	22473	pooled
+Hydra vulgaris	cnidarian	tmem87	tmem87	1	1	0	1	0	1	found	1	high	1	0	0	0		present	r4_NC_088925.1:10540847-10558245+	1	22473	pooled
 Hydra vulgaris	cnidarian	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Hydra vulgaris	cnidarian	clcc1	mclc	1	1	0	1	0	1	no_locus	0		0	0	0	1	56.2	present		1	24963	pooled
 Hydra vulgaris	cnidarian	mitok	mitok	1	0	0	0	0	0	no_locus	0		0	0	0	0		present		0	7089	pooled
 Hydra vulgaris	cnidarian	gphr	gphr	1	1	0	1	1	1	found	1	high	1	2	0	0		present	r4_NC_088932.1:9700017-9725112-	1	8880	pooled
 Caenorhabditis elegans	invertebrate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Caenorhabditis elegans	invertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	2	0	0		present	r4_BX284602.5:8467171-8467798+	1	1918	group
-Caenorhabditis elegans	invertebrate	tmem87	tmem87	0	0	1	0	1	0	partial	0		0	1	0	0		partial		1	7747	group
+Caenorhabditis elegans	invertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_BX284606.5:4261202-4264276+	1	7747	group
 Caenorhabditis elegans	invertebrate	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Caenorhabditis elegans	invertebrate	clcc1	mclc	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	24963	pooled
 Caenorhabditis elegans	invertebrate	mitok	mitok	1	0	0	1	1	0	found	1	high	0	2	0	0		present	r4_BX284604.4:7103717-7104875+	1	7089	pooled
 Caenorhabditis elegans	invertebrate	gphr	gphr	2	2	0	1	1	1	found	2	high	2	0	0	0		present	r4_BX284603.4:12219090-12223828+;r4_BX284606.5:14305138-14307727-	1	7283	group
 Drosophila melanogaster	invertebrate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Drosophila melanogaster	invertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AE014134.6:19049163-19049834+	1	1918	group
-Drosophila melanogaster	invertebrate	tmem87	tmem87	0	0	1	0	1	0	partial	0		0	1	0	0		partial		1	7747	group
+Drosophila melanogaster	invertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AE014134.6:1707772-1724192-	1	7747	group
 Drosophila melanogaster	invertebrate	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Drosophila melanogaster	invertebrate	clcc1	mclc	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	24963	pooled
 Drosophila melanogaster	invertebrate	mitok	mitok	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	7089	pooled
 Drosophila melanogaster	invertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AE013599.5:15199307-15201030-	1	7283	group
 Daphnia pulex	invertebrate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Daphnia pulex	invertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_GL732543.1:1449175-1456274+	1	1918	group
-Daphnia pulex	invertebrate	tmem87	tmem87	0	0	1	0	1	0	partial	0		0	1	0	0		partial		1	7747	group
+Daphnia pulex	invertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_GL732526.1:1778417-1797928+	1	7747	group
 Daphnia pulex	invertebrate	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Daphnia pulex	invertebrate	clcc1	mclc	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	24963	pooled
 Daphnia pulex	invertebrate	mitok	mitok	1	0	0	1	1	0	found	1	medium	0	1	0	0		present	r4_GL732600.1:514264-515241-	1	7089	pooled
 Daphnia pulex	invertebrate	gphr	gphr	0	0	0	1	1	0	found	1	high	1	0	0	0		genome_found	r4_GL732585.1:97163-99157-	1	7283	group
 Lottia gigantea	invertebrate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Lottia gigantea	invertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	3	1	0		present	r4_KB199651.1:392264-394470+	1	1918	group
-Lottia gigantea	invertebrate	tmem87	tmem87	0	0	1	0	1	0	partial	0		0	1	0	0		partial		1	7747	group
+Lottia gigantea	invertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	0	0	0	0		present	r4_KB201847.1:855459-864856+	1	7747	group
 Lottia gigantea	invertebrate	tmem109	tmem109	0	0	0	0	0	0	gap	0		0	1	1	0		gap		1	11087	pooled
 Lottia gigantea	invertebrate	clcc1	mclc	2	2	0	1	1	1	no_locus	0		0	0	0	0		present		0	24963	pooled
 Lottia gigantea	invertebrate	mitok	mitok	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	7089	pooled
 Lottia gigantea	invertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_KB201166.1:263391-304869+	1	7283	group
 Aplysia californica	invertebrate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Aplysia californica	invertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NW_004797711.1:23953-33910+	1	1918	group
-Aplysia californica	invertebrate	tmem87	tmem87	0	0	1	0	1	0	gap	0		0	1	1	0		gap		1	7747	group
+Aplysia californica	invertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	0	0	0	0		present	r4_NW_004797273.1:4096983-4122885-	1	7747	group
 Aplysia californica	invertebrate	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	11087	pooled
 Aplysia californica	invertebrate	clcc1	mclc	2	2	0	1	1	1	no_locus	0		0	0	0	1	55.5	present		1	24963	pooled
 Aplysia californica	invertebrate	mitok	mitok	3	0	0	1	1	0	found	3	medium	0	0	0	0		present	r4_NW_004798040.1:162600-182199-;r4_NW_004799664.1:507-2546+;r4_NW_004800715.1:47-913-	1	7089	pooled
 Aplysia californica	invertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NW_004797405.1:1228297-1272325+	1	7283	group
 Lymnaea stagnalis	invertebrate	pacc	pac	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	25219	pooled
 Lymnaea stagnalis	invertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	2	0	0		present	r4_CAXITT010000001.1:2892964-2896524+	1	1918	group
-Lymnaea stagnalis	invertebrate	tmem87	tmem87	0	0	1	0	1	0	gap	0		0	2	1	0		gap		1	7747	group
+Lymnaea stagnalis	invertebrate	tmem87	tmem87	1	1	0	1	1	1	found	2	high	2	0	0	0		present	r4_CAXITT010000094.1:1101732-1125917-;r4_CAXITT010000012.1:648246-749424+	1	7747	group
 Lymnaea stagnalis	invertebrate	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	2	0	0		partial		1	11087	pooled
 Lymnaea stagnalis	invertebrate	clcc1	mclc	2	2	0	1	1	1	no_locus	0		0	0	0	1	57.4	present		1	24963	pooled
 Lymnaea stagnalis	invertebrate	mitok	mitok	1	1	0	1	0	1	found	1	high	1	0	0	0		present	r4_CAXITT010000505.1:31566-33697+	1	7089	pooled
 Lymnaea stagnalis	invertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	3	0	0		present	r4_CAXITT010000635.1:221494-230268-	1	7283	group
 Cornu aspersum	invertebrate	pacc	pac	0	0	0	0	0	0	gap	0		0	2	2	0		gap		1	25219	pooled
 Cornu aspersum	invertebrate	tmco1	tmco1	0	0	0	1	1	1	found	2	high	2	4	0	0		genome_present	r4_OZ076460.1:12074490-12095602-;r4_OZ076468.1:11445612-11992928-	1	1918	group
-Cornu aspersum	invertebrate	tmem87	tmem87	0	0	0	0	1	0	gap	0		0	5	2	0		gap		1	7747	group
+Cornu aspersum	invertebrate	tmem87	tmem87	0	0	0	1	1	1	found	1	high	1	4	2	0		genome_present	r4_OZ076455.1:69350600-69858052-	1	7747	group
 Cornu aspersum	invertebrate	tmem109	tmem109	0	0	0	0	0	0	gap	0		0	4	1	0		gap		1	11087	pooled
 Cornu aspersum	invertebrate	clcc1	mclc	0	0	0	1	1	0	found	2	high	0	10	7	0		genome_present	r4_OZ076447.1:43367414-43562729-;r4_OZ076458.1:33389689-33775873-	1	24963	pooled
 Cornu aspersum	invertebrate	mitok	mitok	0	0	0	1	1	0	found	1	medium	0	3	1	0		genome_present	r4_OZ076452.1:15079626-15583149+	1	7089	pooled
 Cornu aspersum	invertebrate	gphr	gphr	0	0	0	1	1	0	found	1	high	1	12	4	0		genome_present	r4_OZ076445.1:112639332-113074348+	1	7283	group
 Strongylocentrotus purpuratus	deuterostome	pacc	pac	0	0	0	0	0	0	gap	0		0	1	1	0		gap		1	25219	pooled
 Strongylocentrotus purpuratus	deuterostome	tmco1	tmco1	1	1	0	1	1	1	found	2	high	2	0	0	0		present	r4_AAGJ06000004.1:18266116-18286116+;r4_AAGJ06000004.1:18942613-18961677+	1	12291	group
-Strongylocentrotus purpuratus	deuterostome	tmem87	tmem87	0	0	1	0	1	0	found	1	medium	0	0	0	0		genome_weak	r4_AAGJ06000005.1:43944861-43968352+	1	21101	group
+Strongylocentrotus purpuratus	deuterostome	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AAGJ06000005.1:43944861-43968352+	1	21101	group
 Strongylocentrotus purpuratus	deuterostome	tmem109	tmem109	0	0	0	0	0	0	no_locus	0		0	0	0	0		no_locus_unrescued		0	11087	pooled
 Strongylocentrotus purpuratus	deuterostome	clcc1	mclc	1	1	0	1	1	1	partial	0		0	4	0	0		present		1	24963	pooled
 Strongylocentrotus purpuratus	deuterostome	mitok	mitok	1	0	0	1	1	0	found	1	medium	0	1	0	0		present	r4_AAGJ06000006.1:29917931-29919748-	1	7089	pooled
 Strongylocentrotus purpuratus	deuterostome	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_AAGJ06000001.1:27054474-27066125-	1	8096	group
 Branchiostoma floridae	deuterostome	pacc	pac	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	25219	pooled
 Branchiostoma floridae	deuterostome	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_NC_049986.1:10405230-10408153+	1	12291	group
-Branchiostoma floridae	deuterostome	tmem87	tmem87	0	0	1	0	1	0	partial	0		0	1	0	0		partial		1	21101	group
+Branchiostoma floridae	deuterostome	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_049979.1:29306221-29373215-	1	21101	group
 Branchiostoma floridae	deuterostome	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	11087	pooled
 Branchiostoma floridae	deuterostome	clcc1	mclc	1	1	0	1	1	1	no_locus	0		0	0	0	1	55.8	present		1	24963	pooled
 Branchiostoma floridae	deuterostome	mitok	mitok	1	1	0	1	0	1	found	1	high	1	0	0	0		present	r4_NC_049983.1:17758931-17760294+	1	7089	pooled
 Branchiostoma floridae	deuterostome	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_049989.1:3239240-3267880+	1	8096	group
 Ciona intestinalis	deuterostome	pacc	pac	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	25219	pooled
 Ciona intestinalis	deuterostome	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_HT000005.2:1532544-1543891-	1	12291	group
-Ciona intestinalis	deuterostome	tmem87	tmem87	0	0	1	0	1	0	partial	0		0	1	0	0		partial		1	21101	group
+Ciona intestinalis	deuterostome	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_HT000014.2:682261-684177-	1	21101	group
 Ciona intestinalis	deuterostome	tmem109	tmem109	0	0	0	0	0	0	partial	0		0	1	0	0		partial		1	11087	pooled
 Ciona intestinalis	deuterostome	clcc1	mclc	0	0	0	1	1	0	no_locus	0		0	0	0	1	150.0	trace		1	24963	pooled
 Ciona intestinalis	deuterostome	mitok	mitok	1	0	0	1	1	0	found	1	medium	0	0	0	0		present	r4_HT000001.2:7439496-7441179-	1	7089	pooled
 Ciona intestinalis	deuterostome	gphr	gphr	0	0	0	1	1	0	found	1	high	0	0	0	0		genome_weak	r4_HT000005.2:1226492-1227891+	1	8096	group
 Petromyzon marinus	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_133695.1:7576621-8045362-	1	25219	group
 Petromyzon marinus	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	2	0	0		present	r4_NC_133688.1:13652991-13669546+	1	17476	group
-Petromyzon marinus	vertebrate	tmem87	tmem87	0	0	2	1	1	0	found	1	medium	0	2	0	0		genome_weak	r4_NC_133697.1:6720396-7201240+	1	27123	group
+Petromyzon marinus	vertebrate	tmem87	tmem87	2	2	0	1	1	1	found	2	high	2	1	0	0		present	r4_NC_133697.1:6720396-7201240+;r4_NC_133695.1:6347881-6831480+	1	27123	group
 Petromyzon marinus	vertebrate	tmem109	tmem109	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	11087	group
 Petromyzon marinus	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	8	1	0		present	r4_NC_133667.1:14284465-14729031-	1	24963	group
 Petromyzon marinus	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	2	1	0		present	r4_NC_133687.1:4560661-5232882+	1	10868	group
 Petromyzon marinus	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_133728.1:1790302-1810434-	1	28499	group
 Callorhinchus milii	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_KI635988.1:1029194-1038237-	1	25219	group
 Callorhinchus milii	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_KI635895.1:3945499-3951748+	1	17476	group
-Callorhinchus milii	vertebrate	tmem87	tmem87	0	0	0	1	1	0	partial	0		0	1	0	0		partial		1	27123	group
+Callorhinchus milii	vertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_KI635885.1:4591249-4613654-	1	27123	group
 Callorhinchus milii	vertebrate	tmem109	tmem109	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	11087	group
 Callorhinchus milii	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_KI635861.1:12551823-12559149-	1	24963	group
 Callorhinchus milii	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_KI635869.1:1375562-1457943-	1	10868	group
 Callorhinchus milii	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_KI635874.1:8736590-8767034-	1	28499	group
 Torpedo marmorata	vertebrate	pacc	pac	0	0	0	1	1	0	found	1	high	1	0	0	0		genome_present	r4_OZ360222.1:88057501-88207274+	1	25219	group
 Torpedo marmorata	vertebrate	tmco1	tmco1	0	0	0	1	1	1	found	1	high	1	6	2	0		genome_present	r4_OZ360223.1:139753703-139831226+	1	17476	group
-Torpedo marmorata	vertebrate	tmem87	tmem87	0	0	0	1	1	0	found	1	medium	0	2	0	0		genome_present	r4_OZ360228.1:18611661-19220327+	1	27123	group
+Torpedo marmorata	vertebrate	tmem87	tmem87	0	0	0	1	1	1	found	3	high	2	1	0	0		genome_present	r4_OZ360224.1:93956093-94447493+;r4_OZ360228.1:18611661-19220327+;r4_OZ360251.1:31195744-31684138-	1	27123	group
 Torpedo marmorata	vertebrate	tmem109	tmem109	0	0	0	1	1	0	partial	0		0	3	0	0		partial		1	11087	group
 Torpedo marmorata	vertebrate	clcc1	mclc	0	0	0	1	1	1	found	1	high	1	8	1	0		genome_present	r4_OZ360223.1:153531232-153994721+	1	24963	group
 Torpedo marmorata	vertebrate	mitok	mitok	0	0	0	1	1	0	found	1	high	1	3	1	0		genome_present	r4_OZ360223.1:2389767-2717286+	1	10868	group
 Torpedo marmorata	vertebrate	gphr	gphr	0	0	0	1	1	1	found	1	high	1	4	0	0		genome_present	r4_OZ360226.1:26691758-27219494-	1	28499	group
 Danio rerio	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_133192.1:50370336-50378199-	1	25219	group
 Danio rerio	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_133183.1:22979176-22984333-	1	17476	group
-Danio rerio	vertebrate	tmem87	tmem87	0	0	1	1	1	0	partial	0		0	1	0	0		partial		1	27123	group
+Danio rerio	vertebrate	tmem87	tmem87	2	2	0	1	1	1	found	2	high	2	0	0	0		present	r4_NC_133188.1:51201703-51437610+;r4_NC_133190.1:31595940-32062956-	1	27123	group
 Danio rerio	vertebrate	tmem109	tmem109	2	2	0	1	1	1	found	2	high	1	1	0	0		present	r4_NC_133190.1:38826687-39150870+;r4_NC_133189.1:25355859-25366457-	1	11087	group
 Danio rerio	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_NC_133197.1:25397028-25895529+	1	24963	group
 Danio rerio	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_NC_133197.1:5904967-5909761-	1	10868	group
 Danio rerio	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_133184.1:5982162-6313686-	1	28499	group
 Takifugu rubripes	vertebrate	pacc	pac	0	0	0	1	1	0	no_locus	0		0	0	0	0		absent		0	25219	group
 Takifugu rubripes	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_LR584236.2:1332199-1334285+	1	17476	group
-Takifugu rubripes	vertebrate	tmem87	tmem87	2	0	0	1	1	0	found	2	medium	0	0	0	0		present	r4_LR584241.1:527255-629817-;r4_LR584245.2:14636898-14754054+	1	27123	group
+Takifugu rubripes	vertebrate	tmem87	tmem87	3	3	0	1	1	1	found	3	high	2	0	0	0		present	r4_LR584242.2:14805203-14813353-;r4_LR584241.1:527255-629817-;r4_LR584245.2:14636898-14754054+	1	27123	group
 Takifugu rubripes	vertebrate	tmem109	tmem109	2	2	0	1	1	1	partial	0		0	1	0	0		present		1	11087	group
 Takifugu rubripes	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_LR584236.2:10049388-10052132+	1	24963	group
 Takifugu rubripes	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_LR584235.1:1308636-1310138-	1	10868	group
 Takifugu rubripes	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	11	0	0		present	r4_LR584231.2:17622317-17627587-	1	28499	group
 Latimeria chalumnae	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_JH130587.1:57942-93869-	1	25219	group
 Latimeria chalumnae	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	3	2	0		present	r4_JH126783.1:395354-428146+	1	17476	group
-Latimeria chalumnae	vertebrate	tmem87	tmem87	1	1	1	1	1	1	found	2	high	0	0	0	0		present	r4_JH126578.1:116109-591720-;r4_JH127627.1:251144-744881-	1	27123	group
+Latimeria chalumnae	vertebrate	tmem87	tmem87	3	3	0	1	1	1	found	3	high	2	0	0	0		present	r4_JH126578.1:116109-591720-;r4_JH126731.1:324422-789515-;r4_JH127627.1:251144-744881-	1	27123	group
 Latimeria chalumnae	vertebrate	tmem109	tmem109	1	1	0	1	1	1	no_locus	0		0	0	0	1	63.2	present		1	11087	group
 Latimeria chalumnae	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_JH126970.1:663163-1132245+	1	24963	group
 Latimeria chalumnae	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_JH126903.1:962719-1341245+	1	10868	group
 Latimeria chalumnae	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	1	1	0		present	r4_JH129371.1:169961-209996+	1	28499	group
 Xenopus tropicalis	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_030681.2:14164281-14607436+	1	25219	group
 Xenopus tropicalis	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	3	0	0		present	r4_NC_030680.2:119252827-119268178-	1	17476	group
-Xenopus tropicalis	vertebrate	tmem87	tmem87	0	0	0	1	1	0	found	1	high	1	0	0	0		genome_found	r4_NC_030684.2:113579236-113986674+	1	27123	group
+Xenopus tropicalis	vertebrate	tmem87	tmem87	1	1	0	1	1	1	found	2	high	2	0	0	0		present	r4_NC_030681.2:38032048-38513851+;r4_NC_030684.2:113579236-113986674+	1	27123	group
 Xenopus tropicalis	vertebrate	tmem109	tmem109	0	0	0	1	1	0	partial	0		0	2	0	0		partial		1	11087	group
 Xenopus tropicalis	vertebrate	clcc1	mclc	2	1	0	1	1	1	found	1	high	1	1	1	0		present	r4_NC_030680.2:111949761-111973905+	1	24963	group
 Xenopus tropicalis	vertebrate	mitok	mitok	0	0	0	1	1	0	found	1	high	1	0	0	0		genome_found	r4_NC_030680.2:139423529-139430073-	1	10868	group
 Xenopus tropicalis	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_NC_030678.2:8081338-8474369-	1	28499	group
 Anolis carolinensis	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM000937.1:238495821-238840616-	1	25219	group
 Anolis carolinensis	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM000940.1:73812906-73827493-	1	17476	group
-Anolis carolinensis	vertebrate	tmem87	tmem87	1	1	1	1	1	1	found	1	high	1	2	2	0		present	r4_CM000937.1:39634471-40037782+	1	27123	group
+Anolis carolinensis	vertebrate	tmem87	tmem87	2	2	0	1	1	1	found	2	high	1	1	1	0		present	r4_GL343635.1:29102-379276-;r4_CM000937.1:39634471-40037782+	1	27123	group
 Anolis carolinensis	vertebrate	tmem109	tmem109	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_GL343235.1:380625-384121+	1	11087	group
 Anolis carolinensis	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_GL343211.1:1735702-2592043+	1	24963	group
 Anolis carolinensis	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM000938.1:190227763-190399593+	1	10868	group
@@ -309,35 +309,35 @@ Gallus gallus	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r
 Gallus gallus	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	2	1	0		present	r4_CM028482.1:92666548-92686211+	1	28499	group
 Ornithorhynchus anatinus	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM014218.1:12047753-12064903+	1	25219	group
 Ornithorhynchus anatinus	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM014215.1:2967901-3082483-	1	17476	group
-Ornithorhynchus anatinus	vertebrate	tmem87	tmem87	1	1	1	1	1	1	found	1	high	1	1	1	0		present	r4_CM014212.1:39205622-39834840+	1	27123	group
+Ornithorhynchus anatinus	vertebrate	tmem87	tmem87	3	3	0	1	1	1	found	3	high	3	0	0	0		present	r4_CM014200.1:65115928-65549999+;r4_CM014204.1:3046486-3469678+;r4_CM014212.1:39205622-39834840+	1	27123	group
 Ornithorhynchus anatinus	vertebrate	tmem109	tmem109	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM014202.1:17790053-17804740-	1	11087	group
 Ornithorhynchus anatinus	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	4	0	0		present	r4_CM014203.1:82168355-82189049+	1	24963	group
 Ornithorhynchus anatinus	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM014221.1:86847548-87192321+	1	10868	group
 Ornithorhynchus anatinus	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM014215.1:849220-984155+	1	28499	group
 Monodelphis domestica	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM000369.1:120488651-120813870-	1	25219	group
 Monodelphis domestica	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	2	high	1	8	3	0		present	r4_CM000368.1:204337619-204338182+;r4_CM000369.1:57303297-57356633-	1	17476	group
-Monodelphis domestica	vertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	3	2	0		present	r4_CM000368.1:199208644-200129246-	1	27123	group
+Monodelphis domestica	vertebrate	tmem87	tmem87	2	2	0	1	1	1	found	2	high	2	3	2	0		present	r4_CM000368.1:199208644-200129246-;r4_CM000368.1:593462948-594185118+	1	27123	group
 Monodelphis domestica	vertebrate	tmem109	tmem109	1	1	0	1	1	1	found	1	high	1	3	1	0		present	r4_CM000372.1:299025836-299032170+	1	11087	group
 Monodelphis domestica	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM000369.1:477502281-477961878-	1	24963	group
 Monodelphis domestica	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	1	1	0		present	r4_CM000373.1:194226936-194709495-	1	10868	group
 Monodelphis domestica	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	6	5	0		present	r4_CM000369.1:494087205-494128335+	1	28499	group
 Mus musculus	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM000994.3:190830218-191082047+	1	25219	group
 Mus musculus	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	12	0	0		present	r4_CM000994.3:167136286-167157834+	1	17476	group
-Mus musculus	vertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	3	1	0		present	r4_CM000995.3:119880597-120562117-	1	27123	group
+Mus musculus	vertebrate	tmem87	tmem87	2	2	0	1	1	1	found	2	high	2	3	1	0		present	r4_CM000995.3:119880597-120562117-;r4_CM000995.3:128192126-128801563+	1	27123	group
 Mus musculus	vertebrate	tmem109	tmem109	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM001012.3:10849122-10851842-	1	11087	group
 Mus musculus	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	3	0	0		present	r4_CM000996.3:108568674-109080199+	1	24963	group
 Mus musculus	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM001002.3:108778252-108921335+	1	10868	group
 Mus musculus	vertebrate	gphr	gphr	1	1	0	1	1	1	found	1	high	1	24	0	0		present	r4_CM000996.3:96778704-96812542-	1	28499	group
 Rattus norvegicus	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM070403.1:105041955-105460442+	1	25219	group
 Rattus norvegicus	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	9	0	0		present	r4_CM070403.1:81993076-82015956+	1	17476	group
-Rattus norvegicus	vertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	2	0	0		present	r4_CM070393.1:127343263-128250685-	1	27123	group
+Rattus norvegicus	vertebrate	tmem87	tmem87	2	2	0	1	1	1	found	2	high	2	2	0	0		present	r4_CM070393.1:127343263-128250685-;r4_CM070393.1:136110553-136609291+	1	27123	group
 Rattus norvegicus	vertebrate	tmem109	tmem109	1	1	0	1	1	1	found	1	high	1	2	0	0		present	r4_CM070391.1:216945606-216948246-	1	11087	group
 Rattus norvegicus	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	6	0	0		present	r4_CM070392.1:198994397-199486726+	1	24963	group
 Rattus norvegicus	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM070398.1:118616563-118619720+	1	10868	group
 Rattus norvegicus	vertebrate	gphr	gphr	1	1	0	1	1	1	found	2	high	1	15	0	0		present	r4_CM070392.1:226437621-226851239+;r4_CM070392.1:187097291-187134296-	1	28499	group
 Homo sapiens	vertebrate	pacc	pac	1	1	0	1	1	1	found	1	high	1	2	0	0		present	r4_CM000663.2:212365215-212760926-	1	25219	group
 Homo sapiens	vertebrate	tmco1	tmco1	1	1	0	1	1	1	found	1	high	1	4	0	0		present	r4_CM000663.2:165728023-165768751-	1	17476	group
-Homo sapiens	vertebrate	tmem87	tmem87	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM000677.2:42211708-42701346-	1	27123	group
+Homo sapiens	vertebrate	tmem87	tmem87	2	2	0	1	1	1	found	2	high	2	0	0	0		present	r4_CM000664.2:111594576-112112929+;r4_CM000677.2:42211708-42701346-	1	27123	group
 Homo sapiens	vertebrate	tmem109	tmem109	1	1	0	1	1	1	found	1	high	1	0	0	0		present	r4_CM000673.2:60919691-61214517+	1	11087	group
 Homo sapiens	vertebrate	clcc1	mclc	1	1	0	1	1	1	found	1	high	1	9	1	0		present	r4_CM000663.2:108560215-108950446-	1	24963	group
 Homo sapiens	vertebrate	mitok	mitok	1	1	0	1	1	1	found	1	high	1	1	0	0		present	r4_CM000665.2:48432408-48919144-	1	10868	group

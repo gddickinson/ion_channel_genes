@@ -94,20 +94,29 @@ FAMILIES: list[CF] = [
               "Contested: an insertase-fold protein with a second, "
               "better-supported job."),
        provenance=P.CURATED),
-    CF(key="tmem87", name="Golgi cation channel TMEM87A (Elkin1 / GolpHCat)",
+    CF(key="tmem87", name="TMEM87 Golgi cation channels (TMEM87A, TMEM87B), by descent",
        superfamily="tmem87", status=St.CHANNEL_CONTESTED, fold=Fold.GOST,
        selectivity=Sel.CATION_NONSELECTIVE, gating=(G.MECHANICAL, G.VOLTAGE),
        stoichiometry="unknown", tm_per_subunit=7,
        signatures=(_sig("PF06814", "GOST_TM", L.SHARED_WITH_DECOY),
-                   _sig("PF21901", "TMEM87A-B_GOLD", L.SHARED_WITH_DECOY,
-                        "also on TMEM87B, not shown to conduct")),
+                   _sig("PF21901", "TMEM87A-B_GOLD", L.FAMILY,
+                        "TMEM87 GOLD domain: all 1,660 UniProt carriers are "
+                        "metazoan TMEM87s, none a GOST protein (measured "
+                        "2026-09-30) — the family's positive test (H18)")),
        exemplars=(Ex("Hs_TMEM87A", "TMEM87A", "Homo sapiens", "Q8NBN3"),
-                  Ex("Mm_Tmem87a", "Tmem87a", "Mus musculus", "Q8BXN9")),
-       human_genes=("TMEM87A",), length_band_aa=(480, 620), confusable_with=("H18",),
-       notes=("Reported as a mechanosensitive cation channel (Elkin1) and as "
-              "a voltage-gated Golgi pH-regulating channel (GolpHCat). "
-              "TMEM87B shares both domains and is catalogued with the GOST "
-              "decoys until it is shown to conduct."),
+                  Ex("Mm_Tmem87a", "Tmem87a", "Mus musculus", "Q8BXN9"),
+                  Ex("Hs_TMEM87B", "TMEM87B", "Homo sapiens", "Q96K49"),
+                  Ex("Mm_Tmem87b", "Tmem87b", "Mus musculus", "Q8BKU8")),
+       human_genes=("TMEM87A", "TMEM87B"), length_band_aa=(480, 620),
+       confusable_with=("H18",),
+       notes=("Family by descent (D24, D45): TMEM87A and TMEM87B are "
+              "vertebrate paralogues and an invertebrate's single TMEM87 is "
+              "co-orthologous to both, so the family holds all three. "
+              "Mechanism is a separate, literature field: channel activity "
+              "is reported for TMEM87A only — a mechanosensitive cation "
+              "channel (Elkin1) and a voltage-gated Golgi pH-regulating "
+              "channel (GolpHCat); TMEM87B has none reported, and is counted "
+              "by descent, not because it is shown to conduct."),
        provenance=P.CURATED),
     CF(key="tmem109", name="Mitsugumin-23 cation channel (TMEM109)",
        superfamily="tmem109", status=St.CHANNEL_CONTESTED, fold=Fold.TMEM109,
@@ -172,26 +181,17 @@ FAMILIES: list[CF] = [
        signatures=(_sig("PF06814", "GOST_TM", L.SHARED_WITH_DECOY),),
        exemplars=(Ex("Hs_GPR107", "GPR107", "Homo sapiens", "Q5VW38"),
                   Ex("Mm_Gpr107", "Gpr107", "Mus musculus", "Q8BUV8"),
-                  Ex("Mm_Gpr108", "Gpr108", "Mus musculus", "Q91WD0")),
+                  Ex("Mm_Gpr108", "Gpr108", "Mus musculus", "Q91WD0"),
+                  Ex("At_CAND6", "CAND6", "Arabidopsis thaliana", "Q9LZ39",
+                     "plant GOST protein; no TMEM87 GOLD domain"),
+                  Ex("Sc_PTM1", "PTM1", "Saccharomyces cerevisiae", "P32857",
+                     "yeast GOST protein; no TMEM87 GOLD domain")),
        human_genes=("GPR107", "GPR108"), length_band_aa=(480, 650),
        confusable_with=("H18",),
        notes=("Golgi seven-TM proteins; GPR107/108 are not GPCRs despite the "
-              "symbol. TMEM87B was in this family until the r4 reseed "
-              "measured that a decoy mixing it with GPR107/108 cannot separate "
-              "TMEM87A from TMEM87B (margin 0.23); it has its own family now."),
-       provenance=P.CURATED),
-    CF(key="nonchannel_tmem87b", name="TMEM87B, TMEM87A's paralogue",
-       superfamily="tmem87", status=St.NON_CHANNEL_HOMOLOG, fold=Fold.GOST,
-       selectivity=Sel.UNKNOWN, gating=(),
-       signatures=(_sig("PF06814", "GOST_TM", L.SHARED_WITH_DECOY),
-                   _sig("PF21901", "TMEM87A-B_GOLD", L.SHARED_WITH_DECOY)),
-       exemplars=(Ex("Hs_TMEM87B", "TMEM87B", "Homo sapiens", "Q96K49"),
-                  Ex("Mm_Tmem87b", "Tmem87b", "Mus musculus", "Q8BKU8")),
-       human_genes=("TMEM87B",), length_band_aa=(480, 620),
-       confusable_with=("H18",),
-       notes=("Shares both of TMEM87A's domains; not shown to conduct. A "
-              "family of its own so the TMEM87A/B call is a direct paralogue "
-              "margin (H18)."),
+              "symbol. They — and the fungal and plant GOST proteins, seeded "
+              "here after TMEM87-by-descent drew them in (D45) — lack TMEM87's "
+              "GOLD domain (PF21901), whose 1,660 carriers are all metazoan."),
        provenance=P.CURATED),
     CF(key="nonchannel_bri3bp", name="BRI3-binding protein (BRI3BP)",
        superfamily="tmem109", status=St.NON_CHANNEL_HOMOLOG, fold=Fold.TMEM109,

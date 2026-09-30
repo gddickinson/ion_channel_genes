@@ -1,16 +1,16 @@
 {
-  "generated": "2026-09-30 09:54:20",
+  "generated": "2026-09-30 12:25:36",
   "catalogue": {
     "superfamilies": 32,
-    "families_total": 104,
+    "families_total": 103,
     "families_census": 75,
-    "families_control": 29,
-    "human_genes_census": 328,
+    "families_control": 28,
+    "human_genes_census": 329,
     "human_genes_catalogued": 496,
-    "exemplars": 195,
-    "exemplars_with_accession": 195,
+    "exemplars": 197,
+    "exemplars_with_accession": 197,
     "signatures": 132,
-    "shared_signatures": 32,
+    "shared_signatures": 31,
     "hazards": 20
   },
   "internal_problems": 0,
@@ -20,22 +20,22 @@
     "renamed": []
   },
   "exemplars": {
-    "n": 195,
-    "resolved": 195,
+    "n": 197,
+    "resolved": 197,
     "unresolved": 0,
-    "declared_ok": 188,
+    "declared_ok": 190,
     "declared_bad": 0,
-    "sequences": 195,
+    "sequences": 197,
     "arch_mismatch": 38
   },
   "taxonomy": {
     "n": 52,
     "bad": 0
   },
-  "shared_signatures": 32,
-  "requests": 901,
+  "shared_signatures": 31,
+  "requests": 907,
   "request_failures": [],
-  "elapsed_s": 560.7,
+  "elapsed_s": 605.8,
   "hazards": 20,
   "superfamilies_not_alignable": [
     "abc_channel",

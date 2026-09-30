@@ -106,11 +106,16 @@ def main() -> int:
     import argparse
     ap = argparse.ArgumentParser()
     ap.add_argument("--rev", default="r4")
-    rev = ap.parse_args().rev
-    prev = {"r4": "r3", "r5": "r4"}[rev]
-    # r4 added profiles, so an old call may move only with one involved; a
-    # later revision adds none, so no earlier call may move at all
-    new_profiles = set(NEW_PROFILES) if rev == "r4" else set()
+    ap.add_argument("--involved", default="",
+                    help="families whose profiles this revision changed (r6: "
+                         "tmem87,nonchannel_gost,nonchannel_tmem87b)")
+    a = ap.parse_args()
+    rev = a.rev
+    prev = {"r4": "r3", "r5": "r4", "r6": "r5"}[rev]
+    # r4 added profiles, so an old call may move only with one involved; r5
+    # changed none, so no earlier call may move at all; r6 names its own
+    new_profiles = (set(NEW_PROFILES) if rev == "r4" else
+                    set(filter(None, a.involved.split(","))))
     old = {r["accession"]: r for r in rows(s3_dir() / f"census_v3.{prev}.tsv.gz")}
     trans, new_fam, outside = Counter(), Counter(), []
     new_status = Counter()
@@ -125,8 +130,8 @@ def main() -> int:
             trans[(x, y, r["v3_basis"], r["p_family"])] += 1
             # a new profile can move a call by winning or by becoming the
             # runner-up inside the D7 margin (→ ambiguous / superfamily_only)
-            if not ({r["p_family"], r["v3_family"], o["p_family"], r["runner"]}
-                    & new_profiles):
+            if not ({r["p_family"], r["v3_family"], o["p_family"], r["runner"],
+                     o["runner"]} & new_profiles):     # a retired profile, too
                 outside.append(r["accession"])
     if outside:
         raise SystemExit(f"{len(outside)} r3 calls changed with no new family "

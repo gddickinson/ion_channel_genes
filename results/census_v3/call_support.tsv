@@ -133,12 +133,11 @@ nonchannel_bri3bp	profile_only	-	family	804
 nonchannel_class_c_gpcr	both	hazard	family	2
 nonchannel_class_c_gpcr	profile_only	-	family	1
 nonchannel_emc3	profile_only	-	family	4294
-nonchannel_gost	profile_only	-	family	4242
+nonchannel_gost	profile_only	-	family	5021
 nonchannel_kctd	both	hazard	family	14316
 nonchannel_kctd	profile_only	-	family	12394
 nonchannel_kctd	s2_only	hazard	module	34
 nonchannel_ncs	profile_only	-	family	2
-nonchannel_tmem87b	profile_only	-	family	1949
 nonchannel_vsp	both	hazard	family	767
 orai	both	architecture	family	3258
 orai	s2_only	architecture	low_score	20
@@ -177,7 +176,11 @@ tmem175	both	architecture	family	1809
 tmem175	s2_only	architecture	low_score	777
 tmem175	s2_only	architecture	module	2994
 tmem175	s2_only	architecture	no_hit	1407
-tmem87	profile_only	-	family	995
+tmem87	both	architecture	family	1602
+tmem87	profile_only	-	family	3274
+tmem87	s2_only	architecture	low_score	1
+tmem87	s2_only	architecture	module	53
+tmem87	s2_only	architecture	no_hit	4
 tpc	profile_only	-	family	5390
 transporter_slc26	profile_only	-	family	381
 tric	both	architecture	family	2549

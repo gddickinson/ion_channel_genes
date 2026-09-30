@@ -21,8 +21,8 @@ subunits, transporters with a channel fold, aquaporins, viroporins — is
 `docs/scope_and_boundaries.md`.
 
 **The catalogue holds 103 families in 32 superfamilies, of which 75 are
-census families covering 328 human pore-forming genes.** `[db]` (Eight of those
-genes — PACC1 and seven contested proposals — were added after S20 and
+census families covering 329 human pore-forming genes.** `[db]` (Nine of those
+genes — PACC1, seven contested proposals and TMEM87B, counted with TMEM87A by descent — were added after S20 and
 entered the census in revision r4; counts from S2–S6 below are on the 320.) The remaining
 28 families exist so they can be excluded: auxiliary subunits, domain-sharing
 non-channels and channels that are not ion channels.

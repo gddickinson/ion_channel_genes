@@ -6,11 +6,11 @@ Rendered by `scripts/s15_report.py` from the tables in this directory (D13), whi
 
 ## The answer
 
-**Domain search finds the channels; it cannot name most of them.** Of the final census's 7,353 high-confidence census-family members (panel frame, below), **94.0% carry an enumerated pore signature**, but S2's domain rules call only **44.2%** of them to the family the profiles do. Profiles add 107 proteome members domain search never enumerated (1.5%); genomes add 334 loci the proteomes lack (4.5%).
+**Domain search finds the channels; it cannot name most of them.** Of the final census's 7,395 high-confidence census-family members (panel frame, below), **94.0% carry an enumerated pore signature**, but S2's domain rules call only **44.3%** of them to the family the profiles do. Profiles add 107 proteome members domain search never enumerated (1.4%); genomes add 336 loci the proteomes lack (4.5%).
 
-On the independent human frame (the 328 curated census genes): domain search enumerates **326**, calls **173** to the right family, and the profiles call **327**.
+On the independent human frame (the 329 curated census genes): domain search enumerates **327**, calls **175** to the right family, and the profiles call **328**.
 
-**Per superfamily (thresholds fixed in `s15_contribution.py` before any row was read: ≥ 95% / ≥ 50%)** — enumeration: domain_search 29, profile_or_genome_only 2, domain_partial 1; the family *call*: profile_or_genome_only 14, domain_search 14, domain_partial 4. Enumeration is not the bottleneck anywhere except clic (77%), hv (35%), mitok (0%). The call is: in cysloop, deg_enac, p2x, clc, tmco1, mitok, tmem109, tmem87, viroporin domain rules call **no** member to its family, because the families inside each share one architecture (D25) — S2 stops at the superfamily and only the profiles separate them.
+**Per superfamily (thresholds fixed in `s15_contribution.py` before any row was read: ≥ 95% / ≥ 50%)** — enumeration: domain_search 29, profile_or_genome_only 2, domain_partial 1; the family *call*: domain_search 14, profile_or_genome_only 13, domain_partial 5. Enumeration is not the bottleneck anywhere except clic (77%), hv (35%), mitok (0%). The call is: in cysloop, deg_enac, p2x, clc, tmco1, mitok, tmem109, viroporin domain rules call **no** member to its family, because the families inside each share one architecture (D25) — S2 stops at the superfamily and only the profiles separate them.
 
 ## Two frames
 
@@ -39,6 +39,7 @@ On the independent human frame (the 328 curated census genes): domain search enu
 | clc | 72 | 0% | 94% | 94% | 100% | domain_search | profile_or_genome_only | 0 | 4 / 0 / 4 of 4 | no clean run |
 | tweety | 63 | 92% | 92% | 95% | 100% | domain_search | domain_search | 1 | 3 / 3 / 3 of 3 | no clean run |
 | orai | 54 | 96% | 96% | 96% | 100% | domain_search | domain_search | 7 | 3 / 3 / 3 of 3 | 52/52 |
+| tmem87 | 51 | 59% | 94% | 94% | 100% | domain_search | domain_partial | 1 | 2 / 2 / 2 of 2 | no clean run |
 | tric | 48 | 94% | 94% | 94% | 100% | domain_search | domain_search | 1 | 2 / 2 / 2 of 2 | 45/45 |
 | piezo | 45 | 91% | 98% | 98% | 100% | domain_search | domain_partial | 0 | 2 / 2 / 2 of 2 | no clean run |
 | tmem175 | 45 | 96% | 96% | 96% | 100% | domain_search | domain_search | 4 | 1 / 1 / 1 of 1 | 44/44 |
@@ -51,7 +52,6 @@ On the independent human frame (the 328 curated census genes): domain search enu
 | abc_channel | 14 | 93% | 93% | 93% | 100% | domain_search | domain_search | 0 | 1 / 1 / 1 of 1 | no clean run |
 | pac | 14 | 93% | 93% | 93% | 100% | domain_search | domain_search | 0 | 1 / 1 / 1 of 1 | no clean run |
 | tmem109 | 12 | 0% | 100% | 100% | 100% | domain_search | profile_or_genome_only | 0 | 1 / 0 / 1 of 1 | no clean run |
-| tmem87 | 9 | 0% | 89% | 89% | 100% | domain_search | profile_or_genome_only | 0 | 1 / 0 / 1 of 1 | no clean run |
 | viroporin | 3 | 0% | 100% | 100% | 100% | domain_search | profile_or_genome_only | 0 | 0 / 0 / 0 of 0 | 1/3 |
 
 *Domain-only calls*: S2 family calls on census v4 rows the profiles do not call (census v3 basis `s2_only`) — domain search's unique contribution, outside the frame because no profile confirms them.

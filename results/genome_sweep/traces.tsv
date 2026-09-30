@@ -30,6 +30,7 @@ Thermus thermophilus	mscs	AP008226.1	1609004	1609666	5	75.5	2.9e-16	24.5	mscs|Q5
 Saccharomyces cerevisiae	ano_scramblase	BK006936.2	421377	422681	1	107.0	4.78e-24	25.11	ano_scramblase|O13621	zero
 Saccharomyces cerevisiae	vdac	BK006947.3	517997	518866	28	183.0	1.45e-52	34.615	vdac|Q9P544	control
 Schizosaccharomyces pombe	ano_scramblase	CU329671.1	1430926	1432695	23	105.0	3.03e-23	21.163	ano_scramblase|E9FW08	control
+Schizosaccharomyces pombe	tmem87	CU329670.1	4131611	4132780	25	105.0	1.13e-23	25.072	tmem87|Q22938	control
 Arabidopsis thaliana	tweety	CP002684.1	26818728	26819081	1	52.8	2.14e-06	32.258	tweety|A9RMS1	zero
 Chlamydomonas reinhardtii	vdac	CM008966.1	1838395	1838979	23	97.4	4.54e-22	30.818	vdac|A9TKC4	control
 Dictyostelium discoideum	mscs	CM000151.3	7823754	7825226	4	137.0	4.19e-33	22.601	mscs|Q9LYG9	control
