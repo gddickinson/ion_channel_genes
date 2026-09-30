@@ -45,6 +45,14 @@ REVISIONS = [
      "shared with a non-channel (H17–H19), so domain rules leave them "
      "unassigned by design; MITOK (CCDC51) carries no Pfam domain and is not "
      "enumerable at all."),
+    ("r5", "Revision r5 — the viroporin signatures (S4's row, D43)",
+     "The viroporin family's four signatures (Flu M2, Vpu, CoV E, bCoV "
+     "viroporin) are SUBFAMILY-level — each proves one virus's channel — and so "
+     "were never enumerated (D34 couples nothing any more, but the declaration "
+     "had to change). r5 walked the delta the same way as r4: 4,007 records "
+     "(3,994 viral), r4's 1,271,983 + delta = UniProt's 1,275,990 for the "
+     "79-signature union, every shard and signature exact. No earlier record "
+     "carries a viroporin signature, so no call was re-classified."),
 ]
 
 

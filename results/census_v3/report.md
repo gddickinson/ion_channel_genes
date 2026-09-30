@@ -100,14 +100,14 @@ Per family (largest 30; full table `calibration.tsv`):
 
 ## 4. Census v3a
 
-**1,271,983 records**; **749,734 (58.9 %) now carry a family call** — both instruments 299,320, S2 only 13,051, profile only 437,363 — against 312,545 (24.6 %) in S2 (r3 (S2c, 2026-09-28: H2/H4/H11/H12/H13 positive tests)). Superfamily only 109,749; unassigned 409,578; **conflict 2,922**, kept and counted.
+**1,275,990 records**; **753,294 (59.0 %) now carry a family call** — both instruments 299,320, S2 only 13,051, profile only 440,923 — against 312,545 (24.5 %) in S2 (r3 (S2c, 2026-09-28: H2/H4/H11/H12/H13 positive tests)). Superfamily only 109,749; unassigned 410,025; **conflict 2,922**, kept and counted.
 
 **What the profile-only calls have not been tested on.** The superfamily splits below (Cys-loop, iGluR, DEG/ENaC, P2X, CLC, TMEM16) are families S2 never called, so section 3 cannot check them, and section 2's orthologue test is vertebrate. Where those calls fall in invertebrates, plants and protists they rest on profiles seeded mostly from human genes and have no independent check yet.
 
 | status | records |
 |---|---|
-| channel | 618815 |
-| unassigned | 409578 |
+| channel | 622375 |
+| unassigned | 410025 |
 | superfamily_only | 109749 |
 | channel_contested | 51634 |
 | non_channel_homolog | 39891 |
@@ -131,25 +131,25 @@ Per family (largest 30; full table `calibration.tsv`):
 
 ### What happened to S2's unassigned records
 
-521,830 records S2 left unassigned: `no_hit` 320,879 (61.5 %); `family` 108,377 (20.8 %); `module` 71,556 (13.7 %); `low_score` 17,140 (3.3 %); `superfamily_only` 3,875 (0.7 %); `ambiguous` 3 (0.0 %). A `module` verdict is a profile match over less than 30% of the family profile and is deliberately not a call; `no_hit` means no profile reported the record at all. S2 traced most of its unassigned records to three co-domain signatures (cNMP, SBP_bac_3, PAS); which of these two verdicts those records received is not broken down here.
+525,837 records S2 left unassigned: `no_hit` 321,312 (61.1 %); `family` 111,937 (21.3 %); `module` 71,556 (13.6 %); `low_score` 17,154 (3.3 %); `superfamily_only` 3,875 (0.7 %); `ambiguous` 3 (0.0 %). A `module` verdict is a profile match over less than 30% of the family profile and is deliberately not a call; `no_hit` means no profile reported the record at all. S2 traced most of its unassigned records to three co-domain signatures (cNMP, SBP_bac_3, PAS); which of these two verdicts those records received is not broken down here.
 
 | p_call | v3_family | records |
 |---|---|---|
-| no_hit | - | 320879 |
+| no_hit | - | 321312 |
 | module | - | 71556 |
 | family | mscs | 61863 |
-| low_score | - | 17140 |
+| low_score | - | 17154 |
 | family | ano_scramblase | 8732 |
 | family | nonchannel_emc3 | 4294 |
 | family | nonchannel_gost | 4242 |
 | superfamily_only | - | 3875 |
+| family | viroporin | 3560 |
 | family | trpm | 2831 |
 | family | osca_tmem63 | 2817 |
 | family | trpv | 2499 |
 | family | tmco1 | 2259 |
 | family | nonchannel_tmem87b | 1949 |
 | family | cng | 1839 |
-| family | piezo | 1552 |
 
 ### Calls that rest on S2 alone
 
@@ -270,5 +270,5 @@ Reverse direction — of this census's own itpr / ryr / piezo calls, how many th
 
 | file | bytes | sha256 | records |
 |---|---|---|---|
-| hmmer/s3/census_v3.tsv.gz | 21744212 | 98d819275a11b98813eee5f2c2cb979462ae33858979876d79438b69f978dd87 | 1271983 |
-| hmmer/s3/profile_calls.tsv.gz | 33847189 | b0295a0a021f40692704809365133c22784e5d0047011ba9d8b127d97c2171c4 | 881229 |
+| hmmer/s3/census_v3.tsv.gz | 21788703 | b180d6fbe0a213863604508ddec73735278fab4e14738f45f4b6a3938ccbe1aa | 1275990 |
+| hmmer/s3/profile_calls.tsv.gz | 33942883 | 839cb28e4a8f277d65e3aa86868acbec72e2f726accf6db1b2b59867e82f851a | 883638 |

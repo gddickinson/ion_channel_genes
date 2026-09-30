@@ -744,3 +744,12 @@ interpretable.
 **Fungal relatives are no longer mistaken for the channel.** The yeast
 protein PTM1 and its fission-yeast counterpart now stop at "a TMEM87/GOST
 protein" rather than being called TMEM87A.
+
+## Census revision r5 — the viral channels enter the census (2026-09-30)
+
+**Viral ion channels are now counted.** The census had never searched for
+them: their defining domains mark individual viruses' channels, not one
+family. They are now included: 3,560 viroporins across influenza (M2), HIV
+(Vpu) and coronaviruses (the envelope protein E). None of the 1.27 million
+proteins already in the census carried one of these domains, so nothing else
+changed.

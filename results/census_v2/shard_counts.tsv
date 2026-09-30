@@ -23,4 +23,16 @@ r4_viridiplantae	r4 delta: new signature, no r3 signature	6376	6376	ok
 r4_fungi	r4 delta: new signature, no r3 signature	4398	4398	ok
 r4_euk_other	r4 delta: new signature, no r3 signature	1039	1039	ok
 r4_unplaced	r4 delta: new signature, no r3 signature	18	18	ok
-UNION	any pore signature (75, r4)	1271983	1271983	ok
+r5_bact_pseudomonadota	r5 delta: new signature, none earlier	1	1	ok
+r5_bact_other	r5 delta: new signature, none earlier	9	9	ok
+r5_archaea	r5 delta: new signature, none earlier	0	0	ok
+r5_virus	r5 delta: new signature, none earlier	3994	3994	ok
+r5_mammalia	r5 delta: new signature, none earlier	0	0	ok
+r5_actinopterygii	r5 delta: new signature, none earlier	0	0	ok
+r5_chordata_other	r5 delta: new signature, none earlier	0	0	ok
+r5_metazoa_other	r5 delta: new signature, none earlier	1	1	ok
+r5_viridiplantae	r5 delta: new signature, none earlier	0	0	ok
+r5_fungi	r5 delta: new signature, none earlier	1	1	ok
+r5_euk_other	r5 delta: new signature, none earlier	1	1	ok
+r5_unplaced	r5 delta: new signature, none earlier	0	0	ok
+UNION	any pore signature (79, r5)	1275990	1275990	ok

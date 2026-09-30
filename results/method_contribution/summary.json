@@ -1,8 +1,8 @@
 {
  "frame_members": 7353,
  "n_domain_call": 3249,
- "n_domain_enumeration": 3660,
- "n_profile": 110,
+ "n_domain_enumeration": 3663,
+ "n_profile": 107,
  "n_genome": 334,
  "proteome_members": 7019,
  "human": {
@@ -12,9 +12,9 @@
   "profile_call": 327
  },
  "q3_enumeration": {
-  "domain_search": 28,
+  "domain_search": 29,
   "domain_partial": 1,
-  "profile_or_genome_only": 3
+  "profile_or_genome_only": 2
  },
  "q3_call": {
   "domain_partial": 4,

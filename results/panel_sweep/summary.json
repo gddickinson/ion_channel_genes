@@ -1,7 +1,7 @@
 {
   "panel_entries": 822499,
-  "with_evidence": 28890,
-  "in_census_v2": 12402,
+  "with_evidence": 28891,
+  "in_census_v2": 12406,
   "status": {
     "channel": 8105,
     "out_of_scope": 442,
@@ -10,16 +10,16 @@
     "channel_contested": 816,
     "non_channel_homolog": 5105,
     "transporter": 475,
-    "unassigned": 1418,
+    "unassigned": 1419,
     "superfamily_only": 1334,
     "conflict": 72
   },
   "basis": {
     "v3a:both": 3812,
-    "panel_profile": 8508,
+    "panel_profile": 8505,
     "jackhmmer_only": 7980,
-    "v3a:profile_only": 5732,
-    "v3a:unassigned": 1418,
+    "v3a:profile_only": 5735,
+    "v3a:unassigned": 1419,
     "v3a:superfamily_only": 1261,
     "v3a:conflict": 72,
     "v3a:s2_only": 107
@@ -28,6 +28,6 @@
     "right_family": 327,
     "not_in_proteome": 1
   },
-  "instrument_same": 12378,
-  "instrument_total": 12402
+  "instrument_same": 12382,
+  "instrument_total": 12406
 }

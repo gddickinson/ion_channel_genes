@@ -102,4 +102,4 @@ nonchannel_tmem87b	tmem87	non_channel_homolog	13	13	0	0	0.0
 tmem87	tmem87	channel_contested	13	13	0	0	0.0
 tric	tric	channel	46	46	0	0	0.0
 tweety	tweety	channel_contested	61	59	2	2	0.0328
-viroporin	viroporin	channel	3	0	3	3	1.0
+viroporin	viroporin	channel	3	3	0	0	0.0

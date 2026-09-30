@@ -4,8 +4,8 @@
 
 ## Headline
 
-- **1,271,983 records** carry at least one of the catalogue's 75 pore signatures (union count 1,271,983; fetched 1,271,983).
-- **312,545 (24.6 %) get a family call**, 268,583 of them to a family catalogued as a channel; 437,608 (34.4 %) reach a superfamily only; 521,830 (41.0 %) are `unassigned` and stay in the census with that label.
+- **1,275,990 records** carry at least one of the catalogue's 79 pore signatures (union count 1,275,990; fetched 1,275,990).
+- **312,545 (24.5 %) get a family call**, 268,583 of them to a family catalogued as a channel; 437,608 (34.3 %) reach a superfamily only; 525,837 (41.2 %) are `unassigned` and stay in the census with that label.
 - **Every family call was made without the reference tier**: 281,177 by architecture or hazard rules and 31,368 by the selectivity-filter motif (37,393 four-repeat records projected onto Nav1.5).
 - **Human census genes: 326/328 enumerated, 173/328 called to the right family** (reviewed human entries; the gene symbol is used here to *score*, never to classify — H15).
 - **S1 panel: 75/97 enumerated; 45 correct without the reference tier vs 57 with it in S1.** Panel members from channel families enumerated: **71/71**. Non-channel members: 22/26 carry no pore signature and are excluded at enumeration; of the 4 that are enumerated, **0 are called to a channel family** (CLCN7 → superfamily_only, PKD1 → assoc_polycystin1, KCTD1 → nonchannel_kctd, TPTE → nonchannel_vsp).
@@ -40,9 +40,21 @@ The union query was cut into taxonomic shards that partition it; the shard count
 | r4_fungi | 4398 | 4398 | ok |
 | r4_euk_other | 1039 | 1039 | ok |
 | r4_unplaced | 18 | 18 | ok |
-| UNION | 1271983 | 1271983 | ok |
+| r5_bact_pseudomonadota | 1 | 1 | ok |
+| r5_bact_other | 9 | 9 | ok |
+| r5_archaea | 0 | 0 | ok |
+| r5_virus | 3994 | 3994 | ok |
+| r5_mammalia | 0 | 0 | ok |
+| r5_actinopterygii | 0 | 0 | ok |
+| r5_chordata_other | 0 | 0 | ok |
+| r5_metazoa_other | 1 | 1 | ok |
+| r5_viridiplantae | 0 | 0 | ok |
+| r5_fungi | 1 | 1 | ok |
+| r5_euk_other | 1 | 1 | ok |
+| r5_unplaced | 0 | 0 | ok |
+| UNION | 1275990 | 1275990 | ok |
 
-Shards or union short: **0**. Per-signature check (records fetched carrying the signature == UniProt's count for it alone): **75/75 ok**.
+Shards or union short: **0**. Per-signature check (records fetched carrying the signature == UniProt's count for it alone): **79/79 ok**.
 
 UniProt and InterPro run on different release cycles, so their counts for the same Pfam entry differ. The census is UniProt's; the largest differences are listed so the gap is visible rather than assumed away.
 
@@ -195,19 +207,19 @@ These records carry a pore signature and were positively called to a family the 
 | PF02714 | 3046 | 1293 | 3046 | 0 | 0 | 0 |
 | PF14703 | 2301 | 598 | 2301 | 0 | 0 | 0 |
 | PF12166 | 2257 | 329 | 2257 | 0 | 0 | 0 |
+| PF00599 | 2223 | 2223 | 0 | 4 | 0 | 2219 |
 | PF24874 | 2201 | 91 | 2201 | 0 | 0 | 0 |
 | PF22614 | 2058 | 2056 | 1911 | 147 | 0 | 0 |
 | PF23188 | 1802 | 107 | 1802 | 0 | 0 | 0 |
 | PF14965 | 1691 | 1691 | 1691 | 0 | 0 | 0 |
 | PF21901 | 1660 | 65 | 1660 | 0 | 0 | 0 |
 | PF01365 | 1459 | 1156 | 1458 | 1 | 0 | 0 |
+| PF00558 | 1386 | 1386 | 3 | 6 | 0 | 1377 |
 | PF13967 | 1331 | 528 | 1331 | 0 | 0 | 0 |
 | PF02026 | 1326 | 1074 | 678 | 570 | 13 | 65 |
 | PF24871 | 1125 | 766 | 1125 | 0 | 0 | 0 |
 | PF17655 | 1074 | 1069 | 1046 | 28 | 0 | 0 |
 | PF08344 | 933 | 933 | 933 | 0 | 0 | 0 |
-| PF15917 | 788 | 252 | 788 | 0 | 0 | 0 |
-| PF16178 | 614 | 614 | 614 | 0 | 0 | 0 |
 
 ## Unassigned records carrying part of one family's architecture
 
@@ -219,7 +231,7 @@ A derived family rule requires *every* `FAMILY`-level signature the catalogue de
 | iglur_prok | PF00497,PF07885 | 115928 |
 | kv_eag | PF00027,PF13426 | 111789 |
 | mscs | PF00924,PF05552,PF21082 | 65508 |
-| (none) |  | 32854 |
+| (none) |  | 36861 |
 | osca_tmem63 | PF02714,PF13967,PF14703 | 4505 |
 | trpm | PF16519,PF18139,PF23317,PF25508 | 3960 |
 | piezo | PF12166,PF15917,PF23188,PF24871,PF24874 | 3939 |
@@ -425,8 +437,8 @@ Enumerated but not called to the expected family (153):
 
 | file | bytes | records | sha256 |
 |---|---|---|---|
-| raw_api/s2/census_v2.tsv.gz | 29222611 | 1271983 | 9edbcba4f8583af97bbd97211931cf5a053640725b9f113b0db7bbe3268fb37a |
-| raw_api/s2/census_v2.fasta.gz | 291801015 | 1271983 | 6a35f74a8fc1881fe3b08be2c324f57f4123fcf096bb78c7e23eb403f811d449 |
+| raw_api/s2/census_v2.tsv.gz | 29264751 | 1275990 | a70d663f7ad0a9de802861ce8be5f875014772c2568748f43d239261df59b79f |
+| raw_api/s2/census_v2.fasta.gz | 291874862 | 1275990 | f94e3a13bdad217171692b163cc33175ee23765f62fc4b7a721b8e141af4b824 |
 
 
 ## Revision r2 — hazard rules H2, H4, H13 as positive tests (S2b)
@@ -477,3 +489,11 @@ S20 found eight proposed channels no catalogue family named; they were added (`s
 |---|---|---|---|
 | connexin | gphr | - | 1 |
 | unassigned | gphr | - | 1 |
+
+
+## Revision r5 — the viroporin signatures (S4's row, D43)
+
+The viroporin family's four signatures (Flu M2, Vpu, CoV E, bCoV viroporin) are SUBFAMILY-level — each proves one virus's channel — and so were never enumerated (D34 couples nothing any more, but the declaration had to change). r5 walked the delta the same way as r4: 4,007 records (3,994 viral), r4's 1,271,983 + delta = UniProt's 1,275,990 for the 79-signature union, every shard and signature exact. No earlier record carries a viroporin signature, so no call was re-classified. **0 records** carry an accession the rewritten rules consult (`PF00558`, `PF00599`, `PF02723`, `PF11289`) and were re-classified; **0 calls changed**, and 0 changed outside that set (checked, not assumed). The previous call files are archived on the data root under `calls_r4/`.
+
+| before | after | hazards_after | records |
+|---|---|---|---|

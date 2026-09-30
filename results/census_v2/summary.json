@@ -1,11 +1,11 @@
 {
   "uniprot_release": "2026_03",
-  "records": 1271983,
+  "records": 1275990,
   "family_calls": 312545,
   "revision": "r3 (S2c, 2026-09-28: H2/H4/H11/H12/H13 positive tests)",
   "family_calls_channel": 268583,
   "superfamily_only": 437608,
-  "unassigned": 521830,
+  "unassigned": 525837,
   "family_calls_by_architecture_or_hazard": 281177,
   "family_calls_by_motif": 31368,
   "four_repeat_projected": 37393,

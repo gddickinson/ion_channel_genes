@@ -3669,9 +3669,9 @@ viroporin	viroporin	Escherichia coli	0	0
 viroporin	viroporin	Gallus gallus	0	0
 viroporin	viroporin	Gloeobacter violaceus	0	0
 viroporin	viroporin	Homo sapiens	0	0
-viroporin	viroporin	Human immunodeficiency virus type 1	1	1
+viroporin	viroporin	Human immunodeficiency virus type 1	1	0
 viroporin	viroporin	Hydra vulgaris	0	0
-viroporin	viroporin	Influenza A virus	1	1
+viroporin	viroporin	Influenza A virus	1	0
 viroporin	viroporin	Latimeria chalumnae	0	0
 viroporin	viroporin	Lottia gigantea	0	0
 viroporin	viroporin	Lymnaea stagnalis	0	0
@@ -3689,7 +3689,7 @@ viroporin	viroporin	Plasmodium falciparum	0	0
 viroporin	viroporin	Rattus norvegicus	0	0
 viroporin	viroporin	Saccharomyces cerevisiae	0	0
 viroporin	viroporin	Schizosaccharomyces pombe	0	0
-viroporin	viroporin	Severe acute respiratory syndrome coronavirus 2	1	1
+viroporin	viroporin	Severe acute respiratory syndrome coronavirus 2	1	0
 viroporin	viroporin	Streptomyces lividans	0	0
 viroporin	viroporin	Strongylocentrotus purpuratus	0	0
 viroporin	viroporin	Synechocystis sp. PCC 6803	0	0

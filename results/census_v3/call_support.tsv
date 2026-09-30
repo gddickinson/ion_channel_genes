@@ -207,4 +207,5 @@ vdac	both	architecture	family	16402
 vdac	s2_only	architecture	low_score	70
 vdac	s2_only	architecture	module	332
 vdac	s2_only	architecture	no_hit	254
+viroporin	profile_only	-	family	3560
 zac	profile_only	-	family	147

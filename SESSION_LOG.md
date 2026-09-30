@@ -774,3 +774,12 @@ scope decision for the user (TMEM87 by descent vs TMEM87A alone).
   human-accession cache still said TMEM87B belonged to GOST. Fixed (D44).
 - A chain run continued past that refused build and so repeated the old
   results. It was discarded and re-run gated.
+
+## 2026-09-30 — open items, batch 3: census revision r5 (viroporins), S2e
+
+**Done.** The four viroporin signatures set `enumerate=True`; the r4 delta
+tooling (`s2r4_delta.py`, `s3r4_sweep.py`, `s3r4_compare.py`) generalised
+to `--rev`, with the merges reading every `domtbl_r*` and delta map. r5: 4,007
+records (3,994 viral), every count exact, 0 earlier calls changed (S2 and
+v3a), 3,560 profile-called viroporins; benchmark unchanged (744/745); panel
+census, census v4, S15, reports and figures re-run.

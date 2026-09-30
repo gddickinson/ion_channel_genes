@@ -1,10 +1,10 @@
 v3_basis	v3_status	records
 jackhmmer_only	candidate	7980
-v3a:profile_only	channel	4786
+v3a:profile_only	channel	4789
 panel_profile	non_channel_homolog	4472
 v3a:both	channel	3038
 panel_profile	channel_associated	2960
-v3a:unassigned	unassigned	1418
+v3a:unassigned	unassigned	1419
 v3a:superfamily_only	superfamily_only	1261
 panel_profile	out_of_scope	442
 v3a:profile_only	non_channel_homolog	392
@@ -12,7 +12,7 @@ v3a:profile_only	channel_contested	387
 v3a:both	channel_contested	358
 panel_profile	transporter	308
 v3a:both	non_channel_homolog	241
-panel_profile	channel	190
+panel_profile	channel	187
 v3a:both	channel_associated	175
 v3a:profile_only	transporter	167
 v3a:s2_only	channel	91

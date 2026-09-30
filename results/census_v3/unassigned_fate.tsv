@@ -1,12 +1,13 @@
 p_call	v3_family	records
-no_hit	-	320879
+no_hit	-	321312
 module	-	71556
 family	mscs	61863
-low_score	-	17140
+low_score	-	17154
 family	ano_scramblase	8732
 family	nonchannel_emc3	4294
 family	nonchannel_gost	4242
 superfamily_only	-	3875
+family	viroporin	3560
 family	trpm	2831
 family	osca_tmem63	2817
 family	trpv	2499

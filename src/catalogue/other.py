@@ -147,10 +147,14 @@ FAMILIES: list[CF] = [
         superfamily="viroporin", status=St.CHANNEL, fold=Fold.VIROPORIN,
         selectivity=Sel.PROTON, gating=(G.PROTON,),
         stoichiometry="tetramer (M2) / pentamer (Vpu, E)", tm_per_subunit=1,
-        signatures=(Sig("pfam", "PF00599", "Flu_M2", L.SUBFAMILY, 1, P.DB),
-                    Sig("pfam", "PF00558", "Vpu", L.SUBFAMILY, 1, P.DB),
-                    Sig("pfam", "PF02723", "CoV_E", L.SUBFAMILY, 1, P.DB),
-                    Sig("pfam", "PF11289", "bCoV_viroporin", L.SUBFAMILY, 1, P.DB)),
+        # SUBFAMILY: each proves one virus's viroporin, not the (non-homologous)
+        # family; enumerated from census v2 r5 on (D34 — where the census
+        # looks is declared apart from what a signature proves; the S4 row)
+        signatures=(Sig("pfam", "PF00599", "Flu_M2", L.SUBFAMILY, 1, P.DB, enumerate=True),
+                    Sig("pfam", "PF00558", "Vpu", L.SUBFAMILY, 1, P.DB, enumerate=True),
+                    Sig("pfam", "PF02723", "CoV_E", L.SUBFAMILY, 1, P.DB, enumerate=True),
+                    Sig("pfam", "PF11289", "bCoV_viroporin", L.SUBFAMILY, 1, P.DB,
+                        enumerate=True)),
         exemplars=(Ex("IAV_M2", "M", "Influenza A virus", "A3DRP1"),
                    Ex("HIV1_Vpu", "vpu", "Human immunodeficiency virus type 1", "P05919"),
                    Ex("SARS2_E", "E", "Severe acute respiratory syndrome coronavirus 2", "P0DTC4")),

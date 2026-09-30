@@ -187,11 +187,9 @@ sp|P04110|SPE2A_STRPU	Strongylocentrotus purpuratus	deuterostome	150	nonchannel_
 sp|P04354|CALB1_CHICK	Gallus gallus	vertebrate	262	nonchannel_ncs	medium	52.5	0.3731		1.0
 sp|P04630|CALL_CAEEL	Caenorhabditis elegans	invertebrate	161	nonchannel_ncs	high	52.8	0.5699		1.0
 sp|P05419|CALN_CHICK	Gallus gallus	vertebrate	131	nonchannel_ncs	high	53.9	0.544		1.0
-sp|P05919|VPU_HV1H2	Human immunodeficiency virus type 1	virus	82	viroporin	high	131.4	1.0		1.0
 sp|P05933|CALM_SCHPO	Schizosaccharomyces pombe	fungi	150	nonchannel_ncs	medium	54.0	0.5596	assoc_kchip	0.2833
 sp|P06787|CALM_YEAST	Saccharomyces cerevisiae	fungi	147	nonchannel_ncs	medium	46.1	0.342		1.0
 sp|P06795|MDR1B_MOUSE	Mus musculus	vertebrate	1276	nonchannel_abc_transporter	medium	696.9	0.4617	assoc_sur	0.6209
-sp|P06821|M2_I34A1	Influenza A virus	virus	97	viroporin	high	83.8	0.9881		1.0
 sp|P06907|MYP0_RAT	Rattus norvegicus	vertebrate	248	assoc_nav_beta	high	90.3	0.8438		1.0
 sp|P06996|OMPC_ECOLI	Escherichia coli	prokaryote	367	outofscope_bacterial_porin	high	432.3	0.9972		1.0
 sp|P07463|CALM_PARTE	Paramecium tetraurelia	ciliate	149	nonchannel_ncs	high	57.4	0.5648		1.0
@@ -226,7 +224,6 @@ sp|P0DP30|CALM2_RAT	Rattus norvegicus	vertebrate	149	nonchannel_ncs	high	60.4	0.
 sp|P0DP31|CALM3_RAT	Rattus norvegicus	vertebrate	149	nonchannel_ncs	high	60.4	0.5648		1.0
 sp|P0DP43|CTSRE_MOUSE	Mus musculus	vertebrate	985	assoc_catsper_aux	high	493.1	0.8699		1.0
 sp|P0DPA2|VSIG8_HUMAN	Homo sapiens	vertebrate	414	assoc_nav_beta	high	45.9	0.5268		1.0
-sp|P0DTC4|VEMP_SARS2	Severe acute respiratory syndrome coronavirus 2	virus	75	viroporin	high	79.4	0.8095		1.0
 sp|P12866|STE6_YEAST	Saccharomyces cerevisiae	fungi	1290	nonchannel_abc_transporter	medium	527.1	0.4371	assoc_sur	0.6044
 sp|P13833|MLR_DICDI	Dictyostelium discoideum	amoebozoa	161	nonchannel_ncs	medium	36.3	0.3316		1.0
 sp|P14740|DPP4_RAT	Rattus norvegicus	vertebrate	767	assoc_k_beta	high	46.7	0.5512		1.0

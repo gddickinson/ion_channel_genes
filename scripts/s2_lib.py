@@ -65,11 +65,26 @@ SHARDS: list[tuple[str, str]] = [
 ]
 
 
-#: Census v2 r4's delta shards (D43): records carrying a signature added after
-#: S20 and none of r3's 67, walked by `s2r4_delta.py` per taxonomic shard.
+#: Delta revisions of census v2 (D43): r4 the families added after S20, r5 the
+#: viroporin signatures (S4's row). Each walked by `s2r4_delta.py --rev`, per
+#: taxonomic shard: records carrying a new signature and none enumerated before.
+REVISIONS = ("r4", "r5")
 R4_SHARDS: list[tuple[str, str]] = [(f"r4_{k}", c) for k, c in SHARDS]
-#: Every shard the census is assembled from.
-CENSUS_SHARDS: list[tuple[str, str]] = SHARDS + R4_SHARDS
+
+
+def _walked(key: str) -> bool:
+    try:
+        from src.utils.data_root import get_data_root
+        return (get_data_root() / "raw_api" / "s2" / "pages" / key / "state.json").exists()
+    except Exception:                 # no drive: only what is known to exist
+        return False
+
+
+#: Every shard the census is assembled from: the 12, and each revision's
+#: shards once walked (r4's always — census v2 r4 is built).
+CENSUS_SHARDS: list[tuple[str, str]] = SHARDS + [
+    (f"{rev}_{k}", c) for rev in REVISIONS for k, c in SHARDS
+    if rev == "r4" or _walked(f"{rev}_{k}")]
 
 
 def signatures() -> list[str]:

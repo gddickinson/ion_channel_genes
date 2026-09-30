@@ -103,7 +103,15 @@ def render(summary: dict) -> None:
 
 
 def main() -> int:
-    old = {r["accession"]: r for r in rows(s3_dir() / "census_v3.r3.tsv.gz")}
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--rev", default="r4")
+    rev = ap.parse_args().rev
+    prev = {"r4": "r3", "r5": "r4"}[rev]
+    # r4 added profiles, so an old call may move only with one involved; a
+    # later revision adds none, so no earlier call may move at all
+    new_profiles = set(NEW_PROFILES) if rev == "r4" else set()
+    old = {r["accession"]: r for r in rows(s3_dir() / f"census_v3.{prev}.tsv.gz")}
     trans, new_fam, outside = Counter(), Counter(), []
     new_status = Counter()
     for r in rows(s3_dir() / "census_v3.tsv.gz"):
@@ -118,24 +126,26 @@ def main() -> int:
             # a new profile can move a call by winning or by becoming the
             # runner-up inside the D7 margin (→ ambiguous / superfamily_only)
             if not ({r["p_family"], r["v3_family"], o["p_family"], r["runner"]}
-                    & set(NEW_PROFILES)):
+                    & new_profiles):
                 outside.append(r["accession"])
     if outside:
         raise SystemExit(f"{len(outside)} r3 calls changed with no new family "
                          f"involved, e.g. {outside[:5]}")
-    write_tsv(OUT_DIR / "r4_transitions.tsv",
+    write_tsv(OUT_DIR / f"{rev}_transitions.tsv",
               ["before", "after", "v3_basis", "profile_family", "records"],
               [{"before": a, "after": b, "v3_basis": c, "profile_family": d,
                 "records": n} for (a, b, c, d), n in trans.most_common()])
-    write_tsv(OUT_DIR / "r4_new_records.tsv",
+    write_tsv(OUT_DIR / f"{rev}_new_records.tsv",
               ["v3_call", "v3_basis", "p_confidence", "records"],
               [{"v3_call": a, "v3_basis": b, "p_confidence": c, "records": n}
                for (a, b, c), n in new_fam.most_common()])
-    reviewed_calls()
-    summary = {"r3_records": len(old), "r3_calls_changed": sum(trans.values()),
-               "r4_records": sum(new_fam.values()), "r4_status": dict(new_status)}
-    (OUT_DIR / "r4_summary.json").write_text(json.dumps(summary, indent=2) + "\n")
-    render(summary)
+    summary = {f"{prev}_records": len(old), f"{prev}_calls_changed": sum(trans.values()),
+               f"{rev}_records": sum(new_fam.values()), f"{rev}_status": dict(new_status)}
+    (OUT_DIR / f"{rev}_summary.json").write_text(json.dumps(summary, indent=2) + "\n")
+    if rev == "r4":
+        reviewed_calls()
+        render({"r3_records": len(old), "r3_calls_changed": sum(trans.values()),
+                "r4_records": sum(new_fam.values())})
     print(json.dumps(summary))
     for (a, b, c, d), n in trans.most_common(12):
         print(f"  {a} → {b} ({c}, profile {d}): {n}")

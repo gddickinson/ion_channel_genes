@@ -8,5 +8,11 @@
     "r4_new_unique_sequences": 23986,
     "r4_delta_sha256": "d02c51b0f62e00d51413efeb2533310eb9a6ef381f3abb4fb1471ebc688ffdbc",
     "z_held_at_r3": 1187702
+  },
+  "r5": {
+    "records": 4007,
+    "new_unique_sequences": 2720,
+    "delta_sha256": "2341c480ef0f84d19c6c4512dee05a5dc228ad1ce2724f1db95b40da22905262",
+    "z_held_at_r3": 1187702
   }
 }

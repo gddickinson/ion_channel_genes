@@ -87,18 +87,22 @@ def main() -> int:
     # Census v2 r4 (D43): the delta's own sequences, searched by every
     # profile with -Z held at r3's size (s3r4_sweep.py). A target sequence
     # is in exactly one of the two databases, so the hit lists never overlap.
-    r4 = sorted(s3_dir("domtbl_r4").glob("*.domtbl.gz"))
-    if r4 and len(r4) != n_prof:
-        raise SystemExit(f"{len(r4)} r4 domtblouts for {n_prof} profiles — "
-                         "run s3r4_sweep.py search to completion first")
-    top = collect_hits(paths + r4)
+    deltas = []
+    for d in sorted(s3_dir().glob("domtbl_r*")):          # r4, r5 … (D43)
+        got = sorted(d.glob("*.domtbl.gz"))
+        if len(got) != n_prof:
+            raise SystemExit(f"{len(got)} {d.name} domtblouts for {n_prof} profiles — "
+                             "run s3r4_sweep.py --rev … search to completion first")
+        deltas += got
+    top = collect_hits(paths + deltas)
     calls = assign_all(top)
     print(f"[assign] {len(calls):,} sequences with ≥ 1 profile hit")
     pc = s3_dir() / "profile_calls.tsv.gz"
     write_tsv(pc, ASSIGN_FIELDS, (calls[t] for t in sorted(calls)))
 
     sid = {}
-    for mp in ("census_v2.nr_map.tsv.gz", "census_v2.r4_delta.nr_map.tsv.gz"):
+    for mp in ["census_v2.nr_map.tsv.gz"] + sorted(
+            q.name for q in s3_dir().glob("census_v2.r*_delta.nr_map.tsv.gz")):
         if not (s3_dir() / mp).exists():
             continue
         with gzip.open(s3_dir() / mp, "rt") as fh:

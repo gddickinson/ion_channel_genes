@@ -144,7 +144,8 @@ def main() -> int:
 
     acc_to_t = {u["accession"]: t for t, u in uni.items()}
     v2_seq: dict[str, str] = {}
-    for mp in ("census_v2.nr_map.tsv.gz", "census_v2.r4_delta.nr_map.tsv.gz"):
+    for mp in ["census_v2.nr_map.tsv.gz"] + sorted(
+            q.name for q in s3_dir().glob("census_v2.r*_delta.nr_map.tsv.gz")):
         if not (s3_dir() / mp).exists():      # r4's delta map (D43)
             continue
         with gzip.open(s3_dir() / mp, "rt") as fh:
