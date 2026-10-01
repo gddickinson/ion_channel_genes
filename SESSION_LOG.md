@@ -836,3 +836,12 @@ proteome; 86 proteomes lack an order rank); 439/439 files MD5-verified
 launched detached (`nohup caffeinate -i … s4b_sweep.py search --jobs 3 --cpu 2`,
 log `<data root>/proteomes/s4b/search.log`). **NEXT**: when it finishes,
 `s4b_sweep.py assign`, `matrix`, then report + figure, and close S4b.
+
+## 2026-09-30 — S4b completed
+
+Sweep done (103 profiles over 8.76 M sequences, detached, ~4.5 h alongside
+IQ-TREE). `s4b_sweep.py assign / matrix`, `s4b_report.py`. Instrument check
+2,624/2,625 cells against S3b on the 35 shared proteomes (my first check
+read `family_by_species.tsv` as wide format and compared 0 cells; rewritten
+to use S3b's own high-confidence profile calls). Matrix: 12,060 present
+cells, 74/75 families present somewhere.

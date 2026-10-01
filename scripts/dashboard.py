@@ -80,6 +80,8 @@ FIGURES: list[tuple[str, str]] = [
      "controlled absence"),
     ("results/phylogeny/gost/figures/gost_tree.png",
      "TMEM87 is a pan-eukaryotic lineage: the GOST superfamily tree"),
+    ("results/panel_density/figures/order_matrix.png",
+     "S4b — every census family across 439 eukaryotic orders (proteome calls)"),
 ]
 
 #: Auto-discovered figures are capped so the page stays a reasonable size.

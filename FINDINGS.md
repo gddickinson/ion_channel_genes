@@ -790,3 +790,21 @@ and has been reverted.
 Whether the eukaryote-wide TMEM87s conduct ions is unknown. Channel activity
 has been reported only for human TMEM87A. The tree also cannot say when the
 vertebrate TMEM87A/B split happened *(pending: a denser tree, S8)*.
+
+## S4b — ion channels across 439 eukaryotic orders (2026-09-30)
+
+**With one genome per order, the shape of the channel repertoire becomes
+visible across eukaryotes.** Several families are nearly universal in
+eukaryotes:
+- the mitochondrial porin VDAC, in 422 of 439 orders;
+- the OSCA/TMEM63 mechanosensitive channels;
+- the Golgi pH regulator GPHR;
+- the anoctamin scramblases;
+- TMEM87.
+
+Others are vertebrate inventions: the glycine and serotonin-gated receptors,
+AMPA receptors, connexins, pannexins, LRRC8 volume-regulated channels and
+CFTR. Plants and their relatives instead carry many two-pore channels, K2P
+channels and their own glutamate-receptor branch. These are calls from the
+species' annotated proteins. An empty cell means "not in the annotation",
+not a confirmed absence *(confirmed absences: S5's 52 genomes; pending S10)*.
