@@ -131,6 +131,15 @@ def reference_panel(census_only: bool = True) -> list[tuple[str, str]]:
     return [(e.label, e.uniprot) for _, e in exemplars(census_only) if e.uniprot]
 
 
+def root_sets(family_key: str) -> tuple:
+    """The family's declared tier-1 outgroups (S7c), `()` if it has none.
+
+    Only a per-family declaration counts here; the superfamily's
+    `root_with` (D41) is read by `scripts/s7_trees.py:root_rule()`.
+    """
+    return CATALOGUE[family_key].root_with
+
+
 def hazards_for(family_key: str) -> list:
     return [h for h in HAZARDS if family_key in h.families]
 
@@ -181,6 +190,24 @@ def validate() -> list[str]:
             seen_labels[e.label] = key
             if not e.gene or not e.species:
                 problems.append(f"{key}: exemplar {e.label} is unresolvable")
+        rs_names = set()
+        for rs in f.root_with:
+            if rs.name in rs_names:
+                problems.append(f"{key}: root set {rs.name} declared twice")
+            rs_names.add(rs.name)
+            if not (rs.families or rs.exemplars):
+                problems.append(f"{key}: root set {rs.name} is empty")
+            for o in rs.families:
+                if o == key or o not in CATALOGUE:
+                    problems.append(f"{key}: root set {rs.name} names {o!r}")
+                elif CATALOGUE[o].superfamily != f.superfamily:
+                    problems.append(f"{key}: root set {rs.name} family {o} is "
+                                    "outside the superfamily")
+            for e in rs.exemplars:
+                if not e.uniprot:
+                    problems.append(f"{key}: root exemplar {e.label} has no accession")
+        if len(f.root_with) == 1:
+            problems.append(f"{key}: one root set cannot test root stability")
         for c in f.confusable_with:
             if c not in CATALOGUE and c not in HAZARD_BY_ID:
                 problems.append(f"{key}: confusable_with {c!r} matches nothing")

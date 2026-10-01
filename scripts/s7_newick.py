@@ -127,3 +127,45 @@ def ingroup_support(root: Node, outgroup: set[str]) -> dict:
             "ufboot_median": vals[n // 2] if n else None,
             "frac_ge95": round(sum(v >= 95 for v in vals) / n, 4) if n else None,
             "frac_lt70": round(sum(v < 70 for v in vals) / n, 4) if n else None}
+
+
+def root_partition(root: Node, outgroup: set[str]) -> list[tuple[frozenset[str], float | None]] | None:
+    """The ingroup's basal split when the tree is rooted on `outgroup` (S7c).
+
+    The outgroup must be one side of an edge; the ingroup-side node of that
+    edge is the ingroup's root, and its other neighbours' leaf sets are the
+    root's clades (two for a bifurcating root), each with the UFBoot of its
+    own edge. None when the outgroup is not a clade — the root is undefined.
+    """
+    adj: dict[int, list[tuple[Node, float | None]]] = {}
+    nodes: dict[int, Node] = {}
+
+    def link(a: Node, b: Node, sup: float | None) -> None:
+        adj.setdefault(id(a), []).append((b, sup))
+        adj.setdefault(id(b), []).append((a, sup))
+        nodes[id(a)], nodes[id(b)] = a, b
+
+    def walk(n: Node) -> None:
+        for c in n.children:
+            link(n, c, support(c.name) if c.children else None)
+            walk(c)
+    walk(root)
+
+    def leaves_away(start: Node, frm: Node) -> frozenset[str]:
+        out, stack = set(), [(start, frm)]
+        while stack:
+            n, p = stack.pop()
+            nbrs = [m for m, _ in adj.get(id(n), []) if m is not p]
+            if not nbrs:
+                out.add(n.name)
+            stack.extend((m, n) for m in nbrs)
+        return frozenset(out)
+
+    og = frozenset(outgroup)
+    for a_id, nbrs in adj.items():
+        a = nodes[a_id]
+        for b, _ in nbrs:
+            if leaves_away(b, a) == og:     # edge a–b, outgroup beyond b
+                return sorted(((leaves_away(m, a), s) for m, s in adj[a_id]
+                               if m is not b), key=lambda x: (len(x[0]), sorted(x[0])))
+    return None

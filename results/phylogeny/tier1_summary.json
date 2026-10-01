@@ -41,5 +41,9 @@
   "root_ge95": 22,
   "frac_ge95_median": 0.5362,
   "cpu_hours": 147.83988888888888
+ },
+ "reroot": {
+  "families": 6,
+  "basal_added": 107
  }
 }

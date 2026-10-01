@@ -179,6 +179,25 @@ class Exemplar:
 
 
 @dataclass(frozen=True)
+class RootSet:
+    """One declared outgroup for rooting a family's tier-1 tree (S7c).
+
+    The outgroup is the catalogue exemplars of `families` plus the inline
+    `exemplars` — prokaryotic relatives that belong to no catalogue family
+    and are therefore kept out of the classifier's reference panel; S0
+    verifies them into `results/s0_baseline/outgroup_panel.fasta`. A family
+    declares two sets so a root can be tested for stability under the
+    outgroup choice; which set gives the nicer root never decides anything.
+    """
+    name: str                               # "prok_6tm_k"
+    families: tuple[str, ...] = ()          # catalogue family keys
+    exemplars: tuple[Exemplar, ...] = ()    # each must carry a UniProt accession
+    pfam: tuple[str, ...] = ()              # pore model(s) S0 must find on each
+    provenance: Provenance = Provenance.CURATED
+    note: str = ""
+
+
+@dataclass(frozen=True)
 class ChannelFamily:
     """One family of the catalogue."""
     key: str                       # "kv_shaker"
@@ -201,6 +220,9 @@ class ChannelFamily:
     confusable_with: tuple[str, ...] = ()  # family keys / hazard ids
     provenance: Provenance = Provenance.CURATED
     notes: str = ""
+    #: Per-family tier-1 outgroups (S7c), overriding `Superfamily.root_with`.
+    #: Empty = the superfamily's declaration applies (D41).
+    root_with: tuple[RootSet, ...] = ()
 
     def census_member(self) -> bool:
         return self.status in CENSUS_STATUSES

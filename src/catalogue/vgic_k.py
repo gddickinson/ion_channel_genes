@@ -35,6 +35,7 @@ from .schema import Fold
 from .schema import Gating as G
 from .schema import Level as L
 from .schema import Provenance as P
+from .schema import RootSet
 from .schema import Selectivity as Sel
 from .schema import Signature as Sig
 from .schema import Status as St
@@ -61,6 +62,33 @@ PLOOP_SUPERFAMILY = SF(
            "so tier 2 aligns the pore module only, and the tree is explicitly a "
            "pore-module tree, not a protein tree."),
 )
+
+# --- tier-1 outgroups (S7c) ------------------------------------------------
+# S7b rooted every P-loop family on KcsA/MthK/NaK, two-helix pores that fill
+# 15–42 % of a six-helix alignment's columns; the outgroup was not one clade
+# in Shaker, KCNQ, CNG and K2P. Each re-rooted family declares two outgroups
+# here, fixed before any re-rooted tree: a prokaryotic relative with the
+# family's architecture, and two sister eukaryotic families. A root counts
+# only if it is the same under both (docs/session_briefs.md § S7c).
+PROK_6TM_K = RootSet(
+    name="prok_6tm_k",
+    exemplars=(Ex("Ap_KvAP", "APE_0955", "Aeropyrum pernix", "Q9YDF8",
+                  "archaeal Kv; the voltage-sensor structures"),
+               Ex("Mj_MVP", "mvp", "Methanocaldococcus jannaschii", "Q57603",
+                  "hyperpolarisation-activated archaeal Kv"),
+               Ex("Ec_Kch", "kch", "Escherichia coli", "P31069",
+                  "six-helix K+ channel with a C-terminal RCK domain")),
+    pfam=("PF00520", "PF07885"),
+    note=("Reviewed (Swiss-Prot) prokaryotic six-helix K+ channels with "
+          "published function, looked up by name 2026-10-01; KvLm "
+          "(Listeria) had no resolvable entry and is not used."),
+)
+
+
+def sister_k(*fams: str) -> RootSet:
+    return RootSet(name="sister_" + "_".join(fams), families=fams,
+                   note="eukaryotic K+ families outside the ingroup")
+
 
 # --- families -------------------------------------------------------------
 FAMILIES: list[CF] = [
@@ -89,6 +117,7 @@ FAMILIES: list[CF] = [
         iuphar_class="Voltage-gated potassium channels",
         confusable_with=("kv_modifier", "H12"),
         notes="Kv1 = KCNA, Kv2 = KCNB, Kv3 = KCNC, Kv4 = KCND.",
+        root_with=(PROK_6TM_K, sister_k("kv_kcnq", "kv_eag")),
     ),
     CF(
         key="kv_modifier",
@@ -122,6 +151,7 @@ FAMILIES: list[CF] = [
         human_genes=("KCNQ1", "KCNQ2", "KCNQ3", "KCNQ4", "KCNQ5"),
         length_band_aa=(600, 1000), filter_motif="TIGYG",
         notes="PIP2-dependent; KCNQ1 needs KCNE1 (hazard H11).",
+        root_with=(PROK_6TM_K, sister_k("kv_shaker", "kv_eag")),
     ),
     CF(
         key="kv_eag",
@@ -143,6 +173,7 @@ FAMILIES: list[CF] = [
         confusable_with=("cng", "hcn"),
         notes=("The cNBHD is the sharpest architecture trap in the K+ branch: "
                "PF00027 + PF00520 fits EAG, CNG and HCN equally."),
+        root_with=(PROK_6TM_K, sister_k("hcn", "cng")),
     ),
     CF(
         key="kca_slo",
@@ -165,6 +196,7 @@ FAMILIES: list[CF] = [
                "KCNMA1 carries `PF00520` and KCNT1 carries `PF07885` instead "
                "— one family, two different pore models, which is hazard H8 "
                "inside a single family."),
+        root_with=(PROK_6TM_K, sister_k("kv_shaker", "kv_kcnq")),
     ),
     CF(
         key="kca_sk",
@@ -231,6 +263,10 @@ FAMILIES: list[CF] = [
                "makes the fourfold-symmetric filter. The copy count of "
                "PF07885 separates K2P from Kir without any reference "
                "sequence — the cheapest reliable test in the catalogue."),
+        root_with=(RootSet("prok_2tm_k", families=("kcsa_prok",),
+                           note="the superfamily outgroup (D41), kept as the "
+                           "prokaryotic choice: no prokaryotic K2P exists"),
+                   sister_k("kir", "kv_shaker")),
     ),
     CF(
         key="kcsa_prok",

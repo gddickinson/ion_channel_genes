@@ -1,0 +1,28 @@
+family	root_set	label	accession	declared_gene	entry_gene_names	declared_species	organism	reviewed	length	pfams	pore_model_found	status
+cng	prok_cng	Ml_MloK1	Q98GN8	mll3241	mll3241	Mesorhizobium loti	Mesorhizobium japonicum (strain LMG 29417 / CECT 9101 / MAFF 303099) Mesorhizobium loti (strain MAFF 303099)	True	355	PF00027x1,PF00520x1	PF00520	ok
+cng	prok_cng	St_SthK	E0RR11	STHERM_c06300	STHERM_c06300	Spirochaeta thermophila	Winmispira thermophila (strain ATCC 49972 / DSM 6192 / RI 19.B1) Spirochaeta thermophila	False	430	PF00027x1,PF07885x1	PF07885	ok
+cng	sister_hcn_kv_eag	hcn										ok
+cng	sister_hcn_kv_eag	kv_eag										ok
+k2p	prok_2tm_k	kcsa_prok										ok
+k2p	sister_kir_kv_shaker	kir										ok
+k2p	sister_kir_kv_shaker	kv_shaker										ok
+kca_slo	prok_6tm_k	Ap_KvAP	Q9YDF8	APE_0955	APE_0955	Aeropyrum pernix	Aeropyrum pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 / K1)	True	295	PF00520x1	PF00520	ok
+kca_slo	prok_6tm_k	Mj_MVP	Q57603	mvp	mvp,MJ0139	Methanocaldococcus jannaschii	Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) Methanococcus jannaschii	True	209	PF00520x1	PF00520	ok
+kca_slo	prok_6tm_k	Ec_Kch	P31069	kch	kch,b1250,JW1242	Escherichia coli	Escherichia coli (strain K12)	True	417	PF02254x1,PF07885x1	PF07885	ok
+kca_slo	sister_kv_shaker_kv_kcnq	kv_shaker										ok
+kca_slo	sister_kv_shaker_kv_kcnq	kv_kcnq										ok
+kv_eag	prok_6tm_k	Ap_KvAP	Q9YDF8	APE_0955	APE_0955	Aeropyrum pernix	Aeropyrum pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 / K1)	True	295	PF00520x1	PF00520	ok
+kv_eag	prok_6tm_k	Mj_MVP	Q57603	mvp	mvp,MJ0139	Methanocaldococcus jannaschii	Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) Methanococcus jannaschii	True	209	PF00520x1	PF00520	ok
+kv_eag	prok_6tm_k	Ec_Kch	P31069	kch	kch,b1250,JW1242	Escherichia coli	Escherichia coli (strain K12)	True	417	PF02254x1,PF07885x1	PF07885	ok
+kv_eag	sister_hcn_cng	hcn										ok
+kv_eag	sister_hcn_cng	cng										ok
+kv_kcnq	prok_6tm_k	Ap_KvAP	Q9YDF8	APE_0955	APE_0955	Aeropyrum pernix	Aeropyrum pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 / K1)	True	295	PF00520x1	PF00520	ok
+kv_kcnq	prok_6tm_k	Mj_MVP	Q57603	mvp	mvp,MJ0139	Methanocaldococcus jannaschii	Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) Methanococcus jannaschii	True	209	PF00520x1	PF00520	ok
+kv_kcnq	prok_6tm_k	Ec_Kch	P31069	kch	kch,b1250,JW1242	Escherichia coli	Escherichia coli (strain K12)	True	417	PF02254x1,PF07885x1	PF07885	ok
+kv_kcnq	sister_kv_shaker_kv_eag	kv_shaker										ok
+kv_kcnq	sister_kv_shaker_kv_eag	kv_eag										ok
+kv_shaker	prok_6tm_k	Ap_KvAP	Q9YDF8	APE_0955	APE_0955	Aeropyrum pernix	Aeropyrum pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 / K1)	True	295	PF00520x1	PF00520	ok
+kv_shaker	prok_6tm_k	Mj_MVP	Q57603	mvp	mvp,MJ0139	Methanocaldococcus jannaschii	Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) Methanococcus jannaschii	True	209	PF00520x1	PF00520	ok
+kv_shaker	prok_6tm_k	Ec_Kch	P31069	kch	kch,b1250,JW1242	Escherichia coli	Escherichia coli (strain K12)	True	417	PF02254x1,PF07885x1	PF07885	ok
+kv_shaker	sister_kv_kcnq_kv_eag	kv_kcnq										ok
+kv_shaker	sister_kv_kcnq_kv_eag	kv_eag										ok

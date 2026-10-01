@@ -875,3 +875,24 @@ The user asked for the re-rooting analysis as a task for the next session.
 - a non-reversible-model cross-check, with reconciliation rooting in S11.
 
 S8 now depends on S7c.
+
+## 2026-10-01 — S7c: re-rooting design and inputs (S7c split; trees → S7d)
+
+Protocol checks clean (data root attached, 580 GB free; catalogue valid;
+self-test). **D47 fixed before any tree**: a root counts only if, in both
+of a family's two trees, the outgroup is one clade with root UFBoot ≥ 95,
+and the ingroup's basal split is identical under the two outgroups.
+- Catalogue: `RootSet` + `ChannelFamily.root_with` (validate: two sets, not
+  self, same superfamily). Prokaryotic sets KvAP/MVP/Kch (Kv families, Slo)
+  and MloK1/SthK (CNG); K2P keeps KcsA/MthK/NaK as its prokaryotic choice;
+  each family also gets two sister eukaryotic families.
+- `s0_outgroups.py`: 5/5 inline exemplars verified; full S0 re-run clean
+  (904 requests, 0 failures, reference panel byte-identical).
+- `s7c_basal.py`: 107 early-lineage sequences from S4b by rule.
+- `s7c_reroot.py align/prep`: six L-INS-i alignments (CNG 54 min), 12
+  inputs; outgroup occupancy 0.20–0.87 (MloK1 0.13 — emergent row).
+- `s7c_parse.py` (criterion, root split), `s7c_report.py` (report § 4),
+  S7 figure panel C extended; self-test +3 invariants.
+- IQ-TREE launched detached: `<data root>/trees/s7c/run.log`.
+
+**Next: S7d** — parse, report, figure once the 12 trees finish.

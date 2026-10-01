@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30 15:45:39",
+  "generated": "2026-10-01 12:29:11",
   "catalogue": {
     "superfamilies": 32,
     "families_total": 103,
@@ -35,7 +35,7 @@
   "shared_signatures": 31,
   "requests": 904,
   "request_failures": [],
-  "elapsed_s": 600.5,
+  "elapsed_s": 1325.0,
   "hazards": 20,
   "superfamilies_not_alignable": [
     "abc_channel",

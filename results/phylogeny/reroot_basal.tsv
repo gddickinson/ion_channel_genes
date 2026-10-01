@@ -1,0 +1,121 @@
+family	clade	kingdom	phylum	class	order	target	label	organism	length	win_score	clade_candidates	verdict
+cng	- / - / Bolidophyceae			Bolidophyceae	Parmales	tr|A0A9W7FDW4|A0A9W7FDW4_9STRA	A0A9W7FDW4__Triver	Triparma verrucosa	1209	177.0	2	add
+cng	- / - / Choanoflagellata			Choanoflagellata	Craspedida	tr|A9VCQ9|A9VCQ9_MONBE	A9VCQ9__Monbre	Monosiga brevicollis	931	278.9	2	in_d39_set
+cng	- / - / Cryptophyceae			Cryptophyceae	Pyrenomonadales	tr|L1IPB4|L1IPB4_GUITC	L1IPB4__Guithe	Guillardia theta (strain CCMP2712)	774	134.8	1	add
+cng	- / - / Dinophyceae			Dinophyceae	Prorocentrales	tr|A0ABN9VEB5|A0ABN9VEB5_9DINO	A0ABN9VEB5__Procor	Prorocentrum cordatum	1042	98.6	12	add
+cng	- / - / Eustigmatophyceae			Eustigmatophyceae	Eustigmatales	tr|A0A4D9CWR5|A0A4D9CWR5_9STRA	A0A4D9CWR5__Nansal	Nannochloropsis salina CCMP1776	822	206.1	1	add
+cng	- / - / order:Apusomonadida				Apusomonadida	tr|A0A0L0DF73|A0A0L0DF73_THETB	A0A0L0DF73__Thetra	Thecamonas trahens ATCC 50062	744	323.3	3	add
+cng	- / Ciliophora / Oligohymenophorea		Ciliophora	Oligohymenophorea	Peniculida	tr|A0D6P3|A0D6P3_PARTE	A0D6P3__Partet	Paramecium tetraurelia	943	161.7	175	in_d39_set
+cng	- / Ciliophora / Spirotrichea		Ciliophora	Spirotrichea	Sporadotrichida	tr|A0A078AWS3|A0A078AWS3_STYLE	A0A078AWS3__Stylem	Stylonychia lemnae	1136	131.0	6	add
+cng	- / Endomyxa / Phytomyxea		Endomyxa	Phytomyxea	Plasmodiophorida	tr|A0A0G4J1E0|A0A0G4J1E0_PLABS	A0A0G4J1E0__Plabra	Plasmodiophora brassicae	1150	322.8	2	add
+cng	- / Euglenozoa / Kinetoplastea		Euglenozoa	Kinetoplastea	Eubodonida	tr|A0A0S4JCV9|A0A0S4JCV9_BODSA	A0A0S4JCV9__Bodsal	Bodo saltans	710	303.4	2	add
+cng	- / Evosea / Variosea		Evosea	Variosea	Cavosteliida	tr|A0A2P6MX71|A0A2P6MX71_9EUKA	A0A2P6MX71__Plafun	Planoprotostelium fungivorum	547	230.0	1	add
+cng	- / Haptophyta / Pavlovophyceae		Haptophyta	Pavlovophyceae	Pavlovales	tr|A0A8J5X6J2|A0A8J5X6J2_DIALT	A0A8J5X6J2__Dialut	Diacronema lutheri	1586	244.1	1	add
+cng	- / Haptophyta / order:Prymnesiales		Haptophyta		Prymnesiales	tr|A0AB34JWA6|A0AB34JWA6_PRYPA	A0AB34JWA6__Prypar	Prymnesium parvum	1334	311.4	5	add
+cng	- / Heterolobosea / Eutetramitea		Heterolobosea	Eutetramitea	Acrasida	tr|A0AA88GGY9|A0AA88GGY9_NAELO	A0AA88GGY9__Naelov	Naegleria lovaniensis	538	316.9	4	add
+cng	- / Oomycota / Peronosporomycetes		Oomycota	Peronosporomycetes	Peronosporales	tr|A0A6A4FVR2|A0A6A4FVR2_9STRA	A0A6A4FVR2__Phyrub	Phytophthora rubi	1716	348.6	8	add
+cng	- / Oomycota / Saprolegniomycetes		Oomycota	Saprolegniomycetes	Saprolegniales	tr|A0A067C3R4|A0A067C3R4_SAPPC	A0A067C3R4__Sappar	Saprolegnia parasitica (strain CBS 223.65)	511	182.3	2	add
+cng	- / Parabasalia / order:Trichomonadida		Parabasalia		Trichomonadida	tr|A2E1R8|A2E1R8_TRIV3	A2E1R8__Trivag	Trichomonas vaginalis (strain ATCC PRA-98 / G3)	513	148.1	2	add
+cng	- / Parabasalia / order:Tritrichomonadida		Parabasalia		Tritrichomonadida	tr|A0ABR2J0B3|A0ABR2J0B3_9EUKA	A0ABR2J0B3__Trimus	Tritrichomonas musculus	477	142.8	4	add
+cng	Fungi / Blastocladiomycota / Blastocladiomycetes	Fungi	Blastocladiomycota	Blastocladiomycetes	Blastocladiales	tr|A0A0L0SBG9|A0A0L0SBG9_ALLM3	A0A0L0SBG9__Allmac	Allomyces macrogynus (strain ATCC 38327)	605	215.5	12	add
+cng	Fungi / Chytridiomycota / Chytridiomycetes	Fungi	Chytridiomycota	Chytridiomycetes	Chytridiales	tr|A0A507FIZ5|A0A507FIZ5_9FUNG	A0A507FIZ5__Chycon	Chytriomyces confervae	788	295.9	9	add
+cng	Metazoa / Cnidaria / Anthozoa	Metazoa	Cnidaria	Anthozoa	Scleractinia	tr|A0ABN8MRY8|A0ABN8MRY8_9CNID	A0ABN8MRY8__Porlob	Porites lobata	620	744.2	10	add
+cng	Metazoa / Cnidaria / Hydrozoa	Metazoa	Cnidaria	Hydrozoa	Leptothecata	tr|A0A7M5URE0|A0A7M5URE0_9CNID	A0A7M5URE0__Clyhem	Clytia hemisphaerica	1063	526.9	2	add
+cng	Metazoa / Ctenophora / Tentaculata	Metazoa	Ctenophora	Tentaculata	Lobata	tr|A0ACF8Z818|A0ACF8Z818_MNELE	A0ACF8Z818__Mnelei	Mnemiopsis leidyi	879	629.4	3	add
+cng	Metazoa / Porifera / Demospongiae	Metazoa	Porifera	Demospongiae	Haplosclerida	tr|A0A1X7V4G0|A0A1X7V4G0_AMPQE	A0A1X7V4G0__Ampque	Amphimedon queenslandica	695	749.2	2	in_d39_set
+cng	Metazoa / Porifera / Hexactinellida	Metazoa	Porifera	Hexactinellida	Lyssacinosida	tr|A0AAV7K8T7|A0AAV7K8T7_9METZ	A0AAV7K8T7__Oopmin	Oopsacas minuta	642	438.8	4	add
+cng	Viridiplantae / Streptophyta / Sphagnopsida	Viridiplantae	Streptophyta	Sphagnopsida	Sphagnales	tr|A0ABP0UJK6|A0ABP0UJK6_9BRYO	A0ABP0UJK6__Sphtro	Sphagnum troendelagicum	705	110.2	1	add
+k2p	- / - / Bigyra			Bigyra	Bicosoecida	tr|A0A5A8C7B2|A0A5A8C7B2_CAFRO	A0A5A8C7B2__Cafroe	Cafeteria roenbergensis	323	142.8	2	add
+k2p	- / - / Bolidophyceae			Bolidophyceae	Parmales	tr|A0A9W7KRH1|A0A9W7KRH1_9STRA	A0A9W7KRH1__Triver	Triparma verrucosa	566	109.7	1	add
+k2p	- / - / Dinophyceae			Dinophyceae	Suessiales	tr|A0A9P1FEB1|A0A9P1FEB1_9DINO	A0A9P1FEB1__Clagor	Cladocopium goreaui	655	42.1	1	add
+k2p	- / - / Pelagophyceae			Pelagophyceae	Pelagomonadales	tr|A0A8J2SFH6|A0A8J2SFH6_9STRA	A0A8J2SFH6__Pelcal	Pelagomonas calceolata	386	130.4	2	add
+k2p	- / - / order:Apusomonadida				Apusomonadida	tr|A0A0L0D5A3|A0A0L0D5A3_THETB	A0A0L0D5A3__Thetra	Thecamonas trahens ATCC 50062	673	183.4	1	add
+k2p	- / Bacillariophyta / Bacillariophyceae		Bacillariophyta	Bacillariophyceae	Naviculales	tr|A0A9N8DRY2|A0A9N8DRY2_9STRA	A0A9N8DRY2__Semrob	Seminavis robusta	517	154.5	10	add
+k2p	- / Haptophyta / Pavlovophyceae		Haptophyta	Pavlovophyceae	Pavlovales	tr|A0A8J6CCZ6|A0A8J6CCZ6_DIALT	A0A8J6CCZ6__Dialut	Diacronema lutheri	522	143.4	2	add
+k2p	- / Haptophyta / order:Isochrysidales		Haptophyta		Isochrysidales	tr|A0A0D3JIF7|A0A0D3JIF7_EMIH1	A0A0D3JIF7__Emihux	Emiliania huxleyi (strain CCMP1516)	307	141.6	2	add
+k2p	- / Haptophyta / order:Prymnesiales		Haptophyta		Prymnesiales	tr|A0AB34K300|A0AB34K300_PRYPA	A0AB34K300__Prypar	Prymnesium parvum	555	136.3	3	add
+k2p	- / Rhodophyta / Bangiophyceae		Rhodophyta	Bangiophyceae	Porphyridiales	tr|A0A5J4Z2H2|A0A5J4Z2H2_PORPP	A0A5J4Z2H2__Porpur	Porphyridium purpureum	365	128.2	1	add
+k2p	- / Rhodophyta / Stylonematophyceae		Rhodophyta	Stylonematophyceae	Stylonematales	tr|A0AAV8UGI4|A0AAV8UGI4_9RHOD	A0AAV8UGI4__Rhomar	Rhodosorus marinus	317	93.9	1	add
+k2p	Fungi / Ascomycota / Eurotiomycetes	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	tr|A0A0D2I7H2|A0A0D2I7H2_9EURO	A0A0D2I7H2__Fonmul	Fonsecaea multimorphosa CBS 102226	634	98.4	1	add
+k2p	Fungi / Ascomycota / Lipomycetes	Fungi	Ascomycota	Lipomycetes	Lipomycetales	tr|A0ACF6BJV0|A0ACF6BJV0_9ASCO	A0ACF6BJV0__Lipchi	Lipomyces chichibuensis	582	118.7	1	add
+k2p	Fungi / Basidiobolomycota / Basidiobolomycetes	Fungi	Basidiobolomycota	Basidiobolomycetes	Basidiobolales	tr|A0A1Y1YCM7|A0A1Y1YCM7_9FUNG	A0A1Y1YCM7__Basmer	Basidiobolus meristosporus CBS 931.73	565	172.2	2	add
+k2p	Fungi / Basidiomycota / Microbotryomycetes	Fungi	Basidiomycota	Microbotryomycetes	Leucosporidiales	tr|A0A1Y2DBY0|A0A1Y2DBY0_9BASI	A0A1Y2DBY0__Leucre	Leucosporidium creatinivorum	601	118.2	1	add
+k2p	Fungi / Neocallimastigomycota / Neocallimastigomycetes	Fungi	Neocallimastigomycota	Neocallimastigomycetes	Neocallimastigales	tr|A0A1Y1VJN4|A0A1Y1VJN4_9FUNG	A0A1Y1VJN4__Pirfin	Piromyces finnis	571	139.0	1	add
+k2p	Metazoa / Cnidaria / Anthozoa	Metazoa	Cnidaria	Anthozoa	Scleractinia	tr|A0ABN8QK88|A0ABN8QK88_9CNID	A0ABN8QK88__Porlob	Porites lobata	539	356.8	47	add
+k2p	Metazoa / Cnidaria / Hydrozoa	Metazoa	Cnidaria	Hydrozoa	Leptothecata	tr|A0A7M5X454|A0A7M5X454_9CNID	A0A7M5X454__Clyhem	Clytia hemisphaerica	330	251.5	19	add
+k2p	Metazoa / Ctenophora / Tentaculata	Metazoa	Ctenophora	Tentaculata	Lobata	tr|A0ACF8XR48|A0ACF8XR48_MNELE	A0ACF8XR48__Mnelei	Mnemiopsis leidyi	303	192.2	19	add
+k2p	Metazoa / Placozoa / Uniplacotomia	Metazoa	Placozoa	Uniplacotomia	Trichoplacea	tr|B3SA79|B3SA79_TRIAD	B3SA79__Triadh	Trichoplax adhaerens	292	239.1	1	in_d39_set
+k2p	Metazoa / Porifera / Demospongiae	Metazoa	Porifera	Demospongiae	Haplosclerida	tr|A0AAN0I8A4|A0AAN0I8A4_AMPQE	A0AAN0I8A4__Ampque	Amphimedon queenslandica	353	235.4	2	in_d39_set
+k2p	Metazoa / Porifera / Hexactinellida	Metazoa	Porifera	Hexactinellida	Lyssacinosida	tr|A0AAV7JVI9|A0AAV7JVI9_9METZ	A0AAV7JVI9__Oopmin	Oopsacas minuta	342	200.1	1	add
+k2p	Viridiplantae / Chlorophyta / Pseudoscourfieldiophyceae	Viridiplantae	Chlorophyta	Pseudoscourfieldiophyceae	Pseudoscourfieldiales	tr|A0A830HRA3|A0A830HRA3_9CHLO	A0A830HRA3__Pycpro	Pycnococcus provasolii	601	126.8	4	add
+k2p	Viridiplantae / Streptophyta / Bryopsida	Viridiplantae	Streptophyta	Bryopsida	Funariales	tr|A0A2K1ITF6|A0A2K1ITF6_PHYPA	A0A2K1ITF6__Phypat	Physcomitrium patens	380	163.5	7	in_d39_set
+k2p	Viridiplantae / Streptophyta / Klebsormidiophyceae	Viridiplantae	Streptophyta	Klebsormidiophyceae	Klebsormidiales	tr|A0A1Y1HUH6|A0A1Y1HUH6_KLENI	A0A1Y1HUH6__Klenit	Klebsormidium nitens	426	139.9	1	add
+k2p	Viridiplantae / Streptophyta / Lycopodiopsida	Viridiplantae	Streptophyta	Lycopodiopsida	Selaginellales	tr|D8RPT8|D8RPT8_SELML	D8RPT8__Selmoe	Selaginella moellendorffii	360	165.7	12	add
+k2p	Viridiplantae / Streptophyta / Magnoliopsida	Viridiplantae	Streptophyta	Magnoliopsida	Aquifoliales	tr|A0ABC8TG95|A0ABC8TG95_9AQUA	A0ABC8TG95__Ilepar	Ilex paraguariensis	457	226.5	241	add
+k2p	Viridiplantae / Streptophyta / Marchantiopsida	Viridiplantae	Streptophyta	Marchantiopsida	Marchantiales	tr|A0A2R6WQN9|A0A2R6WQN9_MARPO	A0A2R6WQN9__Marpol	Marchantia polymorpha	350	144.8	1	add
+k2p	Viridiplantae / Streptophyta / Pinopsida	Viridiplantae	Streptophyta	Pinopsida	Cupressales	tr|A0AA38LI34|A0AA38LI34_TAXCH	A0AA38LI34__Taxchi	Taxus chinensis	357	162.9	1	add
+k2p	Viridiplantae / Streptophyta / Polypodiopsida	Viridiplantae	Streptophyta	Polypodiopsida	Polypodiales	tr|A0A9D4UCT2|A0A9D4UCT2_ADICA	A0A9D4UCT2__Adicap	Adiantum capillus-veneris	530	165.0	4	add
+k2p	Viridiplantae / Streptophyta / Sphagnopsida	Viridiplantae	Streptophyta	Sphagnopsida	Sphagnales	tr|A0ABP0TMV4|A0ABP0TMV4_9BRYO	A0ABP0TMV4__Sphtro	Sphagnum troendelagicum	367	163.6	6	add
+kca_slo	- / - / Bigyra			Bigyra	Thraustochytrida	tr|A0A2R5G5G9|A0A2R5G5G9_9STRA	A0A2R5G5G9__Honfer	Hondaea fermentalgiana	1153	428.9	6	add
+kca_slo	- / - / Choanoflagellata			Choanoflagellata	Craspedida	tr|A9V851|A9V851_MONBE	A9V851__Monbre	Monosiga brevicollis	1506	256.1	1	in_d39_set
+kca_slo	- / - / Cryptophyceae			Cryptophyceae	Pyrenomonadales	tr|L1JCR4|L1JCR4_GUITC	L1JCR4__Guithe	Guillardia theta (strain CCMP2712)	1141	383.9	6	add
+kca_slo	- / - / Dinophyceae			Dinophyceae	Prorocentrales	tr|A0ABN9V3Q8|A0ABN9V3Q8_9DINO	A0ABN9V3Q8__Procor	Prorocentrum cordatum	1088	206.0	1	add
+kca_slo	- / - / Eustigmatophyceae			Eustigmatophyceae	Eustigmatales	tr|A0A4D9CYZ1|A0A4D9CYZ1_9STRA	A0A4D9CYZ1__Nansal	Nannochloropsis salina CCMP1776	1189	275.2	1	add
+kca_slo	- / - / order:Apusomonadida				Apusomonadida	tr|A0A0L0D782|A0A0L0D782_THETB	A0A0L0D782__Thetra	Thecamonas trahens ATCC 50062	1288	394.2	4	add
+kca_slo	- / Ciliophora / Heterotrichea		Ciliophora	Heterotrichea	Heterotrichida	tr|A0AAU9JC92|A0AAU9JC92_9CILI	A0AAU9JC92__Blesto	Blepharisma stoltei	1019	257.3	4	add
+kca_slo	- / Ciliophora / Oligohymenophorea		Ciliophora	Oligohymenophorea	Peniculida	tr|A0C1L5|A0C1L5_PARTE	A0C1L5__Partet	Paramecium tetraurelia	1038	378.4	14	in_d39_set
+kca_slo	- / Ciliophora / Spirotrichea		Ciliophora	Spirotrichea	Sporadotrichida	tr|A0A078AQK5|A0A078AQK5_STYLE	A0A078AQK5__Stylem	Stylonychia lemnae	1104	326.3	12	add
+kca_slo	- / Discosea / order:Longamoebia		Discosea		Longamoebia	tr|L8HDA6|L8HDA6_ACACF	L8HDA6__Acacas	Acanthamoeba castellanii (strain ATCC 30010 / Neff)	1440	264.9	1	add
+kca_slo	- / Endomyxa / Phytomyxea		Endomyxa	Phytomyxea	Plasmodiophorida	tr|A0A0G4J7Q2|A0A0G4J7Q2_PLABS	A0A0G4J7Q2__Plabra	Plasmodiophora brassicae	1074	212.6	1	add
+kca_slo	- / Evosea / Eumycetozoa		Evosea	Eumycetozoa	Dictyosteliales	tr|Q55CU6|Q55CU6_DICDI	Q55CU6__Dicdis	Dictyostelium discoideum	1244	387.6	6	in_d39_set
+kca_slo	- / Evosea / Variosea		Evosea	Variosea	Cavosteliida	tr|A0A2P6MZ64|A0A2P6MZ64_9EUKA	A0A2P6MZ64__Plafun	Planoprotostelium fungivorum	970	279.0	5	add
+kca_slo	- / Haptophyta / Pavlovophyceae		Haptophyta	Pavlovophyceae	Pavlovales	tr|A0A8J6CJC2|A0A8J6CJC2_DIALT	A0A8J6CJC2__Dialut	Diacronema lutheri	1155	233.9	1	add
+kca_slo	- / Haptophyta / order:Prymnesiales		Haptophyta		Prymnesiales	tr|A0AB34JCA7|A0AB34JCA7_PRYPA	A0AB34JCA7__Prypar	Prymnesium parvum	1208	246.0	2	add
+kca_slo	- / Heterolobosea / Eutetramitea		Heterolobosea	Eutetramitea	Acrasida	tr|A0AA88GTP6|A0AA88GTP6_NAELO	A0AA88GTP6__Naelov	Naegleria lovaniensis	1280	167.9	2	add
+kca_slo	- / Oomycota / Peronosporomycetes		Oomycota	Peronosporomycetes	Peronosporales	tr|A0A6A4FXD4|A0A6A4FXD4_9STRA	A0A6A4FXD4__Phyrub	Phytophthora rubi	1113	303.3	16	add
+kca_slo	- / Oomycota / Saprolegniomycetes		Oomycota	Saprolegniomycetes	Saprolegniales	tr|A0A067CW14|A0A067CW14_SAPPC	A0A067CW14__Sappar	Saprolegnia parasitica (strain CBS 223.65)	1030	320.6	9	add
+kca_slo	- / Rhodophyta / Florideophyceae		Rhodophyta	Florideophyceae	Gigartinales	tr|R7QF10|R7QF10_CHOCR	R7QF10__Chocri	Chondrus crispus	1408	220.3	1	add
+kca_slo	Fungi / Basidiobolomycota / Basidiobolomycetes	Fungi	Basidiobolomycota	Basidiobolomycetes	Basidiobolales	tr|A0A1Y1XU11|A0A1Y1XU11_9FUNG	A0A1Y1XU11__Basmer	Basidiobolus meristosporus CBS 931.73	1044	352.1	2	add
+kca_slo	Fungi / Blastocladiomycota / Blastocladiomycetes	Fungi	Blastocladiomycota	Blastocladiomycetes	Blastocladiales	tr|A0A0L0TBN7|A0A0L0TBN7_ALLM3	A0A0L0TBN7__Allmac	Allomyces macrogynus (strain ATCC 38327)	1389	303.5	7	add
+kca_slo	Fungi / Chytridiomycota / Caulochytriomycetes	Fungi	Chytridiomycota	Caulochytriomycetes	Caulochytriales	tr|A0A4P9WVJ2|A0A4P9WVJ2_9FUNG	A0A4P9WVJ2__Caupro	Caulochytrium protostelioides	1162	270.6	1	add
+kca_slo	Fungi / Chytridiomycota / Chytridiomycetes	Fungi	Chytridiomycota	Chytridiomycetes	Spizellomycetales	tr|A0A0L0HFL3|A0A0L0HFL3_SPIPD	A0A0L0HFL3__Spipun	Spizellomyces punctatus (strain DAOM BR117)	1109	330.9	16	add
+kca_slo	Fungi / Entomophthoromycota / Entomophthoromycetes	Fungi	Entomophthoromycota	Entomophthoromycetes	Entomophthorales	tr|A0ACC2SQ50|A0ACC2SQ50_9FUNG	A0ACC2SQ50__Entmus	Entomophthora muscae	960	294.8	1	add
+kca_slo	Fungi / Glomeromycota / Glomeromycetes	Fungi	Glomeromycota	Glomeromycetes	Glomerales	tr|A0A2P4Q368|A0A2P4Q368_RHIID	A0A2P4Q368__Rhiirr	Rhizophagus irregularis (strain DAOM 181602 / DAOM 197198 / MUCL 43194)	1010	303.6	5	add
+kca_slo	Fungi / Kickxellomycota / Dimargaritomycetes	Fungi	Kickxellomycota	Dimargaritomycetes	Dimargaritales	tr|A0A9W8AL75|A0A9W8AL75_9FUNG	A0A9W8AL75__Tiepar	Tieghemiomyces parasiticus	1464	255.3	2	add
+kca_slo	Fungi / Kickxellomycota / Harpellomycetes	Fungi	Kickxellomycota	Harpellomycetes	Harpellales	tr|A0A2T9Z4J2|A0A2T9Z4J2_9FUNG	A0A2T9Z4J2__Furboo	Furculomyces boomerangus	1232	248.8	3	add
+kca_slo	Fungi / Kickxellomycota / Kickxellomycetes	Fungi	Kickxellomycota	Kickxellomycetes	Kickxellales	tr|A0ABQ8PDZ8|A0ABQ8PDZ8_9FUNG	A0ABQ8PDZ8__Coeumb	Coemansia umbellata	1190	259.1	2	add
+kca_slo	Fungi / Mucoromycota / Mucoromycetes	Fungi	Mucoromycota	Mucoromycetes	Mucorales	tr|S2JVM9|S2JVM9_MUCC1	S2JVM9__Muccir	Mucor circinelloides f. circinelloides (strain 1006PhL)	1127	364.5	2	add
+kca_slo	Fungi / Mucoromycota / Umbelopsidomycetes	Fungi	Mucoromycota	Umbelopsidomycetes	Umbelopsidales	tr|A0A8H7PL31|A0A8H7PL31_9FUNG	A0A8H7PL31__Umbvin	Umbelopsis vinacea	1021	310.5	1	add
+kca_slo	Metazoa / Cnidaria / Anthozoa	Metazoa	Cnidaria	Anthozoa	Scleractinia	tr|A0ABN8NUX4|A0ABN8NUX4_9CNID	A0ABN8NUX4__Porlob	Porites lobata	1093	1130.4	2	add
+kca_slo	Metazoa / Cnidaria / Hydrozoa	Metazoa	Cnidaria	Hydrozoa	Leptothecata	tr|A0A7M5WSR8|A0A7M5WSR8_9CNID	A0A7M5WSR8__Clyhem	Clytia hemisphaerica	1117	1060.8	7	add
+kca_slo	Metazoa / Ctenophora / Tentaculata	Metazoa	Ctenophora	Tentaculata	Lobata	tr|A0ACF8ZI90|A0ACF8ZI90_MNELE	A0ACF8ZI90__Mnelei	Mnemiopsis leidyi	1106	846.9	3	add
+kca_slo	Metazoa / Porifera / Demospongiae	Metazoa	Porifera	Demospongiae	Haplosclerida	tr|A0AAN0JJ70|A0AAN0JJ70_AMPQE	A0AAN0JJ70__Ampque	Amphimedon queenslandica	932	415.6	2	in_d39_set
+kca_slo	Metazoa / Porifera / Hexactinellida	Metazoa	Porifera	Hexactinellida	Lyssacinosida	tr|A0AAV7JXM4|A0AAV7JXM4_9METZ	A0AAV7JXM4__Oopmin	Oopsacas minuta	1577	434.0	4	add
+kca_slo	Viridiplantae / Chlorophyta / Chloropicophyceae	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	tr|A0A5B8MSS4|A0A5B8MSS4_9CHLO	A0A5B8MSS4__Chlpri	Chloropicon primus	1126	497.9	1	add
+kca_slo	Viridiplantae / Chlorophyta / Pyramimonadophyceae	Viridiplantae	Chlorophyta	Pyramimonadophyceae	Pyramimonadales	tr|A0AAE0C9I6|A0AAE0C9I6_9CHLO	A0AAE0C9I6__Cymtet	Cymbomonas tetramitiformis	1223	367.1	8	add
+kca_slo	Viridiplantae / Streptophyta / Bryopsida	Viridiplantae	Streptophyta	Bryopsida	Pseudoditrichales	tr|A0A8T0HCQ1|A0A8T0HCQ1_CERPU	A0A8T0HCQ1__Cerpur	Ceratodon purpureus	1117	319.0	8	add
+kca_slo	Viridiplantae / Streptophyta / Charophyceae	Viridiplantae	Streptophyta	Charophyceae	Charales	tr|A0A388LDZ2|A0A388LDZ2_CHABU	A0A388LDZ2__Chabra	Chara braunii	1201	304.2	2	add
+kca_slo	Viridiplantae / Streptophyta / Klebsormidiophyceae	Viridiplantae	Streptophyta	Klebsormidiophyceae	Klebsormidiales	tr|A0A1Y1IB59|A0A1Y1IB59_KLENI	A0A1Y1IB59__Klenit	Klebsormidium nitens	1421	381.2	2	add
+kca_slo	Viridiplantae / Streptophyta / Lycopodiopsida	Viridiplantae	Streptophyta	Lycopodiopsida	Lycopodiales	tr|A0ACC2EUW8|A0ACC2EUW8_DIPCM	A0ACC2EUW8__Dipcom	Diphasiastrum complanatum	1097	310.4	6	add
+kca_slo	Viridiplantae / Streptophyta / Marchantiopsida	Viridiplantae	Streptophyta	Marchantiopsida	Marchantiales	tr|A0A2R6XTC0|A0A2R6XTC0_MARPO	A0A2R6XTC0__Marpol	Marchantia polymorpha	1188	303.5	3	add
+kca_slo	Viridiplantae / Streptophyta / Sphagnopsida	Viridiplantae	Streptophyta	Sphagnopsida	Sphagnales	tr|A0ABP0UQ74|A0ABP0UQ74_9BRYO	A0ABP0UQ74__Sphtro	Sphagnum troendelagicum	1346	342.7	7	add
+kv_eag	- / - / Bolidophyceae			Bolidophyceae	Parmales	tr|A0A9W7EVQ4|A0A9W7EVQ4_9STRA	A0A9W7EVQ4__Triver	Triparma verrucosa	873	162.3	1	add
+kv_eag	- / - / Cryptophyceae			Cryptophyceae	Pyrenomonadales	tr|L1K4G9|L1K4G9_GUITC	L1K4G9__Guithe	Guillardia theta (strain CCMP2712)	810	165.1	1	add
+kv_eag	- / Ciliophora / Oligohymenophorea		Ciliophora	Oligohymenophorea	Peniculida	tr|A0BV66|A0BV66_PARTE	A0BV66__Partet	Paramecium tetraurelia	788	98.1	7	in_d39_set
+kv_eag	- / Ciliophora / Spirotrichea		Ciliophora	Spirotrichea	Sporadotrichida	tr|A0A078A6H0|A0A078A6H0_STYLE	A0A078A6H0__Stylem	Stylonychia lemnae	1302	183.7	6	add
+kv_eag	- / Haptophyta / order:Prymnesiales		Haptophyta		Prymnesiales	tr|A0AB34IP70|A0AB34IP70_PRYPA	A0AB34IP70__Prypar	Prymnesium parvum	791	170.9	5	add
+kv_eag	Metazoa / Cnidaria / Anthozoa	Metazoa	Cnidaria	Anthozoa	Scleractinia	tr|A0ABN8QK47|A0ABN8QK47_9CNID	A0ABN8QK47__Porlob	Porites lobata	1060	1103.0	9	add
+kv_eag	Metazoa / Cnidaria / Hydrozoa	Metazoa	Cnidaria	Hydrozoa	Leptothecata	tr|A0A7M5WWM8|A0A7M5WWM8_9CNID	A0A7M5WWM8__Clyhem	Clytia hemisphaerica	810	834.2	14	add
+kv_eag	Metazoa / Ctenophora / Tentaculata	Metazoa	Ctenophora	Tentaculata	Lobata	tr|A0ACF8Y0D7|A0ACF8Y0D7_MNELE	A0ACF8Y0D7__Mnelei	Mnemiopsis leidyi	762	480.2	2	add
+kv_eag	Metazoa / Placozoa / Uniplacotomia	Metazoa	Placozoa	Uniplacotomia	Trichoplacea	tr|B3RQL4|B3RQL4_TRIAD	B3RQL4__Triadh	Trichoplax adhaerens	1063	997.6	1	in_d39_set
+kv_eag	Viridiplantae / Chlorophyta / Chloropicophyceae	Viridiplantae	Chlorophyta	Chloropicophyceae	Chloropicales	tr|A0A5B8MHT9|A0A5B8MHT9_9CHLO	A0A5B8MHT9__Chlpri	Chloropicon primus	680	249.0	1	add
+kv_eag	Viridiplantae / Chlorophyta / Pyramimonadophyceae	Viridiplantae	Chlorophyta	Pyramimonadophyceae	Pyramimonadales	tr|A0AAE0G474|A0AAE0G474_9CHLO	A0AAE0G474__Cymtet	Cymbomonas tetramitiformis	820	313.9	2	add
+kv_eag	Viridiplantae / Chlorophyta / Trebouxiophyceae	Viridiplantae	Chlorophyta	Trebouxiophyceae	Trebouxiales	tr|A0AAW1PKB9|A0AAW1PKB9_9CHLO	A0AAW1PKB9__[Mybis	[Myrmecia] bisecta	900	87.6	1	add
+kv_kcnq	Metazoa / Cnidaria / Anthozoa	Metazoa	Cnidaria	Anthozoa	Scleractinia	tr|A0ABN8R0R5|A0ABN8R0R5_9CNID	A0ABN8R0R5__Porlob	Porites lobata	911	552.1	2	add
+kv_kcnq	Metazoa / Cnidaria / Hydrozoa	Metazoa	Cnidaria	Hydrozoa	Leptothecata	tr|A0A7M5VGL8|A0A7M5VGL8_9CNID	A0A7M5VGL8__Clyhem	Clytia hemisphaerica	973	471.7	9	add
+kv_shaker	- / - / Eustigmatophyceae			Eustigmatophyceae	Eustigmatales	tr|A0A4D9CT78|A0A4D9CT78_9STRA	A0A4D9CT78__Nansal	Nannochloropsis salina CCMP1776	578	133.7	1	add
+kv_shaker	- / Haptophyta / order:Prymnesiales		Haptophyta		Prymnesiales	tr|A0AB34JTR9|A0AB34JTR9_PRYPA	A0AB34JTR9__Prypar	Prymnesium parvum	386	167.1	1	add
+kv_shaker	Fungi / Chytridiomycota / Chytridiomycetes	Fungi	Chytridiomycota	Chytridiomycetes	Lobulomycetales	tr|A0AAD5Y0T3|A0AAD5Y0T3_9FUNG	A0AAD5Y0T3__Clyves	Clydaea vesicula	635	139.2	1	add
+kv_shaker	Metazoa / Cnidaria / Anthozoa	Metazoa	Cnidaria	Anthozoa	Malacalcyonacea	tr|A0A7D9IZR2|A0A7D9IZR2_PARCT	A0A7D9IZR2__Parcla	Paramuricea clavata	527	618.9	39	add
+kv_shaker	Metazoa / Cnidaria / Hydrozoa	Metazoa	Cnidaria	Hydrozoa	Anthoathecata	tr|A0ABM4BF42|A0ABM4BF42_HYDVU	A0ABM4BF42__Hydvul	Hydra vulgaris	541	600.8	28	in_d39_set
+kv_shaker	Metazoa / Ctenophora / Tentaculata	Metazoa	Ctenophora	Tentaculata	Lobata	tr|A0ACF8ZIJ7|A0ACF8ZIJ7_MNELE	A0ACF8ZIJ7__Mnelei	Mnemiopsis leidyi	515	483.5	14	add

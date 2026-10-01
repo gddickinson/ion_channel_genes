@@ -42,7 +42,19 @@ from .schema import Provenance as P
 from .schema import Selectivity as Sel
 from .schema import Signature as Sig
 from .schema import Status as St
-from .vgic_k import ION_TRANS
+from .schema import RootSet
+from .vgic_k import ION_TRANS, sister_k
+
+#: CNG's prokaryotic outgroup (S7c): bacterial cyclic-nucleotide-gated K+
+#: channels with the CNG architecture (six helices + a C-terminal CNBD).
+PROK_CNG = RootSet(
+    name="prok_cng",
+    exemplars=(Ex("Ml_MloK1", "mll3241", "Mesorhizobium loti", "Q98GN8",
+                  "MlotiK1; reviewed"),
+               Ex("St_SthK", "STHERM_c06300", "Spirochaeta thermophila", "E0RR11",
+                  "SthK, the structural model for CNG gating")),
+    pfam=("PF00520", "PF07885"),
+)
 
 FAMILIES: list[CF] = [
     CF(
@@ -163,6 +175,7 @@ FAMILIES: list[CF] = [
         length_band_aa=(550, 1400), filter_motif="[open]",
         confusable_with=("hcn", "kv_eag", "H4"),
         notes="Voltage-insensitive despite a full S4. Ligand binds the CNBD.",
+        root_with=(PROK_CNG, sister_k("hcn", "kv_eag")),
     ),
     CF(
         key="hcn",

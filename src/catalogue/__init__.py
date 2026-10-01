@@ -26,18 +26,18 @@ from .registry import (CATALOGUE, SUPERFAMILIES, census_families,
                        control_families, exemplars, families, family,
                        family_for_gene, hazards_for, human_genes,
                        pore_signatures, reference_panel, shared_signatures,
-                       signature_index, stats, superfamily, validate,
+                       root_sets, signature_index, stats, superfamily, validate,
                        with_resolved_exemplars)
 from .schema import (CENSUS_STATUSES, ChannelFamily, Exemplar, Fold, Gating,
-                     Hazard, Level, Provenance, Selectivity, Signature, Status,
-                     Superfamily)
+                     Hazard, Level, Provenance, RootSet, Selectivity, Signature,
+                     Status, Superfamily)
 
 __all__ = [
     "CATALOGUE", "SUPERFAMILIES", "HAZARDS", "HAZARD_BY_ID", "CENSUS_STATUSES",
-    "ChannelFamily", "Superfamily", "Signature", "Exemplar", "Hazard",
+    "ChannelFamily", "Superfamily", "Signature", "Exemplar", "Hazard", "RootSet",
     "Level", "Provenance", "Gating", "Selectivity", "Fold", "Status",
     "family", "superfamily", "families", "census_families", "control_families",
     "human_genes", "family_for_gene", "signature_index", "shared_signatures",
     "pore_signatures", "exemplars", "reference_panel", "hazards_for",
-    "with_resolved_exemplars", "validate", "stats",
+    "with_resolved_exemplars", "validate", "stats", "root_sets",
 ]

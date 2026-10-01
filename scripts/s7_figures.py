@@ -9,7 +9,9 @@ Four panels from the committed S7 tables (D13), through `figstyle.py`:
   against its size, coloured by superfamily.
 * **C** — rooting: the root edge's UFBoot per rooted family, with the
   outgroup's column occupancy; families whose outgroup is not one clade are
-  marked, unrooted families counted by reason.
+  marked, unrooted families counted by reason. After S7c, each re-rooted
+  family shows its S7b root and its two declared outgroups' roots, with the
+  D47 verdict.
 * **D** — one family tree drawn: the ryanodine receptors rooted on the
   ITPR exemplars, leaves coloured by panel group.
 
@@ -86,9 +88,29 @@ def panel_b(ax, trees) -> None:
     fs.panel(ax, "B", f"Support across {len(trees)} family trees")
 
 
+def _reroot() -> tuple[dict, dict]:
+    """S7c: {family: [tree rows]} and {family: verdict row}, empty before S7c parse."""
+    tp, fp = D / "tier1_reroot_trees.tsv", D / "tier1_reroot.tsv"
+    if not fp.exists():
+        return {}, {}
+    by = {}
+    for t in read_tsv(tp):
+        by.setdefault(t["family"], []).append(t)
+    return by, {r["family"]: r for r in read_tsv(fp)}
+
+
+def _bar(ax, y, t, colour, h) -> None:
+    clade = str(t["outgroup_monophyletic"]) == "True"
+    v = float(t["root_ufboot"]) if clade and t["root_ufboot"] else 0
+    ax.barh(y, v if clade else 100, color=colour if clade else "none",
+            edgecolor=fs.FAINT if not clade else "none", hatch=None if clade else "////",
+            height=h, linewidth=0.5)
+
+
 def panel_c(ax, trees, inputs) -> None:
     occ = {r["family"]: max(float(x) for x in r["og_occupancy"].split(","))
            for r in inputs if r["og_occupancy"]}
+    rr_trees, rr = _reroot()
     rooted = sorted((t for t in trees if t["outgroup_family"]),
                     key=lambda t: (CATALOGUE[t["family"]].superfamily, t["family"]))
     for i, t in enumerate(rooted):
@@ -98,18 +120,24 @@ def panel_c(ax, trees, inputs) -> None:
             ax.text(2, i, "single-sequence outgroup: root edge has no support value",
                     va="center", fontsize=fs.FS_NOTE - 1.2, color=fs.MUTED)
             continue
-        v = float(t["root_ufboot"]) if clade and t["root_ufboot"] else 0
-        ax.barh(i, v if clade else 100, color=sf_colour(t["family"]) if clade else "none",
-                edgecolor=fs.FAINT if not clade else "none", hatch=None if clade else "////",
-                height=0.72, linewidth=0.5)
+        if t["family"] in rr:          # S7c: old root (grey) + the two declared outgroups
+            _bar(ax, i - 0.27, t, fs.FAINT, 0.24)
+            for k, nt in enumerate(rr_trees[t["family"]]):
+                _bar(ax, i + 0.27 * k, nt, sf_colour(t["family"]), 0.24)
+            ok = rr[t["family"]]["verdict"] == "resolved"
+            ax.text(102, i, "resolved" if ok else "unresolved", va="center",
+                    fontsize=fs.FS_NOTE - 0.8, color=fs.INK if ok else fs.ACCENT)
+            continue
+        _bar(ax, i, t, sf_colour(t["family"]), 0.72)
         ax.text(102, i, f"{occ.get(t['family'], 0):.2f}", va="center",
                 fontsize=fs.FS_NOTE - 0.6, color=fs.MUTED)
     ax.axvline(95, color=fs.ACCENT, lw=0.7, ls="--")
     ax.set_yticks(range(len(rooted)), [t["family"] for t in rooted],
                   fontsize=fs.FS_TICK - 1.2)
-    ax.set_xlim(0, 115)
+    ax.set_xlim(0, 125 if rr else 115)
     ax.set_xticks([0, 50, 95])
-    ax.set_xlabel("root-edge UFBoot (hatched: outgroup not one clade)",
+    ax.set_xlabel("root-edge UFBoot (hatched: outgroup not one clade)"
+                  + ("\nS7c rows: grey = KcsA root (S7b), then outgroups 1, 2" if rr else ""),
                   fontsize=fs.FS_LABEL)
     ax.text(102, len(rooted) - 0.2, "occ.", fontsize=fs.FS_NOTE - 0.6, color=fs.MUTED)
     c = Counter(t["root_rule"].split(":")[-1] for t in trees if not t["outgroup_family"])
@@ -117,7 +145,8 @@ def panel_c(ax, trees, inputs) -> None:
             "unrooted: " + ", ".join(f"{k.replace('_', ' ')} {v}" for k, v in c.items()),
             transform=ax.transAxes, fontsize=fs.FS_NOTE, color=fs.MUTED, va="top")
     fs.despine(ax)
-    fs.panel(ax, "C", "Roots from the catalogue's outgroups")
+    fs.panel(ax, "C", "Roots from the catalogue's outgroups"
+             + (" (S7c re-rooted)" if rr else ""))
 
 
 def _layout(node, depth=0.0, ys=None, out=None):

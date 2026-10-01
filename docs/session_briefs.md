@@ -273,6 +273,8 @@ the per-family outgroup rule.
 **Outputs.** `results/phylogeny/tier1_reroot.tsv`, re-rooted treefiles under
 `results/phylogeny/tier1/`, bulk under `<data root>/trees/s7c/`.
 
+**Split (2026-10-01).** S7c delivered the design, catalogue edit, S0 check, basal sampling, alignments and the 12 inputs, and launched the trees. **S7d** finishes: wait for the detached run (`<data root>/trees/s7c/run.log`; re-run `scripts/s7c_reroot.py run --jobs 5 --threads 2` if it died — it resumes), then `s7c_reroot.py parse` → `tier1_reroot.tsv` / `tier1_reroot_trees.tsv`, `s7_report.py` (§ 4 fills itself), `bin/envpy scripts/s7_figures.py` (panel C shows the S7b root and both new roots with the D47 verdict), look at the figure (D11), and name the unresolved families in the ledger. The criterion and the outgroups are fixed (D47); nothing about them changes after a tree is read.
+
 ---
 
 ## S8 — Tier-2 pore-module trees and the tier-3 fold network

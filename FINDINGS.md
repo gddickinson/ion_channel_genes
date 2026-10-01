@@ -826,3 +826,17 @@ of voltage-gated K⁺ channels, the bacterial KcsA-type outgroup falls inside
 the family tree instead of outside it. These four trees therefore have no
 defined root. A closer outgroup is needed before their branching order can
 be read as history *(pending: an outgroup decision, before S11)*.
+
+### S7c — a fairer test of where the potassium-channel trees are rooted (2026-10-01)
+
+No new biology yet: this task set up the test. S7b found that the bacterial
+KcsA-type channel is too distant to root six potassium-channel families. Each
+of those families now has **two independent outgroups**: a bacterial or
+archaeal channel with the same six-helix (or cyclic-nucleotide-gated) build,
+such as the archaeal voltage-gated K⁺ channel KvAP, and two related animal
+channel families. The rule was fixed before any tree was built: a root is
+believed only if both outgroups put it in the same place with strong
+support. The trees also gain about 100 channels from sponges, comb jellies,
+cnidarians, protists, fungi and plants, so the deepest branches are no longer
+represented by animals alone. Which of the six families end up with a
+trustworthy root is *(pending: S7d)*.

@@ -144,8 +144,36 @@ IQ-TREE 2 (`-m MFP -mset LG,WAG,JTT,Q.pfam -B 1000 -bnni -seed 1`) on every fami
 | kcsa_prok | 4 | 350 | LG+G4 | is superfamily outgroup | — | 1 | 78.0 | 0.0 | 0.0 |
 | tmc | 4 | 857 | LG+G4 | no declared outgroup | — | 1 | 53.0 | 0.0 | 1.0 |
 
-## 4. What these trees are and are not
+## 4. Re-rooting the weakly rooted P-loop families (S7c, D47)
+
+S7b's KcsA/MthK/NaK outgroup was not one clade in four P-loop families and weakly supported in two more. Each of the six now declares **two outgroups in the catalogue** (`ChannelFamily.root_with`), fixed before any re-rooted tree: a prokaryotic relative with the family's architecture (inline exemplars verified live by `s0_outgroups.py` → `s0_baseline/outgroups.tsv`) and two sister eukaryotic families. K2P has no prokaryotic relative of its own, so its prokaryotic choice remains the superfamily outgroup.
+
+| family | outgroup 1 | outgroup 2 |
+|---|---|---|
+| cng | prok_cng: Ml_MloK1, St_SthK | sister_hcn_kv_eag: hcn, kv_eag |
+| k2p | prok_2tm_k: kcsa_prok | sister_kir_kv_shaker: kir, kv_shaker |
+| kca_slo | prok_6tm_k: Ap_KvAP, Mj_MVP, Ec_Kch | sister_kv_shaker_kv_kcnq: kv_shaker, kv_kcnq |
+| kv_eag | prok_6tm_k: Ap_KvAP, Mj_MVP, Ec_Kch | sister_hcn_cng: hcn, cng |
+| kv_kcnq | prok_6tm_k: Ap_KvAP, Mj_MVP, Ec_Kch | sister_kv_shaker_kv_eag: kv_shaker, kv_eag |
+| kv_shaker | prok_6tm_k: Ap_KvAP, Mj_MVP, Ec_Kch | sister_kv_kcnq_kv_eag: kv_kcnq, kv_eag |
+
+**Denser basal sampling (D47).** Each family's D39 set gains one member per early-diverging clade of S4b's dense panel (kingdom × phylum × class; outside Bilateria), the clade's highest-scoring high-confidence profile call, complete and inside the length band ±25 % (`reroot_basal.tsv`). The six sets therefore differ from S6's D39 sets — a stated exception. Re-aligned with L-INS-i; everything after is S7's method unchanged, and the ingroup alignment and trim mask are identical in a family's two trees.
+
+| family | D39 set | basal added | clades already in D39 | trimmed cols | outgroup occupancy (1 / 2) |
+|---|---|---|---|---|---|
+| cng | 313 | 23 | 3 | 765 | 0.13,0.53 / 0.78,0.76,0.71,0.75 |
+| k2p | 380 | 28 | 3 | 303 | 0.43,0.67,0.29 / 0.78,0.83,0.85,0.82,0.79,0.76 |
+| kca_slo | 106 | 39 | 4 | 946 | 0.28,0.21,0.40 / 0.33,0.59,0.45,0.42,0.48,0.58 |
+| kv_eag | 158 | 10 | 2 | 911 | 0.26,0.20,0.37 / 0.62,0.75,0.65,0.79 |
+| kv_kcnq | 97 | 2 | 0 | 676 | 0.42,0.31,0.51 / 0.47,0.80,0.60,0.58,0.81,0.81 |
+| kv_shaker | 312 | 5 | 1 | 445 | 0.63,0.46,0.59 / 0.84,0.78,0.87,0.82 |
+
+**The root criterion, fixed before any re-rooted tree:** in both trees (a) the outgroup is one clade and (b) its edge has UFBoot ≥ 95, and (c) the ingroup's basal split is *identical* under the two outgroups. Anything else is `unresolved`; no root is picked by how it looks.
+
+*Trees not yet built* (detached IQ-TREE run; `s7c_reroot.py parse` fills this section).
+
+## 5. What these trees are and are not
 
 * A **protein tree** of one family (tier 1, full length after D41 trimming). Cross-family structure is S8's pore-module trees; cross-superfamily relationships are the fold network, never a tree (D27).
 * Sets are S6's D39 sets: high-confidence profile calls and intact genome loci only. A family's tree therefore holds what the panel's 52 species carry, not every sequence in UniProt.
-* Where the outgroup is a two-helix prokaryotic pore and the family is a 24-helix chain, the root rests on the pore columns alone; the occupancy table above says how few. Root support is reported per tree, never assumed.
+* Where the outgroup is a two-helix prokaryotic pore and the family is a 24-helix chain, the root rests on the pore columns alone; the occupancy table above says how few. Root support is reported per tree, never assumed; § 4 re-roots the six P-loop families where it failed.

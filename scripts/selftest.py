@@ -424,6 +424,38 @@ check("the trim mask is one column set for every row; informative = 2 states x 2
        _met([("a", "AAC"), ("b", "AAC"), ("c", "GAT"), ("d", "GA-")], [0, 1, 2])["informative"]),
       ([("a", "ACD"), ("b", "AGE")], 1))
 
+# --- S7c: per-family outgroups and the root criterion (D47) ------------------
+from dataclasses import replace as _replace                     # noqa: E402
+from scripts.s7_newick import root_partition as _rp             # noqa: E402
+from scripts.s7c_parse import criteria as _crit                 # noqa: E402
+from src.catalogue import registry as _reg, RootSet as _RS     # noqa: E402
+_bad = {"one_set": (_RS("x", families=("kir",)),),
+        "self": (_RS("x", families=("kv_shaker",)), _RS("y", families=("kir",))),
+        "other_sf": (_RS("x", families=("piezo",)), _RS("y", families=("kir",)))}
+_caught = []
+for _k, _rw in _bad.items():
+    _save = _reg.CATALOGUE["kv_shaker"]
+    _reg.CATALOGUE["kv_shaker"] = _replace(_save, root_with=_rw)
+    _caught.append(any(p.startswith("kv_shaker: ") and ("root" in p) for p in _reg.validate()))
+    _reg.CATALOGUE["kv_shaker"] = _save
+check("S7c root sets: two per family, never the family itself, inside its superfamily",
+      (_caught, all(len(f.root_with) in (0, 2) for f in CATALOGUE.values())),
+      ([True, True, True], True))
+_ta = _nwk("(((a,b)90,(c,d)97)99,(P1,P2)100);")
+_tb = _nwk("((S1,S2)100,((a,b)88,(c,d)96)98);")
+_ra, _rb = _rp(_ta, {"P1", "P2"}), _rp(_tb, {"S1", "S2"})
+check("S7c root split: same basal split under two outgroups; none for a non-clade",
+      ({s for s, _ in _ra} == {s for s, _ in _rb}, _rp(_nwk("((a,P1),(b,P2),c);"), {"P1", "P2"})),
+      (True, None))
+_row = lambda m, u: {"outgroup_monophyletic": m, "root_ufboot": u}  # noqa: E731
+check("S7c criterion: resolved only if one clade, UFBoot >= 95 and the same split",
+      [_crit(t)[4] for t in ([(_row(True, 99), _ra), (_row(True, 96), _rb)],
+                             [(_row(True, 99), _ra), (_row(True, 80), _rb)],
+                             [(_row(False, ""), None), (_row(True, 99), _rb)],
+                             [(_row(True, 99), _ra), (_row(True, 99), _rp(_nwk(
+                                 "((a,(S1,S2)100)90,b,(c,d)96);"), {"S1", "S2"}))])],
+      ["", "root edge UFBoot < 95", "outgroup not one clade", "root moves with the outgroup"])
+
 # --- S20: auxiliary subunits ------------------------------------------------
 from scripts.s20_lib import category as _cat                    # noqa: E402
 from scripts.s20_aux import _components as _comp                # noqa: E402

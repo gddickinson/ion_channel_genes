@@ -14,6 +14,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from s3_hmm_lib import read_tsv  # noqa: E402
 from s7_lib import OUT_DIR, ROOT, TRIM_METHODS  # noqa: E402
+from s7c_report import reroot_section  # noqa: E402
 
 A = ROOT / "results" / "alignments" / "alignments.tsv"
 
@@ -154,7 +155,8 @@ def main() -> int:
     med = trim_section(L)
     rooting_section(L, inputs)
     s = trees_section(L, trees, inputs)
-    L += ["## 4. What these trees are and are not", "",
+    rr = reroot_section(L)
+    L += ["## 5. What these trees are and are not", "",
           "* A **protein tree** of one family (tier 1, full length after D41 trimming). "
           "Cross-family structure is S8's pore-module trees; cross-superfamily "
           "relationships are the fold network, never a tree (D27).",
@@ -163,11 +165,12 @@ def main() -> int:
           "not every sequence in UniProt.",
           "* Where the outgroup is a two-helix prokaryotic pore and the family is a "
           "24-helix chain, the root rests on the pore columns alone; the occupancy table "
-          "above says how few. Root support is reported per tree, never assumed.", ""]
+          "above says how few. Root support is reported per tree, never assumed; "
+          "§ 4 re-roots the six P-loop families where it failed.", ""]
     (OUT_DIR / "tier1_report.md").write_text("\n".join(L))
     (OUT_DIR / "tier1_summary.json").write_text(json.dumps(
         {"trim": med, "rooting": dict(Counter(r["root_rule"] for r in inputs)),
-         "trees": s}, indent=1))
+         "trees": s, "reroot": rr}, indent=1))
     print(f"→ {OUT_DIR / 'tier1_report.md'}")
     return 0
 
