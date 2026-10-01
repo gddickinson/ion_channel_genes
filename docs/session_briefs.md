@@ -213,6 +213,68 @@ rooted because their outgroup was not in the sequence set.
 
 ---
 
+## S7c — Re-rooting the weakly rooted P-loop families
+
+**Why.** S7b rooted every P-loop family on the KcsA/MthK/NaK exemplars —
+two-helix bacterial pores that fill only 15–42 % of a six-helix or 2×2P
+alignment's columns. The root then rests on a few dozen pore positions at
+the end of a long branch, the classic long-branch-attraction setting.
+Measured: the outgroup is **not one clade** in CNG, K2P, Kv (KCNQ) and Kv
+(Shaker), and the root is weak in Slo (UFBoot 32) and Kv (EAG) (70). S11's
+duplication history reads these roots, so they are fixed first.
+
+**The six families.** `cng`, `k2p`, `kv_kcnq`, `kv_shaker`, `kca_slo`,
+`kv_eag`.
+
+**Approach (the user agreed, 2026-10-01): closer outgroups + denser basal
+sampling, with an outgroup-free check later.**
+
+1. **Architecture-matched outgroups, declared in the catalogue first.**
+   Prokaryotic relatives sharing the family's full architecture, verified
+   live by S0 before use (accession, gene, Pfam architecture):
+   * Kv families (Shaker, KCNQ, EAG) and Slo — **KvAP** (*Aeropyrum
+     pernix* archaeal six-helix voltage-gated K⁺ channel) and any other
+     verified prokaryotic 6TM VSD-K⁺ channel;
+   * CNG — **MloK1** (*Mesorhizobium loti*) and **SthK** (*Spirochaeta
+     thermophila*) cyclic-nucleotide-gated channels;
+   * K2P — no prokaryotic K2P exists: use **two** sister eukaryotic K⁺
+     families (candidates Kir, Kv) as a combined outgroup.
+   The outgroups enter the catalogue as a per-family declaration (a new
+   field, e.g. `ChannelFamily.root_with`, overriding the superfamily's) with
+   provenance; `s7_trees.root_rule()` reads it. No outgroup is chosen by
+   which root looks best.
+2. **Denser basal sampling from S4b.** Add each family's high-confidence
+   members from the early-diverging lineages of the dense panel
+   (choanoflagellates, *Capsaspora*, sponges, placozoans, ctenophores if
+   present, protists) — by rule, D8 (per clade × kingdom), stated before the
+   run. This changes these six families' sequence sets away from S6's D39
+   sets: record it as a stated exception, never silently.
+3. **Re-align and re-tree** the six with the S7 method unchanged (L-INS-i →
+   trimAl `-gt 0.5` → IQ-TREE 2 `-m MFP -mset LG,WAG,JTT,Q.pfam -B 1000
+   -bnni -seed 1`). Run detached (the large three are 300–400 sequences,
+   ~10–20 h overnight).
+4. **A root is accepted only by a criterion fixed before any tree is read:**
+   (a) the outgroup forms one clade; (b) root-edge UFBoot ≥ 95; (c) **the
+   root is the same under two different outgroup choices** (e.g. the
+   prokaryotic outgroup alone vs the sister-family outgroup). A root that
+   moves with the outgroup is reported as **unresolved**, never picked.
+5. **Optional cross-check now, required in S11:** a non-reversible-model
+   root (IQ-TREE root inference with rootstrap) for each of the six;
+   reconciliation rooting against the species tree is S11's job (minimise
+   duplications + losses), and disagreements are reported, not resolved.
+
+**Completion criteria.** Catalogue edit + S0 clean; six trees built; for
+each, the three root criteria reported in a table
+(`results/phylogeny/tier1_reroot.tsv`) with the old KcsA root alongside;
+`tier1_report.md` and the S7 figure updated (panel C shows the new roots);
+the families whose root is still unresolved named; self-test invariant for
+the per-family outgroup rule.
+
+**Outputs.** `results/phylogeny/tier1_reroot.tsv`, re-rooted treefiles under
+`results/phylogeny/tier1/`, bulk under `<data root>/trees/s7c/`.
+
+---
+
 ## S8 — Tier-2 pore-module trees and the tier-3 fold network
 
 **Goal.** One pore-module tree per alignable superfamily, and the fold

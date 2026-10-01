@@ -861,3 +861,17 @@ edges at UFBoot ≥ 95.
 **Decision for the user before S11:** declare per-family sister outgroups
 for the six weakly or un-rooted P-loop families, or treat them as unrooted.
 **Next by the ledger: S8.**
+
+## 2026-10-01 — S7c added (user)
+
+The user asked for the re-rooting analysis as a task for the next session.
+**S7c** is in the ledger (pending, before S8) with a full brief in
+`docs/session_briefs.md` § S7c:
+- architecture-matched outgroups per family (KvAP; MloK1/SthK; two sister
+  K⁺ families for K2P), declared in the catalogue and S0-verified;
+- denser basal sampling from S4b;
+- root acceptance fixed before any tree: outgroup one clade, UFBoot ≥ 95,
+  root stable under two outgroup choices;
+- a non-reversible-model cross-check, with reconciliation rooting in S11.
+
+S8 now depends on S7c.
