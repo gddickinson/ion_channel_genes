@@ -97,7 +97,9 @@ def trees_section(L: list[str], trees: list[dict], inputs: list[dict]) -> dict:
         L += ["*No trees yet.*", ""]
         return {}
     rooted = [t for t in trees if t["outgroup_family"]]
-    mono = [t for t in rooted if t["outgroup_monophyletic"] == "True"]
+    single = [t for t in rooted if t["n_outgroup"] == "1"]
+    multi = [t for t in rooted if t["n_outgroup"] != "1"]
+    mono = [t for t in multi if t["outgroup_monophyletic"] == "True"]
     strong = [t for t in mono if (_f(t["root_ufboot"]) or 0) >= 95]
     fr = [_f(t["frac_ge95"]) for t in trees if _f(t["frac_ge95"]) is not None]
     secs = sum(float(t["seconds"]) for t in trees)
@@ -105,10 +107,14 @@ def trees_section(L: list[str], trees: list[dict], inputs: list[dict]) -> dict:
     s = {"trees": len(trees), "rooted": len(rooted), "outgroup_clade": len(mono),
          "root_ge95": len(strong), "frac_ge95_median": st.median(fr) if fr else None,
          "cpu_hours": secs / 3600}
-    L += [f"**{len(trees)} trees.** Of the {len(rooted)} with an outgroup, the outgroup "
-          f"forms one clade — the family is monophyletic with respect to it and the root "
-          f"is defined — in **{len(mono)}**, with UFBoot ≥ 95 on the root edge in "
-          f"**{len(strong)}**. Median share of a family's internal edges at UFBoot ≥ 95: "
+    L += [f"**{len(trees)} trees.** {len(rooted)} have an outgroup. In "
+          f"{len(single)} it is a single sequence ("
+          + ", ".join(t["family"] for t in single) + ") — the root edge is then a "
+          "terminal edge with no support value, and the root is as good as the "
+          f"outgroup's placement. Of the {len(multi)} with several outgroup sequences, "
+          f"the outgroup forms one clade — the family is monophyletic with respect to "
+          f"it and the root is defined — in **{len(mono)}**, with UFBoot ≥ 95 on the "
+          f"root edge in **{len(strong)}**. Median share of a family's internal edges at UFBoot ≥ 95: "
           f"**{s['frac_ge95_median']:.2f}**. Substitution matrices chosen: "
           + ", ".join(f"{k} {v}" for k, v in models.most_common()) +
           f". Wall time summed over families: {s['cpu_hours']:.1f} h.", ""]

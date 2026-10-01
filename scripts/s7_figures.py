@@ -71,7 +71,7 @@ def panel_b(ax, trees) -> None:
             continue
         ax.scatter(int(t["n_ingroup"]), float(t["frac_ge95"]), s=6 + int(t["cols"]) / 60,
                    color=sf_colour(t["family"]), alpha=0.85, linewidth=0)
-        if int(t["n_ingroup"]) >= 250 or float(t["frac_ge95"]) < 0.3:
+        if int(t["n_ingroup"]) >= 250 or (float(t["frac_ge95"]) < 0.3 and int(t["n_ingroup"]) >= 10):
             ax.annotate(t["family"], (int(t["n_ingroup"]), float(t["frac_ge95"])),
                         fontsize=fs.FS_NOTE, color=fs.MUTED, xytext=(3, 2),
                         textcoords="offset points")
@@ -93,6 +93,11 @@ def panel_c(ax, trees, inputs) -> None:
                     key=lambda t: (CATALOGUE[t["family"]].superfamily, t["family"]))
     for i, t in enumerate(rooted):
         clade = t["outgroup_monophyletic"] == "True"
+        single = t["n_outgroup"] == "1"
+        if single:      # one outgroup sequence: a terminal edge, no UFBoot exists
+            ax.text(2, i, "single-sequence outgroup: root edge has no support value",
+                    va="center", fontsize=fs.FS_NOTE - 1.2, color=fs.MUTED)
+            continue
         v = float(t["root_ufboot"]) if clade and t["root_ufboot"] else 0
         ax.barh(i, v if clade else 100, color=sf_colour(t["family"]) if clade else "none",
                 edgecolor=fs.FAINT if not clade else "none", hatch=None if clade else "////",
@@ -167,7 +172,7 @@ def panel_d(ax) -> None:
                       markersize=3, label=f"{g} ({n})") for g, n in cnt.most_common()]
     handles.append(Line2D([], [], marker="o", ls="", color=fs.INK, markersize=2,
                           label="node UFBoot ≥ 95"))
-    ax.legend(handles=handles, fontsize=fs.FS_NOTE, frameon=False, loc="lower left")
+    ax.legend(handles=handles, fontsize=fs.FS_NOTE, frameon=False, loc="upper left")
     fs.despine(ax, keep=("bottom",))
     fs.panel(ax, "D", "Ryanodine receptors, rooted on ITPR")
 

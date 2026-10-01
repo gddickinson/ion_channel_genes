@@ -845,3 +845,19 @@ IQ-TREE). `s4b_sweep.py assign / matrix`, `s4b_report.py`. Instrument check
 read `family_by_species.tsv` as wide format and compared 0 cells; rewritten
 to use S3b's own high-confidence profile calls). Matrix: 12,060 present
 cells, 74/75 families present somewhere.
+
+## 2026-10-01 — S7b: the tier-1 trees
+
+The detached IQ-TREE run finished overnight: 63/63 families, 0 failures,
+147.8 CPU-h (nAChR 26.7 h). `s7_trees.py parse`, `s7_report.py`,
+`s7_figures.py`. Roots: of the 30 trees with several outgroup sequences, 26
+are defined (the outgroup is one clade), 22 at UFBoot ≥ 95. The four
+failures (CNG, K2P, KCNQ, Shaker) are KcsA-rooted, as S7a's row predicted.
+Six trees have a single-sequence outgroup, whose terminal root edge has no
+support value. The first figure drew those six as zero-support bars; it now
+labels them, and the report counts them apart. Median 54 % of internal
+edges at UFBoot ≥ 95.
+
+**Decision for the user before S11:** declare per-family sister outgroups
+for the six weakly or un-rooted P-loop families, or treat them as unrooted.
+**Next by the ledger: S8.**

@@ -2,7 +2,7 @@
 
 Rendered by `scripts/s7_report.py` from `tier1_trim_compare.tsv`, `tier1_inputs.tsv` and `tier1_trees.tsv` (D13). Treefiles: `tier1/`. Bulk (alignments with outgroups, IQ-TREE output): `<data root>/trees/s7/`.
 
-![S7](figures/tier1_trim.png)
+![S7](figures/tier1_trees.png)
 
 ## 1. Trimming, decided before any tree (D41)
 
@@ -74,7 +74,75 @@ No tree at all (< 4 sequences in the D39 set): delta_glur, iglur_prok, tweety, v
 
 IQ-TREE 2 (`-m MFP -mset LG,WAG,JTT,Q.pfam -B 1000 -bnni -seed 1`) on every family; the model is ModelFinder's BIC choice among four general empirical matrices with their rate and frequency variants. Support is summarised over the family's own internal edges (the outgroup excluded).
 
-*No trees yet.*
+**63 trees.** 36 have an outgroup. In 6 it is a single sequence (ampa, clc_channel, iglur_nonvertebrate, kainate, nmda, p2x) — the root edge is then a terminal edge with no support value, and the root is as good as the outgroup's placement. Of the 30 with several outgroup sequences, the outgroup forms one clade — the family is monophyletic with respect to it and the root is defined — in **26**, with UFBoot ≥ 95 on the root edge in **22**. Median share of a family's internal edges at UFBoot ≥ 95: **0.54**. Substitution matrices chosen: Q.pfam 23, JTT 22, LG 18. Wall time summed over families: 147.8 h.
+
+**Outgroup not one clade** (root undefined — reported, not repaired): cng (outgroup kcsa_prok), k2p (outgroup kcsa_prok), kv_kcnq (outgroup kcsa_prok), kv_shaker (outgroup kcsa_prok).
+
+| family | seqs | cols | model | rooting | root UFBoot | internal edges | median UFBoot | ≥ 95 | < 70 |
+|---|---|---|---|---|---|---|---|---|---|
+| nachr | 726 | 440 | Q.pfam+R10 | on plgic_prok | 100.0 | 724 | 96.0 | 0.5276 | 0.2003 |
+| connexin | 402 | 278 | JTT+F+R9 | no declared outgroup | — | 399 | 87.0 | 0.391 | 0.3008 |
+| k2p | 380 | 302 | Q.pfam+R9 | on kcsa_prok | not a clade | 365 | 88.0 | 0.3973 | 0.2986 |
+| cng | 313 | 768 | Q.pfam+F+R10 | on kcsa_prok | not a clade | 304 | 97.0 | 0.5362 | 0.2368 |
+| kv_shaker | 312 | 458 | Q.pfam+I+R9 | on kcsa_prok | not a clade | 303 | 92.0 | 0.4587 | 0.2277 |
+| kir | 298 | 377 | Q.pfam+R8 | on kcsa_prok | 100.0 | 296 | 88.0 | 0.4122 | 0.2331 |
+| gabaa | 279 | 441 | JTT+R7 | on plgic_prok | 100.0 | 277 | 93.0 | 0.4729 | 0.1949 |
+| cav | 201 | 1786 | Q.pfam+I+R8 | on kcsa_prok | 100.0 | 199 | 100.0 | 0.6884 | 0.1005 |
+| asic | 187 | 460 | Q.pfam+R8 | on deg_invertebrate | 89.0 | 185 | 98.0 | 0.5838 | 0.1838 |
+| trpc | 174 | 772 | Q.pfam+R8 | on kcsa_prok | 100.0 | 172 | 97.0 | 0.5349 | 0.2093 |
+| kv_eag | 158 | 909 | JTT+F+I+R7 | on kcsa_prok | 69.0 | 156 | 98.0 | 0.6026 | 0.2179 |
+| vdac | 146 | 282 | Q.pfam+F+I+R4 | no declared outgroup | — | 143 | 92.0 | 0.4336 | 0.2238 |
+| trpm | 145 | 1355 | JTT+F+R7 | on kcsa_prok | 100.0 | 143 | 100.0 | 0.7413 | 0.0839 |
+| osca_tmem63 | 143 | 718 | LG+F+R6 | no declared outgroup | — | 140 | 100.0 | 0.6429 | 0.1571 |
+| nav | 138 | 1947 | JTT+F+R8 | on kcsa_prok | 100.0 | 136 | 100.0 | 0.6691 | 0.1618 |
+| nmda | 131 | 1009 | JTT+F+R6 | on iglur_prok | — | 129 | 100.0 | 0.7054 | 0.1085 |
+| trpv | 115 | 683 | Q.pfam+R8 | on kcsa_prok | 100.0 | 113 | 100.0 | 0.6637 | 0.0973 |
+| p2x | 114 | 398 | Q.pfam+R6 | on p2x_nonmetazoan | — | 112 | 93.0 | 0.4732 | 0.1964 |
+| kca_slo | 106 | 1033 | LG+F+I+R7 | on kcsa_prok | 31.0 | 104 | 100.0 | 0.6731 | 0.1731 |
+| bestrophin | 103 | 447 | Q.pfam+R7 | no declared outgroup | — | 100 | 96.0 | 0.52 | 0.23 |
+| lrrc8 | 102 | 806 | JTT+F+R6 | no declared outgroup | — | 99 | 99.0 | 0.5859 | 0.1919 |
+| tpc | 100 | 732 | Q.pfam+R7 | on kcsa_prok | 99.0 | 98 | 100.0 | 0.6429 | 0.1735 |
+| kv_kcnq | 97 | 667 | JTT+I+R5 | on kcsa_prok | not a clade | 86 | 96.0 | 0.5349 | 0.1977 |
+| kv_modifier | 90 | 499 | JTT+F+I+R5 | on kcsa_prok | 92.0 | 88 | 99.0 | 0.6023 | 0.2045 |
+| itpr | 89 | 2643 | Q.pfam+F+I+R8 | is superfamily outgroup | — | 86 | 100.0 | 0.7907 | 0.0581 |
+| calhm | 82 | 311 | Q.pfam+I+R5 | no declared outgroup | — | 79 | 95.0 | 0.5063 | 0.2278 |
+| innexin | 82 | 401 | LG+I+R6 | no declared outgroup | — | 79 | 94.0 | 0.481 | 0.2025 |
+| otop | 81 | 522 | JTT+F+I+R5 | no declared outgroup | — | 78 | 100.0 | 0.6795 | 0.1282 |
+| kca_sk | 80 | 544 | JTT+I+R5 | on kcsa_prok | 100.0 | 78 | 92.0 | 0.4103 | 0.2179 |
+| kainate | 78 | 902 | JTT+I+R4 | on iglur_prok | — | 76 | 96.0 | 0.5132 | 0.2895 |
+| clc_channel | 72 | 835 | Q.pfam+R6 | on clc_prokaryotic | — | 70 | 98.0 | 0.5286 | 0.1714 |
+| mscs | 67 | 430 | Q.pfam+R6 | no declared outgroup | — | 64 | 97.0 | 0.5625 | 0.3125 |
+| glyr | 65 | 454 | JTT+R4 | on plgic_prok | 100.0 | 63 | 94.0 | 0.4762 | 0.3175 |
+| trpp | 65 | 749 | Q.pfam+I+R5 | on kcsa_prok | 100.0 | 63 | 96.0 | 0.5397 | 0.3175 |
+| hcn | 64 | 937 | JTT+F+R5 | on kcsa_prok | 100.0 | 62 | 97.0 | 0.5645 | 0.2097 |
+| ampa | 62 | 902 | JTT+G4 | on iglur_prok | — | 60 | 92.0 | 0.45 | 0.1833 |
+| trpml | 62 | 558 | LG+R6 | on kcsa_prok | 100.0 | 60 | 96.0 | 0.5 | 0.2833 |
+| ryr | 56 | 4964 | JTT+F+I+R6 | on itpr | 100.0 | 54 | 100.0 | 0.7037 | 0.0926 |
+| orai | 54 | 256 | Q.pfam+R5 | no declared outgroup | — | 51 | 84.0 | 0.3725 | 0.3529 |
+| ht3 | 52 | 457 | JTT+R5 | on plgic_prok | 100.0 | 50 | 97.0 | 0.54 | 0.2 |
+| trpa | 49 | 1125 | LG+R6 | on kcsa_prok | 100.0 | 47 | 97.0 | 0.5532 | 0.1915 |
+| tric | 48 | 292 | LG+F+I+G4 | no declared outgroup | — | 45 | 93.0 | 0.4889 | 0.3111 |
+| pannexin | 46 | 437 | JTT+I+G4 | no declared outgroup | — | 43 | 90.0 | 0.4651 | 0.2326 |
+| piezo | 45 | 2566 | Q.pfam+R6 | no declared outgroup | — | 42 | 100.0 | 0.6905 | 0.1429 |
+| tmem175 | 45 | 524 | JTT+F+R5 | no declared outgroup | — | 42 | 99.0 | 0.5714 | 0.2381 |
+| mcu | 43 | 326 | LG+R5 | no declared outgroup | — | 40 | 82.0 | 0.35 | 0.4 |
+| catsper | 41 | 421 | LG+I+G4 | on kcsa_prok | 100.0 | 39 | 99.0 | 0.5897 | 0.0513 |
+| enac | 41 | 654 | JTT+R4 | on deg_invertebrate | 99.0 | 39 | 100.0 | 0.8205 | 0.0 |
+| iglur_nonvertebrate | 38 | 916 | Q.pfam+R5 | on iglur_prok | — | 36 | 96.0 | 0.5278 | 0.1389 |
+| ano_channel | 31 | 981 | JTT+R5 | no declared outgroup | — | 28 | 100.0 | 0.6429 | 0.1429 |
+| hv1 | 26 | 308 | LG+G4 | no declared outgroup | — | 23 | 95.0 | 0.5217 | 0.087 |
+| nalcn | 24 | 1738 | LG+F+R4 | on kcsa_prok | 100.0 | 22 | 98.0 | 0.5909 | 0.2273 |
+| trpn | 19 | 1634 | LG+I+R4 | on kcsa_prok | 100.0 | 17 | 82.0 | 0.4118 | 0.2941 |
+| cftr | 14 | 1486 | JTT+F+R3 | no declared outgroup | — | 11 | 100.0 | 0.7273 | 0.0909 |
+| deg_invertebrate | 12 | 762 | LG+I+G4 | is superfamily outgroup | — | 9 | 81.0 | 0.2222 | 0.3333 |
+| p2x_nonmetazoan | 10 | 376 | LG+G4 | is superfamily outgroup | — | 7 | 95.0 | 0.5714 | 0.2857 |
+| ano_scramblase | 9 | 796 | LG+G4 | no declared outgroup | — | 6 | 99.0 | 0.6667 | 0.1667 |
+| clic | 8 | 242 | LG+G4 | no declared outgroup | — | 5 | 97.0 | 0.6 | 0.2 |
+| plgic_invertebrate | 7 | 446 | Q.pfam+I+R2 | on plgic_prok | 100.0 | 5 | 95.0 | 0.6 | 0.2 |
+| mscl | 6 | 143 | Q.pfam+R2 | no declared outgroup | — | 3 | 89.0 | 0.3333 | 0.0 |
+| plgic_prok | 5 | 375 | LG+G4 | is superfamily outgroup | — | 2 | 49.0 | 0.0 | 1.0 |
+| kcsa_prok | 4 | 350 | LG+G4 | is superfamily outgroup | — | 1 | 78.0 | 0.0 | 0.0 |
+| tmc | 4 | 857 | LG+G4 | no declared outgroup | — | 1 | 53.0 | 0.0 | 1.0 |
 
 ## 4. What these trees are and are not
 

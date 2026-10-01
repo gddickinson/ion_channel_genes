@@ -808,3 +808,21 @@ CFTR. Plants and their relatives instead carry many two-pore channels, K2P
 channels and their own glutamate-receptor branch. These are calls from the
 species' annotated proteins. An empty cell means "not in the annotation",
 not a confirmed absence *(confirmed absences: S5's 52 genomes; pending S10)*.
+
+## S7b — the family trees (2026-10-01)
+
+**Each of 63 channel families now has its own evolutionary tree, and most
+can be oriented in time.** The 36 families with a designated outgroup
+(the nearest relative outside the family) are mostly rooted confidently.
+The trees of the ligand-gated pentameric receptors, the TRP channels, the
+voltage-gated sodium and calcium channels and the ryanodine receptors all
+have a well-supported root. About half of each tree's branching points are
+strongly supported. Where they are not, a family diversified faster than
+the sequences can resolve.
+
+**The bacterial potassium channel is too distant to root some potassium
+families.** For CNG channels, two-pore-domain K⁺ channels and two families
+of voltage-gated K⁺ channels, the bacterial KcsA-type outgroup falls inside
+the family tree instead of outside it. These four trees therefore have no
+defined root. A closer outgroup is needed before their branching order can
+be read as history *(pending: an outgroup decision, before S11)*.

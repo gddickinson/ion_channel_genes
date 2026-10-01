@@ -34,5 +34,12 @@
   "unrooted:no_declared_outgroup": 22,
   "unrooted:is_superfamily_outgroup": 5
  },
- "trees": {}
+ "trees": {
+  "trees": 63,
+  "rooted": 36,
+  "outgroup_clade": 26,
+  "root_ge95": 22,
+  "frac_ge95_median": 0.5362,
+  "cpu_hours": 147.83988888888888
+ }
 }

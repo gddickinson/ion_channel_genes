@@ -1,0 +1,64 @@
+family	superfamily	n_ingroup	cols	informative	model	log_likelihood	root_rule	outgroup_family	n_outgroup	outgroup_monophyletic	ingroup_monophyletic	root_ufboot	internal_edges	ufboot_median	frac_ge95	frac_lt70	seconds
+ampa	iglur	62	902	522	JTT+G4	-28351.2386	rooted	iglur_prok	1	True	True		60	92.0	0.45	0.1833	1655.8
+ano_channel	tmem16_like	31	981	625	JTT+R5	-27256.3916	unrooted:no_declared_outgroup		0				28	100.0	0.6429	0.1429	871.7
+ano_scramblase	tmem16_like	9	796	412	LG+G4	-12784.6373	unrooted:no_declared_outgroup		0				6	99.0	0.6667	0.1667	90.6
+asic	deg_enac	187	460	443	Q.pfam+R8	-114844.9326	rooted	deg_invertebrate	2	True	True	89.0	185	98.0	0.5838	0.1838	15871.9
+bestrophin	bestrophin	103	447	434	Q.pfam+R7	-53897.0828	unrooted:no_declared_outgroup		0				100	96.0	0.52	0.23	4131.1
+calhm	calhm	82	311	300	Q.pfam+I+R5	-31697.8451	unrooted:no_declared_outgroup		0				79	95.0	0.5063	0.2278	1506.7
+catsper	ploop	41	421	411	LG+I+G4	-26904.3179	rooted	kcsa_prok	3	True	True	100.0	39	99.0	0.5897	0.0513	522.4
+cav	ploop	201	1786	1763	Q.pfam+I+R8	-282760.8621	rooted	kcsa_prok	3	True	True	100.0	199	100.0	0.6884	0.1005	25175.9
+cftr	abc_channel	14	1486	751	JTT+F+R3	-20950.6232	unrooted:no_declared_outgroup		0				11	100.0	0.7273	0.0909	195.6
+clc_channel	clc	72	835	758	Q.pfam+R6	-61534.7646	rooted	clc_prokaryotic	1	True	True		70	98.0	0.5286	0.1714	3373.6
+clic	clic	8	242	135	LG+G4	-2972.9223	unrooted:no_declared_outgroup		0				5	97.0	0.6	0.2	25.7
+cng	ploop	313	768	767	Q.pfam+F+R10	-309987.7381	rooted	kcsa_prok	3	False	False		304	97.0	0.5362	0.2368	42548.9
+connexin	connexin	402	278	269	JTT+F+R9	-78545.9270	unrooted:no_declared_outgroup		0				399	87.0	0.391	0.3008	22057.2
+deg_invertebrate	deg_enac	12	762	467	LG+I+G4	-13444.8801	unrooted:is_superfamily_outgroup		0				9	81.0	0.2222	0.3333	147.3
+enac	deg_enac	41	654	580	JTT+R4	-34584.4099	rooted	deg_invertebrate	2	True	True	99.0	39	100.0	0.8205	0.0	719.9
+gabaa	cysloop	279	441	405	JTT+R7	-71006.7341	rooted	plgic_prok	2	True	True	100.0	277	93.0	0.4729	0.1949	18657.4
+glyr	cysloop	65	454	281	JTT+R4	-13910.8144	rooted	plgic_prok	2	True	True	100.0	63	94.0	0.4762	0.3175	1099.6
+hcn	ploop	64	937	731	JTT+F+R5	-43251.2189	rooted	kcsa_prok	3	True	True	100.0	62	97.0	0.5645	0.2097	2751.9
+ht3	cysloop	52	457	417	JTT+R5	-27411.4961	rooted	plgic_prok	2	True	True	100.0	50	97.0	0.54	0.2	1059.6
+hv1	hv	26	308	287	LG+G4	-10630.3809	unrooted:no_declared_outgroup		0				23	95.0	0.5217	0.087	191.9
+iglur_nonvertebrate	iglur	38	916	864	Q.pfam+R5	-49999.4630	rooted	iglur_prok	1	True	True		36	96.0	0.5278	0.1389	1383.3
+innexin	innexin_like	82	401	386	LG+I+R6	-47524.1972	unrooted:no_declared_outgroup		0				79	94.0	0.481	0.2025	2337.5
+itpr	ca_release	89	2643	2583	Q.pfam+F+I+R8	-234138.4914	unrooted:is_superfamily_outgroup		0				86	100.0	0.7907	0.0581	18863.4
+k2p	ploop	380	302	299	Q.pfam+R9	-130531.2512	rooted	kcsa_prok	3	False	False		365	88.0	0.3973	0.2986	22673.4
+kainate	iglur	78	902	732	JTT+I+R4	-40649.0811	rooted	iglur_prok	1	True	True		76	96.0	0.5132	0.2895	2175.9
+kca_sk	ploop	80	544	519	JTT+I+R5	-36941.1389	rooted	kcsa_prok	3	True	True	100.0	78	92.0	0.4103	0.2179	2994.3
+kca_slo	ploop	106	1033	1009	LG+F+I+R7	-98387.7546	rooted	kcsa_prok	3	True	True	31.0	104	100.0	0.6731	0.1731	16722.1
+kcsa_prok	ploop	4	350	9	LG+G4	-2983.5921	unrooted:is_superfamily_outgroup		0				1	78.0	0.0	0.0	8.2
+kir	ploop	298	377	371	Q.pfam+R8	-85339.0683	rooted	kcsa_prok	3	True	True	100.0	296	88.0	0.4122	0.2331	23962.9
+kv_eag	ploop	158	909	887	JTT+F+I+R7	-110535.2595	rooted	kcsa_prok	3	True	True	69.0	156	98.0	0.6026	0.2179	15174.0
+kv_kcnq	ploop	97	667	602	JTT+I+R5	-52024.7544	rooted	kcsa_prok	3	False	False		86	96.0	0.5349	0.1977	3628.0
+kv_modifier	ploop	90	499	439	JTT+F+I+R5	-33979.3319	rooted	kcsa_prok	3	True	True	92.0	88	99.0	0.6023	0.2045	2425.3
+kv_shaker	ploop	312	458	444	Q.pfam+I+R9	-104109.1308	rooted	kcsa_prok	3	False	False		303	92.0	0.4587	0.2277	24338.0
+lrrc8	innexin_like	102	806	694	JTT+F+R6	-52840.5342	unrooted:no_declared_outgroup		0				99	99.0	0.5859	0.1919	11604.8
+mcu	mcu	43	326	291	LG+R5	-16740.4042	unrooted:no_declared_outgroup		0				40	82.0	0.35	0.4	665.2
+mscl	msc	6	143	41	Q.pfam+R2	-1663.5424	unrooted:no_declared_outgroup		0				3	89.0	0.3333	0.0	8.0
+mscs	msc	67	430	427	Q.pfam+R6	-47124.0691	unrooted:no_declared_outgroup		0				64	97.0	0.5625	0.3125	1538.2
+nachr	cysloop	726	440	437	Q.pfam+R10	-340426.9948	rooted	plgic_prok	2	True	True	100.0	724	96.0	0.5276	0.2003	96301.3
+nalcn	ploop	24	1738	1103	LG+F+R4	-36399.5423	rooted	kcsa_prok	3	True	True	100.0	22	98.0	0.5909	0.2273	1299.4
+nav	ploop	138	1947	1806	JTT+F+R8	-207509.4789	rooted	kcsa_prok	3	True	True	100.0	136	100.0	0.6691	0.1618	26272.6
+nmda	iglur	131	1009	966	JTT+F+R6	-117961.2103	rooted	iglur_prok	1	True	True		129	100.0	0.7054	0.1085	8657.0
+orai	orai	54	256	206	Q.pfam+R5	-11047.6954	unrooted:no_declared_outgroup		0				51	84.0	0.3725	0.3529	752.7
+osca_tmem63	tmem16_like	143	718	714	LG+F+R6	-134596.5162	unrooted:no_declared_outgroup		0				140	100.0	0.6429	0.1571	9535.4
+otop	otopetrin	81	522	514	JTT+F+I+R5	-55424.6220	unrooted:no_declared_outgroup		0				78	100.0	0.6795	0.1282	2204.6
+p2x	p2x	114	398	366	Q.pfam+R6	-51103.7892	rooted	p2x_nonmetazoan	1	True	True		112	93.0	0.4732	0.1964	3334.0
+p2x_nonmetazoan	p2x	10	376	242	LG+G4	-6644.0201	unrooted:is_superfamily_outgroup		0				7	95.0	0.5714	0.2857	58.6
+pannexin	innexin_like	46	437	411	JTT+I+G4	-20055.2478	unrooted:no_declared_outgroup		0				43	90.0	0.4651	0.2326	676.0
+piezo	piezo	45	2566	2343	Q.pfam+R6	-138464.8135	unrooted:no_declared_outgroup		0				42	100.0	0.6905	0.1429	4072.3
+plgic_invertebrate	cysloop	7	446	169	Q.pfam+I+R2	-6394.6543	rooted	plgic_prok	2	True	True	100.0	5	95.0	0.6	0.2	38.0
+plgic_prok	cysloop	5	375	45	LG+G4	-4348.8239	unrooted:is_superfamily_outgroup		0				2	49.0	0.0	1.0	15.2
+ryr	ca_release	56	4964	3945	JTT+F+I+R6	-230963.1038	rooted	itpr	3	True	True	100.0	54	100.0	0.7037	0.0926	15615.4
+tmc	tmem16_like	4	857	30	LG+G4	-7131.3401	unrooted:no_declared_outgroup		0				1	53.0	0.0	1.0	14.4
+tmem175	tmem175	45	524	504	JTT+F+R5	-30371.1217	unrooted:no_declared_outgroup		0				42	99.0	0.5714	0.2381	996.3
+tpc	ploop	100	732	727	Q.pfam+R7	-92792.0808	rooted	kcsa_prok	3	True	True	99.0	98	100.0	0.6429	0.1735	12384.7
+tric	tric	48	292	279	LG+F+I+G4	-17949.7080	unrooted:no_declared_outgroup		0				45	93.0	0.4889	0.3111	469.5
+trpa	ploop	49	1125	1079	LG+R6	-81246.9863	rooted	kcsa_prok	3	True	True	100.0	47	97.0	0.5532	0.1915	3117.9
+trpc	ploop	174	772	764	Q.pfam+R8	-116258.9129	rooted	kcsa_prok	3	True	True	100.0	172	97.0	0.5349	0.2093	17550.3
+trpm	ploop	145	1355	1324	JTT+F+R7	-193129.2015	rooted	kcsa_prok	3	True	True	100.0	143	100.0	0.7413	0.0839	14399.7
+trpml	ploop	62	558	519	LG+R6	-41331.7243	rooted	kcsa_prok	3	True	True	100.0	60	96.0	0.5	0.2833	2291.2
+trpn	ploop	19	1634	1291	LG+I+R4	-45530.8144	rooted	kcsa_prok	3	True	True	100.0	17	82.0	0.4118	0.2941	760.7
+trpp	ploop	65	749	720	Q.pfam+I+R5	-54713.7923	rooted	kcsa_prok	3	True	True	100.0	63	96.0	0.5397	0.3175	2145.8
+trpv	ploop	115	683	663	Q.pfam+R8	-87783.1159	rooted	kcsa_prok	3	True	True	100.0	113	100.0	0.6637	0.0973	13990.4
+vdac	porin	146	282	280	Q.pfam+F+I+R4	-40491.2926	unrooted:no_declared_outgroup		0				143	92.0	0.4336	0.2238	2113.0
