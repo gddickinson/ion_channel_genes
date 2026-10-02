@@ -73,7 +73,7 @@ def main() -> int:
               fontsize=fs.FS_NOTE - 0.6, frameon=False, loc="upper center",
               bbox_to_anchor=(0.45, -0.005), ncol=2)
     fig.suptitle("Families added after S20, in the 52 genomes (S5 r4)",
-                 fontsize=fs.FS_TITLE, x=0.02, ha="left")
+                 fontsize=fs.FS_TITLE, x=0.02, ha="left", fontweight="normal")
     fig.tight_layout()
     print("\n".join(map(str, fs.save(fig, D / "figures" / "genome_r4"))))
     return 0

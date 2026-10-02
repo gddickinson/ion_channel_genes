@@ -227,7 +227,7 @@ def cmd_figure(_a) -> None:
             return "animal TMEM87 (PF21901)" if m["gold_pf21901"] == "1" else "animal GOST"
         return {"plant": "plant / alga", "algae": "plant / alga", "fungi": "fungus",
                 "holozoa": "holozoan"}.get(m["group"], "other protist")
-    fig, ax = plt.subplots(figsize=(fs.W_HALF + 1.2, 7.0))
+    fig, ax = plt.subplots(figsize=(fs.W_HALF + 1.2, 7.6))
     for it in items:
         if it[0] == "node":
             _, name, x, y, kids = it
@@ -251,7 +251,8 @@ def cmd_figure(_a) -> None:
     hs = [Line2D([], [], marker="o", ls="", color=c, markersize=3.5, label=k) for k, c in col.items()]
     hs.append(Line2D([], [], marker="s", ls="", color=fs.FAINT, markersize=3.5,
                      label="non-animal, profile-called TMEM87"))
-    ax.legend(handles=hs, fontsize=fs.FS_NOTE - 0.6, frameon=False, loc="lower left")
+    ax.legend(handles=hs, fontsize=fs.FS_NOTE - 0.6, frameon=False, ncol=2,
+              loc="upper left", bbox_to_anchor=(0.0, -0.07))
     fs.despine(ax, keep=("bottom",))
     fs.panel(ax, "", "The GOST superfamily (unrooted, drawn as rooted by IQ-TREE)")
     fig.tight_layout()

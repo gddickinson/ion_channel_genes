@@ -114,10 +114,8 @@ def main() -> int:
                              gridspec_kw={"width_ratios": [1.18, 1.0]})
     panel_a(axes[0])
     panel_b(axes[1], share)
-    for ax, letter in zip(axes, "AB"):
-        ax.text(-0.02, 1.03, letter, transform=ax.transAxes,
-                fontsize=fs.FS_LETTER, fontweight="bold", color=fs.INK,
-                ha="right", va="bottom")
+    fs.panel(axes[0], "A", "Human pore-forming genes per superfamily")
+    fs.panel(axes[1], "B", "Domains carried by more than one family")
     fig.tight_layout()
     out = args.dir / "figures" / "catalogue_scope"
     paths = fs.save(fig, out)

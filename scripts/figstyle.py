@@ -289,9 +289,37 @@ def confidence_handles(labels=None):
     return [Patch(facecolor=CONFIDENCE[k], label=k) for k in labels]
 
 
-def save(fig, stem, formats=("png", "pdf"), dpi: int = 400) -> list[Path]:
-    """Save one figure to every format, and report if it exceeds the page."""
+def check_titles(fig, name: str, legend_in: str = "") -> None:
+    """Every figure is titled: a figure title, or a title on every panel.
+
+    Project rule (CLAUDE.md, *Figures*): a reader must know what a figure is
+    without hunting for its caption. A colour bar is not a panel. The one
+    exception is a figure whose title and legend live in a document beside
+    it (the review's numbered figures) — `legend_in` names that document,
+    so the exception is stated at the call, never silent.
+    """
+    if legend_in:
+        return
+    sup = fig._suptitle.get_text().strip() if fig._suptitle else ""
+    panels = [ax for ax in fig.axes if ax.get_visible() and ax.get_label() != "<colorbar>"]
+    untitled = [ax for ax in panels
+                if not any(ax.get_title(loc=l).strip() for l in ("left", "center", "right"))]
+    if not sup and untitled:
+        raise RuntimeError(
+            f"{name}: {len(untitled)} of {len(panels)} panel(s) have no title and "
+            f"the figure has none — give each panel a title (figstyle.panel) or the "
+            f"figure a suptitle; pass legend_in= only if the legend lives elsewhere")
+
+
+def save(fig, stem, formats=("png", "pdf"), dpi: int = 400,
+         legend_in: str = "") -> list[Path]:
+    """Save one figure to every format, and report if it exceeds the page.
+
+    Refuses an untitled figure (`check_titles`); `legend_in` names the
+    document holding the legend of a figure deliberately drawn without one.
+    """
     stem = Path(stem)
+    check_titles(fig, stem.name, legend_in)
     stem.parent.mkdir(parents=True, exist_ok=True)
     w, h = fig.get_size_inches()
     if w > W_FULL + 0.01:

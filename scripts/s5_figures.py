@@ -70,6 +70,9 @@ def main() -> int:
     ax.legend(handles=[Patch(color=c, label=l) for _, l, c in VERDICT if l],
               fontsize=fs.FS_NOTE - 0.6, frameon=False, loc="upper center",
               bbox_to_anchor=(0.5, -0.005), ncol=4)
+    fig.suptitle("Every census family in every panel species, checked in the genome",
+                 x=0.01, ha="left", fontsize=fs.FS_TITLE, color=fs.INK,
+                 fontweight="normal")
     fig.tight_layout()
     print("\n".join(map(str, fs.save(fig, D / "figures" / "presence_matrix"))))
     return 0

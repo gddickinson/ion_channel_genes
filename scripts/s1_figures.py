@@ -79,9 +79,14 @@ def panel_b(ax) -> None:
     ax.set_yticks(list(y), [r["hazard"] for r in rows], fontsize=fs.FS_TICK - 0.8)
     ax.invert_yaxis()
     ax.set_xlabel("panel proteins the hazard touches", fontsize=fs.FS_LABEL)
+    for i, (a, b) in enumerate(zip(ok, bad)):
+        if a + b == 0:
+            ax.text(0.08, i, "added after S1; tested in S2d", va="center",
+                    fontsize=fs.FS_NOTE - 0.6, color=fs.MUTED)
     ax.legend(fontsize=fs.FS_NOTE, frameon=False, loc="lower right")
     fs.despine(ax)
-    fs.panel(ax, "B", f"All {len(rows)} hazards exercised")
+    n_ex = sum(1 for a, b in zip(ok, bad) if a + b)
+    fs.panel(ax, "B", f"Hazards: {n_ex} of {len(rows)} exercised by this panel")
 
 
 def main() -> int:

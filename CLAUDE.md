@@ -102,6 +102,27 @@ parent project's census of them is an external check on ours.
 - A missing tool produces a missing result and a note, never a silently
   weaker method (**D28**). `MafftUnavailable` is raised, not caught.
 
+## Figures: every figure gets a title and an informative caption
+
+A figure must be understandable by someone who has not read the code or the
+report.
+
+- **Title.** Every panel carries a short descriptive title
+  (`figstyle.panel(ax, "A", "…")`), or the figure carries one overall title
+  (`fig.suptitle`). `figstyle.save()` refuses an untitled figure. The only
+  exception is a figure whose title and legend live in a document beside it
+  (the review's numbered figures), and the call must say so:
+  `save(..., legend_in="docs/review …")`.
+- **Caption.** Every figure under `results/**/figures/` has an entry in
+  `scripts/figure_notes.py`, in plain English with no unexplained
+  abbreviations, in three parts: *what it shows* (each panel), *how it was
+  made* (the method in a sentence or two) and *how to read it* (every colour,
+  line, marker, shading, number and axis scale explained). Write it **after
+  looking at the figure** (D11), and update it whenever the figure changes.
+- That one entry feeds both the README (`python3 scripts/readme_figures.py`)
+  and the dashboard. `scripts/selftest.py` fails if a figure has no
+  complete entry or the README is stale.
+
 ## Running
 
 ```

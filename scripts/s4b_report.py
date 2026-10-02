@@ -109,6 +109,9 @@ def figure(mx: list[dict]) -> None:
                   "grouped by kingdom and phylum", fontsize=fs.FS_LABEL)
     for side in ("top", "right"):
         ax.spines[side].set_visible(False)
+    fig.suptitle("Census families across 439 eukaryotic orders (proteome calls)",
+                 x=0.01, ha="left", fontsize=fs.FS_TITLE, color=fs.INK,
+                 fontweight="normal")
     fig.tight_layout()
     print("\n".join(map(str, fs.save(fig, D / "figures" / "order_matrix"))))
 

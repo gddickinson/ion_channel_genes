@@ -87,11 +87,11 @@ One headline figure per completed task, in task order, each drawn by a script fr
 
 ![What the project counts as an ion channel, and which protein domains are misleading](results/s0_baseline/figures/catalogue_scope.png)
 
-*What it shows.* A — how many human pore-forming (channel) genes fall into each superfamily, a superfamily being a group of channel families that share a common ancestor. One superfamily, the P-loop channels (voltage-gated potassium, sodium and calcium channels and their relatives), holds 143 of the ~320 genes. B — every protein domain (identified by its Pfam code, e.g. PF00520) that occurs in more than one catalogued family, and how many families carry it.
+*What it shows.* A — how many human pore-forming (channel) genes fall into each superfamily, a superfamily being a group of channel families that share a common ancestor. One superfamily, the P-loop channels (voltage-gated potassium, sodium and calcium channels and their relatives), holds 143 of the 329 genes. B — every protein domain (identified by its Pfam code, e.g. PF00520) that occurs in more than one catalogued family, and how many families carry it.
 
 *How it was made.* Counted from the project's hand-built catalogue of channel families, after every entry was checked against the live UniProt and InterPro databases.
 
-*How to read it.* A: bar length = number of human genes; bar colour = superfamily (blue P-loop, orange Cys-loop, green iGluR, violet CLC, greys for the rest). The numbers at the bar ends read 'census + control', e.g. '23+7' = 23 channel families plus 7 look-alike families kept only so they can be recognised and excluded. B: red bars are domains also found in proteins that are not channels, so finding that domain does not prove a protein is a channel; blue bars occur only in channels. PF00520 is found in 20 families, one of them an enzyme.
+*How to read it.* A: bar length = number of human genes; bar colour = superfamily (blue P-loop, orange Cys-loop, green iGluR, violet CLC, greys for the rest). The numbers at the bar ends read 'census + control', e.g. '23+9' = 23 channel families plus 9 look-alike families kept only so they can be recognised and excluded. B: red bars are domains also found in proteins that are not channels, so finding that domain does not prove a protein is a channel; blue bars occur only in channels. PF00520 is found in 20 families, one of them an enzyme.
 
 <sub>Drawn by `scripts/s0_figures.py` from the task's committed tables.</sub>
 
@@ -103,7 +103,7 @@ One headline figure per completed task, in task order, each drawn by a script fr
 
 *How it was made.* Each protein was classified with itself removed from the reference set (so it cannot simply match itself). The classifier has three kinds of test: domain-architecture rules, a selectivity-filter sequence motif, and percent identity to reference proteins.
 
-*How to read it.* A: each bar is one superfamily's test proteins, split by outcome — dark blue = named correctly by a domain rule, green = by the filter motif, light blue = by similarity to a reference protein, red = named as the wrong family, grey = no family named. 50 of 71 were named correctly; only 22 of those needed the reference comparison, so the classifier is not just finding the nearest known protein. B: blue = protein called right, red = called wrong. H2 (red) was later rewritten (S2b). H17–H20 have no bars because those hazards were added after this benchmark; they are tested in the S2d figure.
+*How to read it.* A: each bar is one superfamily's test proteins, split by outcome — dark blue = named correctly by a domain rule, green = by the filter motif, light blue = by similarity to a reference protein, red = named as the wrong family, grey = no family named. 50 of 71 were named correctly; only 22 of those needed the reference comparison, so the classifier is not just finding the nearest known protein. B: blue = protein called right, red = called wrong. H2 (red) was later rewritten (S2b). H17–H20 have no bars (marked on the figure) because those hazards were added after this benchmark; they are tested in the S2d figure.
 
 <sub>Drawn by `scripts/s1_figures.py` from the task's committed tables.</sub>
 

@@ -87,7 +87,7 @@ def fig_k_filter(rows: list[dict]) -> Path:
             color=fs.MUTED)
     R.residue_legend(ax, loc="lower center", ncol=4)
     fig.tight_layout()
-    return fs.save(fig, OUT / "fig2_potassium_filter")[0]
+    return fs.save(fig, OUT / "fig2_potassium_filter", legend_in="docs/review (numbered review figure)")[0]
 
 
 def fig_four_repeat(rows: list[dict]) -> Path:
@@ -123,7 +123,7 @@ def fig_four_repeat(rows: list[dict]) -> Path:
                       color=(fs.INK if r["status"] == "ok" else fs.FAINT),
                       fontweight="bold" if r["status"] == "ok" else "normal")
     fig.tight_layout(rect=(0.10, 0, 0.88, 1))
-    return fs.save(fig, OUT / "fig3_four_repeat_filter")[0]
+    return fs.save(fig, OUT / "fig3_four_repeat_filter", legend_in="docs/review (numbered review figure)")[0]
 
 
 def main() -> int:

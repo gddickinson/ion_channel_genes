@@ -23,7 +23,7 @@ FIGURES: list[dict] = [
                  "superfamily, a superfamily being a group of channel families "
                  "that share a common ancestor. One superfamily, the P-loop "
                  "channels (voltage-gated potassium, sodium and calcium channels "
-                 "and their relatives), holds 143 of the ~320 genes. B — every "
+                 "and their relatives), holds 143 of the 329 genes. B — every "
                  "protein domain (identified by its Pfam code, e.g. PF00520) "
                  "that occurs in more than one catalogued family, and how many "
                  "families carry it.",
@@ -33,7 +33,7 @@ FIGURES: list[dict] = [
         "read": "A: bar length = number of human genes; bar colour = superfamily "
                 "(blue P-loop, orange Cys-loop, green iGluR, violet CLC, greys "
                 "for the rest). The numbers at the bar ends read 'census + "
-                "control', e.g. '23+7' = 23 channel families plus 7 look-alike "
+                "control', e.g. '23+9' = 23 channel families plus 9 look-alike "
                 "families kept only so they can be recognised and excluded. "
                 "B: red bars are domains also found in proteins that are not "
                 "channels, so finding that domain does not prove a protein is a "
@@ -63,8 +63,9 @@ FIGURES: list[dict] = [
                 "the reference comparison, so the classifier is not just "
                 "finding the nearest known protein. B: blue = protein called "
                 "right, red = called wrong. H2 (red) was later rewritten (S2b). "
-                "H17–H20 have no bars because those hazards were added after "
-                "this benchmark; they are tested in the S2d figure.",
+                "H17–H20 have no bars (marked on the figure) because those hazards "
+                "were added after this benchmark; they are tested in the S2d "
+                "figure.",
     },
     {
         "path": "results/census_v2/figures/census_v2.png",

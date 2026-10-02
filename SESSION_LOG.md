@@ -958,3 +958,13 @@ and the ingroup's basal split is identical under the two outgroups.
 - Noticed, not fixed: overlapping labels in S7 figure panel B (gabaa/kv_shaker,
   k2p/connexin) and the GOST tree legend drawn over the tree's lower-left tips;
   the S1 panel B title says "All 20 hazards exercised" though H17–H20 have no bars.
+- Figure fixes (user request): S1 panel B retitled "Hazards: 16 of 20 exercised by
+  this panel" with H17–H20 marked "added after S1; tested in S2d"; S7 panel B
+  labels for the large-family cluster moved to a column with leader lines; GOST
+  tree legend moved below the tree. Titles added to S0 (both panels), S5b and
+  S4b; S0 redrawn from the current catalogue (now includes the r4 families).
+- **Project rule** (CLAUDE.md § Figures): every figure titled (panel titles or a
+  suptitle) and captioned in plain English in `figure_notes.py`. Enforced:
+  `figstyle.save()` refuses an untitled figure (`legend_in=` for the review's
+  numbered figures); self-test fails on a figure without a complete description
+  or a stale README. All 19 figure scripts re-run and pass.

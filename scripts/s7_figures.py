@@ -68,16 +68,31 @@ def panel_a(ax) -> None:
 
 
 def panel_b(ax, trees) -> None:
+    labels: list[tuple[int, float, str]] = []
     for t in trees:
         if t["frac_ge95"] == "":
             continue
         ax.scatter(int(t["n_ingroup"]), float(t["frac_ge95"]), s=6 + int(t["cols"]) / 60,
                    color=sf_colour(t["family"]), alpha=0.85, linewidth=0)
         if int(t["n_ingroup"]) >= 250 or (float(t["frac_ge95"]) < 0.3 and int(t["n_ingroup"]) >= 10):
-            ax.annotate(t["family"], (int(t["n_ingroup"]), float(t["frac_ge95"])),
-                        fontsize=fs.FS_NOTE, color=fs.MUTED, xytext=(3, 2),
-                        textcoords="offset points")
+            labels.append((int(t["n_ingroup"]), float(t["frac_ge95"]), t["family"]))
+    # Large families sit in one cluster at the right: label them from a
+    # column past the last dot, in height order, each with a hairline to its
+    # dot; any other labelled family is labelled beside its dot.
+    big = sorted((l for l in labels if l[0] >= 250), key=lambda l: -l[1])
+    col_x = max(l[0] for l in big) * 2.2 if big else 0
+    top = max(l[1] for l in big) + 0.04 if big else 0
+    for k, (x, y, name) in enumerate(big):
+        ax.annotate(name, (x, y), xytext=(col_x, top - 0.055 * k), textcoords="data",
+                    fontsize=fs.FS_NOTE, color=fs.MUTED, va="center",
+                    arrowprops={"arrowstyle": "-", "color": fs.FAINT, "lw": 0.4,
+                                "shrinkA": 0, "shrinkB": 2})
+    for x, y, name in (l for l in labels if l[0] < 250):
+        ax.annotate(name, (x, y), xytext=(3, 2), textcoords="offset points",
+                    fontsize=fs.FS_NOTE, color=fs.MUTED)
     ax.set_xscale("log")
+    if big:
+        ax.set_xlim(right=col_x * 4)
     ax.set_ylim(0, 1.02)
     ax.set_xlabel("sequences in the family tree", fontsize=fs.FS_LABEL)
     ax.set_ylabel("internal edges with UFBoot ≥ 95", fontsize=fs.FS_LABEL)

@@ -492,6 +492,46 @@ _q87 = lambda pf: classify(ChannelQuery(accession="x", pfam_counts=pf, tm_count=
 check("H18: the TMEM87 GOLD domain calls TMEM87; the GOST seven-TM alone calls nothing",
       (_q87({"PF06814": 1, "PF21901": 1}), _q87({"PF06814": 1})), ("tmem87", ""))
 
+# --- Figures: every figure titled and described (CLAUDE.md, *Figures*) -------
+import scripts.figure_notes as _fn                                # noqa: E402
+_figs = sorted(str(p.relative_to(ROOT)) for p in (ROOT / "results").glob("**/figures/*.png"))
+_notes = _fn.by_path()
+check("every results figure has a plain-English description (figure_notes.py)",
+      [f for f in _figs if f not in _notes], [])
+check("every description has shows / how / read / title filled in",
+      [n["path"] for n in _fn.FIGURES
+       if not all(n.get(k, "").strip() for k in ("title", "shows", "how", "read"))], [])
+import subprocess as _sp                                          # noqa: E402
+check("README 'Results in figures' is regenerated from figure_notes.py",
+      _sp.run([sys.executable, str(ROOT / "scripts" / "readme_figures.py"), "--check"]).returncode, 0)
+try:
+    import matplotlib                                             # noqa: E402
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as _plt                              # noqa: E402
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import figstyle as _fs                                        # noqa: E402
+    def _titled(make, **kw):
+        fig = make()
+        try:
+            _fs.check_titles(fig, "t", **kw)
+            return True
+        except RuntimeError:
+            return False
+        finally:
+            _plt.close(fig)
+    def _two(t0="", t1="", sup=""):
+        fig, ax = _plt.subplots(1, 2)
+        ax[0].set_title(t0); ax[1].set_title(t1, loc="left")
+        if sup:
+            fig.suptitle(sup)
+        return fig
+    check("figstyle.save refuses an untitled panel; a suptitle or legend_in= is accepted",
+          (_titled(lambda: _two("a", "b")), _titled(lambda: _two("a", "")),
+           _titled(lambda: _two(sup="s")), _titled(lambda: _two(), legend_in="doc")),
+          (True, False, True, True))
+except ImportError:
+    print("  note figstyle title check not exercised: matplotlib not importable here")
+
 print()
 if FAILURES:
     print(f"{len(FAILURES)} invariant(s) FAILED: {', '.join(FAILURES)}")

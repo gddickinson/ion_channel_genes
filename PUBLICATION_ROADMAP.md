@@ -87,7 +87,8 @@ Claude: follow this protocol in every session that touches this project.
    figures** — the README is the state-of-the-project summary for someone
    arriving cold, the dashboard is the live view; both must show what the
    task found, not just that it finished:
-   - **Figure.** Every completed task that produces results draws at least
+   - **Figure.** (Rules: CLAUDE.md § *Figures* — a title on every panel or the
+     figure, enforced by `figstyle.save()`.) Every completed task that produces results draws at least
      one headline figure from its committed tables, through
      `scripts/figstyle.py` (`save()` refuses an off-canvas bbox), into
      `results/<task dir>/figures/<name>.png` (+ `.pdf`), by a script

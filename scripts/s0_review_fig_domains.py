@@ -118,7 +118,7 @@ def fig_lengths() -> Path:
     fs.despine(ax)
     fs.hgrid(ax, axis="x")
     fig.tight_layout()
-    return fs.save(fig, OUT / "fig4_length_range")[0]
+    return fs.save(fig, OUT / "fig4_length_range", legend_in="docs/review (numbered review figure)")[0]
 
 
 def fig_domain_matrix() -> Path:
@@ -169,7 +169,7 @@ def fig_domain_matrix() -> Path:
               fontsize=fs.FS_TICK - 1.2, frameon=False,
               loc="upper left", bbox_to_anchor=(0, -0.055), ncol=2)
     fig.tight_layout()
-    return fs.save(fig, OUT / "fig5_domain_matrix")[0]
+    return fs.save(fig, OUT / "fig5_domain_matrix", legend_in="docs/review (numbered review figure)")[0]
 
 
 def fig_traps() -> Path:
@@ -219,7 +219,7 @@ def fig_traps() -> Path:
                     loc="upper left", bbox_to_anchor=(0.0, -0.06), ncol=4,
                     handlelength=1.1, handleheight=0.9, columnspacing=1.0)
     fig.tight_layout()
-    return fs.save(fig, OUT / "fig8_architecture_traps")[0]
+    return fs.save(fig, OUT / "fig8_architecture_traps", legend_in="docs/review (numbered review figure)")[0]
 
 
 def main() -> int:

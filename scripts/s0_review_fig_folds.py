@@ -104,7 +104,7 @@ def fig_folds() -> Path:
                  "nothing about helix packing or pore shape is implied.",
                  fontsize=fs.FS_TICK - 0.6, color=fs.MUTED, y=0.015)
     fig.tight_layout(rect=(0, 0.04, 1, 1))
-    return fs.save(fig, OUT / "fig1_folds")[0]
+    return fs.save(fig, OUT / "fig1_folds", legend_in="docs/review (numbered review figure)")[0]
 
 
 # ------------------------------------------------------------- newick
@@ -216,7 +216,7 @@ def fig_tree() -> Path | None:
     ax.text(0, -0.62, "numbers are ultrafast bootstrap support",
             fontsize=fs.FS_TICK - 1.6, color=fs.ACCENT, va="bottom")
     fig.tight_layout()
-    return fs.save(fig, OUT / "fig6_cysloop_tree")[0]
+    return fs.save(fig, OUT / "fig6_cysloop_tree", legend_in="docs/review (numbered review figure)")[0]
 
 
 def fig_forest() -> Path:
@@ -288,7 +288,7 @@ def fig_forest() -> Path:
             "with no branch length and no ancestor implied",
             fontsize=fs.FS_TICK - 1.6, color=fs.MUTED, va="top")
     fig.tight_layout()
-    return fs.save(fig, OUT / "fig7_forest")[0]
+    return fs.save(fig, OUT / "fig7_forest", legend_in="docs/review (numbered review figure)")[0]
 
 
 def main() -> int:
