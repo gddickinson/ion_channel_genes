@@ -44,6 +44,15 @@
  },
  "reroot": {
   "families": 6,
+  "resolved": [],
+  "unresolved": [
+   "cng",
+   "k2p",
+   "kca_slo",
+   "kv_eag",
+   "kv_kcnq",
+   "kv_shaker"
+  ],
   "basal_added": 107
  }
 }

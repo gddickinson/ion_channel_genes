@@ -83,7 +83,7 @@ FIGURES: list[tuple[str, str]] = [
     ("results/panel_density/figures/order_matrix.png",
      "S4b — every census family across 439 eukaryotic orders (proteome calls)"),
     ("results/phylogeny/figures/tier1_trees.png",
-     "S7b — 63 tier-1 family trees: support, roots from the catalogue's outgroups, RyR"),
+     "S7b/S7d — 63 tier-1 family trees: support, roots (six P-loop re-roots all unresolved, D47), RyR"),
 ]
 
 #: Auto-discovered figures are capped so the page stays a reasonable size.

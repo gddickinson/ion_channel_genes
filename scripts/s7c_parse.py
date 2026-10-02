@@ -1,4 +1,4 @@
-"""s7c_parse.py — S7c: read the re-rooted trees against the root criterion.
+"""s7c_parse.py — S7c/S7d: read the re-rooted trees against the root criterion.
 
 Called as `python3 scripts/s7c_reroot.py parse`. Writes
 
@@ -23,14 +23,16 @@ import shutil
 
 from s3_hmm_lib import read_tsv, write_tsv
 from s7_lib import OUT_DIR, TREE_DIR
-from s7_newick import ingroup_support, parse, root_partition, split_support
+from s7_newick import (ingroup_support, outgroup_intruders, parse, root_partition,
+                       split_support)
 from s7c_basal import s7c_dir
 from s7c_reroot import MIN_ROOT_UFBOOT, tree_id
 
 TREE_FIELDS = ["family", "root_set", "n_ingroup", "n_outgroup", "cols",
                "informative", "model", "outgroup_monophyletic", "root_ufboot",
                "root_clades", "root_clade_sizes", "root_clade_ufboot",
-               "internal_edges", "ufboot_median", "frac_ge95", "seconds"]
+               "root_small_clade_basal", "og_intruders", "og_intruders_basal",
+               "og_intruder_labels", "internal_edges", "ufboot_median", "frac_ge95", "seconds"]
 FAM_FIELDS = ["family", "root_sets", "n_ingroup", "n_basal", "a_one_clade",
               "b_root_ufboot_ge95", "c_same_root", "smaller_clade_jaccard",
               "verdict", "reason", "root_split_sizes",
@@ -56,6 +58,12 @@ def _restrict(part, keep: set) -> set[frozenset]:
     return {frozenset(s & keep) for s, _ in part if s & keep}
 
 
+def basal_picks(fam: str) -> set[str]:
+    """Labels of the S7c basal sequences added to a family's set (D47 (2))."""
+    return {r["label"] for r in read_tsv(OUT_DIR / "reroot_basal.tsv")
+            if r["family"] == fam and r["verdict"] == "add"}
+
+
 def tree_row(row: dict) -> tuple[dict, list | None]:
     tid = tree_id(row)
     d = s7c_dir("iqtree", tid)
@@ -70,6 +78,9 @@ def tree_row(row: dict) -> tuple[dict, list | None]:
     dest.mkdir(parents=True, exist_ok=True)
     shutil.copy(d / f"{tid}.treefile", dest / f"{tid}.treefile")
     s = ingroup_support(tree, og)
+    basal = basal_picks(row["family"])
+    intr = outgroup_intruders(tree, og)
+    small = min(part, key=lambda q: len(q[0]))[0] if part else frozenset()
     return ({"family": row["family"], "root_set": row["root_set"],
              "n_ingroup": row["n_ingroup"], "n_outgroup": len(og),
              "cols": row["cols"], "informative": row["informative"],
@@ -80,6 +91,10 @@ def tree_row(row: dict) -> tuple[dict, list | None]:
              "root_clade_sizes": "" if part is None else ",".join(str(len(p)) for p, _ in part),
              "root_clade_ufboot": "" if part is None else ",".join(
                  "" if u is None else f"{u:g}" for _, u in part),
+             "root_small_clade_basal": f"{len(small & basal)}/{len(small)}" if part else "",
+             "og_intruders": len(intr),
+             "og_intruders_basal": len(intr & basal),
+             "og_intruder_labels": ",".join(sorted(intr)[:5]) if 0 < len(intr) <= 5 else "",
              **{k: ("" if v is None else v) for k, v in s.items()},
              "seconds": run["seconds"]}, part)
 

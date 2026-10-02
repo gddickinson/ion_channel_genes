@@ -1,0 +1,13 @@
+family	root_set	n_ingroup	n_outgroup	cols	informative	model	outgroup_monophyletic	root_ufboot	root_clades	root_clade_sizes	root_clade_ufboot	root_small_clade_basal	og_intruders	og_intruders_basal	og_intruder_labels	internal_edges	ufboot_median	frac_ge95	seconds
+cng	prok_cng	336	2	765	764	Q.pfam+F+I+R10	False						157	18		327	97.0	0.5566	56224.8
+cng	sister_hcn_kv_eag	336	4	765	764	Q.pfam+F+I+R10	False						152	13		330	97.0	0.5424	59143.4
+k2p	prok_2tm_k	408	3	303	300	Q.pfam+R9	False						24	13		394	88.0	0.3756	32918.3
+k2p	sister_kir_kv_shaker	408	6	303	300	Q.pfam+R9	False						1	0	A0ABM4D6C1__Hydvul	406	85.0	0.3571	37026.6
+kca_slo	prok_6tm_k	145	3	946	940	LG+F+R8	False						80	27		136	99.0	0.6176	15698.3
+kca_slo	sister_kv_shaker_kv_kcnq	145	6	946	940	LG+F+R7	True	100.0	1:L8HDA6__Acacas;144:A0A067CW14__Sappar,A0A078AQK5__Stylem	1,144	,69	1/1	0	0		143	99.0	0.5944	12026.9
+kv_eag	prok_6tm_k	168	3	911	893	JTT+F+R8	True	100.0	1:I7MAP2__Tetthe;167:A0A078A6H0__Stylem,A0A0K3AVF4__Caeele	1,167	,98	0/1	0	0		166	99.0	0.5904	17040.6
+kv_eag	sister_hcn_cng	168	4	911	893	JTT+F+I+R8	True	100.0	2:A0AAW1PKB9___Mybis,L1K4G9__Guithe;166:A0A078A6H0__Stylem,A0A0K3AVF4__Caeele	2,166	53,44	1/2	0	0		166	99.0	0.5964	16363.7
+kv_kcnq	prok_6tm_k	99	3	676	616	JTT+I+R6	False						41	2		92	97.0	0.5543	5295.4
+kv_kcnq	sister_kv_shaker_kv_eag	99	6	676	616	JTT+R6	True	68.0	4:A1Z856__Dromel,GCA_964187895.1_OZ076453.1_21552645-22401613-__Corasp;95:A0A4W3GJU7__Calmil,A0A4W3HLN3__Calmil	4,95	57,29	0/4	0	0		97	96.0	0.5258	4300.7
+kv_shaker	prok_6tm_k	317	3	445	433	Q.pfam+I+R8	False						4	1	A0A4D9CT78__Nansal,A0ABM4CGI6__Hydvul,A0ABM4CGM1__Hydvul,A0ABM4CLI9__Hydvul	313	92.0	0.4345	28670.8
+kv_shaker	sister_kv_kcnq_kv_eag	317	4	445	433	Q.pfam+I+R9	False						151	5		304	93.0	0.4704	31922.9

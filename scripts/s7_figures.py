@@ -141,7 +141,7 @@ def panel_c(ax, trees, inputs) -> None:
                   fontsize=fs.FS_LABEL)
     ax.text(102, len(rooted) - 0.2, "occ.", fontsize=fs.FS_NOTE - 0.6, color=fs.MUTED)
     c = Counter(t["root_rule"].split(":")[-1] for t in trees if not t["outgroup_family"])
-    ax.text(0.02, -0.075 if len(rooted) > 30 else -0.12,
+    ax.text(0.02, (-0.115 if rr else -0.075) if len(rooted) > 30 else -0.12,
             "unrooted: " + ", ".join(f"{k.replace('_', ' ')} {v}" for k, v in c.items()),
             transform=ax.transAxes, fontsize=fs.FS_NOTE, color=fs.MUTED, va="top")
     fs.despine(ax)

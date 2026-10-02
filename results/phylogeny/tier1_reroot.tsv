@@ -1,0 +1,7 @@
+family	root_sets	n_ingroup	n_basal	a_one_clade	b_root_ufboot_ge95	c_same_root	smaller_clade_jaccard	verdict	reason	root_split_sizes	s7b_outgroup	s7b_one_clade	s7b_root_ufboot	s7b_split_on_shared
+cng	prok_cng,sister_hcn_kv_eag	336	23	False	False	False		unresolved	outgroup not one clade		kcsa_prok	False		
+k2p	prok_2tm_k,sister_kir_kv_shaker	408	28	False	False	False		unresolved	outgroup not one clade		kcsa_prok	False		
+kca_slo	prok_6tm_k,sister_kv_shaker_kv_kcnq	145	39	False	False	False		unresolved	outgroup not one clade		kcsa_prok	True	31.0	
+kv_eag	prok_6tm_k,sister_hcn_cng	168	10	True	True	False	0.0	unresolved	root moves with the outgroup		kcsa_prok	True	69.0	
+kv_kcnq	prok_6tm_k,sister_kv_shaker_kv_eag	99	2	False	False	False		unresolved	outgroup not one clade		kcsa_prok	False		
+kv_shaker	prok_6tm_k,sister_kv_kcnq_kv_eag	317	5	False	False	False		unresolved	outgroup not one clade		kcsa_prok	False		

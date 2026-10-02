@@ -17,6 +17,11 @@ def _members(rs) -> str:
     return ", ".join(list(rs.families) + [e.label for e in rs.exemplars])
 
 
+def _sup(v: str) -> str:
+    """Basal-split support, '—' for a terminal edge (no UFBoot)."""
+    return ",".join(x or "—" for x in v.split(",")) if v else "—"
+
+
 def reroot_section(L: list[str]) -> dict:
     ip = OUT_DIR / "tier1_reroot_inputs.tsv"
     if not ip.exists():
@@ -62,12 +67,35 @@ def reroot_section(L: list[str]) -> dict:
         return {"families": len(fams), "basal_added": sum(added.values())}
     trees, res = read_tsv(tp), read_tsv(fp)
     L += ["| family | tree | seqs | model | outgroup one clade | root UFBoot | "
-          "basal split (sizes) | split UFBoot | ≥ 95 |", "|---|---|---|---|---|---|---|---|---|"]
+          "basal split (sizes) | split UFBoot | basal picks in smaller clade | "
+          "ingroup inside the outgroup's clade (basal picks) | ≥ 95 |",
+          "|---|---|---|---|---|---|---|---|---|---|---|"]
     for t in trees:
         L.append(f"| {t['family']} | {t['root_set']} | {t['n_ingroup']} | {t['model']} | "
                  f"{t['outgroup_monophyletic']} | {t['root_ufboot'] or '—'} | "
-                 f"{t['root_clade_sizes'] or '—'} | {t['root_clade_ufboot'] or '—'} | "
-                 f"{t['frac_ge95']} |")
+                 f"{t['root_clade_sizes'] or '—'} | {_sup(t['root_clade_ufboot'])} | "
+                 f"{t['root_small_clade_basal'] or '—'} | "
+                 f"{t['og_intruders']} ({t['og_intruders_basal']}) | {t['frac_ge95']} |")
+    L += ["", "*Ingroup inside the outgroup's clade* is a near-miss measure, not a test: "
+          "the fewest ingroup sequences sharing one side of an edge with the whole "
+          "outgroup (0 when it is one clade; `s7_newick.outgroup_intruders`), with how "
+          "many are S7c basal picks. It never makes an outgroup count as one clade."]
+    near = [t for t in trees if 0 < int(t["og_intruders"]) <= 5]
+    defined = [t for t in trees if t["root_clade_sizes"]]
+    if near:
+        L += ["", "**Near misses:** " + "; ".join(
+            f"{t['family']} / {t['root_set']} — {t['og_intruders']} ingroup "
+            f"sequence(s) inside the outgroup clade ({t['og_intruder_labels']})"
+            for t in near) + "."]
+    if defined:
+        L += ["", f"**Where a root is defined ({len(defined)} trees), it splits off a "
+              "handful of sequences, never two substantial clades:** " + "; ".join(
+                  f"{t['family']} / {t['root_set']} {t['root_clade_sizes']} "
+                  f"(smaller side {t['root_clades'].split(';')[0].split(':')[1]}; "
+                  f"UFBoot {_sup(t['root_clade_ufboot'])})" for t in defined)
+              + ". A root that isolates one to four sequences is the "
+              "pattern long-branch attraction to a distant outgroup produces; "
+              "the criterion does not depend on that reading."]
     L += ["", "| family | (a) one clade | (b) UFBoot ≥ 95 | (c) same root | smaller-clade "
           "Jaccard | verdict | S7b (KcsA): one clade / root UFBoot | S7b split vs new |",
           "|---|---|---|---|---|---|---|---|"]

@@ -426,7 +426,7 @@ check("the trim mask is one column set for every row; informative = 2 states x 2
 
 # --- S7c: per-family outgroups and the root criterion (D47) ------------------
 from dataclasses import replace as _replace                     # noqa: E402
-from scripts.s7_newick import root_partition as _rp             # noqa: E402
+from scripts.s7_newick import root_partition as _rp, outgroup_intruders as _oi  # noqa: E402
 from scripts.s7c_parse import criteria as _crit                 # noqa: E402
 from src.catalogue import registry as _reg, RootSet as _RS     # noqa: E402
 _bad = {"one_set": (_RS("x", families=("kir",)),),
@@ -444,9 +444,9 @@ check("S7c root sets: two per family, never the family itself, inside its superf
 _ta = _nwk("(((a,b)90,(c,d)97)99,(P1,P2)100);")
 _tb = _nwk("((S1,S2)100,((a,b)88,(c,d)96)98);")
 _ra, _rb = _rp(_ta, {"P1", "P2"}), _rp(_tb, {"S1", "S2"})
-check("S7c root split: same basal split under two outgroups; none for a non-clade",
-      ({s for s, _ in _ra} == {s for s, _ in _rb}, _rp(_nwk("((a,P1),(b,P2),c);"), {"P1", "P2"})),
-      (True, None))
+check("S7c root split: same under two outgroups; none for a non-clade (S7d: near miss)",
+      ({s for s, _ in _ra} == {s for s, _ in _rb}, _rp(_nwk("((a,P1),(b,P2),c);"), {"P1", "P2"}),
+       sorted(_oi(_nwk("((a,(P1,(b,P2))),c,d);"), {"P1", "P2"})), _oi(_ta, {"P1", "P2"})), (True, None, ["b"], frozenset()))
 _row = lambda m, u: {"outgroup_monophyletic": m, "root_ufboot": u}  # noqa: E731
 check("S7c criterion: resolved only if one clade, UFBoot >= 95 and the same split",
       [_crit(t)[4] for t in ([(_row(True, 99), _ra), (_row(True, 96), _rb)],

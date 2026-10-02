@@ -840,3 +840,26 @@ support. The trees also gain about 100 channels from sponges, comb jellies,
 cnidarians, protists, fungi and plants, so the deepest branches are no longer
 represented by animals alone. Which of the six families end up with a
 trustworthy root is *(pending: S7d)*.
+
+### S7d — the potassium-channel family trees still cannot be rooted (2026-10-02)
+
+**Even with closer outgroups, we cannot tell where six potassium-channel family
+trees begin.** S7b found that the distant bacterial KcsA-type channel was a poor
+outgroup for six families: CNG channels, two-pore-domain K⁺ channels, KCNQ,
+Shaker-type Kv, BK/Slo and EAG. Each was rebuilt twice, once with a bacterial
+channel of the same build (e.g. KvAP) and once with two related animal
+families, with early-branching protist, sponge and cnidarian members added.
+The rule set in advance was that a root counts only if both outgroups place it
+in the same spot with strong support. **No family met it.** In 8 of the 12
+trees the outgroup does not even stay together: its sequences land on
+opposite sides of the family's deep branches. In EAG, both outgroups give a
+well-supported root, but in different places. Wherever a root does appear, it
+separates just one to four odd sequences (an amoeba, a ciliate, a cryptophyte)
+from the rest of the family. That is what a distant outgroup pulling on a
+fast-evolving sequence looks like, not what a real deepest split looks like.
+
+So the order in which these families diversified cannot yet be read from
+their trees. The trees still resolve relationships *within* each family, with
+about half of their branch points strongly supported. Rooting them needs a
+method that does not depend on an outgroup *(pending: S11 — non-reversible
+model or reconciliation with the species tree)*.

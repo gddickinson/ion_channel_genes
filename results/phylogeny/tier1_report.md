@@ -170,7 +170,37 @@ S7b's KcsA/MthK/NaK outgroup was not one clade in four P-loop families and weakl
 
 **The root criterion, fixed before any re-rooted tree:** in both trees (a) the outgroup is one clade and (b) its edge has UFBoot ≥ 95, and (c) the ingroup's basal split is *identical* under the two outgroups. Anything else is `unresolved`; no root is picked by how it looks.
 
-*Trees not yet built* (detached IQ-TREE run; `s7c_reroot.py parse` fills this section).
+| family | tree | seqs | model | outgroup one clade | root UFBoot | basal split (sizes) | split UFBoot | basal picks in smaller clade | ingroup inside the outgroup's clade (basal picks) | ≥ 95 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| cng | prok_cng | 336 | Q.pfam+F+I+R10 | False | — | — | — | — | 157 (18) | 0.5566 |
+| cng | sister_hcn_kv_eag | 336 | Q.pfam+F+I+R10 | False | — | — | — | — | 152 (13) | 0.5424 |
+| k2p | prok_2tm_k | 408 | Q.pfam+R9 | False | — | — | — | — | 24 (13) | 0.3756 |
+| k2p | sister_kir_kv_shaker | 408 | Q.pfam+R9 | False | — | — | — | — | 1 (0) | 0.3571 |
+| kca_slo | prok_6tm_k | 145 | LG+F+R8 | False | — | — | — | — | 80 (27) | 0.6176 |
+| kca_slo | sister_kv_shaker_kv_kcnq | 145 | LG+F+R7 | True | 100.0 | 1,144 | —,69 | 1/1 | 0 (0) | 0.5944 |
+| kv_eag | prok_6tm_k | 168 | JTT+F+R8 | True | 100.0 | 1,167 | —,98 | 0/1 | 0 (0) | 0.5904 |
+| kv_eag | sister_hcn_cng | 168 | JTT+F+I+R8 | True | 100.0 | 2,166 | 53,44 | 1/2 | 0 (0) | 0.5964 |
+| kv_kcnq | prok_6tm_k | 99 | JTT+I+R6 | False | — | — | — | — | 41 (2) | 0.5543 |
+| kv_kcnq | sister_kv_shaker_kv_eag | 99 | JTT+R6 | True | 68.0 | 4,95 | 57,29 | 0/4 | 0 (0) | 0.5258 |
+| kv_shaker | prok_6tm_k | 317 | Q.pfam+I+R8 | False | — | — | — | — | 4 (1) | 0.4345 |
+| kv_shaker | sister_kv_kcnq_kv_eag | 317 | Q.pfam+I+R9 | False | — | — | — | — | 151 (5) | 0.4704 |
+
+*Ingroup inside the outgroup's clade* is a near-miss measure, not a test: the fewest ingroup sequences sharing one side of an edge with the whole outgroup (0 when it is one clade; `s7_newick.outgroup_intruders`), with how many are S7c basal picks. It never makes an outgroup count as one clade.
+
+**Near misses:** k2p / sister_kir_kv_shaker — 1 ingroup sequence(s) inside the outgroup clade (A0ABM4D6C1__Hydvul); kv_shaker / prok_6tm_k — 4 ingroup sequence(s) inside the outgroup clade (A0A4D9CT78__Nansal,A0ABM4CGI6__Hydvul,A0ABM4CGM1__Hydvul,A0ABM4CLI9__Hydvul).
+
+**Where a root is defined (4 trees), it splits off a handful of sequences, never two substantial clades:** kca_slo / sister_kv_shaker_kv_kcnq 1,144 (smaller side L8HDA6__Acacas; UFBoot —,69); kv_eag / prok_6tm_k 1,167 (smaller side I7MAP2__Tetthe; UFBoot —,98); kv_eag / sister_hcn_cng 2,166 (smaller side A0AAW1PKB9___Mybis,L1K4G9__Guithe; UFBoot 53,44); kv_kcnq / sister_kv_shaker_kv_eag 4,95 (smaller side A1Z856__Dromel,GCA_964187895.1_OZ076453.1_21552645-22401613-__Corasp; UFBoot 57,29). A root that isolates one to four sequences is the pattern long-branch attraction to a distant outgroup produces; the criterion does not depend on that reading.
+
+| family | (a) one clade | (b) UFBoot ≥ 95 | (c) same root | smaller-clade Jaccard | verdict | S7b (KcsA): one clade / root UFBoot | S7b split vs new |
+|---|---|---|---|---|---|---|---|
+| cng | False | False | False |  | **unresolved** — outgroup not one clade | False / — | — |
+| k2p | False | False | False |  | **unresolved** — outgroup not one clade | False / — | — |
+| kca_slo | False | False | False |  | **unresolved** — outgroup not one clade | True / 31.0 | — |
+| kv_eag | True | True | False | 0.0 | **unresolved** — root moves with the outgroup | True / 69.0 | — |
+| kv_kcnq | False | False | False |  | **unresolved** — outgroup not one clade | False / — | — |
+| kv_shaker | False | False | False |  | **unresolved** — outgroup not one clade | False / — | — |
+
+**Resolved: 0/6** (none). **Unresolved: cng, k2p, kca_slo, kv_eag, kv_kcnq, kv_shaker** — S11 must read these families' duplication order without a root, or from reconciliation with the species tree (its own job), and say so.
 
 ## 5. What these trees are and are not
 

@@ -896,3 +896,26 @@ and the ingroup's basal split is identical under the two outgroups.
 - IQ-TREE launched detached: `<data root>/trees/s7c/run.log`.
 
 **Next: S7d** — parse, report, figure once the 12 trees finish.
+
+## 2026-10-02 — S7d: the re-rooted trees (0/6 resolved)
+
+- Detached IQ-TREE run (launched end of S7c) had finished: 12/12 trees, 0 failures,
+  87.9 run-hours summed (2 threads each; CNG 15.6 + 16.4 h).
+- `s7c_reroot.py parse` → D47 read as written: **0/6 families resolved**.
+  Outgroup one clade in 4/12 trees; EAG is one clade under both outgroups
+  (UFBoot 100 each) but its basal split differs (Jaccard 0.0). Monophyly
+  re-checked independently with Bio.Phylo (piezo1 env): identical on all 12.
+- Added a descriptive near-miss measure, `s7_newick.outgroup_intruders`
+  (fewest ingroup leaves sharing a side with the whole outgroup), and
+  per-tree columns `root_small_clade_basal`, `og_intruders`,
+  `og_intruders_basal`, `og_intruder_labels` in `tier1_reroot_trees.tsv`.
+  Near misses: K2P-sister 1 (*Hydra*), Shaker-prokaryotic 4. Verdict logic untouched.
+- Every defined root isolates 1–4 sequences (*Acanthamoeba*, *Tetrahymena*,
+  *Guillardia*…) — reported as the long-branch-attraction pattern, not tested.
+- Report § 4 extended (`s7c_report.py`); figure panel C redrawn (an overlapping
+  footnote fixed); README, dashboard caption updated.
+- Emergent: S11 rooting design (non-reversible root / reconciliation /
+  long-branch screen declared first); near-miss sequences to check as possible
+  misassignments; CNG third-prokaryote row annotated.
+
+**Next: S8** — tier-2 pore-module trees + tier-3 fold network; representatives by D8 rule before any run.

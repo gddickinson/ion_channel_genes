@@ -169,3 +169,17 @@ def root_partition(root: Node, outgroup: set[str]) -> list[tuple[frozenset[str],
                 return sorted(((leaves_away(m, a), s) for m, s in adj[a_id]
                                if m is not b), key=lambda x: (len(x[0]), sorted(x[0])))
     return None
+
+
+def outgroup_intruders(root: Node, outgroup: set[str]) -> frozenset[str]:
+    """The fewest ingroup leaves that share one side of an edge with the whole
+    outgroup — empty when the outgroup is a clade. A near-miss measure for a
+    non-clade outgroup (S7d); it never makes an outgroup count as one clade."""
+    all_leaves = frozenset(root.leaves())
+    og = frozenset(outgroup)
+    best = all_leaves - og
+    for side, _ in splits(root):
+        for s in (side, all_leaves - side):
+            if og <= s and len(s - og) < len(best):
+                best = s - og
+    return best
