@@ -5,7 +5,9 @@ Drawn from the committed tables (D13), through `figstyle.py`:
 
 * **A** — superfamily × superfamily median TM-score (TM-align, average-length
   normalisation; one AFDB model per census family cut to its comparison unit),
-  ordered by average-linkage clustering of the matrix. Literature edges boxed.
+  ordered by average-linkage clustering of the matrix, on the full 0–1 scale.
+  Hatched cells have no pair to measure (the diagonal of a one-family
+  superfamily). Literature edges boxed.
 * **B** — each literature edge: every family-pair TM-score behind it, the
   0.5 bar fixed before measuring (D48), and the best median any *other*
   superfamily pair touching either end reaches — the background the rank
@@ -61,8 +63,16 @@ def panel_matrix(ax, fig) -> None:
     for i, a in enumerate(order):
         for j, b in enumerate(order):
             m[i, j] = med.get(tuple(sorted((a, b))), np.nan)
-    cmap = LinearSegmentedColormap.from_list("tm", ["#ffffff", *fs.BLUES])
-    im = ax.imshow(m, cmap=cmap, vmin=0.2, vmax=0.9, interpolation="nearest")
+    # Full 0–1 scale, no clipping; the ramp starts at a pale tint, never white,
+    # so an unmeasured cell (no within-superfamily pair: one census family) is
+    # drawn apart from every measured value.
+    cmap = LinearSegmentedColormap.from_list("tm", ["#f4f8fd", *fs.BLUES, "#0b2a52"])
+    im = ax.imshow(np.ma.masked_invalid(m), cmap=cmap, vmin=0.0, vmax=1.0,
+                   interpolation="nearest")
+    for i, j in zip(*np.where(np.isnan(m))):
+        ax.add_patch(Rectangle((j - 0.5, i - 0.5), 1, 1, fc=fs.GRID, ec=fs.FAINT,
+                               lw=0, hatch="////"))
+
     ax.set_xticks(range(len(order)), order, rotation=90, fontsize=5)
     ax.set_yticks(range(len(order)), order, fontsize=5)
     ax.tick_params(length=0)
@@ -77,6 +87,11 @@ def panel_matrix(ax, fig) -> None:
     cb = fig.colorbar(im, ax=ax, fraction=0.04, pad=0.02)
     cb.set_label("median TM-score", fontsize=6)
     cb.ax.tick_params(labelsize=5)
+    from matplotlib.patches import Patch
+    cb.ax.legend(handles=[Patch(fc=fs.GRID, ec=fs.FAINT, lw=0, hatch="////",
+                                label="no pair:\none family")],
+                 fontsize=5, frameon=False, loc="upper left",
+                 bbox_to_anchor=(-0.3, -0.04), handlelength=1.2)
     fs.panel(ax, "A", "Fold similarity between superfamilies (tier 3)")
 
 
