@@ -1,0 +1,33 @@
+superfamily	tier2	families	kind	note
+ca_release	tree	2	module	
+cysloop	tree	7	full_length	
+deg_enac	tree	3	full_length	
+iglur	tree	6	module	
+innexin_like	tree	3	module	
+p2x	tree	2	full_length	
+ploop	tree	23	module	
+bestrophin	= tier 1	1	full_length	one census family: its tier-1 tree is the tier-2 tree
+calhm	= tier 1	1	full_length	one census family: its tier-1 tree is the tier-2 tree
+clc	= tier 1	1	full_length	one census family: its tier-1 tree is the tier-2 tree
+clic	= tier 1	1	full_length	one census family: its tier-1 tree is the tier-2 tree
+connexin	= tier 1	1	full_length	one census family: its tier-1 tree is the tier-2 tree
+gphr	= tier 1	1	full_length	one census family, and no tier-1 tree (< 4 sequences, or added after S6 — r4)
+hv	= tier 1	1	module	one census family: its tier-1 tree is the tier-2 tree
+mclc	= tier 1	1	full_length	one census family, and no tier-1 tree (< 4 sequences, or added after S6 — r4)
+mcu	= tier 1	1	full_length	one census family: its tier-1 tree is the tier-2 tree
+mitok	= tier 1	1	full_length	one census family, and no tier-1 tree (< 4 sequences, or added after S6 — r4)
+orai	= tier 1	1	full_length	one census family: its tier-1 tree is the tier-2 tree
+otopetrin	= tier 1	1	full_length	one census family: its tier-1 tree is the tier-2 tree
+pac	= tier 1	1	full_length	one census family, and no tier-1 tree (< 4 sequences, or added after S6 — r4)
+piezo	= tier 1	1	full_length	one census family: its tier-1 tree is the tier-2 tree
+porin	= tier 1	1	full_length	one census family: its tier-1 tree is the tier-2 tree
+tmco1	= tier 1	1	full_length	one census family, and no tier-1 tree (< 4 sequences, or added after S6 — r4)
+tmem109	= tier 1	1	full_length	one census family, and no tier-1 tree (< 4 sequences, or added after S6 — r4)
+tmem175	= tier 1	1	full_length	one census family: its tier-1 tree is the tier-2 tree
+tmem87	= tier 1	1	full_length	one census family, and no tier-1 tree (< 4 sequences, or added after S6 — r4)
+tric	= tier 1	1	full_length	one census family: its tier-1 tree is the tier-2 tree
+tweety	= tier 1	1	full_length	one census family, and no tier-1 tree (< 4 sequences, or added after S6 — r4)
+abc_channel	refused (D27)	1		A superfamily of one, whose relatives are all transporters. Its tier-2 'phylogeny' is a phylogeny of the ABCC subfamily, which is the correct answer and not a channel tree.
+msc	refused (D27)	2		Two families under one heading for convenience, explicitly not one superfamily: `alignable=False` stops the driver from building a tree across them.
+tmem16_like	refused (D27)	4		Homology asserted from structure, undetectable in sequence. `alignable=False` is enforced by the phylogeny driver: a tier-2 tree across this superfamily is refused, not attempted and caveated.
+viroporin	refused (D27)	1		A functional grouping, marked non-alignable so it is never treed.

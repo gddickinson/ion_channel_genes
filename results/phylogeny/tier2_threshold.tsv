@@ -1,0 +1,8 @@
+unit	kind	sequences	cells	threshold	t30	t40	t50	t60	t70	t80	t90
+ca_release	module	142	12	0.5	13	20	27	36	46	70	89
+cysloop	full_length	1136	17	0.5	61	173	281	392	519	711	924
+deg_enac	full_length	240	7	0.5	42	71	100	131	169	198	216
+iglur	module	312	13	0.5	18	25	30	40	49	61	98
+innexin_like	module	225	5	0.5	13	33	59	85	114	140	184
+p2x	full_length	124	10	0.5	10	15	32	53	86	98	109
+ploop	module	4523	192	0.3	317	558	839	1186	1562	2060	2878

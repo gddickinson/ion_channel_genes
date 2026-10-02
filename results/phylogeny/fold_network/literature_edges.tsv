@@ -1,0 +1,6 @@
+a	b	claim	median_tm	n_pairs	rank_b_for_a	rank_a_for_b	best_other	best_other_tm	verdict
+tmem16_like	tmem16_like	TMEM16, OSCA/TMEM63 and TMC share a 10-TM fold with the conduction groove between TM4 and TM6 (structural studies)	0.4839	6	1	1	tmem16_like-tmem175	0.242	not_distinguished
+iglur	ploop	the iGluR pore module is an inverted P-loop, structurally equivalent to Kir	0.6364	138	1	1	ca_release-iglur	0.5573	supported
+innexin_like	connexin	innexin/pannexin/LRRC8 and connexin build convergent large pores with no detectable sequence relationship	0.5648	3	1	1	innexin_like-tweety	0.3938	supported
+ca_release	ploop	the ITPR/RYR pore module is a P-loop channel carrying PF00520	0.556	23	2	2	iglur-ploop	0.6364	not_distinguished
+hv	ploop:VSD	Hv1's voltage-sensor domain is homologous to the VSD of the P-loop channels, without the pore domain	0.5922	1	1	1	hv-tmco1	0.479	supported

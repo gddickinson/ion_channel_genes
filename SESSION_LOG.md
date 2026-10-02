@@ -919,3 +919,30 @@ and the ingroup's basal split is identical under the two outgroups.
   misassignments; CNG third-prokaryote row annotated.
 
 **Next: S8** — tier-2 pore-module trees + tier-3 fold network; representatives by D8 rule before any run.
+
+## 2026-10-02 — S8a: tier-2 design + fold network (S8 split)
+
+- S8 split: S8a (design, inputs, detached run, fold network) / S8b (parse trees).
+- **D48** fixed before any tree or structure comparison. `s8_lib.py`,
+  `s8_tier2.py reps/prep/run`: 7 units (P-loop, iGluR, Ca²⁺-release, innexin clan
+  as pore modules; Cys-loop, P2X, DEG/ENaC full length); 21 single-family
+  superfamilies = their tier-1 tree; 4 refused (D27).
+- Representatives: central-first greedy clustering per family × group × module at
+  0.5 identity; P-loop 840 tips on 85 trimmed columns (module ~105 aa) → cap of
+  4 tips/informative site → 0.3, 317 tips. Inputs: P-loop 319 tips/90 cols,
+  Cys-loop 282/415, DEG/ENaC 101/467, innexin 59/265, P2X 33/387, iGluR 30/88,
+  Ca²⁺-release 30/104. Root-family tips restricted to the kingdom of the
+  catalogue exemplars: the 4 animal plgic_prok are Cys-loop ingroup tips.
+- `s8_itpr_span.py`: ITPR module span consistent with UniProt TM5/TM6 and the
+  6DQJ helices, GVGD inside (S6 row closed).
+- `s8_fold_network.py`: 74 AFDB models + Kv VSD node; 2,775 pairs (TM-align
+  -a T + Foldseek exhaustive). Literature edges: supported iGluR–P-loop 0.64,
+  innexin–connexin 0.57, Hv1–Kv VSD 0.59; not distinguished TMEM16 self 0.48,
+  ITPR–P-loop 0.56 (ties iGluR). RyR: no AFDB model. PACC1–DEG/ENaC 0.51 unasserted.
+  Two bugs on the way: the self-edge rank first excluded/then over-included self
+  (fixed to the stated rule before the verdicts were recorded); GluR0's S0 status
+  flag hid a resolved accession.
+- `s8_figures.py` → `results/phylogeny/figures/fold_network.png`; `s8_report.py`
+  → `tier2_report.md`. Tier-2 IQ-TREE launched detached: `<data root>/trees/s8/run.log`.
+
+**Next: S8b** — parse the tier-2 trees once the run finishes.

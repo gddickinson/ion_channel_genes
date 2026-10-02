@@ -863,3 +863,32 @@ their trees. The trees still resolve relationships *within* each family, with
 about half of their branch points strongly supported. Rooting them needs a
 method that does not depend on an outgroup *(pending: S11 — non-reversible
 model or reconciliation with the species tree)*.
+
+### S8a — which channel superfamilies share a fold (2026-10-02)
+
+Most ion-channel superfamilies share no sequence that can be aligned, so they
+cannot sit in one tree. What they can share is a 3-D shape. We compared one
+predicted structure per channel family (AlphaFold models, cut to the part the
+claim is about) and tested five relationships the literature asserts, against
+a bar set before looking.
+
+Three hold up clearly. The glutamate-receptor pore has the same shape as the
+potassium-channel pore, and resembles it more than it resembles anything else
+measured. The proton channel Hv1 has the same shape as the voltage sensor of
+Kv channels. The innexin/pannexin/LRRC8 large pores look most like connexins.
+Two do not pass as written. The TMEM16 scramblases, OSCA and TMC channels
+clearly resemble each other far more than anything else (similarity twice
+their best outside match), but they fall just short of the bar, probably
+because the whole proteins, cytosolic domains included, were compared
+*(pending: S12/S18 — TM-region comparison)*. The IP3 receptor's pore looks
+like a P-loop pore, but no more like the potassium channel's than like the
+glutamate receptor's; this test cannot say which it is nearer. Ryanodine
+receptors have no predicted structure (they are too long) and were not measured.
+
+One resemblance nobody asserted: the proton-activated chloride channel PACC1
+looks like the ASIC/ENaC channels, both trimers with two membrane helices and a
+large extracellular domain *(pending: S18 — whether this is known and whether
+there is sequence signal)*.
+
+The superfamily trees (tier 2) were set up the same way, with sampling, roots
+and methods fixed in advance. Their results come in S8b.

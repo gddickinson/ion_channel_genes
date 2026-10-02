@@ -1,0 +1,4 @@
+accession	module_start	module_end	uniprot_tm5	uniprot_tm6	start_minus_tm5	end_minus_tm6	filter_GVGD	structure	tm5_helix	pore_helix	tm6_helix	verdict
+Q14571	2395	2544	2395-2415	2522-2542	0	2	2499					consistent
+Q14573	2369	2520	2369-2389	2497-2517	0	3	2475	6DQJ	2366-2390	2458-2468	2490-2536	consistent
+Q14643	2449	2601	2449-2469	2578-2598	0	3	2556					consistent

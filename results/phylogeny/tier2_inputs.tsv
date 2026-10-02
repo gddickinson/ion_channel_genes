@@ -1,0 +1,8 @@
+unit	kind	n_tips	n_families	root_family	n_outgroup	outgroup_excluded	exemplars_added	cols	informative	gap_frac	input_sha256
+ca_release	module	30	2	itpr	25		itpr__EX_Hs_ITPR1,itpr__EX_Hs_ITPR2,itpr__EX_Hs_ITPR3	104	96	0.0391	79d647ad3cd58e3242b87663f3d8fe3d3683912a9b0ba7f9f751bbc499371b85
+cysloop	full_length	282	7	plgic_prok	2	plgic_prok__A0A9J7KP96__Braflo,plgic_prok__V4A2P8__Lotgig,plgic_prok__V4AGW4__Lotgig,plgic_prok__A0ABM1AAJ3__Aplcal	plgic_prok__EX_Ec_ELIC	415	412	0.1355	a878144b8d321af87b64bd9c6272a392a4e0a11eb93984446ea2353ab2510d59
+deg_enac	full_length	101	3	deg_invertebrate	7		deg_invertebrate__EX_Ha_FaNaC	467	451	0.0837	ca1314ef96f47ff5a42562947457e0f1176aace317b3859167a14f99fd5a8634
+iglur	module	30	6	iglur_prok	1			88	85	0.0716	cec449b233e611b67dde5130b5255a4f63b1f4632923a56a88dab0fda7e037d5
+innexin_like	module	59	3		0			265	258	0.09	fdf8597cd91bfbbbba45c128af90c993f2763098c85db707632b0dd54024d187
+p2x	full_length	33	2	p2x_nonmetazoan	8		p2x_nonmetazoan__EX_Dd_P2XA	387	358	0.086	c7ef0d1581613708db91600653d0439c185f81c6cf404819d78b06dcef478bc8
+ploop	module	319	23	kcsa_prok	4		kcsa_prok__EX_Sl_KcsA,kcsa_prok__EX_Bc_NaK	90	90	0.0998	ac143ee3d4c1b38d882182857cbdc5db9c96e9d282c9d5486da1941b1691e11c

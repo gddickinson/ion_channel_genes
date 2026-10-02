@@ -84,6 +84,9 @@ FIGURES: list[tuple[str, str]] = [
      "S4b — every census family across 439 eukaryotic orders (proteome calls)"),
     ("results/phylogeny/figures/tier1_trees.png",
      "S7b/S7d — 63 tier-1 family trees: support, roots (six P-loop re-roots all unresolved, D47), RyR"),
+    ("results/phylogeny/figures/fold_network.png",
+     "S8a — the tier-3 fold network: superfamily fold similarity and the five "
+     "literature edges measured (3 supported)"),
 ]
 
 #: Auto-discovered figures are capped so the page stays a reasonable size.

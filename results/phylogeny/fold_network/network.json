@@ -1,0 +1,81 @@
+{
+  "level": "superfamily",
+  "nodes": [
+    "abc_channel",
+    "bestrophin",
+    "ca_release",
+    "calhm",
+    "clc",
+    "clic",
+    "connexin",
+    "cysloop",
+    "deg_enac",
+    "gphr",
+    "hv",
+    "iglur",
+    "innexin_like",
+    "mclc",
+    "mcu",
+    "mitok",
+    "msc",
+    "orai",
+    "otopetrin",
+    "p2x",
+    "pac",
+    "piezo",
+    "ploop",
+    "porin",
+    "tmco1",
+    "tmem109",
+    "tmem16_like",
+    "tmem175",
+    "tmem87",
+    "tric",
+    "tweety",
+    "viroporin"
+  ],
+  "edges": [
+    {
+      "source": "tmem16_like",
+      "target": "tmem16_like",
+      "metric": "tm_score",
+      "value": 0.4839,
+      "evidence": "median TM-align TM-score (avg length) over 6 family pairs; AFDB v6 models; verdict not_distinguished (D48)",
+      "measured": true
+    },
+    {
+      "source": "iglur",
+      "target": "ploop",
+      "metric": "tm_score",
+      "value": 0.6364,
+      "evidence": "median TM-align TM-score (avg length) over 138 family pairs; AFDB v6 models; verdict supported (D48)",
+      "measured": true
+    },
+    {
+      "source": "innexin_like",
+      "target": "connexin",
+      "metric": "tm_score",
+      "value": 0.5648,
+      "evidence": "median TM-align TM-score (avg length) over 3 family pairs; AFDB v6 models; verdict supported (D48)",
+      "measured": true
+    },
+    {
+      "source": "ca_release",
+      "target": "ploop",
+      "metric": "tm_score",
+      "value": 0.556,
+      "evidence": "median TM-align TM-score (avg length) over 23 family pairs; AFDB v6 models; verdict not_distinguished (D48)",
+      "measured": true
+    },
+    {
+      "source": "hv",
+      "target": "ploop:VSD",
+      "metric": "tm_score",
+      "value": 0.5922,
+      "evidence": "median TM-align TM-score (avg length) over 1 family pairs; AFDB v6 models; verdict supported (D48)",
+      "measured": true
+    }
+  ],
+  "unmeasured": [],
+  "caveat": "Edges are structural similarity, not phylogeny. No branch lengths, no support values, no common ancestor is implied by an edge (D27)."
+}

@@ -287,6 +287,17 @@ error. Then measure the `LITERATURE_EDGES` with Foldseek and flip each from
 
 ---
 
+**Split (2026-10-02).** **S8a** (done): D48 fixed, representatives,
+inputs, the ITPR span check, the fold network (`scripts/s8_*.py`), tier-2
+IQ-TREE launched detached. **S8b**: when `<data root>/trees/s8/iqtree/<unit>/
+run.json` exists for all 7 units, add a `parse` step (outgroup one clade +
+root UFBoot via `s7_newick.split_support`; each family's tips one clade or
+not; support summary; the four animal `plgic_prok` tips — nested in which
+Cys-loop family, or beside GLIC/ELIC), extend `s8_report.py` § 6 and add tree
+panels to `s8_figures.py`. D48 is not revisited after reading a tree.
+
+---
+
 ## S9 — Selectivity-filter atlas
 
 **Goal.** The filter locus for every P-loop family, and whether it is
