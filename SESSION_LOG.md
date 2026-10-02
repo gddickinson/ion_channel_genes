@@ -946,3 +946,15 @@ and the ingroup's basal split is identical under the two outgroups.
   → `tier2_report.md`. Tier-2 IQ-TREE launched detached: `<data root>/trees/s8/run.log`.
 
 **Next: S8b** — parse the tier-2 trees once the run finishes.
+
+### 2026-10-02 (cont.) — figure descriptions (user request)
+
+- Fold-network matrix redrawn on the full 0–1 scale; unmeasured diagonal cells
+  hatched (they had been white, like clipped low values).
+- Plain-English descriptions for all 17 headline figures (what it shows / how it
+  was made / how to read it), written after looking at each, in
+  `scripts/figure_notes.py`; `scripts/readme_figures.py` regenerates the README
+  section from it and the dashboard reads it. Roadmap step 3b updated.
+- Noticed, not fixed: overlapping labels in S7 figure panel B (gabaa/kv_shaker,
+  k2p/connexin) and the GOST tree legend drawn over the tree's lower-left tips;
+  the S1 panel B title says "All 20 hazards exercised" though H17–H20 have no bars.

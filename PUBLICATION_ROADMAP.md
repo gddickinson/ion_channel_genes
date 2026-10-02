@@ -94,14 +94,17 @@ Claude: follow this protocol in every session that touches this project.
      (`scripts/s<n>_figures.py`, D13 — never hand-made). Look at it before
      committing (D11). A task with genuinely nothing to plot says so in its
      Results cell.
+   - **Description.** Add the figure to `scripts/figure_notes.py`: a
+     plain-English *what it shows*, *how it was made* and *how to read it*
+     (every colour, line and mark explained, no unexplained abbreviations),
+     written after looking at the figure. This one entry feeds both the
+     README and the dashboard.
    - **README.** Update the task's Status-board row (headline numbers +
-     report link) and add the figure under **Results in figures**, newest
-     task last, with a caption that states what it shows and which script
-     drew it from which table.
-   - **Dashboard.** Add the figure to `FIGURES` in `scripts/dashboard.py`
-     with a one-line caption (auto-discovery caps at 12, so the headline
-     figures must be listed explicitly), run `python3 scripts/dashboard.py`
-     and confirm the task card, Results text and figure appear.
+     report link) and run `python3 scripts/readme_figures.py`, which
+     rewrites the **Results in figures** section from `figure_notes.py`.
+   - **Dashboard.** Run `python3 scripts/dashboard.py` (it reads
+     `figure_notes.py`) and confirm the task card, Results text, figure and
+     description appear.
 4. `git add -A && git commit` (message: `S<n>: <one-line outcome>`) and
    `git push` if a remote is configured.
 5. Tell the user: task status, headline results, what the next session does.

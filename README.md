@@ -81,118 +81,213 @@ matplotlib — run those with `/opt/anaconda3/envs/piezo1/bin/python` (D18).
 
 ## Results in figures
 
-One headline figure per completed task, in task order, each drawn by a script from that task's committed tables (roadmap end-of-session step 3b). S1–S5b's were drawn after the fact, from their tables as they now stand.
+One headline figure per completed task, in task order, each drawn by a script from that task's committed tables. Every figure has a plain-English description: what it shows, how it was made, and how to read its colours and marks. The descriptions live in `scripts/figure_notes.py` (edit them there, then run `python3 scripts/readme_figures.py`); the dashboard shows the same text.
 
-**S0 — the catalogue.**
+**S0 — What the project counts as an ion channel, and which protein domains are misleading.**
 
-![The catalogue's shape, and the signatures that cross the channel / non-channel boundary](results/s0_baseline/figures/catalogue_scope.png)
+![What the project counts as an ion channel, and which protein domains are misleading](results/s0_baseline/figures/catalogue_scope.png)
 
-*The subject, counted. **A** — human pore-forming genes per superfamily, with
-census + control family counts at the right of each bar: the P-loop
-superfamily is 143 of the 320 genes and twenty-four other superfamilies
-share the rest. **B** — every domain signature carried by more than one
-catalogued family. Red bars are the signatures also carried by something the
-catalogue does not count as a channel; `PF00520` reaches twenty families,
-including a phosphatase. Drawn from `results/s0_baseline/` by
-`scripts/s0_figures.py`.*
+*What it shows.* A — how many human pore-forming (channel) genes fall into each superfamily, a superfamily being a group of channel families that share a common ancestor. One superfamily, the P-loop channels (voltage-gated potassium, sodium and calcium channels and their relatives), holds 143 of the ~320 genes. B — every protein domain (identified by its Pfam code, e.g. PF00520) that occurs in more than one catalogued family, and how many families carry it.
 
-**S1 — the classifier benchmark.**
+*How it was made.* Counted from the project's hand-built catalogue of channel families, after every entry was checked against the live UniProt and InterPro databases.
 
-![S1: which tier made each call, and the hazards](results/benchmark_controls/figures/benchmark.png)
+*How to read it.* A: bar length = number of human genes; bar colour = superfamily (blue P-loop, orange Cys-loop, green iGluR, violet CLC, greys for the rest). The numbers at the bar ends read 'census + control', e.g. '23+7' = 23 channel families plus 7 look-alike families kept only so they can be recognised and excluded. B: red bars are domains also found in proteins that are not channels, so finding that domain does not prove a protein is a channel; blue bars occur only in channels. PF00520 is found in 20 families, one of them an enzyme.
 
-*The 71 positive-panel proteins by the tier that made a correct call (architecture/hazard rule, selectivity-filter motif, reference identity) or by failure, per superfamily: most correct calls do not come from nearest-neighbour identity. **B** — every one of the 16 hazards the S1 panel exercises, called right and wrong (H2's absence rule failing is what S2b later rewrote; H17–H20 came later and are tested in the r4 benchmark). Drawn from `results/benchmark_controls/` by `scripts/s1_figures.py`.*
+<sub>Drawn by `scripts/s0_figures.py` from the task's committed tables.</sub>
 
-**S2 — census v2.**
+**S1 — How well the classifier names known channels, and which test made each decision.**
 
-![S2: records per superfamily by S2 call, and the largest families](results/census_v2/figures/census_v2.png)
+![How well the classifier names known channels, and which test made each decision](results/benchmark_controls/figures/benchmark.png)
 
-*Census v2 (now revision r4, 1,271,983 records). **A** — records per superfamily called to a family by S2's domain rules or stopping at the superfamily: Cys-loop, iGluR, CLC, DEG/ENaC and P2X stop there by design, their families sharing one architecture. **B** — the largest census families by domain-rule calls. Drawn from `results/census_v2/` by `scripts/s2_figures.py`.*
+*What it shows.* A — 71 well-known channel proteins of known family, run through the project's classifier, grouped by superfamily. B — the 'hazards': recorded ways two different families can be confused, and how the test proteins that touch each hazard were called.
 
-**S3a — the profile library.**
+*How it was made.* Each protein was classified with itself removed from the reference set (so it cannot simply match itself). The classifier has three kinds of test: domain-architecture rules, a selectivity-filter sequence motif, and percent identity to reference proteins.
 
-![S3a: profile calls against S2 calls, and what the profiles resolved](results/census_v3/figures/profiles.png)
+*How to read it.* A: each bar is one superfamily's test proteins, split by outcome — dark blue = named correctly by a domain rule, green = by the filter motif, light blue = by similarity to a reference protein, red = named as the wrong family, grey = no family named. 50 of 71 were named correctly; only 22 of those needed the reference comparison, so the classifier is not just finding the nearest known protein. B: blue = protein called right, red = called wrong. H2 (red) was later rewritten (S2b). H17–H20 have no bars because those hazards were added after this benchmark; they are tested in the S2d figure.
 
-*Where S2's domain rules and the S3a profiles both make a call they agree 99.9 % of the time (seeds excluded; **A**, one dot per family). **B** — S2's superfamily-only records by what the profiles made of them. Drawn from `results/census_v3/` by `scripts/s3_figures.py`.*
+<sub>Drawn by `scripts/s1_figures.py` from the task's committed tables.</sub>
 
-**S4 — the declared denominator.**
+**S2 — The first full census: every database record carrying a channel domain.**
 
-![S4: 50 reference proteomes by BUSCO and scaffold N50](results/proteome_scope/figures/panel.png)
+![The first full census: every database record carrying a channel domain](results/census_v2/figures/census_v2.png)
 
-*The 50 reference proteomes of the panel by BUSCO completeness and their assembly's scaffold N50, coloured by panel group; *Cornu* and *Torpedo* are genome-only. Drawn from `results/proteome_scope/proteome_manifest.tsv` by `scripts/s4_figures.py`.*
+*What it shows.* A — the 1.28 million UniProt protein records that carry at least one channel-pore domain, per superfamily, split by whether the domain rules could name the family. B — the 16 largest channel families by number of records named.
 
-**S3b — what domain search missed in the panel.**
+*How it was made.* Every protein in UniProt with any of the listed pore domains was downloaded (the count checked exactly against UniProt's own), then classified using its domains only.
 
-![S3b: channel members outside census v2, by family and by lineage](results/panel_sweep/figures/domain_search_missed.png)
+*How to read it.* A: dark blue = named to a family; light blue = placed in the superfamily but the family could not be told apart. Cys-loop, iGluR, CLC, DEG/ENaC and P2X are all light blue because every family in them has the same domains. Records the rules could not place at all (524,177) are not drawn. B: bar colour = superfamily (blue P-loop; grey others).
 
-*High-confidence census-family members of the 50 proteomes that carry no enumerated pore signature (**A**, by family, with the share of the family), and the miss rate by lineage (**B**, census families only): 1 % in vertebrates, 12 % in plants. Includes the r4 families (MITOK has no Pfam domain at all). Drawn from `results/panel_sweep/` by `scripts/s3b_figures.py`.*
+<sub>Drawn by `scripts/s2_figures.py` from the task's committed tables.</sub>
 
-**S5b — the presence matrix.**
+**S3a — Profile models: checked against the domain rules, then used where those rules gave up.**
 
-![S5b: every census family in every panel genome, by verdict](results/genome_sweep/figures/presence_matrix.png)
+![Profile models: checked against the domain rules, then used where those rules gave up](results/census_v3/figures/profiles.png)
 
-*Every census family (columns, grouped by superfamily) in every panel species (rows), coloured by its genome verdict — the matrix S10's repertoire reconstruction starts from. Drawn from `results/genome_sweep/cells.tsv` by `scripts/s5_figures.py`.*
+*What it shows.* A — for each family, how often the new profile models agree with the domain rules where both make a call. B — the records that the domain rules could place only in a superfamily, and what the profile models then made of them.
 
+*How it was made.* One statistical profile (a hidden Markov model built from a family's aligned sequences) per family; each record is given to the best-scoring profile only if it clearly beats the runner-up. Sequences used to build a profile were left out of the comparison in A.
 
-**S6 — the alignments and the pore modules.**
+*How to read it.* A: one dot per family; x = how many records the domain rules named (log scale), y = fraction on which the profile agrees (note the y-axis runs only from 0.993 to 1: agreement is 99.9 % overall). Dot colour = superfamily. B: each bar is 100 % of a superfamily's unresolved records (total at the right); dark blue = now named to a family, light blue = still superfamily only, grey = other or unassigned.
 
-![S6: alignment sets, family alignments, module validation, the span vote](results/alignments/figures/alignments_modules.png)
+<sub>Drawn by `scripts/s3_figures.py` from the task's committed tables.</sub>
 
-*What went into the trees, and whether the pore modules are right. **A** — every census v4 row called to a family, by superfamily: included in an alignment (high-confidence profile call or intact genome locus, D39) or excluded, with the reason. **B** — each family's L-INS-i alignment against the columns trimAl keeps (dot area ~ sequences): the largest, most divergent families keep 3–4 %. **C** — each extracted pore module against the same protein's own UniProt-annotated module (never a reference's): median Jaccard 0.97. **D** — the vote that places the module in the six unannotated families, measured with a held-out model on the annotated ones: ≤ 12 profile states across P-loop and iGluR, not usable in the innexin clan (where every family is annotated). Drawn from `results/alignments/` by `scripts/s6_figures.py`.*
+**S4 — The 52 species the census is measured in, and how good their data are.**
 
-**S7a — trimming for the tier-1 trees.**
+![The 52 species the census is measured in, and how good their data are](results/proteome_scope/figures/panel.png)
 
-![S7a: informative sites under trimAl -gt 0.5 against -automated1](results/phylogeny/figures/tier1_trim.png)
+*What it shows.* The 50 species whose complete protein sets (reference proteomes) form the census's search space, plus two species with a genome but no protein set (a land snail, Cornu, and an electric ray, Torpedo; not plotted).
 
-*The trimming for the family trees, chosen before any tree existed (D41). One dot per family alignment: informative sites under S6's trimAl `-automated1` (x) against the `-gt 0.5` gap threshold adopted for S7 (y), log scales, dashed line equal. `-gt 0.5` keeps at least as many in 62 of 63 families (median 504 against 324), doubling K2P and nAChR. Drawn from `results/phylogeny/tier1_trim_compare.tsv` by `scripts/s7_figures.py`.*
+*How it was made.* Each species' proteome was chosen by a fixed rule and its download verified by checksum. Quality numbers come from UniProt and NCBI.
 
-**S7b — the tier-1 family trees.**
+*How to read it.* One dot per species. x = BUSCO completeness: the percentage of a standard set of near-universal genes found in the protein set (higher = more complete). y = scaffold N50 of the underlying genome assembly (log scale; higher = longer continuous stretches of DNA, a less fragmented genome). Colour = lineage group. The dashed line marks 90 % completeness. Labelled species are the weak spots: those left of the line may lack genes for technical reasons, and the sponge's genome is very fragmented, so an absence in any of them is weaker evidence.
 
-![S7: trimming, support across 63 trees, roots, and the RyR tree](results/phylogeny/figures/tier1_trees.png)
+<sub>Drawn by `scripts/s4_figures.py` from the task's committed tables.</sub>
 
-*The 63 family trees. **A** — the trimming decision (D41), made before any tree. **B** — share of each family's internal edges at UFBoot ≥ 95 against the family's size. **C** — the root edge's UFBoot for every family rooted on the catalogue's outgroup; hatched where the outgroup is not one clade (four P-loop families rooted on two-helix KcsA/MthK/NaK pores), text where the outgroup is a single sequence (no support value exists). **D** — the ryanodine receptors rooted on the three human ITPRs, leaves by panel group. **S7d** — in **C** the six re-rooted P-loop families show three bars: the S7b KcsA root (grey) and the two outgroups declared in S7c (D47); none passes the root criterion (outgroup one clade with UFBoot ≥ 95 in both trees, same basal split), so all six are marked *unresolved*. Drawn from `results/phylogeny/tier1_*.tsv` by `scripts/s7_figures.py`.*
+**S3b — Channels that a domain-based search would never have found.**
 
-**S20 — what the published channelome is made of.**
+![Channels that a domain-based search would never have found](results/panel_sweep/figures/domain_search_missed.png)
 
-![S20: three database channelomes, what each leaves out, auxiliary homology groups, auxiliaries across the panel](results/auxiliary/figures/auxiliary.png)
+*What it shows.* Channel proteins in the 50 species that the profile models identify confidently but that carry none of the pore domains the first census searched for. A — by family. B — by lineage.
 
-*The 240–400 spread of human channel counts, measured. **A** — GtoPdb, HGNC and UniProt KW-0407 lists (and their union, 400) split into this catalogue's pore-forming census genes and everything else, by reason. **B** — census pore genes each list leaves out: contested and large-pore families, and all 21 connexins in UniProt. **C** — the auxiliary families against their homology groups (phmmer, E ≤ 1e-3): six of eleven pool unrelated proteins. **D** — S3b panel calls to auxiliary families that pass a reciprocal-best-human-hit test (blue) against those whose best human hit is an unrelated LRR, Ig or other protein (red). Drawn from `results/auxiliary/` by `scripts/s20_figures.py`.*
+*How it was made.* Every protein of the 50 proteomes was scored against all family profiles; high-confidence channel calls absent from the domain-based census were counted.
 
-**S15 — what each method contributes.**
+*How to read it.* A: bar length = number of missed members; the label gives the share of that family's members in these species (e.g. '76 % of 33' for the proton channel Hv1, MITOK 100 % because it has no catalogued domain at all). Colour = superfamily. B: the miss rate per lineage group (missed / all members) — about 1 % in vertebrates, 12 % in plants: domain databases are built mostly from well-studied animals.
 
-![S15: who finds each channel per superfamily, and the human genes](results/method_contribution/figures/method_contribution.png)
+<sub>Drawn by `scripts/s3b_figures.py` from the task's committed tables.</sub>
 
-*Q3, measured. **A** — each superfamily's final-census members (census v4, high-confidence profile calls and intact genome loci) by the first method that finds them: domain search calling the right family (dark blue), domain search finding the record without naming its family (light blue), profile HMMs alone (orange), the genome sweep alone (green). **B** — the independent frame: the curated human genes per superfamily that domain search enumerates, that domain rules call right, and that the profiles call right. Drawn from `results/method_contribution/` by `scripts/s15_figures.py`.*
+**S5b — Which channel family is in which species — checked in the genome, not just the protein list.**
 
-**S2d — census revision r4 for the families added after S20.**
+![Which channel family is in which species — checked in the genome, not just the protein list](results/genome_sweep/figures/presence_matrix.png)
 
-![Census revision r4: records added per new family, and the look-alike margins](results/census_v3/figures/census_r4.png)
+*What it shows.* Every channel family (columns, grouped by superfamily with vertical rules) in every one of the 52 species (rows, bacteria at the top, then fungi, plants, protists, simple animals, invertebrates, vertebrates, human, and three viruses at the bottom).
 
-*What bringing the eight added channels into the census found. **A** — the 26,783 records revision r4 added, by their census call and profile confidence: TMEM87 is one family by descent since S2f (D45). **B** — every reviewed r4 record's margin over the runner-up profile (dashed line: the 0.30 high-confidence bar). TMCO1/EMC3 (H17) and TMEM109/BRI3BP (H19) separate at margins of 0.94–1.0; TMEM87 against the GOST proteins (H18) is now decided by TMEM87's GOLD domain. Drawn from `results/census_v3/r4_*.tsv` by `scripts/s3r4_figures.py`.*
+*How it was made.* Known channel proteins from related species were aligned to each genome (miniprot, backed up by tblastn) to find genes the protein list missed. An absence is accepted only if the same method found the family's relatives reliably in that genome and the genome is contiguous enough to hold the gene.
 
-**S5c — the r4 families in the 52 genomes.**
+*How to read it.* Dark blue = found in the species' protein set. Bright blue = found only in the genome (the protein set missed a real gene). Pale blue = species with a genome but no protein set (Cornu, Torpedo). Mid grey = genome match too weak to call; light grey = partial gene or an assembly gap. Pink = only a fragment (trace). Red = a controlled absence: the gene is genuinely not there by every test. Off-white = not informative: no test could decide (e.g. no related species to search with).
 
-![S5 r4: the seven families added after S20, per species, by genome verdict](results/genome_sweep/figures/genome_r4.png)
+<sub>Drawn by `scripts/s5_figures.py` from the task's committed tables.</sub>
 
-*Each new census family (columns) in each panel species (rows, grouped from prokaryotes to human), coloured by its S5 verdict: in the proteome; found only in the genome (a proteome miss, or a genome-only species); partial or gap; trace; a controlled absence (in-group bait, detection ≥ 0.90, D4 bar met); or not informative (no in-group bait). TMEM87 (by descent, D45) is present in every animal, and its calls outside animals are real: the GOST tree places them in the TMEM87 lineage (UFBoot 100). Drawn from `results/genome_sweep/r4_cells.tsv` by `scripts/s5r4_figures.py`.*
+**S6 — Building the alignments, and cutting out each channel's pore.**
 
-**TMEM87 across eukaryotes — the GOST superfamily tree.**
+![Building the alignments, and cutting out each channel's pore](results/alignments/figures/alignments_modules.png)
 
-![GOST superfamily tree: animal TMEM87s, GPR107/108 and non-animal GOST proteins](results/phylogeny/gost/figures/gost_tree.png)
+*What it shows.* A — which census sequences went into each family's alignment. B — how much of each alignment survives trimming. C — whether the automatically cut-out pore regions ('modules') match the pore region UniProt annotates. D — how accurate the method is for families with no annotated pore.
 
-*115 panel proteins of the TMEM87/GOST superfamily (Q.pfam+R7, 1000 UFBoot; dots mark UFBoot ≥ 95). Animal TMEM87s (dark blue) join the plant, fungal, protist and holozoan proteins the profiles called TMEM87 (squares) in one lineage apart from the GPR107/108 proteins (light blue) — UFBoot 100 for the lineage. Drawn from `results/phylogeny/gost/` by `scripts/s7_gost_tree.py figure`.*
+*How it was made.* Only confidently assigned, intact sequences were aligned (MAFFT L-INS-i). The pore module was cut from each sequence by aligning it to its family profile and taking a fixed stretch of that profile.
 
-**S4b — the census families across 439 eukaryotic orders.**
+*How to read it.* A: dark blue = included; light blue = left out because the family call was only medium confidence; grey, pink, pale = left out for other reasons (no profile call, broken genome gene, identical duplicate). B: one dot per family; x = alignment length, y = columns kept after trimming (log scales; dashed line = nothing removed); dot size = number of sequences; colour = superfamily. C: one dot per checked protein; 1.0 = the cut-out pore exactly matches UniProt's annotation (overlap score, Jaccard); 436 of 441 score above 0.8 (dashed line). D: bar = error in placing the pore when the family's own annotation is hidden; under the dashed line (12 positions) counts as accurate. Innexins fail (80), so the method is used only for the six families listed in violet.
 
-![S4b: census family presence across 439 eukaryotic orders](results/panel_density/figures/order_matrix.png)
+<sub>Drawn by `scripts/s6_figures.py` from the task's committed tables.</sub>
 
-*Each census family (rows, by superfamily) in each eukaryotic order's reference proteome (columns, grouped by kingdom and phylum): a mark is a high-confidence S3a profile call. The vertebrate-specific block (glycine, 5-HT3, AMPA and delta receptors, connexins, pannexins, LRRC8, CFTR), the plant TPC/K2P/iGluR blocks and the pan-eukaryotic VDAC, OSCA, GPHR, MscS and TMEM87 are visible at a glance. Proteome calls only — an empty cell is an annotation-level absence (D46). Drawn from `results/panel_density/order_matrix.tsv` by `scripts/s4b_report.py`.*
+**S7a — Choosing how to trim alignments before building trees.**
+
+![Choosing how to trim alignments before building trees](results/phylogeny/figures/tier1_trim.png)
+
+*What it shows.* For each family alignment, how many informative positions (columns that can distinguish between branches of a tree) two trimming settings keep.
+
+*How it was made.* Alignments contain gappy, unreliable columns that are usually removed before tree-building. Two settings of the trimAl tool were compared on the alignments alone — before any tree was built, so the choice could not be steered by the trees.
+
+*How to read it.* One dot per family (colour = superfamily). x = informative positions kept by the automatic setting used in S6; y = kept by the 'keep any column at least half filled' setting (both log scales). Dots above the dashed diagonal mean the second setting keeps more; it does in 62 of 63 families, so it was adopted.
+
+<sub>Drawn by `scripts/s7_figures.py` from the task's committed tables.</sub>
+
+**S7b/S7d — Family trees: how well supported they are, and whether they can be rooted.**
+
+![Family trees: how well supported they are, and whether they can be rooted](results/phylogeny/figures/tier1_trees.png)
+
+*What it shows.* A — the trimming choice (as in the S7a figure). B — how confident each of the 63 family trees is. C — whether each tree's root (its oldest split) is reliable. D — one example tree, the ryanodine receptors.
+
+*How it was made.* One maximum-likelihood tree per family (IQ-TREE), with 1000 ultrafast bootstrap replicates (UFBoot): a support score from 0–100 for each branch, where ≥ 95 is conventionally strong. Trees are rooted by adding a related outgroup family named in the catalogue in advance; the root sits where the outgroup joins.
+
+*How to read it.* B: one dot per family; x = sequences in the tree, y = fraction of branches with support ≥ 95; dot size = alignment length; colour = superfamily. C: bar = support for the root branch (dashed line = 95); 'occ.' = how much of the alignment the outgroup sequences fill. Hatched bars = the outgroup did not stay together as one group, so the root is undefined. The six potassium-type families re-tested with two new outgroups each show three bars (grey = original root, then the two new ones) and are all marked 'unresolved'. Text rows = outgroup of one sequence, which gives no support value. D: the tree itself; branch length = amount of sequence change; tip colour = lineage; black dots = branches with support ≥ 95; rooted on the three human IP3 receptors (bottom left).
+
+<sub>Drawn by `scripts/s7_figures.py` from the task's committed tables.</sub>
+
+**S20 — Why published counts of human ion channels disagree (240–400).**
+
+![Why published counts of human ion channels disagree (240–400)](results/auxiliary/figures/auxiliary.png)
+
+*What it shows.* A — three curated database lists of human ion channels, split into what each actually contains. B — real pore-forming genes each list leaves out. C — 'auxiliary' subunits (proteins that sit on channels but do not form the pore), grouped by true relatedness. D — how many such auxiliary proteins the profile models find in the 50 species, and how many are genuine.
+
+*How it was made.* The three lists (GtoPdb, HGNC, UniProt keyword 'ion channel') were matched gene by gene to the catalogue. Relatedness in C comes from all-against-all sequence comparison; in D a hit counts as genuine if its best match in the human proteome is that auxiliary group.
+
+*How to read it.* A: dark blue = genuine pore-forming channel genes; orange = auxiliary subunits; other colours = aquaporins, transporters, enzymes, claudins, pseudogenes and similar non-channels. Totals at the right. B: one bar per list (dark blue GtoPdb, light blue HGNC, orange UniProt); e.g. UniProt omits all 21 connexins. C: each bar is one auxiliary family; separate coloured segments are groups of proteins unrelated to each other — 6 of 11 families mix unrelated proteins. D: log scale; dark blue = genuine; pink = hits whose best human match is an unrelated protein (shared repeat domains).
+
+<sub>Drawn by `scripts/s20_figures.py` from the task's committed tables.</sub>
+
+**S15 — Which search method finds each channel.**
+
+![Which search method finds each channel](results/method_contribution/figures/method_contribution.png)
+
+*What it shows.* A — every member of the final census, per superfamily, by the first method that finds it. B — the curated human channel genes, and how many each method finds and names correctly.
+
+*How it was made.* Methods applied in order of cost: domain search, then profile models, then the genome sweep. A member is credited to the first method that finds it.
+
+*How to read it.* A: each bar = 100 % of a superfamily's members (count at the right). Dark blue = domain search found it and named the right family; light blue = domain search found it but could not name the family; orange = only the profile models found it; green = only the genome sweep found it. Overall domain search finds 94 % but names only 44 %. B: three bars per superfamily — light blue = found by domain search, dark blue = named correctly by domain rules, orange = named correctly by profiles (count of human genes at the right).
+
+<sub>Drawn by `scripts/s15_figures.py` from the task's committed tables.</sub>
+
+**S2d — Eight newly added channels brought into the census, and whether their look-alikes can be told apart.**
+
+![Eight newly added channels brought into the census, and whether their look-alikes can be told apart](results/census_v3/figures/census_r4.png)
+
+*What it shows.* A — the 26,783 database records added for the newly catalogued channel families and their non-channel look-alikes (decoys). B — for well-studied (reviewed) records, how clearly the correct profile beats the next best one.
+
+*How it was made.* The new families' domains were searched as an addition to the existing census, profiles built for each, and every record assigned to its best profile.
+
+*How to read it.* A: bar = records by their final call; 'decoy:' = a non-channel look-alike; a name in [brackets] = placed in that superfamily but not named to a family. Colour = confidence of the profile call (dark blue high, light blue medium, greys low or none). B: x = margin over the runner-up profile (0 = tie, 1 = no contest); dashed line = 0.30, the bar for a high confidence call. Open circles = proteins used to build the profile; filled = proteins held out as a fair test. Shaded bands pair each channel with its look-alike (hazards H17–H19); all separate cleanly.
+
+<sub>Drawn by `scripts/s3r4_figures.py` from the task's committed tables.</sub>
+
+**S5c — The seven newly added channel families across the 52 genomes.**
+
+![The seven newly added channel families across the 52 genomes](results/genome_sweep/figures/genome_r4.png)
+
+*What it shows.* Each new family (columns) in each species (rows, bacteria at the top to human, viruses at the bottom), checked in the genome as in the S5b figure.
+
+*How it was made.* Same genome search and absence tests as S5b, run for the new families only; all earlier results were confirmed unchanged.
+
+*How to read it.* Same colours as the S5b matrix: dark blue = in the protein set; bright blue = only in the genome (protein set missed it); pale blue = genome-only species; grey = weak or partial; pink = trace; red = controlled absence (truly not there); off-white = cannot be decided. TMEM87 is present in every animal; its presence in fungi, plants and some protists is real (see the GOST tree figure).
+
+<sub>Drawn by `scripts/s5r4_figures.py` from the task's committed tables.</sub>
+
+**S2f — TMEM87 is an ancient lineage found across eukaryotes.**
+
+![TMEM87 is an ancient lineage found across eukaryotes](results/phylogeny/gost/figures/gost_tree.png)
+
+*What it shows.* A tree of 115 proteins from the GOST protein superfamily: the proposed channel TMEM87 and its non-channel relatives (GPR107/108 and the fungal, plant and protist GOST proteins).
+
+*How it was made.* Maximum-likelihood tree (IQ-TREE) with 1000 bootstrap replicates. The tree is unrooted; it is drawn hanging from an arbitrary point, so left-to-right order does not mean older to younger.
+
+*How to read it.* Tip colour = what the protein is: dark blue = animal TMEM87 (carrying TMEM87's animal-specific GOLD domain); light blue = other animal GOST proteins; green = plants and algae; orange = fungi; violet = single-celled relatives of animals; grey = other protists. Squares = non-animal proteins the profile models call TMEM87. Small black dots = branches with support ≥ 95. Branch length = amount of sequence change. The animal TMEM87s and the squares fall in one strongly supported group (support 100), apart from GPR107/108.
+
+<sub>Drawn by `scripts/s7_gost_tree.py` from the task's committed tables.</sub>
+
+**S4b — Every channel family across 439 orders of eukaryotes.**
+
+![Every channel family across 439 orders of eukaryotes](results/panel_density/figures/order_matrix.png)
+
+*What it shows.* Presence of each channel family (rows) in one representative protein set per eukaryotic order (columns: 439 orders, grouped into animals, fungi, plants and protists).
+
+*How it was made.* One reference proteome per order, chosen by a fixed rule, scanned with all family profiles.
+
+*How to read it.* A blue mark = the family was confidently found in that order's protein set; blank = not found. Long unbroken runs show families present throughout a kingdom (e.g. VDAC, OSCA, GPHR in nearly all eukaryotes); runs only in the middle of the animal block are vertebrate-specific (glycine and 5-HT3 receptors, connexins, pannexins, CFTR). Blank cells are weaker evidence than in the S5b figure: a protein set can simply miss a gene, and these were not checked in the genome.
+
+<sub>Drawn by `scripts/s4b_report.py` from the task's committed tables.</sub>
+
+**S8a — Which channel superfamilies share a 3-D shape.**
+
+![Which channel superfamilies share a 3-D shape](results/phylogeny/figures/fold_network.png)
+
+*What it shows.* Most channel superfamilies have no sequence similarity, so they cannot be placed in one tree. Instead this compares their predicted 3-D structures. A — how similar in shape every pair of superfamilies is. B — five relationships the literature proposes, tested.
+
+*How it was made.* One AlphaFold-predicted structure per family (only the confidently predicted parts), cut to the part each comparison is about (the pore, or the voltage sensor), compared pairwise with TM-align. TM-score runs from 0 (unrelated shapes) to 1 (identical); above about 0.5 usually means the same fold. The pass rule was fixed before measuring: median score ≥ 0.5 and each side's closest match among all other superfamilies is the other side.
+
+*How to read it.* A: each cell = the median similarity between two superfamilies' families (darker blue = more similar; scale 0–1). Diagonal cells compare different families within the same superfamily (a structure is never compared with itself); hatched = only one family, so nothing to compare. Rows are ordered so similar superfamilies sit together. Boxed cells = the literature's proposed relationships (violet box = supported, black = not distinguished). B: each dot = one family pair behind a proposed relationship (blue = supported, grey = not); black line = median; violet dashed line = the best score either side reaches with anything else; grey dashed line = the 0.5 bar. Supported: glutamate-receptor pore vs potassium-channel pore, Hv1 vs the Kv voltage sensor, innexins vs connexins.
+
+<sub>Drawn by `scripts/s8_figures.py` from the task's committed tables.</sub>
+
 ---
-
-**S8a — the fold network between superfamilies.**
-
-![S8a: superfamily fold-similarity matrix and the five literature edges measured](results/phylogeny/figures/fold_network.png)
-
-*Tier 3, where no tree can be built (D27). **A** — median TM-score (TM-align, average-length normalisation) between every pair of superfamilies, one AlphaFold DB model per census family cut to its comparison unit (pore module for module superfamilies, whole model otherwise, pLDDT ≥ 70), on the full 0–1 scale, ordered by clustering; hatched cells have no pair to measure (the diagonal of a one-family superfamily); boxes mark the literature's asserted relationships (violet = supported). **B** — every family-pair score behind each asserted edge, with the 0.5 bar and the best score any other superfamily pair reaches at either end, both fixed before measuring (D48): the iGluR pore, the Hv1 voltage sensor and the innexin/connexin large pores are supported; TMEM16/OSCA/TMC sits just under the bar (0.48) though far above any outside partner, and ITPR's pore is as close to the iGluR pore as to the P-loop's. Drawn from `results/phylogeny/fold_network/` by `scripts/s8_figures.py`.*
 
 ## What makes this hard, in three examples
 

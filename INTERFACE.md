@@ -148,7 +148,7 @@ operation and cannot be gated on an optional dependency.
 
 | File | Purpose |
 |------|---------|
-| `dashboard.py` | **Project dashboard** (stdlib-only) → `dashboard.html`: progress parsed from the roadmap ledger, a live panel driven by `results/session_live.json`, key figures base64-embedded, and `FINDINGS.md` rendered. Session protocol step 0. |
+| `dashboard.py` | **Project dashboard** (stdlib-only) → `dashboard.html`: progress parsed from the roadmap ledger, a live panel driven by `results/session_live.json`, key figures base64-embedded with their `figure_notes.py` descriptions, and `FINDINGS.md` rendered. Session protocol step 0. |
 | `figstyle.py` | **The one figure style.** `SUPERFAMILY` (four safe categorical hues for twenty-five superfamilies — the constraint is stated, not hidden), `SELECTIVITY`, `CONFIDENCE` (gold→unassigned), `STATUS`/`QUALITY` (ordered evidence scales), `CLINICAL`. `save()` raises rather than writing a figure whose bbox runs off-canvas. |
 | `selftest.py` | **The offline invariants**, under a second and no network: catalogue validation, every hazard rule fired against the synthetic architecture it was written for, the classifier's blindness to gene symbols, the motif regex, the alignment helpers, the D27 refusal, and the scope's derivation of its sister panel from the hazard registry. Session-protocol step 4. |
 | `s0_lib.py` | S0 fetchers: `Fetcher` (polite, retrying, keeps a failure ledger), `pfam_entry`, `protein_pfams`, `pfam_protein_count`, `resolve_gene`, `entry_by_accession`, `sequence`, `taxon`, `write_tsv`, `read_tsv`, `live_progress`. |
@@ -235,6 +235,8 @@ operation and cannot be gated on an optional dependency.
 | `s20_curate.py` | **S20 step 2** — `CURATED`: the hand classification of every uncatalogued list gene (hard error if one is missing) → `uncatalogued.tsv`, `list_decomposition.tsv`, `census_missed_by_list.tsv`. |
 | `s20_aux.py` | **S20 step 3** — `groups` (all-vs-all phmmer among each auxiliary family's human genes → homology groups, `aux_groups.tsv`), `panel` (S3b auxiliary calls placed by reciprocal best hit against the whole human proteome → `aux_panel.tsv`, `aux_by_species.tsv`). |
 | `s20_figures.py`, `s20_report.py` | **S20** figure (`results/auxiliary/figures/auxiliary.png`) and `report.md` (D13). |
+| `figure_notes.py` | **The plain-English description of every headline figure** (what it shows, how it was made, how to read colours and marks) — the single source for the README's *Results in figures* and the dashboard's captions. |
+| `readme_figures.py` | Rewrites README.md's *Results in figures* section from `figure_notes.py`; `--check` exits 1 if the README is stale. |
 | `s1_figures.py`, `s2_figures.py`, `s3_figures.py`, `s4_figures.py`, `s3b_figures.py`, `s5_figures.py` | The headline figures of S1–S5b, drawn after the fact from their committed tables: tier attribution + hazards; census v2 by superfamily; profile calibration + resolution; the denominator (BUSCO × N50); domain-search misses by family and lineage; the full presence matrix. |
 | `s3_piezo_unassigned.py` | Why census v3a leaves 2,258 PIEZO-census (v5) records unassigned — binned by D32 gate and length → `results/census_v3/piezo_unassigned*.tsv` (read-only comparison). |
 | `s7_gost_tree.py` | The GOST superfamily tree (`build`, `read`, `figure`) — TMEM87 orthology outside animals: the largest clade holding all animal TMEM87s and no animal GPR107/108 is the TMEM87 lineage → `results/phylogeny/gost/` (members, treefile, nesting, placement, report, figure). |

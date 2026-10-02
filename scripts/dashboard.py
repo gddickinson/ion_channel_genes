@@ -44,50 +44,14 @@ PROJECT = "Ion channels — census, classification & phylogeny"
 #: Figures shown at the top of the page, in this order, when they exist.
 #: Sessions add their headline figure here; everything else under
 #: `results/**/figures/*.png` is picked up automatically below.
-FIGURES: list[tuple[str, str]] = [
-    ("results/s0_baseline/figures/catalogue_scope.png",
-     "S0 — what the catalogue counts, and which domain signatures are shared "
-     "with something that is not a channel"),
-    ("results/benchmark_controls/figures/benchmark.png",
-     "S1 — which classifier tier made each call, and every hazard exercised"),
-    ("results/census_v2/figures/census_v2.png",
-     "S2 — census v2 by superfamily: family call or superfamily only"),
-    ("results/census_v3/figures/profiles.png",
-     "S3a — profile calls against S2's domain calls, and what they resolved"),
-    ("results/proteome_scope/figures/panel.png",
-     "S4 — the denominator: 50 proteomes by BUSCO and N50, plus 2 genome-only"),
-    ("results/panel_sweep/figures/domain_search_missed.png",
-     "S3b — channel members domain search never reaches, by family and lineage"),
-    ("results/genome_sweep/figures/presence_matrix.png",
-     "S5b — every census family in every panel genome, by verdict"),
-    ("results/alignments/figures/alignments_modules.png",
-     "S6 — what entered the family alignments (D39), and the pore modules "
-     "checked against UniProt topology and the held-out span vote (D40)"),
-    ("results/phylogeny/figures/tier1_trim.png",
-     "S7a — trimming for the tier-1 trees, measured before any tree: "
-     "informative sites under trimAl -gt 0.5 (D41) against S6's -automated1"),
-    ("results/auxiliary/figures/auxiliary.png",
-     "S20 — three database channelomes (285 / 331 / 338, 400 in union) against the "
-     "catalogue, and the auxiliary subunits' homology groups across the panel"),
-    ("results/method_contribution/figures/method_contribution.png",
-     "S15 — who finds each channel: domain search finds 94 % and names 44 %; "
-     "profiles and genomes supply the rest (Q3)"),
-    ("results/census_v3/figures/census_r4.png",
-     "S2d — census revision r4: the eight added channels' records, and whether "
-     "their non-channel look-alikes separate (H17–H19)"),
-    ("results/genome_sweep/figures/genome_r4.png",
-     "S5c — the r4 families in the 52 genomes: proteome, genome-only, partial, "
-     "controlled absence"),
-    ("results/phylogeny/gost/figures/gost_tree.png",
-     "TMEM87 is a pan-eukaryotic lineage: the GOST superfamily tree"),
-    ("results/panel_density/figures/order_matrix.png",
-     "S4b — every census family across 439 eukaryotic orders (proteome calls)"),
-    ("results/phylogeny/figures/tier1_trees.png",
-     "S7b/S7d — 63 tier-1 family trees: support, roots (six P-loop re-roots all unresolved, D47), RyR"),
-    ("results/phylogeny/figures/fold_network.png",
-     "S8a — the tier-3 fold network: superfamily fold similarity and the five "
-     "literature edges measured (3 supported)"),
-]
+#: Headline figures, in task order, with their plain-English descriptions —
+#: defined once in `scripts/figure_notes.py` (also the README's source).
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from figure_notes import FIGURES as _NOTES  # noqa: E402
+
+FIGURES: list[tuple[str, str]] = [(f["path"], f"{f['task']} — {f['title']}")
+                                  for f in _NOTES]
+_NOTE = {f["path"]: f for f in _NOTES}
 
 #: Auto-discovered figures are capped so the page stays a reasonable size.
 MAX_AUTO_FIGURES = 12
@@ -301,10 +265,17 @@ def figures_html() -> str:
     for rel, caption in FIGURES + discovered_figures():
         b64 = img_b64(rel)
         if b64:
+            n = _NOTE.get(rel)
+            body = "" if not n else "".join(
+                f'<p><b>{lab}</b> {html.escape(n[k])}</p>'
+                for lab, k in (("What it shows.", "shows"),
+                               ("How it was made.", "how"),
+                               ("How to read it.", "read")))
             figs.append(
                 f'<figure><img src="data:image/png;base64,{b64}" '
                 f'alt="{html.escape(caption)}">'
-                f"<figcaption>{html.escape(caption)}</figcaption></figure>")
+                f"<figcaption><b>{html.escape(caption)}</b>{body}</figcaption>"
+                f"</figure>")
     return "\n".join(figs)
 
 
