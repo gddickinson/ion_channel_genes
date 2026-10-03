@@ -535,6 +535,8 @@ except ImportError:
 sys.path.insert(0, str(ROOT / "scripts"))
 import selftest_s8 as _s8                                          # noqa: E402
 _s8.run(check)
+import selftest_s9 as _s9                                          # noqa: E402
+_s9.run(check)
 
 print()
 if FAILURES:

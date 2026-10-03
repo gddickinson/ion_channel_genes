@@ -1,0 +1,202 @@
+{
+ "modules": 4604,
+ "chains": 3035,
+ "k_window_columns": [
+  433,
+  434,
+  449,
+  450,
+  451
+ ],
+ "repeat_locus_columns": [
+  434,
+  434,
+  434,
+  434
+ ],
+ "tier2_tips_reread": [
+  317,
+  317
+ ],
+ "k_window_check": {
+  "same": 1962,
+  "unaligned": 81,
+  "no_motif": 2465,
+  "other_k": 9,
+  "not_k": 87
+ },
+ "projection_check": {
+  "nav": {
+   "yes": 128,
+   "yes_read": 10
+  },
+  "cav": {
+   "yes": 187,
+   "yes_read": 8,
+   "no": 6
+  },
+  "nalcn": {
+   "yes": 20,
+   "yes_read": 3,
+   "no": 1
+  },
+  "catsper": {
+   "not_comparable": 41
+  },
+  "tpc": {
+   "not_comparable": 100
+  }
+ },
+ "strings": {
+  "nav": {
+   "chains": 138,
+   "unread": 11,
+   "top": [
+    [
+     "DEKA",
+     104
+    ],
+    [
+     "DEEA",
+     12
+    ],
+    [
+     "DEKG",
+     3
+    ],
+    [
+     "DKEA",
+     2
+    ],
+    [
+     "DENS",
+     2
+    ],
+    [
+     "DDQA",
+     1
+    ]
+   ]
+  },
+  "cav": {
+   "chains": 201,
+   "unread": 6,
+   "top": [
+    [
+     "EEEE",
+     112
+    ],
+    [
+     "EEDD",
+     49
+    ],
+    [
+     "DDDD",
+     11
+    ],
+    [
+     "EEDE",
+     5
+    ],
+    [
+     "NDDN",
+     3
+    ],
+    [
+     "QEEE",
+     2
+    ]
+   ]
+  },
+  "nalcn": {
+   "chains": 24,
+   "unread": 2,
+   "top": [
+    [
+     "EEKE",
+     18
+    ],
+    [
+     "EKEE",
+     2
+    ],
+    [
+     "EDEE",
+     1
+    ],
+    [
+     "EEEE",
+     1
+    ]
+   ]
+  },
+  "catsper": {
+   "chains": 41,
+   "unread": 0,
+   "top": [
+    [
+     "D",
+     39
+    ],
+    [
+     "E",
+     2
+    ]
+   ]
+  },
+  "tpc": {
+   "chains": 100,
+   "unread": 5,
+   "top": [
+    [
+     "AN",
+     69
+    ],
+    [
+     "SN",
+     6
+    ],
+    [
+     "DA",
+     6
+    ],
+    [
+     "SG",
+     4
+    ],
+    [
+     "ES",
+     3
+    ],
+    [
+     "DS",
+     3
+    ]
+   ]
+  }
+ },
+ "tier1_tested": 20,
+ "tier1_p_le_0_001": 16,
+ "tier1_not_significant": [
+  "catsper",
+  "nalcn",
+  "trpml",
+  "trpn"
+ ],
+ "tier2": {
+  "locus": {
+   "n_tips": "312",
+   "n_states": "16",
+   "changes": "89",
+   "ri": "0.6711",
+   "p_perm": "0.001"
+  },
+  "window": {
+   "n_tips": "293",
+   "n_states": "167",
+   "changes": "192",
+   "ri": "0.7374",
+   "p_perm": "0.001"
+  }
+ }
+}

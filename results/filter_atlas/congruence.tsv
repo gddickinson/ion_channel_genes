@@ -1,0 +1,26 @@
+tree	family	character	rooted	n_tips	n_missing	n_states	changes	min_changes	star_changes	ri	null_median	null_min	p_perm
+tier1	catsper	repeat_locus	True	41	0	2	2	1	2	0.0	2	1	1.0
+tier1	cav	repeat_locus	True	195	6	19	20	18	83	0.9692	76	68	0.001
+tier1	cng	k_window	False	165	148	41	54	40	88	0.7083	86	80	0.001
+tier1	hcn	k_window	True	62	2	2	1	1	1				
+tier1	k2p	k_window	False	344	36	40	82	39	209	0.7471	197	186	0.001
+tier1	kca_sk	k_window	True	80	0	7	15	6	33	0.6667	31	25	0.001
+tier1	kca_slo	k_window	False	104	2	6	15	5	40	0.7143	34	28	0.001
+tier1	kcsa_prok	k_window	False	4	0	3	2	2	2				
+tier1	kir	k_window	True	294	4	14	18	13	60	0.8936	59	53	0.001
+tier1	kv_eag	k_window	False	157	1	9	19	8	45	0.7027	44	39	0.001
+tier1	kv_kcnq	k_window	False	96	1	3	5	2	9	0.5714	9	7	0.001
+tier1	kv_modifier	k_window	True	90	0	1	0	0	0				
+tier1	kv_shaker	k_window	False	304	8	11	20	10	125	0.913	103	90	0.001
+tier1	nalcn	repeat_locus	True	22	2	4	4	3	4	0.0	4	3	1.0
+tier1	nav	repeat_locus	True	127	11	9	10	8	23	0.8667	23	20	0.001
+tier1	tpc	repeat_locus	True	95	5	8	12	7	26	0.7368	26	23	0.001
+tier1	trpa	k_window	True	48	1	28	30	27	42	0.8	40	35	0.001
+tier1	trpc	k_window	True	164	10	76	76	75	139	0.9844	132	124	0.001
+tier1	trpm	k_window	True	129	16	24	29	23	97	0.9189	85	78	0.001
+tier1	trpml	k_window	True	62	0	7	12	6	13	0.1429	13	10	0.1958
+tier1	trpn	k_window	True	15	4	10	10	9	11	0.5	11	9	0.2927
+tier1	trpp	k_window	True	65	0	34	38	33	57	0.7917	53	48	0.001
+tier1	trpv	k_window	True	94	21	48	50	47	69	0.8636	68	64	0.001
+tier2	ploop	locus	False	312	7	16	89	15	240	0.6711	205	187	0.001
+tier2	ploop	window	False	293	26	167	192	166	265	0.7374	253	245	0.001

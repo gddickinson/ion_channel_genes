@@ -923,3 +923,39 @@ GLIC and ELIC. Animals may carry a bacterial-type pentameric channel, by
 horizontal gene transfer or from a lineage lost elsewhere, or these sequences
 may simply be pulled toward the long bacterial branches, or be contamination
 *(pending: S21 — genomic context and contamination check)*.
+
+## S9 — Selectivity filters follow the family tree (2026-10-03)
+
+The selectivity filter, the ring of residues that decides which ion a channel
+lets through, was read in every voltage-gated-like (P-loop) channel the census
+holds: 4,523 pore regions from 23 families, all in one alignment, and checked
+against the classifier's independent method (98 % agreement).
+
+**The T-type calcium channels' filter arose once.** Calcium channels mostly read
+EEEE; the low-voltage T-type channels read EEDD. Forty-seven of the 49 EEDD
+sequences, from humans to sea anemones and *Trichoplax*, form one well-supported
+branch of the calcium-channel tree, with nothing else in it but one EQDD
+variant. The only other EEDD channels are two from *Hydra*, which may have
+reached the same filter independently or may be misplaced *(pending: S11)*. So
+the answer to Q5's test case is that the motif sits where the tree says it
+should.
+
+More generally, at the four-repeat filter the positions that change between
+channel types (Nav repeats II and III, Cav repeats III and IV) follow the
+trees more closely than almost any other position in the protein (95th–100th
+percentile). Selectivity in these channels has been re-tuned rarely and then
+inherited. The few exceptions are single sequences: an EKEE NALCN, two
+glutamate-ringed CatSper subunits, and DEEA, the calcium-preferring locus of
+the invertebrate "Nav2" lineage. Half the DEEA carriers form one branch; the
+rest are scattered, including one elephant-shark and one opossum sequence that
+need checking before anything is said about them *(pending: S11/S16)*. A ring of
+four aspartates (DDDD) occurs only in the ciliate *Paramecium*.
+
+In potassium channels the picture splits by position. The Y/F of the G-Y-G
+follows the tree, but the middle residue of T-x-G-Y-G (isoleucine or valine)
+has flipped many times independently within families. In the alignment, the
+sodium/calcium filter ring sits at exactly that column of the potassium motif.
+
+Across the whole superfamily the filter carries signal on the pore-only tree as
+well, but that tree's deep branches are unsupported, so S9 says nothing about
+the order in which potassium, sodium/calcium and TRP filters arose.

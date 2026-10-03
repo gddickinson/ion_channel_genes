@@ -1,0 +1,192 @@
+tree	family	character	string	n_carriers	sense	one_clade	ufboot	n_intruders	intruder_strings	origins	carriers
+tier1	catsper	repeat_locus	D	39	rooted	False		2	E:2	6	A0A1X7U8D4__Ampque,A0A4W3GN01__Calmil,A0A4W3HBM0__Calmil,A0A5F8GRG6__Mondom,A0A6I8MXW2__Ornana,A0A6I8NAW1__Ornana,A0A6I8NVB3__Ornana,A0A7M7N7C9__Strpur,A0A7M7P6A5__Strpur,A0A803TUM2__Anocar,A0A8I6A342__Ratnor,A0A9J7KNE3__Braflo
+tier1	catsper	repeat_locus	E	2	rooted	False		39	D:39	2	A0A1X7UVE0__Ampque,A0A7M7NFY1__Strpur
+tier1	cav	repeat_locus	EEEE	112	rooted	False		35	DDDD:11,EEDE:5,NDDN:3,EEDD:2,QEEE:2,EFEE:1	31	A0A1D5PV02__Galgal,A0A1X7VQE5__Ampque,A0A2K3CQ96__Chlrei,A0A3B1E663__Caeele,A0A4W3GR47__Calmil,A0A4W3IH64__Calmil,A0A4W3III4__Calmil,A0A4W3JE72__Calmil,A0A5F8GBU5__Mondom,A0A5F8GTU1__Mondom,A0A674NPA3__Takrub,A0A674NRZ3__Takrub
+tier1	cav	repeat_locus	EEDD	49	rooted	False		146	EEEE:112,DDDD:11,EEDE:5,NDDN:3,QEEE:2,IEEE:1	12	A0A4W3H6Q2__Calmil,A0A5F8H7I3__Mondom,A0A5F8HIN4__Mondom,A0A674MWH0__Takrub,A0A674N5R6__Takrub,A0A6I8N8W3__Ornana,A0A6I8NDL2__Ornana,A0A6I8P675__Ornana,A0A7M7NVE1__Strpur,A0A803TDB3__Anocar,A0A8J0ST41__Xentro,A0A8J1IT67__Xentro
+tier1	cav	repeat_locus	DDDD	11	rooted	False		3	NDDN:3	2	A0BKE9__Partet,A0BKF4__Partet,A0BW97__Partet,A0BXM3__Partet,A0C5N7__Partet,A0CIL4__Partet,A0CIL5__Partet,A0D5W4__Partet,A0DB70__Partet,A0DI39__Partet,A0DI68__Partet
+tier1	cav	repeat_locus	EEDE	5	rooted	False		9	EEEE:2,EEDD:2,DEDD:1,EVDE:1,EDEE:1,EESD:1	3	A0ABM4BFU4__Hydvul,A0ABM4BYD6__Hydvul,A0ABM4C2H3__Hydvul,A0ABM4C2J8__Hydvul,A0ABM4C2L3__Hydvul
+tier1	cav	repeat_locus	NDDN	3	rooted	True	91	0		1	A0BDK4__Partet,A0BJ71__Partet,A0DX61__Partet
+tier1	cav	repeat_locus	QEEE	2	rooted	True	100	0		1	A0A674NYC8__Takrub,A0A8M2BFL7__Danrer
+tier1	cng	k_window	TVGYG	77	unrooted	False		62	TIGYG:23,TVGFG:3,DIHPI:3,NVGST:2,TVGLG:2,TIGFG:2		A0BDQ5__Partet,A0BG52__Partet,A0BHQ4__Partet,A0BPG0__Partet,A0BVG8__Partet,A0C2M6__Partet,A0C6D7__Partet,A0C7V8__Partet,A0CB14__Partet,A0CBN9__Partet,A0CBX7__Partet,A0CF88__Partet
+tier1	cng	k_window	TIGYG	23	unrooted	False		110	TVGYG:75,TVGFG:3,TVGLG:2,DITPQ:2,TIGFG:2,TLGYG:2		A0BCE4__Partet,A0CF18__Partet,I7M0H3__Tetthe,I7M1M6__Tetthe,I7M953__Tetthe,I7MCT5__Tetthe,I7MFA9__Tetthe,I7MKG1__Tetthe,I7ML05__Tetthe,Q229T3__Tetthe,Q22U44__Tetthe,Q231J0__Tetthe
+tier1	cng	k_window	DNVPK	6	unrooted	False		2	DMVPK:1,DNVPQ:1		A0BEK7__Partet,A0BS43__Partet,A0D7S0__Partet,A0D7S5__Partet,A0EBK6__Partet,A0EBL2__Partet
+tier1	cng	k_window	DVTPQ	6	unrooted	False		129	TVGYG:52,TIGYG:22,DNVPK:6,DITPQ:4,DVVPI:4,DIHPI:3		A0BKG0__Partet,A0BKG1__Partet,A0BZN4__Partet,A0CBR5__Partet,A0CIL3__Partet,A0E2K9__Partet
+tier1	cng	k_window	DITPQ	4	unrooted	False		131	TVGYG:52,TIGYG:22,DVTPQ:6,DNVPK:6,DVVPI:4,DIHPI:3		A0BLC7__Partet,A0CB19__Partet,A0D6P3__Partet,A0DX96__Partet
+tier1	cng	k_window	DVVPI	4	unrooted	True	100	0			A0BE10__Partet,A0CMF0__Partet,A0D372__Partet,A0DCZ8__Partet
+tier1	cng	k_window	DIHPI	3	unrooted	True	100	0			A0CDV2__Partet,A0D296__Partet,A0D498__Partet
+tier1	cng	k_window	TVGFG	3	unrooted	False		129	TVGYG:74,DNVPK:6,TIGYG:5,DVTPQ:5,DVVPI:4,DIHPI:3		Q22N02__Tetthe,Q23K40__Tetthe,Q24CD2__Tetthe
+tier1	cng	k_window	DIVPL	2	unrooted	True	100	0			A0BDM5__Partet,A0CB36__Partet
+tier1	cng	k_window	DLTPQ	2	unrooted	True	100	0			A0C9Y5__Partet,A0D3R7__Partet
+tier1	cng	k_window	NVGST	2	unrooted	True	100	0			A0CSV1__Partet,A0EDE0__Partet
+tier1	cng	k_window	TIGFG	2	unrooted	False		8	TIGYG:8		I7MGU7__Tetthe,W7XFG0__Tetthe
+tier1	cng	k_window	TLGYG	2	unrooted	False		18	TIGYG:8,TVGYG:3,DITPQ:2,DIAPQ:1,DFTPQ:1,DITPL:1		I7M7Z2__Tetthe,W7X482__Tetthe
+tier1	cng	k_window	TVGLG	2	unrooted	True	100	0			I7MFM3__Tetthe,Q23AP2__Tetthe
+tier1	hcn	k_window	CIGYG	61	rooted	False		1	GSNVD:1	7	A0A4W3IAG1__Calmil,A0A4W3K9W4__Calmil,A0A674MJT9__Takrub,A0A674MWA1__Takrub,A0A674N9Q7__Takrub,A0A674NN74__Takrub,A0A674NWA2__Takrub,A0A6I8MZ99__Ornana,A0A6I8NBZ8__Ornana,A0A6I8NZZ3__Ornana,A0A7M6UNH6__Strpur,A0A8J0QZ60__Xentro
+tier1	k2p	k_window	TIGYG/TIGFG	135	unrooted	False		165	TIGFG/TIGFG:56,TIGYG/TVGFG:35,TVGYG/TIGFG:14,TIGYG/TIGLG:13,TIGYG/TIGYG:5,TIGFG/TVGFG:5		A0A1D5PDB8__Galgal,A0A2X0RDZ3__Caeele,A0A3B5K1B9__Takrub,A0A4W3GHC1__Calmil,A0A4W3I111__Calmil,A0A4W3J8P3__Calmil,A0A4W3JCV9__Calmil,A0A6H2EDG1__Dromel,A0A6I8NF55__Ornana,A0A6I8P1W2__Ornana,A0A6I8RBB8__Xentro,A0A6I8RSF8__Xentro
+tier1	k2p	k_window	TIGFG/TIGFG	56	unrooted	False		237	TIGYG/TIGFG:131,TIGYG/TVGFG:35,TVGYG/TIGFG:13,TIGYG/TIGLG:12,TIGYG/TIGYG:5,TIGFG/TVGFG:5		A0A1D5P3M3__Galgal,A0A4W3I5L5__Calmil,A0A4W3INA2__Calmil,A0A5F8G241__Mondom,A0A674MRV8__Takrub,A0A6I8N1C6__Ornana,A0A6I8NC97__Ornana,A0A803K7I3__Xentro,A0A803T5V2__Anocar,A0A803TQP7__Anocar,A0A8J1JLL9__Xentro,A0A8M9PD90__Danrer
+tier1	k2p	k_window	TIGYG/TVGFG	35	unrooted	False		207	TIGYG/TIGFG:82,TTGYG/TIGLG:22,TIGFG/TIGFG:21,TIGYG/TIGLG:19,TVGYG/TIGFG:12,TVGYG/TIGLG:11		A0A4W3GRJ3__Calmil,A0A5F8G871__Mondom,A0A5F8GVH7__Mondom,A0A5F8GXD9__Mondom,A0A6I8N080__Ornana,A0A7M7G309__Strpur,A0A7M7LW37__Strpur,A0A7M7NUN5__Strpur,A0A7M7SZ02__Strpur,A0A8M1PBI1__Danrer,A0A9J7HG33__Braflo,A0A9J7HGC6__Braflo
+tier1	k2p	k_window	TIGYG/TIGLG	22	unrooted	False		219	TIGYG/TIGFG:92,TIGFG/TIGFG:36,TTGYG/TIGLG:22,TVGYG/TIGFG:13,TVGYG/TIGLG:11,TIGYG/TVGFG:7		A0A7M7GGY1__Strpur,A0A8J0QAU5__Xentro,A0AAJ7SYM6__Petmar,A0AAJ7TCP8__Petmar,A0AAJ7TGN6__Petmar,A0AAJ7TLB7__Petmar,A0AAV2HVZ9__Lymsta,A0ABM1A286__Aplcal,A0ABM1VYV5__Aplcal,A7SL44__Nemvec,E9HIP1__Dappul,GCA_964187895.1_OZ076448.1_107683166-107807521-__Corasp
+tier1	k2p	k_window	TTGYG/TIGLG	22	unrooted	False		219	TIGYG/TIGFG:92,TIGFG/TIGFG:36,TIGYG/TIGLG:22,TVGYG/TIGFG:13,TVGYG/TIGLG:11,TIGYG/TVGFG:7		A0A3B5KFN3__Takrub,A0A8J0PG01__Xentro,A0AAJ7WNI5__Petmar,A0ACM8QD73__Danrer,B8A573__Danrer,D4A806__Ratnor,F1NP03__Galgal,F7AX66__Ornana,F7CPN6__Ornana,F7DH29__Mondom,G1K923__Anocar,G5EG92__Caeele
+tier1	k2p	k_window	TVGYG/TIGFG	14	unrooted	False		276	TIGYG/TIGFG:98,TIGFG/TIGFG:54,TIGYG/TVGFG:23,TIGYG/TIGLG:22,TTGYG/TIGLG:22,TVGYG/TIGLG:11		A0A4W3JQQ9__Calmil,A0A6I8MXI6__Ornana,A0A7M7RBT1__Strpur,A0A803JSE0__Xentro,A0A8M1NVY1__Danrer,A0A8V0ZPW1__Galgal,A7SZB8__Nemvec,H3AWU1__Latcha,H9GG45__Anocar,Q6Q1P3__Ratnor,Q6VV64__Musmus,Q7JLU3__Caeele
+tier1	k2p	k_window	TVGYG/TIGLG	11	unrooted	False		32	TTGYG/TIGLG:18,TIGYG/TIGLG:9,TIGYG/TVGLG:1,TTGYG/TVGFG:1,TTGYG/TIGLE:1,TTGYG/TTGLG:1		A0A674MYH3__Takrub,A0A6I8NZL1__Ornana,A0A8M1N7B3__Danrer,F6SQB1__Xentro,F7B062__Mondom,G3V8R8__Ratnor,GCA_977017645.1_OZ360251.1_13415450-13827932___Tormar,H3BAU4__Latcha,Q3TBV4__Musmus,Q9NEV3__Caeele,Q9Y257__Homsap
+tier1	k2p	k_window	TIGFG/TVGFG	5	unrooted	False		251	TIGYG/TIGFG:100,TIGFG/TIGFG:55,TIGYG/TVGFG:28,TTGYG/TIGLG:18,TIGYG/TIGLG:13,TVGYG/TIGLG:11		A0A3B5JYL7__Takrub,A0A674ND24__Takrub,A0AB32T5S6__Danrer,H2S367__Takrub,H2UWV2__Takrub
+tier1	k2p	k_window	TIGYG/TIGYG	5	unrooted	False		185	TIGYG/TIGFG:88,TIGFG/TIGFG:36,TIGYG/TIGLG:12,TVGYG/TIGFG:12,TIGYG/TVGFG:7,TTGYG/TIGLG:4		A7RXQ9__Nemvec,A7S0F6__Nemvec,A7SG83__Nemvec,A7T4I6__Nemvec,G5EBQ2__Caeele
+tier1	k2p	k_window	TIGYG/TVGLG	4	unrooted	False		237	TIGYG/TIGFG:92,TIGFG/TIGFG:36,TTGYG/TIGLG:22,TIGYG/TIGLG:22,TVGYG/TIGFG:13,TVGYG/TIGLG:11		A0A7M7T5G1__Strpur,A0A9J7L4C5__Braflo,O45422__Caeele,Q19907__Caeele
+tier1	k2p	k_window	PVGYG/TIGFG	2	unrooted	True	100	0			A0A0K3AXZ4__Caeele,Q21529__Caeele
+tier1	k2p	k_window	SIGYG/TVGFG	2	unrooted	True	53	0			P90863__Caeele,Q23386__Caeele
+tier1	k2p	k_window	TIGYG/TTGFG	2	unrooted	False		240	TIGYG/TIGFG:82,TIGYG/TVGFG:35,TTGYG/TIGLG:22,TIGFG/TIGFG:21,TIGYG/TIGLG:19,TVGYG/TIGFG:12		A0A803JN99__Xentro,E9GA12__Dappul
+tier1	k2p	k_window	TIGYG/TVGIG	2	unrooted	False		1	TIGYG/TIGIG:1		A0A8M1P283__Danrer,H2UCS4__Takrub
+tier1	k2p	k_window	TVGYG/TVGLG	2	unrooted	False		239	TIGYG/TIGFG:92,TIGFG/TIGFG:36,TTGYG/TIGLG:22,TIGYG/TIGLG:22,TVGYG/TIGFG:13,TVGYG/TIGLG:11		A0AAJ7TQ81__Petmar,A7RIT3__Nemvec
+tier1	kca_sk	k_window	SIGYG	47	rooted	False		26	TIGYG:11,TVGYG:10,SVGYG:3,LNGYG:1,CVGYG:1	13	A0A1D5NU20__Galgal,A0A4W3H742__Calmil,A0A4W3JF93__Calmil,A0A5F8H306__Mondom,A0A674MMJ7__Takrub,A0A674MU82__Takrub,A0A674MYN7__Takrub,A0A674NVQ6__Takrub,A0A6I8N022__Ornana,A0A6I8P338__Ornana,A0A7M7N904__Strpur,A0A8J0SE91__Xentro
+tier1	kca_sk	k_window	TVGYG	16	rooted	False		64	SIGYG:47,TIGYG:11,SVGYG:3,CVGYG:1,TLGYG:1,LNGYG:1	7	A0A674N8Y1__Takrub,A0A9J7KPR6__Braflo,A0AAV2HDH2__Lymsta,A0AAV2HRV6__Lymsta,A0ABM0JBT9__Aplcal,A0ABM0K2S0__Aplcal,A0CZE0__Partet,A0D2E5__Partet,A0D451__Partet,A0DDU9__Partet,A0EGI3__Partet,GCA_964187895.1_OZ076454.1_47164533-47197174-__Corasp
+tier1	kca_sk	k_window	TIGYG	11	rooted	False		57	SIGYG:42,TVGYG:10,SVGYG:3,CVGYG:1,LNGYG:1	5	A0A6I8QL32__Xentro,A0AAJ7STZ3__Petmar,A0AC58GLV1__Danrer,E9HG77__Dappul,F6XLS0__Ornana,H2TG67__Takrub,H9G9A0__Anocar,O15554__Homsap,O89109__Musmus,Q9QYW1__Ratnor,V4C8V4__Lotgig
+tier1	kca_sk	k_window	SVGYG	3	rooted	False		65	SIGYG:42,TIGYG:11,TVGYG:10,CVGYG:1,LNGYG:1	3	A0AAJ7U4S0__Petmar,E9FRA4__Dappul,V6CLK4__Caeele
+tier1	kca_slo	k_window	TVGYG	64	unrooted	False		24	TVGFG:19,TIGYG:2,TMGYE:1,TLGYD:1,TDGYG:1		A0A1X7URK1__Ampque,A0A2K1IB39__Phypat,A0A2K1K6L2__Phypat,A0A4W3GEQ9__Calmil,A0A4W3HWA2__Calmil,A0A5F8HFI7__Mondom,A0A674N8P0__Takrub,A0A674PFA9__Takrub,A0A6I8N2Y3__Ornana,A0A6I8NKT8__Ornana,A0A7M7PRX8__Strpur,A0A803SZW3__Anocar
+tier1	kca_slo	k_window	TVGFG	35	unrooted	False		55	TVGYG:50,TIGYG:2,TMGYE:1,TLGYD:1,TDGYG:1		A0A4W3K5T2__Calmil,A0A5F8GWM2__Mondom,A0A6I8NIJ5__Ornana,A0A803T7E1__Anocar,A0A8J0SC64__Xentro,A0A8J1JIQ7__Xentro,A0A8V0YMX6__Galgal,A0AAJ7U2X8__Petmar,A0AAV2ILT9__Lymsta,A0AB32T3C7__Danrer,A0AB32TPK9__Danrer,A0ABM1VV19__Aplcal
+tier1	kca_slo	k_window	TIGYG	2	unrooted	False		52	TVGYG:37,TVGFG:12,TMGYE:1,TLGYD:1,TDGYG:1		A0A0D2UAP2__Capowc,A0ABM4BQF0__Hydvul
+tier1	kcsa_prok	k_window	TVGYG	2	unrooted	True	78	0			A0ABN4DJJ3__Strliv,O27564__Metthe
+tier1	kir	k_window	TIGYG	234	rooted	False		60	TIGFG:36,SIGYG:10,TVGYG:3,CLGSD:2,TLGFD:1,ALGFG:1	32	A0A0B4KH86__Dromel,A0A0B4LHI9__Dromel,A0A0G2KM96__Danrer,A0A0R4IAD0__Danrer,A0A0R4ICH9__Danrer,A0A1C3NSK2__Caeele,A0A1C3NSN6__Caeele,A0A1X7UJE5__Ampque,A0A2K1K204__Phypat,A0A2K3DRT3__Chlrei,A0A3Q2TVJ3__Galgal,A0A3Q2UNZ0__Galgal
+tier1	kir	k_window	TIGFG	36	rooted	False		216	TIGYG:192,SIGYG:10,TVGYG:3,CLGSD:2,TLGFD:1,SVGYG:1	4	A0A4W3IJZ4__Calmil,A0A4W3ISQ4__Calmil,A0A4W3JJ21__Calmil,A0A4W3K5L1__Calmil,A0A5F8GX62__Mondom,A0A8J0Q7N2__Xentro,A0A8M1N798__Danrer,A0A8M1N8P1__Danrer,A0A8N1YY33__Danrer,A0AAJ7WXQ7__Petmar,A0AAJ7XFX0__Petmar,A0AC58HSR8__Danrer
+tier1	kir	k_window	SIGYG	10	rooted	True	100	0		1	A0A4W3HR31__Calmil,A0A674MKQ1__Takrub,A0A6I8NKJ0__Ornana,A0AC58HF78__Danrer,F7DE03__Xentro,H9GNK1__Anocar,M3XLP7__Latcha,O70596__Ratnor,Q8JZN3__Musmus,Q9UNX9__Homsap
+tier1	kir	k_window	TVGYG	3	rooted	False		248	TIGYG:192,TIGFG:35,SIGYG:10,CLGSD:2,TLGFD:1,SVGYG:1	3	GCA_964187895.1_OZ076469.1_6033680-6049583___Corasp,Q1LUW9__Danrer,V3ZRM7__Lotgig
+tier1	kir	k_window	CLGSD	2	rooted	False		1	CLGLS:1	2	B3RQ86__Triadh,B3RQ90__Triadh
+tier1	kv_eag	k_window	SVGFG	112	unrooted	False		33	SIGFG:9,TVGFG:7,TCGFG:4,GVGFG:4,TVGYG:4,TIGYG:2		A0A1D5P1M1__Galgal,A0A3B5KEJ0__Takrub,A0A4W3HIK8__Calmil,A0A4W3KGJ2__Calmil,A0A5F8GDH3__Mondom,A0A674MYM0__Takrub,A0A674N9A6__Takrub,A0A674NBM8__Takrub,A0A674NPK2__Takrub,A0A674PDM1__Takrub,A0A674PKL4__Takrub,A0A6I8MYU6__Ornana
+tier1	kv_eag	k_window	TIGFG	14	unrooted	False		30	SVGFG:14,SIGFG:7,TCGFG:4,GVGFG:4,TVGFG:1		A0A5F8GSN4__Mondom,A0A674NUF2__Takrub,A0A6I8QYF8__Xentro,A0A803T4X1__Anocar,A0A8M1RRD3__Danrer,A0A8V0Z394__Galgal,A0ABM4CHM6__Hydvul,A0AC58I332__Danrer,A7SHR1__Nemvec,F7G7A1__Ornana,H3BEM8__Latcha,Q8NCM2__Homsap
+tier1	kv_eag	k_window	SIGFG	9	unrooted	False		104	SVGFG:68,TIGFG:14,TVGFG:7,TCGFG:4,GVGFG:4,TVGYG:4		A0A4W3H896__Calmil,A0A674P2F4__Takrub,A0A8M3AXZ2__Danrer,A0AAJ7TP48__Petmar,A0AC58HN80__Danrer,G5EFJ9__Caeele,GCA_964187895.1_OZ076465.1_64761788-65938210___Corasp,GCA_977017645.1_OZ360222.1_75479135-76015222-__Tormar,H3A5E3__Latcha
+tier1	kv_eag	k_window	TVGFG	7	unrooted	False		97	SVGFG:61,TIGFG:14,SIGFG:7,TCGFG:4,GVGFG:4,TVGYG:4		A0A0K3AVF4__Caeele,A0A7M7NC44__Strpur,A0A7M7PLI2__Strpur,A7RRU8__Nemvec,B3RQL4__Triadh,B3S8A5__Triadh,B3SAI8__Triadh
+tier1	kv_eag	k_window	GVGFG	4	unrooted	True	100	0			A0AAV2H9T0__Lymsta,A0ABM0JYE1__Aplcal,GCA_964187895.1_OZ076455.1_90646948-91184326-__Corasp,V3ZMA8__Lotgig
+tier1	kv_eag	k_window	TCGFG	4	unrooted	False		1	TIGFG:1		A0ABM4CHL4__Hydvul,A0ABM4CHN0__Hydvul,A0ABM4CJ34__Hydvul,A0ABM4CJ46__Hydvul
+tier1	kv_eag	k_window	TVGYG	4	unrooted	False		1	TIGYG:1		A0CIR1__Partet,A0E6E7__Partet,I7MAP2__Tetthe,Q6BGA9__Partet
+tier1	kv_eag	k_window	TIGYG	2	unrooted	False		5	TVGYG:4,TTGYG:1		A0CSV4__Partet,Q22U31__Tetthe
+tier1	kv_kcnq	k_window	TIGYG	87	unrooted	False		5	TVGYG:4,TFGHG:1		A0A4W3GJU7__Calmil,A0A4W3HLN3__Calmil,A0A4W3HTM3__Calmil,A0A4W3JWS8__Calmil,A0A5F8GFV7__Mondom,A0A5F8H836__Mondom,A0A674MPR3__Takrub,A0A674MUR7__Takrub,A0A674MWC9__Takrub,A0A674NKM4__Takrub,A0A674NN57__Takrub,A0A674P4Z3__Takrub
+tier1	kv_kcnq	k_window	TVGYG	8	unrooted	False		31	TIGYG:31		A0A7M7HM08__Strpur,A0A9J7HKV1__Braflo,A0ABM4BTC9__Hydvul,A1Z856__Dromel,GCA_964187895.1_OZ076453.1_21552645-22401613-__Corasp,GCA_964187895.1_OZ076466.1_39163036-40239454-__Corasp,Q8MQC5__Caeele,Q9GYM8__Caeele
+tier1	kv_modifier	k_window	TVGYG	90	rooted	True	92	0		1	A0A1D5PCF8__Galgal,A0A4W3GNF6__Calmil,A0A4W3GYW5__Calmil,A0A4W3HS56__Calmil,A0A4W3IB14__Calmil,A0A4W3ILC0__Calmil,A0A4W3INP6__Calmil,A0A674MNC9__Takrub,A0A6I8NJS3__Ornana,A0A6I8NK09__Ornana,A0A6I8NRQ0__Ornana,A0A6I8NY67__Ornana
+tier1	kv_shaker	k_window	TVGYG	179	unrooted	False		74	TLGYG:59,TIGYG:4,TTGYG:3,SVGYG:2,LVGYG:1,GIGYG:1		A0A1D5PI60__Galgal,A0A3B5KBV0__Takrub,A0A4W3GBS4__Calmil,A0A4W3GBT9__Calmil,A0A4W3IQE1__Calmil,A0A4W3IS90__Calmil,A0A4W3IS99__Calmil,A0A4W3J9W2__Calmil,A0A5F8GB06__Mondom,A0A674MJE8__Takrub,A0A674P379__Takrub,A0A6I8MX46__Ornana
+tier1	kv_shaker	k_window	TLGYG	110	unrooted	False		61	TVGYG:47,TIGYG:4,TTGYG:3,SVGYG:2,GIGYG:1,NIGYG:1		A0A1D5P8P4__Galgal,A0A4W3GH35__Calmil,A0A4W3IA50__Calmil,A0A4W3IGG8__Calmil,A0A4W3J0V9__Calmil,A0A4W3J2X6__Calmil,A0A5F8G682__Mondom,A0A674MEU2__Takrub,A0A674MWF2__Takrub,A0A674N9V7__Takrub,A0A674NIL2__Takrub,A0A6I8NJC2__Ornana
+tier1	kv_shaker	k_window	TIGYG	4	unrooted	False		167	TLGYG:110,TVGYG:47,TTGYG:3,SVGYG:2,NIGYG:1,NVGYG:1		A0A3B1E007__Caeele,A0A9J7LMT9__Braflo,A0ABM4CNW3__Hydvul,A7T1C2__Nemvec
+tier1	kv_shaker	k_window	TTGYG	3	unrooted	False		53	TLGYG:52,TVGYG:1		A0A9J7MW09__Braflo,A7RLC8__Nemvec,A7SYB8__Nemvec
+tier1	kv_shaker	k_window	SVGYG	2	unrooted	False		6	TVGYG:3,GVGYG:1,AVGYG:1,GIGYG:1		A7SI03__Nemvec,A7SKX7__Nemvec
+tier1	nalcn	repeat_locus	EEKE	18	rooted	False		3	EKEE:2,EEEE:1	2	A0A4W3GNL9__Calmil,A0A674NZF7__Takrub,A0A6I8RAR9__Xentro,A0A8M2BF56__Danrer,A0AAJ7XH90__Petmar,A8JUW5__Dromel,E1BSL8__Galgal,E9H0I3__Dappul,F7ADE7__Mondom,F7CU75__Ornana,G1KVE7__Anocar,G5EDM1__Caeele
+tier1	nalcn	repeat_locus	EKEE	2	rooted	False		19	EEKE:18,EEEE:1	2	A0A7M7NPU0__Strpur,A0ABM0ZUK7__Aplcal
+tier1	nav	repeat_locus	DEKA	104	rooted	False		23	DEEA:12,DEKG:3,DKEA:2,DENS:2,DEET:1,DENA:1	17	A0A4W3HP65__Calmil,A0A4W3HQN2__Calmil,A0A5F8HFU9__Mondom,A0A5F8HK98__Mondom,A0A5F8HLF4__Mondom,A0A674MH49__Takrub,A0A674MT91__Takrub,A0A674PLI8__Takrub,A0A6I8MZN6__Ornana,A0A6I8N2A8__Ornana,A0A6I8N9U2__Ornana,A0A6I8NCV6__Ornana
+tier1	nav	repeat_locus	DEEA	12	rooted	False		115	DEKA:104,DEKG:3,DENS:2,DKEA:2,DETE:1,DEET:1	7	A0A4W3JZX3__Calmil,A0A5F8H6I7__Mondom,A0A7M7SUY6__Strpur,A0A9J7HQP1__Braflo,A0AAV2HEZ6__Lymsta,A0ABM1W512__Aplcal,A0ABM4DD93__Hydvul,A7SKR1__Nemvec,B3RSS4__Triadh,E9FT70__Dappul,Q9W0Y8__Dromel,V4BZG2__Lotgig
+tier1	nav	repeat_locus	DEKG	3	rooted	False		1	DEKA:1	2	A0A674NU94__Takrub,A0A674PRG7__Takrub,A0ACD6B7I9__Danrer
+tier1	nav	repeat_locus	DENS	2	rooted	True	100	0		1	B1AYL1__Musmus,F1LQQ7__Ratnor
+tier1	nav	repeat_locus	DKEA	2	rooted	True	100	0		1	A0ABM4C4L2__Hydvul,A0ABM4CK63__Hydvul
+tier1	tpc	repeat_locus	AN	69	rooted	False		13	SN:6,SG:4,VN:3	27	A0A1X7T0J8__Ampque,A0A1X7USA3__Ampque,A0A2K1IRL4__Phypat,A0A2K1J0K4__Phypat,A0A2K1JIK9__Phypat,A0A2K1KUT0__Phypat,A0A2K1L0Z0__Phypat,A0A4W3HLX2__Calmil,A0A4W3IZC1__Calmil,A0A674MGX5__Takrub,A0A6I8PJ64__Ornana,A0A6I8S6D1__Xentro
+tier1	tpc	repeat_locus	DA	6	rooted	False		89	AN:69,SN:6,SG:4,ES:3,DS:3,VN:3	4	A0BF28__Partet,A0D071__Partet,A0D4P8__Partet,A0EAP2__Partet,Q22BI8__Tetthe,Q22SA3__Tetthe
+tier1	tpc	repeat_locus	SN	6	rooted	False		76	AN:69,SG:4,VN:3	5	A0A0D2WPJ7__Capowc,A0AAJ7SQZ7__Petmar,D3ZTJ6__Ratnor,E1BQ97__Galgal,I7MDP9__Tetthe,Q8BWC0__Musmus
+tier1	tpc	repeat_locus	SG	4	rooted	True	100	0		1	A0A7I4C695__Phypat,A0A7I4F4W7__Phypat,Q5QM84__Orysat,Q94KI8__Aratha
+tier1	tpc	repeat_locus	DS	3	rooted	False		92	AN:69,DA:6,SN:6,SG:4,ES:3,VN:3	2	A0CA88__Partet,A0CES0__Partet,Q23RF4__Tetthe
+tier1	tpc	repeat_locus	ES	3	rooted	True	100	0		1	A0A7M7NAA2__Strpur,A0A7M7PPP8__Strpur,A0A9J7LAZ0__Braflo
+tier1	tpc	repeat_locus	VN	3	rooted	True	100	0		1	A0CKD9__Partet,A0CNH5__Partet,Q6BFJ3__Partet
+tier1	trpa	k_window	GEEFD	6	rooted	False		8	GEDFG:3,GEDYA:2,GEEFT:1,GEDFE:1,GENMD:1	4	A0A7M7PIA0__Strpur,A0A7M7PLA6__Strpur,A0A9J7MZ65__Braflo,A0AAN0J3U5__Ampque,A0ABM1VV37__Aplcal,GCA_000327385.1_KB201459.1_602869-606480-__Lotgig
+tier1	trpa	k_window	GDNYH	4	rooted	False		7	GDNYR:3,GDNYQ:2,GDNYE:1,GENYQ:1	3	A0A8V0X6M5__Galgal,F6WSN6__Mondom,G1KQ06__Anocar,GCA_977017645.1_OZ360225.1_120465809-120986013-__Tormar
+tier1	trpa	k_window	GENYQ	4	rooted	False		10	GDNYH:4,GDNYR:3,GDNYQ:2,GDNYE:1	2	A0A674NZZ9__Takrub,A0A8M1N2Z4__Danrer,A0A8M6Z942__Danrer,H3AYS5__Latcha
+tier1	trpa	k_window	GDNYR	3	rooted	True	100	0		1	O75762__Homsap,Q6RI86__Ratnor,Q8BLA8__Musmus
+tier1	trpa	k_window	GEDFG	3	rooted	True	74	0		1	A0A7M7PHS7__Strpur,A0A7M7RF00__Strpur,A0A7M7T2Z4__Strpur
+tier1	trpa	k_window	ELDYL	2	rooted	False		20	GENYQ:4,GDNYH:4,GDNYR:3,GDNYQ:2,ELDYM:2,GEDFV:1	2	A0A7M7NMR6__Strpur,GCA_964187895.1_OZ076451.1_43678242-44522198-__Corasp
+tier1	trpa	k_window	ELDYM	2	rooted	False		1	ELDYL:1	2	A0ABM1VVH9__Aplcal,GCA_964187895.1_OZ076462.1_61183426-62064903___Corasp
+tier1	trpa	k_window	GDNYQ	2	rooted	False		9	GDNYH:4,GDNYR:3,GDNYE:1,GENYQ:1	2	A0A4W3GKR7__Calmil,F7DXN8__Ornana
+tier1	trpa	k_window	GEDYA	2	rooted	True	100	0		1	A0A7M7PGY9__Strpur,A0A7M7PIM8__Strpur
+tier1	trpa	k_window	GENKD	2	rooted	True	100	0		1	A0A7M7LPA6__Strpur,A0A7M7NQE5__Strpur
+tier1	trpc	k_window	GLNLY	25	rooted	False		5	GLSLY:4,GLALH:1	6	A0A4W3JCR9__Calmil,A0A4W3JN76__Calmil,A0A803KC62__Xentro,A0A8M3AXK0__Danrer,A0A8V0X594__Galgal,A0A8V0YFR1__Galgal,A0A9J7LIW5__Braflo,A0AAJ7T4P0__Petmar,A0AAJ7T974__Petmar,A0AC58IBC9__Danrer,A0ACM8Q208__Ratnor,F6TA59__Mondom
+tier1	trpc	k_window	GLEVK	15	rooted	False		28	GLEVI:13,GLEVT:9,GLEVS:3,GLGVD:1,GLEVA:1,GLEVR:1	6	A0A4W3IKF4__Calmil,A0A674MM39__Takrub,A0A8M1RKV1__Danrer,A0A8V0XUZ1__Galgal,A0A9J7MVU3__Braflo,A0ABK0M635__Ratnor,A0AC58I9M9__Danrer,F6V4A4__Xentro,F6XN03__Mondom,F7B2E9__Ornana,G1KMX6__Anocar,GCA_977017645.1_OZ360226.1_67245167-67393519___Tormar
+tier1	trpc	k_window	GLEVI	13	rooted	True	100	0		1	A0A4W3HDJ9__Calmil,A0A803TFD5__Anocar,A0A8V0Z017__Galgal,A0AC58GKD4__Danrer,A0AC58H5H2__Danrer,F1LQF7__Ratnor,F7CZL9__Mondom,F7E7D6__Ornana,GCA_977017645.1_OZ360232.1_5957534-6546004___Tormar,H2TGM5__Takrub,H3A1P8__Latcha,Q9HCX4__Homsap
+tier1	trpc	k_window	SLAHV	13	rooted	False		1	SLAHI:1	3	A0A4W3HAH6__Calmil,A0A5F8GPI0__Mondom,A0A6I8N4A5__Ornana,A0A6I8SHG4__Xentro,A0A8M1NVB3__Danrer,A0A8V0YLU5__Galgal,A0AAJ7UAD8__Petmar,G1KD53__Anocar,GCA_977017645.1_OZ360230.1_44166668-44251257___Tormar,H3ATN1__Latcha,P48995__Homsap,Q61056__Musmus
+tier1	trpc	k_window	GLEVT	9	rooted	True	92	0		1	A0A803JVP3__Xentro,A0A8V0XJK0__Galgal,F6XTG1__Ornana,F7GJV8__Mondom,G1KME8__Anocar,H3A6A4__Latcha,Q13507__Homsap,Q9JMI9__Ratnor,Q9QZC1__Musmus
+tier1	trpc	k_window	GLDLD	5	rooted	False		158	GLNLY:25,GLEVK:15,GLEVI:13,SLAHV:13,GLEVT:9,GLSLY:4	2	A0AAV2IJJ8__Lymsta,A0ABM0ZUX7__Aplcal,E9GZL1__Dappul,GCA_964187895.1_OZ076468.1_20605645-21404812___Corasp,Q9VJJ7__Dromel
+tier1	trpc	k_window	GLSLY	4	rooted	False		23	GLNLY:22,GLALH:1	4	A0A0R4IM91__Danrer,A0A674MGY6__Takrub,A0A6D2WSK7__Takrub,GCA_977017645.1_OZ360234.1_2537287-3468841-__Tormar
+tier1	trpc	k_window	GMEHS	4	rooted	False		5	GVNQD:2,GMDQT:1,GMNQG:1,GMEHT:1	4	A0A6I8NNR3__Ornana,F6ZEH0__Mondom,H3A8E9__Latcha,Q9R283__Ratnor
+tier1	trpc	k_window	GIDLS	3	rooted	False		2	GVDLT:1,GVDLS:1	3	A0A9J7L6R4__Braflo,A0A9J7L8A0__Braflo,A0A9J7MLQ3__Braflo
+tier1	trpc	k_window	GLEVS	3	rooted	False		9	GLEVT:9	2	A0A4W3HV36__Calmil,A0A8M1P0G4__Danrer,GCA_977017645.1_OZ360219.1_150365666-150664001___Tormar
+tier1	trpc	k_window	AVRGQ	2	rooted	True	100	0		1	A0A7M7NDV4__Strpur,A0A7M7NE40__Strpur
+tier1	trpc	k_window	GESVD	2	rooted	True	100	0		1	A0A7M7GKZ9__Strpur,A0A7M7P7S9__Strpur
+tier1	trpc	k_window	GVNQD	2	rooted	True	100	0		1	A0A674N0R5__Takrub,A0A674N1A0__Takrub
+tier1	trpc	k_window	SLAPN	2	rooted	False		1	SLTPS:1	2	GCA_964187895.1_OZ076463.1_19504106-20090064___Corasp,GCA_964187895.1_OZ076468.1_9338057-10057131-__Corasp
+tier1	trpm	k_window	GEVYA	32	rooted	False		35	GEVFA:30,GELFA:5	10	A0A4W3IUZ1__Calmil,A0A4W3JQF9__Calmil,A0A5F8HBL9__Mondom,A0A674MVZ8__Takrub,A0A674NGR2__Takrub,A0A6I8N2M5__Ornana,A0A7M7N7B4__Strpur,A0A803THH9__Anocar,A0A8J0QVH9__Xentro,A0A8J1IMG9__Xentro,A0A8M9Q2T2__Danrer,A0A8V0YTN5__Galgal
+tier1	trpm	k_window	GEVFA	30	rooted	False		37	GEVYA:32,GELFA:5	3	A0A1D5PAY3__Galgal,A0A4W3I298__Calmil,A0A4W3I6J4__Calmil,A0A5F8GGW2__Mondom,A0A5F8HKA3__Mondom,A0A674MFY6__Takrub,A0A674NQ94__Takrub,A0A6I8MXJ9__Ornana,A0A6I8NW21__Ornana,A0A6I8QZK1__Xentro,A0A6I8R8S4__Xentro,A0A8I6ALW5__Ratnor
+tier1	trpm	k_window	GELFL	15	rooted	False		41	GQIPL:13,GQIPQ:5,GQVPS:3,GELYL:3,GDIPV:2,GQIPV:2	11	A0A7M7HJW5__Strpur,A0A7M7MY43__Strpur,A0A7M7N0X8__Strpur,A0A7M7PF05__Strpur,A0A9J7NBM0__Braflo,A0AAV2HQN9__Lymsta,A0AAV2HSQ6__Lymsta,A0ABM0JRT2__Aplcal,A7T1N0__Nemvec,A9V5A7__Monbre,A9VAJ3__Monbre,B3S8M2__Triadh
+tier1	trpm	k_window	GQIPL	13	rooted	False		10	GQIPQ:5,GDIPV:2,GQIPV:2,GQIRL:1	7	A0A4W3HLK6__Calmil,A0A6I8P3C3__Ornana,A0A8I6AG64__Ratnor,A0A8M1P6E5__Danrer,A0A8V1A0I2__Galgal,A0AAJ7TDV6__Petmar,G1KH74__Anocar,G1KN72__Anocar,H2UXP9__Takrub,H3B456__Latcha,Q9JJH7__Musmus,Q9NZQ8__Homsap
+tier1	trpm	k_window	GELFA	5	rooted	False		4	GEVYA:3,GEVFA:1	2	A0AAV2HF24__Lymsta,A0AAV2HGA3__Lymsta,E9GJ26__Dappul,E9GJF9__Dappul,GCA_964187895.1_OZ076444.1_153326555-154395915___Corasp
+tier1	trpm	k_window	GELFI	5	rooted	False		124	GEVYA:32,GEVFA:30,GELFL:15,GQIPL:13,GELFA:5,GQIPQ:5	5	A0A7M7N993__Strpur,A0ABM0JEM3__Aplcal,A0ABM4D2R6__Hydvul,A0ABM4D2R9__Hydvul,A7RLT7__Nemvec
+tier1	trpm	k_window	GQIPQ	5	rooted	False		1	GQIPL:1	2	A0A8J0QP05__Xentro,F6QPM0__Ornana,Q7TN37__Musmus,Q8TD43__Homsap,Q9ESQ5__Ratnor
+tier1	trpm	k_window	GELYL	3	rooted	False		53	GELFL:15,GQIPL:13,GQIPQ:5,GQVPS:3,GDIPV:2,GQIPV:2	2	A0A7M7PBT2__Strpur,A0A7M7SZA9__Strpur,B3S4D3__Triadh
+tier1	trpm	k_window	GQVPS	3	rooted	True	100	0		1	Q7Z2W7__Homsap,Q8R455__Ratnor,Q8R4D5__Musmus
+tier1	trpm	k_window	GDIPV	2	rooted	True	87	0		1	A0A8M3AY04__Danrer,A0ACM8RD05__Danrer
+tier1	trpm	k_window	GELFV	2	rooted	True	100	0		1	A0ABM4D2Q4__Hydvul,A0ABM4D2R4__Hydvul
+tier1	trpm	k_window	GQIPV	2	rooted	False		2	GDIPV:2	2	A0A8M1P545__Danrer,H2TVL8__Takrub
+tier1	trpml	k_window	GDDMF	49	rooted	False		12	GDDMY:5,GDDIY:3,APSLF:1,GDDVQ:1,GDSIW:1,GDEIY:1	17	A0A1X7U9W6__Ampque,A0A4W3H2B0__Calmil,A0A4W3HMW0__Calmil,A0A4W3HQG1__Calmil,A0A5F8GB17__Mondom,A0A803SNM0__Anocar,A0A803TLQ1__Anocar,A0A803TYU9__Anocar,A0A8I6G3L4__Ratnor,A0A8J0PFZ3__Xentro,A0A8J0QK14__Xentro,A0A8J1JDK1__Xentro
+tier1	trpml	k_window	GDDMY	6	rooted	False		56	GDDMF:49,GDDIY:3,GDDVQ:1,GDSIW:1,GDEIY:1,APSLF:1	6	A0A7M7PKX2__Strpur,A0AAV2IF99__Lymsta,A0ABM4BH92__Hydvul,A7S163__Nemvec,F6PR01__Cioint,GCA_964187895.1_OZ076462.1_24628936-25166722___Corasp
+tier1	trpml	k_window	GDDIY	3	rooted	False		57	GDDMF:48,GDDMY:5,GDDVQ:1,GDSIW:1,GDEIY:1,APSLF:1	2	A0A1X7VED8__Ampque,A0ABM4DIF9__Hydvul,A0ABM4DIG0__Hydvul
+tier1	trpn	k_window	GLEPD	4	rooted	False		11	GMDPD:2,GLEPE:2,GLEPG:1,GQEQT:1,GLQPA:1,GLDPD:1	4	A0A8N7UZV9__Danrer,A0A9J7MIF4__Braflo,GCA_000327385.1_KB200701.1_2033299-2105148-__Lotgig,Q9GRV5__Caeele
+tier1	trpn	k_window	GLEPE	2	rooted	False		6	GLEPD:2,GMDPD:2,GLEPG:1,GLDPD:1	2	A0A7M7SXN6__Strpur,A0AAJ7WVZ0__Petmar
+tier1	trpn	k_window	GMDPD	2	rooted	True	100	0		1	A0A4W3GDN1__Calmil,GCA_977017645.1_OZ360225.1_191331440-191808554___Tormar
+tier1	trpp	k_window	GDNFA	8	rooted	False		14	GDNFT:3,GDDFT:2,GDDFA:2,GDNFV:1,GDDFS:1,GDSFT:1	4	A0A4W3H8Z4__Calmil,D4A828__Ratnor,F6YGJ6__Mondom,G1KTH6__Anocar,O35245__Musmus,Q13563__Homsap,Q9JLG4__Musmus,Q9NZM6__Homsap
+tier1	trpp	k_window	GDDFH	7	rooted	False		46	GDNFA:8,GDDYN:7,GDDYD:3,GDNFT:3,GDDFN:3,GDDFS:2	7	A0AAJ7WPY5__Petmar,A0AAV2HJG0__Lymsta,A0ABM0JPU9__Aplcal,A0ABM0JPV0__Aplcal,A7RN85__Nemvec,F6V6N1__Cioint,GCA_964187895.1_OZ076464.1_6752703-7781514___Corasp
+tier1	trpp	k_window	GDDYN	7	rooted	True	94	0		1	A0A6I8NZ03__Ornana,A0A803TG61__Anocar,A0A8I6G7P9__Ratnor,A0A8V0ZIM4__Galgal,A2A259__Musmus,F7G814__Mondom,Q9P0L9__Homsap
+tier1	trpp	k_window	GDDFN	3	rooted	False		50	GDNFA:8,GDDYN:7,GDDFH:7,GDDYD:3,GDNFT:3,GDDFS:2	3	A0A9J7KS07__Braflo,A0AAJ7SW14__Petmar,GCA_964187895.1_OZ076447.1_20700174-21651127-__Corasp
+tier1	trpp	k_window	GDDYD	3	rooted	False		8	GDDYN:7,GDNYD:1	3	A0A6I8Q340__Xentro,A0A8N7UVH6__Danrer,H3BCQ8__Latcha
+tier1	trpp	k_window	GDNFT	3	rooted	False		2	GDNFA:2	3	A0A8V0XIE4__Galgal,F7ANU1__Mondom,F7EC32__Ornana
+tier1	trpp	k_window	GDDFA	2	rooted	False		20	GDNFA:8,GDNFT:3,GDDFT:2,GDDFS:1,GDSFT:1,GDNFV:1	2	GCA_977017645.1_OZ360219.1_92863461-93795111___Tormar,H3AZW3__Latcha
+tier1	trpp	k_window	GDDFS	2	rooted	False		22	GDNFA:8,GDNFT:3,GDDFA:2,GDDFT:2,GDSFT:1,GDNFV:1	2	A0AAJ7XCS7__Petmar,Q6IVV8__Danrer
+tier1	trpp	k_window	GDDFT	2	rooted	False		5	GDNFT:3,GDNFA:2	2	A0A6I8Q1J1__Xentro,G1KMS9__Anocar
+tier1	trpp	k_window	GDNFS	2	rooted	False		52	GDNFA:8,GDDYN:7,GDDFH:7,GDDYD:3,GDNFT:3,GDDFN:3	2	B3S5C8__Triadh,Q9U1S7__Caeele
+tier1	trpp	k_window	GDTFS	2	rooted	True	100	0		1	A0ABM4D6S7__Hydvul,A0ABM4D6U2__Hydvul
+tier1	trpp	k_window	GGHFF	2	rooted	True	100	0		1	A7RJ00__Nemvec,A7RJ04__Nemvec
+tier1	trpv	k_window	GMDLE	25	rooted	False		12	GMELA:3,GMDLD:3,GIDLD:2,GMELE:2,GMDME:1,GMELD:1	6	A0A1D5PXA5__Galgal,A0A4W3J0F3__Calmil,A0A6I8MZ36__Ornana,A0A6I8RQZ3__Xentro,A0A6I8SB12__Xentro,A0A6I8T2G1__Xentro,A0A7D9NJV4__Xentro,A0A8J0SQF6__Xentro,A0A8J0SUQ6__Xentro,A0A8J1JTV5__Xentro,A0A8V0Z8C7__Galgal,A0AC58JJJ2__Danrer
+tier1	trpv	k_window	TINYD	6	rooted	False		6	TVNYD:2,TINYE:1,TINYN:1,TINYS:1,TINYR:1	4	A0A6I8P008__Ornana,A0A8V0ZQY1__Galgal,F6ZFD1__Mondom,H9G4E8__Anocar,Q91WD2__Musmus,Q9R186__Ratnor
+tier1	trpv	k_window	GLDLE	3	rooted	False		5	GLDLN:3,GLDLD:1,GLGLE:1	2	A0A8V1ANN1__Galgal,H3A6P6__Latcha,H3A8I3__Latcha
+tier1	trpv	k_window	GLDLN	3	rooted	True	100	0		1	E9PU00__Ratnor,Q8K424__Musmus,Q8NET8__Homsap
+tier1	trpv	k_window	GLNYE	3	rooted	False		22	TINYD:6,TVNYD:2,TINYA:1,GLPYD:1,GLDHR:1,TINYN:1	3	A0A4W3GKI1__Calmil,A0AAJ7X7Q1__Petmar,H3A6X6__Latcha
+tier1	trpv	k_window	GLPYD	3	rooted	False		32	TINYD:6,GLNYE:3,GLPPD:2,TVNYD:2,NVNYD:1,GLDHR:1	3	A0A4W3KGD6__Calmil,A0AAJ7THY5__Petmar,A0AAJ7TI49__Petmar
+tier1	trpv	k_window	GMDLD	3	rooted	False		34	GMDLE:25,GMELA:3,GIDLD:2,GMELE:2,GMELD:1,GMDME:1	2	A0A4W3JXF8__Calmil,A0A8V1AM03__Galgal,GCA_977017645.1_OZ360222.1_178572478-179587221___Tormar
+tier1	trpv	k_window	GMELA	3	rooted	True	100	0		1	Q9WTR1__Musmus,Q9WUD2__Ratnor,Q9Y5S1__Homsap
+tier1	trpv	k_window	GEKYE	2	rooted	False		2	GEKYD:1,GEKYG:1	2	GCA_964187895.1_OZ076452.1_96714147-96831366___Corasp,V3ZJ74__Lotgig
+tier1	trpv	k_window	GIDLD	2	rooted	False		17	GMDLE:14,GMDLD:2,GMELD:1	2	A0A8M2BCH8__Danrer,A0ACM8ASE3__Petmar
+tier1	trpv	k_window	GLPPD	2	rooted	False		2	GLTPH:1,GLPAN:1	2	GCA_977017645.1_OZ360230.1_7720250-7815924-__Tormar,H3AY32__Latcha
+tier1	trpv	k_window	GMELE	2	rooted	False		3	GMELA:3	2	A0A5F8GJ81__Mondom,F6WJB2__Ornana
+tier1	trpv	k_window	TVNYD	2	rooted	False		2	TINYS:1,TINYR:1	2	F6YRT9__Mondom,Q9NQA5__Homsap
+tier2	ploop	locus	E	72	unrooted	False		111	D:40,N:17,A:13,L:11,K:6,T:4		cav__A0A2K3CQ96__Chlrei_m1,cav__A0A2K3CQ96__Chlrei_m2,cav__A0A2K3CQ96__Chlrei_m3,cav__A0A2K3CQ96__Chlrei_m4,cav__A0A7M6W896__Strpur_m1,cav__A0A7M6W896__Strpur_m2,cav__A0A7M6W896__Strpur_m3,cav__A0A7M6W896__Strpur_m4,cav__A0A8V0X294__Galgal_m3,cav__A0ABM4C2H3__Hydvul_m4,cav__A0ABM4C2J8__Hydvul_m2,cav__A0ABM4C2K7__Hydvul_m1
+tier2	ploop	locus	I	67	unrooted	False		185	V:46,E:45,D:20,L:17,N:17,A:8		cav__I7MGB5__Tetthe_m1,cng__A0A1X7V4G0__Ampque,cng__A0ABM0ZVJ7__Aplcal,cng__A0CKZ1__Partet,cng__A0DVJ1__Partet,cng__A7S8S2__Nemvec,cng__F6TAP2__Cioint,cng__H3B0L7__Latcha,cng__I7ML05__Tetthe,cng__Q14028__Homsap,hcn__A0A7M6UNH6__Strpur,hcn__A0A8V0ZDQ7__Galgal
+tier2	ploop	locus	V	47	unrooted	False		224	I:67,E:45,D:30,L:17,N:17,A:15		cng__A0EDE0__Partet,cng__A9VB25__Monbre,cng__I7LU08__Tetthe,cng__Q22EI7__Tetthe,cng__Q237N2__Tetthe,k2p__A0A7M7G309__Strpur_m2,k2p__A0AAN0I8A4__Ampque_m2,k2p__A7RIT3__Nemvec_m1,k2p__A7SXP2__Nemvec_m1,k2p__A7SZB8__Nemvec_m1,k2p__Q19525__Caeele_m1,k2p__Q19907__Caeele_m2
+tier2	ploop	locus	D	40	unrooted	False		143	E:72,N:17,A:13,L:11,K:6,T:4		catsper__A0A1X7U8D4__Ampque,catsper__A0A6I8NAW1__Ornana,catsper__A0A9J7KRC7__Braflo,catsper__A7S9M8__Nemvec,catsper__F7A9W3__Cioint,catsper__Q86XQ3__Homsap,catsper__Q91ZR5__Musmus,cav__A0ABM1VUE8__Aplcal_m3,cav__A0ABM4C2H3__Hydvul_m3,cav__A0ABM4C9N6__Hydvul_m4,cav__A0BDK4__Partet_m2,cav__A0BKF4__Partet_m1
+tier2	ploop	locus	L	17	unrooted	False		171	I:66,V:46,E:15,D:14,M:6,T:6		cng__Q7Z205__Caeele,k2p__G5ED42__Caeele_m1,k2p__O44773__Caeele_m2,kca_slo__W7XG78__Tetthe,kir__A0A2K3E712__Chlrei,kir__B3RQ87__Triadh,trpa__GCA_964187895.1_OZ076451.1_43678242-44522198-__Corasp,trpc__A0A7M7PL58__Strpur,trpc__A0A7M7SUY8__Strpur,trpc__A0A803TFD5__Anocar,trpc__A0AAJ7UAD8__Petmar,trpc__A9V4X3__Monbre
+tier2	ploop	locus	N	17	unrooted	False		166	E:72,D:40,A:13,L:11,K:6,T:4		cav__A0BDK4__Partet_m4,tpc__A0A2K1J0K4__Phypat_m2,tpc__A0A7M7PIY7__Strpur_m2,tpc__A0A9J7M0H4__Braflo_m2,tpc__A0AAN0IZV0__Ampque_m2,tpc__A0AAN0JJ15__Ampque_m2,tpc__A0AAV2H3C9__Lymsta_m2,tpc__A0ABM1W0K7__Aplcal_m2,tpc__A0ABM4D7I9__Hydvul_m2,tpc__A0CKD9__Partet_m2,tpc__A7STF7__Nemvec_m2,tpc__A9UQH3__Monbre_m2
+tier2	ploop	locus	A	15	unrooted	False		217	E:72,D:40,I:25,N:17,L:14,V:14		cng__A9VCQ9__Monbre,cng__I7LTJ6__Tetthe,nav__A0A9J7HQ16__Braflo_m4,nav__A7SKR1__Nemvec_m4,nav__B3RSR6__Triadh_m4,nav__GCA_964187895.1_OZ076455.1_20498213-21456832___Corasp_m4,nav__Q99250__Homsap_m4,tpc__A0A7I4BW18__Phypat_m1,tpc__A0A7M6URD4__Strpur_m1,tpc__A0AAN0IZV0__Ampque_m1,tpc__A0ABM0JAJ5__Aplcal_m1,tpc__A0ABM4D7I9__Hydvul_m1
+tier2	ploop	locus	S	8	unrooted	False		224	E:72,D:40,I:25,N:17,A:15,L:14		cng__A0BVI4__Partet,cng__I7LY21__Tetthe,cng__W7XJA8__Tetthe,hcn__A0A2K3DB39__Chlrei,tpc__A0A7M7NAA2__Strpur_m2,tpc__A0CA88__Partet_m2,tpc__Q23RF4__Tetthe_m2,trpc__A0A9J7LD61__Braflo
+tier2	ploop	locus	T	8	unrooted	False		261	I:66,E:57,V:45,D:37,N:16,A:15		cav__A0A2K3DAR0__Chlrei_m1,cav__A0CDM5__Partet_m1,cng__G5EEE2__Caeele,k2p__G8JY60__Caeele_m1,kcsa_prok__A8EVQ9__Alibut,kv_eag__A0BV66__Partet,trpp__A0AAV2HBM3__Lymsta,trpp__A0D267__Partet
+tier2	ploop	locus	K	6	unrooted	False		177	E:72,D:40,N:17,A:13,L:11,T:4		nalcn__A0A7M7NPU0__Strpur_m2,nalcn__E1BSL8__Galgal_m3,nav__A0A9J7HQ16__Braflo_m3,nav__F7EYW6__Mondom_m3,trpc__A0A9J7L6Q9__Braflo,trpc__A7RJX1__Nemvec
+tier2	ploop	locus	M	6	unrooted	False		182	I:66,V:46,L:17,E:15,D:14,T:6		cng__A0A2K3E5M5__Chlrei,cng__A0D965__Partet,trpc__A0A9J7M4Z2__Braflo,trpc__A7RSZ7__Nemvec,trpn__GCA_977017645.1_OZ360225.1_191331440-191808554___Tormar,trpv__A0A1D5PXA5__Galgal
+tier2	ploop	locus	Q	4	unrooted	False		181	E:72,D:40,N:17,A:13,L:11,K:6		cav__A0A803TEJ4__Anocar_m2,cav__A0BZH2__Partet_m4,k2p__A0ABM4D6C1__Hydvul_m1,trpc__H2XS61__Cioint
+tier2	ploop	locus	Y	2	unrooted	False		44	E:15,L:11,M:4,D:3,K:2,V:2		trpc__G5EF09__Caeele,trpp__I7MHL0__Tetthe
+tier2	ploop	window	TVGYG	28	unrooted	False		89	TIGYG:27,TIGFG:16,TVGFG:6,TIGLG:5,SVGFG:4,CIGYG:3		cng__I7LU08__Tetthe,cng__Q237N2__Tetthe,k2p__A7RIT3__Nemvec_m1,k2p__A7SZB8__Nemvec_m1,k2p__Q19525__Caeele_m1,k2p__Q94526__Dromel_m1,k2p__Q9S6Z8__Aratha_m2,kca_sk__A0A9J7KPR6__Braflo,kca_sk__A0CZE0__Partet,kca_slo__A0A2K1IB39__Phypat,kca_slo__A0A4W3HWA2__Calmil,kca_slo__A0A7M7PRX8__Strpur
+tier2	ploop	window	TIGYG	27	unrooted	False		90	TVGYG:28,TIGFG:16,TVGFG:6,TIGLG:5,SVGFG:4,CIGYG:3		cng__I7ML05__Tetthe,k2p__A0A2K1K7C7__Phypat_m1,k2p__A0A9J7LW08__Braflo_m1,k2p__A0AAN0I8A4__Ampque_m1,k2p__A0AAV2II07__Lymsta_m1,k2p__A7SG83__Nemvec_m2,k2p__A7SK42__Nemvec_m1,k2p__A7SQQ1__Nemvec_m1,k2p__A7T4I6__Nemvec_m2,k2p__A9VAE4__Monbre_m1,k2p__H2Y0M8__Cioint_m1,k2p__Q21467__Caeele_m1
+tier2	ploop	window	TIGFG	16	unrooted	False		63	TVGYG:25,TIGYG:16,TVGFG:5,TIGLG:5,SIGYG:2,NLTMS:1		k2p__A0A0K3AXZ4__Caeele_m2,k2p__A0A7M7NHG1__Strpur_m2,k2p__A0A9J7K9C5__Braflo_m2,k2p__A0A9J7LH47__Braflo_m1,k2p__A0ABM0ZY05__Aplcal_m2,k2p__A0AC58H391__Danrer_m2,k2p__A9VAE4__Monbre_m2,k2p__B3SA79__Triadh_m2,k2p__E7F9D1__Danrer_m2,k2p__F6YPG9__Xentro_m2,k2p__GCA_964187895.1_OZ076455.1_37881595-38169763___Corasp_m1,k2p__GCA_977017645.1_OZ360224.1_104207609-104699643___Tormar_m1
+tier2	ploop	window	GEDWN	9	unrooted	False		110	MEGWT:5,QEGWV:4,VNNWY:3,TANNP:3,QDYWE:3,LEGWL:3		cav__A0A7M6W896__Strpur_m2,cav__A0ABM4C2J8__Hydvul_m2,cav__B3RIC6__Triadh_m2,cav__E9HRP6__Dappul_m2,cav__O60840__Homsap_m2,nalcn__A0A7M7NPU0__Strpur_m4,nalcn__A7RTZ7__Nemvec_m4,nalcn__GCA_964187895.1_OZ076459.1_46324261-47767439___Corasp_m4,nalcn__Q6Q760__Ratnor_m4
+tier2	ploop	window	TVGFG	6	unrooted	False		111	TVGYG:28,TIGYG:27,TIGFG:16,TIGLG:5,SVGFG:4,CIGYG:3		k2p__A0A7M7G309__Strpur_m2,k2p__A0AAN0I8A4__Ampque_m2,k2p__A7SXP2__Nemvec_m1,kca_slo__A0A803T7E1__Anocar,kca_slo__A0AAV2ILT9__Lymsta,kv_eag__B3S8A5__Triadh
+tier2	ploop	window	MEGWT	5	unrooted	False		7	QDYWE:3,MDFWE:1,MDDWS:1,LDYWE:1,GEGWT:1		cav__A0A2K3CQ96__Chlrei_m1,cav__A0A7M6W896__Strpur_m1,cav__B3RIC6__Triadh_m1,cav__E9HRP6__Dappul_m1,cav__H3AD48__Latcha_m1
+tier2	ploop	window	TIGLG	5	unrooted	False		20	TIGFG:13,TVGFG:2,TIGYG:2,NLTMS:1,AIEYG:1,TVGLG:1		k2p__A0AAJ7SYM6__Petmar_m2,k2p__G8JY60__Caeele_m2,k2p__GCA_964187895.1_OZ076455.1_71357634-71893817-__Corasp_m2,k2p__I2HAD3__Caeele_m2,k2p__Q9Z2T1__Musmus_m2
+tier2	ploop	window	QEGWV	4	unrooted	False		87	MEGWT:5,VNNWY:3,TANNP:3,QDYWE:3,LEGWL:3,VNNWF:3		nalcn__A0A6I8RAR9__Xentro_m2,nalcn__A0ABM0ZUK7__Aplcal_m1,nalcn__A7RTZ7__Nemvec_m1,nalcn__Q8IZF0__Homsap_m1
+tier2	ploop	window	SVGFG	4	unrooted	False		1	TVGFG:1		kv_eag__A0A674PKL4__Takrub,kv_eag__A0A9J7LUV5__Braflo,kv_eag__A0ABM1VZZ3__Aplcal,kv_eag__A0ABM4CYN1__Hydvul
+tier2	ploop	window	CIGYG	3	unrooted	True	100	0			hcn__A0A7M6UNH6__Strpur,hcn__A0A8V0ZDQ7__Galgal,hcn__A0ABM0GHE6__Aplcal
+tier2	ploop	window	FEGWP	3	unrooted	False		1	GEGWP:1		cav__A0A7M6W896__Strpur_m3,cav__A0A8V0X294__Galgal_m3,cav__B3RIC6__Triadh_m3
+tier2	ploop	window	GDDMF	3	unrooted	False		2	GDDMY:1,GDDIY:1		trpml__A0A803TYU9__Anocar,trpml__A0A9J7NB51__Braflo,trpml__B3S1R4__Triadh
+tier2	ploop	window	GEAWQ	3	unrooted	False		1	GENWQ:1		cav__A0A7M6W896__Strpur_m4,cav__GCA_964187895.1_OZ076450.1_89941935-90890692___Corasp_m4,cav__O73700__Galgal_m4
+tier2	ploop	window	GELFL	3	unrooted	True	55	0			trpm__A0A7M7N0X8__Strpur,trpm__A0AAV2HQN9__Lymsta,trpm__A9V5A7__Monbre
+tier2	ploop	window	LEGWL	3	unrooted	False		1	LKGWV:1		nalcn__A0A7M7NPU0__Strpur_m3,nalcn__A7RTZ7__Nemvec_m3,nalcn__V4ASM1__Lotgig_m3
+tier2	ploop	window	QDYWE	3	unrooted	True	98	0			nav__A0A9J7HQ16__Braflo_m1,nav__A0AAV2H4T9__Lymsta_m1,nav__H3AFY2__Latcha_m1
+tier2	ploop	window	TANNP	3	unrooted	True	58	0			tpc__A0A7I4BW18__Phypat_m1,tpc__A0A7M6URD4__Strpur_m1,tpc__A0ABM4D7I9__Hydvul_m1
+tier2	ploop	window	VNNWF	3	unrooted	False		2	VNNWY:2		tpc__A0AAN0IZV0__Ampque_m2,tpc__A0AAV2H3C9__Lymsta_m2,tpc__A9UQH3__Monbre_m2
+tier2	ploop	window	VNNWY	3	unrooted	False		10	VNNWF:3,VNNWH:2,VNKWY:1,VNNWQ:1,VNQWH:1,VNNWS:1		tpc__A0A9J7M0H4__Braflo_m2,tpc__A0ABM4D7I9__Hydvul_m2,tpc__Q9ULQ1__Homsap_m2
+tier2	ploop	window	GDDFH	2	unrooted	False		3	GDNFT:1,GDNFS:1,GDDFG:1		trpp__A0ABM0JPV0__Aplcal,trpp__F6V6N1__Cioint
+tier2	ploop	window	GEGWT	2	unrooted	False		117	GEDWN:9,MEGWT:5,QEGWV:4,VNNWY:3,TANNP:3,QDYWE:3		cav__A0ABM4C2K7__Hydvul_m1,cav__A0BZH2__Partet_m3
+tier2	ploop	window	KDGWV	2	unrooted	True	97	0			cav__A0ABM1VUE8__Aplcal_m3,cav__F6SKF5__Cioint_m3
+tier2	ploop	window	LEGWV	2	unrooted	False		3	QEGWV:3		nalcn__A0A7M7NPU0__Strpur_m1,nalcn__B3RI47__Triadh_m1
+tier2	ploop	window	NEEWH	2	unrooted	False		1	DEEWH:1		cav__A0CDM5__Partet_m2,cav__I7MGB5__Tetthe_m2
+tier2	ploop	window	SAGWN	2	unrooted	False		3	AAGWT:1,SAGWD:1,SAGWS:1		nav__A0A9J7HQ16__Braflo_m4,nav__A7SKR1__Nemvec_m4
+tier2	ploop	window	SIGYG	2	unrooted	False		77	TVGYG:25,TIGYG:16,TIGFG:16,TVGFG:5,TIGLG:5,NLTMS:1		k2p__Q93764__Caeele_m1,kca_sk__A0A1D5NU20__Galgal
+tier2	ploop	window	TANYP	2	unrooted	False		3	TANHP:1,TVNSP:1,TANFP:1		tpc__A0ABM0JAJ5__Aplcal_m1,tpc__A9UQH3__Monbre_m1
+tier2	ploop	window	VDGWT	2	unrooted	True	98	0			catsper__A0A9J7KRC7__Braflo,catsper__Q86XQ3__Homsap
+tier2	ploop	window	VIGYG	2	unrooted	False		116	TVGYG:28,TIGYG:27,TIGFG:16,TVGFG:6,TIGLG:5,SVGFG:4		cng__A0CKZ1__Partet,trpc__A0A9J7MR38__Braflo
+tier2	ploop	window	VNNWH	2	unrooted	False		3	VNNWQ:1,VNNWS:1,VNNWY:1		tpc__A0A7M7PIY7__Strpur_m2,tpc__A0ABM1W0K7__Aplcal_m2

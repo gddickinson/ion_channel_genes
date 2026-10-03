@@ -446,6 +446,10 @@ FIGURES: list[dict] = [
 ]
 
 
+from figure_notes_late import FIGURES as _LATE  # noqa: E402
+FIGURES += _LATE
+
+
 def by_path() -> dict[str, dict]:
     return {f["path"]: f for f in FIGURES}
 

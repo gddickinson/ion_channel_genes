@@ -1,0 +1,10 @@
+anchor	reference	position	residue	repeat	column
+k_window	KcsA P0A334	75	T		433
+k_window	KcsA P0A334	76	V		434
+k_window	KcsA P0A334	77	G		449
+k_window	KcsA P0A334	78	Y		450
+k_window	KcsA P0A334	79	G		451
+repeat_locus	Nav1.5 Q14524	372	D	1	434
+repeat_locus	Nav1.5 Q14524	898	E	2	434
+repeat_locus	Nav1.5 Q14524	1419	K	3	434
+repeat_locus	Nav1.5 Q14524	1711	A	4	434

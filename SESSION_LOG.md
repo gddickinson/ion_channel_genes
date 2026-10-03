@@ -989,3 +989,31 @@ and the ingroup's basal split is identical under the two outgroups.
   (`selftest_s8.py` — `selftest.py` is over budget, emergent row).
 
 **Next: S9** — selectivity-filter atlas vs the tier-2 tree (Q5).
+
+### 2026-10-03 — S9: selectivity-filter atlas (Q5)
+
+- Session start clean: data root attached (128.5 GB free), catalogue + self-test
+  clean. D49 written before any filter was read against a tree.
+- `scripts/s9_atlas.py add`: 4,523 P-loop modules (S6 D39 sets) added to S8's
+  untrimmed P-loop tier-2 alignment, L-INS-i `--add --keeplength --mapout`, 89
+  chunks of ≤ 60, 2 min wall (`<data root>/alignments/s9/add/`).
+- `read`: anchors KcsA T75–G79 and Nav1.5 DEKA (`verify_anchor()` passed). First
+  read put Nav1.5 repeat III's K 15 columns off — counting residues along an
+  aligned row after `--keeplength` deleted an upstream insertion. Caught by the
+  validation (Nav reading DEGA); fixed with MAFFT's `--mapout` residue→column map
+  before any tree was read. All four DEKA residues share column 434 (KcsA V76).
+- `validate`: 356/363 four-repeat chains agree with the classifier's pairwise
+  projection; K window = regex motif on 1,962/2,058; 317/317 tier-2 tips re-read.
+- `scripts/s9_congruence.py`: Fitch + 1,000 permutations on 23 tier-1 trees and
+  the tier-2 tree; per-string clade tests. 16/20 testable trees p ≤ 0.001.
+  EEDD: 47/49 one clade (UFBoot 100). S7d's six undefined roots read unrooted
+  (D49 addendum a).
+- `scripts/s9_background.py` (post hoc, D49 addendum b): filter-position RI vs
+  every informative column — Cav III/IV 95th/96th, Nav II/III 100th/97th;
+  K⁺ x of TxGYG homoplastic (Kir 6th, Slo 3rd).
+- Report `results/filter_atlas/report.md` (`s9_report.py`), figure
+  `filter_atlas.png` (`s9_figures.py`), caption in new `figure_notes_late.py`
+  (figure_notes.py at budget), self-test +7 (`selftest_s9.py`).
+- Emergent: vertebrate DEEA Nav chains (shark, opossum); *Hydra* EEDD/EEDE.
+
+**Next: S10** — repertoire evolution (Q4).
