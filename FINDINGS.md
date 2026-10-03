@@ -1065,3 +1065,23 @@ boundaries, which supports how the families were drawn.
 duplications gives one root each for CNG, K2P, Slo, EAG and KCNQ, and a tie for
 Shaker. These are candidates only, to be compared with outgroup-free roots
 *(pending: S11b)*.
+
+## S11b — In what order were the four channel repeats made? (2026-10-03)
+
+**The data lean toward repeats I+III and II+IV as the pairs, but cannot exclude
+the alternatives.** Sodium, calcium and NALCN channels are single proteins built
+from four similar six-helix repeats. Two-pore channels (TPC) are built from two.
+The textbook model says a two-repeat ancestor like TPC duplicated in tandem. If
+so, repeat I should pair with III, and II with IV. We took one representative
+protein per family and species group (16 four-repeat proteins, 9 TPCs) and built
+a tree of their 82 individual repeats. The best tree has exactly that pattern.
+Repeats I and III mix in one group, and II groups with IV. TPC's first repeat
+sits beside the I+III group with full bootstrap support, and TPC's second
+repeat sits inside the II group. The formal test (AU) favours the I+III / II+IV
+pairing (p = 0.71), but the other two pairings are not rejected (p = 0.10 and
+0.06). So the two-step model is the best-supported reading of these data, not a
+demonstrated one *(pending: emergent row — mixture model, denser sampling)*.
+The pore region alone (about 100 positions) cannot tell the three apart.
+
+**The roots of the six potassium-channel families are being re-tested without
+any outgroup** *(pending: S11c)*.

@@ -331,6 +331,8 @@ rootstrap) for CNG, K2P, KCNQ, Shaker, Slo, EAG, compared with S11a's
 reconciliation roots (`recon_trees.tsv` `root_split`), with its acceptance
 criterion fixed first. Both runs go detached.
 
+
+**Split again (2026-10-03).** **S11b** (done, D53): the repeat-duplication order — unresolved under the AU test, H13 best (`results/duplication/s11b_report.md`). **S11c**: the outgroup-free roots, running detached (`scripts/s11b_roots.py run`, log `<data root>/trees/s11b/roots_run.log`). When `rev.run.json` exists for all 11 families under `<data root>/trees/s11b/roots/`, run `s11b_roots.py parse`, `s11b_report.py`, `bin/envpy scripts/s11b_figures.py`; look at panel C (D11) and update its caption in `figure_notes_late.py`. Completion: `roots_nonrev.tsv` with all 11 rows; controls recovered count, six resolved / agree counts stated in the ledger; nothing in D53 (5)–(7) changed after reading a root.
 ---
 
 ## S12 — Structures

@@ -172,4 +172,39 @@ FIGURES = [
                 "fewest-duplication root, orange where it is not; light blue / grey = "
                 "rooted by fewest duplications, at one edge or tied between several.",
     },
+    {
+        "path": "results/duplication/figures/s11b_repeats_roots.png",
+        "task": "S11b", "script": "scripts/s11b_figures.py",
+        "title": "In what order were the four repeats of sodium and calcium channels made?",
+        "shows": "Sodium (Nav), calcium (Cav) and NALCN channels are one protein built from "
+                 "four similar repeats (I–IV), each a six-helix channel unit; two-pore "
+                 "channels (TPC) have two. A — a tree of the individual repeats from 16 "
+                 "four-repeat proteins and 9 TPCs across the species groups. B — a test "
+                 "of the three ways the four repeats can pair up. C — roots for six "
+                 "potassium-channel family trees found without any outgroup (filled in "
+                 "when those runs finish).",
+        "how": "Each repeat (helix S1 to helix S6, boundaries taken from annotated "
+               "reference proteins) was cut from one representative protein per family "
+               "and species group, all repeats were aligned together and a "
+               "maximum-likelihood tree built. For each pairing hypothesis a best tree "
+               "forced to contain that pairing was found and compared with the others "
+               "by the approximately unbiased (AU) test; the same was repeated on the "
+               "pore region alone. In C, each family tree is re-inferred under a "
+               "non-reversible substitution model, which places the root without an "
+               "outgroup; 'rootstrap' is the share of bootstrap trees with the same root.",
+        "read": "A: one line per repeat, coloured by repeat (blue I, orange II, green III, "
+                "violet IV); TPC repeats in grey (circle = TPC repeat I, square = TPC "
+                "repeat II); the label is the family. The tree is unrooted, so the "
+                "left-hand starting point is arbitrary; branch length = substitutions "
+                "per site. Repeats I and III mix in one group with TPC repeat I beside "
+                "them; II and IV group with TPC repeat II. B: each dot is one "
+                "hypothesis's AU p-value (log scale), dark circles for whole repeats, "
+                "light diamonds for the pore region only; a dot left of the dashed "
+                "line (p = 0.05) would mean that pairing is rejected — none is. "
+                "{I,III}|{II,IV} fits best. C: bar = rootstrap of the inferred root "
+                "(dashed line = 95 %, the bar for 'resolved'); blue where the root "
+                "matches the root from gene-tree / species-tree reconciliation (top "
+                "six) or the known outgroup root (bottom five controls), grey where it "
+                "does not; 'running' = not finished yet; numbers after names = tips.",
+    },
 ]

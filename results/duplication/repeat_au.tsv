@@ -1,0 +1,9 @@
+unit	tree	model	logL	deltaL	p_SH	p_AU	satisfies	retry	rejected
+repeat	ML	LG+F+R5	-32310.54322	4.0318	0.542	0.419			False
+repeat	H13	LG+F+R5	-32306.51145	0.0	1.0	0.712	True	False	False
+repeat	H12	LG+F+R5	-32327.77949	21.268	0.171	0.0993	True	False	False
+repeat	H14	LG+F+R5	-32329.08792	22.576	0.148	0.0619	True	True	False
+pore	ML	Q.pfam+G4	-13640.24866	0.0	1.0	0.683			False
+pore	H13	Q.pfam+G4	-13643.47308	3.2244	0.607	0.471	True	False	False
+pore	H12	Q.pfam+G4	-13644.43633	4.1877	0.558	0.354	True	False	False
+pore	H14	Q.pfam+G4	-13646.31294	6.0643	0.461	0.258	True	True	False

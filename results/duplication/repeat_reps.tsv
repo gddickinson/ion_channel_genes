@@ -1,0 +1,27 @@
+family	group	label	n_cell	n_eligible	centrality	covers
+nav	basal_metazoan	B3RSS4__Triadh	3	1	1.0	0.99,0.96,0.96,0.98
+nav	cnidarian	A7SKR1__Nemvec	5	5	0.463	0.96,0.98,0.98,0.98
+nav	deuterostome	A0A9J7HNZ5__Braflo	9	9	0.474	0.99,0.98,0.98,0.99
+nav	invertebrate	A0AAV2H4T9__Lymsta	11	11	0.54	0.99,1.00,0.98,0.95
+nav	vertebrate	F7EYW6__Mondom	110	95	0.748	0.99,1.00,1.00,1.00
+cav	algae	A0A2K3CQ96__Chlrei	2	2	0.275	0.97,0.98,1.00,0.96
+cav	basal_metazoan	B3RIC6__Triadh	4	3	0.335	0.98,1.00,0.98,0.98
+cav	ciliate	A0C5N7__Partet	19	14	0.308	0.94,0.95,0.91,0.96
+cav	cnidarian	A0ABM4C2H3__Hydvul	18	17	0.478	0.97,0.98,1.00,0.97
+cav	deuterostome	F6X5E1__Cioint	10	9	0.44	0.99,1.00,0.98,0.98
+cav	invertebrate	E9HRP6__Dappul	18	16	0.482	0.99,0.99,1.00,0.97
+cav	vertebrate	A0A6I8QW04__Xentro	130	115	0.501	0.99,1.00,0.98,1.00
+nalcn	basal_metazoan		1	0		
+nalcn	cnidarian	A7RTZ7__Nemvec	1	1	1.0	0.98,0.95,0.99,1.00
+nalcn	deuterostome	A0A7M7NPU0__Strpur	2	2	0.473	0.99,1.00,1.00,1.00
+nalcn	invertebrate	G5EDM1__Caeele	7	4	0.518	0.99,1.00,1.00,1.00
+nalcn	vertebrate	F7CU75__Ornana	13	13	0.943	1.00,1.00,1.00,1.00
+tpc	amoebozoa	Q54HZ8__Dicdis	1	1	1.0	0.93,0.91
+tpc	basal_metazoan	A0AAN0IZV0__Ampque	6	5	0.372	0.96,0.97
+tpc	ciliate	A0CES0__Partet	13	6	0.372	0.93,0.98
+tpc	cnidarian	A7SNJ0__Nemvec	5	3	0.326	0.97,0.98
+tpc	deuterostome	A0A7M7PIY7__Strpur	12	12	0.336	0.99,0.99
+tpc	holozoa	A9VDS1__Monbre	5	3	0.313	0.93,0.93
+tpc	invertebrate	GCA_964187895.1_OZ076461.1_33660343-34214259___Corasp	12	10	0.41	0.94,0.95
+tpc	plant	A0A2K1J0K4__Phypat	11	11	0.547	0.98,0.93
+tpc	vertebrate	Q9ULQ1__Homsap	35	31	0.441	0.94,0.95

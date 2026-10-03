@@ -1,0 +1,13 @@
+unit	class	tips	one_clade	ufboot	intruders	intruder_classes	nearest_side
+repeat	I	16	False		11	III	III:11
+repeat	II	16	False		25	IV,tII	IV:16;tII:9
+repeat	III	16	False		16	I	I:16
+repeat	IV	16	True	76.0	0		II:12
+repeat	tI	9	True	100.0	0		I:16;III:16
+repeat	tII	9	False		4	II	II:4
+pore	I	16	False		50	II,III,tI,tII	II:16;III:16;tI:9;tII:9
+pore	II	16	False		20	I,IV	I:4;IV:16
+pore	III	16	True	97.0	0		I:12;tI:9;tII:9
+pore	IV	16	True	90.0	0		I:4;II:4
+pore	tI	9	True	97.0	0		I:12
+pore	tII	9	True	75.0	0		I:12;tI:9

@@ -1094,3 +1094,30 @@ and the ingroup's basal split is identical under the two outgroups.
   species-specific excess; Kir pairs dated to cellular organisms.
 
 **Next: S11b** — repeat-duplication order + rootstrap roots (rules first).
+
+### 2026-10-03 — S11b: repeat-duplication order (S11b split → S11c)
+
+- **D53** written before any input was built: repeat unit (whole S1–S6
+  repeat from the S6 references' TRANSMEM helices; pore module as
+  sensitivity), representatives (one chain per family × group, most central,
+  every repeat ≥ 90 % covered), the AU test of H13/H12/H14, and the
+  outgroup-free root rules (NQ.pfam rootstrap + AU root test, Q.pfam
+  re-evaluation, five positive controls).
+- New scripts: `s11b_lib.py`, `s11b_repeats.py`, `s11b_roots.py`,
+  `s11b_report.py`, `s11b_figures.py`, `selftest_s11b.py` (+12 invariants).
+- Repeat tree: 16 four-repeat chains (Nav 5, Cav 7, NALCN 4) + 9 TPCs → 82
+  tips; whole repeat 231 columns (LG+F+R5), pore 106 (Q.pfam+G4).
+  **AU: H13 0.712, H12 0.099, H14 0.062 (whole repeat); 0.471 / 0.354 /
+  0.258 (pore) — none rejected → unresolved.** ML tree holds H13; TPC repeat I
+  beside I+III (UFBoot 100), TPC repeat II inside II.
+- Snags: IQ-TREE 2.3.6 rejects a constraint over exactly 64 taxa (63/65
+  work; all-gap padding refused) → one tip freed and the bipartition checked
+  after. My first version of that check was wrong (free TPC tips inside a
+  side); fixed, the retry it triggered returned the identical tree. Both in
+  D53.
+- Rootstrap runs launched detached (11 families, `--jobs 4 --threads 2`),
+  ~1–2 days for CNG/K2P/Shaker. S11b split: the roots become **S11c**.
+- Emergent: more power for the repeat order (mixture model, less trimming,
+  denser sampling incl. CatSper and 1× prokaryotic channels).
+
+**Next: S11c** — parse the outgroup-free roots when the detached run ends.

@@ -1,0 +1,12 @@
+family	role	n_tips	cols	dropped_outgroup	s7b_model	nq_model	rev_model	input_sha256
+cng	root	313	768	3	Q.pfam+F+R10	NQ.pfam+R10	Q.pfam+R10	b09cbe4901bbe6800fb94012330242bb87c6f527194dafa497259b269e3c46c2
+k2p	root	380	302	3	Q.pfam+R9	NQ.pfam+R9	Q.pfam+R9	e43131e36463a613742f5cc5617ee72d4ecd77bc286a75572de9e8dc13c59733
+kv_kcnq	root	97	667	3	JTT+I+R5	NQ.pfam+I+R5	Q.pfam+I+R5	19b5e8964b391ba904ebbb5210971ca71f4a692e98cab75046ad1385394fa461
+kv_shaker	root	312	458	3	Q.pfam+I+R9	NQ.pfam+I+R9	Q.pfam+I+R9	e06773e632ff24de03b3aec11145771ef825ddab99209b4562a531385799117f
+kca_slo	root	106	1033	3	LG+F+I+R7	NQ.pfam+I+R7	Q.pfam+I+R7	f68983a4b880568a446956cfcba7ad70c1b1d38e9f5225bc35ae44ab2d9d2417
+kv_eag	root	158	909	3	JTT+F+I+R7	NQ.pfam+I+R7	Q.pfam+I+R7	b09294c7d2bee5dc4a02e3ffe5204a3f8820ffea8ac3a9dab54eeaa93bba9267
+enac	control	41	654	2	JTT+R4	NQ.pfam+R4	Q.pfam+R4	77dabb0a1ee593044650ef44923efed7e3f9fb03e9bd95f251bfd590d35f4c6f
+glyr	control	65	454	2	JTT+R4	NQ.pfam+R4	Q.pfam+R4	0d47fe996a2caa0065443801510df23bbf3293f47cf63aa018806092426c2562
+ht3	control	52	457	2	JTT+R5	NQ.pfam+R5	Q.pfam+R5	9f4100d16f41541063d9461ed00f1975370c1b942c0e95c8e47c04d47fca8d10
+iglur_nonvertebrate	control	38	916	1	Q.pfam+R5	NQ.pfam+R5	Q.pfam+R5	984d50667be2c646520fe3edea624c056d5403b089ffc9bd7c4cba55dce91de6
+nalcn	control	24	1738	3	LG+F+R4	NQ.pfam+R4	Q.pfam+R4	37005a80f5b30680bd2655d1724d0532ceed77650ffd053d0fd2c90b5b771d17
