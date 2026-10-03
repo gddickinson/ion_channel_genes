@@ -1042,3 +1042,31 @@ and the ingroup's basal split is identical under the two outgroups.
   KcsA-like in a sponge, eukaryotic MscL; Hv1's 58 losses may be detection.
 
 **Next: S10b** — Q4 (animal MscS) under D50 (6), then the absence checks.
+
+### 2026-10-03 — S10b: Q4 (animal MscS) and the absence checks
+
+- Session start clean: data root attached (121 GB free), catalogue + self-test
+  clean. **D51 written before any check was read** (embedded-contig test,
+  Q4 verdict, Daphnia re-sweep, ortholog databases, K2P naming); two
+  pre-reading clarifications (prokaryotic families pointed at; ±100 kb window
+  on contigs > 200 kb) and one compute addendum (`blastx-fast`, after the two
+  *Nematostella* contigs had been seen; both re-run under it).
+- `s10b_daphnia.py`: GCF_021134715.1 by S4's `assembly_rank`; S5's run_one /
+  r4 run_one / cells / rescue / control / D4 unchanged → matched detection
+  40/40; Piezo, DEG/ENaC, pLGIC_prok, CLCC1 stay absent; TRPP, CALHM → partial.
+- `s10b_contig.py`: 38 subjects (9 MscS, 29 prokaryotic-family), contigs from
+  local S5 genomes or INSDC (NCBI efetch — ENA's browser API redirects WGS
+  contigs to the whole WGS set; first attempt failed on that, fixed), blastx vs
+  a new panel BLAST DB (`<data root>/blast_db/s4_panel/`). Q4 **unresolved**.
+- `s10b_orthologs.py`: NCBI Gene orthologs + Ensembl Compara 116 on the 14 S5
+  absent cells of ZAC/PACC1/CLCC1; disputed proteins scored (D32) and placed by
+  tblastn. Found the *Takifugu* PACC1 locus-merge artefact; `screen` added
+  (post hoc) over all 83 absent cells.
+- `s10b_k2p.py`: non-animal K2P calls = plant TPKs + 1 *Monosiga*.
+- Figure `results/repertoire/figures/s10b_checks.png` (looked at; second pass
+  split MscS by confidence and moved panel C's legend), caption in
+  `figure_notes_late.py`, report `s10b_report.py`, self-test +4.
+- Emergent: S5 locus merging across families (PACC1/TMEM87); bdelloid
+  MscS/MscL on animal contigs (HGT candidates); fish ZACN orthologues vs 5-HT3.
+
+**Next: S11** — duplication history (fix dating rules before reading any tree).

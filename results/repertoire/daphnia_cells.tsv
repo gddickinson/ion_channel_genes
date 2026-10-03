@@ -1,0 +1,76 @@
+family	superfamily	proteome_records	proteome_high	control	matched	genome	n_found	best_confidence	n_partial	n_gap	n_traces	verdict	found_loci	bar_bp	bar_source
+kv_shaker	ploop	5	3	1	1	found	2	high	0	0	0	present	NC_060026.1:6166310-6179031+;NC_060021.1:4990360-5017233+	11198	group
+kv_modifier	ploop	0	0	0	0	partial	0		1	0	0	partial		19092	pooled
+kv_kcnq	ploop	1	0	0	1	found	1	high	0	0	0	present	NC_060020.1:6582038-6679155+	25067	group
+kv_eag	ploop	2	1	1	1	found	2	high	0	0	0	present	NC_060018.1:6088832-6209156+;NC_060017.1:2710305-2836397-	27456	group
+kca_slo	ploop	2	2	1	1	found	2	high	0	0	0	present	NC_060025.1:6612509-6624744+;NC_060025.1:7313033-7429234-	29775	group
+kca_sk	ploop	3	2	1	1	found	2	high	0	0	0	present	NC_060019.1:6902251-6904086-;NC_060018.1:3399872-3506495-	7108	group
+kir	ploop	2	2	1	1	found	1	high	3	0	0	present	NC_060023.1:8719371-8818226-	5829	group
+k2p	ploop	12	11	1	1	found	7	high	1	0	0	present	NC_060022.1:2419385-2475592+;NC_060018.1:9794589-9798031+;NC_060017.1:1781097-1785472-;NC_060020.1:3163243-3246531-;NC_060018.1:9345862-9347199-	5826	group
+kcsa_prok	ploop	0	0	0	0	partial	0		1	0	0	partial			unmeasured
+nav	ploop	2	2	1	1	found	2	high	0	0	0	present	NC_060019.1:7681751-7761452+;NC_060019.1:8792949-8900492-	42020	group
+cav	ploop	4	2	1	1	found	3	high	0	0	0	present	NC_060024.1:7076516-7102904-;NC_060025.1:2364945-2403026+;NC_060019.1:10064187-10207823-	30011	group
+nalcn	ploop	1	1	1	1	found	1	high	0	0	0	present	NC_060028.1:1969929-1977447+	14168	group
+catsper	ploop	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued		12363	pooled
+tpc	ploop	1	1	1	1	found	1	high	1	0	0	present	NC_060026.1:13147370-13189155-	16324	group
+cng	ploop	4	4	1	1	found	3	high	0	0	0	present	NC_060018.1:4136263-4221521+;NC_060022.1:382084-389276-;NC_060022.1:2513556-2521102-	12978	group
+hcn	ploop	0	0	0	1	found	1	medium	0	0	0	genome_weak	NC_060019.1:7491016-7576124+	45125	group
+trpc	ploop	3	3	1	1	found	3	high	0	0	0	present	NC_060025.1:5642983-5649601+;NC_060026.1:6220489-6238522+;NC_060025.1:8916279-8992124-	13511	group
+trpv	ploop	2	2	1	1	found	2	high	0	0	0	present	NC_060017.1:6389225-6394396-;NC_060024.1:11109920-11148704+	5199	group
+trpm	ploop	2	2	1	1	found	2	high	1	0	0	present	NC_060024.1:13323552-13410873+;NC_060024.1:13939690-14048834+	24134	group
+trpa	ploop	2	0	0	1	found	3	medium	5	0	0	present	NC_060018.1:519403-521547+;NC_060022.1:3601009-3603274-;NC_060020.1:8000737-8002913+	23384	group
+trpml	ploop	1	1	1	1	found	1	high	0	0	0	present	NC_060018.1:8651456-8653928+	7401	group
+trpp	ploop	0	0	0	1	partial	0		1	0	0	partial		17641	group
+trpn	ploop	0	0	0	1	found	1	high	0	0	0	genome_found	NC_060026.1:3755038-3858037+	64962	pooled
+nachr	cysloop	15	14	1	1	found	10	high	0	0	0	present	NC_060024.1:8729542-8734029-;NC_060024.1:9565337-9620342-;NC_060017.1:2114693-2138697+;NC_060017.1:2026584-2034848-;NC_060026.1:4258564-4365836+	7440	group
+gabaa	cysloop	5	0	0	1	found	5	medium	0	0	0	present	NC_060019.1:8970627-8975783+;NC_060019.1:9667736-9689959-;NC_060019.1:12745584-12747647-;NC_060027.1:2352631-2464050+;NC_060025.1:750312-770832-	62765	pooled
+glyr	cysloop	0	0	0	0	partial	0		2	0	0	partial		81300	pooled
+ht3	cysloop	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued		9932	pooled
+zac	cysloop	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued		6445	pooled
+plgic_invertebrate	cysloop	3	2	1	1	found	3	high	0	0	0	present	NC_060024.1:10132599-10167040-;NC_060024.1:9969687-9976840+;NC_060024.1:10107792-10184470+	7124	group
+plgic_prok	cysloop	0	0	0	1	no_locus	0		0	0	0	absent		6302	pooled
+ampa	iglur	1	0	0	0	found	1	medium	0	0	0	present	NC_060024.1:10224367-10265641-	173907	pooled
+kainate	iglur	7	2	1	1	found	4	high	0	0	0	present	NC_060022.1:4323814-4452114+;NC_060023.1:11918815-11924621-;NC_060018.1:5067309-5095482+;NC_060022.1:4206137-4376726-	24491	group
+nmda	iglur	3	2	1	1	found	2	high	0	0	0	present	NC_060024.1:10495552-10499196-;NC_060017.1:7480493-7572019+	18251	group
+delta_glur	iglur	26	0	0	0	no_locus	0		0	0	0	present		696754	pooled
+iglur_nonvertebrate	iglur	1	1	1	1	found	1	high	1	0	0	present	NC_060020.1:3683193-3686645+	4212	pooled
+iglur_prok	iglur	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued			unmeasured
+p2x	p2x	2	2	1	1	found	1	high	0	0	0	present	NC_060017.1:6890962-6892598+	12950	group
+p2x_nonmetazoan	p2x	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued		7022	pooled
+enac	deg_enac	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued		29250	pooled
+asic	deg_enac	15	6	1	1	partial	0		3	0	0	present		3807	group
+deg_invertebrate	deg_enac	0	0	0	1	no_locus	0		0	0	0	absent		3758	group
+clc_channel	clc	4	4	1	1	found	1	high	0	0	0	present	NC_060017.1:7101234-7231249+	9955	group
+bestrophin	bestrophin	23	18	1	1	found	4	high	0	0	0	present	NC_060023.1:11968705-11970102-;NC_060018.1:4971028-4973716+;NC_060023.1:10204195-10206869+;NC_060018.1:797534-799047-	2725	group
+cftr	abc_channel	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued		114587	pooled
+tweety	tweety	1	1	1	1	partial	0		1	0	0	present		32817	pooled
+ano_channel	tmem16_like	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued		138440	pooled
+ano_scramblase	tmem16_like	4	1	1	1	found	3	high	0	0	0	present	NC_060018.1:6047638-6051723+;NC_060025.1:7507376-7565813+;NC_060017.1:5965640-5967689+	19750	group
+osca_tmem63	tmem16_like	5	4	1	1	found	1	high	1	0	0	present	NC_060018.1:12116952-12176369+	17488	group
+tmc	tmem16_like	3	3	1	1	found	1	high	1	0	0	present	NC_060018.1:12983855-13104258+	15126	group
+piezo	piezo	0	0	0	1	no_locus	0		0	0	0	absent		67905	group
+mscl	msc	0	0	0	0	partial	0		1	0	0	partial		424	pooled
+mscs	msc	0	0	0	0	partial	0		2	0	0	partial		3591	pooled
+connexin	connexin	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued		7447	pooled
+pannexin	innexin_like	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued		16888	pooled
+innexin	innexin_like	10	10	1	1	found	8	high	0	0	0	present	NC_060022.1:4649135-4650267+;NC_060022.1:6360438-6362222-;NC_060022.1:6373473-6374658-;NC_060025.1:4714387-4715765+;NC_060028.1:2447153-2448088-	4016	group
+lrrc8	innexin_like	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued		17509	pooled
+calhm	calhm	0	0	0	1	partial	0		1	0	0	partial		5585	pooled
+itpr	ca_release	3	1	1	1	found	1	high	0	0	0	present	NC_060023.1:12193993-12260388+	44291	group
+ryr	ca_release	1	1	1	1	found	1	high	0	0	0	present	NC_060019.1:10293560-10318309+	27734	group
+tric	tric	1	1	1	1	found	1	high	0	0	0	present	NC_060027.1:6138784-6140495+	9078	group
+mcu	mcu	1	1	1	1	found	2	high	0	0	0	present	NC_060026.1:14780489-14782599+;NC_060026.1:14613127-14613517-	16207	group
+vdac	porin	2	2	1	1	found	2	high	0	0	0	present	NC_060017.1:1770939-1773153-;NC_060021.1:7783018-7784205-	3622	group
+tmem175	tmem175	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued		16107	pooled
+orai	orai	1	1	1	1	found	1	high	2	0	0	present	NC_060028.1:9849849-9911977+	3798	group
+hv1	hv	2	2	1	1	found	1	high	1	0	0	present	NC_060027.1:6583-7445+	5196	group
+otop	otopetrin	8	7	1	1	found	5	high	0	0	0	present	NC_060018.1:11474806-11477275+;NC_060018.1:11531949-11534479+;NC_060026.1:15095456-15097858+;NC_060020.1:5520248-5529444-;NC_060027.1:11741-92043+	3315	group
+clic	clic	2	2	1	1	found	2	high	1	0	0	present	NC_060017.1:4234759-4235669-;NC_060018.1:4701192-4703720-	4552	group
+viroporin	viroporin	0	0	0	0	partial	0		1	0	0	partial			unmeasured
+pacc	pac	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued		25219	pooled
+tmco1	tmco1	1	1	1	1	found	1	high	0	0	0	present	r4_NC_060019.1:12496930-12506644-	1918	group
+tmem87	tmem87	1	1	1	1	found	1	high	0	0	0	present	r4_NC_060023.1:9576599-9596126-	7747	group
+tmem109	tmem109	0	0	0	0	no_locus	0		0	0	0	no_locus_unrescued		11087	pooled
+clcc1	mclc	0	0	0	1	no_locus	0		0	0	0	absent		24963	pooled
+mitok	mitok	1	0	0	1	found	1	medium	1	0	0	present	r4_NC_060018.1:8419070-8419930-	7089	pooled
+gphr	gphr	0	0	0	1	found	1	high	0	0	0	genome_found	r4_NC_060028.1:7754320-7764147+	7283	group

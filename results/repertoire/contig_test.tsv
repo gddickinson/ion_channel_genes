@@ -1,0 +1,39 @@
+subject	kind	family	confidence	species	taxid	order	source	accession	contig	contig_len	searched_bp	locus_start	locus_end	regions	metazoan_regions	foreign_regions	unclear_regions	locus_best_lineage	locus_best_species	locus_best_pident	status	note
+Nematostella vectensis:DS475034.1:6095-6706+	q4	mscs	high	Nematostella vectensis	45351		s5_locus	GCA_000209225.1	DS475034.1	6737	6737	6095	6706	1	0	1	0	prokaryote	Escherichia coli	40.741	foreign	
+Nematostella vectensis:DS477768.1:2677-3063+	q4	mscs	medium	Nematostella vectensis	45351		s5_locus	GCA_000209225.1	DS477768.1	3083	3083	2677	3063	0	0	0	0	Metazoa	Strongylocentrotus purpuratus	53.279	no_evidence	
+A0A813VR16	q4	mscs	medium	Adineta steineri	433720	Adinetida	s4b_proteome	A0A813VR16	CAJNOM010000026	682658	201019	523609	524627	70	67	1	2	Metazoa	Lymnaea stagnalis	40.288	embedded	
+A0A813VVU4	q4	mscs	medium	Adineta steineri	433720	Adinetida	s4b_proteome	A0A813VVU4	CAJNOM010000026	682658	146077	636582	637599	55	49	1	5	Metazoa	Lymnaea stagnalis	40.647	embedded	
+A0A813YWE9	prok	mscl	high	Rotaria sordida	392033	Philodinida	s4b_proteome	A0A813YWE9	CAJNOL010007653	7246	7246	4620	6758	0	0	0	0	prokaryote	Escherichia coli	43.704	no_evidence	
+A0A813YXJ7	prok	mscl	high	Rotaria sordida	392033	Philodinida	s4b_proteome	A0A813YXJ7	CAJNOL010007653	7246	7246	4620	6770	0	0	0	0	prokaryote	Escherichia coli	43.704	no_evidence	
+A0A814EJH1	prok	mscl	high	Adineta steineri	433720	Adinetida	s4b_proteome	A0A814EJH1	CAJNOM010000345	173460	173460	6222	7557	2	0	0	2				no_evidence	
+A0A814EWP7	prok	mscl	high	Adineta steineri	433720	Adinetida	s4b_proteome	A0A814EWP7	CAJNOM010000345	173460	173460	6329	7581	2	0	0	2				no_evidence	
+A0A814GSX9	prok	mscl	high	Rotaria sordida	392033	Philodinida	s4b_proteome	A0A814GSX9	CAJNOL010001452	64040	64040	39165	41097	11	10	0	1				embedded	
+A0A814HMK0	prok	mscl	high	Adineta steineri	433720	Adinetida	s4b_proteome	A0A814HMK0	CAJNOM010000223	246426	246426	43986	45565	46	44	1	1				embedded	
+A0A814HP98	prok	mscl	high	Adineta steineri	433720	Adinetida	s4b_proteome	A0A814HP98	CAJNOM010000223	246426	246426	43974	45565	46	44	1	1				embedded	
+A0A814N963	prok	mscl	high	Adineta steineri	433720	Adinetida	s4b_proteome	A0A814N963	CAJNOM010000562	98453	98453	92938	93384	8	2	5	1				embedded	
+A0A814PY56	prok	mscl	high	Rotaria sordida	392033	Philodinida	s4b_proteome	A0A814PY56	CAJNOL010001486	62909	62909	53809	54158	1	1	0	0	prokaryote	Escherichia coli	43.165	embedded	
+A0A814QPV4	prok	mscl	high	Adineta steineri	433720	Adinetida	s4b_proteome	A0A814QPV4	CAJNOM010000139	363664	363664	48241	48801	17	10	3	4				embedded	
+A0A814U258	prok	mscl	high	Rotaria sordida	392033	Philodinida	s4b_proteome	A0A814U258	CAJNOL010001811	53720	53720	27191	27709	12	9	3	0	prokaryote	Escherichia coli	40.909	embedded	
+A0A815AM50	prok	mscl	high	Rotaria sordida	392033	Philodinida	s4b_proteome	A0A815AM50	CAJNOL010002940	29146	29146	10528	13523	1	0	0	1				no_evidence	
+A0A815BEV6	prok	mscl	high	Adineta steineri	433720	Adinetida	s4b_proteome	A0A815BEV6	CAJNOM010000740	56840	56840	6405	7698	1	0	0	1				no_evidence	
+A0A815G1N3	prok	mscl	high	Adineta steineri	433720	Adinetida	s4b_proteome	A0A815G1N3	CAJNOM010000298	192624	192624	43347	44918	45	42	0	3				embedded	
+A0A815G4N8	q4	mscs	medium	Adineta steineri	433720	Adinetida	s4b_proteome	A0A815G4N8	CAJNOM010000299	192564	192564	26394	27377	31	27	1	3				embedded	
+A0A815G8S3	prok	mscl	high	Rotaria sordida	392033	Philodinida	s4b_proteome	A0A815G8S3	CAJNOL010001319	69120	69120	40284	40688	12	10	0	2	prokaryote	Escherichia coli	44.275	embedded	
+A0A815I888	prok	mscl	high	Rotaria sordida	392033	Philodinida	s4b_proteome	A0A815I888	CAJNOL010001452	64040	64040	59767	62405	11	10	0	1				embedded	
+A0A815K7G0	prok	mscl	high	Rotaria sordida	392033	Philodinida	s4b_proteome	A0A815K7G0	CAJNOL010001812	53712	53712	27182	27700	13	10	3	0	prokaryote	Escherichia coli	41.667	embedded	
+A0A815LSB8	prok	mscl	high	Adineta steineri	433720	Adinetida	s4b_proteome	A0A815LSB8	CAJNOM010000387	152700	152700	128296	128822	27	24	0	3				embedded	
+A0A815VFJ4	q4	mscs	medium	Rotaria sordida	392033	Philodinida	s4b_proteome	A0A815VFJ4	CAJNOL010002875	30252	30252	9423	10425	2	2	0	0				embedded	
+A0A815X1P8	prok	mscl	high	Adineta steineri	433720	Adinetida	s4b_proteome	A0A815X1P8	CAJNOM010000731	58399	58399	3525	4085	19	9	8	2				embedded	
+A0A815X5T0	prok	mscl	high	Adineta steineri	433720	Adinetida	s4b_proteome	A0A815X5T0	CAJNOM010000740	56840	56840	6298	7674	1	0	0	1				no_evidence	
+A0A816E4M0	prok	mscl	high	Adineta steineri	433720	Adinetida	s4b_proteome	A0A816E4M0	CAJNOM010003075	8218	8218	184	742	1	0	1	0	prokaryote	Escherichia coli	36.765	foreign	
+A0AA35QW52	prok	kcsa_prok	high	Geodia barretti	519541	Tetractinellida	s4b_proteome	A0AA35QW52	CASHTH010000178	63081	63081	26299	27282	18	0	15	3	prokaryote	Gloeobacter violaceus	36.765	foreign	
+A0AA35R2R3	q4	mscs	high	Geodia barretti	519541	Tetractinellida	s4b_proteome	A0AA35R2R3	CASHTH010000421	101297	101297	23330	24574	7	0	2	5				foreign	
+A0AA35WXR1	q4	mscs	medium	Geodia barretti	519541	Tetractinellida	s4b_proteome	A0AA35WXR1	CASHTH010002892	55697	55697	33805	34341	5	1	2	2				embedded	
+A0AA88H0Y7	prok	mscl	high	Artemia franciscana	6661	Anostraca	s4b_proteome	A0AA88H0Y7	JAVRJZ010002296	24125	24125	6712	7119	11	0	9	2	prokaryote	Aliarcobacter butzleri	31.716	foreign	
+A0ABN8NQA6	prok	iglur_prok	high	Porites lobata	104759	Scleractinia	s4b_proteome	A0ABN8NQA6	CALNXK010000031	3890156	129030	3861127	3884180	6	6	0	0				embedded	
+A0ABN8NSW9	prok	iglur_prok	high	Porites lobata	104759	Scleractinia	s4b_proteome	A0ABN8NSW9	CALNXK010000033	3872037	221141	1405316	1426456	4	4	0	0				embedded	
+A0ABN8P8Z2	prok	iglur_prok	high	Porites lobata	104759	Scleractinia	s4b_proteome	A0ABN8P8Z2	CALNXK010000058	3077898	208632	1200627	1209258	10	10	0	0				embedded	
+A0ABN8PB31	prok	iglur_prok	high	Porites lobata	104759	Scleractinia	s4b_proteome	A0ABN8PB31	CALNXK010000058	3077898	208632	1200627	1209258	10	10	0	0				embedded	
+A0ABN8RQ03	prok	iglur_prok	high	Porites lobata	104759	Scleractinia	s4b_proteome	A0ABN8RQ03	CALNXK010000296	442248	442248	55839	64071	5	5	0	0				embedded	
+A0ABN8RSD9	prok	iglur_prok	high	Porites lobata	104759	Scleractinia	s4b_proteome	A0ABN8RSD9	CALNXK010000296	442248	442248	69753	89136	6	6	0	0	Metazoa	Danio rerio	36.62	embedded	
+B3SFM1	q4	mscs	high	Trichoplax adhaerens	10228	Trichoplacea	s4b_proteome	B3SFM1	DS986442.1	1151	1151	148	978	0	0	0	0	prokaryote	Escherichia coli	52.792	no_evidence	

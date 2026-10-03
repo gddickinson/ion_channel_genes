@@ -994,3 +994,40 @@ contradicted because the genome holds an intact gene the proteome is missing.
 The repertoire's gains are therefore better established than its losses.
 Whether animals truly lack MscS — the sharpest of the absence questions — is
 next *(pending: S10b)*.
+
+## S10b — Do animals have MscS, and which absences hold? (2026-10-03)
+
+**Whether animals carry the bacterial-type mechanosensitive channel MscS
+remains open — but every confident animal MscS found so far looks like
+contamination.** The three animal genes our profiles call MscS with high
+confidence (in the sea anemone *Nematostella*, the sponge *Geodia* and the
+placozoan *Trichoplax*) all sit on pieces of assembled DNA that carry no
+animal gene: two lie beside genes whose closest relatives are bacterial or
+otherwise non-animal, and the third is on a 1.2 kb fragment that carries
+nothing else and matches *E. coli* MscS best. Sponges and placozoans live with
+bacterial symbionts, so this is the pattern contamination leaves. The
+MscS-like genes that *do* sit among animal genes are weaker matches, almost all
+in bdelloid rotifers. Bdelloid rotifers also carry MscL on animal DNA. They are
+animals famous for acquiring foreign genes, so these look like horizontal
+transfers, not an ancestral animal MscS *(pending: literature check; S21's
+trees)*. The absence side cannot be stated either: the genome search never
+returned a clean absence of MscS in any animal, only weak, uncallable
+alignments. So "animals lost MscS" is not yet a result.
+
+**Most checked absences hold; one was our error.** On the water flea's 2021
+chromosome-level genome, Piezo, the DEG/ENaC channels, the bacterial-type
+pentameric channel and CLCC1 are still absent with every positive control
+found. Two of the old absences (TRPP, CALHM) soften to "uncertain". Seven of the nine
+vertebrates where we found no ZAC also have no ZAC in NCBI or Ensembl. The two
+fish where Ensembl does list one hold proteins our profiles call 5-HT3-like, a
+disagreement only a tree can settle *(pending: S11/S17)*. The pufferfish
+PACC1 absence, however, was wrong: the gene is there and our own profile
+recognises it, but the genome search had folded it into a neighbouring TMEM87
+locus. The PACC1 loss in pufferfish reported in S10a is withdrawn
+*(pending: an S5 revision)*.
+
+**The "K2P" channels outside animals are the plant TPK channels.** The
+two-pore potassium channels that put K2P in the last eukaryotic common
+ancestor are, in plants, the TPK vacuolar K⁺ channels, which have the same
+two-pore-domain architecture. Whether they share descent with animal K2P
+channels or only their architecture is still a tree question *(pending: S17)*.

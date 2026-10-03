@@ -1,0 +1,76 @@
+family	proteome_high	old_genome	old_verdict	new_genome	new_verdict	new_best_confidence	new_found_loci	changed
+kv_shaker	3	found	present	found	present	high	NC_060026.1:6166310-6179031+;NC_060021.1:4990360-5017233+	0
+kv_modifier	0	gap	gap	partial	partial			1
+kv_kcnq	0	found	present	found	present	high	NC_060020.1:6582038-6679155+	0
+kv_eag	1	found	present	found	present	high	NC_060018.1:6088832-6209156+;NC_060017.1:2710305-2836397-	0
+kca_slo	2	found	present	found	present	high	NC_060025.1:6612509-6624744+;NC_060025.1:7313033-7429234-	0
+kca_sk	2	found	present	found	present	high	NC_060019.1:6902251-6904086-;NC_060018.1:3399872-3506495-	0
+kir	2	found	present	found	present	high	NC_060023.1:8719371-8818226-	0
+k2p	11	found	present	found	present	high	NC_060022.1:2419385-2475592+;NC_060018.1:9794589-9798031+;NC_060017.1:1781097-1785472-;NC_060020.1:3163243-3246531-;NC_060018.1:9345862-9347199-	0
+kcsa_prok	0	no_locus	no_locus_unrescued	partial	partial			1
+nav	2	found	present	found	present	high	NC_060019.1:7681751-7761452+;NC_060019.1:8792949-8900492-	0
+cav	2	found	present	found	present	high	NC_060024.1:7076516-7102904-;NC_060025.1:2364945-2403026+;NC_060019.1:10064187-10207823-	0
+nalcn	1	found	present	found	present	high	NC_060028.1:1969929-1977447+	0
+catsper	0	partial	partial	no_locus	no_locus_unrescued			1
+tpc	1	found	present	found	present	high	NC_060026.1:13147370-13189155-	0
+cng	4	found	present	found	present	high	NC_060018.1:4136263-4221521+;NC_060022.1:382084-389276-;NC_060022.1:2513556-2521102-	0
+hcn	0	found	genome_found	found	genome_weak	medium	NC_060019.1:7491016-7576124+	1
+trpc	3	found	present	found	present	high	NC_060025.1:5642983-5649601+;NC_060026.1:6220489-6238522+;NC_060025.1:8916279-8992124-	0
+trpv	2	found	present	found	present	high	NC_060017.1:6389225-6394396-;NC_060024.1:11109920-11148704+	0
+trpm	2	found	present	found	present	high	NC_060024.1:13323552-13410873+;NC_060024.1:13939690-14048834+	0
+trpa	0	found	present	found	present	medium	NC_060018.1:519403-521547+;NC_060022.1:3601009-3603274-;NC_060020.1:8000737-8002913+	0
+trpml	1	found	present	found	present	high	NC_060018.1:8651456-8653928+	0
+trpp	0	no_locus	absent	partial	partial			1
+trpn	0	found	genome_found	found	genome_found	high	NC_060026.1:3755038-3858037+	0
+nachr	14	found	present	found	present	high	NC_060024.1:8729542-8734029-;NC_060024.1:9565337-9620342-;NC_060017.1:2114693-2138697+;NC_060017.1:2026584-2034848-;NC_060026.1:4258564-4365836+	0
+gabaa	0	found	present	found	present	medium	NC_060019.1:8970627-8975783+;NC_060019.1:9667736-9689959-;NC_060019.1:12745584-12747647-;NC_060027.1:2352631-2464050+;NC_060025.1:750312-770832-	0
+glyr	0	partial	partial	partial	partial			0
+ht3	0	no_locus	no_locus_unrescued	no_locus	no_locus_unrescued			0
+zac	0	no_locus	no_locus_unrescued	no_locus	no_locus_unrescued			0
+plgic_invertebrate	2	found	present	found	present	high	NC_060024.1:10132599-10167040-;NC_060024.1:9969687-9976840+;NC_060024.1:10107792-10184470+	0
+plgic_prok	0	no_locus	absent	no_locus	absent			0
+ampa	0	found	present	found	present	medium	NC_060024.1:10224367-10265641-	0
+kainate	2	found	present	found	present	high	NC_060022.1:4323814-4452114+;NC_060023.1:11918815-11924621-;NC_060018.1:5067309-5095482+;NC_060022.1:4206137-4376726-	0
+nmda	2	found	present	found	present	high	NC_060024.1:10495552-10499196-;NC_060017.1:7480493-7572019+	0
+delta_glur	0	no_locus	present	no_locus	present			0
+iglur_nonvertebrate	1	found	present	found	present	high	NC_060020.1:3683193-3686645+	0
+iglur_prok	0	no_locus	no_locus_unrescued	no_locus	no_locus_unrescued			0
+p2x	2	found	present	found	present	high	NC_060017.1:6890962-6892598+	0
+p2x_nonmetazoan	0	no_locus	no_locus_unrescued	no_locus	no_locus_unrescued			0
+enac	0	no_locus	no_locus_unrescued	no_locus	no_locus_unrescued			0
+asic	6	partial	present	partial	present			0
+deg_invertebrate	0	no_locus	absent	no_locus	absent			0
+clc_channel	4	found	present	found	present	high	NC_060017.1:7101234-7231249+	0
+bestrophin	18	found	present	found	present	high	NC_060023.1:11968705-11970102-;NC_060018.1:4971028-4973716+;NC_060023.1:10204195-10206869+;NC_060018.1:797534-799047-	0
+cftr	0	no_locus	no_locus_unrescued	no_locus	no_locus_unrescued			0
+tweety	1	no_locus	present	partial	present			0
+ano_channel	0	no_locus	no_locus_unrescued	no_locus	no_locus_unrescued			0
+ano_scramblase	1	found	present	found	present	high	NC_060018.1:6047638-6051723+;NC_060025.1:7507376-7565813+;NC_060017.1:5965640-5967689+	0
+osca_tmem63	4	found	present	found	present	high	NC_060018.1:12116952-12176369+	0
+tmc	3	found	present	found	present	high	NC_060018.1:12983855-13104258+	0
+piezo	0	no_locus	absent	no_locus	absent			0
+mscl	0	partial	partial	partial	partial			0
+mscs	0	partial	partial	partial	partial			0
+connexin	0	no_locus	no_locus_unrescued	no_locus	no_locus_unrescued			0
+pannexin	0	no_locus	no_locus_unrescued	no_locus	no_locus_unrescued			0
+innexin	10	found	present	found	present	high	NC_060022.1:4649135-4650267+;NC_060022.1:6360438-6362222-;NC_060022.1:6373473-6374658-;NC_060025.1:4714387-4715765+;NC_060028.1:2447153-2448088-	0
+lrrc8	0	no_locus	no_locus_unrescued	no_locus	no_locus_unrescued			0
+calhm	0	no_locus	absent	partial	partial			1
+itpr	1	found	present	found	present	high	NC_060023.1:12193993-12260388+	0
+ryr	1	found	present	found	present	high	NC_060019.1:10293560-10318309+	0
+tric	1	found	present	found	present	high	NC_060027.1:6138784-6140495+	0
+mcu	1	found	present	found	present	high	NC_060026.1:14780489-14782599+;NC_060026.1:14613127-14613517-	0
+vdac	2	found	present	found	present	high	NC_060017.1:1770939-1773153-;NC_060021.1:7783018-7784205-	0
+tmem175	0	partial	partial	no_locus	no_locus_unrescued			1
+orai	1	found	present	found	present	high	NC_060028.1:9849849-9911977+	0
+hv1	2	found	present	found	present	high	NC_060027.1:6583-7445+	0
+otop	7	found	present	found	present	high	NC_060018.1:11474806-11477275+;NC_060018.1:11531949-11534479+;NC_060026.1:15095456-15097858+;NC_060020.1:5520248-5529444-;NC_060027.1:11741-92043+	0
+clic	2	found	present	found	present	high	NC_060017.1:4234759-4235669-;NC_060018.1:4701192-4703720-	0
+viroporin	0	partial	partial	partial	partial			0
+pacc	0	no_locus	no_locus_unrescued	no_locus	no_locus_unrescued			0
+tmco1	1	found	present	found	present	high	r4_NC_060019.1:12496930-12506644-	0
+tmem87	1	found	present	found	present	high	r4_NC_060023.1:9576599-9596126-	0
+tmem109	0	no_locus	no_locus_unrescued	no_locus	no_locus_unrescued			0
+clcc1	0	no_locus	absent	no_locus	absent			0
+mitok	0	found	present	found	present	medium	r4_NC_060018.1:8419070-8419930-	0
+gphr	0	found	genome_found	found	genome_found	high	r4_NC_060028.1:7754320-7764147+	0

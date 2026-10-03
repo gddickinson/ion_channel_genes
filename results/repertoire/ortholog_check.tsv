@@ -1,0 +1,15 @@
+family	gene	species	group	s5_verdict	ncbi	ncbi_ids	ensembl	ensembl_ids	status
+pacc	PACC1	Trichoplax adhaerens	basal_metazoan	absent	none		not_in_ensembl		not_covered
+clcc1	CLCC1	Caenorhabditis elegans	invertebrate	absent	none		not_in_ensembl		not_covered
+clcc1	CLCC1	Drosophila melanogaster	invertebrate	absent	none		not_in_ensembl		not_covered
+clcc1	CLCC1	Daphnia pulex	invertebrate	absent	none		not_in_ensembl		not_covered
+zac	ZACN	Callorhinchus milii	vertebrate	absent	none		none		agrees
+zac	ZACN	Torpedo marmorata	vertebrate	absent	none		not_in_ensembl		agrees
+zac	ZACN	Danio rerio	vertebrate	absent	none		listed	ENSDARG00000111812,ENSDARG00000115573,ENSDARG00000115752	disputed
+zac	ZACN	Takifugu rubripes	vertebrate	absent	none		listed	ENSTRUG00000027812	disputed
+pacc	PACC1	Takifugu rubripes	vertebrate	absent	listed	101061834	none		disputed
+zac	ZACN	Latimeria chalumnae	vertebrate	absent	none		none		agrees
+zac	ZACN	Xenopus tropicalis	vertebrate	absent	none		none		agrees
+zac	ZACN	Gallus gallus	vertebrate	absent	none		none		agrees
+zac	ZACN	Ornithorhynchus anatinus	vertebrate	absent	none		none		agrees
+zac	ZACN	Rattus norvegicus	vertebrate	absent	none		none		agrees

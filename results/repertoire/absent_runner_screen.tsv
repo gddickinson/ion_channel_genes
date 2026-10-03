@@ -1,0 +1,11 @@
+species	family	locus	span	bait_family	p_call	p_family	p_confidence	same_superfamily
+Amphimedon queenslandica	nav	GL345140.1:147500-196583+	49084	cav	family	cav	high	1
+Caenorhabditis elegans	nav	BX284604.4:7407965-7497639+	89675	cav	family	cav	high	1
+Caenorhabditis elegans	nav	BX284606.5:2716921-2806415-	89495	cav	family	cav	high	1
+Caenorhabditis elegans	nav	BX284606.5:7849573-7857807-	8235	cav	family	cav	high	1
+Petromyzon marinus	catsper	NC_133688.1:20464494-21259300-	794807	cav	family	cav	high	1
+Danio rerio	enac	NC_133184.1:10971552-11348021+	376470	asic	family	asic	high	1
+Takifugu rubripes	zac	LR584240.2:8339978-8348161+	8184	ht3	family	ht3	high	1
+Takifugu rubripes	enac	LR584235.1:6710313-6901041-	190729	asic	family	asic	high	1
+Takifugu rubripes	pacc	r4_LR584245.2:14636898-14754054+	117157	tmem87	family	tmem87	high	0
+Rattus norvegicus	zac	CM070411.1:63140811-63775205-	634395	nalcn	no_hit		none	0

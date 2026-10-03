@@ -1,0 +1,6 @@
+family	species	protein	db_label	length	p_call	p_family	p_confidence	win_score	runner	genome_hit	genome_bits	genome_pident	s5_locus
+zac	Danio rerio	ensembl:ENSDARP00000153861	ENSDARG00000111812	469	family	ht3	medium	139.2	nachr	NC_133178.1:60936301-60936849	281.0	98.378	none
+zac	Danio rerio	ensembl:ENSDARP00000152326	ENSDARG00000115573	442	family	ht3	medium	119.5	nachr	NC_133178.1:60746520-60746816	203.0	100.0	none
+zac	Danio rerio	ensembl:ENSDARP00000149349	ENSDARG00000115752	418	family	ht3	medium	124.1	nachr	NC_133178.1:60862386-60862958	192.0	77.551	none
+zac	Takifugu rubripes	ensembl:ENSTRUP00000060956	ENSTRUG00000027812	421	superfamily_only		low	114.4	nachr	LR584247.1:8914221-8914694	233.0	86.076	none
+pacc	Takifugu rubripes	ncbi:XP_011618135.2	pacc1	353	family	pacc	high	480.1		LR584245.2:14721205-14721870	235.0	73.423	r4_LR584245.2:14636898-14754054+=family:tmem87:high

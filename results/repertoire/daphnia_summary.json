@@ -1,0 +1,11 @@
+{
+  "old_assembly": "GCA_000187875.1",
+  "new_assembly": "GCF_021134715.1",
+  "new_n50": 12288052,
+  "old_matched_detection": "1.0",
+  "new_matched_detection": 1.0,
+  "new_matched_cells": 40,
+  "new_matched_undetected": "",
+  "replaces_old": true,
+  "changed_cells": 7
+}

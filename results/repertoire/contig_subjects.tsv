@@ -1,0 +1,39 @@
+subject	kind	family	confidence	species	taxid	order	source	accession	contig
+Nematostella vectensis:DS475034.1:6095-6706+	q4	mscs	high	Nematostella vectensis	45351		s5_locus	GCA_000209225.1	DS475034.1:6095-6706
+Nematostella vectensis:DS477768.1:2677-3063+	q4	mscs	medium	Nematostella vectensis	45351		s5_locus	GCA_000209225.1	DS477768.1:2677-3063
+A0A813VR16	q4	mscs	medium			Adinetida	s4b_proteome	A0A813VR16	
+A0A813VVU4	q4	mscs	medium			Adinetida	s4b_proteome	A0A813VVU4	
+A0A813YWE9	prok	mscl	high			Philodinida	s4b_proteome	A0A813YWE9	
+A0A813YXJ7	prok	mscl	high			Philodinida	s4b_proteome	A0A813YXJ7	
+A0A814EJH1	prok	mscl	high			Adinetida	s4b_proteome	A0A814EJH1	
+A0A814EWP7	prok	mscl	high			Adinetida	s4b_proteome	A0A814EWP7	
+A0A814GSX9	prok	mscl	high			Philodinida	s4b_proteome	A0A814GSX9	
+A0A814HMK0	prok	mscl	high			Adinetida	s4b_proteome	A0A814HMK0	
+A0A814HP98	prok	mscl	high			Adinetida	s4b_proteome	A0A814HP98	
+A0A814N963	prok	mscl	high			Adinetida	s4b_proteome	A0A814N963	
+A0A814PY56	prok	mscl	high			Philodinida	s4b_proteome	A0A814PY56	
+A0A814QPV4	prok	mscl	high			Adinetida	s4b_proteome	A0A814QPV4	
+A0A814U258	prok	mscl	high			Philodinida	s4b_proteome	A0A814U258	
+A0A815AM50	prok	mscl	high			Philodinida	s4b_proteome	A0A815AM50	
+A0A815BEV6	prok	mscl	high			Adinetida	s4b_proteome	A0A815BEV6	
+A0A815G1N3	prok	mscl	high			Adinetida	s4b_proteome	A0A815G1N3	
+A0A815G4N8	q4	mscs	medium			Adinetida	s4b_proteome	A0A815G4N8	
+A0A815G8S3	prok	mscl	high			Philodinida	s4b_proteome	A0A815G8S3	
+A0A815I888	prok	mscl	high			Philodinida	s4b_proteome	A0A815I888	
+A0A815K7G0	prok	mscl	high			Philodinida	s4b_proteome	A0A815K7G0	
+A0A815LSB8	prok	mscl	high			Adinetida	s4b_proteome	A0A815LSB8	
+A0A815VFJ4	q4	mscs	medium			Philodinida	s4b_proteome	A0A815VFJ4	
+A0A815X1P8	prok	mscl	high			Adinetida	s4b_proteome	A0A815X1P8	
+A0A815X5T0	prok	mscl	high			Adinetida	s4b_proteome	A0A815X5T0	
+A0A816E4M0	prok	mscl	high			Adinetida	s4b_proteome	A0A816E4M0	
+A0AA35QW52	prok	kcsa_prok	high			Tetractinellida	s4b_proteome	A0AA35QW52	
+A0AA35R2R3	q4	mscs	high			Tetractinellida	s4b_proteome	A0AA35R2R3	
+A0AA35WXR1	q4	mscs	medium			Tetractinellida	s4b_proteome	A0AA35WXR1	
+A0AA88H0Y7	prok	mscl	high			Anostraca	s4b_proteome	A0AA88H0Y7	
+A0ABN8NQA6	prok	iglur_prok	high			Scleractinia	s4b_proteome	A0ABN8NQA6	
+A0ABN8NSW9	prok	iglur_prok	high			Scleractinia	s4b_proteome	A0ABN8NSW9	
+A0ABN8P8Z2	prok	iglur_prok	high			Scleractinia	s4b_proteome	A0ABN8P8Z2	
+A0ABN8PB31	prok	iglur_prok	high			Scleractinia	s4b_proteome	A0ABN8PB31	
+A0ABN8RQ03	prok	iglur_prok	high			Scleractinia	s4b_proteome	A0ABN8RQ03	
+A0ABN8RSD9	prok	iglur_prok	high			Scleractinia	s4b_proteome	A0ABN8RSD9	
+B3SFM1	q4	mscs	high			Trichoplacea	s4b_proteome	B3SFM1	

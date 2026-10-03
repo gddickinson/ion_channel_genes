@@ -1,0 +1,13 @@
+accession	species	group	length	win_score	runner	rel_margin	protein_name	gene_names	reviewed	pfam	tm_features
+A9VAE4	Monosiga brevicollis	holozoa	919	158.4	kcsa_prok	0.6982	Potassium channel domain-containing protein		0	PF00406x1;PF07885x2	6
+Q8LBL1	Arabidopsis thaliana	plant	363	219.7	kcsa_prok	0.6536	Two-pore potassium channel 1	TPK1	1	PF07885x2	4
+Q9FL25	Arabidopsis thaliana	plant	443	150.3	kcsa_prok	0.5037	Two-pore potassium channel 2	TPK2	1	PF07885x2	4
+Q9S6Z8	Arabidopsis thaliana	plant	408	162.4	kcsa_prok	0.4982	Two-pore potassium channel 5	TPK5	1	PF07885x2	4
+Q9SVV6	Arabidopsis thaliana	plant	436	148.6	kcsa_prok	0.5074	Two-pore potassium channel 3	TPK3	1	PF07885x2	4
+A0A0P0V6X9	Oryza sativa	plant	405	130.0	kcsa_prok	0.3962	Os01g0696100 protein		0	PF07885x2	4
+Q69TN4	Oryza sativa	plant	456	222.4	kcsa_prok	0.6893	Two pore potassium channel c	TPKC	1	PF07885x2	4
+Q850M0	Oryza sativa	plant	347	150.9	kcsa_prok	0.3294	Two pore potassium channel a	TPKA	1	PF07885x2	4
+Q8LIN5	Oryza sativa	plant	349	158.9	kcsa_prok	0.4619	Two pore potassium channel b	TPKB	1	PF07885x2	4
+A0A2K1ITF6	Physcomitrium patens	plant	380	163.5	kcsa_prok	0.5254	Potassium channel domain-containing protein	LOC112273118	0	PF07885x2	6
+A0A2K1IUA0	Physcomitrium patens	plant	498	152.4	kcsa_prok	0.519	Potassium channel domain-containing protein	LOC112273488	0	PF07885x2	5
+A0A2K1K7C7	Physcomitrium patens	plant	465	161.3	kcsa_prok	0.5623	Uncharacterized protein	LOC112285814	0	PF07885x2;PF13202x2	5

@@ -1,0 +1,35 @@
+{
+  "s5": {
+    "species": "Daphnia pulex",
+    "group": "invertebrate",
+    "status": "proteome",
+    "assembly": "GCF_021134715.1",
+    "total_bp": 133196385,
+    "n_sequences": 13,
+    "n50": 12288052,
+    "max_intron": 200000,
+    "chunks": 1,
+    "alignments": 1794,
+    "self_dropped": 53,
+    "loci": 183,
+    "family_called_loci": 142,
+    "miniprot_s": 49.4,
+    "call_s": 54.4,
+    "note": ""
+  },
+  "r4": {
+    "species": "Daphnia pulex",
+    "group": "invertebrate",
+    "assembly": "GCF_021134715.1",
+    "max_intron": 200000,
+    "chunks": 1,
+    "alignments": 227,
+    "self_dropped": 8,
+    "loci": 17,
+    "family_called_loci": 13,
+    "r4_family_loci": 13,
+    "miniprot_s": 12.2,
+    "call_s": 7.8,
+    "note": ""
+  }
+}

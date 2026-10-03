@@ -1,0 +1,91 @@
+{
+ "q4": "unresolved",
+ "q4_why": "embedded but medium-only: ['A0A813VR16', 'A0A813VVU4', 'A0A815G4N8', 'A0A815VFJ4', 'A0AA35WXR1']; animal S5 cells not `absent`: {'gap': 13, 'genome_found': 1, 'partial': 13, 'present': 1}",
+ "contig_status": {
+  "q4": {
+   "foreign": 2,
+   "no_evidence": 2,
+   "embedded": 5
+  },
+  "prok": {
+   "no_evidence": 7,
+   "embedded": 19,
+   "foreign": 3
+  }
+ },
+ "contig_status_by_family": {
+  "iglur_prok": {
+   "embedded": 6
+  },
+  "kcsa_prok": {
+   "foreign": 1
+  },
+  "mscl": {
+   "no_evidence": 7,
+   "embedded": 13,
+   "foreign": 2
+  },
+  "mscs": {
+   "foreign": 2,
+   "no_evidence": 2,
+   "embedded": 5
+  }
+ },
+ "daphnia": {
+  "old_assembly": "GCA_000187875.1",
+  "new_assembly": "GCF_021134715.1",
+  "new_n50": 12288052,
+  "old_matched_detection": "1.0",
+  "new_matched_detection": 1.0,
+  "new_matched_cells": 40,
+  "new_matched_undetected": "",
+  "replaces_old": true,
+  "changed_cells": 7
+ },
+ "daphnia_s5_absences": {
+  "trpp": "partial",
+  "plgic_prok": "absent",
+  "deg_invertebrate": "absent",
+  "piezo": "absent",
+  "calhm": "partial",
+  "clcc1": "absent"
+ },
+ "orthologs": {
+  "clcc1": {
+   "not_covered": 3
+  },
+  "pacc": {
+   "not_covered": 1,
+   "disputed": 1
+  },
+  "zac": {
+   "agrees": 7,
+   "disputed": 2
+  }
+ },
+ "disputed_calls": {
+  "ht3:medium": 3,
+  "superfamily_only:low": 1,
+  "pacc:high": 1
+ },
+ "runner_screen": 10,
+ "k2p_nonmetazoan_s4": 12,
+ "k2p_nonmetazoan_by_name": {
+  "Potassium channel domain-containing protein": 3,
+  "Two-pore potassium channel 1": 1,
+  "Two-pore potassium channel 2": 1,
+  "Two-pore potassium channel 5": 1,
+  "Two-pore potassium channel 3": 1,
+  "Os01g0696100 protein": 1,
+  "Two pore potassium channel c": 1,
+  "Two pore potassium channel a": 1,
+  "Two pore potassium channel b": 1,
+  "Uncharacterized protein": 1
+ },
+ "k2p_present_orders_by_kingdom": {
+  "protists": 14,
+  "Fungi": 30,
+  "Metazoa": 192,
+  "Viridiplantae": 48
+ }
+}

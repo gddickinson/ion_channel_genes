@@ -1,0 +1,52 @@
+{
+ "verdict": "unresolved",
+ "why": "embedded but medium-only: ['A0A813VR16', 'A0A813VVU4', 'A0A815G4N8', 'A0A815VFJ4', 'A0AA35WXR1']; animal S5 cells not `absent`: {'gap': 13, 'genome_found': 1, 'partial': 13, 'present': 1}",
+ "subjects": 9,
+ "by_status": {
+  "embedded": [
+   "A0A813VR16",
+   "A0A813VVU4",
+   "A0A815G4N8",
+   "A0A815VFJ4",
+   "A0AA35WXR1"
+  ],
+  "foreign": [
+   "Nematostella vectensis:DS475034.1:6095-6706+",
+   "A0AA35R2R3"
+  ],
+  "no_evidence": [
+   "Nematostella vectensis:DS477768.1:2677-3063+",
+   "B3SFM1"
+  ]
+ },
+ "animal_cells": {
+  "Amphimedon queenslandica": "gap",
+  "Trichoplax adhaerens": "present",
+  "Nematostella vectensis": "genome_found",
+  "Hydra vulgaris": "partial",
+  "Caenorhabditis elegans": "partial",
+  "Drosophila melanogaster": "partial",
+  "Daphnia pulex": "partial",
+  "Lottia gigantea": "partial",
+  "Aplysia californica": "gap",
+  "Lymnaea stagnalis": "gap",
+  "Cornu aspersum": "gap",
+  "Strongylocentrotus purpuratus": "partial",
+  "Branchiostoma floridae": "partial",
+  "Ciona intestinalis": "gap",
+  "Petromyzon marinus": "gap",
+  "Callorhinchus milii": "gap",
+  "Torpedo marmorata": "gap",
+  "Danio rerio": "partial",
+  "Takifugu rubripes": "gap",
+  "Latimeria chalumnae": "gap",
+  "Xenopus tropicalis": "partial",
+  "Anolis carolinensis": "gap",
+  "Gallus gallus": "partial",
+  "Ornithorhynchus anatinus": "partial",
+  "Monodelphis domestica": "gap",
+  "Mus musculus": "gap",
+  "Rattus norvegicus": "partial",
+  "Homo sapiens": "partial"
+ }
+}

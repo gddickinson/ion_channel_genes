@@ -1,0 +1,15 @@
+{
+  "species": "Daphnia pulex",
+  "old_assembly": "GCA_000187875.1",
+  "new_assembly": "GCF_021134715.1",
+  "rank": [
+    1,
+    1,
+    3,
+    12288052
+  ],
+  "level": "Chromosome",
+  "scaffold_n50": 12288052,
+  "candidates": 17,
+  "rule": "S4 assembly_rank: annotated > RefSeq > level > scaffold N50"
+}
