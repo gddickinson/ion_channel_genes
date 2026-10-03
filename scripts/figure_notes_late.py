@@ -52,4 +52,42 @@ FIGURES = [
                 "residue x is often far left, i.e. it has changed many times "
                 "independently.",
     },
+{
+        "path": "results/repertoire/figures/repertoire.png",
+        "task": "S10a", "script": "scripts/s10_figures.py",
+        "title": "Which ion channels did each ancestor carry?",
+        "shows": "For each of the 75 census channel families, whether it was present "
+                 "in fifteen ancestors on the tree of eukaryotes, from the last "
+                 "eukaryotic common ancestor (LECA) to the ancestor of mammals, and "
+                 "how often it was gained and lost. A — the reconstructed state at "
+                 "each ancestor. B — the number of gains and losses placed on the "
+                 "tree for each family. C — every inferred loss sorted by how well "
+                 "it is backed by the genome search.",
+        "how": "Each family was scored present or absent in one reference proteome "
+               "for each of 437 eukaryotic orders (present = a high-confidence "
+               "profile match; a medium-confidence match, or an absence in a "
+               "proteome less than 70 % complete by BUSCO, counts as unknown). The "
+               "states were laid on the NCBI Taxonomy tree, unresolved branchings "
+               "kept as they are, and the fewest gains and losses that explain "
+               "them were found by parsimony, with a gain costing two losses. The "
+               "same was repeated with a gain costing one loss and with only one "
+               "gain allowed, to see which conclusions depend on that choice. "
+               "Losses were then compared with the genome search of the 37 "
+               "panel species that sit in these orders.",
+        "read": "A: rows are families, grouped by superfamily (black lines); "
+                "columns are ancestors. Dark blue = present, pale blue = absent, "
+                "grey = the data fit present and absent equally well. A dot marks "
+                "an ancestor whose state changes under one of the other two "
+                "costs; cells without a dot hold under all three. B: bars to the "
+                "left are gains, to the right losses (blue and orange); the solid "
+                "part is placed identically under all three costs, the pale part "
+                "only under the main one. A family can be present at LECA (A) and "
+                "still show no gain in B, because its origin before LECA is not a "
+                "branch of this tree. C: one bar of all 673 losses inferred under "
+                "the main cost: grey = seen only as missing from proteomes; green "
+                "= confirmed by a controlled genome absence in a species below "
+                "the loss; orange = contradicted, because the genome search found "
+                "an intact gene the proteome lacks. Most losses are grey: they "
+                "are annotation-level absences, not proven gene losses.",
+    },
 ]

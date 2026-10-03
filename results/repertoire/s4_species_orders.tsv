@@ -1,0 +1,42 @@
+species	group	order	on_tree
+Saccharomyces cerevisiae	fungi	Saccharomycetales	1
+Schizosaccharomyces pombe	fungi	Schizosaccharomycetales	1
+Arabidopsis thaliana	plant	Brassicales	1
+Oryza sativa	plant	Poales	1
+Physcomitrium patens	plant	Funariales	1
+Chlamydomonas reinhardtii	algae	Chlamydomonadales	1
+Dictyostelium discoideum	amoebozoa	Dictyosteliales	1
+Paramecium tetraurelia	ciliate	Peniculida	1
+Tetrahymena thermophila	ciliate	Hymenostomatida	1
+Trypanosoma brucei	excavate	Trypanosomatida	1
+Plasmodium falciparum	apicomplexa	Haemosporida	1
+Monosiga brevicollis	holozoa	Craspedida	1
+Capsaspora owczarzaki	holozoa		0
+Amphimedon queenslandica	basal_metazoan	Haplosclerida	1
+Trichoplax adhaerens	basal_metazoan	Trichoplacea	1
+Nematostella vectensis	cnidarian	Actiniaria	1
+Hydra vulgaris	cnidarian	Anthoathecata	1
+Caenorhabditis elegans	invertebrate	Rhabditida	1
+Drosophila melanogaster	invertebrate	Diptera	1
+Daphnia pulex	invertebrate	Diplostraca	1
+Lottia gigantea	invertebrate		0
+Aplysia californica	invertebrate	Aplysiida	1
+Lymnaea stagnalis	invertebrate		0
+Cornu aspersum	invertebrate	Stylommatophora	1
+Strongylocentrotus purpuratus	deuterostome	Camarodonta	1
+Branchiostoma floridae	deuterostome	Amphioxiformes	1
+Ciona intestinalis	deuterostome	Phlebobranchia	1
+Petromyzon marinus	vertebrate	Petromyzontiformes	1
+Callorhinchus milii	vertebrate	Chimaeriformes	1
+Torpedo marmorata	vertebrate	Torpediniformes	0
+Danio rerio	vertebrate	Cypriniformes	1
+Takifugu rubripes	vertebrate	Tetraodontiformes	1
+Latimeria chalumnae	vertebrate	Coelacanthiformes	1
+Xenopus tropicalis	vertebrate	Anura	1
+Anolis carolinensis	vertebrate	Squamata	1
+Gallus gallus	vertebrate	Galliformes	1
+Ornithorhynchus anatinus	vertebrate	Monotremata	1
+Monodelphis domestica	vertebrate	Didelphimorphia	1
+Mus musculus	vertebrate	Rodentia	1
+Rattus norvegicus	vertebrate	Rodentia	1
+Homo sapiens	vertebrate	Primates	1

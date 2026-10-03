@@ -959,3 +959,38 @@ sodium/calcium filter ring sits at exactly that column of the potassium motif.
 Across the whole superfamily the filter carries signal on the pore-only tree as
 well, but that tree's deep branches are unsupported, so S9 says nothing about
 the order in which potassium, sodium/calcium and TRP filters arose.
+
+## S10a — Which ion channels each ancestor carried (2026-10-03)
+
+Laying every channel family's presence in 437 eukaryotic orders on the
+taxonomic tree of eukaryotes and asking for the fewest gains and losses gives a
+first picture of where the ion-channel repertoire came from. About a quarter of
+the families — 19 of 75 under the main scoring, 13 whatever the scoring — trace
+back to the last common ancestor of all eukaryotes: voltage-gated calcium
+channels, two-pore channels, Slo and inward-rectifier potassium channels,
+cyclic-nucleotide-gated channels, polycystin-type TRP channels, the small
+mechanosensitive channel MscS, the OSCA/TMEM63 and anoctamin-scramblase
+families, VDAC, and the newer proposed pores TMCO1, TMEM87 and GPHR. *(pending:
+S17/S11 — each of these deep presences rests on plant, fungal or protist
+proteins scoring against profiles built mostly from animals, and whether every
+one is a member by descent rather than a look-alike has to be shown on trees,
+as it was for TMEM87.)*
+
+The repertoire then grows in steps along the animal lineage: 31 families are
+reconstructed in the first animal, 49 in the first bilaterian and 62 in the
+first vertebrate. Most of the channels people study in the nervous system —
+Nav, the Cys-loop receptors, the glutamate receptors, the voltage-gated K⁺
+subfamilies — appear inside animals, not before.
+
+Losses outnumber gains about four to one (673 to 173). Hv1, the voltage-gated
+proton channel, has the most (58), followed by MscL, TMEM87, GPHR and the
+two-pore channels — though for Hv1 some of these may be failures to detect a
+divergent gene rather than real losses *(pending: a per-lineage detection
+check)*. Crucially, almost all of these losses are read from proteomes alone:
+only 19 are backed by a controlled absence in a sequenced genome (ZAC lost in
+rodents; Hv1 and P2X in *C. elegans*; the two-pore channel in *Drosophila*;
+the Slo channel in flowering plants; PACC1 in pufferfish), while 8 are
+contradicted because the genome holds an intact gene the proteome is missing.
+The repertoire's gains are therefore better established than its losses.
+Whether animals truly lack MscS — the sharpest of the absence questions — is
+next *(pending: S10b)*.

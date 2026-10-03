@@ -1,0 +1,65 @@
+{
+  "orders": 437,
+  "families": 75,
+  "leca": {
+    "g1": {
+      "absent": 62,
+      "present": 13
+    },
+    "g2": {
+      "absent": 54,
+      "present": 19,
+      "ambiguous": 2
+    },
+    "dollo": {
+      "absent": 32,
+      "present": 43
+    }
+  },
+  "leca_robust": [
+    "ano_scramblase",
+    "cav",
+    "cng",
+    "gphr",
+    "kca_slo",
+    "kir",
+    "mscs",
+    "osca_tmem63",
+    "tmco1",
+    "tmem87",
+    "tpc",
+    "trpp",
+    "vdac"
+  ],
+  "totals": {
+    "g1": [
+      280,
+      441,
+      594
+    ],
+    "g2": [
+      173,
+      673,
+      451
+    ],
+    "dollo": [
+      28,
+      1369,
+      355
+    ]
+  },
+  "robust_events": {
+    "gain": 12,
+    "loss": 420
+  },
+  "loss_strength": {
+    "proteome-only": 646,
+    "controlled": 19,
+    "contradicted": 8
+  },
+  "characters": {
+    "1": 12046,
+    "0": 16846,
+    "?": 3883
+  }
+}

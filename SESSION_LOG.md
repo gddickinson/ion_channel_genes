@@ -1017,3 +1017,28 @@ and the ingroup's basal split is identical under the two outgroups.
 - Emergent: vertebrate DEEA Nav chains (shark, opossum); *Hydra* EEDD/EEDE.
 
 **Next: S10** — repertoire evolution (Q4).
+
+### 2026-10-03 — S10a: repertoire reconstruction (S10 split)
+
+- Session start clean: data root attached (121 GB free), catalogue + self-test
+  clean. S10 split into S10a (reconstruction) and S10b (Q4 + absence checks).
+  **D50 written before any family was reconstructed**, including Q4's test for S10b.
+- `scripts/s10_repertoire.py tree`: NCBI Taxonomy `efetch LineageEx` for the 439
+  S4b proteomes + S4 species, archived under `<data root>/raw_api/s10/taxonomy/`
+  → 437 order tips, 235 internal nodes, 93 polytomies, 10-way eukaryotic root;
+  Erysiphales/Stephanodiscales off the tree (NCBI order already a tip).
+- `characters`: 12,046 present / 16,846 absent / 3,883 missing.
+- `reconstruct`: Sankoff, marginal, g = 1 / 2 / Dollo-like (`s10_lib.py`).
+  LECA present 13 / 19 / 43; 173 gains, 673 losses stated at g = 2.
+- `overlay`: first pass counted S5's any-confidence `present` and every
+  descendant of a loss (so a regain below a deep loss "contradicted" it); fixed
+  to D50's high-confidence standard and the loss's absent region (D50 addenda
+  a, b — reconstruction untouched). 19 controlled / 8 contradicted / 646
+  proteome-only; every contradiction is a known S5 proteome miss.
+- Figure `results/repertoire/figures/repertoire.png` (looked at, three layout
+  passes), caption in `figure_notes_late.py`, report `s10_report.py`,
+  self-test +6 (`selftest_s10.py`).
+- Emergent: deep-lineage presences = profile calls (descent vs architecture);
+  KcsA-like in a sponge, eukaryotic MscL; Hv1's 58 losses may be detection.
+
+**Next: S10b** — Q4 (animal MscS) under D50 (6), then the absence checks.

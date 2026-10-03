@@ -1,0 +1,674 @@
+family	parent	child	child_rank	child_tips	robust	strength	s4_species	s5_verdicts
+ano_scramblase	Opisthokonta	Rotosphaerida	order	1	1	proteome-only	0	
+ano_scramblase	Saccharomycetes	Saccharomycetales	order	1	1	proteome-only	1	Saccharomyces cerevisiae=trace
+ano_scramblase	Fungi incertae sedis	Blastocladiales	order	1	1	proteome-only	0	
+ano_scramblase	Mesangiospermae	Trochodendrales	order	1	1	proteome-only	0	
+ano_scramblase	Petrosaviidae	Asparagales	order	1	1	proteome-only	0	
+ano_scramblase	fabids	Celastrales	order	1	1	proteome-only	0	
+ano_scramblase	Chlorophyta	core chlorophytes	clade	5	1	proteome-only	1	Chlamydomonas reinhardtii=no_locus_unrescued
+ano_scramblase	Chlorophyta	Mamiellales	order	1	1	proteome-only	0	
+ano_scramblase	Metakinetoplastina	Trypanosomatida	order	1	1	proteome-only	1	Trypanosoma brucei=no_locus_unrescued
+ano_scramblase	Amoebozoa	Longamoebia	order	1	1	proteome-only	0	
+ano_scramblase	Opalozoa	Opalinata	order	1	1	proteome-only	0	
+ano_scramblase	Alveolata	Apicomplexa	phylum	5	1	proteome-only	1	Plasmodium falciparum=no_locus_unrescued
+ano_scramblase	Bangiophyceae	Cyanidiales	order	1	1	proteome-only	0	
+ano_scramblase	Bangiophyceae	Galdieriales	order	1	1	proteome-only	0	
+asic	Heteroconchia	Unionida	order	1	1	proteome-only	0	
+asic	Digenea	Strigeidida	order	1	1	proteome-only	0	
+asic	Panarthropoda	Parachela	order	1	1	proteome-only	0	
+asic	Peracarida	Isopoda	order	1	1	proteome-only	0	
+asic	Paraneoptera	Psocodea	order	1	1	proteome-only	0	
+asic	Acariformes	Trombidiformes	order	1	1	proteome-only	0	
+bestrophin	Coraciimorphae	Bucerotiformes	order	1	0	proteome-only	0	
+bestrophin	Coraciimorphae	Coliiformes	order	1	0	proteome-only	0	
+bestrophin	Coraciimorphae	Coraciiformes	order	1	0	proteome-only	0	
+bestrophin	Coraciimorphae	Piciformes	order	1	0	proteome-only	0	
+bestrophin	Phaethontimorphae	Eurypygiformes	order	1	1	proteome-only	0	
+bestrophin	Spiralia	Eurotatoria	class	3	1	proteome-only	0	
+bestrophin	Pteriomorphia	Pectinida	order	1	1	proteome-only	0	
+bestrophin	Streptophyta	Streptophytina	subphylum	47	0	proteome-only	3	Arabidopsis thaliana=no_locus_unrescued; Oryza sativa=partial; Physcomitrium patens=partial
+bestrophin	Chlorophyta	core chlorophytes	clade	5	0	proteome-only	1	Chlamydomonas reinhardtii=gap
+bestrophin	Chlorophyta	Mamiellales	order	1	0	proteome-only	0	
+bestrophin	Bangiophyceae	Galdieriales	order	1	0	proteome-only	0	
+calhm	Chordata	Amphioxiformes	order	1	0	proteome-only	1	Branchiostoma floridae=partial
+calhm	Batrachia	Caudata	order	1	1	proteome-only	0	
+calhm	Panarthropoda	Parachela	order	1	0	proteome-only	0	
+calhm	Arthropoda	Mandibulata	clade	25	0	controlled	2	Daphnia pulex=absent; Drosophila melanogaster=partial
+calhm	Arachnida	Acari	subclass	4	0	proteome-only	0	
+calhm	Chromadorea	Plectida	order	1	0	proteome-only	0	
+catsper	Eumetazoa	Trichoplacea	order	1	1	proteome-only	1	Trichoplax adhaerens=trace
+catsper	Tetrapoda	Amphibia	class	3	1	proteome-only	1	Xenopus tropicalis=partial
+catsper	Aves	Neognathae	infraclass	36	0	proteome-only	1	Gallus gallus=partial
+catsper	Palaeognathae	Struthioniformes	order	1	1	proteome-only	0	
+catsper	Teleostei	Elopomorpha	clade	4	0	proteome-only	0	
+catsper	Osteoglossocephalai	Osteoglossiformes	order	1	0	proteome-only	0	
+catsper	Euacanthomorphacea	Percomorphaceae	clade	18	1	proteome-only	1	Takifugu rubripes=partial
+catsper	Otophysi	Cypriniformes	order	1	1	proteome-only	1	Danio rerio=partial
+catsper	Characiphysae	Siluriformes	order	1	1	proteome-only	0	
+catsper	Cyclostomata	Petromyzontiformes	order	1	1	controlled	1	Petromyzon marinus=absent
+catsper	Lophotrochozoa	Mollusca	phylum	15	1	proteome-only	2	Aplysia californica=gap; Cornu aspersum=gap
+catsper	Lophotrochozoa	Neodermata	superclass	7	1	proteome-only	0	
+catsper	Annelida	Rhynchobdellida	order	1	1	proteome-only	0	
+catsper	Chelicerata	Arachnida	class	6	1	proteome-only	0	
+catsper	Hydroidolina	Anthoathecata	order	1	1	proteome-only	1	Hydra vulgaris=partial
+catsper	Chytridiomycetes	Rhizophlyctidales	order	1	0	proteome-only	0	
+catsper	Chytridiomycetes	Rhizophydiales	order	1	0	proteome-only	0	
+catsper	Chytridiomycetes	Spizellomycetales	order	1	0	proteome-only	0	
+catsper	Chytridiomycetes	Synchytriales	order	1	0	proteome-only	0	
+cav	Eukaryota	Amoebozoa	clade	5	1	proteome-only	1	Dictyostelium discoideum=gap
+cav	Opisthokonta	Craspedida	order	1	1	proteome-only	1	Monosiga brevicollis=no_locus_unrescued
+cav	Opisthokonta	Rotosphaerida	order	1	1	proteome-only	0	
+cav	Palaeoptera	Odonata	order	1	1	proteome-only	0	
+cav	Porifera	Lyssacinosida	order	1	1	proteome-only	0	
+cav	Basidiomycota	Wallemiales	order	1	1	proteome-only	0	
+cav	Fungi incertae sedis	Kickxellomycotina	subphylum	3	1	proteome-only	0	
+cav	Streptophyta	Streptophytina	subphylum	47	0	proteome-only	3	Arabidopsis thaliana=no_locus_unrescued; Oryza sativa=partial; Physcomitrium patens=partial
+cav	Discoba	Acrasida	order	1	1	proteome-only	0	
+cav	Opalozoa	Opalinata	order	1	1	proteome-only	0	
+cav	Apicomplexa	Aconoidasida	class	3	0	proteome-only	1	Plasmodium falciparum=partial
+cav	Conoidasida	Eugregarinorida	order	1	0	proteome-only	0	
+cftr	Coraciimorphae	Coliiformes	order	1	1	proteome-only	0	
+cftr	Batrachia	Caudata	order	1	1	proteome-only	0	
+clc_channel	Eukaryota	Viridiplantae	kingdom	57	0	proteome-only	4	Arabidopsis thaliana=no_locus_unrescued; Chlamydomonas reinhardtii=gap; Oryza sativa=partial; Physcomitrium patens=no_locus_unrescued
+clc_channel	Eukaryota	Pyrenomonadales	order	1	0	proteome-only	0	
+clc_channel	Opisthokonta	Fungi	kingdom	125	0	proteome-only	2	Saccharomyces cerevisiae=no_locus_unrescued; Schizosaccharomyces pombe=no_locus_unrescued
+clc_channel	Opisthokonta	Rotosphaerida	order	1	0	proteome-only	0	
+clc_channel	Neoaves	Opisthocomiformes	order	1	1	proteome-only	0	
+clc_channel	Coraciimorphae	Leptosomiformes	order	1	1	proteome-only	0	
+clc_channel	Strisores	Apodiformes	order	1	1	proteome-only	0	
+clc_channel	Columbimorphae	Mesitornithiformes	order	1	1	proteome-only	0	
+clc_channel	Phaethontimorphae	Phaethontiformes	order	1	1	proteome-only	0	
+clc_channel	Palaeognathae	Struthioniformes	order	1	1	proteome-only	0	
+clc_channel	Echinozoa	Aspidochirotida	order	1	1	proteome-only	0	
+clc_channel	Spiralia	Eurotatoria	class	3	1	proteome-only	0	
+clc_channel	Lophotrochozoa	Neodermata	superclass	7	1	proteome-only	0	
+clc_channel	Caenogastropoda	Littorinimorpha	order	1	1	proteome-only	0	
+clc_channel	Panarthropoda	Parachela	order	1	1	proteome-only	0	
+clc_channel	Polyneoptera	Blattodea	order	1	1	proteome-only	0	
+clc_channel	Hydroidolina	Anthoathecata	order	1	1	proteome-only	1	Hydra vulgaris=partial
+clc_channel	Discoba	Metakinetoplastina	subclass	2	0	proteome-only	1	Trypanosoma brucei=no_locus_unrescued
+clc_channel	Stramenopiles	Ochrophyta	clade	9	0	proteome-only	0	
+clcc1	Aequornithes	Pelecaniformes	order	1	1	proteome-only	0	
+clcc1	Otidimorphae	Cuculiformes	order	1	1	proteome-only	0	
+clcc1	Batrachia	Caudata	order	1	1	proteome-only	0	
+clcc1	Eupercaria	Centrarchiformes	order	1	1	proteome-only	0	
+clcc1	Ascidiacea	Phlebobranchia	order	1	1	proteome-only	1	Ciona intestinalis=trace
+clcc1	Lophotrochozoa	Cheilostomatida	order	1	0	proteome-only	0	
+clcc1	Lophotrochozoa	Neodermata	superclass	7	0	proteome-only	0	
+clcc1	Euthyneura	Stylommatophora	order	1	1	contradicted	1	Cornu aspersum=genome_present
+clcc1	Pteriomorphia	Pectinida	order	1	1	proteome-only	0	
+clcc1	Annelida	Rhynchobdellida	order	1	0	proteome-only	0	
+clcc1	Pancrustacea	Podocopida	order	1	0	proteome-only	0	
+clcc1	Branchiopoda	Diplostraca	order	1	0	controlled	1	Daphnia pulex=absent
+clcc1	Polyneoptera	Orthoptera	order	1	0	proteome-only	0	
+clcc1	Palaeoptera	Odonata	order	1	0	proteome-only	0	
+clcc1	Podoplea	Siphonostomatoida	order	1	0	proteome-only	0	
+clcc1	Chelicerata	Arachnida	class	6	0	proteome-only	0	
+clcc1	Chromadorea	Rhabditida	order	1	0	controlled	1	Caenorhabditis elegans=absent
+clic	Eukaryota	Amoebozoa	clade	5	0	proteome-only	1	Dictyostelium discoideum=no_locus_unrescued
+clic	Eukaryota	Apusomonadida	order	1	0	proteome-only	0	
+clic	Opisthokonta	Fungi	kingdom	125	0	proteome-only	2	Saccharomyces cerevisiae=partial; Schizosaccharomyces pombe=partial
+clic	Opisthokonta	Rotosphaerida	order	1	0	proteome-only	0	
+clic	Porifera	Lyssacinosida	order	1	0	proteome-only	0	
+clic	Heteroscleromorpha	Tetractinellida	order	1	0	proteome-only	0	
+clic	Chlorophyta	Mamiellales	order	1	1	proteome-only	0	
+clic	Chlorophyta	Pseudoscourfieldiales	order	1	1	proteome-only	0	
+clic	CS clade	Sphaeropleales	order	1	1	proteome-only	0	
+clic	Discoba	Metakinetoplastina	subclass	2	0	proteome-only	1	Trypanosoma brucei=partial
+clic	Stramenopiles	Bigyra	class	3	0	proteome-only	0	
+clic	Oomycota	Peronosporomycetes	class	3	0	proteome-only	0	
+clic	Bangiophyceae	Cyanidiales	order	1	0	proteome-only	0	
+clic	Bangiophyceae	Galdieriales	order	1	0	proteome-only	0	
+clic	Haptophyta	Pavlovales	order	1	0	proteome-only	0	
+cng	Eukaryota	Rhodophyta	phylum	7	1	proteome-only	0	
+cng	Opisthokonta	Fungi	kingdom	125	0	proteome-only	2	Saccharomyces cerevisiae=no_locus_unrescued; Schizosaccharomyces pombe=no_locus_unrescued
+cng	Opisthokonta	Rotosphaerida	order	1	1	proteome-only	0	
+cng	Heteroscleromorpha	Tetractinellida	order	1	1	proteome-only	0	
+cng	Chytridiomycetes	Rhizophydiales	order	1	1	proteome-only	0	
+cng	Chlorophyta	Mamiellales	order	1	0	proteome-only	0	
+cng	CS clade	Sphaeropleales	order	1	0	proteome-only	0	
+cng	Metakinetoplastina	Trypanosomatida	order	1	1	proteome-only	1	Trypanosoma brucei=no_locus_unrescued
+cng	Amoebozoa	Longamoebia	order	1	0	proteome-only	0	
+cng	Evosea	Dictyostelia	clade	2	0	proteome-only	1	Dictyostelium discoideum=gap
+cng	Alveolata	Apicomplexa	phylum	5	1	proteome-only	1	Plasmodium falciparum=partial
+cng	Alveolata	Perkinsida	order	1	1	proteome-only	0	
+connexin	Chordata	Amphioxiformes	order	1	0	proteome-only	1	Branchiostoma floridae=partial
+deg_invertebrate	Bivalvia	Solemyida	order	1	1	proteome-only	0	
+deg_invertebrate	Pteriomorphia	Pectinida	order	1	1	proteome-only	0	
+delta_glur	Aequornithes	Ciconiiformes	order	1	1	proteome-only	0	
+delta_glur	Columbimorphae	Mesitornithiformes	order	1	1	proteome-only	0	
+delta_glur	Galeoidea	Carcharhiniformes	order	1	1	proteome-only	0	
+gphr	Eukaryota	Apusomonadida	order	1	1	proteome-only	0	
+gphr	Batrachia	Caudata	order	1	1	proteome-only	0	
+gphr	Elopomorpha	Notacanthiformes	order	1	1	proteome-only	0	
+gphr	Ascidiacea	Phlebobranchia	order	1	1	proteome-only	1	Ciona intestinalis=genome_weak
+gphr	Caenogastropoda	Littorinimorpha	order	1	1	proteome-only	0	
+gphr	Peracarida	Isopoda	order	1	1	proteome-only	0	
+gphr	Branchiopoda	Diplostraca	order	1	1	contradicted	1	Daphnia pulex=genome_found
+gphr	Dothideomycetes incertae sedis	Phaeotrichales	order	1	1	proteome-only	0	
+gphr	Hypocreomycetidae	Microascales	order	1	1	proteome-only	0	
+gphr	Eurotiomycetes	Eurotiomycetidae	subclass	2	1	proteome-only	0	
+gphr	Agaricomycetes incertae sedis	Cantharellales	order	1	1	proteome-only	0	
+gphr	Chytridiomycetes	Synchytriales	order	1	1	proteome-only	0	
+gphr	Mesangiospermae	Trochodendrales	order	1	1	proteome-only	0	
+gphr	Bryophyta	Bryopsida	class	2	1	proteome-only	1	Physcomitrium patens=partial
+gphr	Chlorophyta	Chloropicales	order	1	1	proteome-only	0	
+gphr	Discoba	Acrasida	order	1	1	proteome-only	0	
+gphr	Ochrophyta	Eustigmatales	order	1	0	proteome-only	0	
+gphr	Ochrophyta	Parmales	order	1	0	proteome-only	0	
+gphr	Ochrophyta	Pelagomonadales	order	1	0	proteome-only	0	
+gphr	Bacillariophyta	Thalassiosirophyceae	class	2	0	proteome-only	0	
+gphr	Opalozoa	Opalinata	order	1	1	proteome-only	0	
+gphr	Conoidasida	Eugregarinorida	order	1	1	proteome-only	0	
+gphr	Aconoidasida	Piroplasmida	order	1	1	proteome-only	0	
+gphr	Oligohymenophorea	Philasterida	order	1	1	proteome-only	0	
+gphr	Bangiophyceae	Cyanidiales	order	1	1	proteome-only	0	
+hcn	Eumetazoa	Trichoplacea	order	1	0	proteome-only	1	Trichoplax adhaerens=partial
+hcn	Coraciimorphae	Piciformes	order	1	1	proteome-only	0	
+hcn	Strisores	Caprimulgiformes	order	1	1	proteome-only	0	
+hcn	Otidimorphae	Musophagiformes	order	1	1	proteome-only	0	
+hcn	Batrachia	Caudata	order	1	1	proteome-only	0	
+hcn	Gastropoda	Caenogastropoda	subclass	2	1	proteome-only	0	
+hcn	Neoheterodontei	Myida	order	1	1	proteome-only	0	
+hcn	Canalipalpata	Terebellida	order	1	1	proteome-only	0	
+hcn	Communostraca	Eumalacostraca	subclass	4	1	proteome-only	0	
+hcn	Branchiopoda	Diplostraca	order	1	1	contradicted	1	Daphnia pulex=genome_found
+hcn	Palaeoptera	Odonata	order	1	1	proteome-only	0	
+hcn	Anthozoa	Malacalcyonacea	order	1	0	proteome-only	0	
+ht3	Coraciimorphae	Leptosomiformes	order	1	1	proteome-only	0	
+ht3	Phaethontimorphae	Phaethontiformes	order	1	1	proteome-only	0	
+ht3	Batrachia	Caudata	order	1	1	proteome-only	0	
+hv1	Eukaryota	Discoba	clade	4	0	proteome-only	1	Trypanosoma brucei=partial
+hv1	Eukaryota	Rhodophyta	phylum	7	0	proteome-only	0	
+hv1	Eukaryota	Pyrenomonadales	order	1	0	proteome-only	0	
+hv1	Opisthokonta	Craspedida	order	1	0	proteome-only	1	Monosiga brevicollis=no_locus_unrescued
+hv1	Opisthokonta	Rotosphaerida	order	1	0	proteome-only	0	
+hv1	Panarthropoda	Parachela	order	1	1	proteome-only	0	
+hv1	Stomatocarida	Euphausiacea	order	1	1	proteome-only	0	
+hv1	Acariformes	Trombidiformes	order	1	1	proteome-only	0	
+hv1	Chromadorea	Rhabditida	order	1	1	controlled	1	Caenorhabditis elegans=absent
+hv1	Porifera	Heteroscleromorpha	subclass	2	0	proteome-only	1	Amphimedon queenslandica=gap
+hv1	Dothideomycetes incertae sedis	Acrospermales	order	1	1	proteome-only	0	
+hv1	Dothideomycetes incertae sedis	Patellariales	order	1	1	proteome-only	0	
+hv1	Pleosporomycetidae	Pleosporales	order	1	1	proteome-only	0	
+hv1	Dothideomycetidae	Cladosporiales	order	1	0	proteome-only	0	
+hv1	Dothideomycetidae	Mycosphaerellales	order	1	0	proteome-only	0	
+hv1	Dothideomycetidae	Myriangiales	order	1	0	proteome-only	0	
+hv1	Sordariomycetes	Lulworthiales	order	1	1	proteome-only	0	
+hv1	Xylariomycetidae	Amphisphaeriales	order	1	1	proteome-only	0	
+hv1	Sordariomycetidae	Magnaporthales	order	1	1	proteome-only	0	
+hv1	Sordariomycetidae	Sordariales	order	1	1	proteome-only	0	
+hv1	Sordariomycetidae	Thyridiales	order	1	1	proteome-only	0	
+hv1	Hypocreomycetidae	Microascales	order	1	1	proteome-only	0	
+hv1	Leotiomycetes	Thelebolales	order	1	1	proteome-only	0	
+hv1	Lecanoromycetidae	Teloschistales	order	1	1	proteome-only	0	
+hv1	Eurotiomycetes	Eurotiomycetidae	subclass	2	0	proteome-only	0	
+hv1	Chaetothyriomycetidae	Verrucariales	order	1	0	proteome-only	0	
+hv1	Agaricomycotina	Tremellomycetes	class	3	0	proteome-only	0	
+hv1	Agaricomycetes incertae sedis	Thelephorales	order	1	1	proteome-only	0	
+hv1	Microbotryomycetes	Microbotryales	order	1	0	proteome-only	0	
+hv1	Fungi incertae sedis	Blastocladiales	order	1	1	proteome-only	0	
+hv1	chytridiomyceta	Monoblepharidales	order	1	1	proteome-only	0	
+hv1	Chytridiomycetes	Lobulomycetales	order	1	1	proteome-only	0	
+hv1	Chytridiomycetes	Rhizophydiales	order	1	1	proteome-only	0	
+hv1	Chytridiomycetes	Synchytriales	order	1	1	proteome-only	0	
+hv1	Kickxellomycotina	Harpellales	order	1	0	proteome-only	0	
+hv1	Kickxellomycotina	Kickxellales	order	1	0	proteome-only	0	
+hv1	Viridiplantae	Chlorophyta	phylum	9	0	proteome-only	1	Chlamydomonas reinhardtii=no_locus_unrescued
+hv1	Streptophytina	Charales	order	1	0	proteome-only	0	
+hv1	Euphyllophyta	Polypodiales	order	1	1	proteome-only	0	
+hv1	Magnoliopsida	Amborellales	order	1	1	proteome-only	0	
+hv1	Mesangiospermae	Magnoliidae	clade	2	1	proteome-only	0	
+hv1	Liliopsida	Alismatales	order	1	0	proteome-only	0	
+hv1	Petrosaviidae	Asparagales	order	1	0	proteome-only	0	
+hv1	commelinids	Poales	order	1	0	proteome-only	1	Oryza sativa=partial
+hv1	commelinids	Zingiberales	order	1	0	proteome-only	0	
+hv1	Pentapetalae	Caryophyllales	order	1	1	proteome-only	0	
+hv1	campanulids	Aquifoliales	order	1	1	proteome-only	0	
+hv1	campanulids	Escalloniales	order	1	1	proteome-only	0	
+hv1	lamiids	Lamiales	order	1	1	proteome-only	0	
+hv1	malvids	Myrtales	order	1	1	proteome-only	0	
+hv1	fabids	Celastrales	order	1	1	proteome-only	0	
+hv1	fabids	Oxalidales	order	1	1	proteome-only	0	
+hv1	Dictyostelia	Dictyosteliales	order	1	1	proteome-only	1	Dictyostelium discoideum=no_locus_unrescued
+hv1	Sar	Alveolata	clade	14	0	proteome-only	3	Paramecium tetraurelia=gap; Plasmodium falciparum=no_locus_unrescued; Tetrahymena thermophila=partial
+hv1	Oomycota	Peronosporomycetes	class	3	0	proteome-only	0	
+hv1	Ochrophyta	Eustigmatales	order	1	0	proteome-only	0	
+hv1	Ochrophyta	Pelagomonadales	order	1	0	proteome-only	0	
+hv1	Bigyra	Opalozoa	clade	2	0	proteome-only	0	
+iglur_nonvertebrate	Peracarida	Isopoda	order	1	1	proteome-only	0	
+innexin	Ecdysozoa	Priapulimorphida	order	1	0	proteome-only	0	
+innexin	Panarthropoda	Parachela	order	1	0	proteome-only	0	
+innexin	Chromadorea	Plectida	order	1	0	proteome-only	0	
+itpr	Eukaryota	Viridiplantae	kingdom	57	0	proteome-only	4	Arabidopsis thaliana=no_locus_unrescued; Chlamydomonas reinhardtii=present_medium; Oryza sativa=partial; Physcomitrium patens=no_locus_unrescued
+itpr	Eukaryota	Sar	clade	33	0	proteome-only	1	Plasmodium falciparum=partial
+itpr	Eukaryota	Rhodophyta	phylum	7	0	proteome-only	0	
+itpr	Opisthokonta	Fungi	kingdom	125	0	proteome-only	2	Saccharomyces cerevisiae=no_locus_unrescued; Schizosaccharomyces pombe=partial
+itpr	Coraciimorphae	Coliiformes	order	1	1	proteome-only	0	
+itpr	Coraciimorphae	Leptosomiformes	order	1	1	proteome-only	0	
+itpr	Aequornithes	Pelecaniformes	order	1	1	proteome-only	0	
+itpr	Aequornithes	Sphenisciformes	order	1	1	proteome-only	0	
+itpr	Columbimorphae	Pterocliformes	order	1	1	proteome-only	0	
+itpr	Otidimorphae	Cuculiformes	order	1	0	proteome-only	0	
+itpr	Otidimorphae	Musophagiformes	order	1	0	proteome-only	0	
+itpr	Digenea	Plagiorchiida	order	1	1	proteome-only	0	
+itpr	Ecdysozoa	Priapulimorphida	order	1	1	proteome-only	0	
+itpr	Pancrustacea	Podocopida	order	1	1	proteome-only	0	
+itpr	Peracarida	Isopoda	order	1	1	proteome-only	0	
+itpr	Polyneoptera	Blattodea	order	1	1	proteome-only	0	
+itpr	Palaeoptera	Odonata	order	1	1	proteome-only	0	
+itpr	Haptophyta	Pavlovales	order	1	0	proteome-only	0	
+k2p	Eukaryota	Amoebozoa	clade	5	0	proteome-only	1	Dictyostelium discoideum=no_locus_unrescued
+k2p	Eukaryota	Pyrenomonadales	order	1	0	proteome-only	0	
+k2p	Opisthokonta	Rotosphaerida	order	1	1	proteome-only	0	
+k2p	Ascomycota	Taphrinomycotina	subphylum	4	0	proteome-only	1	Schizosaccharomyces pombe=no_locus_unrescued
+k2p	sordariomyceta	Sordariomycetes	class	16	1	proteome-only	0	
+k2p	Saccharomycotina	Pichiomycetes	class	3	0	proteome-only	0	
+k2p	Saccharomycotina	Dipodascales	order	1	0	proteome-only	0	
+k2p	Saccharomycotina	Trigonopsidales	order	1	0	proteome-only	0	
+k2p	Basidiomycota	Wallemiales	order	1	1	proteome-only	0	
+k2p	Ustilaginomycotina	Malasseziales	order	1	1	proteome-only	0	
+k2p	Fungi incertae sedis	Glomeromycetes	class	4	1	proteome-only	0	
+k2p	Fungi incertae sedis	Blastocladiales	order	1	1	proteome-only	0	
+k2p	Fungi incertae sedis	Mucoromycotina	subphylum	3	1	proteome-only	0	
+k2p	Chlorophyta	core chlorophytes	clade	5	0	proteome-only	1	Chlamydomonas reinhardtii=gap
+k2p	Chlorophyta	Chloropicales	order	1	0	proteome-only	0	
+k2p	Stramenopiles	Oomycota	phylum	4	0	proteome-only	0	
+k2p	Opalozoa	Opalinata	order	1	0	proteome-only	0	
+k2p	Bangiophyceae	Cyanidiales	order	1	0	proteome-only	0	
+k2p	Bangiophyceae	Galdieriales	order	1	0	proteome-only	0	
+kainate	Annelida	Rhynchobdellida	order	1	1	proteome-only	0	
+kainate	Peracarida	Isopoda	order	1	1	proteome-only	0	
+kca_sk	Australaves	Cariamiformes	order	1	1	proteome-only	0	
+kca_sk	Aequornithes	Procellariiformes	order	1	1	proteome-only	0	
+kca_sk	Aequornithes	Suliformes	order	1	1	proteome-only	0	
+kca_sk	Phaethontimorphae	Phaethontiformes	order	1	1	proteome-only	0	
+kca_sk	Pancrustacea	Podocopida	order	1	1	proteome-only	0	
+kca_sk	Peracarida	Isopoda	order	1	1	proteome-only	0	
+kca_sk	Branchiopoda	Anostraca	order	1	1	proteome-only	0	
+kca_sk	Palaeoptera	Odonata	order	1	1	proteome-only	0	
+kca_sk	Acari	Parasitiformes	superorder	2	1	proteome-only	0	
+kca_sk	Peronosporomycetes	Albuginales	order	1	0	proteome-only	0	
+kca_slo	Opisthokonta	Rotosphaerida	order	1	1	proteome-only	0	
+kca_slo	Heteroscleromorpha	Tetractinellida	order	1	1	proteome-only	0	
+kca_slo	Fungi	Dikarya	subkingdom	100	1	proteome-only	2	Saccharomyces cerevisiae=no_locus_unrescued; Schizosaccharomyces pombe=no_locus_unrescued
+kca_slo	Fungi incertae sedis	Zoopagales	order	1	1	proteome-only	0	
+kca_slo	chytridiomyceta	Monoblepharidales	order	1	0	proteome-only	0	
+kca_slo	chytridiomyceta	Neocallimastigales	order	1	0	proteome-only	0	
+kca_slo	Spermatophyta	Magnoliopsida	class	38	1	controlled	2	Arabidopsis thaliana=absent; Oryza sativa=partial
+kca_slo	Chlorophyta	Mamiellales	order	1	1	proteome-only	0	
+kca_slo	Ochrophyta	Bacillariophyta	phylum	4	0	proteome-only	0	
+kca_slo	Ochrophyta	Parmales	order	1	0	proteome-only	0	
+kca_slo	Opalozoa	Opalinata	order	1	1	proteome-only	0	
+kca_slo	Rhodophyta	Stylonematales	order	1	0	proteome-only	0	
+kir	Eukaryota	Rhodophyta	phylum	7	1	proteome-only	0	
+kir	Eukaryota	Pyrenomonadales	order	1	1	proteome-only	0	
+kir	Opisthokonta	Fungi	kingdom	125	0	proteome-only	2	Saccharomyces cerevisiae=no_locus_unrescued; Schizosaccharomyces pombe=no_locus_unrescued
+kir	Opisthokonta	Rotosphaerida	order	1	1	proteome-only	0	
+kir	Eumetazoa	Lobata	order	1	1	proteome-only	0	
+kir	Lophotrochozoa	Neodermata	superclass	7	1	proteome-only	0	
+kir	Tracheophyta	Euphyllophyta	clade	40	1	proteome-only	2	Arabidopsis thaliana=partial; Oryza sativa=partial
+kir	Chlorophyta	Mamiellales	order	1	1	proteome-only	0	
+kir	Discoba	Metakinetoplastina	subclass	2	1	proteome-only	1	Trypanosoma brucei=no_locus_unrescued
+kir	Evosea	Dictyostelia	clade	2	1	proteome-only	1	Dictyostelium discoideum=no_locus_unrescued
+kir	Alveolata	Ciliophora	phylum	6	1	proteome-only	2	Paramecium tetraurelia=no_locus_unrescued; Tetrahymena thermophila=no_locus_unrescued
+kv_eag	Chlorophyta	Pseudoscourfieldiales	order	1	1	proteome-only	0	
+kv_eag	Ochrophyta	Bacillariophyta	phylum	4	0	proteome-only	0	
+kv_eag	Ochrophyta	Eustigmatales	order	1	0	proteome-only	0	
+kv_eag	Alveolata	Apicomplexa	phylum	5	0	proteome-only	1	Plasmodium falciparum=partial
+kv_kcnq	Peracarida	Isopoda	order	1	1	proteome-only	0	
+kv_kcnq	Collembola	Symphypleona	order	1	1	proteome-only	0	
+lrrc8	Hexacorallia	Scleractinia	order	1	0	proteome-only	0	
+mcu	Opisthokonta	Fungi	kingdom	125	0	proteome-only	2	Saccharomyces cerevisiae=no_locus_unrescued; Schizosaccharomyces pombe=no_locus_unrescued
+mcu	Eumetazoa	Trichoplacea	order	1	1	controlled	1	Trichoplax adhaerens=absent
+mcu	Neoaves	Opisthocomiformes	order	1	1	proteome-only	0	
+mcu	Ecdysozoa	Priapulimorphida	order	1	1	proteome-only	0	
+mcu	Communostraca	Balanomorpha	order	1	1	proteome-only	0	
+mcu	Podoplea	Siphonostomatoida	order	1	1	proteome-only	0	
+mcu	leotiomyceta	Geoglossales	order	1	1	proteome-only	0	
+mcu	Eurotiomycetidae	Onygenales	order	1	1	proteome-only	0	
+mitok	Columbimorphae	Mesitornithiformes	order	1	0	proteome-only	0	
+mitok	Columbimorphae	Pterocliformes	order	1	0	proteome-only	0	
+mitok	Phaethontimorphae	Phaethontiformes	order	1	1	proteome-only	0	
+mitok	Amphibia	Batrachia	superorder	2	1	contradicted	1	Xenopus tropicalis=genome_found
+mscl	Pezizomycotina	Pezizales	order	1	0	proteome-only	0	
+mscl	leotiomyceta	Geoglossales	order	1	0	proteome-only	0	
+mscl	leotiomyceta	Xylonales	order	1	0	proteome-only	0	
+mscl	Dothideomycetes	Dothideomycetidae	subclass	5	0	proteome-only	0	
+mscl	Dothideomycetes incertae sedis	Acrospermales	order	1	1	proteome-only	0	
+mscl	Dothideomycetes incertae sedis	Botryosphaeriales	order	1	1	proteome-only	0	
+mscl	Dothideomycetes incertae sedis	Patellariales	order	1	1	proteome-only	0	
+mscl	Pleosporomycetidae	Aulographales	order	1	0	proteome-only	0	
+mscl	Pleosporomycetidae	Gloniales	order	1	0	proteome-only	0	
+mscl	Pleosporomycetidae	Mytilinidiales	order	1	0	proteome-only	0	
+mscl	Sordariomycetidae	Togniniales	order	1	1	proteome-only	0	
+mscl	Hypocreomycetidae	Microascales	order	1	1	proteome-only	0	
+mscl	Leotiomycetes	Thelebolales	order	1	0	proteome-only	0	
+mscl	Eurotiomycetes	Chaetothyriomycetidae	subclass	3	0	proteome-only	0	
+mscl	Eurotiomycetidae	Onygenales	order	1	0	proteome-only	0	
+mscl	Agaricomycotina	Tremellomycetes	class	3	0	proteome-only	0	
+mscl	Agaricomycetidae	Agaricales	order	1	0	proteome-only	0	
+mscl	Agaricomycetidae	Boletales	order	1	0	proteome-only	0	
+mscl	Agaricomycetes incertae sedis	Cantharellales	order	1	0	proteome-only	0	
+mscl	Agaricomycetes incertae sedis	Hymenochaetales	order	1	0	proteome-only	0	
+mscl	Agaricomycetes incertae sedis	Polyporales	order	1	0	proteome-only	0	
+mscl	Agaricomycetes incertae sedis	Russulales	order	1	0	proteome-only	0	
+mscl	Agaricomycetes incertae sedis	Sistotremastrales	order	1	0	proteome-only	0	
+mscl	Agaricomycetes incertae sedis	Thelephorales	order	1	0	proteome-only	0	
+mscl	Phallomycetidae	Phallales	order	1	0	proteome-only	0	
+mscl	Kickxellomycotina	Harpellales	order	1	0	proteome-only	0	
+mscl	Kickxellomycotina	Kickxellales	order	1	0	proteome-only	0	
+mscl	Mucoromycotina	Mucorales	order	1	1	proteome-only	0	
+mscl	Evosea	Dictyostelia	clade	2	0	proteome-only	1	Dictyostelium discoideum=no_locus_unrescued
+mscl	Peronosporomycetes	Albuginales	order	1	0	proteome-only	0	
+mscs	Saccharomycotina	Pichiomycetes	class	3	1	proteome-only	0	
+mscs	Saccharomycotina	Saccharomycetes	class	4	1	proteome-only	1	Saccharomyces cerevisiae=partial
+mscs	Taphrinomycotina	Pneumocystales	order	1	1	proteome-only	0	
+mscs	Ustilaginomycotina	Malasseziales	order	1	1	proteome-only	0	
+mscs	Glomeromycetes	Archaeosporales	order	1	1	proteome-only	0	
+mscs	Chytridiomycetes	Chytridiales	order	1	1	proteome-only	0	
+mscs	Opalozoa	Opalinata	order	1	1	proteome-only	0	
+mscs	Alveolata	Ciliophora	phylum	6	1	proteome-only	2	Paramecium tetraurelia=partial; Tetrahymena thermophila=partial
+mscs	Alveolata	Perkinsida	order	1	1	proteome-only	0	
+nachr	Chlorophyta	Mamiellales	order	1	1	proteome-only	0	
+nachr	core chlorophytes	Trebouxiophyceae	class	2	1	proteome-only	0	
+nachr	Ochrophyta	PX clade	clade	2	0	proteome-only	0	
+nachr	Ochrophyta	Eustigmatales	order	1	0	proteome-only	0	
+nachr	Bacillariophyta	Thalassiosirophyceae	class	2	0	proteome-only	0	
+nalcn	Eumetazoa	Lobata	order	1	1	proteome-only	0	
+nalcn	Coraciimorphae	Piciformes	order	1	1	proteome-only	0	
+nalcn	Aequornithes	Pelecaniformes	order	1	0	proteome-only	0	
+nalcn	Aequornithes	Procellariiformes	order	1	0	proteome-only	0	
+nalcn	Aequornithes	Sphenisciformes	order	1	0	proteome-only	0	
+nalcn	Columbimorphae	Mesitornithiformes	order	1	1	proteome-only	0	
+nalcn	Phaethontimorphae	Phaethontiformes	order	1	1	proteome-only	0	
+nalcn	Palaeognathae	Struthioniformes	order	1	1	proteome-only	0	
+nalcn	Actinopteri	Acipenseriformes	order	1	1	proteome-only	0	
+nalcn	Galeoidea	Carcharhiniformes	order	1	1	proteome-only	0	
+nalcn	Pteriomorphia	Mytilida	order	1	1	proteome-only	0	
+nalcn	Pancrustacea	Podocopida	order	1	1	proteome-only	0	
+nalcn	Porifera	Lyssacinosida	order	1	0	proteome-only	0	
+nav	Neodermata	Digenea	subclass	3	1	proteome-only	0	
+nav	Panarthropoda	Parachela	order	1	1	proteome-only	0	
+nmda	Eumetazoa	Trichoplacea	order	1	1	proteome-only	1	Trichoplax adhaerens=no_locus_unrescued
+nmda	Eleutherozoa	Echinozoa	superclass	2	1	proteome-only	1	Strongylocentrotus purpuratus=trace
+nmda	Annelida	Rhynchobdellida	order	1	1	proteome-only	0	
+nmda	Peracarida	Isopoda	order	1	1	proteome-only	0	
+orai	Batrachia	Caudata	order	1	1	proteome-only	0	
+orai	Caenogastropoda	Littorinimorpha	order	1	1	proteome-only	0	
+orai	Digenea	Plagiorchiida	order	1	1	proteome-only	0	
+orai	Allotriocarida	Podoplea	superorder	2	1	proteome-only	0	
+osca_tmem63	Pteriomorphia	Mytilida	order	1	1	proteome-only	0	
+osca_tmem63	Annelida	Rhynchobdellida	order	1	1	proteome-only	0	
+osca_tmem63	Paraneoptera	Hemiptera	order	1	0	proteome-only	0	
+osca_tmem63	Paraneoptera	Psocodea	order	1	0	proteome-only	0	
+osca_tmem63	Bigyra	Opalozoa	clade	2	1	proteome-only	0	
+osca_tmem63	Aconoidasida	Piroplasmida	order	1	1	proteome-only	0	
+otop	Hydroidolina	Leptothecata	order	1	0	proteome-only	0	
+p2x	Eumetazoa	Lobata	order	1	1	proteome-only	0	
+p2x	Annelida	Rhynchobdellida	order	1	1	proteome-only	0	
+p2x	Altocrustacea	Communostraca	clade	5	1	proteome-only	0	
+p2x	Branchiopoda	Anostraca	order	1	1	proteome-only	0	
+p2x	Pterygota	Neoptera	infraclass	10	0	controlled	1	Drosophila melanogaster=absent
+p2x	Palaeoptera	Ephemeroptera	order	1	0	proteome-only	0	
+p2x	Acari	Acariformes	superorder	2	1	proteome-only	0	
+p2x	Chromadorea	Rhabditida	order	1	1	controlled	1	Caenorhabditis elegans=absent
+p2x	Heteroscleromorpha	Tetractinellida	order	1	1	proteome-only	0	
+p2x	Intramacronucleata	Oligohymenophorea	class	3	0	proteome-only	2	Paramecium tetraurelia=no_locus_unrescued; Tetrahymena thermophila=no_locus_unrescued
+p2x_nonmetazoan	Eumetazoa	Bilateria	clade	183	0	proteome-only	21	Anolis carolinensis=no_locus_unrescued; Aplysia californica=no_locus_unrescued; Branchiostoma floridae=partial; Caenorhabditis elegans=no_locus_unrescued; Callorhinchus milii=no_locus_unrescued; Ciona intestinalis=partial; Cornu aspersum=partial; Danio rerio=no_locus_unrescued; Daphnia pulex=no_locus_unrescued; Drosophila melanogaster=no_locus_unrescued; Gallus gallus=no_locus_unrescued; Homo sapiens=no_locus_unrescued; Latimeria chalumnae=no_locus_unrescued; Monodelphis domestica=no_locus_unrescued; Mus musculus=partial; Ornithorhynchus anatinus=no_locus_unrescued; Petromyzon marinus=partial; Rattus norvegicus=partial; Strongylocentrotus purpuratus=no_locus_unrescued; Takifugu rubripes=no_locus_unrescued; Xenopus tropicalis=no_locus_unrescued
+p2x_nonmetazoan	Eumetazoa	Trichoplacea	order	1	0	controlled	1	Trichoplax adhaerens=absent
+p2x_nonmetazoan	Anthozoa	Malacalcyonacea	order	1	0	proteome-only	0	
+p2x_nonmetazoan	Fungi incertae sedis	Kickxellomycotina	subphylum	3	0	proteome-only	0	
+p2x_nonmetazoan	Fungi incertae sedis	Mucoromycotina	subphylum	3	0	proteome-only	0	
+p2x_nonmetazoan	Fungi incertae sedis	Entomophthorales	order	1	0	proteome-only	0	
+p2x_nonmetazoan	chytridiomyceta	Monoblepharidales	order	1	0	proteome-only	0	
+p2x_nonmetazoan	chytridiomyceta	Neocallimastigales	order	1	0	proteome-only	0	
+p2x_nonmetazoan	Chytridiomycetes	Chytridiales	order	1	0	proteome-only	0	
+p2x_nonmetazoan	Chytridiomycetes	Lobulomycetales	order	1	0	proteome-only	0	
+p2x_nonmetazoan	Opalozoa	Opalinata	order	1	0	proteome-only	0	
+pacc	Elopomorpha	Albuliformes	order	1	1	proteome-only	0	
+pacc	Percomorphaceae	Syngnathiformes	order	1	1	proteome-only	0	
+pacc	Anabantaria	Anabantiformes	order	1	1	proteome-only	0	
+pacc	Eupercaria	Tetraodontiformes	order	1	1	controlled	1	Takifugu rubripes=absent
+pannexin	Batrachia	Caudata	order	1	1	proteome-only	0	
+pannexin	Tunicata	Ascidiacea	class	2	1	controlled	1	Ciona intestinalis=absent
+piezo	Neoaves	Opisthocomiformes	order	1	1	proteome-only	0	
+piezo	Strisores	Apodiformes	order	1	1	proteome-only	0	
+piezo	Aequornithes	Pelecaniformes	order	1	1	proteome-only	0	
+piezo	Aequornithes	Sphenisciformes	order	1	1	proteome-only	0	
+piezo	Columbimorphae	Mesitornithiformes	order	1	1	proteome-only	0	
+piezo	Palaeognathae	Struthioniformes	order	1	1	proteome-only	0	
+piezo	Ascidiacea	Phlebobranchia	order	1	1	proteome-only	1	Ciona intestinalis=genome_weak
+piezo	Pteriomorphia	Pectinida	order	1	1	proteome-only	0	
+piezo	Peracarida	Isopoda	order	1	1	proteome-only	0	
+piezo	Allotriocarida	Branchiopoda	class	2	0	controlled	1	Daphnia pulex=absent
+piezo	Allotriocarida	Podoplea	superorder	2	0	proteome-only	0	
+piezo	Polyneoptera	Blattodea	order	1	1	proteome-only	0	
+piezo	Hexacorallia	Actiniaria	order	1	1	proteome-only	1	Nematostella vectensis=genome_weak
+piezo	Porifera	Lyssacinosida	order	1	0	proteome-only	0	
+plgic_prok	Lophotrochozoa	Cheilostomatida	order	1	1	proteome-only	0	
+plgic_prok	Oomycota	Peronosporomycetes	class	3	0	proteome-only	0	
+plgic_prok	Ochrophyta	PX clade	clade	2	0	proteome-only	0	
+plgic_prok	Ochrophyta	Eustigmatales	order	1	0	proteome-only	0	
+plgic_prok	Thalassiosirophyceae	Thalassiosirales	order	1	0	proteome-only	0	
+plgic_prok	Opalozoa	Opalinata	order	1	0	proteome-only	0	
+ryr	Eumetazoa	Cnidaria	phylum	6	0	proteome-only	2	Hydra vulgaris=no_locus_unrescued; Nematostella vectensis=no_locus_unrescued
+ryr	Eumetazoa	Lobata	order	1	0	proteome-only	0	
+ryr	Neoaves	Strisores	clade	3	1	proteome-only	0	
+ryr	Neoaves	Aequornithes	clade	6	0	proteome-only	0	
+ryr	Neoaves	Phaethontimorphae	clade	2	1	proteome-only	0	
+ryr	Coraciimorphae	Leptosomiformes	order	1	1	proteome-only	0	
+ryr	Coraciimorphae	Trogoniformes	order	1	1	proteome-only	0	
+ryr	Columbimorphae	Mesitornithiformes	order	1	1	proteome-only	0	
+ryr	Otidimorphae	Musophagiformes	order	1	1	proteome-only	0	
+ryr	Palaeognathae	Struthioniformes	order	1	1	proteome-only	0	
+ryr	Eupercaria	Tetraodontiformes	order	1	1	contradicted	1	Takifugu rubripes=genome_found
+ryr	Pteriomorphia	Mytilida	order	1	1	proteome-only	0	
+ryr	Pteriomorphia	Pectinida	order	1	1	proteome-only	0	
+ryr	Neoheterodontei	Myida	order	1	1	proteome-only	0	
+ryr	Polyneoptera	Blattodea	order	1	1	proteome-only	0	
+ryr	Chromadorea	Plectida	order	1	1	proteome-only	0	
+tmc	Eukaryota	Amoebozoa	clade	5	0	proteome-only	1	Dictyostelium discoideum=gap
+tmc	Eukaryota	Apusomonadida	order	1	0	proteome-only	0	
+tmc	Eukaryota	Rhodophyta	phylum	7	0	proteome-only	0	
+tmc	Opisthokonta	Fungi	kingdom	125	0	proteome-only	2	Saccharomyces cerevisiae=partial; Schizosaccharomyces pombe=no_locus_unrescued
+tmc	Lophotrochozoa	Neodermata	superclass	7	1	proteome-only	0	
+tmc	Streptophytina	Charales	order	1	0	proteome-only	0	
+tmc	Bryophyta	Bryopsida	class	2	1	proteome-only	1	Physcomitrium patens=no_locus_unrescued
+tmc	Discoba	Metakinetoplastina	subclass	2	0	proteome-only	1	Trypanosoma brucei=partial
+tmc	Ochrophyta	Bacillariophyta	phylum	4	0	proteome-only	0	
+tmc	Ochrophyta	Eustigmatales	order	1	0	proteome-only	0	
+tmc	Ochrophyta	Pelagomonadales	order	1	0	proteome-only	0	
+tmc	Bigyra	Opalozoa	clade	2	0	proteome-only	0	
+tmc	Alveolata	Apicomplexa	phylum	5	0	proteome-only	1	Plasmodium falciparum=partial
+tmc	Alveolata	Perkinsida	order	1	0	proteome-only	0	
+tmc	Intramacronucleata	Oligohymenophorea	class	3	0	proteome-only	2	Paramecium tetraurelia=no_locus_unrescued; Tetrahymena thermophila=no_locus_unrescued
+tmco1	Eukaryota	Apusomonadida	order	1	1	proteome-only	0	
+tmco1	Eukaryota	Pyrenomonadales	order	1	1	proteome-only	0	
+tmco1	Opisthokonta	Fungi	kingdom	125	0	proteome-only	2	Saccharomyces cerevisiae=partial; Schizosaccharomyces pombe=no_locus_unrescued
+tmco1	Opisthokonta	Craspedida	order	1	1	controlled	1	Monosiga brevicollis=absent
+tmco1	Eumetazoa	Lobata	order	1	1	proteome-only	0	
+tmco1	Batrachia	Caudata	order	1	1	proteome-only	0	
+tmco1	Galeoidea	Carcharhiniformes	order	1	1	proteome-only	0	
+tmco1	Caenogastropoda	Architaenioglossa	order	1	1	proteome-only	0	
+tmco1	Branchiopoda	Anostraca	order	1	1	proteome-only	0	
+tmco1	Kickxellomycotina	Dimargaritales	order	1	0	proteome-only	0	
+tmco1	Chlorophyta	Mamiellales	order	1	1	proteome-only	0	
+tmco1	Discoba	Metakinetoplastina	subclass	2	1	proteome-only	1	Trypanosoma brucei=partial
+tmco1	Stramenopiles	Oomycota	phylum	4	1	proteome-only	0	
+tmco1	Ochrophyta	Eustigmatales	order	1	1	proteome-only	0	
+tmco1	Ochrophyta	Pelagomonadales	order	1	1	proteome-only	0	
+tmco1	Bigyra	Thraustochytrida	order	1	1	proteome-only	0	
+tmco1	Alveolata	Perkinsida	order	1	1	proteome-only	0	
+tmco1	Conoidasida	Eugregarinorida	order	1	1	proteome-only	0	
+tmco1	Aconoidasida	Piroplasmida	order	1	1	proteome-only	0	
+tmem109	Neoaves	Strisores	clade	3	1	proteome-only	0	
+tmem109	Neoaves	Aequornithes	clade	6	1	proteome-only	0	
+tmem109	Neoaves	Phaethontimorphae	clade	2	1	proteome-only	0	
+tmem109	Neoaves	Opisthocomiformes	order	1	1	proteome-only	0	
+tmem109	Telluraves	Accipitriformes	order	1	1	proteome-only	0	
+tmem109	Coraciimorphae	Coraciiformes	order	1	1	proteome-only	0	
+tmem109	Coraciimorphae	Leptosomiformes	order	1	1	proteome-only	0	
+tmem109	Australaves	Psittaciformes	order	1	1	proteome-only	0	
+tmem109	Columbimorphae	Mesitornithiformes	order	1	0	proteome-only	0	
+tmem109	Columbimorphae	Pterocliformes	order	1	0	proteome-only	0	
+tmem109	Otidimorphae	Musophagiformes	order	1	1	proteome-only	0	
+tmem109	Palaeognathae	Tinamiformes	order	1	1	proteome-only	0	
+tmem109	Amphibia	Batrachia	superorder	2	1	proteome-only	1	Xenopus tropicalis=partial
+tmem109	Acanthomorphata	Gadiformes	order	1	1	proteome-only	0	
+tmem109	Ovalentaria	Blenniiformes	order	1	1	proteome-only	0	
+tmem109	Atherinomorphae	Atheriniformes	order	1	1	proteome-only	0	
+tmem175	Eumetazoa	Trichoplacea	order	1	1	controlled	1	Trichoplax adhaerens=absent
+tmem175	Tetrapoda	Amphibia	class	3	1	proteome-only	1	Xenopus tropicalis=genome_weak
+tmem175	Coraciimorphae	Leptosomiformes	order	1	1	proteome-only	0	
+tmem175	Phaethontimorphae	Phaethontiformes	order	1	1	proteome-only	0	
+tmem175	Glires	Lagomorpha	order	1	1	proteome-only	0	
+tmem175	Eupercaria	Tetraodontiformes	order	1	1	contradicted	1	Takifugu rubripes=genome_found
+tmem175	Ascidiacea	Aplousobranchia	order	1	1	proteome-only	0	
+tmem175	Echinozoa	Aspidochirotida	order	1	1	proteome-only	0	
+tmem87	Eukaryota	Pyrenomonadales	order	1	1	proteome-only	0	
+tmem87	Neoaves	Otidimorphae	clade	3	0	proteome-only	0	
+tmem87	Neoaves	Phaethontimorphae	clade	2	0	proteome-only	0	
+tmem87	Telluraves	Coraciimorphae	clade	6	0	proteome-only	0	
+tmem87	Australaves	Cariamiformes	order	1	1	proteome-only	0	
+tmem87	Strisores	Caprimulgiformes	order	1	0	proteome-only	0	
+tmem87	Strisores	Nyctibiiformes	order	1	0	proteome-only	0	
+tmem87	Aequornithes	Procellariiformes	order	1	0	proteome-only	0	
+tmem87	Aequornithes	Sphenisciformes	order	1	0	proteome-only	0	
+tmem87	Aequornithes	Suliformes	order	1	0	proteome-only	0	
+tmem87	Columbimorphae	Mesitornithiformes	order	1	0	proteome-only	0	
+tmem87	Columbimorphae	Pterocliformes	order	1	0	proteome-only	0	
+tmem87	Digenea	Strigeidida	order	1	1	proteome-only	0	
+tmem87	Panarthropoda	Parachela	order	1	1	proteome-only	0	
+tmem87	Branchiopoda	Anostraca	order	1	1	proteome-only	0	
+tmem87	Endopterygota	Hymenoptera	order	1	1	proteome-only	0	
+tmem87	Podoplea	Siphonostomatoida	order	1	1	proteome-only	0	
+tmem87	Anthozoa	Malacalcyonacea	order	1	1	proteome-only	0	
+tmem87	Pichiomycetes	Serinales	order	1	1	proteome-only	0	
+tmem87	Chytridiomycetes	Rhizophlyctidales	order	1	1	proteome-only	0	
+tmem87	core chlorophytes	CS clade	clade	2	0	proteome-only	1	Chlamydomonas reinhardtii=gap
+tmem87	Trebouxiophyceae	Chlorellales	order	1	0	proteome-only	0	
+tmem87	Peronosporomycetes	Albuginales	order	1	1	proteome-only	0	
+tmem87	Ochrophyta	Parmales	order	1	1	proteome-only	0	
+tmem87	Alveolata	Perkinsida	order	1	1	proteome-only	0	
+tmem87	Aconoidasida	Piroplasmida	order	1	1	proteome-only	0	
+tmem87	Intramacronucleata	Oligohymenophorea	class	3	0	proteome-only	2	Paramecium tetraurelia=no_locus_unrescued; Tetrahymena thermophila=no_locus_unrescued
+tmem87	Spirotrichea	Euplotida	order	1	0	proteome-only	0	
+tmem87	Bangiophyceae	Galdieriales	order	1	1	proteome-only	0	
+tpc	Opisthokonta	Fungi	kingdom	125	1	proteome-only	2	Saccharomyces cerevisiae=partial; Schizosaccharomyces pombe=no_locus_unrescued
+tpc	Opisthokonta	Rotosphaerida	order	1	1	proteome-only	0	
+tpc	Panarthropoda	Parachela	order	1	1	proteome-only	0	
+tpc	Mandibulata	Geophilomorpha	order	1	1	proteome-only	0	
+tpc	Panorpida	Diptera	order	1	1	controlled	1	Drosophila melanogaster=absent
+tpc	Paraneoptera	Hemiptera	order	1	1	proteome-only	0	
+tpc	Parasitiformes	Mesostigmata	order	1	1	proteome-only	0	
+tpc	Mesangiospermae	Trochodendrales	order	1	1	proteome-only	0	
+tpc	commelinids	Zingiberales	order	1	1	proteome-only	0	
+tpc	campanulids	Aquifoliales	order	1	1	proteome-only	0	
+tpc	Lycopodiopsida	Selaginellales	order	1	1	proteome-only	0	
+tpc	Chlorophyta	Mamiellales	order	1	0	proteome-only	0	
+tpc	Chlorophyta	Pseudoscourfieldiales	order	1	0	proteome-only	0	
+tpc	core chlorophytes	CS clade	clade	2	0	proteome-only	1	Chlamydomonas reinhardtii=gap
+tpc	Trebouxiophyceae	Chlorellales	order	1	0	proteome-only	0	
+tpc	Discoba	Acrasida	order	1	0	proteome-only	0	
+tpc	Discoba	Metakinetoplastina	subclass	2	0	proteome-only	1	Trypanosoma brucei=no_locus_unrescued
+tpc	Opalozoa	Opalinata	order	1	1	proteome-only	0	
+tpc	Alveolata	Apicomplexa	phylum	5	0	proteome-only	1	Plasmodium falciparum=no_locus_unrescued
+tpc	Alveolata	Perkinsida	order	1	0	proteome-only	0	
+tpc	Ciliophora	Heterotrichida	order	1	0	proteome-only	0	
+tpc	Rhodophyta	Bangiophyceae	class	4	0	proteome-only	0	
+tpc	Rhodophyta	Stylonematales	order	1	0	proteome-only	0	
+tric	Batrachia	Caudata	order	1	1	proteome-only	0	
+tric	Digenea	Plagiorchiida	order	1	1	proteome-only	0	
+tric	Heteroscleromorpha	Tetractinellida	order	1	1	proteome-only	0	
+tric	Streptophytina	Embryophyta	clade	46	0	proteome-only	3	Arabidopsis thaliana=no_locus_unrescued; Oryza sativa=no_locus_unrescued; Physcomitrium patens=no_locus_unrescued
+tric	Chlorophyta	Chloropicales	order	1	0	proteome-only	0	
+tric	Chlorophyta	Mamiellales	order	1	0	proteome-only	0	
+tric	Chlorophyta	Pseudoscourfieldiales	order	1	0	proteome-only	0	
+tric	Trebouxiophyceae	Chlorellales	order	1	0	proteome-only	0	
+trpa	Neoaves	Gruiformes	order	1	1	proteome-only	0	
+trpa	Coraciimorphae	Bucerotiformes	order	1	0	proteome-only	0	
+trpa	Coraciimorphae	Coliiformes	order	1	0	proteome-only	0	
+trpa	Coraciimorphae	Leptosomiformes	order	1	0	proteome-only	0	
+trpa	Coraciimorphae	Trogoniformes	order	1	0	proteome-only	0	
+trpa	Australaves	Cariamiformes	order	1	1	proteome-only	0	
+trpa	Strisores	Nyctibiiformes	order	1	1	proteome-only	0	
+trpa	Aequornithes	Suliformes	order	1	1	proteome-only	0	
+trpa	Otidimorphae	Otidiformes	order	1	1	proteome-only	0	
+trpa	Phaethontimorphae	Phaethontiformes	order	1	1	proteome-only	0	
+trpa	Batrachia	Caudata	order	1	1	proteome-only	0	
+trpa	Percomorphaceae	Syngnathiformes	order	1	1	proteome-only	0	
+trpa	Digenea	Strigeidida	order	1	1	proteome-only	0	
+trpa	Annelida	Rhynchobdellida	order	1	1	proteome-only	0	
+trpa	Podoplea	Siphonostomatoida	order	1	1	proteome-only	0	
+trpa	Acari	Acariformes	superorder	2	1	proteome-only	0	
+trpc	Eumetazoa	Trichoplacea	order	1	1	proteome-only	1	Trichoplax adhaerens=gap
+trpc	Pancrustacea	Podocopida	order	1	1	proteome-only	0	
+trpm	Polyneoptera	Orthoptera	order	1	1	proteome-only	0	
+trpm	Porifera	Heteroscleromorpha	subclass	2	0	proteome-only	1	Amphimedon queenslandica=partial
+trpml	Eurotatoria	Ploima	order	1	1	proteome-only	0	
+trpml	Anthozoa	Malacalcyonacea	order	1	1	proteome-only	0	
+trpn	Eumetazoa	Trichoplacea	order	1	0	contradicted	1	Trichoplax adhaerens=genome_found
+trpn	Archosauria	Aves	class	40	1	proteome-only	1	Gallus gallus=present_medium
+trpn	Lepidosauria	Squamata	order	1	1	proteome-only	1	Anolis carolinensis=gap
+trpn	Elopomorpha	Albuliformes	order	1	1	proteome-only	0	
+trpn	Euteleosteomorpha	Acanthomorphata	clade	20	1	proteome-only	1	Takifugu rubripes=present_medium
+trpn	Characiphysae	Siluriformes	order	1	1	proteome-only	0	
+trpn	Ascidiacea	Phlebobranchia	order	1	1	proteome-only	1	Ciona intestinalis=genome_weak
+trpn	Lophotrochozoa	Neodermata	superclass	7	1	proteome-only	0	
+trpn	Caenogastropoda	Littorinimorpha	order	1	1	proteome-only	0	
+trpn	Annelida	Rhynchobdellida	order	1	1	proteome-only	0	
+trpn	Polyneoptera	Blattodea	order	1	1	proteome-only	0	
+trpn	Hexacorallia	Actiniaria	order	1	1	contradicted	1	Nematostella vectensis=genome_found
+trpp	Eukaryota	Opisthokonta	clade	322	0	proteome-only	4	Amphimedon queenslandica=unmatched; Monosiga brevicollis=gap; Saccharomyces cerevisiae=gap; Schizosaccharomyces pombe=no_locus_unrescued
+trpp	Eukaryota	Rhodophyta	phylum	7	1	proteome-only	0	
+trpp	Allotriocarida	Branchiopoda	class	2	1	controlled	1	Daphnia pulex=absent
+trpp	Polyneoptera	Orthoptera	order	1	1	proteome-only	0	
+trpp	Endopterygota	Hymenoptera	order	1	0	proteome-only	0	
+trpp	Panorpida	Lepidoptera	order	1	0	proteome-only	0	
+trpp	Palaeoptera	Ephemeroptera	order	1	1	proteome-only	0	
+trpp	Streptophyta	Streptophytina	subphylum	47	1	proteome-only	3	Arabidopsis thaliana=partial; Oryza sativa=partial; Physcomitrium patens=no_locus_unrescued
+trpp	Chlorophyta	Mamiellales	order	1	1	proteome-only	0	
+trpp	Trebouxiophyceae	Chlorellales	order	1	0	proteome-only	0	
+trpp	Discoba	Acrasida	order	1	0	proteome-only	0	
+trpp	Metakinetoplastina	Trypanosomatida	order	1	0	proteome-only	1	Trypanosoma brucei=partial
+trpp	Amoebozoa	Longamoebia	order	1	1	proteome-only	0	
+trpp	Ochrophyta	Bacillariophyta	phylum	4	1	proteome-only	0	
+trpp	Ochrophyta	Eustigmatales	order	1	1	proteome-only	0	
+trpp	PX clade	Ectocarpales	order	1	1	proteome-only	0	
+trpp	Opalozoa	Opalinata	order	1	1	proteome-only	0	
+trpp	Alveolata	Apicomplexa	phylum	5	1	proteome-only	1	Plasmodium falciparum=no_locus_unrescued
+trpp	Oligohymenophorea	Philasterida	order	1	1	proteome-only	0	
+trpv	Eumetazoa	Lobata	order	1	0	proteome-only	0	
+trpv	Lophotrochozoa	Neodermata	superclass	7	1	proteome-only	0	
+trpv	Panarthropoda	Parachela	order	1	1	proteome-only	0	
+trpv	Peracarida	Isopoda	order	1	1	proteome-only	0	
+trpv	Chytridiomycetes	Rhizophydiales	order	1	1	proteome-only	0	
+trpv	Chytridiomycetes	Spizellomycetales	order	1	1	proteome-only	0	
+trpv	Chlorophyta	Chloropicales	order	1	0	proteome-only	0	
+trpv	Chlorophyta	Pseudoscourfieldiales	order	1	0	proteome-only	0	
+tweety	Opisthokonta	Fungi	kingdom	125	0	proteome-only	2	Saccharomyces cerevisiae=no_locus_unrescued; Schizosaccharomyces pombe=no_locus_unrescued
+tweety	Opisthokonta	Rotosphaerida	order	1	0	proteome-only	0	
+tweety	Eumetazoa	Trichoplacea	order	1	1	controlled	1	Trichoplax adhaerens=absent
+tweety	Eurotatoria	Bdelloidea	subclass	2	1	proteome-only	0	
+tweety	Lophotrochozoa	Neodermata	superclass	7	1	proteome-only	0	
+tweety	Caenogastropoda	Architaenioglossa	order	1	1	proteome-only	0	
+tweety	Canalipalpata	Terebellida	order	1	1	proteome-only	0	
+tweety	Ecdysozoa	Priapulimorphida	order	1	1	proteome-only	0	
+tweety	Panarthropoda	Parachela	order	1	1	proteome-only	0	
+tweety	Communostraca	Balanomorpha	order	1	1	proteome-only	0	
+tweety	Palaeoptera	Odonata	order	1	1	proteome-only	0	
+tweety	Evosea	Cavosteliida	order	1	0	proteome-only	0	
+tweety	Ochrophyta	Eustigmatales	order	1	1	proteome-only	0	
+tweety	Thalassiosirophyceae	Thalassiosirales	order	1	0	proteome-only	0	
+tweety	Opalozoa	Opalinata	order	1	1	proteome-only	0	
+vdac	Coraciimorphae	Leptosomiformes	order	1	1	proteome-only	0	
+vdac	Columbimorphae	Mesitornithiformes	order	1	1	proteome-only	0	
+vdac	Metakinetoplastina	Eubodonida	order	1	1	proteome-only	0	
+vdac	Ochrophyta	Pelagomonadales	order	1	1	proteome-only	0	
+vdac	Conoidasida	Eugregarinorida	order	1	1	proteome-only	0	
+vdac	Aconoidasida	Piroplasmida	order	1	1	proteome-only	0	
+vdac	Spirotrichea	Euplotida	order	1	0	proteome-only	0	
+vdac	Oligohymenophorea	Hymenostomatida	order	1	0	proteome-only	1	Tetrahymena thermophila=no_locus_unrescued
+vdac	Oligohymenophorea	Peniculida	order	1	0	proteome-only	1	Paramecium tetraurelia=no_locus_unrescued
+zac	Glires	Rodentia	order	1	1	controlled	2	Mus musculus=genome_weak; Rattus norvegicus=absent

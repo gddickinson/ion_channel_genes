@@ -1,0 +1,35 @@
+{
+  "retrieved": "2026-10-03",
+  "source": "NCBI Taxonomy efetch LineageEx",
+  "tips": 437,
+  "internal_nodes": 235,
+  "polytomies": 93,
+  "root": "Eukaryota",
+  "root_children": [
+    "Amoebozoa",
+    "Apusomonadida",
+    "Discoba",
+    "Haptophyta",
+    "Metamonada",
+    "Opisthokonta",
+    "Pyrenomonadales",
+    "Rhodophyta",
+    "Sar",
+    "Viridiplantae"
+  ],
+  "max_children": 10,
+  "orders_unplaced": [
+    [
+      "Erysiphales",
+      "546991",
+      "order not on NCBI lineage"
+    ],
+    [
+      "Stephanodiscales",
+      "29204",
+      "order not on NCBI lineage"
+    ]
+  ],
+  "s4_species_on_tree": 37,
+  "s4_species": 41
+}
