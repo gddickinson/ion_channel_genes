@@ -1,0 +1,1280 @@
+family	acc1	acc2	gene1	gene2	hgnc1	hgnc2	node	taxon	supported	window	ohno_strict	ohno_relaxed
+ampa	P42261	P42263					3	Chordata	False	older		
+ampa	P48058	P42263					3	Chordata	False	older		
+ampa	P42262	P42263					3	Chordata	False	older		
+ampa	P42261	P48058					5	Chordata	False	older		
+ampa	P42262	P48058					5	Chordata	False	older		
+ampa	P42261	P42262					10	Chordata	False	older		
+ano_channel	Q9NQ90	Q5XXA6					0	Gnathostomata	True	2R		
+asic	P78348	Q9NY37					80	Eumetazoa	False	older		
+asic	P78348	A0A0G2JLG4					80	Eumetazoa	False	older		
+asic	Q96FT7	Q9NY37					80	Eumetazoa	False	older		
+asic	Q96FT7	A0A0G2JLG4					80	Eumetazoa	False	older		
+asic	Q16515	Q9NY37					80	Eumetazoa	False	older		
+asic	Q16515	A0A0G2JLG4					80	Eumetazoa	False	older		
+asic	Q9UHC3	Q9NY37					80	Eumetazoa	False	older		
+asic	Q9UHC3	A0A0G2JLG4					80	Eumetazoa	False	older		
+asic	Q9NY37	A0A0G2JLG4					104	Homo sapiens	True	younger		
+asic	P78348	Q96FT7					108	Vertebrata	False	2R		
+asic	Q9UHC3	Q96FT7					108	Vertebrata	False	2R		
+asic	Q16515	Q96FT7					108	Vertebrata	False	2R		
+asic	Q9UHC3	P78348					110	Vertebrata	False	2R		
+asic	Q9UHC3	Q16515					110	Vertebrata	False	2R		
+asic	P78348	Q16515					114	Gnathostomata	True	2R		
+bestrophin	Q8NFU1	Q8N1M1					44	Vertebrata	False	2R		
+bestrophin	O76090	Q8N1M1					44	Vertebrata	False	2R		
+bestrophin	Q8NFU0	Q8N1M1					44	Vertebrata	False	2R		
+bestrophin	Q8NFU1	Q8NFU0					45	Vertebrata	False	2R		
+bestrophin	O76090	Q8NFU1					46	Vertebrata	False	2R		
+bestrophin	O76090	Q8NFU0					46	Vertebrata	False	2R		
+calhm	Q86XJ0	Q8N5C1					1	Chordata	False	older		
+calhm	Q86XJ0	Q5R3K3					1	Chordata	False	older		
+calhm	Q5JW98	Q8N5C1					1	Chordata	False	older		
+calhm	Q5JW98	Q5R3K3					1	Chordata	False	older		
+calhm	Q9HA72	Q8N5C1					1	Chordata	False	older		
+calhm	Q9HA72	Q5R3K3					1	Chordata	False	older		
+calhm	Q8IU99	Q8N5C1					1	Chordata	False	older		
+calhm	Q8IU99	Q5R3K3					1	Chordata	False	older		
+calhm	Q5R3K3	Q8N5C1					2	Gnathostomata	False	2R		
+calhm	Q86XJ0	Q9HA72					9	Vertebrata	False	2R		
+calhm	Q86XJ0	Q5JW98					9	Vertebrata	False	2R		
+calhm	Q8IU99	Q9HA72					9	Vertebrata	False	2R		
+calhm	Q8IU99	Q5JW98					9	Vertebrata	False	2R		
+calhm	Q5JW98	Q9HA72					15	Vertebrata	True	2R		
+calhm	Q8IU99	Q86XJ0					18	Gnathostomata	True	2R		
+catsper	Q86XQ3	Q96P56					0	Metazoa	False	older		
+catsper	Q86XQ3	Q7RTX7					0	Metazoa	False	older		
+catsper	Q86XQ3	Q8NEC5					0	Metazoa	False	older		
+catsper	Q96P56	Q8NEC5					1	Metazoa	False	older		
+catsper	Q7RTX7	Q8NEC5					1	Metazoa	False	older		
+catsper	Q96P56	Q7RTX7					2	Metazoa	True	older		
+cav	Q9P0X4	Q15878					0	Eukaryota	False	older		
+cav	Q9P0X4	O60840					0	Eukaryota	False	older		
+cav	Q9P0X4	Q01668					0	Eukaryota	False	older		
+cav	Q9P0X4	O00555					0	Eukaryota	False	older		
+cav	Q9P0X4	Q13936					0	Eukaryota	False	older		
+cav	Q9P0X4	Q00975					0	Eukaryota	False	older		
+cav	Q9P0X4	Q13698					0	Eukaryota	False	older		
+cav	O43497	Q15878					0	Eukaryota	False	older		
+cav	O43497	O60840					0	Eukaryota	False	older		
+cav	O43497	Q01668					0	Eukaryota	False	older		
+cav	O43497	O00555					0	Eukaryota	False	older		
+cav	O43497	Q13936					0	Eukaryota	False	older		
+cav	O43497	Q00975					0	Eukaryota	False	older		
+cav	O43497	Q13698					0	Eukaryota	False	older		
+cav	O95180	Q15878					0	Eukaryota	False	older		
+cav	O95180	O60840					0	Eukaryota	False	older		
+cav	O95180	Q01668					0	Eukaryota	False	older		
+cav	O95180	O00555					0	Eukaryota	False	older		
+cav	O95180	Q13936					0	Eukaryota	False	older		
+cav	O95180	Q00975					0	Eukaryota	False	older		
+cav	O95180	Q13698					0	Eukaryota	False	older		
+cav	O43497	Q9P0X4					2	Vertebrata	False	2R		
+cav	O43497	O95180					2	Vertebrata	False	2R		
+cav	O95180	Q9P0X4					3	Euteleostomi	True	bony_vertebrate		
+cav	Q15878	Q13698					23	Eumetazoa	True	older		
+cav	Q15878	O60840					23	Eumetazoa	True	older		
+cav	Q15878	Q01668					23	Eumetazoa	True	older		
+cav	Q15878	Q13936					23	Eumetazoa	True	older		
+cav	O00555	Q13698					23	Eumetazoa	True	older		
+cav	O00555	O60840					23	Eumetazoa	True	older		
+cav	O00555	Q01668					23	Eumetazoa	True	older		
+cav	O00555	Q13936					23	Eumetazoa	True	older		
+cav	Q00975	Q13698					23	Eumetazoa	True	older		
+cav	Q00975	O60840					23	Eumetazoa	True	older		
+cav	Q00975	Q01668					23	Eumetazoa	True	older		
+cav	Q00975	Q13936					23	Eumetazoa	True	older		
+cav	O60840	Q13698					25	Vertebrata	False	2R		
+cav	O60840	Q13936					25	Vertebrata	False	2R		
+cav	Q01668	Q13698					25	Vertebrata	False	2R		
+cav	Q01668	Q13936					25	Vertebrata	False	2R		
+cav	Q13936	Q13698					28	Gnathostomata	True	2R		
+cav	O60840	Q01668					30	Gnathostomata	False	2R		
+cav	O00555	Q15878					47	Vertebrata	False	2R		
+cav	Q00975	Q15878					47	Vertebrata	False	2R		
+cav	O00555	Q00975					49	Vertebrata	False	2R		
+clc_channel	P51788	P51801					9	Opisthokonta	False	older		
+clc_channel	P51788	P51800					9	Opisthokonta	False	older		
+clc_channel	P35523	P51801					9	Opisthokonta	False	older		
+clc_channel	P35523	P51800					9	Opisthokonta	False	older		
+clc_channel	P51800	P51801					12	Homo sapiens	True	younger		
+clc_channel	P35523	P51788					13	Vertebrata	True	2R		
+cng	Q9NQW8	Q16280					170	Metazoa	False	older		
+cng	Q9NQW8	Q16281					170	Metazoa	False	older		
+cng	Q9NQW8	P29973					170	Metazoa	False	older		
+cng	Q9NQW8	Q8IV77					170	Metazoa	False	older		
+cng	Q14028	Q16280					170	Metazoa	False	older		
+cng	Q14028	Q16281					170	Metazoa	False	older		
+cng	Q14028	P29973					170	Metazoa	False	older		
+cng	Q14028	Q8IV77					170	Metazoa	False	older		
+cng	Q16280	Q8IV77					185	Vertebrata	True	2R		
+cng	Q16281	Q8IV77					185	Vertebrata	True	2R		
+cng	P29973	Q8IV77					185	Vertebrata	True	2R		
+cng	P29973	Q16280					187	Vertebrata	False	2R		
+cng	Q16281	Q16280					187	Vertebrata	False	2R		
+cng	P29973	Q16281					189	Vertebrata	False	2R		
+cng	Q14028	Q9NQW8					195	Vertebrata	False	2R		
+connexin	Q8N144	P08034					0	Vertebrata	False	2R		
+connexin	Q8N144	Q9NTQ9					0	Vertebrata	False	2R		
+connexin	Q8N144	P36382					0	Vertebrata	False	2R		
+connexin	Q8N144	P29033					0	Vertebrata	False	2R		
+connexin	Q8N144	Q969M2					0	Vertebrata	False	2R		
+connexin	Q8N144	P35212					0	Vertebrata	False	2R		
+connexin	Q8N144	O95377					0	Vertebrata	False	2R		
+connexin	Q8N144	Q6PEY0					0	Vertebrata	False	2R		
+connexin	Q8N144	Q9Y6H8					0	Vertebrata	False	2R		
+connexin	Q8N144	O95452					0	Vertebrata	False	2R		
+connexin	Q8N144	P57773					0	Vertebrata	False	2R		
+connexin	Q8N144	P36383					0	Vertebrata	False	2R		
+connexin	Q8N144	Q8NFK1					0	Vertebrata	False	2R		
+connexin	Q8N144	Q5T442					0	Vertebrata	False	2R		
+connexin	Q8N144	O75712					0	Vertebrata	False	2R		
+connexin	Q8N144	P48165					0	Vertebrata	False	2R		
+connexin	Q8N144	P17302					0	Vertebrata	False	2R		
+connexin	Q96KN9	P08034					0	Vertebrata	False	2R		
+connexin	Q96KN9	Q9NTQ9					0	Vertebrata	False	2R		
+connexin	Q96KN9	P36382					0	Vertebrata	False	2R		
+connexin	Q96KN9	P29033					0	Vertebrata	False	2R		
+connexin	Q96KN9	Q969M2					0	Vertebrata	False	2R		
+connexin	Q96KN9	P35212					0	Vertebrata	False	2R		
+connexin	Q96KN9	O95377					0	Vertebrata	False	2R		
+connexin	Q96KN9	Q6PEY0					0	Vertebrata	False	2R		
+connexin	Q96KN9	Q9Y6H8					0	Vertebrata	False	2R		
+connexin	Q96KN9	O95452					0	Vertebrata	False	2R		
+connexin	Q96KN9	P57773					0	Vertebrata	False	2R		
+connexin	Q96KN9	P36383					0	Vertebrata	False	2R		
+connexin	Q96KN9	Q8NFK1					0	Vertebrata	False	2R		
+connexin	Q96KN9	Q5T442					0	Vertebrata	False	2R		
+connexin	Q96KN9	O75712					0	Vertebrata	False	2R		
+connexin	Q96KN9	P48165					0	Vertebrata	False	2R		
+connexin	Q96KN9	P17302					0	Vertebrata	False	2R		
+connexin	Q9UKL4	P08034					0	Vertebrata	False	2R		
+connexin	Q9UKL4	Q9NTQ9					0	Vertebrata	False	2R		
+connexin	Q9UKL4	P36382					0	Vertebrata	False	2R		
+connexin	Q9UKL4	P29033					0	Vertebrata	False	2R		
+connexin	Q9UKL4	Q969M2					0	Vertebrata	False	2R		
+connexin	Q9UKL4	P35212					0	Vertebrata	False	2R		
+connexin	Q9UKL4	O95377					0	Vertebrata	False	2R		
+connexin	Q9UKL4	Q6PEY0					0	Vertebrata	False	2R		
+connexin	Q9UKL4	Q9Y6H8					0	Vertebrata	False	2R		
+connexin	Q9UKL4	O95452					0	Vertebrata	False	2R		
+connexin	Q9UKL4	P57773					0	Vertebrata	False	2R		
+connexin	Q9UKL4	P36383					0	Vertebrata	False	2R		
+connexin	Q9UKL4	Q8NFK1					0	Vertebrata	False	2R		
+connexin	Q9UKL4	Q5T442					0	Vertebrata	False	2R		
+connexin	Q9UKL4	O75712					0	Vertebrata	False	2R		
+connexin	Q9UKL4	P48165					0	Vertebrata	False	2R		
+connexin	Q9UKL4	P17302					0	Vertebrata	False	2R		
+connexin	Q5T442	P36383					1	Vertebrata	False	2R		
+connexin	P08034	Q5T442					2	Vertebrata	False	2R		
+connexin	P08034	P36383					2	Vertebrata	False	2R		
+connexin	P08034	Q8NFK1					2	Vertebrata	False	2R		
+connexin	Q9NTQ9	Q5T442					2	Vertebrata	False	2R		
+connexin	Q9NTQ9	P36383					2	Vertebrata	False	2R		
+connexin	Q9NTQ9	Q8NFK1					2	Vertebrata	False	2R		
+connexin	P36382	Q5T442					2	Vertebrata	False	2R		
+connexin	P36382	P36383					2	Vertebrata	False	2R		
+connexin	P36382	Q8NFK1					2	Vertebrata	False	2R		
+connexin	P29033	Q5T442					2	Vertebrata	False	2R		
+connexin	P29033	P36383					2	Vertebrata	False	2R		
+connexin	P29033	Q8NFK1					2	Vertebrata	False	2R		
+connexin	Q969M2	Q5T442					2	Vertebrata	False	2R		
+connexin	Q969M2	P36383					2	Vertebrata	False	2R		
+connexin	Q969M2	Q8NFK1					2	Vertebrata	False	2R		
+connexin	P35212	Q5T442					2	Vertebrata	False	2R		
+connexin	P35212	P36383					2	Vertebrata	False	2R		
+connexin	P35212	Q8NFK1					2	Vertebrata	False	2R		
+connexin	O95377	Q5T442					2	Vertebrata	False	2R		
+connexin	O95377	P36383					2	Vertebrata	False	2R		
+connexin	O95377	Q8NFK1					2	Vertebrata	False	2R		
+connexin	Q6PEY0	Q5T442					2	Vertebrata	False	2R		
+connexin	Q6PEY0	P36383					2	Vertebrata	False	2R		
+connexin	Q6PEY0	Q8NFK1					2	Vertebrata	False	2R		
+connexin	Q9Y6H8	Q5T442					2	Vertebrata	False	2R		
+connexin	Q9Y6H8	P36383					2	Vertebrata	False	2R		
+connexin	Q9Y6H8	Q8NFK1					2	Vertebrata	False	2R		
+connexin	O95452	Q5T442					2	Vertebrata	False	2R		
+connexin	O95452	P36383					2	Vertebrata	False	2R		
+connexin	O95452	Q8NFK1					2	Vertebrata	False	2R		
+connexin	P57773	Q5T442					2	Vertebrata	False	2R		
+connexin	P57773	P36383					2	Vertebrata	False	2R		
+connexin	P57773	Q8NFK1					2	Vertebrata	False	2R		
+connexin	O75712	Q5T442					2	Vertebrata	False	2R		
+connexin	O75712	P36383					2	Vertebrata	False	2R		
+connexin	O75712	Q8NFK1					2	Vertebrata	False	2R		
+connexin	P48165	Q5T442					2	Vertebrata	False	2R		
+connexin	P48165	P36383					2	Vertebrata	False	2R		
+connexin	P48165	Q8NFK1					2	Vertebrata	False	2R		
+connexin	P17302	Q5T442					2	Vertebrata	False	2R		
+connexin	P17302	P36383					2	Vertebrata	False	2R		
+connexin	P17302	Q8NFK1					2	Vertebrata	False	2R		
+connexin	Q8NFK1	Q5T442					5	Vertebrata	False	2R		
+connexin	Q8NFK1	P36383					5	Vertebrata	False	2R		
+connexin	A6NN92	P08034					6	Vertebrata	True	2R		
+connexin	A6NN92	Q9NTQ9					6	Vertebrata	True	2R		
+connexin	A6NN92	Q9UKL4					6	Vertebrata	True	2R		
+connexin	A6NN92	O95377					6	Vertebrata	True	2R		
+connexin	A6NN92	Q6PEY0					6	Vertebrata	True	2R		
+connexin	A6NN92	O75712					6	Vertebrata	True	2R		
+connexin	A6NN92	P48165					6	Vertebrata	True	2R		
+connexin	A6NN92	P17302					6	Vertebrata	True	2R		
+connexin	A6NN92	P36382					6	Vertebrata	True	2R		
+connexin	A6NN92	P29033					6	Vertebrata	True	2R		
+connexin	A6NN92	Q969M2					6	Vertebrata	True	2R		
+connexin	A6NN92	P35212					6	Vertebrata	True	2R		
+connexin	A6NN92	P57773					6	Vertebrata	True	2R		
+connexin	A6NN92	P36383					6	Vertebrata	True	2R		
+connexin	A6NN92	Q8N144					6	Vertebrata	True	2R		
+connexin	A6NN92	Q5T442					6	Vertebrata	True	2R		
+connexin	A6NN92	Q9Y6H8					6	Vertebrata	True	2R		
+connexin	A6NN92	O95452					6	Vertebrata	True	2R		
+connexin	A6NN92	Q96KN9					6	Vertebrata	True	2R		
+connexin	A6NN92	Q8NFK1					6	Vertebrata	True	2R		
+connexin	P36382	P08034					64	Vertebrata	False	2R		
+connexin	P36382	Q9NTQ9					64	Vertebrata	False	2R		
+connexin	P36382	P29033					64	Vertebrata	False	2R		
+connexin	P36382	O95377					64	Vertebrata	False	2R		
+connexin	P36382	Q6PEY0					64	Vertebrata	False	2R		
+connexin	P36382	O95452					64	Vertebrata	False	2R		
+connexin	P36382	O75712					64	Vertebrata	False	2R		
+connexin	Q969M2	P08034					64	Vertebrata	False	2R		
+connexin	Q969M2	Q9NTQ9					64	Vertebrata	False	2R		
+connexin	Q969M2	P29033					64	Vertebrata	False	2R		
+connexin	Q969M2	O95377					64	Vertebrata	False	2R		
+connexin	Q969M2	Q6PEY0					64	Vertebrata	False	2R		
+connexin	Q969M2	O95452					64	Vertebrata	False	2R		
+connexin	Q969M2	O75712					64	Vertebrata	False	2R		
+connexin	P35212	P08034					64	Vertebrata	False	2R		
+connexin	P35212	Q9NTQ9					64	Vertebrata	False	2R		
+connexin	P35212	P29033					64	Vertebrata	False	2R		
+connexin	P35212	O95377					64	Vertebrata	False	2R		
+connexin	P35212	Q6PEY0					64	Vertebrata	False	2R		
+connexin	P35212	O95452					64	Vertebrata	False	2R		
+connexin	P35212	O75712					64	Vertebrata	False	2R		
+connexin	Q9Y6H8	P08034					64	Vertebrata	False	2R		
+connexin	Q9Y6H8	Q9NTQ9					64	Vertebrata	False	2R		
+connexin	Q9Y6H8	P29033					64	Vertebrata	False	2R		
+connexin	Q9Y6H8	O95377					64	Vertebrata	False	2R		
+connexin	Q9Y6H8	Q6PEY0					64	Vertebrata	False	2R		
+connexin	Q9Y6H8	O95452					64	Vertebrata	False	2R		
+connexin	Q9Y6H8	O75712					64	Vertebrata	False	2R		
+connexin	P57773	P08034					64	Vertebrata	False	2R		
+connexin	P57773	Q9NTQ9					64	Vertebrata	False	2R		
+connexin	P57773	P29033					64	Vertebrata	False	2R		
+connexin	P57773	O95377					64	Vertebrata	False	2R		
+connexin	P57773	Q6PEY0					64	Vertebrata	False	2R		
+connexin	P57773	O95452					64	Vertebrata	False	2R		
+connexin	P57773	O75712					64	Vertebrata	False	2R		
+connexin	P48165	P08034					64	Vertebrata	False	2R		
+connexin	P48165	Q9NTQ9					64	Vertebrata	False	2R		
+connexin	P48165	P29033					64	Vertebrata	False	2R		
+connexin	P48165	O95377					64	Vertebrata	False	2R		
+connexin	P48165	Q6PEY0					64	Vertebrata	False	2R		
+connexin	P48165	O95452					64	Vertebrata	False	2R		
+connexin	P48165	O75712					64	Vertebrata	False	2R		
+connexin	P17302	P08034					64	Vertebrata	False	2R		
+connexin	P17302	Q9NTQ9					64	Vertebrata	False	2R		
+connexin	P17302	P29033					64	Vertebrata	False	2R		
+connexin	P17302	O95377					64	Vertebrata	False	2R		
+connexin	P17302	Q6PEY0					64	Vertebrata	False	2R		
+connexin	P17302	O95452					64	Vertebrata	False	2R		
+connexin	P17302	O75712					64	Vertebrata	False	2R		
+connexin	Q9NTQ9	P29033					65	Vertebrata	False	2R		
+connexin	Q9NTQ9	P08034					65	Vertebrata	False	2R		
+connexin	Q9NTQ9	O95452					65	Vertebrata	False	2R		
+connexin	O75712	P29033					65	Vertebrata	False	2R		
+connexin	O75712	P08034					65	Vertebrata	False	2R		
+connexin	O75712	O95452					65	Vertebrata	False	2R		
+connexin	O95377	P29033					65	Vertebrata	False	2R		
+connexin	O95377	P08034					65	Vertebrata	False	2R		
+connexin	O95377	O95452					65	Vertebrata	False	2R		
+connexin	Q6PEY0	P29033					65	Vertebrata	False	2R		
+connexin	Q6PEY0	P08034					65	Vertebrata	False	2R		
+connexin	Q6PEY0	O95452					65	Vertebrata	False	2R		
+connexin	P29033	P08034					75	Gnathostomata	True	2R		
+connexin	O95452	P08034					75	Gnathostomata	True	2R		
+connexin	P29033	O95452					82	Amniota	False	younger		
+connexin	Q9NTQ9	Q6PEY0					85	Gnathostomata	False	2R		
+connexin	O75712	Q6PEY0					85	Gnathostomata	False	2R		
+connexin	O95377	Q6PEY0					85	Gnathostomata	False	2R		
+connexin	O75712	Q9NTQ9					86	Gnathostomata	False	2R		
+connexin	O75712	O95377					86	Gnathostomata	False	2R		
+connexin	O95377	Q9NTQ9					87	Euteleostomi	False	bony_vertebrate		
+connexin	P57773	Q969M2					95	Vertebrata	False	2R		
+connexin	P36382	Q969M2					96	Vertebrata	False	2R		
+connexin	P36382	P57773					96	Vertebrata	False	2R		
+connexin	P35212	Q969M2					96	Vertebrata	False	2R		
+connexin	P35212	P57773					96	Vertebrata	False	2R		
+connexin	Q9Y6H8	Q969M2					96	Vertebrata	False	2R		
+connexin	Q9Y6H8	P57773					96	Vertebrata	False	2R		
+connexin	P48165	Q969M2					96	Vertebrata	False	2R		
+connexin	P48165	P57773					96	Vertebrata	False	2R		
+connexin	P17302	Q969M2					96	Vertebrata	False	2R		
+connexin	P17302	P57773					96	Vertebrata	False	2R		
+connexin	Q9Y6H8	P48165					98	Vertebrata	False	2R		
+connexin	P35212	P48165					98	Vertebrata	False	2R		
+connexin	P36382	P48165					98	Vertebrata	False	2R		
+connexin	P17302	P48165					98	Vertebrata	False	2R		
+connexin	Q9Y6H8	P36382					101	Vertebrata	False	2R		
+connexin	P35212	P36382					101	Vertebrata	False	2R		
+connexin	P17302	P36382					101	Vertebrata	False	2R		
+connexin	P35212	Q9Y6H8					105	Vertebrata	False	2R		
+connexin	P17302	Q9Y6H8					105	Vertebrata	False	2R		
+connexin	P17302	P35212					124	Gnathostomata	True	2R		
+connexin	Q8N144	Q96KN9					131	Vertebrata	False	2R		
+connexin	Q9UKL4	Q96KN9					131	Vertebrata	False	2R		
+connexin	Q9UKL4	Q8N144					135	Vertebrata	True	2R		
+enac	P51170	P37088					0	Vertebrata	False	2R		
+enac	P51170	P51172					0	Vertebrata	False	2R		
+enac	P51168	P37088					0	Vertebrata	False	2R		
+enac	P51168	P51172					0	Vertebrata	False	2R		
+enac	P51168	P51170					1	Vertebrata	True	2R		
+enac	P37088	P51172					2	Sarcopterygii	True	younger		
+gabaa	P28476	P18507					2	Bilateria	False	older		
+gabaa	P28476	P34903					2	Bilateria	False	older		
+gabaa	P28476	P78334					2	Bilateria	False	older		
+gabaa	P28476	P14867					2	Bilateria	False	older		
+gabaa	P28476	Q99928					2	Bilateria	False	older		
+gabaa	P28476	P31644					2	Bilateria	False	older		
+gabaa	P28476	P48169					2	Bilateria	False	older		
+gabaa	P28476	Q16445					2	Bilateria	False	older		
+gabaa	P28476	Q8N1C3					2	Bilateria	False	older		
+gabaa	P28476	P47869					2	Bilateria	False	older		
+gabaa	P18505	P18507					2	Bilateria	False	older		
+gabaa	P18505	P34903					2	Bilateria	False	older		
+gabaa	P18505	P78334					2	Bilateria	False	older		
+gabaa	P18505	P14867					2	Bilateria	False	older		
+gabaa	P18505	Q99928					2	Bilateria	False	older		
+gabaa	P18505	P31644					2	Bilateria	False	older		
+gabaa	P18505	P48169					2	Bilateria	False	older		
+gabaa	P18505	Q16445					2	Bilateria	False	older		
+gabaa	P18505	Q8N1C3					2	Bilateria	False	older		
+gabaa	P18505	P47869					2	Bilateria	False	older		
+gabaa	O14764	P18507					2	Bilateria	False	older		
+gabaa	O14764	P34903					2	Bilateria	False	older		
+gabaa	O14764	P78334					2	Bilateria	False	older		
+gabaa	O14764	P14867					2	Bilateria	False	older		
+gabaa	O14764	Q99928					2	Bilateria	False	older		
+gabaa	O14764	P31644					2	Bilateria	False	older		
+gabaa	O14764	P48169					2	Bilateria	False	older		
+gabaa	O14764	Q16445					2	Bilateria	False	older		
+gabaa	O14764	Q8N1C3					2	Bilateria	False	older		
+gabaa	O14764	P47869					2	Bilateria	False	older		
+gabaa	O00591	P18507					2	Bilateria	False	older		
+gabaa	O00591	P34903					2	Bilateria	False	older		
+gabaa	O00591	P78334					2	Bilateria	False	older		
+gabaa	O00591	P14867					2	Bilateria	False	older		
+gabaa	O00591	Q99928					2	Bilateria	False	older		
+gabaa	O00591	P31644					2	Bilateria	False	older		
+gabaa	O00591	P48169					2	Bilateria	False	older		
+gabaa	O00591	Q16445					2	Bilateria	False	older		
+gabaa	O00591	Q8N1C3					2	Bilateria	False	older		
+gabaa	O00591	P47869					2	Bilateria	False	older		
+gabaa	A8MPY1	P18507					2	Bilateria	False	older		
+gabaa	A8MPY1	P34903					2	Bilateria	False	older		
+gabaa	A8MPY1	P78334					2	Bilateria	False	older		
+gabaa	A8MPY1	P14867					2	Bilateria	False	older		
+gabaa	A8MPY1	Q99928					2	Bilateria	False	older		
+gabaa	A8MPY1	P31644					2	Bilateria	False	older		
+gabaa	A8MPY1	P48169					2	Bilateria	False	older		
+gabaa	A8MPY1	Q16445					2	Bilateria	False	older		
+gabaa	A8MPY1	Q8N1C3					2	Bilateria	False	older		
+gabaa	A8MPY1	P47869					2	Bilateria	False	older		
+gabaa	P47870	P18507					2	Bilateria	False	older		
+gabaa	P47870	P34903					2	Bilateria	False	older		
+gabaa	P47870	P78334					2	Bilateria	False	older		
+gabaa	P47870	P14867					2	Bilateria	False	older		
+gabaa	P47870	Q99928					2	Bilateria	False	older		
+gabaa	P47870	P31644					2	Bilateria	False	older		
+gabaa	P47870	P48169					2	Bilateria	False	older		
+gabaa	P47870	Q16445					2	Bilateria	False	older		
+gabaa	P47870	Q8N1C3					2	Bilateria	False	older		
+gabaa	P47870	P47869					2	Bilateria	False	older		
+gabaa	P28472	P18507					2	Bilateria	False	older		
+gabaa	P28472	P34903					2	Bilateria	False	older		
+gabaa	P28472	P78334					2	Bilateria	False	older		
+gabaa	P28472	P14867					2	Bilateria	False	older		
+gabaa	P28472	Q99928					2	Bilateria	False	older		
+gabaa	P28472	P31644					2	Bilateria	False	older		
+gabaa	P28472	P48169					2	Bilateria	False	older		
+gabaa	P28472	Q16445					2	Bilateria	False	older		
+gabaa	P28472	Q8N1C3					2	Bilateria	False	older		
+gabaa	P28472	P47869					2	Bilateria	False	older		
+gabaa	P24046	P18507					2	Bilateria	False	older		
+gabaa	P24046	P34903					2	Bilateria	False	older		
+gabaa	P24046	P78334					2	Bilateria	False	older		
+gabaa	P24046	P14867					2	Bilateria	False	older		
+gabaa	P24046	Q99928					2	Bilateria	False	older		
+gabaa	P24046	P31644					2	Bilateria	False	older		
+gabaa	P24046	P48169					2	Bilateria	False	older		
+gabaa	P24046	Q16445					2	Bilateria	False	older		
+gabaa	P24046	Q8N1C3					2	Bilateria	False	older		
+gabaa	P24046	P47869					2	Bilateria	False	older		
+gabaa	Q9UN88	P18507					2	Bilateria	False	older		
+gabaa	Q9UN88	P34903					2	Bilateria	False	older		
+gabaa	Q9UN88	P78334					2	Bilateria	False	older		
+gabaa	Q9UN88	P14867					2	Bilateria	False	older		
+gabaa	Q9UN88	Q99928					2	Bilateria	False	older		
+gabaa	Q9UN88	P31644					2	Bilateria	False	older		
+gabaa	Q9UN88	P48169					2	Bilateria	False	older		
+gabaa	Q9UN88	Q16445					2	Bilateria	False	older		
+gabaa	Q9UN88	Q8N1C3					2	Bilateria	False	older		
+gabaa	Q9UN88	P47869					2	Bilateria	False	older		
+gabaa	P34903	P78334					3	Chordata	False	older		
+gabaa	P34903	Q99928					3	Chordata	False	older		
+gabaa	P34903	P18507					3	Chordata	False	older		
+gabaa	P34903	Q8N1C3					3	Chordata	False	older		
+gabaa	P14867	P78334					3	Chordata	False	older		
+gabaa	P14867	Q99928					3	Chordata	False	older		
+gabaa	P14867	P18507					3	Chordata	False	older		
+gabaa	P14867	Q8N1C3					3	Chordata	False	older		
+gabaa	P31644	P78334					3	Chordata	False	older		
+gabaa	P31644	Q99928					3	Chordata	False	older		
+gabaa	P31644	P18507					3	Chordata	False	older		
+gabaa	P31644	Q8N1C3					3	Chordata	False	older		
+gabaa	P48169	P78334					3	Chordata	False	older		
+gabaa	P48169	Q99928					3	Chordata	False	older		
+gabaa	P48169	P18507					3	Chordata	False	older		
+gabaa	P48169	Q8N1C3					3	Chordata	False	older		
+gabaa	Q16445	P78334					3	Chordata	False	older		
+gabaa	Q16445	Q99928					3	Chordata	False	older		
+gabaa	Q16445	P18507					3	Chordata	False	older		
+gabaa	Q16445	Q8N1C3					3	Chordata	False	older		
+gabaa	P47869	P78334					3	Chordata	False	older		
+gabaa	P47869	Q99928					3	Chordata	False	older		
+gabaa	P47869	P18507					3	Chordata	False	older		
+gabaa	P47869	Q8N1C3					3	Chordata	False	older		
+gabaa	P18507	P78334					4	Vertebrata	False	2R		
+gabaa	P18507	Q99928					4	Vertebrata	False	2R		
+gabaa	Q8N1C3	P78334					4	Vertebrata	False	2R		
+gabaa	Q8N1C3	Q99928					4	Vertebrata	False	2R		
+gabaa	Q99928	P78334					6	Gnathostomata	True	2R		
+gabaa	P18507	Q8N1C3					8	Gnathostomata	True	2R		
+gabaa	Q16445	P48169					9	Vertebrata	False	2R		
+gabaa	P31644	P48169					10	Vertebrata	True	2R		
+gabaa	P31644	Q16445					10	Vertebrata	True	2R		
+gabaa	P34903	P48169					10	Vertebrata	True	2R		
+gabaa	P34903	Q16445					10	Vertebrata	True	2R		
+gabaa	P14867	P48169					10	Vertebrata	True	2R		
+gabaa	P14867	Q16445					10	Vertebrata	True	2R		
+gabaa	P47869	P48169					10	Vertebrata	True	2R		
+gabaa	P47869	Q16445					10	Vertebrata	True	2R		
+gabaa	P14867	P31644					16	Vertebrata	False	2R		
+gabaa	P14867	P34903					16	Vertebrata	False	2R		
+gabaa	P47869	P31644					16	Vertebrata	False	2R		
+gabaa	P47869	P34903					16	Vertebrata	False	2R		
+gabaa	P31644	P34903					18	Gnathostomata	True	2R		
+gabaa	P14867	P47869					21	Gnathostomata	False	2R		
+gabaa	P28476	P47870					23	Deuterostomia	False	older		
+gabaa	P28476	P18505					23	Deuterostomia	False	older		
+gabaa	P28476	Q9UN88					23	Deuterostomia	False	older		
+gabaa	P28476	P28472					23	Deuterostomia	False	older		
+gabaa	O14764	P47870					23	Deuterostomia	False	older		
+gabaa	O14764	P18505					23	Deuterostomia	False	older		
+gabaa	O14764	Q9UN88					23	Deuterostomia	False	older		
+gabaa	O14764	P28472					23	Deuterostomia	False	older		
+gabaa	O00591	P47870					23	Deuterostomia	False	older		
+gabaa	O00591	P18505					23	Deuterostomia	False	older		
+gabaa	O00591	Q9UN88					23	Deuterostomia	False	older		
+gabaa	O00591	P28472					23	Deuterostomia	False	older		
+gabaa	A8MPY1	P47870					23	Deuterostomia	False	older		
+gabaa	A8MPY1	P18505					23	Deuterostomia	False	older		
+gabaa	A8MPY1	Q9UN88					23	Deuterostomia	False	older		
+gabaa	A8MPY1	P28472					23	Deuterostomia	False	older		
+gabaa	P24046	P47870					23	Deuterostomia	False	older		
+gabaa	P24046	P18505					23	Deuterostomia	False	older		
+gabaa	P24046	Q9UN88					23	Deuterostomia	False	older		
+gabaa	P24046	P28472					23	Deuterostomia	False	older		
+gabaa	P18505	P47870					25	Vertebrata	False	2R		
+gabaa	P18505	Q9UN88					25	Vertebrata	False	2R		
+gabaa	P18505	P28472					25	Vertebrata	False	2R		
+gabaa	P28472	P47870					26	Vertebrata	False	2R		
+gabaa	Q9UN88	P47870					26	Vertebrata	False	2R		
+gabaa	P28472	Q9UN88					30	Gnathostomata	True	2R		
+gabaa	P28476	O14764					37	Chordata	False	older		
+gabaa	P28476	O00591					37	Chordata	False	older		
+gabaa	A8MPY1	O14764					37	Chordata	False	older		
+gabaa	A8MPY1	O00591					37	Chordata	False	older		
+gabaa	P24046	O14764					37	Chordata	False	older		
+gabaa	P24046	O00591					37	Chordata	False	older		
+gabaa	O00591	O14764					39	Chordata	False	older		
+gabaa	P24046	P28476					43	Gnathostomata	False	2R		
+gabaa	A8MPY1	P28476					44	Vertebrata	False	2R		
+gabaa	A8MPY1	P24046					44	Vertebrata	False	2R		
+glyr	P48167	P23415					0	Vertebrata	True	2R		
+glyr	P48167	O75311					0	Vertebrata	True	2R		
+glyr	P48167	P23416					0	Vertebrata	True	2R		
+glyr	P23415	P23416					3	Vertebrata	False	2R		
+glyr	O75311	P23416					3	Vertebrata	False	2R		
+glyr	O75311	P23415					10	Gnathostomata	False	2R		
+hcn	Q9P1Z3	Q9UL51					0	Eukaryota	False	older		
+hcn	Q9P1Z3	O60741					0	Eukaryota	False	older		
+hcn	Q9P1Z3	Q9Y3Q4					0	Eukaryota	False	older		
+hcn	Q9UL51	Q9Y3Q4					6	Eukaryota	False	older		
+hcn	O60741	Q9Y3Q4					6	Eukaryota	False	older		
+hcn	O60741	Q9UL51					12	Gnathostomata	True	2R		
+ht3	Q70Z44	P46098					0	Gnathostomata	False	2R		
+ht3	O95264	P46098					0	Gnathostomata	False	2R		
+ht3	A5X5Y0	P46098					0	Gnathostomata	False	2R		
+ht3	Q8WXA8	P46098					0	Gnathostomata	False	2R		
+ht3	Q70Z44	O95264					1	Gnathostomata	False	2R		
+ht3	A5X5Y0	O95264					1	Gnathostomata	False	2R		
+ht3	Q8WXA8	O95264					1	Gnathostomata	False	2R		
+ht3	A5X5Y0	Q8WXA8					21	Homo sapiens	True	younger		
+ht3	Q70Z44	Q8WXA8					21	Homo sapiens	True	younger		
+ht3	A5X5Y0	Q70Z44					22	Homo sapiens	True	younger		
+itpr	Q14571	Q14643					1	Vertebrata	False	2R		
+itpr	Q14573	Q14643					1	Vertebrata	False	2R		
+itpr	Q14571	Q14573					4	Gnathostomata	True	2R		
+k2p	P57789	Q7Z418					5	Eukaryota	False	older		
+k2p	Q9Y2U2	Q7Z418					5	Eukaryota	False	older		
+k2p	O00180	Q7Z418					5	Eukaryota	False	older		
+k2p	Q96T55	Q7Z418					5	Eukaryota	False	older		
+k2p	Q9Y257	Q7Z418					5	Eukaryota	False	older		
+k2p	O95069	Q7Z418					5	Eukaryota	False	older		
+k2p	Q9H427	Q7Z418					5	Eukaryota	False	older		
+k2p	O14649	Q7Z418					5	Eukaryota	False	older		
+k2p	Q9NYG8	Q7Z418					5	Eukaryota	False	older		
+k2p	O95279	Q7Z418					5	Eukaryota	False	older		
+k2p	Q9NPC2	Q7Z418					5	Eukaryota	False	older		
+k2p	Q96T54	Q7Z418					5	Eukaryota	False	older		
+k2p	Q9HB14	Q7Z418					5	Eukaryota	False	older		
+k2p	Q9HB15	Q7Z418					5	Eukaryota	False	older		
+k2p	P57789	Q9H427					68	Opisthokonta	False	older		
+k2p	P57789	O14649					68	Opisthokonta	False	older		
+k2p	P57789	Q9NPC2					68	Opisthokonta	False	older		
+k2p	P57789	Q9HB14					68	Opisthokonta	False	older		
+k2p	P57789	Q9HB15					68	Opisthokonta	False	older		
+k2p	Q9Y2U2	Q9H427					68	Opisthokonta	False	older		
+k2p	Q9Y2U2	O14649					68	Opisthokonta	False	older		
+k2p	Q9Y2U2	Q9NPC2					68	Opisthokonta	False	older		
+k2p	Q9Y2U2	Q9HB14					68	Opisthokonta	False	older		
+k2p	Q9Y2U2	Q9HB15					68	Opisthokonta	False	older		
+k2p	O00180	Q9H427					68	Opisthokonta	False	older		
+k2p	O00180	O14649					68	Opisthokonta	False	older		
+k2p	O00180	Q9NPC2					68	Opisthokonta	False	older		
+k2p	O00180	Q9HB14					68	Opisthokonta	False	older		
+k2p	O00180	Q9HB15					68	Opisthokonta	False	older		
+k2p	Q96T55	Q9H427					68	Opisthokonta	False	older		
+k2p	Q96T55	O14649					68	Opisthokonta	False	older		
+k2p	Q96T55	Q9NPC2					68	Opisthokonta	False	older		
+k2p	Q96T55	Q9HB14					68	Opisthokonta	False	older		
+k2p	Q96T55	Q9HB15					68	Opisthokonta	False	older		
+k2p	Q9Y257	Q9H427					68	Opisthokonta	False	older		
+k2p	Q9Y257	O14649					68	Opisthokonta	False	older		
+k2p	Q9Y257	Q9NPC2					68	Opisthokonta	False	older		
+k2p	Q9Y257	Q9HB14					68	Opisthokonta	False	older		
+k2p	Q9Y257	Q9HB15					68	Opisthokonta	False	older		
+k2p	O95069	Q9H427					68	Opisthokonta	False	older		
+k2p	O95069	O14649					68	Opisthokonta	False	older		
+k2p	O95069	Q9NPC2					68	Opisthokonta	False	older		
+k2p	O95069	Q9HB14					68	Opisthokonta	False	older		
+k2p	O95069	Q9HB15					68	Opisthokonta	False	older		
+k2p	Q9NYG8	Q9H427					68	Opisthokonta	False	older		
+k2p	Q9NYG8	O14649					68	Opisthokonta	False	older		
+k2p	Q9NYG8	Q9NPC2					68	Opisthokonta	False	older		
+k2p	Q9NYG8	Q9HB14					68	Opisthokonta	False	older		
+k2p	Q9NYG8	Q9HB15					68	Opisthokonta	False	older		
+k2p	O95279	Q9H427					68	Opisthokonta	False	older		
+k2p	O95279	O14649					68	Opisthokonta	False	older		
+k2p	O95279	Q9NPC2					68	Opisthokonta	False	older		
+k2p	O95279	Q9HB14					68	Opisthokonta	False	older		
+k2p	O95279	Q9HB15					68	Opisthokonta	False	older		
+k2p	Q96T54	Q9H427					68	Opisthokonta	False	older		
+k2p	Q96T54	O14649					68	Opisthokonta	False	older		
+k2p	Q96T54	Q9NPC2					68	Opisthokonta	False	older		
+k2p	Q96T54	Q9HB14					68	Opisthokonta	False	older		
+k2p	Q96T54	Q9HB15					68	Opisthokonta	False	older		
+k2p	Q9NPC2	Q9HB14					79	Opisthokonta	False	older		
+k2p	Q9NPC2	Q9HB15					79	Opisthokonta	False	older		
+k2p	Q9H427	Q9HB14					79	Opisthokonta	False	older		
+k2p	Q9H427	Q9HB15					79	Opisthokonta	False	older		
+k2p	O14649	Q9HB14					79	Opisthokonta	False	older		
+k2p	O14649	Q9HB15					79	Opisthokonta	False	older		
+k2p	Q9HB14	Q9HB15					85	Gnathostomata	False	2R		
+k2p	O14649	Q9NPC2					91	Vertebrata	False	2R		
+k2p	O14649	Q9H427					91	Vertebrata	False	2R		
+k2p	Q9NPC2	Q9H427					93	Gnathostomata	True	2R		
+k2p	O95069	O95279					96	Metazoa	False	older		
+k2p	O95069	Q96T54					96	Metazoa	False	older		
+k2p	O95069	Q96T55					96	Metazoa	False	older		
+k2p	P57789	O95279					96	Metazoa	False	older		
+k2p	P57789	Q96T54					96	Metazoa	False	older		
+k2p	P57789	Q96T55					96	Metazoa	False	older		
+k2p	Q9NYG8	O95279					96	Metazoa	False	older		
+k2p	Q9NYG8	Q96T54					96	Metazoa	False	older		
+k2p	Q9NYG8	Q96T55					96	Metazoa	False	older		
+k2p	Q9Y2U2	P57789					97	Metazoa	False	older		
+k2p	Q9Y2U2	Q96T55					97	Metazoa	False	older		
+k2p	Q9Y2U2	O95069					97	Metazoa	False	older		
+k2p	Q9Y2U2	Q9NYG8					97	Metazoa	False	older		
+k2p	Q9Y2U2	O95279					97	Metazoa	False	older		
+k2p	Q9Y2U2	Q96T54					97	Metazoa	False	older		
+k2p	Q9Y257	P57789					97	Metazoa	False	older		
+k2p	Q9Y257	Q96T55					97	Metazoa	False	older		
+k2p	Q9Y257	O95069					97	Metazoa	False	older		
+k2p	Q9Y257	Q9NYG8					97	Metazoa	False	older		
+k2p	Q9Y257	O95279					97	Metazoa	False	older		
+k2p	Q9Y257	Q96T54					97	Metazoa	False	older		
+k2p	O00180	P57789					97	Metazoa	False	older		
+k2p	O00180	Q96T55					97	Metazoa	False	older		
+k2p	O00180	O95069					97	Metazoa	False	older		
+k2p	O00180	Q9NYG8					97	Metazoa	False	older		
+k2p	O00180	O95279					97	Metazoa	False	older		
+k2p	O00180	Q96T54					97	Metazoa	False	older		
+k2p	O95279	Q96T54					112	Vertebrata	False	2R		
+k2p	Q96T55	Q96T54					112	Vertebrata	False	2R		
+k2p	Q96T55	O95279					113	Gnathostomata	True	2R		
+k2p	Q9NYG8	O95069					119	Vertebrata	False	2R		
+k2p	Q9NYG8	P57789					119	Vertebrata	False	2R		
+k2p	O95069	P57789					122	Vertebrata	False	2R		
+k2p	Q9Y257	Q9Y2U2					136	Vertebrata	False	2R		
+k2p	Q9Y257	O00180					136	Vertebrata	False	2R		
+k2p	O00180	Q9Y2U2					139	Gnathostomata	True	2R		
+kainate	P39086	Q16099					1	Bilateria	False	older		
+kainate	P39086	Q16478					1	Bilateria	False	older		
+kainate	P39086	Q13003					1	Bilateria	False	older		
+kainate	P39086	Q13002					1	Bilateria	False	older		
+kainate	Q13003	Q16099					3	Bilateria	False	older		
+kainate	Q13003	Q16478					3	Bilateria	False	older		
+kainate	Q13002	Q16099					3	Bilateria	False	older		
+kainate	Q13002	Q16478					3	Bilateria	False	older		
+kainate	Q16099	Q16478					8	Gnathostomata	True	2R		
+kainate	Q13002	Q13003					10	Gnathostomata	True	2R		
+kca_sk	Q9H2S1	Q92952					18	Gnathostomata	True	2R		
+kca_sk	O15554	Q9H2S1					19	Gnathostomata	False	2R		
+kca_sk	O15554	Q92952					19	Gnathostomata	False	2R		
+kca_sk	Q9UGI6	Q9H2S1					19	Gnathostomata	False	2R		
+kca_sk	Q9UGI6	Q92952					19	Gnathostomata	False	2R		
+kca_sk	O15554	Q9UGI6					22	Gnathostomata	False	2R		
+kca_slo	Q5JUK3	Q12791					0	Eukaryota	False	older		
+kca_slo	Q5JUK3	A8MYU2					0	Eukaryota	False	older		
+kca_slo	Q6UVM3	Q12791					0	Eukaryota	False	older		
+kca_slo	Q6UVM3	A8MYU2					0	Eukaryota	False	older		
+kca_slo	Q6UVM3	Q5JUK3					18	Gnathostomata	True	2R		
+kca_slo	A8MYU2	Q12791					26	Vertebrata	True	2R		
+kir	O60928	Q9NPI9					2	cellular organisms	False	older		
+kir	O60928	P48549					2	cellular organisms	False	older		
+kir	O60928	Q15842					2	cellular organisms	False	older		
+kir	O60928	Q92806					2	cellular organisms	False	older		
+kir	O60928	Q14654					2	cellular organisms	False	older		
+kir	O60928	P78508					2	cellular organisms	False	older		
+kir	O60928	Q9UNX9					2	cellular organisms	False	older		
+kir	O60928	Q14500					2	cellular organisms	False	older		
+kir	O60928	Q99712					2	cellular organisms	False	older		
+kir	O60928	B7U540					2	cellular organisms	False	older		
+kir	O60928	P48544					2	cellular organisms	False	older		
+kir	O60928	P63252					2	cellular organisms	False	older		
+kir	O60928	P48051					2	cellular organisms	False	older		
+kir	O60928	P48050					2	cellular organisms	False	older		
+kir	O60928	P48048					2	cellular organisms	False	older		
+kir	Q9NPI9	P78508					4	cellular organisms	False	older		
+kir	Q9NPI9	Q99712					4	cellular organisms	False	older		
+kir	P48549	P78508					4	cellular organisms	False	older		
+kir	P48549	Q99712					4	cellular organisms	False	older		
+kir	Q15842	P78508					4	cellular organisms	False	older		
+kir	Q15842	Q99712					4	cellular organisms	False	older		
+kir	Q92806	P78508					4	cellular organisms	False	older		
+kir	Q92806	Q99712					4	cellular organisms	False	older		
+kir	Q14654	P78508					4	cellular organisms	False	older		
+kir	Q14654	Q99712					4	cellular organisms	False	older		
+kir	Q9UNX9	P78508					4	cellular organisms	False	older		
+kir	Q9UNX9	Q99712					4	cellular organisms	False	older		
+kir	Q14500	P78508					4	cellular organisms	False	older		
+kir	Q14500	Q99712					4	cellular organisms	False	older		
+kir	B7U540	P78508					4	cellular organisms	False	older		
+kir	B7U540	Q99712					4	cellular organisms	False	older		
+kir	P48544	P78508					4	cellular organisms	False	older		
+kir	P48544	Q99712					4	cellular organisms	False	older		
+kir	P63252	P78508					4	cellular organisms	False	older		
+kir	P63252	Q99712					4	cellular organisms	False	older		
+kir	P48051	P78508					4	cellular organisms	False	older		
+kir	P48051	Q99712					4	cellular organisms	False	older		
+kir	P48050	P78508					4	cellular organisms	False	older		
+kir	P48050	Q99712					4	cellular organisms	False	older		
+kir	P48048	P78508					4	cellular organisms	False	older		
+kir	P48048	Q99712					4	cellular organisms	False	older		
+kir	Q99712	P78508					5	Vertebrata	False	2R		
+kir	Q9NPI9	P48048					9	cellular organisms	True	older		
+kir	P48549	P48048					9	cellular organisms	True	older		
+kir	Q15842	P48048					9	cellular organisms	True	older		
+kir	Q92806	P48048					9	cellular organisms	True	older		
+kir	Q14654	P48048					9	cellular organisms	True	older		
+kir	Q9UNX9	P48048					9	cellular organisms	True	older		
+kir	Q14500	P48048					9	cellular organisms	True	older		
+kir	B7U540	P48048					9	cellular organisms	True	older		
+kir	P48544	P48048					9	cellular organisms	True	older		
+kir	P48051	P48048					9	cellular organisms	True	older		
+kir	P48050	P48048					9	cellular organisms	True	older		
+kir	P63252	P48048					9	cellular organisms	True	older		
+kir	Q9NPI9	P48549					40	Chordata	False	older		
+kir	Q9NPI9	Q15842					40	Chordata	False	older		
+kir	Q9NPI9	Q92806					40	Chordata	False	older		
+kir	Q9NPI9	Q14654					40	Chordata	False	older		
+kir	Q9NPI9	P48544					40	Chordata	False	older		
+kir	Q9NPI9	P48051					40	Chordata	False	older		
+kir	Q9UNX9	P48549					40	Chordata	False	older		
+kir	Q9UNX9	Q15842					40	Chordata	False	older		
+kir	Q9UNX9	Q92806					40	Chordata	False	older		
+kir	Q9UNX9	Q14654					40	Chordata	False	older		
+kir	Q9UNX9	P48544					40	Chordata	False	older		
+kir	Q9UNX9	P48051					40	Chordata	False	older		
+kir	Q14500	P48549					40	Chordata	False	older		
+kir	Q14500	Q15842					40	Chordata	False	older		
+kir	Q14500	Q92806					40	Chordata	False	older		
+kir	Q14500	Q14654					40	Chordata	False	older		
+kir	Q14500	P48544					40	Chordata	False	older		
+kir	Q14500	P48051					40	Chordata	False	older		
+kir	B7U540	P48549					40	Chordata	False	older		
+kir	B7U540	Q15842					40	Chordata	False	older		
+kir	B7U540	Q92806					40	Chordata	False	older		
+kir	B7U540	Q14654					40	Chordata	False	older		
+kir	B7U540	P48544					40	Chordata	False	older		
+kir	B7U540	P48051					40	Chordata	False	older		
+kir	P48050	P48549					40	Chordata	False	older		
+kir	P48050	Q15842					40	Chordata	False	older		
+kir	P48050	Q92806					40	Chordata	False	older		
+kir	P48050	Q14654					40	Chordata	False	older		
+kir	P48050	P48544					40	Chordata	False	older		
+kir	P48050	P48051					40	Chordata	False	older		
+kir	P63252	P48549					40	Chordata	False	older		
+kir	P63252	Q15842					40	Chordata	False	older		
+kir	P63252	Q92806					40	Chordata	False	older		
+kir	P63252	Q14654					40	Chordata	False	older		
+kir	P63252	P48544					40	Chordata	False	older		
+kir	P63252	P48051					40	Chordata	False	older		
+kir	P48051	Q14654					42	Chordata	False	older		
+kir	P48051	Q15842					42	Chordata	False	older		
+kir	P48549	Q14654					42	Chordata	False	older		
+kir	P48549	Q15842					42	Chordata	False	older		
+kir	Q92806	Q14654					42	Chordata	False	older		
+kir	Q92806	Q15842					42	Chordata	False	older		
+kir	P48544	Q14654					42	Chordata	False	older		
+kir	P48544	Q15842					42	Chordata	False	older		
+kir	Q14654	Q15842					44	Vertebrata	False	2R		
+kir	P48051	P48549					50	Chordata	False	older		
+kir	Q92806	P48549					50	Chordata	False	older		
+kir	P48544	P48549					50	Chordata	False	older		
+kir	P48051	Q92806					58	Vertebrata	False	2R		
+kir	P48544	Q92806					58	Vertebrata	False	2R		
+kir	P48051	P48544					60	Gnathostomata	True	2R		
+kir	Q9UNX9	Q9NPI9					61	Vertebrata	False	2R		
+kir	Q14500	Q9NPI9					61	Vertebrata	False	2R		
+kir	B7U540	Q9NPI9					61	Vertebrata	False	2R		
+kir	P48050	Q9NPI9					61	Vertebrata	False	2R		
+kir	P63252	Q9NPI9					61	Vertebrata	False	2R		
+kir	Q9UNX9	P63252					65	Gnathostomata	True	2R		
+kir	P48050	Q9UNX9					66	Vertebrata	False	2R		
+kir	P48050	P63252					66	Vertebrata	False	2R		
+kir	Q14500	Q9UNX9					66	Vertebrata	False	2R		
+kir	Q14500	P63252					66	Vertebrata	False	2R		
+kir	B7U540	Q9UNX9					66	Vertebrata	False	2R		
+kir	B7U540	P63252					66	Vertebrata	False	2R		
+kir	Q14500	P48050					69	Gnathostomata	True	2R		
+kir	B7U540	P48050					69	Gnathostomata	True	2R		
+kir	B7U540	Q14500					72	Homo sapiens	True	younger		
+kv_eag	Q9ULD8	O95259					5	Eumetazoa	False	older		
+kv_eag	Q9ULD8	Q8NCM2					5	Eumetazoa	False	older		
+kv_eag	Q9NS40	O95259					5	Eumetazoa	False	older		
+kv_eag	Q9NS40	Q8NCM2					5	Eumetazoa	False	older		
+kv_eag	Q9UQ05	O95259					5	Eumetazoa	False	older		
+kv_eag	Q9UQ05	Q8NCM2					5	Eumetazoa	False	older		
+kv_eag	Q96L42	O95259					5	Eumetazoa	False	older		
+kv_eag	Q96L42	Q8NCM2					5	Eumetazoa	False	older		
+kv_eag	Q9H252	O95259					5	Eumetazoa	False	older		
+kv_eag	Q9H252	Q8NCM2					5	Eumetazoa	False	older		
+kv_eag	Q12809	O95259					5	Eumetazoa	False	older		
+kv_eag	Q12809	Q8NCM2					5	Eumetazoa	False	older		
+kv_eag	O95259	Q8NCM2					10	Vertebrata	False	2R		
+kv_eag	Q9NS40	Q96L42					15	Eumetazoa	False	older		
+kv_eag	Q9NS40	Q9UQ05					15	Eumetazoa	False	older		
+kv_eag	Q9NS40	Q9ULD8					15	Eumetazoa	False	older		
+kv_eag	Q9H252	Q96L42					15	Eumetazoa	False	older		
+kv_eag	Q9H252	Q9UQ05					15	Eumetazoa	False	older		
+kv_eag	Q9H252	Q9ULD8					15	Eumetazoa	False	older		
+kv_eag	Q12809	Q96L42					15	Eumetazoa	False	older		
+kv_eag	Q12809	Q9UQ05					15	Eumetazoa	False	older		
+kv_eag	Q12809	Q9ULD8					15	Eumetazoa	False	older		
+kv_eag	Q9ULD8	Q96L42					17	Vertebrata	False	2R		
+kv_eag	Q9ULD8	Q9UQ05					17	Vertebrata	False	2R		
+kv_eag	Q96L42	Q9UQ05					20	Gnathostomata	True	2R		
+kv_eag	Q9H252	Q9NS40					27	Vertebrata	False	2R		
+kv_eag	Q12809	Q9NS40					27	Vertebrata	False	2R		
+kv_eag	Q12809	Q9H252					30	Gnathostomata	True	2R		
+kv_kcnq	P51787	O43525					1	Eumetazoa	False	older		
+kv_kcnq	P51787	O43526					1	Eumetazoa	False	older		
+kv_kcnq	P51787	P56696					1	Eumetazoa	False	older		
+kv_kcnq	P51787	Q9NR82					1	Eumetazoa	False	older		
+kv_kcnq	P56696	O43526					2	Vertebrata	False	2R		
+kv_kcnq	P56696	O43525					2	Vertebrata	False	2R		
+kv_kcnq	Q9NR82	O43526					2	Vertebrata	False	2R		
+kv_kcnq	Q9NR82	O43525					2	Vertebrata	False	2R		
+kv_kcnq	P56696	Q9NR82					5	Gnathostomata	False	2R		
+kv_kcnq	O43525	O43526					18	Gnathostomata	True	2R		
+kv_modifier	Q9BQ31	Q6PIU1					0	Gnathostomata	False	2R		
+kv_modifier	Q9BQ31	Q8TDN2					0	Gnathostomata	False	2R		
+kv_modifier	Q96KK3	Q6PIU1					0	Gnathostomata	False	2R		
+kv_modifier	Q96KK3	Q8TDN2					0	Gnathostomata	False	2R		
+kv_modifier	Q9ULS6	Q6PIU1					0	Gnathostomata	False	2R		
+kv_modifier	Q9ULS6	Q8TDN2					0	Gnathostomata	False	2R		
+kv_modifier	Q6PIU1	Q8TDN2					1	Theria	True	younger		
+kv_modifier	Q96KK3	Q9BQ31					2	Gnathostomata	True	2R		
+kv_modifier	Q9ULS6	Q9BQ31					2	Gnathostomata	True	2R		
+kv_modifier	Q96KK3	Q9ULS6					3	Gnathostomata	True	2R		
+kv_modifier	Q9UJ96	Q8TDN1					6	Gnathostomata	False	2R		
+kv_modifier	Q9UIX4	Q8TDN1					6	Gnathostomata	False	2R		
+kv_modifier	Q9UIX4	Q9UJ96					9	Gnathostomata	True	2R		
+kv_modifier	Q6PIU1	Q8TAE7								none		
+kv_modifier	Q6PIU1	Q8TDN1								none		
+kv_modifier	Q6PIU1	Q9UIX4								none		
+kv_modifier	Q6PIU1	Q9UJ96								none		
+kv_modifier	Q8TAE7	Q8TDN1								none		
+kv_modifier	Q8TAE7	Q8TDN2								none		
+kv_modifier	Q8TAE7	Q96KK3								none		
+kv_modifier	Q8TAE7	Q9BQ31								none		
+kv_modifier	Q8TAE7	Q9UIX4								none		
+kv_modifier	Q8TAE7	Q9UJ96								none		
+kv_modifier	Q8TAE7	Q9ULS6								none		
+kv_modifier	Q8TDN1	Q8TDN2								none		
+kv_modifier	Q8TDN1	Q96KK3								none		
+kv_modifier	Q8TDN1	Q9BQ31								none		
+kv_modifier	Q8TDN1	Q9ULS6								none		
+kv_modifier	Q8TDN2	Q9UIX4								none		
+kv_modifier	Q8TDN2	Q9UJ96								none		
+kv_modifier	Q96KK3	Q9UIX4								none		
+kv_modifier	Q96KK3	Q9UJ96								none		
+kv_modifier	Q9BQ31	Q9UIX4								none		
+kv_modifier	Q9BQ31	Q9UJ96								none		
+kv_modifier	Q9UIX4	Q9ULS6								none		
+kv_modifier	Q9UJ96	Q9ULS6								none		
+kv_shaker	Q9UK17	Q9NZV8					30	Vertebrata	False	2R		
+kv_shaker	Q9NSA2	Q9UK17					31	Vertebrata	False	2R		
+kv_shaker	Q9NSA2	Q9NZV8					31	Vertebrata	False	2R		
+kv_shaker	Q14003	Q96PR1					37	Vertebrata	False	2R		
+kv_shaker	Q14003	Q03721					37	Vertebrata	False	2R		
+kv_shaker	P48547	Q96PR1					37	Vertebrata	False	2R		
+kv_shaker	P48547	Q03721					37	Vertebrata	False	2R		
+kv_shaker	Q96PR1	Q03721					39	Gnathostomata	True	2R		
+kv_shaker	P48547	Q14003					41	Vertebrata	False	2R		
+kv_shaker	Q16322	Q96RP8					75	Vertebrata	False	2R		
+kv_shaker	P22001	Q96RP8					75	Vertebrata	False	2R		
+kv_shaker	P22460	Q96RP8					75	Vertebrata	False	2R		
+kv_shaker	Q09470	Q96RP8					75	Vertebrata	False	2R		
+kv_shaker	P16389	Q96RP8					75	Vertebrata	False	2R		
+kv_shaker	P17658	Q96RP8					75	Vertebrata	False	2R		
+kv_shaker	P22459	Q96RP8					75	Vertebrata	False	2R		
+kv_shaker	Q16322	P22459					87	Vertebrata	False	2R		
+kv_shaker	P22001	P22459					87	Vertebrata	False	2R		
+kv_shaker	P22460	P22459					87	Vertebrata	False	2R		
+kv_shaker	Q09470	P22459					87	Vertebrata	False	2R		
+kv_shaker	P16389	P22459					87	Vertebrata	False	2R		
+kv_shaker	P17658	P22459					87	Vertebrata	False	2R		
+kv_shaker	Q16322	P16389					92	Gnathostomata	True	2R		
+kv_shaker	Q16322	P22001					92	Gnathostomata	True	2R		
+kv_shaker	Q16322	P17658					92	Gnathostomata	True	2R		
+kv_shaker	Q16322	Q09470					92	Gnathostomata	True	2R		
+kv_shaker	P22460	P16389					92	Gnathostomata	True	2R		
+kv_shaker	P22460	P22001					92	Gnathostomata	True	2R		
+kv_shaker	P22460	P17658					92	Gnathostomata	True	2R		
+kv_shaker	P22460	Q09470					92	Gnathostomata	True	2R		
+kv_shaker	P16389	P17658					93	Gnathostomata	False	2R		
+kv_shaker	P22001	P17658					93	Gnathostomata	False	2R		
+kv_shaker	Q09470	P17658					93	Gnathostomata	False	2R		
+kv_shaker	P16389	P22001					96	Gnathostomata	True	2R		
+kv_shaker	Q09470	P22001					96	Gnathostomata	True	2R		
+kv_shaker	Q09470	P16389					98	Gnathostomata	True	2R		
+kv_shaker	Q16322	P22460					102	Gnathostomata	True	2R		
+kv_shaker	P16389	P48547								none		
+kv_shaker	P16389	Q03721								none		
+kv_shaker	P16389	Q14003								none		
+kv_shaker	P16389	Q96PR1								none		
+kv_shaker	P16389	Q9NSA2								none		
+kv_shaker	P16389	Q9NZV8								none		
+kv_shaker	P16389	Q9UK17								none		
+kv_shaker	P17658	P48547								none		
+kv_shaker	P17658	Q03721								none		
+kv_shaker	P17658	Q14003								none		
+kv_shaker	P17658	Q96PR1								none		
+kv_shaker	P17658	Q9NSA2								none		
+kv_shaker	P17658	Q9NZV8								none		
+kv_shaker	P17658	Q9UK17								none		
+kv_shaker	P22001	P48547								none		
+kv_shaker	P22001	Q03721								none		
+kv_shaker	P22001	Q14003								none		
+kv_shaker	P22001	Q96PR1								none		
+kv_shaker	P22001	Q9NSA2								none		
+kv_shaker	P22001	Q9NZV8								none		
+kv_shaker	P22001	Q9UK17								none		
+kv_shaker	P22459	P48547								none		
+kv_shaker	P22459	Q03721								none		
+kv_shaker	P22459	Q14003								none		
+kv_shaker	P22459	Q96PR1								none		
+kv_shaker	P22459	Q9NSA2								none		
+kv_shaker	P22459	Q9NZV8								none		
+kv_shaker	P22459	Q9UK17								none		
+kv_shaker	P22460	P48547								none		
+kv_shaker	P22460	Q03721								none		
+kv_shaker	P22460	Q14003								none		
+kv_shaker	P22460	Q96PR1								none		
+kv_shaker	P22460	Q9NSA2								none		
+kv_shaker	P22460	Q9NZV8								none		
+kv_shaker	P22460	Q9UK17								none		
+kv_shaker	P48547	Q09470								none		
+kv_shaker	P48547	Q16322								none		
+kv_shaker	P48547	Q96RP8								none		
+kv_shaker	P48547	Q9NSA2								none		
+kv_shaker	P48547	Q9NZV8								none		
+kv_shaker	P48547	Q9UK17								none		
+kv_shaker	Q03721	Q09470								none		
+kv_shaker	Q03721	Q16322								none		
+kv_shaker	Q03721	Q96RP8								none		
+kv_shaker	Q03721	Q9NSA2								none		
+kv_shaker	Q03721	Q9NZV8								none		
+kv_shaker	Q03721	Q9UK17								none		
+kv_shaker	Q09470	Q14003								none		
+kv_shaker	Q09470	Q96PR1								none		
+kv_shaker	Q09470	Q9NSA2								none		
+kv_shaker	Q09470	Q9NZV8								none		
+kv_shaker	Q09470	Q9UK17								none		
+kv_shaker	Q14003	Q16322								none		
+kv_shaker	Q14003	Q96RP8								none		
+kv_shaker	Q14003	Q9NSA2								none		
+kv_shaker	Q14003	Q9NZV8								none		
+kv_shaker	Q14003	Q9UK17								none		
+kv_shaker	Q16322	Q96PR1								none		
+kv_shaker	Q16322	Q9NSA2								none		
+kv_shaker	Q16322	Q9NZV8								none		
+kv_shaker	Q16322	Q9UK17								none		
+kv_shaker	Q96PR1	Q96RP8								none		
+kv_shaker	Q96PR1	Q9NSA2								none		
+kv_shaker	Q96PR1	Q9NZV8								none		
+kv_shaker	Q96PR1	Q9UK17								none		
+kv_shaker	Q96RP8	Q9NSA2								none		
+kv_shaker	Q96RP8	Q9NZV8								none		
+kv_shaker	Q96RP8	Q9UK17								none		
+lrrc8	Q8TDW0	Q6NSJ5					0	Gnathostomata	True	2R		
+lrrc8	Q8IWT6	Q8TDW0					2	Vertebrata	False	2R		
+lrrc8	Q8IWT6	Q6NSJ5					2	Vertebrata	False	2R		
+lrrc8	Q8IWT6	Q7L1W4					2	Vertebrata	False	2R		
+lrrc8	Q6P9F7	Q8TDW0					2	Vertebrata	False	2R		
+lrrc8	Q6P9F7	Q6NSJ5					2	Vertebrata	False	2R		
+lrrc8	Q6P9F7	Q7L1W4					2	Vertebrata	False	2R		
+lrrc8	Q7L1W4	Q8TDW0					3	Vertebrata	False	2R		
+lrrc8	Q7L1W4	Q6NSJ5					3	Vertebrata	False	2R		
+lrrc8	Q8IWT6	Q6P9F7					29	Gnathostomata	True	2R		
+mcu	Q9NWR8	Q8NE86					0	Opisthokonta	False	older		
+nachr	Q9GZZ6	Q15822					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	P36544					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	P02708					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	P11230					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	P07510					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	P17787					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	P30926					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	Q07001					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	Q494W8					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	P43681					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	Q15825					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	P30532					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	Q05901					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	Q04844					56	Eumetazoa	False	older		
+nachr	Q9GZZ6	P32297					56	Eumetazoa	False	older		
+nachr	Q9UGM1	Q15822					56	Eumetazoa	False	older		
+nachr	Q9UGM1	P36544					56	Eumetazoa	False	older		
+nachr	Q9UGM1	P02708					56	Eumetazoa	False	older		
+nachr	Q9UGM1	P11230					56	Eumetazoa	False	older		
+nachr	Q9UGM1	P07510					56	Eumetazoa	False	older		
+nachr	Q9UGM1	P17787					56	Eumetazoa	False	older		
+nachr	Q9UGM1	P30926					56	Eumetazoa	False	older		
+nachr	Q9UGM1	Q07001					56	Eumetazoa	False	older		
+nachr	Q9UGM1	Q494W8					56	Eumetazoa	False	older		
+nachr	Q9UGM1	P43681					56	Eumetazoa	False	older		
+nachr	Q9UGM1	Q15825					56	Eumetazoa	False	older		
+nachr	Q9UGM1	P30532					56	Eumetazoa	False	older		
+nachr	Q9UGM1	Q05901					56	Eumetazoa	False	older		
+nachr	Q9UGM1	Q04844					56	Eumetazoa	False	older		
+nachr	Q9UGM1	P32297					56	Eumetazoa	False	older		
+nachr	Q494W8	Q15822					105	Bilateria	True	older		
+nachr	Q494W8	P02708					105	Bilateria	True	older		
+nachr	Q494W8	P11230					105	Bilateria	True	older		
+nachr	Q494W8	P07510					105	Bilateria	True	older		
+nachr	Q494W8	P17787					105	Bilateria	True	older		
+nachr	Q494W8	P30926					105	Bilateria	True	older		
+nachr	Q494W8	Q07001					105	Bilateria	True	older		
+nachr	Q494W8	P43681					105	Bilateria	True	older		
+nachr	Q494W8	Q15825					105	Bilateria	True	older		
+nachr	Q494W8	P30532					105	Bilateria	True	older		
+nachr	Q494W8	Q05901					105	Bilateria	True	older		
+nachr	Q494W8	Q04844					105	Bilateria	True	older		
+nachr	Q494W8	P32297					105	Bilateria	True	older		
+nachr	P36544	Q15822					105	Bilateria	True	older		
+nachr	P36544	P02708					105	Bilateria	True	older		
+nachr	P36544	P11230					105	Bilateria	True	older		
+nachr	P36544	P07510					105	Bilateria	True	older		
+nachr	P36544	P17787					105	Bilateria	True	older		
+nachr	P36544	P30926					105	Bilateria	True	older		
+nachr	P36544	Q07001					105	Bilateria	True	older		
+nachr	P36544	P43681					105	Bilateria	True	older		
+nachr	P36544	Q15825					105	Bilateria	True	older		
+nachr	P36544	P30532					105	Bilateria	True	older		
+nachr	P36544	Q05901					105	Bilateria	True	older		
+nachr	P36544	Q04844					105	Bilateria	True	older		
+nachr	P36544	P32297					105	Bilateria	True	older		
+nachr	Q15822	P11230					123	Deuterostomia	False	older		
+nachr	Q15822	P07510					123	Deuterostomia	False	older		
+nachr	Q15822	P17787					123	Deuterostomia	False	older		
+nachr	Q15822	P30926					123	Deuterostomia	False	older		
+nachr	Q15822	Q07001					123	Deuterostomia	False	older		
+nachr	Q15822	Q04844					123	Deuterostomia	False	older		
+nachr	P30532	P11230					123	Deuterostomia	False	older		
+nachr	P30532	P07510					123	Deuterostomia	False	older		
+nachr	P30532	P17787					123	Deuterostomia	False	older		
+nachr	P30532	P30926					123	Deuterostomia	False	older		
+nachr	P30532	Q07001					123	Deuterostomia	False	older		
+nachr	P30532	Q04844					123	Deuterostomia	False	older		
+nachr	Q15825	P11230					123	Deuterostomia	False	older		
+nachr	Q15825	P07510					123	Deuterostomia	False	older		
+nachr	Q15825	P17787					123	Deuterostomia	False	older		
+nachr	Q15825	P30926					123	Deuterostomia	False	older		
+nachr	Q15825	Q07001					123	Deuterostomia	False	older		
+nachr	Q15825	Q04844					123	Deuterostomia	False	older		
+nachr	P43681	P11230					123	Deuterostomia	False	older		
+nachr	P43681	P07510					123	Deuterostomia	False	older		
+nachr	P43681	P17787					123	Deuterostomia	False	older		
+nachr	P43681	P30926					123	Deuterostomia	False	older		
+nachr	P43681	Q07001					123	Deuterostomia	False	older		
+nachr	P43681	Q04844					123	Deuterostomia	False	older		
+nachr	Q05901	P11230					123	Deuterostomia	False	older		
+nachr	Q05901	P07510					123	Deuterostomia	False	older		
+nachr	Q05901	P17787					123	Deuterostomia	False	older		
+nachr	Q05901	P30926					123	Deuterostomia	False	older		
+nachr	Q05901	Q07001					123	Deuterostomia	False	older		
+nachr	Q05901	Q04844					123	Deuterostomia	False	older		
+nachr	P02708	P11230					123	Deuterostomia	False	older		
+nachr	P02708	P07510					123	Deuterostomia	False	older		
+nachr	P02708	P17787					123	Deuterostomia	False	older		
+nachr	P02708	P30926					123	Deuterostomia	False	older		
+nachr	P02708	Q07001					123	Deuterostomia	False	older		
+nachr	P02708	Q04844					123	Deuterostomia	False	older		
+nachr	P32297	P11230					123	Deuterostomia	False	older		
+nachr	P32297	P07510					123	Deuterostomia	False	older		
+nachr	P32297	P17787					123	Deuterostomia	False	older		
+nachr	P32297	P30926					123	Deuterostomia	False	older		
+nachr	P32297	Q07001					123	Deuterostomia	False	older		
+nachr	P32297	Q04844					123	Deuterostomia	False	older		
+nachr	Q07001	P17787					130	Chordata	False	older		
+nachr	Q07001	P30926					130	Chordata	False	older		
+nachr	P11230	P17787					130	Chordata	False	older		
+nachr	P11230	P30926					130	Chordata	False	older		
+nachr	Q04844	P17787					130	Chordata	False	older		
+nachr	Q04844	P30926					130	Chordata	False	older		
+nachr	P07510	P17787					130	Chordata	False	older		
+nachr	P07510	P30926					130	Chordata	False	older		
+nachr	P17787	P30926					139	Vertebrata	False	2R		
+nachr	Q07001	P11230					148	Vertebrata	True	2R		
+nachr	Q04844	P11230					148	Vertebrata	True	2R		
+nachr	P07510	P11230					148	Vertebrata	True	2R		
+nachr	Q04844	Q07001					152	Vertebrata	True	2R		
+nachr	P07510	Q07001					152	Vertebrata	True	2R		
+nachr	P07510	Q04844					158	Vertebrata	True	2R		
+nachr	P30532	P02708					160	Chordata	False	older		
+nachr	Q15825	P02708					160	Chordata	False	older		
+nachr	P43681	P02708					160	Chordata	False	older		
+nachr	Q05901	P02708					160	Chordata	False	older		
+nachr	Q15822	P02708					160	Chordata	False	older		
+nachr	P32297	P02708					160	Chordata	False	older		
+nachr	P43681	P30532					167	Chordata	False	older		
+nachr	P43681	Q05901					167	Chordata	False	older		
+nachr	Q15825	P30532					167	Chordata	False	older		
+nachr	Q15825	Q05901					167	Chordata	False	older		
+nachr	Q15822	P30532					167	Chordata	False	older		
+nachr	Q15822	Q05901					167	Chordata	False	older		
+nachr	P32297	P30532					167	Chordata	False	older		
+nachr	P32297	Q05901					167	Chordata	False	older		
+nachr	Q05901	P30532					168	Vertebrata	False	2R		
+nachr	P43681	Q15825					173	Chordata	True	older		
+nachr	P43681	P32297					173	Chordata	True	older		
+nachr	Q15822	Q15825					173	Chordata	True	older		
+nachr	Q15822	P32297					173	Chordata	True	older		
+nachr	P32297	Q15825					174	Gnathostomata	False	2R		
+nachr	P43681	Q15822					178	Vertebrata	True	2R		
+nachr	P36544	Q494W8					192	Homo sapiens	True	younger		
+nachr	Q9UGM1	Q9GZZ6					235	Gnathostomata	False	2R		
+nav	Q9Y5Y9	P35498					0	Eumetazoa	False	older		
+nav	Q9Y5Y9	Q01118					0	Eumetazoa	False	older		
+nav	Q9Y5Y9	Q15858					0	Eumetazoa	False	older		
+nav	Q9Y5Y9	Q99250					0	Eumetazoa	False	older		
+nav	Q9Y5Y9	Q9NY46					0	Eumetazoa	False	older		
+nav	P35499	P35498					0	Eumetazoa	False	older		
+nav	P35499	Q01118					0	Eumetazoa	False	older		
+nav	P35499	Q15858					0	Eumetazoa	False	older		
+nav	P35499	Q99250					0	Eumetazoa	False	older		
+nav	P35499	Q9NY46					0	Eumetazoa	False	older		
+nav	Q14524	P35498					0	Eumetazoa	False	older		
+nav	Q14524	Q01118					0	Eumetazoa	False	older		
+nav	Q14524	Q15858					0	Eumetazoa	False	older		
+nav	Q14524	Q99250					0	Eumetazoa	False	older		
+nav	Q14524	Q9NY46					0	Eumetazoa	False	older		
+nav	Q9UQD0	P35498					0	Eumetazoa	False	older		
+nav	Q9UQD0	Q01118					0	Eumetazoa	False	older		
+nav	Q9UQD0	Q15858					0	Eumetazoa	False	older		
+nav	Q9UQD0	Q99250					0	Eumetazoa	False	older		
+nav	Q9UQD0	Q9NY46					0	Eumetazoa	False	older		
+nav	Q9UI33	P35498					0	Eumetazoa	False	older		
+nav	Q9UI33	Q01118					0	Eumetazoa	False	older		
+nav	Q9UI33	Q15858					0	Eumetazoa	False	older		
+nav	Q9UI33	Q99250					0	Eumetazoa	False	older		
+nav	Q9UI33	Q9NY46					0	Eumetazoa	False	older		
+nav	Q9UQD0	P35499					5	Eumetazoa	False	older		
+nav	Q9UQD0	Q9UI33					5	Eumetazoa	False	older		
+nav	Q9UQD0	Q9Y5Y9					5	Eumetazoa	False	older		
+nav	Q9UQD0	Q14524					5	Eumetazoa	False	older		
+nav	Q9UI33	P35499					6	Eumetazoa	False	older		
+nav	Q9Y5Y9	P35499					6	Eumetazoa	False	older		
+nav	Q14524	P35499					6	Eumetazoa	False	older		
+nav	Q9UI33	Q14524					25	Amniota	False	younger		
+nav	Q9Y5Y9	Q14524					25	Amniota	False	younger		
+nav	Q9UI33	Q9Y5Y9					26	Amniota	False	younger		
+nav	Q99250	Q01118					33	Amniota	False	younger		
+nav	Q99250	Q15858					33	Amniota	False	younger		
+nav	P35498	Q01118					33	Amniota	False	younger		
+nav	P35498	Q15858					33	Amniota	False	younger		
+nav	Q9NY46	Q01118					33	Amniota	False	younger		
+nav	Q9NY46	Q15858					33	Amniota	False	younger		
+nav	Q01118	Q15858					34	Theria	True	younger		
+nav	Q99250	Q9NY46					36	Amniota	True	younger		
+nav	P35498	Q9NY46					36	Amniota	True	younger		
+nav	P35498	Q99250					38	Amniota	True	younger		
+nmda	Q12879	Q05586					3	Eumetazoa	True	older		
+nmda	Q13224	Q05586					3	Eumetazoa	True	older		
+nmda	Q8TCU5	Q05586					3	Eumetazoa	True	older		
+nmda	O15399	Q05586					3	Eumetazoa	True	older		
+nmda	Q14957	Q05586					3	Eumetazoa	True	older		
+nmda	O60391	Q05586					3	Eumetazoa	True	older		
+nmda	O60391	O15399					6	Bilateria	True	older		
+nmda	O60391	Q12879					6	Bilateria	True	older		
+nmda	O60391	Q14957					6	Bilateria	True	older		
+nmda	O60391	Q13224					6	Bilateria	True	older		
+nmda	Q8TCU5	O15399					6	Bilateria	True	older		
+nmda	Q8TCU5	Q12879					6	Bilateria	True	older		
+nmda	Q8TCU5	Q14957					6	Bilateria	True	older		
+nmda	Q8TCU5	Q13224					6	Bilateria	True	older		
+nmda	Q12879	Q13224					12	Gnathostomata	True	2R		
+nmda	O15399	Q12879					13	Vertebrata	False	2R		
+nmda	O15399	Q13224					13	Vertebrata	False	2R		
+nmda	Q14957	Q12879					13	Vertebrata	False	2R		
+nmda	Q14957	Q13224					13	Vertebrata	False	2R		
+nmda	O15399	Q14957					19	Gnathostomata	True	2R		
+nmda	Q8TCU5	O60391					23	Gnathostomata	True	2R		
+orai	Q96SN7	Q9BRQ5					2	Gnathostomata	False	2R		
+orai	Q96D31	Q96SN7					3	Vertebrata	False	2R		
+orai	Q96D31	Q9BRQ5					3	Vertebrata	False	2R		
+osca_tmem63	Q9P1W3	Q5T3F8					0	Vertebrata	False	2R		
+osca_tmem63	Q9P1W3	O94886					0	Vertebrata	False	2R		
+osca_tmem63	O94886	Q5T3F8					1	Gnathostomata	True	2R		
+otop	Q7RTS6	Q7RTS5					3	Euteleostomi	False	bony_vertebrate		
+otop	Q7RTM1	Q7RTS6					4	Gnathostomata	True	2R		
+otop	Q7RTM1	Q7RTS5					4	Gnathostomata	True	2R		
+p2x	Q93086	P51575					6	Vertebrata	True	2R		
+p2x	Q9UBL9	P51575					6	Vertebrata	True	2R		
+p2x	O15547	P51575					6	Vertebrata	True	2R		
+p2x	P56373	P51575					6	Vertebrata	True	2R		
+p2x	Q99571	Q93086					7	Vertebrata	False	2R		
+p2x	Q99571	Q9UBL9					7	Vertebrata	False	2R		
+p2x	Q99571	O15547					7	Vertebrata	False	2R		
+p2x	Q99571	P56373					7	Vertebrata	False	2R		
+p2x	Q99571	P51575					7	Vertebrata	False	2R		
+p2x	Q99572	Q93086					7	Vertebrata	False	2R		
+p2x	Q99572	Q9UBL9					7	Vertebrata	False	2R		
+p2x	Q99572	O15547					7	Vertebrata	False	2R		
+p2x	Q99572	P56373					7	Vertebrata	False	2R		
+p2x	Q99572	P51575					7	Vertebrata	False	2R		
+p2x	Q9UBL9	P56373					8	Vertebrata	False	2R		
+p2x	Q93086	Q9UBL9					9	Vertebrata	True	2R		
+p2x	Q93086	P56373					9	Vertebrata	True	2R		
+p2x	O15547	Q9UBL9					9	Vertebrata	True	2R		
+p2x	O15547	P56373					9	Vertebrata	True	2R		
+p2x	O15547	Q93086					12	Vertebrata	True	2R		
+p2x	Q99571	Q99572					26	Euteleostomi	False	bony_vertebrate		
+pannexin	Q96QZ0	Q96RD7					0	Vertebrata	False	2R		
+pannexin	Q96QZ0	Q96RD6								none		
+pannexin	Q96RD6	Q96RD7								none		
+piezo	Q92508	Q9H5I5					1	Vertebrata	True	2R		
+ryr	Q15413	Q92736					0	Vertebrata	False	2R		
+ryr	P21817	Q92736					0	Vertebrata	False	2R		
+ryr	Q15413	P21817					2	Gnathostomata	True	2R		
+tpc	Q8NHX9	Q9ULQ1					12	Eukaryota	False	older		
+tric	Q9NVV0	Q9H6F2					1	Gnathostomata	True	2R		
+trpc	Q9UBN4	Q9HCX4					4	Opisthokonta	False	older		
+trpc	Q9UBN4	Q9Y210					4	Opisthokonta	False	older		
+trpc	Q9UBN4	Q13507					4	Opisthokonta	False	older		
+trpc	P48995	Q9HCX4					4	Opisthokonta	False	older		
+trpc	P48995	Q9Y210					4	Opisthokonta	False	older		
+trpc	P48995	Q13507					4	Opisthokonta	False	older		
+trpc	Q9UL62	Q9HCX4					4	Opisthokonta	False	older		
+trpc	Q9UL62	Q9Y210					4	Opisthokonta	False	older		
+trpc	Q9UL62	Q13507					4	Opisthokonta	False	older		
+trpc	Q13507	Q9HCX4					48	Vertebrata	False	2R		
+trpc	Q13507	Q9Y210					48	Vertebrata	False	2R		
+trpc	Q9Y210	Q9HCX4					49	Vertebrata	False	2R		
+trpc	Q9UBN4	P48995					56	Chordata	True	older		
+trpc	Q9UL62	P48995					56	Chordata	True	older		
+trpc	Q9UBN4	Q9UL62					58	Gnathostomata	True	2R		
+trpm	Q9HCF6	Q8TD43					1	Opisthokonta	False	older		
+trpm	Q9HCF6	Q7Z2W7					1	Opisthokonta	False	older		
+trpm	Q9HCF6	O94759					1	Opisthokonta	False	older		
+trpm	Q9HCF6	Q9NZQ8					1	Opisthokonta	False	older		
+trpm	Q7Z4N2	Q8TD43					1	Opisthokonta	False	older		
+trpm	Q7Z4N2	Q7Z2W7					1	Opisthokonta	False	older		
+trpm	Q7Z4N2	O94759					1	Opisthokonta	False	older		
+trpm	Q7Z4N2	Q9NZQ8					1	Opisthokonta	False	older		
+trpm	Q9BX84	Q8TD43					1	Opisthokonta	False	older		
+trpm	Q9BX84	Q7Z2W7					1	Opisthokonta	False	older		
+trpm	Q9BX84	O94759					1	Opisthokonta	False	older		
+trpm	Q9BX84	Q9NZQ8					1	Opisthokonta	False	older		
+trpm	Q96QT4	Q8TD43					1	Opisthokonta	False	older		
+trpm	Q96QT4	Q7Z2W7					1	Opisthokonta	False	older		
+trpm	Q96QT4	O94759					1	Opisthokonta	False	older		
+trpm	Q96QT4	Q9NZQ8					1	Opisthokonta	False	older		
+trpm	Q9BX84	Q96QT4					5	Vertebrata	False	2R		
+trpm	Q9HCF6	Q9BX84					6	Vertebrata	True	2R		
+trpm	Q9HCF6	Q96QT4					6	Vertebrata	True	2R		
+trpm	Q7Z4N2	Q9BX84					6	Vertebrata	True	2R		
+trpm	Q7Z4N2	Q96QT4					6	Vertebrata	True	2R		
+trpm	Q9HCF6	Q7Z4N2					8	Vertebrata	False	2R		
+trpm	Q7Z2W7	Q8TD43					26	Vertebrata	True	2R		
+trpm	Q7Z2W7	Q9NZQ8					26	Vertebrata	True	2R		
+trpm	O94759	Q8TD43					26	Vertebrata	True	2R		
+trpm	O94759	Q9NZQ8					26	Vertebrata	True	2R		
+trpm	Q8TD43	Q9NZQ8					27	Gnathostomata	True	2R		
+trpm	O94759	Q7Z2W7					31	Gnathostomata	False	2R		
+trpml	Q8TDD5	Q9GZU1					5	Vertebrata	False	2R		
+trpml	Q8IZK6	Q9GZU1					5	Vertebrata	False	2R		
+trpml	Q8IZK6	Q8TDD5					9	Vertebrata	False	2R		
+trpp	Q9P0L9	Q13563					11	Bilateria	False	older		
+trpp	Q9P0L9	Q9NZM6					11	Bilateria	False	older		
+trpp	Q13563	Q9NZM6					12	Gnathostomata	True	2R		
+trpv	Q8NER1	Q9H1D0					8	Bilateria	False	older		
+trpv	Q8NER1	Q9NQA5					8	Bilateria	False	older		
+trpv	Q8NET8	Q9H1D0					8	Bilateria	False	older		
+trpv	Q8NET8	Q9NQA5					8	Bilateria	False	older		
+trpv	Q9Y5S1	Q9H1D0					8	Bilateria	False	older		
+trpv	Q9Y5S1	Q9NQA5					8	Bilateria	False	older		
+trpv	Q9HBA0	Q9H1D0					8	Bilateria	False	older		
+trpv	Q9HBA0	Q9NQA5					8	Bilateria	False	older		
+trpv	Q9NQA5	Q9H1D0					18	Mammalia	False	younger		
+trpv	Q8NER1	Q8NET8					21	Vertebrata	False	2R		
+trpv	Q9Y5S1	Q8NET8					21	Vertebrata	False	2R		
+trpv	Q9HBA0	Q8NET8					21	Vertebrata	False	2R		
+trpv	Q9HBA0	Q8NER1					24	Vertebrata	True	2R		
+trpv	Q9HBA0	Q9Y5S1					24	Vertebrata	True	2R		
+trpv	Q8NER1	Q9Y5S1					25	Tetrapoda	True	younger		
+vdac	P21796	Q9Y277					25	Vertebrata	False	2R		
+vdac	P45880	Q9Y277					25	Vertebrata	False	2R		
+vdac	P21796	P45880					29	Vertebrata	False	2R		
+vdac	Q969M1	O96008					35	Vertebrata	False	2R		
+vdac	O96008	P21796								none		
+vdac	O96008	P45880								none		
+vdac	O96008	Q9Y277								none		
+vdac	P21796	Q969M1								none		
+vdac	P45880	Q969M1								none		
+vdac	Q969M1	Q9Y277								none		

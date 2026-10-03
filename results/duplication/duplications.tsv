@@ -1,0 +1,2317 @@
+family	dup	taxon	taxon_depth	species_specific	n_tips	n_species	score	supported	child_ufboot	n_genome_tips	n_human	human
+ampa	0	Chordata	8	False	62	15	0.0667	False	leaf,18	4	4	GRIA1,GRIA2,GRIA3,GRIA4
+ampa	1	Chordata	8	False	61	15	0.0667	False	14,leaf	4	4	GRIA1,GRIA2,GRIA3,GRIA4
+ampa	2	Chordata	8	False	60	15	0.1333	False	45,78	4	4	GRIA1,GRIA2,GRIA3,GRIA4
+ampa	3	Chordata	8	False	58	15	0.6	False	68,63	4	4	GRIA1,GRIA2,GRIA3,GRIA4
+ampa	4	Chordata	8	False	49	15	0.1333	False	69,99	4	3	GRIA1,GRIA2,GRIA4
+ampa	5	Chordata	8	False	47	15	0.8667	False	70,100	3	3	GRIA1,GRIA2,GRIA4
+ampa	6	Clupeocephala	12	False	4	2	1.0	True	99,99	0	0	
+ampa	7	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+ampa	8	Chordata	8	False	32	15	0.0667	False	83,78	2	2	GRIA1,GRIA2
+ampa	9	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+ampa	10	Chordata	8	False	28	14	0.7857	False	99,82	2	2	GRIA1,GRIA2
+ampa	11	Clupeocephala	12	False	3	2	0.5	True	96,leaf	0	0	
+ampa	12	Clupeocephala	12	False	4	2	1.0	False	82,100	0	0	
+ano_channel	0	Gnathostomata	10	False	28	13	0.9231	True	100,100	2	2	ANO1,ANO2
+ano_channel	1	Clupeocephala	12	False	4	2	1.0	False	73,100	0	0	
+ano_channel	2	Petromyzon marinus	10	True	3	1	1.0	False	87,leaf	0	0	
+ano_channel	3	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+ano_channel	4	Clupeocephala	12	False	3	2	0.5	False	62,leaf	0	0	
+ano_scramblase	0	Torpedo marmorata	12	True	3	1	1.0	True	99,leaf	3	0	
+ano_scramblase	1	Bilateria	6	False	9	2	1.0	True	100,100	9	0	
+ano_scramblase	2	Torpedo marmorata	12	True	2	1	1.0	True	leaf,leaf	2	0	
+ano_scramblase	3	Torpedo marmorata	12	True	2	1	1.0	True	leaf,leaf	2	0	
+ano_scramblase	4	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+ano_scramblase	5	Cornu aspersum	11	True	3	1	1.0	True	leaf,100	3	0	
+asic	0	Strongylocentrotus purpuratus	8	True	4	1	1.0	True	100,100	0	0	
+asic	1	Strongylocentrotus purpuratus	8	True	11	1	1.0	False	80,100	0	0	
+asic	2	Eumetazoa	5	False	50	7	0.2857	False	65,65	1	0	
+asic	3	Metazoa	4	False	187	27	0.1111	False	59,59	5	6	ASIC5,ASIC1,ASIC2,ASIC4,ASIC5,ASIC3
+asic	4	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	5	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	6	Strongylocentrotus purpuratus	8	True	7	1	1.0	True	98,100	0	0	
+asic	7	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	leaf,100	0	0	
+asic	8	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	9	Strongylocentrotus purpuratus	8	True	4	1	1.0	True	96,leaf	0	0	
+asic	10	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	11	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	leaf,98	0	0	
+asic	12	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	13	Lottia gigantea	9	True	3	1	1.0	True	97,leaf	0	0	
+asic	14	Lottia gigantea	9	True	11	1	1.0	False	84,96	0	0	
+asic	15	Eumetazoa	5	False	35	5	0.2	False	47,25	0	0	
+asic	16	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	17	Lottia gigantea	9	True	8	1	1.0	False	94,leaf	0	0	
+asic	18	Lottia gigantea	9	True	7	1	1.0	False	100,59	0	0	
+asic	19	Lottia gigantea	9	True	5	1	1.0	True	100,leaf	0	0	
+asic	20	Lottia gigantea	9	True	4	1	1.0	True	95,leaf	0	0	
+asic	21	Lottia gigantea	9	True	3	1	1.0	False	73,leaf	0	0	
+asic	22	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	23	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	24	Nematostella vectensis	7	True	5	1	1.0	False	61,leaf	0	0	
+asic	25	Cnidaria	6	False	7	2	0.5	True	100,100	0	0	
+asic	26	Cnidaria	6	False	19	2	1.0	False	100,56	0	0	
+asic	27	Nematostella vectensis	7	True	4	1	1.0	False	86,leaf	0	0	
+asic	28	Nematostella vectensis	7	True	3	1	1.0	True	100,leaf	0	0	
+asic	29	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	30	Hydra vulgaris	7	True	4	1	1.0	True	leaf,100	0	0	
+asic	31	Hydra vulgaris	7	True	3	1	1.0	True	100,leaf	0	0	
+asic	32	Cnidaria	6	False	12	2	0.5	False	78,100	0	0	
+asic	33	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	34	Hydra vulgaris	7	True	7	1	1.0	True	100,leaf	0	0	
+asic	35	Hydra vulgaris	7	True	6	1	1.0	True	100,leaf	0	0	
+asic	36	Hydra vulgaris	7	True	5	1	1.0	False	82,leaf	0	0	
+asic	37	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	38	Hydra vulgaris	7	True	4	1	1.0	False	72,100	0	0	
+asic	39	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	40	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	41	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	42	Metazoa	4	False	40	4	0.25	False	90,26	0	0	
+asic	43	Caenorhabditis elegans	9	True	7	1	1.0	True	100,leaf	0	0	
+asic	44	Caenorhabditis elegans	9	True	5	1	1.0	False	86,leaf	0	0	
+asic	45	Caenorhabditis elegans	9	True	6	1	1.0	True	leaf,100	0	0	
+asic	46	Caenorhabditis elegans	9	True	3	1	1.0	False	leaf,85	0	0	
+asic	47	Caenorhabditis elegans	9	True	4	1	1.0	True	leaf,100	0	0	
+asic	48	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	49	Amphimedon queenslandica	5	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	50	Amphimedon queenslandica	5	True	14	1	1.0	False	100,45	0	0	
+asic	51	Amphimedon queenslandica	5	True	12	1	1.0	True	95,leaf	0	0	
+asic	52	Amphimedon queenslandica	5	True	11	1	1.0	False	52,100	0	0	
+asic	53	Amphimedon queenslandica	5	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	54	Amphimedon queenslandica	5	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	55	Amphimedon queenslandica	5	True	9	1	1.0	False	59,100	0	0	
+asic	56	Amphimedon queenslandica	5	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	57	Amphimedon queenslandica	5	True	7	1	1.0	False	87,100	0	0	
+asic	58	Amphimedon queenslandica	5	True	3	1	1.0	True	100,leaf	0	0	
+asic	59	Amphimedon queenslandica	5	True	5	1	1.0	True	100,100	0	0	
+asic	60	Amphimedon queenslandica	5	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	61	Amphimedon queenslandica	5	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	62	Drosophila melanogaster	10	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	63	Allotriocarida	9	False	17	2	0.5	False	59,100	0	0	
+asic	64	Drosophila melanogaster	10	True	3	1	1.0	True	leaf,100	0	0	
+asic	65	Allotriocarida	9	False	14	2	0.5	False	42,46	0	0	
+asic	66	Drosophila melanogaster	10	True	3	1	1.0	False	82,leaf	0	0	
+asic	67	Drosophila melanogaster	10	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	68	Daphnia pulex	10	True	3	1	1.0	True	100,leaf	0	0	
+asic	69	Daphnia pulex	10	True	6	1	1.0	False	100,59	0	0	
+asic	70	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	71	Daphnia pulex	10	True	3	1	1.0	True	100,leaf	0	0	
+asic	72	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	73	Drosophila melanogaster	10	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	74	Drosophila melanogaster	10	True	5	1	1.0	False	100,77	0	0	
+asic	75	Drosophila melanogaster	10	True	3	1	1.0	True	99,leaf	0	0	
+asic	76	Drosophila melanogaster	10	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	77	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	78	Trichoplax adhaerens	6	True	9	1	1.0	False	100,51	0	0	
+asic	79	Trichoplax adhaerens	6	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	80	Eumetazoa	5	False	96	18	0.6667	False	100,84	4	6	ASIC5,ASIC1,ASIC2,ASIC4,ASIC5,ASIC3
+asic	81	Trichoplax adhaerens	6	True	7	1	1.0	True	97,97	0	0	
+asic	82	Trichoplax adhaerens	6	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	83	Trichoplax adhaerens	6	True	5	1	1.0	False	68,leaf	0	0	
+asic	84	Trichoplax adhaerens	6	True	4	1	1.0	True	100,leaf	0	0	
+asic	85	Trichoplax adhaerens	6	True	3	1	1.0	True	100,leaf	0	0	
+asic	86	Trichoplax adhaerens	6	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	87	Branchiostoma floridae	9	True	17	1	1.0	True	96,97	0	0	
+asic	88	Branchiostoma floridae	9	True	3	1	1.0	True	100,leaf	0	0	
+asic	89	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	90	Branchiostoma floridae	9	True	14	1	1.0	True	99,100	0	0	
+asic	91	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	92	Branchiostoma floridae	9	True	12	1	1.0	False	64,leaf	0	0	
+asic	93	Branchiostoma floridae	9	True	3	1	1.0	False	leaf,89	0	0	
+asic	94	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	95	Branchiostoma floridae	9	True	11	1	1.0	True	100,100	0	0	
+asic	96	Branchiostoma floridae	9	True	7	1	1.0	True	100,leaf	0	0	
+asic	97	Branchiostoma floridae	9	True	8	1	1.0	False	leaf,94	0	0	
+asic	98	Branchiostoma floridae	9	True	3	1	1.0	True	100,leaf	0	0	
+asic	99	Branchiostoma floridae	9	True	6	1	1.0	False	75,100	0	0	
+asic	100	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	101	Branchiostoma floridae	9	True	3	1	1.0	True	100,leaf	0	0	
+asic	102	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	103	Ciona intestinalis	9	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	104	Homo sapiens	18	True	2	1	1.0	True	leaf,leaf	0	2	ASIC5,ASIC5
+asic	105	Deuterostomia	7	False	57	17	0.0588	True	100,100	4	4	ASIC1,ASIC2,ASIC4,ASIC3
+asic	106	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	107	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	108	Vertebrata	9	False	51	14	0.7857	False	88,100	4	4	ASIC1,ASIC2,ASIC4,ASIC3
+asic	109	Clupeocephala	12	False	3	2	0.5	False	leaf,87	0	0	
+asic	110	Vertebrata	9	False	39	14	0.7857	False	99,70	3	3	ASIC1,ASIC2,ASIC3
+asic	111	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+asic	112	Vertebrata	9	False	27	14	0.2143	False	82,99	1	2	ASIC1,ASIC2
+asic	113	Gnathostomata	10	False	22	13	0.0769	False	66,leaf	1	2	ASIC1,ASIC2
+asic	114	Gnathostomata	10	False	21	13	0.6154	True	98,100	1	2	ASIC1,ASIC2
+asic	115	Vertebrata	9	False	12	11	0.0909	False	89,93	2	1	ASIC3
+bestrophin	0	Caenorhabditis elegans	9	True	21	1	1.0	False	100,55	0	0	
+bestrophin	1	Caenorhabditis elegans	9	True	7	1	1.0	True	100,99	0	0	
+bestrophin	2	Caenorhabditis elegans	9	True	8	1	1.0	False	leaf,89	0	0	
+bestrophin	3	cellular organisms	1	False	98	25	0.04	False	46,46	3	4	BEST1,BEST3,BEST4,BEST2
+bestrophin	4	Caenorhabditis elegans	9	True	23	1	1.0	False	71,96	0	0	
+bestrophin	5	Caenorhabditis elegans	9	True	3	1	1.0	True	leaf,100	0	0	
+bestrophin	6	Caenorhabditis elegans	9	True	27	1	1.0	False	99,54	0	0	
+bestrophin	7	cellular organisms	1	False	103	26	0.0769	False	74,74	3	4	BEST1,BEST3,BEST4,BEST2
+bestrophin	8	Caenorhabditis elegans	9	True	9	1	1.0	True	leaf,100	0	0	
+bestrophin	9	Caenorhabditis elegans	9	True	12	1	1.0	False	82,50	0	0	
+bestrophin	10	Caenorhabditis elegans	9	True	5	1	1.0	True	100,100	0	0	
+bestrophin	11	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	12	Caenorhabditis elegans	9	True	15	1	1.0	False	71,100	0	0	
+bestrophin	13	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	14	Caenorhabditis elegans	9	True	3	1	1.0	False	49,leaf	0	0	
+bestrophin	15	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	16	Caenorhabditis elegans	9	True	3	1	1.0	True	100,leaf	0	0	
+bestrophin	17	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	18	Caenorhabditis elegans	9	True	4	1	1.0	False	leaf,63	0	0	
+bestrophin	19	Caenorhabditis elegans	9	True	3	1	1.0	True	leaf,100	0	0	
+bestrophin	20	Caenorhabditis elegans	9	True	6	1	1.0	True	100,99	0	0	
+bestrophin	21	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	22	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	23	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	24	Daphnia pulex	10	True	12	1	1.0	True	100,leaf	0	0	
+bestrophin	25	Daphnia pulex	10	True	8	1	1.0	False	48,77	0	0	
+bestrophin	26	Daphnia pulex	10	True	10	1	1.0	True	98,100	0	0	
+bestrophin	27	Daphnia pulex	10	True	11	1	1.0	False	leaf,79	0	0	
+bestrophin	28	Daphnia pulex	10	True	3	1	1.0	True	100,leaf	0	0	
+bestrophin	29	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	30	Daphnia pulex	10	True	5	1	1.0	True	100,leaf	0	0	
+bestrophin	31	Daphnia pulex	10	True	4	1	1.0	False	93,leaf	0	0	
+bestrophin	32	Daphnia pulex	10	True	3	1	1.0	False	83,leaf	0	0	
+bestrophin	33	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	34	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	35	Drosophila melanogaster	10	True	3	1	1.0	False	53,leaf	0	0	
+bestrophin	36	Drosophila melanogaster	10	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	37	Daphnia pulex	10	True	5	1	1.0	False	90,100	0	0	
+bestrophin	38	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	39	Daphnia pulex	10	True	3	1	1.0	True	100,leaf	0	0	
+bestrophin	40	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	41	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+bestrophin	42	Branchiostoma floridae	9	True	3	1	1.0	True	100,leaf	0	0	
+bestrophin	43	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	44	Vertebrata	9	False	42	14	0.7857	False	59,100	1	4	BEST1,BEST3,BEST4,BEST2
+bestrophin	45	Vertebrata	9	False	21	13	0.6154	False	90,100	1	2	BEST4,BEST2
+bestrophin	46	Vertebrata	9	False	31	14	0.6429	False	72,94	1	3	BEST1,BEST4,BEST2
+bestrophin	47	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	48	Caenorhabditis elegans	9	True	4	1	1.0	False	100,77	0	0	
+bestrophin	49	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+bestrophin	50	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+calhm	0	Gnathostomata	10	False	15	12	0.0833	False	leaf,48	1	1	CALHM5
+calhm	1	Chordata	8	False	76	15	0.8667	False	44,96	2	6	CALHM4,CALHM6,CALHM3,CALHM1,CALHM5,CALHM2
+calhm	2	Gnathostomata	10	False	24	13	0.5385	False	75,62	1	2	CALHM6,CALHM5
+calhm	3	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+calhm	4	Eumetazoa	5	False	82	17	0.1176	False	45,45	2	6	CALHM4,CALHM6,CALHM3,CALHM1,CALHM5,CALHM2
+calhm	5	Amniota	14	False	7	6	0.1667	False	82,71	0	1	CALHM5
+calhm	6	Monodelphis domestica	17	True	2	1	1.0	True	leaf,leaf	0	0	
+calhm	7	Nematostella vectensis	7	True	3	1	1.0	True	100,leaf	0	0	
+calhm	8	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+calhm	9	Vertebrata	9	False	51	14	0.7857	False	26,46	1	4	CALHM4,CALHM3,CALHM1,CALHM2
+calhm	10	Vertebrata	9	False	23	11	0.0909	False	81,71	0	2	CALHM4,CALHM2
+calhm	11	Petromyzon marinus	10	True	3	1	1.0	True	leaf,100	0	0	
+calhm	12	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+calhm	13	Petromyzon marinus	10	True	5	1	1.0	False	80,82	0	0	
+calhm	14	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+calhm	15	Vertebrata	9	False	18	11	0.5455	True	99,99	0	2	CALHM4,CALHM2
+calhm	16	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+calhm	17	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+calhm	18	Gnathostomata	10	False	25	12	0.9167	True	100,96	0	2	CALHM3,CALHM1
+calhm	19	Euteleostomi	11	False	4	3	0.3333	False	93,leaf	0	0	
+calhm	20	Clupeocephala	12	False	3	2	0.5	False	60,leaf	0	0	
+catsper	0	Metazoa	4	False	41	14	0.7857	False	84,84	1	4	CATSPER4,CATSPER3,CATSPER1,CATSPER2
+catsper	1	Metazoa	4	False	30	14	0.4286	False	86,100	1	3	CATSPER4,CATSPER1,CATSPER2
+catsper	2	Metazoa	4	False	24	14	0.7143	True	100,99	1	2	CATSPER4,CATSPER2
+cav	0	Eukaryota	2	False	201	31	0.8065	False	91,91	4	10	CACNA1A,CACNA1G,CACNA1F,CACNA1H,CACNA1B,CACNA1D,CACNA1S,CACNA1C,CACNA1E,CACNA1I
+cav	1	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	2	Vertebrata	9	False	37	13	0.9231	False	62,73	0	3	CACNA1G,CACNA1H,CACNA1I
+cav	3	Euteleostomi	11	False	22	11	0.7273	True	100,100	0	2	CACNA1H,CACNA1I
+cav	4	Clupeocephala	12	False	3	2	0.5	True	leaf,100	0	0	
+cav	5	Clupeocephala	12	False	4	2	1.0	True	96,99	0	0	
+cav	6	Eukaryota	2	False	152	31	0.0323	False	73,leaf	3	7	CACNA1A,CACNA1F,CACNA1B,CACNA1D,CACNA1S,CACNA1C,CACNA1E
+cav	7	Oligohymenophorea	4	False	3	2	0.5	False	92,leaf	0	0	
+cav	8	Oligohymenophorea	4	False	4	2	0.5	True	leaf,100	0	0	
+cav	9	Oligohymenophorea	4	False	19	2	1.0	True	100,100	0	0	
+cav	10	Paramecium tetraurelia	5	True	8	1	1.0	True	100,100	0	0	
+cav	11	Paramecium tetraurelia	5	True	14	1	1.0	False	73,100	0	0	
+cav	12	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	13	Paramecium tetraurelia	5	True	6	1	1.0	True	100,95	0	0	
+cav	14	Paramecium tetraurelia	5	True	4	1	1.0	False	70,leaf	0	0	
+cav	15	Paramecium tetraurelia	5	True	3	1	1.0	True	100,leaf	0	0	
+cav	16	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	17	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	18	Paramecium tetraurelia	5	True	3	1	1.0	True	100,leaf	0	0	
+cav	19	Paramecium tetraurelia	5	True	6	1	1.0	False	91,100	0	0	
+cav	20	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	21	Paramecium tetraurelia	5	True	3	1	1.0	True	100,leaf	0	0	
+cav	22	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	23	Eumetazoa	5	False	130	27	0.8148	True	100,100	3	7	CACNA1A,CACNA1F,CACNA1B,CACNA1D,CACNA1S,CACNA1C,CACNA1E
+cav	24	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	25	Vertebrata	9	False	51	14	0.8571	False	100,47	1	4	CACNA1F,CACNA1D,CACNA1S,CACNA1C
+cav	26	Petromyzon marinus	10	True	3	1	1.0	False	94,leaf	0	0	
+cav	27	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	28	Gnathostomata	10	False	27	13	0.9231	True	100,100	1	2	CACNA1S,CACNA1C
+cav	29	Clupeocephala	12	False	4	2	1.0	True	100,97	0	0	
+cav	30	Gnathostomata	10	False	20	11	0.6364	False	100,89	0	2	CACNA1F,CACNA1D
+cav	31	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+cav	32	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	33	Hydra vulgaris	7	True	14	1	1.0	False	100,62	0	0	
+cav	34	Hydra vulgaris	7	True	6	1	1.0	True	100,leaf	0	0	
+cav	35	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	36	Hydra vulgaris	7	True	5	1	1.0	False	77,99	0	0	
+cav	37	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	38	Hydra vulgaris	7	True	3	1	1.0	True	leaf,100	0	0	
+cav	39	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	40	Hydra vulgaris	7	True	7	1	1.0	True	100,100	0	0	
+cav	41	Hydra vulgaris	7	True	8	1	1.0	True	leaf,100	0	0	
+cav	42	Hydra vulgaris	7	True	5	1	1.0	True	100,leaf	0	0	
+cav	43	Hydra vulgaris	7	True	4	1	1.0	False	54,leaf	0	0	
+cav	44	Hydra vulgaris	7	True	3	1	1.0	True	100,leaf	0	0	
+cav	45	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	46	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+cav	47	Vertebrata	9	False	42	13	0.9231	False	78,100	0	3	CACNA1A,CACNA1B,CACNA1E
+cav	48	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+cav	49	Vertebrata	9	False	29	13	0.8462	False	79,77	0	2	CACNA1A,CACNA1B
+cav	50	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	51	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+cav	52	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+cav	53	Clupeocephala	12	False	4	2	1.0	True	100,100	0	0	
+clc_channel	0	Opisthokonta	3	False	72	28	0.0357	False	leaf,54	4	4	CLCN1,CLCN2,CLCNKA,CLCNKB
+clc_channel	1	Capsaspora owczarzaki ATCC 30864	4	True	2	1	1.0	True	leaf,leaf	0	0	
+clc_channel	2	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+clc_channel	3	Daphnia pulex	10	True	4	1	1.0	False	72,leaf	0	0	
+clc_channel	4	Daphnia pulex	10	True	3	1	1.0	True	100,leaf	0	0	
+clc_channel	5	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+clc_channel	6	Caenorhabditis elegans	9	True	4	1	1.0	False	65,100	0	0	
+clc_channel	7	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+clc_channel	8	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+clc_channel	9	Opisthokonta	3	False	50	15	0.9333	False	100,60	2	4	CLCN1,CLCN2,CLCNKA,CLCNKB
+clc_channel	10	Vertebrata	9	False	20	14	0.2143	True	100,100	1	2	CLCNKA,CLCNKB
+clc_channel	11	Murinae	18	False	4	2	1.0	True	100,100	0	0	
+clc_channel	12	Homo sapiens	18	True	2	1	1.0	True	leaf,leaf	0	2	CLCNKA,CLCNKB
+clc_channel	13	Vertebrata	9	False	29	14	0.7857	True	96,100	1	2	CLCN1,CLCN2
+clc_channel	14	Clupeocephala	12	False	4	2	0.5	False	94,leaf	0	0	
+clc_channel	15	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+clc_channel	16	Clupeocephala	12	False	4	2	0.5	False	92,leaf	0	0	
+clc_channel	17	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+clic	0	Torpedo marmorata	12	True	5	1	1.0	False	66,leaf	5	0	
+clic	1	Torpedo marmorata	12	True	4	1	1.0	False	83,98	4	0	
+clic	2	Torpedo marmorata	12	True	2	1	1.0	True	leaf,leaf	2	0	
+clic	3	Torpedo marmorata	12	True	2	1	1.0	True	leaf,leaf	2	0	
+clic	4	Cornu aspersum	11	True	3	1	1.0	True	leaf,100	3	0	
+clic	5	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+cng	0	Oligohymenophorea	4	False	52	2	0.5	False	96,71	0	0	
+cng	1	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	2	Oligohymenophorea	4	False	33	2	1.0	False	35,23	0	0	
+cng	3	Oligohymenophorea	4	False	53	2	0.5	False	leaf,63	0	0	
+cng	4	Oligohymenophorea	4	False	171	2	1.0	False	88,71	0	0	
+cng	5	Eukaryota	2	False	313	32	0.0625	True	96,96	7	6	CNGA1,CNGB1,CNGA2,CNGA3,CNGA4,CNGB3
+cng	6	Tetrahymena thermophila	5	True	11	1	1.0	False	62,leaf	0	0	
+cng	7	Tetrahymena thermophila	5	True	10	1	1.0	True	100,leaf	0	0	
+cng	8	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	9	Tetrahymena thermophila	5	True	9	1	1.0	False	leaf,93	0	0	
+cng	10	Tetrahymena thermophila	5	True	3	1	1.0	True	leaf,100	0	0	
+cng	11	Tetrahymena thermophila	5	True	8	1	1.0	False	81,100	0	0	
+cng	12	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	13	Tetrahymena thermophila	5	True	5	1	1.0	True	100,99	0	0	
+cng	14	Tetrahymena thermophila	5	True	3	1	1.0	True	100,leaf	0	0	
+cng	15	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	16	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	17	Oligohymenophorea	4	False	20	2	0.5	False	56,55	0	0	
+cng	18	Tetrahymena thermophila	5	True	7	1	1.0	False	55,96	0	0	
+cng	19	Tetrahymena thermophila	5	True	10	1	1.0	False	55,87	0	0	
+cng	20	Tetrahymena thermophila	5	True	5	1	1.0	True	100,leaf	0	0	
+cng	21	Tetrahymena thermophila	5	True	4	1	1.0	False	73,leaf	0	0	
+cng	22	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	23	Tetrahymena thermophila	5	True	3	1	1.0	True	leaf,100	0	0	
+cng	24	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	25	Tetrahymena thermophila	5	True	3	1	1.0	True	leaf,100	0	0	
+cng	26	Tetrahymena thermophila	5	True	3	1	1.0	True	leaf,100	0	0	
+cng	27	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	28	Paramecium tetraurelia	5	True	7	1	1.0	True	100,100	0	0	
+cng	29	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	30	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	31	Paramecium tetraurelia	5	True	5	1	1.0	True	100,100	0	0	
+cng	32	Paramecium tetraurelia	5	True	3	1	1.0	True	100,leaf	0	0	
+cng	33	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	34	Tetrahymena thermophila	5	True	19	1	1.0	False	41,leaf	0	0	
+cng	35	Tetrahymena thermophila	5	True	18	1	1.0	False	24,23	0	0	
+cng	36	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	37	Tetrahymena thermophila	5	True	8	1	1.0	False	93,94	0	0	
+cng	38	Tetrahymena thermophila	5	True	4	1	1.0	True	leaf,100	0	0	
+cng	39	Tetrahymena thermophila	5	True	6	1	1.0	False	99,94	0	0	
+cng	40	Tetrahymena thermophila	5	True	3	1	1.0	True	97,leaf	0	0	
+cng	41	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	42	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	43	Tetrahymena thermophila	5	True	10	1	1.0	False	51,18	0	0	
+cng	44	Tetrahymena thermophila	5	True	6	1	1.0	False	54,leaf	0	0	
+cng	45	Tetrahymena thermophila	5	True	5	1	1.0	False	87,63	0	0	
+cng	46	Tetrahymena thermophila	5	True	3	1	1.0	False	leaf,76	0	0	
+cng	47	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	48	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	49	Tetrahymena thermophila	5	True	4	1	1.0	False	76,leaf	0	0	
+cng	50	Tetrahymena thermophila	5	True	3	1	1.0	True	100,leaf	0	0	
+cng	51	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	52	Tetrahymena thermophila	5	True	5	1	1.0	False	62,leaf	0	0	
+cng	53	Oligohymenophorea	4	False	118	2	0.5	False	49,98	0	0	
+cng	54	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	55	Tetrahymena thermophila	5	True	4	1	1.0	False	86,100	0	0	
+cng	56	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	57	Tetrahymena thermophila	5	True	23	1	1.0	False	54,51	0	0	
+cng	58	Tetrahymena thermophila	5	True	6	1	1.0	False	48,leaf	0	0	
+cng	59	Oligohymenophorea	4	False	113	2	1.0	False	42,59	0	0	
+cng	60	Tetrahymena thermophila	5	True	12	1	1.0	True	100,100	0	0	
+cng	61	Tetrahymena thermophila	5	True	13	1	1.0	True	leaf,100	0	0	
+cng	62	Tetrahymena thermophila	5	True	5	1	1.0	False	100,67	0	0	
+cng	63	Tetrahymena thermophila	5	True	3	1	1.0	True	98,leaf	0	0	
+cng	64	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	65	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	66	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	67	Tetrahymena thermophila	5	True	6	1	1.0	False	49,85	0	0	
+cng	68	Tetrahymena thermophila	5	True	4	1	1.0	False	54,leaf	0	0	
+cng	69	Tetrahymena thermophila	5	True	3	1	1.0	False	35,leaf	0	0	
+cng	70	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	71	Tetrahymena thermophila	5	True	10	1	1.0	False	100,65	0	0	
+cng	72	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	73	Tetrahymena thermophila	5	True	8	1	1.0	False	77,leaf	0	0	
+cng	74	Tetrahymena thermophila	5	True	3	1	1.0	True	100,leaf	0	0	
+cng	75	Tetrahymena thermophila	5	True	7	1	1.0	True	98,100	0	0	
+cng	76	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	77	Tetrahymena thermophila	5	True	4	1	1.0	False	74,99	0	0	
+cng	78	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	79	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	80	Paramecium tetraurelia	5	True	4	1	1.0	True	100,leaf	0	0	
+cng	81	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	82	Paramecium tetraurelia	5	True	3	1	1.0	True	leaf,99	0	0	
+cng	83	Oligohymenophorea	4	False	86	2	0.5	False	63,100	0	0	
+cng	84	Paramecium tetraurelia	5	True	15	1	1.0	False	84,100	0	0	
+cng	85	Paramecium tetraurelia	5	True	30	1	1.0	True	100,99	0	0	
+cng	86	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	87	Paramecium tetraurelia	5	True	13	1	1.0	False	100,60	0	0	
+cng	88	Paramecium tetraurelia	5	True	3	1	1.0	True	leaf,100	0	0	
+cng	89	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	90	Paramecium tetraurelia	5	True	7	1	1.0	True	100,100	0	0	
+cng	91	Paramecium tetraurelia	5	True	5	1	1.0	True	100,100	0	0	
+cng	92	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	93	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	94	Paramecium tetraurelia	5	True	6	1	1.0	False	59,leaf	0	0	
+cng	95	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	96	Paramecium tetraurelia	5	True	5	1	1.0	False	85,100	0	0	
+cng	97	Paramecium tetraurelia	5	True	3	1	1.0	True	100,leaf	0	0	
+cng	98	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	99	Paramecium tetraurelia	5	True	3	1	1.0	True	100,leaf	0	0	
+cng	100	Paramecium tetraurelia	5	True	6	1	1.0	False	100,93	0	0	
+cng	101	Paramecium tetraurelia	5	True	15	1	1.0	True	98,100	0	0	
+cng	102	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	103	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	104	Paramecium tetraurelia	5	True	3	1	1.0	True	leaf,100	0	0	
+cng	105	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	106	Paramecium tetraurelia	5	True	9	1	1.0	True	100,100	0	0	
+cng	107	Paramecium tetraurelia	5	True	4	1	1.0	True	100,100	0	0	
+cng	108	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	109	Paramecium tetraurelia	5	True	4	1	1.0	True	95,leaf	0	0	
+cng	110	Paramecium tetraurelia	5	True	5	1	1.0	True	leaf,100	0	0	
+cng	111	Paramecium tetraurelia	5	True	3	1	1.0	True	100,leaf	0	0	
+cng	112	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	113	Oligohymenophorea	4	False	56	2	1.0	True	97,100	0	0	
+cng	114	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	115	Paramecium tetraurelia	5	True	5	1	1.0	False	62,100	0	0	
+cng	116	Paramecium tetraurelia	5	True	3	1	1.0	False	44,leaf	0	0	
+cng	117	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	118	Oligohymenophorea	4	False	50	2	0.5	False	67,77	0	0	
+cng	119	Tetrahymena thermophila	5	True	12	1	1.0	False	45,leaf	0	0	
+cng	120	Tetrahymena thermophila	5	True	17	1	1.0	False	40,45	0	0	
+cng	121	Tetrahymena thermophila	5	True	3	1	1.0	True	100,leaf	0	0	
+cng	122	Tetrahymena thermophila	5	True	11	1	1.0	False	51,29	0	0	
+cng	123	Tetrahymena thermophila	5	True	5	1	1.0	False	15,100	0	0	
+cng	124	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	125	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	126	Tetrahymena thermophila	5	True	6	1	1.0	False	89,leaf	0	0	
+cng	127	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	128	Tetrahymena thermophila	5	True	5	1	1.0	True	100,100	0	0	
+cng	129	Tetrahymena thermophila	5	True	3	1	1.0	True	100,leaf	0	0	
+cng	130	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	131	Tetrahymena thermophila	5	True	5	1	1.0	False	40,leaf	0	0	
+cng	132	Tetrahymena thermophila	5	True	4	1	1.0	False	74,leaf	0	0	
+cng	133	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	134	Tetrahymena thermophila	5	True	3	1	1.0	True	leaf,100	0	0	
+cng	135	Paramecium tetraurelia	5	True	32	1	1.0	False	100,65	0	0	
+cng	136	Paramecium tetraurelia	5	True	16	1	1.0	False	65,100	0	0	
+cng	137	Paramecium tetraurelia	5	True	27	1	1.0	False	61,100	0	0	
+cng	138	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	139	Paramecium tetraurelia	5	True	14	1	1.0	True	100,100	0	0	
+cng	140	Paramecium tetraurelia	5	True	4	1	1.0	True	100,leaf	0	0	
+cng	141	Paramecium tetraurelia	5	True	6	1	1.0	False	48,95	0	0	
+cng	142	Paramecium tetraurelia	5	True	3	1	1.0	False	88,leaf	0	0	
+cng	143	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	144	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	145	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	146	Paramecium tetraurelia	5	True	8	1	1.0	True	100,100	0	0	
+cng	147	Paramecium tetraurelia	5	True	3	1	1.0	True	leaf,98	0	0	
+cng	148	Paramecium tetraurelia	5	True	5	1	1.0	True	100,leaf	0	0	
+cng	149	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	150	Paramecium tetraurelia	5	True	4	1	1.0	True	100,98	0	0	
+cng	151	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	152	Paramecium tetraurelia	5	True	9	1	1.0	True	99,leaf	0	0	
+cng	153	Paramecium tetraurelia	5	True	11	1	1.0	True	100,100	0	0	
+cng	154	Paramecium tetraurelia	5	True	8	1	1.0	True	100,100	0	0	
+cng	155	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	156	Paramecium tetraurelia	5	True	4	1	1.0	True	100,leaf	0	0	
+cng	157	Paramecium tetraurelia	5	True	6	1	1.0	False	100,94	0	0	
+cng	158	Paramecium tetraurelia	5	True	3	1	1.0	True	100,leaf	0	0	
+cng	159	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	160	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	161	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	162	Paramecium tetraurelia	5	True	5	1	1.0	True	100,leaf	0	0	
+cng	163	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	164	Paramecium tetraurelia	5	True	4	1	1.0	True	leaf,100	0	0	
+cng	165	Paramecium tetraurelia	5	True	3	1	1.0	False	leaf,86	0	0	
+cng	166	Chlamydomonas reinhardtii	4	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	167	Monosiga brevicollis	4	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	168	Metazoa	4	False	136	28	0.0357	False	72,leaf	7	6	CNGA1,CNGB1,CNGA2,CNGA3,CNGA4,CNGB3
+cng	169	Metazoa	4	False	98	28	0.2143	False	59,100	6	4	CNGA1,CNGA2,CNGA3,CNGA4
+cng	170	Metazoa	4	False	135	28	0.7857	False	100,93	7	6	CNGA1,CNGB1,CNGA2,CNGA3,CNGA4,CNGB3
+cng	171	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	172	Strongylocentrotus purpuratus	8	True	3	1	1.0	False	leaf,91	0	0	
+cng	173	Metazoa	4	False	88	26	0.1538	False	93,100	6	4	CNGA1,CNGA2,CNGA3,CNGA4
+cng	174	Deuterostomia	7	False	3	2	0.5	False	69,leaf	0	0	
+cng	175	Metazoa	4	False	83	26	0.1923	False	67,74	6	4	CNGA1,CNGA2,CNGA3,CNGA4
+cng	176	Eumetazoa	5	False	7	5	0.2	True	97,leaf	2	0	
+cng	177	Euthyneura	9	False	3	2	0.5	False	87,leaf	2	0	
+cng	178	Metazoa	4	False	76	26	0.0385	False	94,100	4	4	CNGA1,CNGA2,CNGA3,CNGA4
+cng	179	Caenorhabditis elegans	9	True	4	1	1.0	False	leaf,76	0	0	
+cng	180	Caenorhabditis elegans	9	True	3	1	1.0	True	100,leaf	0	0	
+cng	181	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	182	Protostomia	7	False	9	7	0.1429	False	97,60	2	0	
+cng	183	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+cng	184	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	185	Vertebrata	9	False	58	14	0.8571	True	96,100	2	4	CNGA1,CNGA2,CNGA3,CNGA4
+cng	186	Clupeocephala	12	False	4	2	0.5	False	56,leaf	0	0	
+cng	187	Vertebrata	9	False	45	14	0.7857	False	94,100	2	3	CNGA1,CNGA2,CNGA3
+cng	188	Clupeocephala	12	False	3	2	0.5	False	leaf,83	0	0	
+cng	189	Vertebrata	9	False	32	14	0.9286	False	93,99	2	2	CNGA1,CNGA3
+cng	190	Clupeocephala	12	False	4	2	1.0	False	96,88	0	0	
+cng	191	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	192	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	193	Clupeocephala	12	False	3	2	0.5	True	leaf,100	0	0	
+cng	194	Vertebrata	9	False	29	14	0.0714	False	60,leaf	1	2	CNGB1,CNGB3
+cng	195	Vertebrata	9	False	28	14	0.7857	False	99,83	1	2	CNGB1,CNGB3
+cng	196	Clupeocephala	12	False	4	2	0.5	False	59,leaf	0	0	
+cng	197	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+cng	198	Clupeocephala	12	False	3	2	0.5	True	96,leaf	0	0	
+connexin	0	Vertebrata	9	False	377	14	1.0	False	59,69	13	20	GJB3,GJB5,GJB6,GJB1,GJA1,GJB2,GJA4,GJA5,GJC1,GJA8,GJA9,GJC2,GJB7,GJD3,GJC3,GJA10,GJD4,GJB4,GJD2,GJA3
+connexin	1	Vertebrata	9	False	24	14	0.6429	False	100,80	1	2	GJC1,GJC2
+connexin	2	Vertebrata	9	False	316	14	1.0	False	93,94	9	17	GJB3,GJB5,GJB6,GJB1,GJA1,GJB2,GJA4,GJA5,GJC1,GJA8,GJA9,GJC2,GJB7,GJC3,GJA10,GJB4,GJA3
+connexin	3	Vertebrata	9	False	34	14	0.4286	False	96,75	1	2	GJC1,GJC2
+connexin	4	Vertebrata	9	False	85	14	0.0714	False	89,78	1	2	GJC1,GJC2
+connexin	5	Vertebrata	9	False	90	14	0.2857	False	68,99	1	3	GJC1,GJC2,GJC3
+connexin	6	Vertebrata	9	False	388	14	0.7143	True	100,95	13	21	GJE1,GJB3,GJB5,GJB6,GJB1,GJA1,GJB2,GJA4,GJA5,GJC1,GJA8,GJA9,GJC2,GJB7,GJD3,GJC3,GJA10,GJD4,GJB4,GJD2,GJA3
+connexin	7	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+connexin	8	Clupeocephala	12	False	6	2	0.5	False	76,leaf	0	0	
+connexin	9	Danio rerio	13	True	3	1	1.0	True	100,leaf	0	0	
+connexin	10	Danio rerio	13	True	4	1	1.0	True	leaf,100	0	0	
+connexin	11	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	12	Petromyzon marinus	10	True	51	1	1.0	True	100,leaf	0	0	
+connexin	13	Petromyzon marinus	10	True	50	1	1.0	True	99,100	0	0	
+connexin	14	Petromyzon marinus	10	True	14	1	1.0	False	83,87	0	0	
+connexin	15	Petromyzon marinus	10	True	5	1	1.0	False	61,100	0	0	
+connexin	16	Petromyzon marinus	10	True	15	1	1.0	True	leaf,100	0	0	
+connexin	17	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	18	Petromyzon marinus	10	True	3	1	1.0	False	79,leaf	0	0	
+connexin	19	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	20	Petromyzon marinus	10	True	9	1	1.0	False	65,93	0	0	
+connexin	21	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	22	Petromyzon marinus	10	True	7	1	1.0	False	42,leaf	0	0	
+connexin	23	Petromyzon marinus	10	True	6	1	1.0	False	62,leaf	0	0	
+connexin	24	Petromyzon marinus	10	True	5	1	1.0	False	56,leaf	0	0	
+connexin	25	Petromyzon marinus	10	True	4	1	1.0	False	41,52	0	0	
+connexin	26	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	27	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	28	Petromyzon marinus	10	True	35	1	1.0	True	100,leaf	0	0	
+connexin	29	Petromyzon marinus	10	True	3	1	1.0	False	leaf,62	0	0	
+connexin	30	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	31	Petromyzon marinus	10	True	34	1	1.0	False	70,65	0	0	
+connexin	32	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	33	Petromyzon marinus	10	True	31	1	1.0	False	34,95	0	0	
+connexin	34	Petromyzon marinus	10	True	29	1	1.0	False	48,leaf	0	0	
+connexin	35	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	36	Petromyzon marinus	10	True	3	1	1.0	True	leaf,99	0	0	
+connexin	37	Petromyzon marinus	10	True	28	1	1.0	False	67,93	0	0	
+connexin	38	Petromyzon marinus	10	True	12	1	1.0	False	17,89	0	0	
+connexin	39	Petromyzon marinus	10	True	4	1	1.0	False	48,leaf	0	0	
+connexin	40	Petromyzon marinus	10	True	25	1	1.0	False	45,85	0	0	
+connexin	41	Petromyzon marinus	10	True	3	1	1.0	True	100,leaf	0	0	
+connexin	42	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	43	Petromyzon marinus	10	True	8	1	1.0	False	8,leaf	0	0	
+connexin	44	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	45	Petromyzon marinus	10	True	7	1	1.0	False	17,64	0	0	
+connexin	46	Petromyzon marinus	10	True	3	1	1.0	False	leaf,86	0	0	
+connexin	47	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	48	Petromyzon marinus	10	True	3	1	1.0	True	leaf,95	0	0	
+connexin	49	Petromyzon marinus	10	True	4	1	1.0	False	leaf,73	0	0	
+connexin	50	Petromyzon marinus	10	True	13	1	1.0	False	76,100	0	0	
+connexin	51	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	52	Petromyzon marinus	10	True	5	1	1.0	False	87,100	0	0	
+connexin	53	Petromyzon marinus	10	True	3	1	1.0	False	leaf,76	0	0	
+connexin	54	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	55	Petromyzon marinus	10	True	8	1	1.0	False	34,leaf	0	0	
+connexin	56	Petromyzon marinus	10	True	7	1	1.0	False	91,100	0	0	
+connexin	57	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	58	Petromyzon marinus	10	True	5	1	1.0	False	92,leaf	0	0	
+connexin	59	Petromyzon marinus	10	True	4	1	1.0	False	62,52	0	0	
+connexin	60	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	61	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	62	Monodelphis domestica	17	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	63	Vertebrata	9	False	51	14	0.3571	False	70,29	2	3	GJB6,GJB1,GJB2
+connexin	64	Vertebrata	9	False	226	14	1.0	False	97,93	8	14	GJB3,GJB5,GJB6,GJB1,GJA1,GJB2,GJA4,GJA5,GJA8,GJA9,GJB7,GJA10,GJB4,GJA3
+connexin	65	Vertebrata	9	False	97	14	0.8571	False	29,22	2	7	GJB3,GJB5,GJB6,GJB1,GJB2,GJB7,GJB4
+connexin	66	Vertebrata	9	False	8	5	0.2	False	13,98	0	0	
+connexin	67	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	68	Euteleostomi	11	False	5	4	0.25	False	76,leaf	0	0	
+connexin	69	Petromyzon marinus	10	True	7	1	1.0	True	100,leaf	0	0	
+connexin	70	Petromyzon marinus	10	True	4	1	1.0	False	26,leaf	0	0	
+connexin	71	Petromyzon marinus	10	True	6	1	1.0	True	leaf,100	0	0	
+connexin	72	Petromyzon marinus	10	True	5	1	1.0	False	leaf,38	0	0	
+connexin	73	Petromyzon marinus	10	True	3	1	1.0	False	91,leaf	0	0	
+connexin	74	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	75	Gnathostomata	10	False	36	13	0.9231	True	99,100	2	3	GJB6,GJB1,GJB2
+connexin	76	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+connexin	77	Latimeria chalumnae	13	True	3	1	1.0	False	94,leaf	0	0	
+connexin	78	Latimeria chalumnae	13	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	79	Clupeocephala	12	False	4	2	0.5	False	63,leaf	0	0	
+connexin	80	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	81	Amniota	14	False	13	7	0.2857	False	75,84	0	2	GJB6,GJB2
+connexin	82	Amniota	14	False	11	7	0.5714	False	56,100	0	2	GJB6,GJB2
+connexin	83	Gnathostomata	10	False	46	12	0.0833	False	45,leaf	0	4	GJB3,GJB5,GJB7,GJB4
+connexin	84	Gnathostomata	10	False	45	12	0.0833	False	81,leaf	0	4	GJB3,GJB5,GJB7,GJB4
+connexin	85	Gnathostomata	10	False	44	12	0.5833	False	82,94	0	4	GJB3,GJB5,GJB7,GJB4
+connexin	86	Gnathostomata	10	False	37	12	1.0	False	51,70	0	3	GJB3,GJB5,GJB4
+connexin	87	Euteleostomi	11	False	22	11	0.5455	False	33,96	0	2	GJB5,GJB4
+connexin	88	Clupeocephala	12	False	4	2	0.5	False	58,leaf	0	0	
+connexin	89	Clupeocephala	12	False	6	2	1.0	True	99,100	0	0	
+connexin	90	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	91	Tetrapoda	13	False	9	8	0.125	False	90,leaf	0	1	GJB5
+connexin	92	Gnathostomata	10	False	14	12	0.0833	False	52,leaf	0	1	GJB3
+connexin	93	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	94	Clupeocephala	12	False	4	2	1.0	False	98,88	0	0	
+connexin	95	Vertebrata	9	False	26	14	0.5714	False	99,62	2	2	GJA9,GJA10
+connexin	96	Vertebrata	9	False	129	14	1.0	False	88,100	6	7	GJA1,GJA4,GJA5,GJA8,GJA9,GJA10,GJA3
+connexin	97	Clupeocephala	12	False	4	2	1.0	False	76,89	0	0	
+connexin	98	Vertebrata	9	False	103	14	1.0	False	71,100	4	5	GJA1,GJA4,GJA5,GJA8,GJA3
+connexin	99	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	100	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	101	Vertebrata	9	False	87	14	0.9286	False	86,66	3	4	GJA1,GJA4,GJA5,GJA3
+connexin	102	Gnathostomata	10	False	16	12	0.0833	True	100,leaf	0	1	GJA5
+connexin	103	Clupeocephala	12	False	4	2	1.0	False	63,97	0	0	
+connexin	104	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	105	Vertebrata	9	False	70	14	1.0	False	53,67	3	3	GJA1,GJA4,GJA3
+connexin	106	Gnathostomata	10	False	23	13	0.1538	False	73,88	2	1	GJA3
+connexin	107	Clupeocephala	12	False	3	2	0.5	False	leaf,70	0	0	
+connexin	108	Gnathostomata	10	False	21	13	0.1538	False	84,98	1	1	GJA3
+connexin	109	Gnathostomata	10	False	18	13	0.0769	False	86,leaf	1	1	GJA3
+connexin	110	Gnathostomata	10	False	17	13	0.0769	False	67,leaf	1	1	GJA3
+connexin	111	Gnathostomata	10	False	16	13	0.0769	False	60,leaf	1	1	GJA3
+connexin	112	Gnathostomata	10	False	10	8	0.125	True	100,leaf	1	0	
+connexin	113	Clupeocephala	12	False	3	2	0.5	False	leaf,56	0	0	
+connexin	114	Vertebrata	9	False	46	14	0.1429	False	60,100	1	2	GJA1,GJA4
+connexin	115	Vertebrata	9	False	44	14	0.2857	False	58,71	1	2	GJA1,GJA4
+connexin	116	Clupeocephala	12	False	12	2	1.0	True	100,99	0	0	
+connexin	117	Takifugu rubripes	13	True	3	1	1.0	False	67,leaf	0	0	
+connexin	118	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	119	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	120	Clupeocephala	12	False	8	2	1.0	False	88,51	0	0	
+connexin	121	Takifugu rubripes	13	True	3	1	1.0	True	100,leaf	0	0	
+connexin	122	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	123	Clupeocephala	12	False	3	2	0.5	False	leaf,61	0	0	
+connexin	124	Gnathostomata	10	False	29	13	0.7692	True	100,97	1	2	GJA1,GJA4
+connexin	125	Xenopus tropicalis	14	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	126	Callorhinchus milii	12	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	127	Euteleostomi	11	False	15	11	0.0909	False	75,leaf	0	1	GJA1
+connexin	128	Amniota	14	False	10	7	0.2857	False	58,32	0	1	GJA1
+connexin	129	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	130	Vertebrata	9	False	61	14	0.5	False	86,100	4	3	GJD3,GJD4,GJD2
+connexin	131	Vertebrata	9	False	54	14	0.8571	False	74,100	3	3	GJD3,GJD4,GJD2
+connexin	132	Clupeocephala	12	False	3	2	0.5	True	99,leaf	0	0	
+connexin	133	Vertebrata	9	False	41	14	0.2143	False	87,100	3	2	GJD3,GJD2
+connexin	134	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	135	Vertebrata	9	False	38	14	0.6429	True	100,100	3	2	GJD3,GJD2
+connexin	136	Vertebrata	9	False	27	13	0.0769	False	88,leaf	2	1	GJD2
+connexin	137	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	138	Gnathostomata	10	False	24	12	0.6667	False	64,98	2	1	GJD2
+connexin	139	Gnathostomata	10	False	9	7	0.2857	False	43,99	1	0	
+connexin	140	Clupeocephala	12	False	3	2	0.5	False	74,leaf	0	0	
+connexin	141	Ornithorhynchus anatinus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	142	Ciona intestinalis	9	True	8	1	1.0	False	88,54	0	0	
+connexin	143	Ciona intestinalis	9	True	3	1	1.0	False	57,leaf	0	0	
+connexin	144	Ciona intestinalis	9	True	14	1	1.0	False	48,72	0	0	
+connexin	145	Ciona intestinalis	9	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	146	Ciona intestinalis	9	True	5	1	1.0	True	100,leaf	0	0	
+connexin	147	Ciona intestinalis	9	True	4	1	1.0	False	68,leaf	0	0	
+connexin	148	Ciona intestinalis	9	True	3	1	1.0	True	96,leaf	0	0	
+connexin	149	Ciona intestinalis	9	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	150	Ciona intestinalis	9	True	3	1	1.0	True	100,leaf	0	0	
+connexin	151	Ciona intestinalis	9	True	6	1	1.0	False	75,97	0	0	
+connexin	152	Ciona intestinalis	9	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	153	Ciona intestinalis	9	True	3	1	1.0	True	100,leaf	0	0	
+connexin	154	Ciona intestinalis	9	True	2	1	1.0	True	leaf,leaf	0	0	
+connexin	155	Gnathostomata	10	False	11	10	0.1	False	7,leaf	0	1	GJE1
+deg_invertebrate	0	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+deg_invertebrate	1	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+deg_invertebrate	2	Caenorhabditis elegans	9	True	6	1	1.0	False	leaf,54	0	0	
+deg_invertebrate	3	Caenorhabditis elegans	9	True	5	1	1.0	False	leaf,22	0	0	
+deg_invertebrate	4	Caenorhabditis elegans	9	True	4	1	1.0	False	21,100	0	0	
+deg_invertebrate	5	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+deg_invertebrate	6	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+enac	0	Vertebrata	9	False	41	12	0.8333	False	87,87	2	4	SCNN1A,SCNN1B,SCNN1G,SCNN1D
+enac	1	Vertebrata	9	False	24	12	1.0	True	100,95	2	2	SCNN1B,SCNN1G
+enac	2	Sarcopterygii	12	False	16	9	0.5556	True	99,99	0	2	SCNN1A,SCNN1D
+enac	3	Xenopus tropicalis	14	True	2	1	1.0	True	leaf,leaf	0	0	
+enac	4	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	0	Eumetazoa	5	False	279	20	0.05	False	74,74	14	19	GABRR3,GABRP,GABRD,GABRA1,GABRB1,GABRG2,GABRR1,GABRB3,GABRR2,GABRA5,GABRA3,GABRA2,GABRB2,GABRA4,GABRE,GABRA6,GABRG1,GABRG3,GABRQ
+gabaa	1	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	2	Bilateria	6	False	276	19	0.8421	False	25,99	14	19	GABRR3,GABRP,GABRD,GABRA1,GABRB1,GABRG2,GABRR1,GABRB3,GABRR2,GABRA5,GABRA3,GABRA2,GABRB2,GABRA4,GABRE,GABRA6,GABRG1,GABRG3,GABRQ
+gabaa	3	Chordata	8	False	129	15	0.9333	False	85,100	6	10	GABRA1,GABRG2,GABRA5,GABRA3,GABRA2,GABRA4,GABRE,GABRA6,GABRG1,GABRG3
+gabaa	4	Vertebrata	9	False	47	14	0.9286	False	84,85	3	4	GABRG2,GABRE,GABRG1,GABRG3
+gabaa	5	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	6	Gnathostomata	10	False	22	13	0.6154	True	100,100	1	2	GABRE,GABRG3
+gabaa	7	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	8	Gnathostomata	10	False	23	13	0.7692	True	100,100	2	2	GABRG2,GABRG1
+gabaa	9	Vertebrata	9	False	28	14	0.7857	False	93,67	2	2	GABRA4,GABRA6
+gabaa	10	Vertebrata	9	False	81	14	1.0	True	99,100	3	6	GABRA1,GABRA5,GABRA3,GABRA2,GABRA4,GABRA6
+gabaa	11	Petromyzon marinus	10	True	3	1	1.0	True	100,leaf	0	0	
+gabaa	12	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	13	Euteleostomi	11	False	4	3	0.3333	False	87,leaf	0	0	
+gabaa	14	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	15	Petromyzon marinus	10	True	4	1	1.0	True	100,98	0	0	
+gabaa	16	Vertebrata	9	False	53	14	0.8571	False	99,61	1	4	GABRA1,GABRA5,GABRA3,GABRA2
+gabaa	17	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	18	Gnathostomata	10	False	26	13	0.8462	True	99,98	1	2	GABRA5,GABRA3
+gabaa	19	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	20	Clupeocephala	12	False	3	2	0.5	False	65,leaf	0	0	
+gabaa	21	Gnathostomata	10	False	23	12	0.8333	False	78,100	0	2	GABRA1,GABRA2
+gabaa	22	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+gabaa	23	Deuterostomia	7	False	144	17	0.9412	False	20,88	8	9	GABRR3,GABRP,GABRD,GABRB1,GABRR1,GABRB3,GABRR2,GABRB2,GABRQ
+gabaa	24	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	25	Vertebrata	9	False	54	14	0.7143	False	91,55	4	4	GABRB1,GABRB3,GABRB2,GABRQ
+gabaa	26	Vertebrata	9	False	44	14	0.9286	False	76,100	3	3	GABRB3,GABRB2,GABRQ
+gabaa	27	Clupeocephala	12	False	4	2	1.0	False	100,84	0	0	
+gabaa	28	Petromyzon marinus	10	True	3	1	1.0	False	66,leaf	0	0	
+gabaa	29	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	30	Gnathostomata	10	False	26	13	0.8462	True	96,99	2	2	GABRB3,GABRQ
+gabaa	31	Clupeocephala	12	False	3	2	0.5	False	48,leaf	0	0	
+gabaa	32	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	33	Chordata	8	False	86	16	0.0625	False	19,leaf	4	5	GABRR3,GABRP,GABRD,GABRR1,GABRR2
+gabaa	34	Chordata	8	False	85	16	0.0625	False	48,leaf	4	5	GABRR3,GABRP,GABRD,GABRR1,GABRR2
+gabaa	35	Branchiostoma floridae	9	True	4	1	1.0	False	leaf,80	0	0	
+gabaa	36	Branchiostoma floridae	9	True	3	1	1.0	False	63,leaf	0	0	
+gabaa	37	Chordata	8	False	84	16	0.9375	False	99,71	4	5	GABRR3,GABRP,GABRD,GABRR1,GABRR2
+gabaa	38	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	39	Chordata	8	False	33	15	0.6667	False	93,100	1	2	GABRP,GABRD
+gabaa	40	Vertebrata	9	False	9	7	0.1429	False	77,leaf	0	0	
+gabaa	41	Vertebrata	9	False	20	12	0.5	False	96,80	0	1	GABRP
+gabaa	42	Clupeocephala	12	False	3	2	0.5	False	67,leaf	0	0	
+gabaa	43	Gnathostomata	10	False	31	13	1.0	False	99,94	2	2	GABRR1,GABRR2
+gabaa	44	Vertebrata	9	False	46	14	0.7857	False	61,97	3	3	GABRR3,GABRR1,GABRR2
+gabaa	45	Clupeocephala	12	False	3	2	0.5	False	73,leaf	0	0	
+gabaa	46	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+gabaa	47	Xenopus tropicalis	14	True	3	1	1.0	False	65,leaf	0	0	
+gabaa	48	Xenopus tropicalis	14	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	49	Ornithorhynchus anatinus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	50	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+gabaa	51	Clupeocephala	12	False	4	2	1.0	False	69,97	0	0	
+glyr	0	Vertebrata	9	False	65	14	0.9286	True	95,95	3	4	GLRA3,GLRA1,GLRA2,GLRB
+glyr	1	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+glyr	2	Vertebrata	9	False	51	14	0.0714	False	59,leaf	3	3	GLRA3,GLRA1,GLRA2
+glyr	3	Vertebrata	9	False	50	14	0.5	False	68,96	3	3	GLRA3,GLRA1,GLRA2
+glyr	4	Vertebrata	9	False	40	14	0.1429	False	41,71	3	2	GLRA3,GLRA1
+glyr	5	Vertebrata	9	False	43	14	0.1429	False	99,53	3	2	GLRA3,GLRA1
+glyr	6	Vertebrata	9	False	38	14	0.6429	False	89,100	2	2	GLRA3,GLRA1
+glyr	7	Clupeocephala	12	False	4	2	0.5	False	48,leaf	0	0	
+glyr	8	Clupeocephala	12	False	3	2	0.5	True	leaf,100	0	0	
+glyr	9	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+glyr	10	Gnathostomata	10	False	25	13	0.9231	False	67,100	2	2	GLRA3,GLRA1
+glyr	11	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+hcn	0	Eukaryota	2	False	64	23	0.1739	False	64,64	5	4	HCN1,HCN3,HCN2,HCN4
+hcn	1	Eukaryota	2	False	60	23	0.087	False	65,98	5	3	HCN1,HCN2,HCN4
+hcn	2	Clupeocephala	12	False	4	2	0.5	True	100,leaf	0	0	
+hcn	3	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+hcn	4	Eukaryota	2	False	56	23	0.087	False	75,100	5	3	HCN1,HCN2,HCN4
+hcn	5	Eukaryota	2	False	54	23	0.0435	False	20,leaf	5	3	HCN1,HCN2,HCN4
+hcn	6	Eukaryota	2	False	53	23	0.5652	False	33,88	5	3	HCN1,HCN2,HCN4
+hcn	7	Clupeocephala	12	False	4	2	1.0	False	96,67	0	0	
+hcn	8	Eukaryota	2	False	38	23	0.0435	False	40,82	4	2	HCN1,HCN2
+hcn	9	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+hcn	10	Petromyzon marinus	10	True	3	1	1.0	True	97,leaf	0	0	
+hcn	11	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+hcn	12	Gnathostomata	10	False	24	13	0.6923	True	100,100	1	2	HCN1,HCN2
+hcn	13	Clupeocephala	12	False	4	2	1.0	False	100,90	0	0	
+ht3	0	Gnathostomata	10	False	51	13	0.7692	False	34,99	1	5	HTR3E,HTR3B,HTR3A,HTR3D,HTR3C
+ht3	1	Gnathostomata	10	False	38	10	0.6	False	85,100	0	4	HTR3E,HTR3B,HTR3D,HTR3C
+ht3	2	Euteleostomi	11	False	28	6	0.1667	False	72,100	0	3	HTR3E,HTR3D,HTR3C
+ht3	3	Latimeria chalumnae	13	True	3	1	1.0	True	100,leaf	0	0	
+ht3	4	Latimeria chalumnae	13	True	5	1	1.0	True	100,100	0	0	
+ht3	5	Euteleostomi	11	False	26	5	0.4	False	44,69	0	3	HTR3E,HTR3D,HTR3C
+ht3	6	Euteleostomi	11	False	8	3	0.3333	False	100,93	0	0	
+ht3	7	Latimeria chalumnae	13	True	2	1	1.0	True	leaf,leaf	0	0	
+ht3	8	Latimeria chalumnae	13	True	2	1	1.0	True	leaf,leaf	0	0	
+ht3	9	Danio rerio	13	True	3	1	1.0	True	100,leaf	0	0	
+ht3	10	Danio rerio	13	True	4	1	1.0	False	leaf,72	0	0	
+ht3	11	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+ht3	12	Takifugu rubripes	13	True	6	1	1.0	True	leaf,95	0	0	
+ht3	13	Takifugu rubripes	13	True	5	1	1.0	True	97,leaf	0	0	
+ht3	14	Takifugu rubripes	13	True	8	1	1.0	False	92,100	0	0	
+ht3	15	Takifugu rubripes	13	True	4	1	1.0	False	82,leaf	0	0	
+ht3	16	Takifugu rubripes	13	True	3	1	1.0	False	88,leaf	0	0	
+ht3	17	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+ht3	18	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+ht3	19	Theria	16	False	6	2	0.5	False	73,73	0	3	HTR3E,HTR3D,HTR3C
+ht3	20	Monodelphis domestica	17	True	2	1	1.0	True	leaf,leaf	0	0	
+ht3	21	Homo sapiens	18	True	3	1	1.0	True	95,leaf	0	3	HTR3E,HTR3D,HTR3C
+ht3	22	Homo sapiens	18	True	2	1	1.0	True	leaf,leaf	0	2	HTR3E,HTR3D
+hv1	0	Gastropoda	8	False	7	3	0.3333	False	75,leaf	0	0	
+hv1	1	Gastropoda	8	False	6	3	1.0	True	100,100	0	0	
+hv1	2	Clupeocephala	12	False	3	2	0.5	False	91,leaf	0	0	
+hv1	3	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	0	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	1	Embryophyta	4	False	36	3	0.6667	False	71,71	0	0	
+iglur_nonvertebrate	2	Mesangiospermae	5	False	12	2	0.5	False	79,leaf	0	0	
+iglur_nonvertebrate	3	Mesangiospermae	5	False	11	2	1.0	False	89,95	0	0	
+iglur_nonvertebrate	4	Oryza sativa	6	True	3	1	1.0	False	88,leaf	0	0	
+iglur_nonvertebrate	5	Oryza sativa	6	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	6	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	7	Oryza sativa	6	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	8	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	9	Arabidopsis thaliana	6	True	4	1	1.0	False	100,84	0	0	
+iglur_nonvertebrate	10	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	11	Mesangiospermae	5	False	22	2	0.5	False	28,leaf	0	0	
+iglur_nonvertebrate	12	Mesangiospermae	5	False	21	2	0.5	False	18,leaf	0	0	
+iglur_nonvertebrate	13	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	14	Mesangiospermae	5	False	20	2	0.5	False	48,100	0	0	
+iglur_nonvertebrate	15	Arabidopsis thaliana	6	True	3	1	1.0	True	leaf,100	0	0	
+iglur_nonvertebrate	16	Oryza sativa	6	True	8	1	1.0	True	96,100	0	0	
+iglur_nonvertebrate	17	Oryza sativa	6	True	3	1	1.0	False	78,leaf	0	0	
+iglur_nonvertebrate	18	Oryza sativa	6	True	5	1	1.0	True	100,100	0	0	
+iglur_nonvertebrate	19	Oryza sativa	6	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	20	Oryza sativa	6	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	21	Oryza sativa	6	True	3	1	1.0	True	100,leaf	0	0	
+iglur_nonvertebrate	22	Oryza sativa	6	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	23	Arabidopsis thaliana	6	True	9	1	1.0	True	96,100	0	0	
+iglur_nonvertebrate	24	Arabidopsis thaliana	6	True	3	1	1.0	True	99,leaf	0	0	
+iglur_nonvertebrate	25	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	26	Arabidopsis thaliana	6	True	6	1	1.0	True	100,100	0	0	
+iglur_nonvertebrate	27	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	28	Arabidopsis thaliana	6	True	4	1	1.0	False	70,100	0	0	
+iglur_nonvertebrate	29	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+iglur_nonvertebrate	30	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+innexin	0	Caenorhabditis elegans	9	True	4	1	1.0	False	leaf,59	0	0	
+innexin	1	Caenorhabditis elegans	9	True	10	1	1.0	False	80,90	0	0	
+innexin	2	Protostomia	7	False	82	7	0.2857	False	93,93	9	0	
+innexin	3	Caenorhabditis elegans	9	True	25	1	1.0	False	80,94	0	0	
+innexin	4	Caenorhabditis elegans	9	True	3	1	1.0	False	leaf,47	0	0	
+innexin	5	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+innexin	6	Caenorhabditis elegans	9	True	6	1	1.0	True	100,leaf	0	0	
+innexin	7	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+innexin	8	Caenorhabditis elegans	9	True	5	1	1.0	False	99,94	0	0	
+innexin	9	Caenorhabditis elegans	9	True	3	1	1.0	True	98,leaf	0	0	
+innexin	10	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+innexin	11	Gastropoda	8	False	39	4	0.5	False	18,59	9	0	
+innexin	12	Gastropoda	8	False	3	2	0.5	True	97,leaf	0	0	
+innexin	13	Gastropoda	8	False	13	4	0.25	True	100,leaf	1	0	
+innexin	14	Gastropoda	8	False	36	4	1.0	False	64,53	9	0	
+innexin	15	Gastropoda	8	False	12	4	0.5	False	91,100	1	0	
+innexin	16	Euthyneura	9	False	9	3	0.6667	False	93,99	1	0	
+innexin	17	Euthyneura	9	False	5	3	0.6667	True	100,100	1	0	
+innexin	18	Euthyneura	9	False	4	2	1.0	True	100,100	0	0	
+innexin	19	Gastropoda	8	False	23	4	1.0	False	36,45	8	0	
+innexin	20	Gastropoda	8	False	13	4	1.0	False	90,99	4	0	
+innexin	21	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+innexin	22	Gastropoda	8	False	8	4	0.75	True	100,100	2	0	
+innexin	23	Euthyneura	9	False	4	3	0.3333	False	80,leaf	2	0	
+innexin	24	Gastropoda	8	False	10	4	0.75	True	100,100	4	0	
+innexin	25	Cornu aspersum	11	True	4	1	1.0	True	100,leaf	4	0	
+innexin	26	Cornu aspersum	11	True	3	1	1.0	False	66,leaf	3	0	
+innexin	27	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+innexin	28	Drosophila melanogaster	10	True	3	1	1.0	True	99,leaf	0	0	
+innexin	29	Drosophila melanogaster	10	True	2	1	1.0	True	leaf,leaf	0	0	
+innexin	30	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+innexin	31	Allotriocarida	9	False	14	2	0.5	False	89,100	0	0	
+innexin	32	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+innexin	33	Allotriocarida	9	False	12	2	1.0	False	63,97	0	0	
+innexin	34	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+innexin	35	Allotriocarida	9	False	9	2	1.0	False	92,75	0	0	
+innexin	36	Allotriocarida	9	False	5	2	1.0	True	98,100	0	0	
+innexin	37	Allotriocarida	9	False	4	2	1.0	True	100,100	0	0	
+innexin	38	Caenorhabditis elegans	9	True	15	1	1.0	False	35,87	0	0	
+innexin	39	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+innexin	40	Caenorhabditis elegans	9	True	3	1	1.0	True	leaf,100	0	0	
+innexin	41	Caenorhabditis elegans	9	True	7	1	1.0	False	92,80	0	0	
+innexin	42	Caenorhabditis elegans	9	True	13	1	1.0	False	80,68	0	0	
+innexin	43	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+innexin	44	Caenorhabditis elegans	9	True	11	1	1.0	False	58,75	0	0	
+innexin	45	Caenorhabditis elegans	9	True	4	1	1.0	False	82,leaf	0	0	
+innexin	46	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+innexin	47	Caenorhabditis elegans	9	True	3	1	1.0	True	leaf,100	0	0	
+innexin	48	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+innexin	49	Caenorhabditis elegans	9	True	4	1	1.0	False	92,61	0	0	
+innexin	50	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+innexin	51	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+itpr	0	Opisthokonta	3	False	72	30	0.2333	True	100,100	3	3	ITPR2,ITPR3,ITPR1
+itpr	1	Vertebrata	9	False	42	14	1.0	False	88,96	2	3	ITPR2,ITPR3,ITPR1
+itpr	2	Clupeocephala	12	False	4	2	1.0	True	100,100	0	0	
+itpr	3	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+itpr	4	Gnathostomata	10	False	24	13	0.8462	True	100,100	1	2	ITPR2,ITPR3
+itpr	5	Oligohymenophorea	4	False	17	2	1.0	True	100,100	0	0	
+itpr	6	Oligohymenophorea	4	False	13	2	0.5	False	74,leaf	0	0	
+itpr	7	Oligohymenophorea	4	False	12	2	0.5	True	99,leaf	0	0	
+itpr	8	Oligohymenophorea	4	False	11	2	1.0	True	100,100	0	0	
+itpr	9	Oligohymenophorea	4	False	3	2	0.5	True	leaf,95	0	0	
+itpr	10	Oligohymenophorea	4	False	8	2	1.0	True	100,100	0	0	
+itpr	11	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+itpr	12	Paramecium tetraurelia	5	True	4	1	1.0	True	100,100	0	0	
+itpr	13	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+itpr	14	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+itpr	15	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+itpr	16	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+itpr	17	Monosiga brevicollis	4	True	2	1	1.0	True	leaf,leaf	0	0	
+itpr	18	Gastropoda	8	False	6	3	0.6667	True	100,100	0	0	
+itpr	19	Gastropoda	8	False	4	3	0.3333	True	100,100	0	0	
+itpr	20	Amphimedon queenslandica	5	True	3	1	1.0	True	100,leaf	0	0	
+itpr	21	Amphimedon queenslandica	5	True	4	1	1.0	True	leaf,100	0	0	
+itpr	22	Amphimedon queenslandica	5	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	0	Eukaryota	2	False	97	23	0.2174	False	25,18	2	1	KCNK18
+k2p	1	Caenorhabditis elegans	9	True	19	1	1.0	False	76,47	0	0	
+k2p	2	Caenorhabditis elegans	9	True	7	1	1.0	True	100,leaf	0	0	
+k2p	3	Caenorhabditis elegans	9	True	8	1	1.0	False	leaf,55	0	0	
+k2p	4	Caenorhabditis elegans	9	True	11	1	1.0	False	85,34	0	0	
+k2p	5	Eukaryota	2	False	380	32	0.6562	False	69,69	20	15	KCNK1,KCNK3,KCNK2,KCNK5,KCNK10,KCNK18,KCNK17,KCNK16,KCNK15,KCNK13,KCNK12,KCNK9,KCNK4,KCNK6,KCNK7
+k2p	6	Protostomia	7	False	25	5	0.2	False	leaf,68	0	0	
+k2p	7	Caenorhabditis elegans	9	True	6	1	1.0	True	100,100	0	0	
+k2p	8	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	9	Caenorhabditis elegans	9	True	4	1	1.0	False	92,leaf	0	0	
+k2p	10	Caenorhabditis elegans	9	True	3	1	1.0	True	leaf,100	0	0	
+k2p	11	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	12	Caenorhabditis elegans	9	True	3	1	1.0	True	100,leaf	0	0	
+k2p	13	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	14	Caenorhabditis elegans	9	True	8	1	1.0	False	48,71	0	0	
+k2p	15	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	16	Caenorhabditis elegans	9	True	4	1	1.0	False	61,71	0	0	
+k2p	17	Caenorhabditis elegans	9	True	6	1	1.0	False	58,65	0	0	
+k2p	18	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	19	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	20	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	21	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	22	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	23	Bilateria	6	False	38	20	0.05	False	50,48	2	1	KCNK18
+k2p	24	Eukaryota	2	False	55	23	0.0435	False	31,53	2	1	KCNK18
+k2p	25	Eukaryota	2	False	72	23	0.0435	False	97,16	2	1	KCNK18
+k2p	26	Protostomia	7	False	21	7	0.2857	False	76,100	2	0	
+k2p	27	Protostomia	7	False	18	6	0.1667	False	33,leaf	2	0	
+k2p	28	Protostomia	7	False	17	6	0.3333	False	35,68	2	0	
+k2p	29	Gastropoda	8	False	7	3	1.0	False	70,74	2	0	
+k2p	30	Gastropoda	8	False	4	3	0.3333	False	74,58	1	0	
+k2p	31	Ecdysozoa	8	False	8	3	0.3333	False	94,leaf	0	0	
+k2p	32	Allotriocarida	9	False	6	2	1.0	False	79,68	0	0	
+k2p	33	Allotriocarida	9	False	3	2	0.5	True	100,leaf	0	0	
+k2p	34	Allotriocarida	9	False	4	2	0.5	False	leaf,86	0	0	
+k2p	35	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	36	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	37	Eukaryota	2	False	17	4	0.25	False	37,99	0	0	
+k2p	38	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	100,leaf	0	0	
+k2p	39	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	40	Eukaryota	2	False	14	4	0.25	False	26,100	0	0	
+k2p	41	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	42	Embryophyta	4	False	11	3	1.0	False	91,98	0	0	
+k2p	43	Oryza sativa	6	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	44	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	45	Mesangiospermae	5	False	5	2	0.5	False	65,leaf	0	0	
+k2p	46	Arabidopsis thaliana	6	True	3	1	1.0	True	100,leaf	0	0	
+k2p	47	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	48	Caenorhabditis elegans	9	True	7	1	1.0	False	100,92	0	0	
+k2p	49	Caenorhabditis elegans	9	True	17	1	1.0	False	79,75	0	0	
+k2p	50	Caenorhabditis elegans	9	True	4	1	1.0	False	59,leaf	0	0	
+k2p	51	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	52	Caenorhabditis elegans	9	True	3	1	1.0	True	leaf,100	0	0	
+k2p	53	Caenorhabditis elegans	9	True	3	1	1.0	False	67,leaf	0	0	
+k2p	54	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	55	Caenorhabditis elegans	9	True	10	1	1.0	False	70,75	0	0	
+k2p	56	Caenorhabditis elegans	9	True	3	1	1.0	False	53,leaf	0	0	
+k2p	57	Caenorhabditis elegans	9	True	5	1	1.0	False	100,64	0	0	
+k2p	58	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	59	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	60	Caenorhabditis elegans	9	True	5	1	1.0	False	78,leaf	0	0	
+k2p	61	Caenorhabditis elegans	9	True	4	1	1.0	False	48,leaf	0	0	
+k2p	62	Caenorhabditis elegans	9	True	3	1	1.0	False	60,leaf	0	0	
+k2p	63	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	64	Opisthokonta	3	False	282	29	0.069	True	97,99	18	14	KCNK1,KCNK3,KCNK2,KCNK5,KCNK10,KCNK17,KCNK16,KCNK15,KCNK13,KCNK12,KCNK9,KCNK4,KCNK6,KCNK7
+k2p	65	Cnidaria	6	False	13	2	0.5	False	60,65	0	0	
+k2p	66	Opisthokonta	3	False	119	28	0.0714	False	50,81	10	5	KCNK3,KCNK15,KCNK13,KCNK12,KCNK9
+k2p	67	Nematostella vectensis	7	True	6	1	1.0	False	100,82	0	0	
+k2p	68	Opisthokonta	3	False	280	29	0.8621	False	86,86	18	14	KCNK1,KCNK3,KCNK2,KCNK5,KCNK10,KCNK17,KCNK16,KCNK15,KCNK13,KCNK12,KCNK9,KCNK4,KCNK6,KCNK7
+k2p	69	Nematostella vectensis	7	True	3	1	1.0	True	100,leaf	0	0	
+k2p	70	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	71	Nematostella vectensis	7	True	3	1	1.0	True	leaf,100	0	0	
+k2p	72	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	73	Cnidaria	6	False	7	2	0.5	False	72,leaf	0	0	
+k2p	74	Nematostella vectensis	7	True	4	1	1.0	False	94,leaf	0	0	
+k2p	75	Cnidaria	6	False	6	2	0.5	False	90,48	0	0	
+k2p	76	Nematostella vectensis	7	True	3	1	1.0	False	74,leaf	0	0	
+k2p	77	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	78	Opisthokonta	3	False	106	28	0.0357	False	67,leaf	10	5	KCNK3,KCNK15,KCNK13,KCNK12,KCNK9
+k2p	79	Opisthokonta	3	False	105	28	0.75	False	99,60	10	5	KCNK3,KCNK15,KCNK13,KCNK12,KCNK9
+k2p	80	Euthyneura	9	False	4	3	0.3333	False	75,leaf	2	0	
+k2p	81	Vertebrata	9	False	36	14	0.3571	False	23,47	3	2	KCNK13,KCNK12
+k2p	82	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	83	Clupeocephala	12	False	4	2	0.5	False	49,leaf	0	0	
+k2p	84	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+k2p	85	Gnathostomata	10	False	27	13	0.9231	False	69,96	2	2	KCNK13,KCNK12
+k2p	86	Gnathostomata	10	False	13	12	0.0833	True	96,leaf	1	1	KCNK12
+k2p	87	Clupeocephala	12	False	3	2	0.5	True	99,leaf	0	0	
+k2p	88	Allotriocarida	9	False	4	2	1.0	True	100,99	0	0	
+k2p	89	Gastropoda	8	False	5	4	0.25	False	59,leaf	2	0	
+k2p	90	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	91	Vertebrata	9	False	43	14	0.9286	False	100,88	3	3	KCNK3,KCNK15,KCNK9
+k2p	92	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	93	Gnathostomata	10	False	26	13	0.9231	True	100,99	2	2	KCNK15,KCNK9
+k2p	94	Clupeocephala	12	False	3	2	0.5	False	leaf,81	0	0	
+k2p	95	Clupeocephala	12	False	4	2	1.0	False	99,85	0	0	
+k2p	96	Metazoa	4	False	108	23	0.6957	False	67,17	4	6	KCNK2,KCNK5,KCNK10,KCNK17,KCNK16,KCNK4
+k2p	97	Metazoa	4	False	161	26	0.7692	False	57,78	8	9	KCNK1,KCNK2,KCNK5,KCNK10,KCNK17,KCNK16,KCNK4,KCNK6,KCNK7
+k2p	98	Branchiostoma floridae	9	True	7	1	1.0	False	87,leaf	0	0	
+k2p	99	Bilateria	6	False	54	18	0.0556	False	55,85	1	3	KCNK5,KCNK17,KCNK16
+k2p	100	Branchiostoma floridae	9	True	6	1	1.0	True	leaf,96	0	0	
+k2p	101	Branchiostoma floridae	9	True	5	1	1.0	False	leaf,63	0	0	
+k2p	102	Branchiostoma floridae	9	True	4	1	1.0	False	53,leaf	0	0	
+k2p	103	Branchiostoma floridae	9	True	3	1	1.0	True	100,leaf	0	0	
+k2p	104	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	105	Branchiostoma floridae	9	True	4	1	1.0	False	40,leaf	0	0	
+k2p	106	Branchiostoma floridae	9	True	6	1	1.0	False	40,48	0	0	
+k2p	107	Branchiostoma floridae	9	True	3	1	1.0	False	68,leaf	0	0	
+k2p	108	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	109	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	110	Ciona intestinalis	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	111	Vertebrata	9	False	37	14	0.3571	False	65,99	1	3	KCNK5,KCNK17,KCNK16
+k2p	112	Vertebrata	9	False	32	14	0.6429	False	96,29	1	3	KCNK5,KCNK17,KCNK16
+k2p	113	Gnathostomata	10	False	22	13	0.6154	True	100,100	1	2	KCNK5,KCNK16
+k2p	114	Clupeocephala	12	False	3	2	0.5	True	leaf,100	0	0	
+k2p	115	Daphnia pulex	10	True	3	1	1.0	True	96,leaf	0	0	
+k2p	116	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	117	Vertebrata	9	False	45	14	0.0714	False	92,leaf	3	3	KCNK2,KCNK10,KCNK4
+k2p	118	Vertebrata	9	False	34	14	0.0714	True	100,leaf	3	2	KCNK2,KCNK10
+k2p	119	Vertebrata	9	False	44	14	0.5714	False	89,50	3	3	KCNK2,KCNK10,KCNK4
+k2p	120	Vertebrata	9	False	33	14	0.0714	False	88,99	2	2	KCNK2,KCNK10
+k2p	121	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	122	Vertebrata	9	False	31	14	0.9286	False	100,67	2	2	KCNK2,KCNK10
+k2p	123	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	124	Clupeocephala	12	False	3	2	0.5	False	leaf,93	0	0	
+k2p	125	Clupeocephala	12	False	4	2	0.5	False	61,leaf	0	0	
+k2p	126	Clupeocephala	12	False	3	2	0.5	False	leaf,68	0	0	
+k2p	127	Clupeocephala	12	False	4	2	1.0	False	97,41	0	0	
+k2p	128	Eumetazoa	5	False	53	23	0.087	False	100,56	4	3	KCNK1,KCNK6,KCNK7
+k2p	129	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	130	Strongylocentrotus purpuratus	8	True	5	1	1.0	False	59,leaf	0	0	
+k2p	131	Strongylocentrotus purpuratus	8	True	4	1	1.0	True	100,leaf	0	0	
+k2p	132	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	leaf,99	0	0	
+k2p	133	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+k2p	134	Euthyneura	9	False	5	3	0.3333	False	49,leaf	2	0	
+k2p	135	Panpulmonata	10	False	3	2	0.5	False	73,leaf	2	0	
+k2p	136	Vertebrata	9	False	35	14	0.7857	False	100,64	2	3	KCNK1,KCNK6,KCNK7
+k2p	137	Vertebrata	9	False	24	14	0.1429	False	58,100	1	2	KCNK1,KCNK7
+k2p	138	Vertebrata	9	False	22	14	0.0714	False	89,leaf	1	2	KCNK1,KCNK7
+k2p	139	Gnathostomata	10	False	20	13	0.4615	True	98,99	1	2	KCNK1,KCNK7
+k2p	140	Clupeocephala	12	False	3	2	0.5	False	65,leaf	0	0	
+kainate	0	Clupeocephala	12	False	4	2	1.0	True	100,100	0	0	
+kainate	1	Bilateria	6	False	78	19	0.5789	False	26,26	4	5	GRIK1,GRIK2,GRIK3,GRIK4,GRIK5
+kainate	2	Bilateria	6	False	65	19	0.1053	False	35,84	4	4	GRIK2,GRIK3,GRIK4,GRIK5
+kainate	3	Bilateria	6	False	63	19	0.7368	False	58,10	3	4	GRIK2,GRIK3,GRIK4,GRIK5
+kainate	4	Bilateria	6	False	33	19	0.0526	False	37,99	1	2	GRIK4,GRIK5
+kainate	5	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kainate	6	Protostomia	7	False	4	3	0.3333	False	40,leaf	0	0	
+kainate	7	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+kainate	8	Gnathostomata	10	False	23	13	0.6154	True	100,100	1	2	GRIK4,GRIK5
+kainate	9	Clupeocephala	12	False	4	2	1.0	False	75,89	0	0	
+kainate	10	Gnathostomata	10	False	29	13	1.0	True	100,100	2	2	GRIK2,GRIK3
+kainate	11	Clupeocephala	12	False	5	2	1.0	False	80,100	0	0	
+kainate	12	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_sk	0	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_sk	1	Paramecium tetraurelia	5	True	5	1	1.0	True	100,100	0	0	
+kca_sk	2	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_sk	3	Paramecium tetraurelia	5	True	3	1	1.0	True	100,leaf	0	0	
+kca_sk	4	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_sk	5	Bilateria	6	False	73	24	0.0417	False	37,leaf	6	4	KCNN4,KCNN1,KCNN2,KCNN3
+kca_sk	6	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+kca_sk	7	Bilateria	6	False	72	24	0.0833	False	54,35	6	4	KCNN4,KCNN1,KCNN2,KCNN3
+kca_sk	8	Bilateria	6	False	69	24	0.0417	False	54,leaf	4	4	KCNN4,KCNN1,KCNN2,KCNN3
+kca_sk	9	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_sk	10	Gastropoda	8	False	8	4	0.5	True	100,95	1	0	
+kca_sk	11	Gastropoda	8	False	5	3	0.3333	False	81,100	0	0	
+kca_sk	12	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_sk	13	Caenorhabditis elegans	9	True	4	1	1.0	True	100,leaf	0	0	
+kca_sk	14	Caenorhabditis elegans	9	True	3	1	1.0	False	leaf,92	0	0	
+kca_sk	15	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_sk	16	Vertebrata	9	False	50	14	0.0714	False	20,leaf	3	4	KCNN4,KCNN1,KCNN2,KCNN3
+kca_sk	17	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_sk	18	Gnathostomata	10	False	27	13	0.9231	True	100,100	2	2	KCNN1,KCNN2
+kca_sk	19	Gnathostomata	10	False	47	13	0.9231	False	94,66	3	4	KCNN4,KCNN1,KCNN2,KCNN3
+kca_sk	20	Clupeocephala	12	False	4	2	0.5	False	73,leaf	0	0	
+kca_sk	21	Clupeocephala	12	False	3	2	0.5	False	59,leaf	0	0	
+kca_sk	22	Gnathostomata	10	False	20	12	0.5833	False	100,56	1	2	KCNN4,KCNN3
+kca_sk	23	Clupeocephala	12	False	3	2	0.5	True	99,leaf	0	0	
+kca_slo	0	Eukaryota	2	False	106	34	0.6765	False	39,39	5	4	KCNU1,KCNMA1,KCNT1,KCNT2
+kca_slo	1	Dictyostelium discoideum	3	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_slo	2	Oligohymenophorea	4	False	12	2	1.0	True	95,100	0	0	
+kca_slo	3	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_slo	4	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_slo	5	Paramecium tetraurelia	5	True	3	1	1.0	True	leaf,96	0	0	
+kca_slo	6	Oligohymenophorea	4	False	7	2	1.0	True	100,100	0	0	
+kca_slo	7	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_slo	8	Paramecium tetraurelia	5	True	3	1	1.0	True	100,leaf	0	0	
+kca_slo	9	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_slo	10	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_slo	11	Gastropoda	8	False	10	4	0.25	True	100,leaf	2	0	
+kca_slo	12	Gastropoda	8	False	8	4	0.25	True	100,leaf	2	0	
+kca_slo	13	Gastropoda	8	False	9	4	0.25	True	leaf,100	2	0	
+kca_slo	14	Gastropoda	8	False	3	2	0.5	True	100,leaf	0	0	
+kca_slo	15	Panpulmonata	10	False	4	2	1.0	True	99,100	2	0	
+kca_slo	16	Vertebrata	9	False	34	14	0.0714	False	51,leaf	2	2	KCNT1,KCNT2
+kca_slo	17	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_slo	18	Gnathostomata	10	False	31	13	1.0	True	100,100	2	2	KCNT1,KCNT2
+kca_slo	19	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+kca_slo	20	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_slo	21	Gnathostomata	10	False	16	13	0.2308	True	98,100	1	1	KCNT2
+kca_slo	22	Hydra vulgaris	7	True	4	1	1.0	True	98,leaf	0	0	
+kca_slo	23	Hydra vulgaris	7	True	3	1	1.0	False	81,leaf	0	0	
+kca_slo	24	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_slo	25	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_slo	26	Vertebrata	9	False	20	12	0.4167	True	100,100	0	2	KCNU1,KCNMA1
+kca_slo	27	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+kca_slo	28	Clupeocephala	12	False	3	2	0.5	False	leaf,65	0	0	
+kir	0	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	1	Petromyzon marinus	10	True	3	1	1.0	True	leaf,100	0	0	
+kir	2	cellular organisms	1	False	298	32	0.375	False	76,76	17	16	KCNJ18,KCNJ13,KCNJ1,KCNJ4,KCNJ6,KCNJ5,KCNJ3,KCNJ2,KCNJ10,KCNJ12,KCNJ11,KCNJ8,KCNJ9,KCNJ15,KCNJ16,KCNJ14
+kir	3	Vertebrata	9	False	28	14	0.0714	False	52,leaf	2	2	KCNJ10,KCNJ15
+kir	4	cellular organisms	1	False	284	32	0.4375	False	62,100	17	15	KCNJ18,KCNJ1,KCNJ4,KCNJ6,KCNJ5,KCNJ3,KCNJ2,KCNJ10,KCNJ12,KCNJ11,KCNJ8,KCNJ9,KCNJ15,KCNJ16,KCNJ14
+kir	5	Vertebrata	9	False	27	14	0.7857	False	99,77	2	2	KCNJ10,KCNJ15
+kir	6	Clupeocephala	12	False	4	2	0.5	False	86,leaf	0	0	
+kir	7	Clupeocephala	12	False	3	2	0.5	False	87,leaf	0	0	
+kir	8	cellular organisms	1	False	256	32	0.0312	False	70,leaf	15	13	KCNJ18,KCNJ1,KCNJ4,KCNJ6,KCNJ5,KCNJ3,KCNJ2,KCNJ12,KCNJ11,KCNJ8,KCNJ9,KCNJ16,KCNJ14
+kir	9	cellular organisms	1	False	255	32	0.4062	True	97,100	15	13	KCNJ18,KCNJ1,KCNJ4,KCNJ6,KCNJ5,KCNJ3,KCNJ2,KCNJ12,KCNJ11,KCNJ8,KCNJ9,KCNJ16,KCNJ14
+kir	10	Clupeocephala	12	False	9	2	1.0	False	78,69	0	0	
+kir	11	Danio rerio	13	True	6	1	1.0	False	75,leaf	0	0	
+kir	12	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	13	Danio rerio	13	True	5	1	1.0	False	81,70	0	0	
+kir	14	Danio rerio	13	True	3	1	1.0	False	leaf,61	0	0	
+kir	15	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	16	cellular organisms	1	False	235	32	0.125	False	62,100	14	12	KCNJ18,KCNJ4,KCNJ6,KCNJ5,KCNJ3,KCNJ2,KCNJ12,KCNJ11,KCNJ8,KCNJ9,KCNJ16,KCNJ14
+kir	17	Gastropoda	8	False	8	4	1.0	True	100,100	2	0	
+kir	18	cellular organisms	1	False	227	32	0.0312	False	80,leaf	12	12	KCNJ18,KCNJ4,KCNJ6,KCNJ5,KCNJ3,KCNJ2,KCNJ12,KCNJ11,KCNJ8,KCNJ9,KCNJ16,KCNJ14
+kir	19	cellular organisms	1	False	226	32	0.0625	False	53,74	12	12	KCNJ18,KCNJ4,KCNJ6,KCNJ5,KCNJ3,KCNJ2,KCNJ12,KCNJ11,KCNJ8,KCNJ9,KCNJ16,KCNJ14
+kir	20	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	21	Nematostella vectensis	7	True	4	1	1.0	False	96,56	0	0	
+kir	22	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	23	cellular organisms	1	False	13	5	0.4	False	74,38	0	0	
+kir	24	cellular organisms	1	False	11	5	0.2	False	92,leaf	0	0	
+kir	25	cellular organisms	1	False	9	4	0.25	False	98,91	0	0	
+kir	26	Trichoplax adhaerens	6	True	3	1	1.0	False	60,leaf	0	0	
+kir	27	Trichoplax adhaerens	6	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	28	Chlamydomonas reinhardtii	4	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	29	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	30	Amphimedon queenslandica	5	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	31	Gastropoda	8	False	8	4	0.75	True	100,100	2	0	
+kir	32	Euthyneura	9	False	4	3	0.3333	False	15,leaf	2	0	
+kir	33	Allotriocarida	9	False	3	2	0.5	False	65,leaf	0	0	
+kir	34	Allotriocarida	9	False	4	2	0.5	False	leaf,75	0	0	
+kir	35	Caenorhabditis elegans	9	True	3	1	1.0	False	52,leaf	0	0	
+kir	36	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	37	Strongylocentrotus purpuratus	8	True	4	1	1.0	True	100,100	0	0	
+kir	38	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	39	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	40	Chordata	8	False	185	16	0.9375	False	85,31	10	12	KCNJ18,KCNJ4,KCNJ6,KCNJ5,KCNJ3,KCNJ2,KCNJ12,KCNJ11,KCNJ8,KCNJ9,KCNJ16,KCNJ14
+kir	41	Chordata	8	False	114	16	0.0625	False	40,leaf	8	6	KCNJ6,KCNJ5,KCNJ3,KCNJ11,KCNJ8,KCNJ9
+kir	42	Chordata	8	False	113	16	0.9375	False	69,42	8	6	KCNJ6,KCNJ5,KCNJ3,KCNJ11,KCNJ8,KCNJ9
+kir	43	Vertebrata	9	False	34	14	0.0714	False	91,leaf	3	2	KCNJ11,KCNJ8
+kir	44	Vertebrata	9	False	33	14	0.9286	False	87,38	3	2	KCNJ11,KCNJ8
+kir	45	Torpedo marmorata	12	True	2	1	1.0	True	leaf,leaf	2	0	
+kir	46	Callorhinchus milii	12	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	47	Vertebrata	9	False	17	13	0.3077	False	47,98	1	1	KCNJ11
+kir	48	Chordata	8	False	77	15	0.6	False	54,100	5	4	KCNJ6,KCNJ5,KCNJ3,KCNJ9
+kir	49	Gnathostomata	10	False	10	8	0.25	False	61,57	1	0	
+kir	50	Chordata	8	False	66	15	0.8667	False	100,90	4	4	KCNJ6,KCNJ5,KCNJ3,KCNJ9
+kir	51	Vertebrata	9	False	25	13	0.0769	False	79,leaf	2	1	KCNJ3
+kir	52	Vertebrata	9	False	24	13	0.0769	False	89,66	2	1	KCNJ3
+kir	53	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	54	Vertebrata	9	False	22	13	0.4615	True	97,95	2	1	KCNJ3
+kir	55	Clupeocephala	12	False	3	2	0.5	False	leaf,82	0	0	
+kir	56	Clupeocephala	12	False	3	2	0.5	False	86,leaf	0	0	
+kir	57	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	58	Vertebrata	9	False	40	14	0.7143	False	64,41	2	3	KCNJ6,KCNJ5,KCNJ9
+kir	59	Gnathostomata	10	False	29	13	0.2308	False	73,80	2	2	KCNJ6,KCNJ5
+kir	60	Gnathostomata	10	False	26	13	1.0	True	100,100	2	2	KCNJ6,KCNJ5
+kir	61	Vertebrata	9	False	70	14	0.8571	False	86,100	2	6	KCNJ18,KCNJ4,KCNJ2,KCNJ12,KCNJ16,KCNJ14
+kir	62	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+kir	63	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	64	Vertebrata	9	False	57	14	0.0714	False	96,85	2	5	KCNJ18,KCNJ4,KCNJ2,KCNJ12,KCNJ14
+kir	65	Gnathostomata	10	False	26	13	0.7692	True	100,97	1	2	KCNJ2,KCNJ14
+kir	66	Vertebrata	9	False	55	14	0.9286	False	86,98	2	5	KCNJ18,KCNJ4,KCNJ2,KCNJ12,KCNJ14
+kir	67	Clupeocephala	12	False	4	2	1.0	False	87,99	0	0	
+kir	68	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+kir	69	Gnathostomata	10	False	28	13	0.9231	True	99,100	1	3	KCNJ18,KCNJ4,KCNJ12
+kir	70	Clupeocephala	12	False	3	2	0.5	True	leaf,99	0	0	
+kir	71	Clupeocephala	12	False	3	2	0.5	True	leaf,100	0	0	
+kir	72	Homo sapiens	18	True	2	1	1.0	True	leaf,leaf	0	2	KCNJ18,KCNJ12
+kv_eag	0	Oligohymenophorea	4	False	7	2	0.5	True	100,100	0	0	
+kv_eag	1	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_eag	2	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_eag	3	Paramecium tetraurelia	5	True	3	1	1.0	True	leaf,100	0	0	
+kv_eag	4	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_eag	5	Eumetazoa	5	False	151	26	0.9615	False	31,48	6	8	KCNH1,KCNH2,KCNH5,KCNH8,KCNH6,KCNH7,KCNH3,KCNH4
+kv_eag	6	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_eag	7	Hydra vulgaris	7	True	5	1	1.0	True	100,100	0	0	
+kv_eag	8	Hydra vulgaris	7	True	3	1	1.0	True	100,leaf	0	0	
+kv_eag	9	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_eag	10	Vertebrata	9	False	30	14	0.7857	False	69,100	1	2	KCNH1,KCNH5
+kv_eag	11	Clupeocephala	12	False	4	2	1.0	False	100,51	0	0	
+kv_eag	12	Petromyzon marinus	10	True	3	1	1.0	True	99,leaf	0	0	
+kv_eag	13	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_eag	14	Clupeocephala	12	False	3	2	0.5	True	99,leaf	0	0	
+kv_eag	15	Eumetazoa	5	False	105	25	0.84	False	75,51	4	6	KCNH2,KCNH8,KCNH6,KCNH7,KCNH3,KCNH4
+kv_eag	16	Petromyzon marinus	10	True	3	1	1.0	True	100,leaf	0	0	
+kv_eag	17	Vertebrata	9	False	36	13	0.7692	False	47,48	0	3	KCNH8,KCNH3,KCNH4
+kv_eag	18	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_eag	19	Clupeocephala	12	False	4	2	1.0	True	100,100	0	0	
+kv_eag	20	Gnathostomata	10	False	22	12	0.6667	True	100,100	0	2	KCNH8,KCNH4
+kv_eag	21	Euteleostomi	11	False	10	9	0.1111	True	100,100	0	1	KCNH3
+kv_eag	22	Hydra vulgaris	7	True	4	1	1.0	False	76,leaf	0	0	
+kv_eag	23	Hydra vulgaris	7	True	3	1	1.0	True	100,leaf	0	0	
+kv_eag	24	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_eag	25	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_eag	26	Bilateria	6	False	55	22	0.0455	True	99,100	4	3	KCNH2,KCNH6,KCNH7
+kv_eag	27	Vertebrata	9	False	44	14	0.8571	False	99,52	2	3	KCNH2,KCNH6,KCNH7
+kv_eag	28	Vertebrata	9	False	17	14	0.0714	False	49,leaf	1	1	KCNH7
+kv_eag	29	Clupeocephala	12	False	4	2	1.0	False	71,98	0	0	
+kv_eag	30	Gnathostomata	10	False	27	12	0.8333	True	100,100	1	2	KCNH2,KCNH6
+kv_eag	31	Clupeocephala	12	False	4	2	1.0	True	100,98	0	0	
+kv_eag	32	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_eag	33	Clupeocephala	12	False	4	2	1.0	True	100,96	0	0	
+kv_eag	34	Bilateria	6	False	8	7	0.1429	False	57,100	2	0	
+kv_kcnq	0	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_kcnq	1	Eumetazoa	5	False	97	23	0.7826	False	94,94	8	5	KCNQ3,KCNQ2,KCNQ1,KCNQ4,KCNQ5
+kv_kcnq	2	Vertebrata	9	False	54	14	0.9286	False	71,59	3	4	KCNQ3,KCNQ2,KCNQ4,KCNQ5
+kv_kcnq	3	Vertebrata	9	False	56	14	0.0714	False	99,52	3	4	KCNQ3,KCNQ2,KCNQ4,KCNQ5
+kv_kcnq	4	Vertebrata	9	False	57	14	0.0714	False	leaf,29	3	4	KCNQ3,KCNQ2,KCNQ4,KCNQ5
+kv_kcnq	5	Gnathostomata	10	False	27	13	0.9231	False	100,62	2	2	KCNQ4,KCNQ5
+kv_kcnq	6	Clupeocephala	12	False	4	2	0.5	False	79,leaf	0	0	
+kv_kcnq	7	Clupeocephala	12	False	3	2	0.5	False	91,leaf	0	0	
+kv_kcnq	8	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_kcnq	9	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_kcnq	10	Hydra vulgaris	7	True	4	1	1.0	False	87,100	0	0	
+kv_kcnq	11	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_kcnq	12	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+kv_kcnq	13	Bilateria	6	False	29	20	0.05	False	83,leaf	3	1	KCNQ1
+kv_kcnq	14	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_kcnq	15	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+kv_kcnq	16	Euthyneura	9	False	5	3	0.3333	True	100,100	2	0	
+kv_kcnq	17	Gnathostomata	10	False	17	12	0.4167	True	100,100	1	1	KCNQ1
+kv_kcnq	18	Gnathostomata	10	False	25	13	0.7692	True	100,100	1	2	KCNQ3,KCNQ2
+kv_kcnq	19	Clupeocephala	12	False	4	2	1.0	False	100,56	0	0	
+kv_modifier	0	Gnathostomata	10	False	34	13	0.3077	False	100,57	2	5	KCNV1,KCNV2,KCNS1,KCNS3,KCNS2
+kv_modifier	1	Theria	16	False	7	4	0.75	True	99,100	0	2	KCNV1,KCNV2
+kv_modifier	2	Gnathostomata	10	False	27	13	0.2308	True	100,100	2	3	KCNS1,KCNS3,KCNS2
+kv_modifier	3	Gnathostomata	10	False	24	13	0.8462	True	100,100	2	2	KCNS1,KCNS2
+kv_modifier	4	Petromyzon marinus	10	True	3	1	1.0	True	leaf,100	0	0	
+kv_modifier	5	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_modifier	6	Gnathostomata	10	False	41	13	1.0	False	57,100	3	3	KCNG4,KCNG1,KCNG2
+kv_modifier	7	Clupeocephala	12	False	4	2	0.5	False	65,leaf	0	0	
+kv_modifier	8	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+kv_modifier	9	Gnathostomata	10	False	26	13	1.0	True	99,98	2	2	KCNG1,KCNG2
+kv_shaker	0	Cnidaria	6	False	13	2	1.0	False	71,61	0	0	
+kv_shaker	1	Cnidaria	6	False	17	2	1.0	False	77,55	0	0	
+kv_shaker	2	Cnidaria	6	False	24	2	1.0	False	41,51	0	0	
+kv_shaker	3	Cnidaria	6	False	8	2	0.5	False	52,leaf	0	0	
+kv_shaker	4	Cnidaria	6	False	7	2	0.5	False	63,85	0	0	
+kv_shaker	5	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	6	Cnidaria	6	False	5	2	0.5	False	79,leaf	0	0	
+kv_shaker	7	Hydra vulgaris	7	True	3	1	1.0	False	79,leaf	0	0	
+kv_shaker	8	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	9	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	10	Hydra vulgaris	7	True	3	1	1.0	True	leaf,100	0	0	
+kv_shaker	11	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	12	Cnidaria	6	False	4	2	1.0	False	52,100	0	0	
+kv_shaker	13	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	14	Cnidaria	6	False	7	2	0.5	False	56,92	0	0	
+kv_shaker	15	Cnidaria	6	False	5	2	1.0	False	91,85	0	0	
+kv_shaker	16	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	17	Cnidaria	6	False	5	2	1.0	False	57,85	0	0	
+kv_shaker	18	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	19	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	20	Bilateria	6	False	58	24	0.0417	False	54,94	4	3	KCND1,KCND2,KCND3
+kv_shaker	21	Branchiostoma floridae	9	True	10	1	1.0	False	89,leaf	0	0	
+kv_shaker	22	Branchiostoma floridae	9	True	9	1	1.0	False	44,leaf	0	0	
+kv_shaker	23	Branchiostoma floridae	9	True	8	1	1.0	False	99,77	0	0	
+kv_shaker	24	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	25	Branchiostoma floridae	9	True	5	1	1.0	True	100,leaf	0	0	
+kv_shaker	26	Branchiostoma floridae	9	True	6	1	1.0	False	leaf,93	0	0	
+kv_shaker	27	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	28	Branchiostoma floridae	9	True	4	1	1.0	False	87,86	0	0	
+kv_shaker	29	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	30	Vertebrata	9	False	27	14	0.7857	False	100,77	2	2	KCND2,KCND3
+kv_shaker	31	Vertebrata	9	False	37	14	0.7143	False	100,75	2	3	KCND1,KCND2,KCND3
+kv_shaker	32	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	33	Clupeocephala	12	False	3	2	0.5	False	67,leaf	0	0	
+kv_shaker	34	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+kv_shaker	35	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	36	Vertebrata	9	False	51	13	0.0769	False	66,52	0	4	KCNC1,KCNC4,KCNC3,KCNC2
+kv_shaker	37	Vertebrata	9	False	49	13	1.0	False	83,32	0	4	KCNC1,KCNC4,KCNC3,KCNC2
+kv_shaker	38	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	39	Gnathostomata	10	False	21	12	0.75	True	99,97	0	2	KCNC4,KCNC2
+kv_shaker	40	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	41	Vertebrata	9	False	26	13	0.6923	False	95,61	0	2	KCNC1,KCNC3
+kv_shaker	42	Clupeocephala	12	False	4	2	1.0	False	73,87	0	0	
+kv_shaker	43	Clupeocephala	12	False	3	2	0.5	False	93,leaf	0	0	
+kv_shaker	44	Eumetazoa	5	False	166	25	0.08	False	55,64	9	8	KCNA2,KCNA6,KCNA3,KCNA4,KCNA5,KCNA1,KCNA10,KCNA7
+kv_shaker	45	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	46	Bilateria	6	False	162	24	0.125	False	55,72	9	8	KCNA2,KCNA6,KCNA3,KCNA4,KCNA5,KCNA1,KCNA10,KCNA7
+kv_shaker	47	Gastropoda	8	False	6	3	1.0	True	100,100	0	0	
+kv_shaker	48	Branchiostoma floridae	9	True	21	1	1.0	False	66,80	0	0	
+kv_shaker	49	Branchiostoma floridae	9	True	11	1	1.0	True	leaf,99	0	0	
+kv_shaker	50	Branchiostoma floridae	9	True	3	1	1.0	True	100,leaf	0	0	
+kv_shaker	51	Branchiostoma floridae	9	True	10	1	1.0	False	45,97	0	0	
+kv_shaker	52	Branchiostoma floridae	9	True	4	1	1.0	True	leaf,100	0	0	
+kv_shaker	53	Bilateria	6	False	155	23	0.0435	False	99,57	9	8	KCNA2,KCNA6,KCNA3,KCNA4,KCNA5,KCNA1,KCNA10,KCNA7
+kv_shaker	54	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	55	Branchiostoma floridae	9	True	4	1	1.0	False	100,76	0	0	
+kv_shaker	56	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	57	Branchiostoma floridae	9	True	6	1	1.0	False	92,99	0	0	
+kv_shaker	58	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	59	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	60	Branchiostoma floridae	9	True	5	1	1.0	False	leaf,50	0	0	
+kv_shaker	61	Branchiostoma floridae	9	True	4	1	1.0	True	leaf,100	0	0	
+kv_shaker	62	Branchiostoma floridae	9	True	3	1	1.0	True	100,leaf	0	0	
+kv_shaker	63	Branchiostoma floridae	9	True	6	1	1.0	True	leaf,99	0	0	
+kv_shaker	64	Branchiostoma floridae	9	True	10	1	1.0	False	60,98	0	0	
+kv_shaker	65	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	66	Branchiostoma floridae	9	True	4	1	1.0	False	45,leaf	0	0	
+kv_shaker	67	Branchiostoma floridae	9	True	3	1	1.0	True	100,leaf	0	0	
+kv_shaker	68	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	69	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	70	Bilateria	6	False	134	23	0.0435	False	68,100	9	8	KCNA2,KCNA6,KCNA3,KCNA4,KCNA5,KCNA1,KCNA10,KCNA7
+kv_shaker	71	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+kv_shaker	72	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	73	Petromyzon marinus	10	True	10	1	1.0	False	60,85	0	0	
+kv_shaker	74	Petromyzon marinus	10	True	4	1	1.0	False	71,90	0	0	
+kv_shaker	75	Vertebrata	9	False	122	14	0.9286	False	49,43	7	8	KCNA2,KCNA6,KCNA3,KCNA4,KCNA5,KCNA1,KCNA10,KCNA7
+kv_shaker	76	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	77	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	78	Petromyzon marinus	10	True	6	1	1.0	True	99,100	0	0	
+kv_shaker	79	Petromyzon marinus	10	True	3	1	1.0	True	leaf,96	0	0	
+kv_shaker	80	Petromyzon marinus	10	True	3	1	1.0	True	100,leaf	0	0	
+kv_shaker	81	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	82	Clupeocephala	12	False	3	2	0.5	False	73,leaf	0	0	
+kv_shaker	83	Vertebrata	9	False	99	14	0.0714	False	44,37	6	7	KCNA2,KCNA6,KCNA3,KCNA4,KCNA5,KCNA1,KCNA10
+kv_shaker	84	Petromyzon marinus	10	True	4	1	1.0	True	leaf,98	0	0	
+kv_shaker	85	Petromyzon marinus	10	True	3	1	1.0	True	100,leaf	0	0	
+kv_shaker	86	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	87	Vertebrata	9	False	95	14	0.7143	False	73,100	6	7	KCNA2,KCNA6,KCNA3,KCNA4,KCNA5,KCNA1,KCNA10
+kv_shaker	88	Petromyzon marinus	10	True	4	1	1.0	True	100,leaf	0	0	
+kv_shaker	89	Petromyzon marinus	10	True	5	1	1.0	True	leaf,100	0	0	
+kv_shaker	90	Petromyzon marinus	10	True	3	1	1.0	False	86,leaf	0	0	
+kv_shaker	91	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+kv_shaker	92	Gnathostomata	10	False	80	13	1.0	True	96,98	5	6	KCNA2,KCNA6,KCNA3,KCNA5,KCNA1,KCNA10
+kv_shaker	93	Gnathostomata	10	False	54	13	0.9231	False	77,100	3	4	KCNA2,KCNA6,KCNA3,KCNA1
+kv_shaker	94	Clupeocephala	12	False	4	2	0.5	True	97,leaf	0	0	
+kv_shaker	95	Clupeocephala	12	False	3	2	0.5	True	leaf,99	0	0	
+kv_shaker	96	Gnathostomata	10	False	40	13	0.8462	True	98,100	2	3	KCNA2,KCNA3,KCNA1
+kv_shaker	97	Clupeocephala	12	False	3	2	0.5	True	99,leaf	0	0	
+kv_shaker	98	Gnathostomata	10	False	28	13	0.9231	True	100,100	2	2	KCNA2,KCNA1
+kv_shaker	99	Clupeocephala	12	False	3	2	0.5	True	98,leaf	0	0	
+kv_shaker	100	Clupeocephala	12	False	4	2	0.5	False	leaf,62	0	0	
+kv_shaker	101	Clupeocephala	12	False	3	2	0.5	False	94,leaf	0	0	
+kv_shaker	102	Gnathostomata	10	False	26	13	0.8462	True	100,100	2	2	KCNA5,KCNA10
+kv_shaker	103	Clupeocephala	12	False	4	2	1.0	True	97,100	0	0	
+lrrc8	0	Gnathostomata	10	False	26	13	0.7692	True	100,98	1	2	LRRC8E,LRRC8C
+lrrc8	1	Vertebrata	9	False	51	14	0.2857	True	100,100	2	2	LRRC8E,LRRC8C
+lrrc8	2	Vertebrata	9	False	101	14	1.0	False	98,90	4	5	LRRC8E,LRRC8B,LRRC8D,LRRC8A,LRRC8C
+lrrc8	3	Vertebrata	9	False	74	14	1.0	False	100,70	3	3	LRRC8E,LRRC8D,LRRC8C
+lrrc8	4	Petromyzon marinus	10	True	20	1	1.0	False	18,leaf	0	0	
+lrrc8	5	Petromyzon marinus	10	True	19	1	1.0	False	21,leaf	0	0	
+lrrc8	6	Petromyzon marinus	10	True	4	1	1.0	False	85,leaf	0	0	
+lrrc8	7	Petromyzon marinus	10	True	18	1	1.0	False	41,79	0	0	
+lrrc8	8	Petromyzon marinus	10	True	3	1	1.0	False	79,leaf	0	0	
+lrrc8	9	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+lrrc8	10	Petromyzon marinus	10	True	14	1	1.0	False	68,39	0	0	
+lrrc8	11	Petromyzon marinus	10	True	3	1	1.0	False	leaf,42	0	0	
+lrrc8	12	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+lrrc8	13	Petromyzon marinus	10	True	11	1	1.0	False	18,95	0	0	
+lrrc8	14	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+lrrc8	15	Petromyzon marinus	10	True	5	1	1.0	False	34,70	0	0	
+lrrc8	16	Petromyzon marinus	10	True	9	1	1.0	False	63,71	0	0	
+lrrc8	17	Petromyzon marinus	10	True	3	1	1.0	False	leaf,63	0	0	
+lrrc8	18	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+lrrc8	19	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+lrrc8	20	Petromyzon marinus	10	True	4	1	1.0	True	100,95	0	0	
+lrrc8	21	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+lrrc8	22	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+lrrc8	23	Gnathostomata	10	False	4	3	0.3333	True	100,leaf	1	0	
+lrrc8	24	Callorhinchus milii	12	True	2	1	1.0	True	leaf,leaf	0	0	
+lrrc8	25	Vertebrata	9	False	23	14	0.0714	False	94,100	1	1	LRRC8D
+lrrc8	26	Gnathostomata	10	False	20	13	0.3077	False	100,81	1	1	LRRC8D
+lrrc8	27	Latimeria chalumnae	13	True	2	1	1.0	True	leaf,leaf	0	0	
+lrrc8	28	Clupeocephala	12	False	4	2	1.0	False	94,100	0	0	
+lrrc8	29	Gnathostomata	10	False	26	13	0.7692	True	100,100	1	2	LRRC8B,LRRC8A
+lrrc8	30	Monodelphis domestica	17	True	2	1	1.0	True	leaf,leaf	0	0	
+lrrc8	31	Clupeocephala	12	False	4	2	1.0	True	99,97	0	0	
+lrrc8	32	Xenopus tropicalis	14	True	4	1	1.0	True	leaf,100	0	0	
+lrrc8	33	Xenopus tropicalis	14	True	3	1	1.0	True	100,leaf	0	0	
+lrrc8	34	Xenopus tropicalis	14	True	2	1	1.0	True	leaf,leaf	0	0	
+mcu	0	Opisthokonta	3	False	42	29	0.3793	False	95,55	3	2	MCU,MCUB
+mcu	1	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+mcu	2	Euthyneura	9	False	4	3	0.3333	False	56,leaf	2	0	
+mscs	0	Arabidopsis thaliana	6	True	5	1	1.0	True	98,100	0	0	
+mscs	1	Mesangiospermae	5	False	9	2	1.0	True	100,100	0	0	
+mscs	2	Arabidopsis thaliana	6	True	3	1	1.0	True	99,leaf	0	0	
+mscs	3	Embryophyta	4	False	14	3	0.3333	False	100,94	0	0	
+mscs	4	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	5	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	6	Physcomitrium patens	5	True	3	1	1.0	True	97,leaf	0	0	
+mscs	7	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	8	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	9	Monosiga brevicollis	4	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	10	Schizosaccharomyces pombe	5	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	11	Cyanophyceae	4	False	4	2	0.5	False	54,96	0	0	
+mscs	12	Synechocystis sp. PCC 6803	5	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	13	Streptomyces lividans	4	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	14	Bacillus subtilis	4	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	15	Bacteria	2	False	8	3	0.3333	False	96,79	0	0	
+mscs	16	Synechocystis sp. PCC 6803	5	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	17	Bacteria	2	False	6	3	0.3333	False	51,leaf	0	0	
+mscs	18	Synechocystis sp. PCC 6803	5	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	19	Escherichia coli K-12	4	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	20	Viridiplantae	3	False	16	4	0.5	True	97,99	0	0	
+mscs	21	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	22	Embryophyta	4	False	9	3	0.3333	True	100,100	0	0	
+mscs	23	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	24	Physcomitrium patens	5	True	4	1	1.0	True	99,100	0	0	
+mscs	25	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	26	Oryza sativa	6	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	27	Embryophyta	4	False	6	2	0.5	True	97,leaf	0	0	
+mscs	28	Physcomitrium patens	5	True	3	1	1.0	False	67,leaf	0	0	
+mscs	29	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	30	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+mscs	31	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	0	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	1	Caenorhabditis elegans	9	True	5	1	1.0	False	99,91	0	0	
+nachr	2	Eukaryota	2	False	726	27	0.037	False	69,69	12	17	CHRNA1,CHRNG,CHRNB1,CHRNB2,CHRNA5,CHRNB4,CHRNA3,CHRNA7,CHRNA4,CHRNE,CHRNB3,CHRND,CHRNA2,CHRNA6,CHRFAM7A,CHRNA10,CHRNA9
+nachr	3	Caenorhabditis elegans	9	True	3	1	1.0	True	leaf,100	0	0	
+nachr	4	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	5	Eukaryota	2	False	567	27	0.037	False	52,96	11	17	CHRNA1,CHRNG,CHRNB1,CHRNB2,CHRNA5,CHRNB4,CHRNA3,CHRNA7,CHRNA4,CHRNE,CHRNB3,CHRND,CHRNA2,CHRNA6,CHRFAM7A,CHRNA10,CHRNA9
+nachr	6	Eukaryota	2	False	721	27	0.2593	False	42,72	12	17	CHRNA1,CHRNG,CHRNB1,CHRNB2,CHRNA5,CHRNB4,CHRNA3,CHRNA7,CHRNA4,CHRNE,CHRNB3,CHRND,CHRNA2,CHRNA6,CHRFAM7A,CHRNA10,CHRNA9
+nachr	7	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	100,leaf	0	0	
+nachr	8	Strongylocentrotus purpuratus	8	True	10	1	1.0	False	92,100	0	0	
+nachr	9	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	10	Strongylocentrotus purpuratus	8	True	7	1	1.0	True	100,100	0	0	
+nachr	11	Strongylocentrotus purpuratus	8	True	4	1	1.0	False	81,leaf	0	0	
+nachr	12	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	99,leaf	0	0	
+nachr	13	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	14	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	100,leaf	0	0	
+nachr	15	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	16	Drosophila melanogaster	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	17	Eumetazoa	5	False	556	26	0.1923	False	34,73	11	17	CHRNA1,CHRNG,CHRNB1,CHRNB2,CHRNA5,CHRNB4,CHRNA3,CHRNA7,CHRNA4,CHRNE,CHRNB3,CHRND,CHRNA2,CHRNA6,CHRFAM7A,CHRNA10,CHRNA9
+nachr	18	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	19	Gastropoda	8	False	8	3	1.0	True	99,100	0	0	
+nachr	20	Gastropoda	8	False	5	3	0.6667	True	95,100	0	0	
+nachr	21	Strongylocentrotus purpuratus	8	True	15	1	1.0	False	54,leaf	0	0	
+nachr	22	Strongylocentrotus purpuratus	8	True	17	1	1.0	False	100,61	0	0	
+nachr	23	Eumetazoa	5	False	544	26	0.0385	False	83,100	11	17	CHRNA1,CHRNG,CHRNB1,CHRNB2,CHRNA5,CHRNB4,CHRNA3,CHRNA7,CHRNA4,CHRNE,CHRNB3,CHRND,CHRNA2,CHRNA6,CHRFAM7A,CHRNA10,CHRNA9
+nachr	24	Strongylocentrotus purpuratus	8	True	14	1	1.0	True	100,100	0	0	
+nachr	25	Strongylocentrotus purpuratus	8	True	3	1	1.0	False	leaf,48	0	0	
+nachr	26	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	27	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	28	Strongylocentrotus purpuratus	8	True	4	1	1.0	True	leaf,100	0	0	
+nachr	29	Strongylocentrotus purpuratus	8	True	11	1	1.0	False	77,100	0	0	
+nachr	30	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	leaf,99	0	0	
+nachr	31	Strongylocentrotus purpuratus	8	True	6	1	1.0	True	100,leaf	0	0	
+nachr	32	Strongylocentrotus purpuratus	8	True	7	1	1.0	True	leaf,96	0	0	
+nachr	33	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	34	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	leaf,100	0	0	
+nachr	35	Strongylocentrotus purpuratus	8	True	5	1	1.0	True	98,100	0	0	
+nachr	36	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	37	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	38	Eumetazoa	5	False	527	26	0.1154	False	70,100	11	17	CHRNA1,CHRNG,CHRNB1,CHRNB2,CHRNA5,CHRNB4,CHRNA3,CHRNA7,CHRNA4,CHRNE,CHRNB3,CHRND,CHRNA2,CHRNA6,CHRFAM7A,CHRNA10,CHRNA9
+nachr	39	Gastropoda	8	False	17	3	1.0	False	100,93	0	0	
+nachr	40	Gastropoda	8	False	9	3	1.0	True	100,100	0	0	
+nachr	41	Gastropoda	8	False	6	3	1.0	True	100,98	0	0	
+nachr	42	Gastropoda	8	False	8	3	1.0	False	91,75	0	0	
+nachr	43	Gastropoda	8	False	5	3	0.6667	False	100,92	0	0	
+nachr	44	Protostomia	7	False	25	5	0.2	False	56,leaf	1	0	
+nachr	45	Eumetazoa	5	False	510	26	0.1923	False	92,96	11	17	CHRNA1,CHRNG,CHRNB1,CHRNB2,CHRNA5,CHRNB4,CHRNA3,CHRNA7,CHRNA4,CHRNE,CHRNB3,CHRND,CHRNA2,CHRNA6,CHRFAM7A,CHRNA10,CHRNA9
+nachr	46	Protostomia	7	False	24	5	0.6	False	92,61	1	0	
+nachr	47	Gastropoda	8	False	4	3	0.3333	True	100,leaf	0	0	
+nachr	48	Protostomia	7	False	18	5	0.6	False	48,76	1	0	
+nachr	49	Protostomia	7	False	14	5	0.6	False	100,69	1	0	
+nachr	50	Gastropoda	8	False	9	3	1.0	False	93,100	0	0	
+nachr	51	Gastropoda	8	False	6	3	0.6667	True	100,100	0	0	
+nachr	52	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	53	Gastropoda	8	False	6	3	1.0	True	100,100	0	0	
+nachr	54	Nematostella vectensis	7	True	7	1	1.0	False	40,leaf	0	0	
+nachr	55	Eumetazoa	5	False	359	26	0.0385	False	94,97	7	15	CHRNA1,CHRNG,CHRNB1,CHRNB2,CHRNA5,CHRNB4,CHRNA3,CHRNA7,CHRNA4,CHRNE,CHRNB3,CHRND,CHRNA2,CHRNA6,CHRFAM7A
+nachr	56	Eumetazoa	5	False	485	26	0.8462	False	49,78	10	17	CHRNA1,CHRNG,CHRNB1,CHRNB2,CHRNA5,CHRNB4,CHRNA3,CHRNA7,CHRNA4,CHRNE,CHRNB3,CHRND,CHRNA2,CHRNA6,CHRFAM7A,CHRNA10,CHRNA9
+nachr	57	Eumetazoa	5	False	55	3	0.3333	False	83,82	0	0	
+nachr	58	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	59	Nematostella vectensis	7	True	6	1	1.0	False	57,100	0	0	
+nachr	60	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	61	Nematostella vectensis	7	True	4	1	1.0	False	91,66	0	0	
+nachr	62	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	63	Cnidaria	6	False	19	2	1.0	False	89,70	0	0	
+nachr	64	Cnidaria	6	False	33	2	1.0	False	83,44	0	0	
+nachr	65	Cnidaria	6	False	10	2	0.5	True	98,100	0	0	
+nachr	66	Nematostella vectensis	7	True	6	1	1.0	False	75,58	0	0	
+nachr	67	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	68	Eumetazoa	5	False	48	3	0.6667	False	95,51	0	0	
+nachr	69	Nematostella vectensis	7	True	4	1	1.0	True	100,leaf	0	0	
+nachr	70	Nematostella vectensis	7	True	3	1	1.0	True	100,leaf	0	0	
+nachr	71	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	72	Cnidaria	6	False	4	2	1.0	True	100,97	0	0	
+nachr	73	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	74	Hydra vulgaris	7	True	6	1	1.0	False	80,leaf	0	0	
+nachr	75	Hydra vulgaris	7	True	7	1	1.0	False	leaf,65	0	0	
+nachr	76	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	77	Hydra vulgaris	7	True	5	1	1.0	False	71,78	0	0	
+nachr	78	Hydra vulgaris	7	True	3	1	1.0	True	100,leaf	0	0	
+nachr	79	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	80	Cnidaria	6	False	14	2	0.5	False	31,100	0	0	
+nachr	81	Nematostella vectensis	7	True	3	1	1.0	False	94,leaf	0	0	
+nachr	82	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	83	Cnidaria	6	False	11	2	0.5	False	82,98	0	0	
+nachr	84	Nematostella vectensis	7	True	6	1	1.0	False	49,leaf	0	0	
+nachr	85	Nematostella vectensis	7	True	5	1	1.0	False	68,100	0	0	
+nachr	86	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	87	Nematostella vectensis	7	True	3	1	1.0	False	77,leaf	0	0	
+nachr	88	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	89	Cnidaria	6	False	5	2	0.5	False	leaf,82	0	0	
+nachr	90	Hydra vulgaris	7	True	3	1	1.0	True	leaf,100	0	0	
+nachr	91	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	92	Cnidaria	6	False	7	2	0.5	False	98,59	0	0	
+nachr	93	Eumetazoa	5	False	15	3	0.3333	False	26,68	0	0	
+nachr	94	Nematostella vectensis	7	True	3	1	1.0	True	100,leaf	0	0	
+nachr	95	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	96	Cnidaria	6	False	4	2	0.5	False	75,leaf	0	0	
+nachr	97	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	98	Nematostella vectensis	7	True	6	1	1.0	True	100,99	0	0	
+nachr	99	Eumetazoa	5	False	8	2	0.5	False	36,100	0	0	
+nachr	100	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	101	Nematostella vectensis	7	True	4	1	1.0	False	87,leaf	0	0	
+nachr	102	Nematostella vectensis	7	True	3	1	1.0	True	100,leaf	0	0	
+nachr	103	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	104	Bilateria	6	False	254	24	0.2917	False	70,100	7	13	CHRNA1,CHRNG,CHRNB1,CHRNB2,CHRNA5,CHRNB4,CHRNA3,CHRNA4,CHRNE,CHRNB3,CHRND,CHRNA2,CHRNA6
+nachr	105	Bilateria	6	False	304	24	0.875	True	100,100	7	15	CHRNA1,CHRNG,CHRNB1,CHRNB2,CHRNA5,CHRNB4,CHRNA3,CHRNA7,CHRNA4,CHRNE,CHRNB3,CHRND,CHRNA2,CHRNA6,CHRFAM7A
+nachr	106	Caenorhabditis elegans	9	True	4	1	1.0	False	62,leaf	0	0	
+nachr	107	Caenorhabditis elegans	9	True	3	1	1.0	True	98,leaf	0	0	
+nachr	108	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	109	Euthyneura	9	False	5	3	0.6667	False	88,94	1	0	
+nachr	110	Euthyneura	9	False	7	3	0.6667	True	100,100	1	0	
+nachr	111	Caenorhabditis elegans	9	True	6	1	1.0	False	70,71	0	0	
+nachr	112	Caenorhabditis elegans	9	True	4	1	1.0	True	100,leaf	0	0	
+nachr	113	Caenorhabditis elegans	9	True	3	1	1.0	True	100,leaf	0	0	
+nachr	114	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	115	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	116	Protostomia	7	False	19	6	0.5	False	46,100	2	0	
+nachr	117	Panpulmonata	10	False	3	2	0.5	False	76,leaf	2	0	
+nachr	118	Allotriocarida	9	False	6	2	1.0	True	100,100	0	0	
+nachr	119	Allotriocarida	9	False	11	2	1.0	False	97,82	0	0	
+nachr	120	Allotriocarida	9	False	4	2	1.0	False	100,94	0	0	
+nachr	121	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	122	Allotriocarida	9	False	5	2	1.0	False	91,100	0	0	
+nachr	123	Deuterostomia	7	False	215	17	0.9412	False	98,30	4	13	CHRNA1,CHRNG,CHRNB1,CHRNB2,CHRNA5,CHRNB4,CHRNA3,CHRNA4,CHRNE,CHRNB3,CHRND,CHRNA2,CHRNA6
+nachr	124	Strongylocentrotus purpuratus	8	True	7	1	1.0	False	94,leaf	0	0	
+nachr	125	Strongylocentrotus purpuratus	8	True	6	1	1.0	False	76,100	0	0	
+nachr	126	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	127	Strongylocentrotus purpuratus	8	True	4	1	1.0	True	99,leaf	0	0	
+nachr	128	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	100,leaf	0	0	
+nachr	129	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	130	Chordata	8	False	99	16	0.875	False	100,68	2	6	CHRNG,CHRNB1,CHRNB2,CHRNB4,CHRNE,CHRND
+nachr	131	Branchiostoma floridae	9	True	9	1	1.0	False	86,leaf	0	0	
+nachr	132	Branchiostoma floridae	9	True	8	1	1.0	False	43,leaf	0	0	
+nachr	133	Branchiostoma floridae	9	True	7	1	1.0	True	100,leaf	0	0	
+nachr	134	Branchiostoma floridae	9	True	6	1	1.0	False	63,leaf	0	0	
+nachr	135	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	136	Branchiostoma floridae	9	True	3	1	1.0	True	leaf,100	0	0	
+nachr	137	Branchiostoma floridae	9	True	5	1	1.0	False	100,55	0	0	
+nachr	138	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	139	Vertebrata	9	False	34	14	0.8571	False	58,86	2	2	CHRNB2,CHRNB4
+nachr	140	Takifugu rubripes	13	True	3	1	1.0	True	99,leaf	0	0	
+nachr	141	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	142	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	143	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	144	Vertebrata	9	False	19	14	0.1429	False	92,88	1	1	CHRNB2
+nachr	145	Clupeocephala	12	False	4	2	1.0	False	93,99	0	0	
+nachr	146	Ciona intestinalis	9	True	3	1	1.0	True	100,leaf	0	0	
+nachr	147	Ciona intestinalis	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	148	Vertebrata	9	False	52	13	0.6923	True	100,100	0	4	CHRNG,CHRNB1,CHRNE,CHRND
+nachr	149	Euteleostomi	11	False	12	8	0.25	False	83,100	0	1	CHRNB1
+nachr	150	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	151	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	152	Vertebrata	9	False	39	13	0.9231	True	100,100	0	3	CHRNG,CHRNE,CHRND
+nachr	153	Takifugu rubripes	13	True	5	1	1.0	True	100,leaf	0	0	
+nachr	154	Takifugu rubripes	13	True	4	1	1.0	False	93,leaf	0	0	
+nachr	155	Takifugu rubripes	13	True	3	1	1.0	False	86,leaf	0	0	
+nachr	156	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	157	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	158	Vertebrata	9	False	21	12	0.6667	True	97,100	0	2	CHRNG,CHRNE
+nachr	159	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	160	Chordata	8	False	109	16	0.9375	False	92,100	2	7	CHRNA1,CHRNA5,CHRNA3,CHRNA4,CHRNB3,CHRNA2,CHRNA6
+nachr	161	Branchiostoma floridae	9	True	3	1	1.0	True	leaf,100	0	0	
+nachr	162	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	163	Clupeocephala	12	False	3	2	0.5	False	59,leaf	0	0	
+nachr	164	Xenopus tropicalis	14	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	165	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	166	Chordata	8	False	89	16	0.0625	False	22,leaf	2	6	CHRNA5,CHRNA3,CHRNA4,CHRNB3,CHRNA2,CHRNA6
+nachr	167	Chordata	8	False	88	16	0.8125	False	68,31	2	6	CHRNA5,CHRNA3,CHRNA4,CHRNB3,CHRNA2,CHRNA6
+nachr	168	Vertebrata	9	False	29	13	0.8462	False	48,100	0	2	CHRNA5,CHRNB3
+nachr	169	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	170	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	171	Clupeocephala	12	False	4	2	1.0	False	79,92	0	0	
+nachr	172	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	173	Chordata	8	False	58	15	0.8667	True	100,100	2	4	CHRNA3,CHRNA4,CHRNA2,CHRNA6
+nachr	174	Gnathostomata	10	False	25	12	0.8333	False	90,100	1	2	CHRNA3,CHRNA6
+nachr	175	Clupeocephala	12	False	3	2	0.5	False	61,leaf	0	0	
+nachr	176	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	177	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	178	Vertebrata	9	False	31	14	0.7857	True	97,97	1	2	CHRNA4,CHRNA2
+nachr	179	Petromyzon marinus	10	True	3	1	1.0	False	57,leaf	0	0	
+nachr	180	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	181	Clupeocephala	12	False	3	2	0.5	True	leaf,97	0	0	
+nachr	182	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	183	Clupeocephala	12	False	3	2	0.5	True	97,leaf	0	0	
+nachr	184	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	185	Ciona intestinalis	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	186	Vertebrata	9	False	29	13	0.3846	False	75,98	0	2	CHRNA7,CHRFAM7A
+nachr	187	Clupeocephala	12	False	3	2	0.5	True	leaf,99	0	0	
+nachr	188	Vertebrata	9	False	23	13	0.3846	False	93,87	0	2	CHRNA7,CHRFAM7A
+nachr	189	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	190	Clupeocephala	12	False	3	2	0.5	False	leaf,76	0	0	
+nachr	191	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	192	Homo sapiens	18	True	2	1	1.0	True	leaf,leaf	0	2	CHRNA7,CHRFAM7A
+nachr	193	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	194	Allotriocarida	9	False	5	2	1.0	False	98,81	0	0	
+nachr	195	Drosophila melanogaster	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	196	Caenorhabditis elegans	9	True	10	1	1.0	True	100,leaf	0	0	
+nachr	197	Caenorhabditis elegans	9	True	3	1	1.0	False	leaf,67	0	0	
+nachr	198	Caenorhabditis elegans	9	True	9	1	1.0	False	40,85	0	0	
+nachr	199	Caenorhabditis elegans	9	True	6	1	1.0	False	86,100	0	0	
+nachr	200	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	201	Caenorhabditis elegans	9	True	3	1	1.0	True	100,leaf	0	0	
+nachr	202	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	203	Caenorhabditis elegans	9	True	3	1	1.0	False	72,leaf	0	0	
+nachr	204	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	205	Bilateria	6	False	126	22	0.0455	False	27,99	3	2	CHRNA10,CHRNA9
+nachr	206	Strongylocentrotus purpuratus	8	True	6	1	1.0	False	77,leaf	0	0	
+nachr	207	Strongylocentrotus purpuratus	8	True	5	1	1.0	True	100,leaf	0	0	
+nachr	208	Strongylocentrotus purpuratus	8	True	4	1	1.0	False	73,leaf	0	0	
+nachr	209	Strongylocentrotus purpuratus	8	True	3	1	1.0	False	55,leaf	0	0	
+nachr	210	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	211	Gastropoda	8	False	6	2	1.0	True	98,100	0	0	
+nachr	212	Bilateria	6	False	120	22	0.1818	False	35,60	3	2	CHRNA10,CHRNA9
+nachr	213	Lottia gigantea	9	True	3	1	1.0	True	100,leaf	0	0	
+nachr	214	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	215	Strongylocentrotus purpuratus	8	True	7	1	1.0	False	76,100	0	0	
+nachr	216	Strongylocentrotus purpuratus	8	True	5	1	1.0	False	44,55	0	0	
+nachr	217	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	100,leaf	0	0	
+nachr	218	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	219	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	220	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	221	Chordata	8	False	48	15	0.0667	True	100,99	2	2	CHRNA10,CHRNA9
+nachr	222	Branchiostoma floridae	9	True	11	1	1.0	False	85,100	0	0	
+nachr	223	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	224	Branchiostoma floridae	9	True	5	1	1.0	False	leaf,59	0	0	
+nachr	225	Branchiostoma floridae	9	True	4	1	1.0	False	79,leaf	0	0	
+nachr	226	Branchiostoma floridae	9	True	6	1	1.0	True	leaf,100	0	0	
+nachr	227	Branchiostoma floridae	9	True	9	1	1.0	True	100,100	0	0	
+nachr	228	Branchiostoma floridae	9	True	3	1	1.0	True	98,leaf	0	0	
+nachr	229	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	230	Branchiostoma floridae	9	True	3	1	1.0	False	93,leaf	0	0	
+nachr	231	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	232	Chordata	8	False	37	15	0.0667	False	33,leaf	2	2	CHRNA10,CHRNA9
+nachr	233	Vertebrata	9	False	35	14	0.0714	False	72,leaf	2	2	CHRNA10,CHRNA9
+nachr	234	Clupeocephala	12	False	5	2	1.0	True	100,98	0	0	
+nachr	235	Gnathostomata	10	False	33	13	0.9231	False	100,59	2	2	CHRNA10,CHRNA9
+nachr	236	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	237	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	238	Clupeocephala	12	False	5	2	1.0	False	100,73	0	0	
+nachr	239	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	240	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	241	Bilateria	6	False	59	8	0.25	False	67,81	1	0	
+nachr	242	Branchiostoma floridae	9	True	33	1	1.0	True	99,100	0	0	
+nachr	243	Branchiostoma floridae	9	True	9	1	1.0	False	45,69	0	0	
+nachr	244	Branchiostoma floridae	9	True	16	1	1.0	False	72,50	0	0	
+nachr	245	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	246	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	247	Branchiostoma floridae	9	True	7	1	1.0	False	94,100	0	0	
+nachr	248	Branchiostoma floridae	9	True	5	1	1.0	True	100,leaf	0	0	
+nachr	249	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	250	Branchiostoma floridae	9	True	4	1	1.0	False	100,72	0	0	
+nachr	251	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	252	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	253	Branchiostoma floridae	9	True	7	1	1.0	True	100,100	0	0	
+nachr	254	Branchiostoma floridae	9	True	3	1	1.0	True	leaf,100	0	0	
+nachr	255	Branchiostoma floridae	9	True	5	1	1.0	False	100,54	0	0	
+nachr	256	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	257	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	258	Branchiostoma floridae	9	True	15	1	1.0	True	100,100	0	0	
+nachr	259	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	260	Branchiostoma floridae	9	True	17	1	1.0	False	100,86	0	0	
+nachr	261	Branchiostoma floridae	9	True	9	1	1.0	True	100,leaf	0	0	
+nachr	262	Branchiostoma floridae	9	True	13	1	1.0	True	96,100	0	0	
+nachr	263	Branchiostoma floridae	9	True	8	1	1.0	False	95,84	0	0	
+nachr	264	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	265	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	266	Branchiostoma floridae	9	True	6	1	1.0	False	81,86	0	0	
+nachr	267	Branchiostoma floridae	9	True	4	1	1.0	True	99,leaf	0	0	
+nachr	268	Branchiostoma floridae	9	True	3	1	1.0	True	100,leaf	0	0	
+nachr	269	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	270	Branchiostoma floridae	9	True	4	1	1.0	True	leaf,100	0	0	
+nachr	271	Branchiostoma floridae	9	True	3	1	1.0	True	95,leaf	0	0	
+nachr	272	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	273	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	274	Bilateria	6	False	25	8	0.125	False	35,100	1	0	
+nachr	275	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	276	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	277	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	278	Bilateria	6	False	21	7	0.1429	False	37,69	1	0	
+nachr	279	Gastropoda	8	False	6	4	0.5	True	98,100	1	0	
+nachr	280	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	281	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	282	Caenorhabditis elegans	9	True	10	1	1.0	False	59,100	0	0	
+nachr	283	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	284	Caenorhabditis elegans	9	True	8	1	1.0	True	100,100	0	0	
+nachr	285	Caenorhabditis elegans	9	True	3	1	1.0	False	leaf,76	0	0	
+nachr	286	Caenorhabditis elegans	9	True	6	1	1.0	True	100,100	0	0	
+nachr	287	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	288	Caenorhabditis elegans	9	True	3	1	1.0	True	100,leaf	0	0	
+nachr	289	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	290	Branchiostoma floridae	9	True	4	1	1.0	False	60,leaf	0	0	
+nachr	291	Branchiostoma floridae	9	True	49	1	1.0	False	67,53	0	0	
+nachr	292	Branchiostoma floridae	9	True	11	1	1.0	True	98,100	0	0	
+nachr	293	Branchiostoma floridae	9	True	3	1	1.0	False	25,leaf	0	0	
+nachr	294	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	295	Branchiostoma floridae	9	True	7	1	1.0	True	100,100	0	0	
+nachr	296	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	297	Branchiostoma floridae	9	True	5	1	1.0	False	78,70	0	0	
+nachr	298	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	299	Branchiostoma floridae	9	True	3	1	1.0	False	leaf,90	0	0	
+nachr	300	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	301	Branchiostoma floridae	9	True	38	1	1.0	False	59,leaf	0	0	
+nachr	302	Branchiostoma floridae	9	True	37	1	1.0	False	74,leaf	0	0	
+nachr	303	Branchiostoma floridae	9	True	12	1	1.0	False	46,leaf	0	0	
+nachr	304	Branchiostoma floridae	9	True	36	1	1.0	True	100,100	0	0	
+nachr	305	Branchiostoma floridae	9	True	11	1	1.0	False	100,64	0	0	
+nachr	306	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	307	Branchiostoma floridae	9	True	9	1	1.0	False	84,leaf	0	0	
+nachr	308	Branchiostoma floridae	9	True	8	1	1.0	False	47,100	0	0	
+nachr	309	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	310	Branchiostoma floridae	9	True	6	1	1.0	False	43,leaf	0	0	
+nachr	311	Branchiostoma floridae	9	True	5	1	1.0	False	78,leaf	0	0	
+nachr	312	Branchiostoma floridae	9	True	4	1	1.0	False	91,leaf	0	0	
+nachr	313	Branchiostoma floridae	9	True	3	1	1.0	False	85,leaf	0	0	
+nachr	314	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	315	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	316	Branchiostoma floridae	9	True	24	1	1.0	False	75,96	0	0	
+nachr	317	Branchiostoma floridae	9	True	6	1	1.0	False	95,61	0	0	
+nachr	318	Branchiostoma floridae	9	True	4	1	1.0	True	100,leaf	0	0	
+nachr	319	Branchiostoma floridae	9	True	3	1	1.0	False	leaf,62	0	0	
+nachr	320	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	321	Branchiostoma floridae	9	True	18	1	1.0	False	96,85	0	0	
+nachr	322	Branchiostoma floridae	9	True	8	1	1.0	True	95,leaf	0	0	
+nachr	323	Branchiostoma floridae	9	True	3	1	1.0	True	100,leaf	0	0	
+nachr	324	Branchiostoma floridae	9	True	7	1	1.0	False	100,74	0	0	
+nachr	325	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	326	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	327	Branchiostoma floridae	9	True	4	1	1.0	False	100,91	0	0	
+nachr	328	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	329	Branchiostoma floridae	9	True	10	1	1.0	True	100,leaf	0	0	
+nachr	330	Branchiostoma floridae	9	True	4	1	1.0	False	leaf,94	0	0	
+nachr	331	Branchiostoma floridae	9	True	9	1	1.0	False	57,55	0	0	
+nachr	332	Branchiostoma floridae	9	True	3	1	1.0	False	84,leaf	0	0	
+nachr	333	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	334	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	335	Branchiostoma floridae	9	True	5	1	1.0	False	85,100	0	0	
+nachr	336	Branchiostoma floridae	9	True	3	1	1.0	False	85,leaf	0	0	
+nachr	337	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	338	Strongylocentrotus purpuratus	8	True	5	1	1.0	False	69,leaf	0	0	
+nachr	339	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	340	Strongylocentrotus purpuratus	8	True	4	1	1.0	True	100,100	0	0	
+nachr	341	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	342	Protostomia	7	False	100	5	0.4	False	12,81	1	0	
+nachr	343	Gastropoda	8	False	70	3	0.3333	False	54,100	0	0	
+nachr	344	Lottia gigantea	9	True	5	1	1.0	False	57,leaf	0	0	
+nachr	345	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	346	Lottia gigantea	9	True	4	1	1.0	True	99,100	0	0	
+nachr	347	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	348	Lottia gigantea	9	True	4	1	1.0	False	71,leaf	0	0	
+nachr	349	Gastropoda	8	False	6	2	0.5	False	80,98	0	0	
+nachr	350	Gastropoda	8	False	65	3	0.6667	False	45,95	0	0	
+nachr	351	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	352	Lottia gigantea	9	True	3	1	1.0	True	leaf,100	0	0	
+nachr	353	Lottia gigantea	9	True	4	1	1.0	True	100,leaf	0	0	
+nachr	354	Gastropoda	8	False	59	3	1.0	False	80,62	0	0	
+nachr	355	Gastropoda	8	False	40	3	0.3333	True	97,100	0	0	
+nachr	356	Lottia gigantea	9	True	3	1	1.0	True	leaf,100	0	0	
+nachr	357	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	358	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	359	Gastropoda	8	False	36	3	1.0	False	78,84	0	0	
+nachr	360	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	361	Euthyneura	9	False	6	2	0.5	False	68,100	0	0	
+nachr	362	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	363	Aplysia californica	10	True	3	1	1.0	True	leaf,100	0	0	
+nachr	364	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	365	Gastropoda	8	False	28	3	0.3333	False	58,69	0	0	
+nachr	366	Lottia gigantea	9	True	3	1	1.0	True	leaf,100	0	0	
+nachr	367	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	368	Euthyneura	9	False	11	2	0.5	True	98,leaf	0	0	
+nachr	369	Euthyneura	9	False	23	2	1.0	False	100,92	0	0	
+nachr	370	Euthyneura	9	False	10	2	0.5	True	99,leaf	0	0	
+nachr	371	Aplysia californica	10	True	5	1	1.0	True	100,leaf	0	0	
+nachr	372	Euthyneura	9	False	9	2	0.5	False	41,98	0	0	
+nachr	373	Aplysia californica	10	True	3	1	1.0	True	100,leaf	0	0	
+nachr	374	Aplysia californica	10	True	4	1	1.0	False	leaf,92	0	0	
+nachr	375	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	376	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	377	Lymnaea stagnalis	11	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	378	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	379	Euthyneura	9	False	12	2	0.5	False	94,97	0	0	
+nachr	380	Aplysia californica	10	True	3	1	1.0	False	leaf,83	0	0	
+nachr	381	Aplysia californica	10	True	3	1	1.0	True	100,leaf	0	0	
+nachr	382	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	383	Lymnaea stagnalis	11	True	6	1	1.0	False	89,leaf	0	0	
+nachr	384	Lymnaea stagnalis	11	True	5	1	1.0	True	100,leaf	0	0	
+nachr	385	Lymnaea stagnalis	11	True	4	1	1.0	False	88,leaf	0	0	
+nachr	386	Lymnaea stagnalis	11	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	387	Lymnaea stagnalis	11	True	3	1	1.0	False	leaf,69	0	0	
+nachr	388	Gastropoda	8	False	4	3	0.3333	True	95,100	0	0	
+nachr	389	Gastropoda	8	False	19	3	1.0	False	59,85	0	0	
+nachr	390	Gastropoda	8	False	15	3	0.6667	True	100,98	0	0	
+nachr	391	Lottia gigantea	9	True	4	1	1.0	False	49,leaf	0	0	
+nachr	392	Lottia gigantea	9	True	3	1	1.0	True	100,leaf	0	0	
+nachr	393	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	394	Aplysia californica	10	True	3	1	1.0	True	100,leaf	0	0	
+nachr	395	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	396	Gastropoda	8	False	8	3	0.3333	False	61,85	0	0	
+nachr	397	Aplysia californica	10	True	3	1	1.0	True	100,leaf	0	0	
+nachr	398	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	399	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	400	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	401	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	402	Protostomia	7	False	30	4	0.25	False	100,85	1	0	
+nachr	403	Euthyneura	9	False	9	3	0.3333	False	54,100	1	0	
+nachr	404	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	405	Euthyneura	9	False	17	3	0.6667	False	77,81	1	0	
+nachr	406	Euthyneura	9	False	7	3	0.3333	False	47,leaf	1	0	
+nachr	407	Euthyneura	9	False	6	3	0.3333	False	64,leaf	1	0	
+nachr	408	Euthyneura	9	False	4	2	0.5	False	19,leaf	0	0	
+nachr	409	Lymnaea stagnalis	11	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	410	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	411	Euthyneura	9	False	8	2	0.5	False	89,89	0	0	
+nachr	412	Euthyneura	9	False	6	2	0.5	True	99,leaf	0	0	
+nachr	413	Euthyneura	9	False	5	2	0.5	False	82,leaf	0	0	
+nachr	414	Euthyneura	9	False	4	2	0.5	True	100,leaf	0	0	
+nachr	415	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	416	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	417	Caenorhabditis elegans	9	True	7	1	1.0	False	46,100	0	0	
+nachr	418	Caenorhabditis elegans	9	True	9	1	1.0	False	100,66	0	0	
+nachr	419	Caenorhabditis elegans	9	True	11	1	1.0	False	100,88	0	0	
+nachr	420	Caenorhabditis elegans	9	True	5	1	1.0	True	100,100	0	0	
+nachr	421	Caenorhabditis elegans	9	True	3	1	1.0	True	100,leaf	0	0	
+nachr	422	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	423	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	424	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nachr	425	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nalcn	0	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	0	Eumetazoa	5	False	138	26	0.4231	False	30,30	4	10	SCN1A,SCN4A,SCN7A,SCN5A,SCN9A,SCN2A,SCN3A,SCN11A,SCN8A,SCN10A
+nav	1	Eumetazoa	5	False	96	26	0.0769	False	50,100	4	5	SCN4A,SCN5A,SCN11A,SCN8A,SCN10A
+nav	2	Petromyzon marinus	10	True	3	1	1.0	True	leaf,98	0	0	
+nav	3	Eumetazoa	5	False	80	26	0.0385	False	94,87	2	4	SCN4A,SCN5A,SCN11A,SCN10A
+nav	4	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	5	Eumetazoa	5	False	94	26	0.4615	False	89,84	3	5	SCN4A,SCN5A,SCN11A,SCN8A,SCN10A
+nav	6	Eumetazoa	5	False	77	26	0.4615	False	57,99	2	4	SCN4A,SCN5A,SCN11A,SCN10A
+nav	7	Clupeocephala	12	False	6	2	1.0	True	100,100	0	0	
+nav	8	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	9	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	10	Eumetazoa	5	False	60	25	0.08	True	98,99	1	3	SCN5A,SCN11A,SCN10A
+nav	11	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	12	Ciona intestinalis	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	13	Ciona intestinalis	9	True	3	1	1.0	True	leaf,100	0	0	
+nav	14	Eumetazoa	5	False	27	13	0.4615	True	97,100	1	0	
+nav	15	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	16	Trichoplax adhaerens	6	True	3	1	1.0	False	leaf,76	0	0	
+nav	17	Trichoplax adhaerens	6	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	18	Cnidaria	6	False	5	2	0.5	False	59,leaf	0	0	
+nav	19	Cnidaria	6	False	4	2	0.5	False	79,leaf	0	0	
+nav	20	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	21	Branchiostoma floridae	9	True	3	1	1.0	True	100,leaf	0	0	
+nav	22	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	23	Gnathostomata	10	False	28	12	0.0833	False	43,57	0	3	SCN5A,SCN11A,SCN10A
+nav	24	Clupeocephala	12	False	4	2	1.0	False	94,100	0	0	
+nav	25	Amniota	14	False	20	7	1.0	False	100,76	0	3	SCN5A,SCN11A,SCN10A
+nav	26	Amniota	14	False	13	7	0.8571	False	72,46	0	2	SCN11A,SCN10A
+nav	27	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	28	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	29	Clupeocephala	12	False	5	2	1.0	True	99,100	0	0	
+nav	30	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	31	Xenopus tropicalis	14	True	3	1	1.0	False	63,leaf	0	0	
+nav	32	Xenopus tropicalis	14	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	33	Amniota	14	False	33	7	1.0	False	69,99	0	5	SCN1A,SCN7A,SCN9A,SCN2A,SCN3A
+nav	34	Theria	16	False	9	4	1.0	True	100,98	0	2	SCN7A,SCN9A
+nav	35	Monodelphis domestica	17	True	2	1	1.0	True	leaf,leaf	0	0	
+nav	36	Amniota	14	False	21	7	1.0	True	100,100	0	3	SCN1A,SCN2A,SCN3A
+nav	37	Amniota	14	False	14	7	0.2857	False	79,77	0	2	SCN1A,SCN2A
+nav	38	Amniota	14	False	12	7	0.7143	True	100,100	0	2	SCN1A,SCN2A
+nmda	0	Eumetazoa	5	False	131	24	0.0417	False	83,83	8	7	GRIN2D,GRIN3B,GRIN1,GRIN2A,GRIN2B,GRIN2C,GRIN3A
+nmda	1	Nematostella vectensis	7	True	3	1	1.0	False	75,leaf	0	0	
+nmda	2	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+nmda	3	Eumetazoa	5	False	128	24	0.875	True	99,100	8	7	GRIN2D,GRIN3B,GRIN1,GRIN2A,GRIN2B,GRIN2C,GRIN3A
+nmda	4	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+nmda	5	Clupeocephala	12	False	4	2	1.0	False	89,99	0	0	
+nmda	6	Bilateria	6	False	102	22	0.6364	True	100,100	5	6	GRIN2D,GRIN3B,GRIN2A,GRIN2B,GRIN2C,GRIN3A
+nmda	7	Gastropoda	8	False	9	4	0.25	False	90,leaf	2	0	
+nmda	8	Gastropoda	8	False	8	4	0.75	False	99,46	1	0	
+nmda	9	Gastropoda	8	False	4	3	0.3333	False	72,leaf	0	0	
+nmda	10	Chordata	8	False	63	15	0.0667	False	64,leaf	3	4	GRIN2D,GRIN2A,GRIN2B,GRIN2C
+nmda	11	Chordata	8	False	62	15	0.0667	True	96,leaf	3	4	GRIN2D,GRIN2A,GRIN2B,GRIN2C
+nmda	12	Gnathostomata	10	False	30	13	1.0	True	100,100	2	2	GRIN2A,GRIN2B
+nmda	13	Vertebrata	9	False	60	14	0.9286	False	51,100	3	4	GRIN2D,GRIN2A,GRIN2B,GRIN2C
+nmda	14	Clupeocephala	12	False	4	2	1.0	False	93,100	0	0	
+nmda	15	Clupeocephala	12	False	4	2	1.0	True	100,100	0	0	
+nmda	16	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nmda	17	Vertebrata	9	False	30	14	0.0714	False	89,100	1	2	GRIN2D,GRIN2C
+nmda	18	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+nmda	19	Gnathostomata	10	False	26	13	0.6923	True	100,100	1	2	GRIN2D,GRIN2C
+nmda	20	Clupeocephala	12	False	4	2	1.0	True	100,100	0	0	
+nmda	21	Clupeocephala	12	False	4	2	1.0	True	95,100	0	0	
+nmda	22	Chordata	8	False	27	14	0.0714	True	100,leaf	0	2	GRIN3B,GRIN3A
+nmda	23	Gnathostomata	10	False	24	12	0.9167	True	100,100	0	2	GRIN3B,GRIN3A
+nmda	24	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+orai	0	Capsaspora owczarzaki ATCC 30864	4	True	2	1	1.0	True	leaf,leaf	0	0	
+orai	1	Lottia gigantea	9	True	2	1	1.0	True	leaf,leaf	0	0	
+orai	2	Gnathostomata	10	False	20	13	0.4615	False	98,69	1	2	ORAI2,ORAI3
+orai	3	Vertebrata	9	False	37	14	0.8571	False	74,93	1	3	ORAI1,ORAI2,ORAI3
+orai	4	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+orai	5	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+orai	6	Euteleostomi	11	False	5	3	0.6667	False	33,56	0	0	
+orai	7	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	0	Vertebrata	9	False	44	14	1.0	False	80,74	3	3	TMEM63A,TMEM63B,TMEM63C
+osca_tmem63	1	Gnathostomata	10	False	28	13	1.0	True	100,100	2	2	TMEM63A,TMEM63B
+osca_tmem63	2	Bilateria	6	False	55	22	0.0455	False	99,88	4	3	TMEM63A,TMEM63B,TMEM63C
+osca_tmem63	3	Clupeocephala	12	False	4	2	1.0	False	89,95	0	0	
+osca_tmem63	4	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	5	Daphnia pulex	10	True	3	1	1.0	True	100,leaf	0	0	
+osca_tmem63	6	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	7	Tetrahymena thermophila	5	True	10	1	1.0	False	43,leaf	0	0	
+osca_tmem63	8	Tetrahymena thermophila	5	True	8	1	1.0	False	35,100	0	0	
+osca_tmem63	9	Tetrahymena thermophila	5	True	9	1	1.0	False	leaf,33	0	0	
+osca_tmem63	10	Tetrahymena thermophila	5	True	4	1	1.0	True	100,100	0	0	
+osca_tmem63	11	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	12	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	13	Tetrahymena thermophila	5	True	4	1	1.0	False	82,leaf	0	0	
+osca_tmem63	14	Tetrahymena thermophila	5	True	3	1	1.0	True	leaf,100	0	0	
+osca_tmem63	15	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	16	Paramecium tetraurelia	5	True	5	1	1.0	True	100,leaf	0	0	
+osca_tmem63	17	Paramecium tetraurelia	5	True	3	1	1.0	False	93,leaf	0	0	
+osca_tmem63	18	Paramecium tetraurelia	5	True	4	1	1.0	True	leaf,99	0	0	
+osca_tmem63	19	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	20	Dictyostelium discoideum	3	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	21	Dictyostelium discoideum	3	True	3	1	1.0	True	leaf,100	0	0	
+osca_tmem63	22	Ascomycota	4	False	4	2	0.5	True	100,leaf	0	0	
+osca_tmem63	23	Ascomycota	4	False	7	2	1.0	False	56,100	0	0	
+osca_tmem63	24	Ascomycota	4	False	3	2	0.5	True	leaf,100	0	0	
+osca_tmem63	25	Ascomycota	4	False	3	2	0.5	True	leaf,100	0	0	
+osca_tmem63	26	Monosiga brevicollis	4	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	27	Chlamydomonas reinhardtii	4	True	6	1	1.0	True	leaf,100	0	0	
+osca_tmem63	28	Chlamydomonas reinhardtii	4	True	10	1	1.0	True	100,100	0	0	
+osca_tmem63	29	Chlamydomonas reinhardtii	4	True	5	1	1.0	False	83,leaf	0	0	
+osca_tmem63	30	Chlamydomonas reinhardtii	4	True	4	1	1.0	False	68,leaf	0	0	
+osca_tmem63	31	Chlamydomonas reinhardtii	4	True	3	1	1.0	True	100,leaf	0	0	
+osca_tmem63	32	Chlamydomonas reinhardtii	4	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	33	Chlamydomonas reinhardtii	4	True	4	1	1.0	True	100,100	0	0	
+osca_tmem63	34	Chlamydomonas reinhardtii	4	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	35	Chlamydomonas reinhardtii	4	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	36	Physcomitrium patens	5	True	3	1	1.0	True	100,leaf	0	0	
+osca_tmem63	37	Physcomitrium patens	5	True	8	1	1.0	True	97,100	0	0	
+osca_tmem63	38	Embryophyta	4	False	39	3	1.0	True	100,100	0	0	
+osca_tmem63	39	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	40	Physcomitrium patens	5	True	5	1	1.0	True	100,100	0	0	
+osca_tmem63	41	Physcomitrium patens	5	True	3	1	1.0	True	leaf,100	0	0	
+osca_tmem63	42	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	43	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	44	Embryophyta	4	False	11	3	0.6667	False	100,55	0	0	
+osca_tmem63	45	Embryophyta	4	False	29	3	1.0	True	100,100	0	0	
+osca_tmem63	46	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	47	Mesangiospermae	5	False	4	2	0.5	False	41,leaf	0	0	
+osca_tmem63	48	Mesangiospermae	5	False	7	2	1.0	True	100,100	0	0	
+osca_tmem63	49	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	50	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	51	Physcomitrium patens	5	True	3	1	1.0	True	100,leaf	0	0	
+osca_tmem63	52	Embryophyta	4	False	18	3	0.3333	True	99,100	0	0	
+osca_tmem63	53	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	54	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	55	Physcomitrium patens	5	True	3	1	1.0	True	leaf,100	0	0	
+osca_tmem63	56	Mesangiospermae	5	False	12	2	1.0	True	100,100	0	0	
+osca_tmem63	57	Mesangiospermae	5	False	10	2	1.0	False	73,100	0	0	
+osca_tmem63	58	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	59	Mesangiospermae	5	False	8	2	0.5	False	54,100	0	0	
+osca_tmem63	60	Oryza sativa	6	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	61	Arabidopsis thaliana	6	True	4	1	1.0	True	100,100	0	0	
+osca_tmem63	62	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+osca_tmem63	63	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+otop	0	Gnathostomata	10	False	25	12	0.0833	False	39,46	0	2	OTOP3,OTOP2
+otop	1	Vertebrata	9	False	41	14	0.1429	False	85,87	1	3	OTOP1,OTOP3,OTOP2
+otop	2	Xenopus tropicalis	14	True	3	1	1.0	True	leaf,100	0	0	
+otop	3	Euteleostomi	11	False	22	11	0.6364	False	63,100	0	2	OTOP3,OTOP2
+otop	4	Gnathostomata	10	False	38	13	0.8462	True	100,100	1	3	OTOP1,OTOP3,OTOP2
+otop	5	Xenopus tropicalis	14	True	2	1	1.0	True	leaf,leaf	0	0	
+otop	6	Eumetazoa	5	False	81	26	0.0769	False	77,77	6	3	OTOP1,OTOP3,OTOP2
+otop	7	Xenopus tropicalis	14	True	3	1	1.0	False	83,leaf	0	0	
+otop	8	Xenopus tropicalis	14	True	2	1	1.0	True	leaf,leaf	0	0	
+otop	9	Latimeria chalumnae	13	True	2	1	1.0	True	leaf,leaf	0	0	
+otop	10	Tetrapoda	13	False	8	7	0.1429	True	96,leaf	0	1	OTOP1
+otop	11	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+otop	12	Bilateria	6	False	34	9	0.1111	False	93,67	5	0	
+otop	13	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+otop	14	Protostomia	7	False	30	7	0.5714	False	42,31	5	0	
+otop	15	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+otop	16	Caenorhabditis elegans	9	True	6	1	1.0	True	100,99	0	0	
+otop	17	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+otop	18	Caenorhabditis elegans	9	True	4	1	1.0	True	100,leaf	0	0	
+otop	19	Caenorhabditis elegans	9	True	3	1	1.0	True	100,leaf	0	0	
+otop	20	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+otop	21	Gastropoda	8	False	9	4	0.25	True	99,leaf	3	0	
+otop	22	Gastropoda	8	False	8	4	0.75	True	98,100	3	0	
+otop	23	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+otop	24	Allotriocarida	9	False	4	2	0.5	True	100,leaf	0	0	
+otop	25	Allotriocarida	9	False	10	2	1.0	False	100,87	0	0	
+otop	26	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+otop	27	Daphnia pulex	10	True	4	1	1.0	False	92,100	0	0	
+otop	28	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+otop	29	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+otop	30	Drosophila melanogaster	10	True	2	1	1.0	True	leaf,leaf	0	0	
+p2x	0	Opisthokonta	3	False	113	26	0.0385	False	71,leaf	6	7	P2RX6,P2RX1,P2RX3,P2RX5,P2RX4,P2RX7,P2RX2
+p2x	1	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+p2x	2	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+p2x	3	Panpulmonata	10	False	4	2	0.5	False	55,100	3	0	
+p2x	4	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	leaf,100	0	0	
+p2x	5	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+p2x	6	Vertebrata	9	False	66	14	0.7857	True	99,100	2	5	P2RX6,P2RX1,P2RX3,P2RX5,P2RX2
+p2x	7	Vertebrata	9	False	95	14	1.0	False	78,86	3	7	P2RX6,P2RX1,P2RX3,P2RX5,P2RX4,P2RX7,P2RX2
+p2x	8	Vertebrata	9	False	26	14	0.6429	False	92,100	1	2	P2RX3,P2RX2
+p2x	9	Vertebrata	9	False	55	14	0.8571	True	100,100	1	4	P2RX6,P2RX3,P2RX5,P2RX2
+p2x	10	Clupeocephala	12	False	4	2	1.0	False	89,100	0	0	
+p2x	11	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+p2x	12	Vertebrata	9	False	29	12	0.5833	True	97,98	0	2	P2RX6,P2RX5
+p2x	13	Clupeocephala	12	False	3	2	0.5	False	leaf,72	0	0	
+p2x	14	Petromyzon marinus	10	True	8	1	1.0	True	100,leaf	0	0	
+p2x	15	Vertebrata	9	False	18	9	0.1111	False	86,79	0	1	P2RX6
+p2x	16	Petromyzon marinus	10	True	9	1	1.0	True	leaf,100	0	0	
+p2x	17	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+p2x	18	Petromyzon marinus	10	True	7	1	1.0	False	72,93	0	0	
+p2x	19	Petromyzon marinus	10	True	5	1	1.0	False	leaf,66	0	0	
+p2x	20	Petromyzon marinus	10	True	4	1	1.0	False	69,leaf	0	0	
+p2x	21	Petromyzon marinus	10	True	3	1	1.0	False	59,leaf	0	0	
+p2x	22	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+p2x	23	Petromyzon marinus	10	True	3	1	1.0	False	67,leaf	0	0	
+p2x	24	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+p2x	25	Gnathostomata	10	False	26	13	0.1538	False	97,35	1	2	P2RX4,P2RX7
+p2x	26	Euteleostomi	11	False	21	11	0.7273	False	75,100	0	2	P2RX4,P2RX7
+p2x	27	Xenopus tropicalis	14	True	2	1	1.0	True	leaf,leaf	0	0	
+p2x	28	Monodelphis domestica	17	True	2	1	1.0	True	leaf,leaf	0	0	
+p2x	29	Clupeocephala	12	False	3	2	0.5	False	leaf,89	0	0	
+p2x_nonmetazoan	0	Dictyostelium discoideum	3	True	5	1	1.0	True	leaf,100	0	0	
+p2x_nonmetazoan	1	Dictyostelium discoideum	3	True	4	1	1.0	False	leaf,85	0	0	
+p2x_nonmetazoan	2	Dictyostelium discoideum	3	True	2	1	1.0	True	leaf,leaf	0	0	
+p2x_nonmetazoan	3	Dictyostelium discoideum	3	True	3	1	1.0	True	leaf,100	0	0	
+pannexin	0	Vertebrata	9	False	29	14	0.9286	False	99,73	2	2	PANX3,PANX1
+pannexin	1	Clupeocephala	12	False	3	2	0.5	False	90,leaf	0	0	
+pannexin	2	Clupeocephala	12	False	4	2	0.5	False	leaf,71	0	0	
+pannexin	3	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+piezo	0	Drosophila melanogaster	10	True	2	1	1.0	True	leaf,leaf	0	0	
+piezo	1	Vertebrata	9	False	33	14	0.8571	True	100,100	1	2	PIEZO1,PIEZO2
+piezo	2	Gnathostomata	10	False	20	13	0.4615	True	100,100	1	1	PIEZO2
+piezo	3	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+plgic_invertebrate	0	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+plgic_invertebrate	1	Caenorhabditis elegans	9	True	4	1	1.0	True	99,leaf	0	0	
+plgic_invertebrate	2	Caenorhabditis elegans	9	True	3	1	1.0	True	96,leaf	0	0	
+plgic_invertebrate	3	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+plgic_prok	0	Bilateria	6	False	4	3	0.3333	False	43,leaf	0	0	
+ryr	0	Vertebrata	9	False	44	14	0.9286	False	85,48	7	3	RYR1,RYR3,RYR2
+ryr	1	Clupeocephala	12	False	4	2	1.0	False	100,94	2	0	
+ryr	2	Gnathostomata	10	False	28	13	0.9231	True	98,100	4	2	RYR1,RYR3
+ryr	3	Clupeocephala	12	False	4	2	1.0	True	100,100	2	0	
+ryr	4	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+tmc	0	Torpedo marmorata	12	True	2	1	1.0	True	leaf,leaf	2	0	
+tmc	1	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+tmem175	0	Chordata	8	False	17	13	0.0769	True	100,98	2	1	TMEM175
+tmem175	1	Branchiostoma floridae	9	True	3	1	1.0	True	100,leaf	0	0	
+tmem175	2	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+tmem175	3	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+tmem175	4	Hydra vulgaris	7	True	23	1	1.0	False	74,100	0	0	
+tmem175	5	Hydra vulgaris	7	True	21	1	1.0	False	39,100	0	0	
+tmem175	6	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+tmem175	7	Hydra vulgaris	7	True	18	1	1.0	False	37,leaf	0	0	
+tmem175	8	Hydra vulgaris	7	True	19	1	1.0	False	leaf,81	0	0	
+tmem175	9	Hydra vulgaris	7	True	17	1	1.0	False	81,100	0	0	
+tmem175	10	Hydra vulgaris	7	True	3	1	1.0	True	100,leaf	0	0	
+tmem175	11	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+tmem175	12	Hydra vulgaris	7	True	14	1	1.0	True	99,leaf	0	0	
+tmem175	13	Hydra vulgaris	7	True	13	1	1.0	False	90,49	0	0	
+tmem175	14	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+tmem175	15	Hydra vulgaris	7	True	11	1	1.0	False	42,100	0	0	
+tmem175	16	Hydra vulgaris	7	True	9	1	1.0	True	100,leaf	0	0	
+tmem175	17	Hydra vulgaris	7	True	8	1	1.0	False	90,46	0	0	
+tmem175	18	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+tmem175	19	Hydra vulgaris	7	True	5	1	1.0	True	100,100	0	0	
+tmem175	20	Hydra vulgaris	7	True	3	1	1.0	False	64,leaf	0	0	
+tmem175	21	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+tmem175	22	Hydra vulgaris	7	True	3	1	1.0	True	100,leaf	0	0	
+tmem175	23	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+tmem175	24	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+tmem175	25	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+tpc	0	Paramecium tetraurelia	5	True	6	1	1.0	True	97,98	0	0	
+tpc	1	Paramecium tetraurelia	5	True	3	1	1.0	True	100,leaf	0	0	
+tpc	2	Eukaryota	2	False	100	34	0.0294	False	70,70	4	2	TPCN2,TPCN1
+tpc	3	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+tpc	4	Paramecium tetraurelia	5	True	3	1	1.0	True	leaf,97	0	0	
+tpc	5	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+tpc	6	Eukaryota	2	False	94	34	0.0294	True	98,leaf	4	2	TPCN2,TPCN1
+tpc	7	Tetrahymena thermophila	5	True	2	1	1.0	True	leaf,leaf	0	0	
+tpc	8	Eukaryota	2	False	93	34	0.0294	False	100,82	4	2	TPCN2,TPCN1
+tpc	9	Eukaryota	2	False	91	34	0.0588	True	97,100	4	2	TPCN2,TPCN1
+tpc	10	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+tpc	11	Opisthokonta	3	False	48	28	0.5714	True	100,100	2	1	TPCN1
+tpc	12	Eukaryota	2	False	87	33	0.6364	False	76,68	4	2	TPCN2,TPCN1
+tpc	13	Opisthokonta	3	False	27	23	0.0435	True	98,100	2	1	TPCN1
+tpc	14	Monosiga brevicollis	4	True	2	1	1.0	True	leaf,leaf	0	0	
+tpc	15	Amphimedon queenslandica	5	True	3	1	1.0	True	leaf,100	0	0	
+tpc	16	Amphimedon queenslandica	5	True	2	1	1.0	True	leaf,leaf	0	0	
+tpc	17	Paramecium tetraurelia	5	True	3	1	1.0	True	100,leaf	0	0	
+tpc	18	Paramecium tetraurelia	5	True	2	1	1.0	True	leaf,leaf	0	0	
+tpc	19	Embryophyta	4	False	11	3	0.3333	True	100,100	0	0	
+tpc	20	Physcomitrium patens	5	True	7	1	1.0	True	100,leaf	0	0	
+tpc	21	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+tpc	22	Physcomitrium patens	5	True	6	1	1.0	True	100,100	0	0	
+tpc	23	Physcomitrium patens	5	True	3	1	1.0	False	leaf,87	0	0	
+tpc	24	Physcomitrium patens	5	True	3	1	1.0	True	98,leaf	0	0	
+tpc	25	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+tpc	26	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+tpc	27	Metazoa	4	False	24	21	0.0476	True	98,leaf	2	1	TPCN2
+tpc	28	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+tpc	29	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+tric	0	Eukaryota	2	False	48	30	0.1	False	60,60	3	2	TMEM38A,TMEM38B
+tric	1	Gnathostomata	10	False	26	13	0.9231	True	97,100	2	2	TMEM38A,TMEM38B
+tric	2	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+tric	3	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+tric	4	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+trpa	0	Metazoa	4	False	49	23	0.1304	False	66,66	4	1	TRPA1
+trpa	1	Metazoa	4	False	26	7	0.1429	True	95,leaf	1	0	
+trpa	2	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+trpa	3	Metazoa	4	False	25	7	0.1429	True	95,100	1	0	
+trpa	4	Hydra vulgaris	7	True	5	1	1.0	True	100,leaf	0	0	
+trpa	5	Metazoa	4	False	23	7	0.1429	False	44,100	1	0	
+trpa	6	Hydra vulgaris	7	True	4	1	1.0	False	78,leaf	0	0	
+trpa	7	Hydra vulgaris	7	True	3	1	1.0	True	99,leaf	0	0	
+trpa	8	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+trpa	9	Metazoa	4	False	18	7	0.1429	True	100,100	1	0	
+trpa	10	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	100,leaf	0	0	
+trpa	11	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpa	12	Amphimedon queenslandica	5	True	2	1	1.0	True	leaf,leaf	0	0	
+trpa	13	Strongylocentrotus purpuratus	8	True	8	1	1.0	True	100,100	0	0	
+trpa	14	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpa	15	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpa	16	Strongylocentrotus purpuratus	8	True	6	1	1.0	False	100,74	0	0	
+trpa	17	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	leaf,100	0	0	
+trpa	18	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpa	19	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	leaf,100	0	0	
+trpa	20	Euthyneura	9	False	4	2	0.5	True	leaf,100	2	0	
+trpa	21	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+trpa	22	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpa	23	Clupeocephala	12	False	3	2	0.5	False	75,leaf	0	0	
+trpc	0	Opisthokonta	3	False	174	27	0.037	False	leaf,36	12	6	TRPC1,TRPC3,TRPC7,TRPC4,TRPC5,TRPC6
+trpc	1	Allotriocarida	9	False	6	2	1.0	False	76,100	0	0	
+trpc	2	Allotriocarida	9	False	4	2	1.0	True	100,100	0	0	
+trpc	3	Opisthokonta	3	False	167	25	0.12	False	73,100	12	6	TRPC1,TRPC3,TRPC7,TRPC4,TRPC5,TRPC6
+trpc	4	Opisthokonta	3	False	164	25	0.64	False	81,73	11	6	TRPC1,TRPC3,TRPC7,TRPC4,TRPC5,TRPC6
+trpc	5	Ciona intestinalis	9	True	4	1	1.0	False	78,leaf	0	0	
+trpc	6	Opisthokonta	3	False	117	25	0.08	False	75,67	8	3	TRPC3,TRPC7,TRPC6
+trpc	7	Ciona intestinalis	9	True	6	1	1.0	False	66,100	0	0	
+trpc	8	Ciona intestinalis	9	True	3	1	1.0	True	100,leaf	0	0	
+trpc	9	Ciona intestinalis	9	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	10	Ciona intestinalis	9	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	11	Cnidaria	6	False	4	2	0.5	True	100,100	0	0	
+trpc	12	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	13	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	14	Branchiostoma floridae	9	True	12	1	1.0	False	41,100	0	0	
+trpc	15	Branchiostoma floridae	9	True	10	1	1.0	False	100,40	0	0	
+trpc	16	Branchiostoma floridae	9	True	4	1	1.0	True	100,leaf	0	0	
+trpc	17	Branchiostoma floridae	9	True	3	1	1.0	True	99,leaf	0	0	
+trpc	18	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	19	Branchiostoma floridae	9	True	6	1	1.0	False	47,leaf	0	0	
+trpc	20	Branchiostoma floridae	9	True	5	1	1.0	True	100,leaf	0	0	
+trpc	21	Branchiostoma floridae	9	True	4	1	1.0	True	100,leaf	0	0	
+trpc	22	Branchiostoma floridae	9	True	3	1	1.0	True	leaf,100	0	0	
+trpc	23	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	24	Strongylocentrotus purpuratus	8	True	12	1	1.0	False	100,71	0	0	
+trpc	25	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	26	Strongylocentrotus purpuratus	8	True	10	1	1.0	True	99,100	0	0	
+trpc	27	Strongylocentrotus purpuratus	8	True	8	1	1.0	True	99,leaf	0	0	
+trpc	28	Strongylocentrotus purpuratus	8	True	5	1	1.0	True	99,leaf	0	0	
+trpc	29	Strongylocentrotus purpuratus	8	True	7	1	1.0	True	100,100	0	0	
+trpc	30	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	31	Strongylocentrotus purpuratus	8	True	4	1	1.0	True	100,100	0	0	
+trpc	32	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	33	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	34	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	35	Bilateria	6	False	74	21	0.5238	False	36,52	6	3	TRPC3,TRPC7,TRPC6
+trpc	36	Bilateria	6	False	82	21	0.2857	False	100,81	8	3	TRPC3,TRPC7,TRPC6
+trpc	37	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	38	Takifugu rubripes	13	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	39	Gastropoda	8	False	13	4	0.75	False	99,38	3	0	
+trpc	40	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+trpc	41	Gastropoda	8	False	9	4	0.25	True	100,100	3	0	
+trpc	42	Gastropoda	8	False	7	4	0.25	True	97,leaf	1	0	
+trpc	43	Gastropoda	8	False	6	4	0.5	False	100,94	1	0	
+trpc	44	Gastropoda	8	False	4	3	0.3333	True	100,leaf	0	0	
+trpc	45	Deuterostomia	7	False	47	16	0.0625	False	100,60	3	3	TRPC3,TRPC7,TRPC6
+trpc	46	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	47	Strongylocentrotus purpuratus	8	True	3	1	1.0	True	leaf,99	0	0	
+trpc	48	Vertebrata	9	False	42	14	0.8571	False	100,77	3	3	TRPC3,TRPC7,TRPC6
+trpc	49	Vertebrata	9	False	30	14	0.8571	False	94,100	2	2	TRPC7,TRPC6
+trpc	50	Clupeocephala	12	False	3	2	0.5	False	81,leaf	0	0	
+trpc	51	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	52	Clupeocephala	12	False	3	2	0.5	False	86,leaf	0	0	
+trpc	53	Clupeocephala	12	False	4	2	0.5	False	leaf,73	0	0	
+trpc	54	Euthyneura	9	False	3	2	0.5	False	66,leaf	2	0	
+trpc	55	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+trpc	56	Chordata	8	False	46	15	1.0	True	98,100	3	3	TRPC1,TRPC4,TRPC5
+trpc	57	Vertebrata	9	False	30	14	0.0714	False	83,leaf	2	2	TRPC4,TRPC5
+trpc	58	Gnathostomata	10	False	28	13	0.9231	True	100,100	2	2	TRPC4,TRPC5
+trpc	59	Clupeocephala	12	False	3	2	0.5	False	80,leaf	0	0	
+trpc	60	Clupeocephala	12	False	4	2	0.5	False	75,leaf	0	0	
+trpc	61	Clupeocephala	12	False	3	2	0.5	True	leaf,97	0	0	
+trpm	0	Hydra vulgaris	7	True	4	1	1.0	True	98,leaf	0	0	
+trpm	1	Opisthokonta	3	False	145	28	0.6429	False	69,69	5	8	TRPM2,TRPM8,TRPM1,TRPM4,TRPM7,TRPM6,TRPM3,TRPM5
+trpm	2	Hydra vulgaris	7	True	3	1	1.0	True	100,leaf	0	0	
+trpm	3	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+trpm	4	Eumetazoa	5	False	69	23	0.0435	False	91,leaf	4	4	TRPM1,TRPM7,TRPM6,TRPM3
+trpm	5	Vertebrata	9	False	27	14	0.8571	False	100,65	1	2	TRPM7,TRPM6
+trpm	6	Vertebrata	9	False	55	14	1.0	True	100,100	3	4	TRPM1,TRPM7,TRPM6,TRPM3
+trpm	7	Tetrapoda	13	False	9	8	0.125	False	91,leaf	0	1	TRPM7
+trpm	8	Vertebrata	9	False	28	14	0.8571	False	100,91	2	2	TRPM1,TRPM3
+trpm	9	Clupeocephala	12	False	4	2	1.0	False	100,65	0	0	
+trpm	10	Panpulmonata	10	False	3	2	0.5	False	69,leaf	1	0	
+trpm	11	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+trpm	12	Caenorhabditis elegans	9	True	3	1	1.0	False	leaf,73	0	0	
+trpm	13	Daphnia pulex	10	True	2	1	1.0	True	leaf,leaf	0	0	
+trpm	14	Opisthokonta	3	False	72	22	0.1818	False	87,61	1	4	TRPM2,TRPM8,TRPM4,TRPM5
+trpm	15	Opisthokonta	3	False	8	5	0.2	True	100,98	0	0	
+trpm	16	Monosiga brevicollis	4	True	2	1	1.0	True	leaf,leaf	0	0	
+trpm	17	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpm	18	Eumetazoa	5	False	64	21	0.2381	False	80,80	1	4	TRPM2,TRPM8,TRPM4,TRPM5
+trpm	19	Euthyneura	9	False	3	2	0.5	False	77,leaf	0	0	
+trpm	20	Branchiostoma floridae	9	True	2	1	1.0	True	leaf,leaf	0	0	
+trpm	21	Euthyneura	9	False	5	3	0.3333	True	100,100	1	0	
+trpm	22	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+trpm	23	Strongylocentrotus purpuratus	8	True	4	1	1.0	True	leaf,100	0	0	
+trpm	24	Strongylocentrotus purpuratus	8	True	3	1	1.0	False	91,leaf	0	0	
+trpm	25	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpm	26	Vertebrata	9	False	43	12	1.0	True	100,100	0	4	TRPM2,TRPM8,TRPM4,TRPM5
+trpm	27	Gnathostomata	10	False	22	11	0.7273	True	100,100	0	2	TRPM4,TRPM5
+trpm	28	Clupeocephala	12	False	5	2	0.5	True	100,leaf	0	0	
+trpm	29	Danio rerio	13	True	2	1	1.0	True	leaf,leaf	0	0	
+trpm	30	Danio rerio	13	True	3	1	1.0	False	leaf,87	0	0	
+trpm	31	Gnathostomata	10	False	19	11	0.5455	False	81,100	0	2	TRPM2,TRPM8
+trpm	32	Xenopus tropicalis	14	True	2	1	1.0	True	leaf,leaf	0	0	
+trpm	33	Tetrapoda	13	False	8	7	0.1429	True	95,leaf	0	1	TRPM2
+trpml	0	Eukaryota	2	False	60	27	0.037	False	28,56	4	3	MCOLN2,MCOLN3,MCOLN1
+trpml	1	Metazoa	4	False	6	3	0.6667	False	32,75	0	0	
+trpml	2	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+trpml	3	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+trpml	4	Amphimedon queenslandica	5	True	2	1	1.0	True	leaf,leaf	0	0	
+trpml	5	Vertebrata	9	False	41	14	0.9286	False	28,100	2	3	MCOLN2,MCOLN3,MCOLN1
+trpml	6	Clupeocephala	12	False	3	2	0.5	True	leaf,99	0	0	
+trpml	7	Clupeocephala	12	False	3	2	0.5	True	leaf,99	0	0	
+trpml	8	Vertebrata	9	False	27	14	0.1429	False	43,99	1	2	MCOLN2,MCOLN3
+trpml	9	Vertebrata	9	False	24	14	0.7143	False	99,29	1	2	MCOLN2,MCOLN3
+trpn	0	Hydra vulgaris	7	True	4	1	1.0	False	75,leaf	0	0	
+trpn	1	Hydra vulgaris	7	True	3	1	1.0	True	100,leaf	0	0	
+trpn	2	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+trpp	0	Eumetazoa	5	False	62	26	0.1538	False	92,96	4	3	PKD2,PKD2L2,PKD2L1
+trpp	1	Eumetazoa	5	False	6	2	0.5	False	50,100	0	0	
+trpp	2	Nematostella vectensis	7	True	4	1	1.0	True	96,leaf	0	0	
+trpp	3	Nematostella vectensis	7	True	2	1	1.0	True	leaf,leaf	0	0	
+trpp	4	Nematostella vectensis	7	True	3	1	1.0	True	leaf,100	0	0	
+trpp	5	Gastropoda	8	False	6	4	0.25	False	91,leaf	2	0	
+trpp	6	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+trpp	7	Hydra vulgaris	7	True	5	1	1.0	False	64,100	0	0	
+trpp	8	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+trpp	9	Hydra vulgaris	7	True	3	1	1.0	False	75,leaf	0	0	
+trpp	10	Hydra vulgaris	7	True	2	1	1.0	True	leaf,leaf	0	0	
+trpp	11	Bilateria	6	False	37	15	0.8	False	97,27	2	3	PKD2,PKD2L2,PKD2L1
+trpp	12	Gnathostomata	10	False	22	13	0.6923	True	100,100	2	2	PKD2,PKD2L2
+trpp	13	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+trpv	0	Eumetazoa	5	False	27	12	0.75	True	100,98	3	0	
+trpv	1	Eukaryota	2	False	115	27	0.0741	False	76,76	7	6	TRPV1,TRPV3,TRPV6,TRPV4,TRPV5,TRPV2
+trpv	2	Caenorhabditis elegans	9	True	4	1	1.0	True	100,leaf	0	0	
+trpv	3	Caenorhabditis elegans	9	True	3	1	1.0	True	100,leaf	0	0	
+trpv	4	Caenorhabditis elegans	9	True	2	1	1.0	True	leaf,leaf	0	0	
+trpv	5	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpv	6	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+trpv	7	Strongylocentrotus purpuratus	8	True	2	1	1.0	True	leaf,leaf	0	0	
+trpv	8	Bilateria	6	False	87	16	0.8125	False	91,74	4	6	TRPV1,TRPV3,TRPV6,TRPV4,TRPV5,TRPV2
+trpv	9	Vertebrata	9	False	36	14	0.4286	False	100,72	2	2	TRPV6,TRPV5
+trpv	10	Vertebrata	9	False	11	6	0.8333	False	68,100	1	0	
+trpv	11	Petromyzon marinus	10	True	3	1	1.0	True	leaf,100	0	0	
+trpv	12	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+trpv	13	Chondrichthyes	11	False	3	2	0.5	True	99,leaf	1	0	
+trpv	14	Xenopus tropicalis	14	True	4	1	1.0	True	98,leaf	0	0	
+trpv	15	Xenopus tropicalis	14	True	3	1	1.0	True	96,leaf	0	0	
+trpv	16	Xenopus tropicalis	14	True	2	1	1.0	True	leaf,leaf	0	0	
+trpv	17	Sauria	15	False	3	2	0.5	True	99,leaf	0	0	
+trpv	18	Mammalia	15	False	9	5	0.8	False	98,84	0	2	TRPV6,TRPV5
+trpv	19	Vertebrata	9	False	49	13	0.0769	False	87,100	2	4	TRPV1,TRPV3,TRPV4,TRPV2
+trpv	20	Ornithorhynchus anatinus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+trpv	21	Vertebrata	9	False	47	13	0.6154	False	91,100	2	4	TRPV1,TRPV3,TRPV4,TRPV2
+trpv	22	Latimeria chalumnae	13	True	2	1	1.0	True	leaf,leaf	0	0	
+trpv	23	Clupeocephala	12	False	3	2	0.5	True	100,leaf	0	0	
+trpv	24	Vertebrata	9	False	38	13	0.8462	True	100,100	2	3	TRPV1,TRPV4,TRPV2
+trpv	25	Tetrapoda	13	False	13	7	0.8571	True	100,100	0	2	TRPV1,TRPV2
+trpv	26	Petromyzon marinus	10	True	2	1	1.0	True	leaf,leaf	0	0	
+trpv	27	Xenopus tropicalis	14	True	2	1	1.0	True	leaf,leaf	0	0	
+trpv	28	Xenopus tropicalis	14	True	6	1	1.0	True	leaf,100	0	0	
+trpv	29	Xenopus tropicalis	14	True	5	1	1.0	False	94,100	0	0	
+trpv	30	Xenopus tropicalis	14	True	3	1	1.0	False	94,leaf	0	0	
+trpv	31	Xenopus tropicalis	14	True	2	1	1.0	True	leaf,leaf	0	0	
+trpv	32	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	0	Protostomia	7	False	8	6	0.1667	False	32,100	1	0	
+vdac	1	Drosophila melanogaster	10	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	2	Amphimedon queenslandica	5	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	3	Amphimedon queenslandica	5	True	3	1	1.0	True	leaf,100	0	0	
+vdac	4	Physcomitrium patens	5	True	3	1	1.0	True	100,leaf	0	0	
+vdac	5	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	6	Oryza sativa	6	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	7	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	8	Chlamydomonas reinhardtii	4	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	9	Embryophyta	4	False	16	3	0.3333	False	94,100	0	0	
+vdac	10	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	11	Embryophyta	4	False	14	3	0.6667	False	82,91	0	0	
+vdac	12	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	13	Embryophyta	4	False	12	3	0.6667	False	71,100	0	0	
+vdac	14	Physcomitrium patens	5	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	15	Arabidopsis thaliana	6	True	3	1	1.0	False	94,leaf	0	0	
+vdac	16	Arabidopsis thaliana	6	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	17	Oryza sativa	6	True	4	1	1.0	True	95,leaf	0	0	
+vdac	18	Oryza sativa	6	True	3	1	1.0	True	95,leaf	0	0	
+vdac	19	Oryza sativa	6	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	20	Aplysia californica	10	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	21	Cornu aspersum	11	True	2	1	1.0	True	leaf,leaf	2	0	
+vdac	22	Drosophila melanogaster	10	True	3	1	1.0	True	leaf,97	0	0	
+vdac	23	Drosophila melanogaster	10	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	24	Vertebrata	9	False	47	14	0.0714	False	73,leaf	3	3	VDAC1,VDAC2,VDAC3
+vdac	25	Vertebrata	9	False	46	14	0.9286	False	73,100	3	3	VDAC1,VDAC2,VDAC3
+vdac	26	Clupeocephala	12	False	3	2	0.5	False	50,leaf	0	0	
+vdac	27	Clupeocephala	12	False	4	2	0.5	False	leaf,51	0	0	
+vdac	28	Gallus gallus	16	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	29	Vertebrata	9	False	30	14	0.9286	False	100,74	2	2	VDAC1,VDAC2
+vdac	30	Vertebrata	9	False	5	3	0.3333	False	65,92	0	0	
+vdac	31	Clupeocephala	12	False	3	2	0.5	False	86,leaf	0	0	
+vdac	32	Murinae	18	False	3	2	0.5	True	100,leaf	0	0	
+vdac	33	Saccharomyces cerevisiae	5	True	2	1	1.0	True	leaf,leaf	0	0	
+vdac	34	Vertebrata	9	False	24	12	0.0833	False	62,leaf	0	2	TOMM40,TOMM40L
+vdac	35	Vertebrata	9	False	23	12	0.75	False	83,100	0	2	TOMM40,TOMM40L
+vdac	36	Clupeocephala	12	False	4	2	1.0	False	86,60	0	0	

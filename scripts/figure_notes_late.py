@@ -136,4 +136,40 @@ FIGURES = [
                 "unknown (medium call or incomplete proteome). 'Protists' are "
                 "eukaryotes outside animals, fungi and plants.",
     },
+    {
+        "path": "results/duplication/figures/duplications.png",
+        "task": "S11a", "script": "scripts/s11_figures.py",
+        "title": "When were the ion-channel genes duplicated?",
+        "shows": "Gene duplications in 63 ion-channel family trees, placed on the tree of "
+                 "the 52 panel species. A — duplications whose two copies are found in "
+                 "more than one species, by the group of species they date to. B — "
+                 "duplications inside a single species. C — human gene pairs that an "
+                 "independent database (OHNOLOGS v2) attributes to the two whole-genome "
+                 "duplications at the origin of vertebrates ('2R'), and the age our gene "
+                 "trees give them. D — how each family tree was rooted.",
+        "how": "Each family's maximum-likelihood tree was compared with the NCBI "
+               "taxonomy tree of the panel species (reconciliation): a node is a "
+               "duplication when the species below its two branches overlap, and it is "
+               "dated to the smallest group of species containing all its descendants. "
+               "Trees without a trusted outgroup root were rooted where the fewest "
+               "duplications (then losses) are needed; a duplication is counted only if "
+               "it holds under every such root and both branches below it have "
+               "bootstrap support of at least 95 %. Human pairs were matched to OHNOLOGS "
+               "through HGNC gene identifiers; the database never changed a call.",
+        "read": "A and B: bar length = number of supported duplications, with the count "
+                "at the end. In A, dark blue = the two vertebrate whole-genome "
+                "duplications' window (Vertebrata, Gnathostomata = jawed vertebrates), "
+                "green = the teleost-fish genome duplication's window (Clupeocephala = "
+                "the group holding zebrafish and pufferfish), light blue = any other "
+                "group. In B, blue = duplications among proteome genes, grey = ones "
+                "involving a locus found only in the genome (Cornu, the garden snail, "
+                "has no proteome). C: one bar per family with at least 4 such pairs; "
+                "blue = our tree dates the pair to the vertebrate window (agreement), "
+                "orange = our tree dates it older than vertebrates (usually because a "
+                "non-vertebrate sequence sits among the vertebrate copies), grey = "
+                "other. D: number of trees; 'declared root' = rooted on the outgroup "
+                "named in the catalogue, blue where that root is also a "
+                "fewest-duplication root, orange where it is not; light blue / grey = "
+                "rooted by fewest duplications, at one edge or tied between several.",
+    },
 ]

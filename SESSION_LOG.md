@@ -1070,3 +1070,27 @@ and the ingroup's basal split is identical under the two outgroups.
   MscS/MscL on animal contigs (HGT candidates); fish ZACN orthologues vs 5-HT3.
 
 **Next: S11** — duplication history (fix dating rules before reading any tree).
+
+### 2026-10-03 — S11a: duplication history by reconciliation (S11 split)
+
+- S11 split into **S11a** (reconciliation, ohnologue windows) and **S11b**
+  (repeat-duplication order, outgroup-free roots). **D52** written before any
+  tree was reconciled.
+- `s11_recon.py` (pure logic: unrooted gene tree, all roots in O(n) by memoised
+  directed edges, species-overlap duplications, LCA-mapped losses, stated =
+  under every optimal root), `s11_lib.py` (NCBI Taxonomy for the 52 S4 taxa,
+  HGNC complete set, OHNOLOGS v2 human 2R pairs strict/relaxed, all archived
+  under `<data root>/raw_api/s11/`), `s11_duplications.py` (`reconcile`,
+  `pairs`), `s11_report.py`, `s11_figures.py`, `selftest_s11.py` (+9; one test
+  case was wrong at first, a tie that wasn't one, and was replaced with a true tie).
+  `s10_lib.raw/fetch_lineages` gained a `task` argument.
+- Results: 63 trees; 28 declared roots (6 are reconciliation optima), 35
+  reconciliation-rooted (27 unique). 2,316 stated / 1,374 supported duplications;
+  1,117 species-specific; 3R 58, 2R 76. OHNOLOGS strict pairs in families 303:
+  176 2R, 124 older (Kir/Nav/GABA-A). Per gene 158/183.
+- Figure `results/duplication/figures/duplications.png` (looked at), caption in
+  `figure_notes_late.py`, README + dashboard refreshed.
+- Emergent: tree-dated 2R misdating (synteny test needed); lamprey
+  species-specific excess; Kir pairs dated to cellular organisms.
+
+**Next: S11b** — repeat-duplication order + rootstrap roots (rules first).

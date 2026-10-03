@@ -39,9 +39,9 @@ PRIMARY = "g2"
 INF = 10 ** 15
 
 
-def raw(*parts: str) -> Path:
-    """`<data root>/raw_api/s10/...` — raises without the drive (D1)."""
-    p = require_data_root() / "raw_api" / "s10"
+def raw(*parts: str, task: str = "s10") -> Path:
+    """`<data root>/raw_api/<task>/...` — raises without the drive (D1)."""
+    p = require_data_root() / "raw_api" / task
     for part in parts:
         p = p / part
     p.parent.mkdir(parents=True, exist_ok=True)
@@ -49,7 +49,8 @@ def raw(*parts: str) -> Path:
 
 
 # ---------------------------------------------------------------- taxonomy
-def fetch_lineages(taxids: list[str], name: str = "ncbi_taxonomy") -> dict[str, list[tuple[str, str, str]]]:
+def fetch_lineages(taxids: list[str], name: str = "ncbi_taxonomy",
+                   task: str = "s10") -> dict[str, list[tuple[str, str, str]]]:
     """taxid → [(taxid, name, rank), …] root-first, ending with the taxon itself.
 
     Each efetch batch is archived as `<name>_<i>.xml`; a rerun reads the archive.
@@ -57,7 +58,7 @@ def fetch_lineages(taxids: list[str], name: str = "ncbi_taxonomy") -> dict[str, 
     out: dict[str, list[tuple[str, str, str]]] = {}
     ids = sorted(set(taxids), key=int)
     for i in range(0, len(ids), 150):
-        path = raw("taxonomy", f"{name}_{i // 150:03d}.xml")
+        path = raw("taxonomy", f"{name}_{i // 150:03d}.xml", task=task)
         chunk = ids[i:i + 150]
         if not path.exists() or not _covers(path, chunk):
             for attempt in range(5):

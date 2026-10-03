@@ -1,0 +1,440 @@
+family	taxon	taxon_depth	supported_dups
+ampa	Clupeocephala	12	2
+ampa	Petromyzon marinus	10	2
+ano_channel	Gnathostomata	10	1
+ano_channel	Petromyzon marinus	10	1
+ano_scramblase	Bilateria	6	1
+ano_scramblase	Cornu aspersum	11	2
+ano_scramblase	Torpedo marmorata	12	3
+asic	Amphimedon queenslandica	5	9
+asic	Aplysia californica	10	1
+asic	Branchiostoma floridae	9	13
+asic	Caenorhabditis elegans	9	5
+asic	Ciona intestinalis	9	1
+asic	Cnidaria	6	1
+asic	Daphnia pulex	10	4
+asic	Deuterostomia	7	1
+asic	Drosophila melanogaster	10	6
+asic	Gnathostomata	10	1
+asic	Homo sapiens	18	1
+asic	Hydra vulgaris	7	7
+asic	Lottia gigantea	9	6
+asic	Nematostella vectensis	7	3
+asic	Petromyzon marinus	10	1
+asic	Strongylocentrotus purpuratus	8	11
+asic	Trichoplax adhaerens	6	6
+bestrophin	Branchiostoma floridae	9	2
+bestrophin	Caenorhabditis elegans	9	17
+bestrophin	Cornu aspersum	11	1
+bestrophin	Daphnia pulex	10	10
+bestrophin	Drosophila melanogaster	10	1
+calhm	Danio rerio	13	2
+calhm	Gnathostomata	10	1
+calhm	Monodelphis domestica	17	1
+calhm	Nematostella vectensis	7	2
+calhm	Petromyzon marinus	10	4
+calhm	Vertebrata	9	1
+catsper	Metazoa	4	1
+cav	Clupeocephala	12	7
+cav	Cornu aspersum	11	1
+cav	Danio rerio	13	1
+cav	Eumetazoa	5	1
+cav	Euteleostomi	11	1
+cav	Gnathostomata	10	1
+cav	Hydra vulgaris	7	10
+cav	Oligohymenophorea	4	2
+cav	Paramecium tetraurelia	5	10
+cav	Petromyzon marinus	10	4
+cav	Strongylocentrotus purpuratus	8	1
+clc_channel	Caenorhabditis elegans	9	2
+clc_channel	Capsaspora owczarzaki ATCC 30864	4	1
+clc_channel	Cornu aspersum	11	1
+clc_channel	Danio rerio	13	1
+clc_channel	Daphnia pulex	10	2
+clc_channel	Homo sapiens	18	1
+clc_channel	Murinae	18	1
+clc_channel	Takifugu rubripes	13	1
+clc_channel	Vertebrata	9	2
+clic	Cornu aspersum	11	2
+clic	Torpedo marmorata	12	2
+cng	Caenorhabditis elegans	9	2
+cng	Chlamydomonas reinhardtii	4	1
+cng	Clupeocephala	12	2
+cng	Cornu aspersum	11	1
+cng	Eukaryota	2	1
+cng	Eumetazoa	5	1
+cng	Gallus gallus	16	1
+cng	Monosiga brevicollis	4	1
+cng	Oligohymenophorea	4	1
+cng	Paramecium tetraurelia	5	60
+cng	Petromyzon marinus	10	2
+cng	Strongylocentrotus purpuratus	8	1
+cng	Takifugu rubripes	13	1
+cng	Tetrahymena thermophila	5	48
+cng	Vertebrata	9	1
+connexin	Callorhinchus milii	12	1
+connexin	Ciona intestinalis	9	8
+connexin	Clupeocephala	12	5
+connexin	Danio rerio	13	5
+connexin	Gallus gallus	16	3
+connexin	Gnathostomata	10	4
+connexin	Latimeria chalumnae	13	1
+connexin	Monodelphis domestica	17	1
+connexin	Ornithorhynchus anatinus	16	1
+connexin	Petromyzon marinus	10	29
+connexin	Takifugu rubripes	13	6
+connexin	Vertebrata	9	2
+connexin	Xenopus tropicalis	14	1
+deg_invertebrate	Caenorhabditis elegans	9	2
+deg_invertebrate	Cornu aspersum	11	1
+deg_invertebrate	Lottia gigantea	9	1
+enac	Gallus gallus	16	1
+enac	Sarcopterygii	12	1
+enac	Vertebrata	9	1
+enac	Xenopus tropicalis	14	1
+gabaa	Branchiostoma floridae	9	1
+gabaa	Clupeocephala	12	2
+gabaa	Gallus gallus	16	1
+gabaa	Gnathostomata	10	4
+gabaa	Hydra vulgaris	7	1
+gabaa	Ornithorhynchus anatinus	16	1
+gabaa	Petromyzon marinus	10	8
+gabaa	Strongylocentrotus purpuratus	8	1
+gabaa	Takifugu rubripes	13	2
+gabaa	Vertebrata	9	1
+gabaa	Xenopus tropicalis	14	1
+glyr	Clupeocephala	12	1
+glyr	Danio rerio	13	2
+glyr	Petromyzon marinus	10	1
+glyr	Vertebrata	9	1
+hcn	Clupeocephala	12	1
+hcn	Cornu aspersum	11	1
+hcn	Gnathostomata	10	1
+hcn	Petromyzon marinus	10	2
+hcn	Takifugu rubripes	13	1
+ht3	Danio rerio	13	2
+ht3	Homo sapiens	18	2
+ht3	Latimeria chalumnae	13	4
+ht3	Monodelphis domestica	17	1
+ht3	Takifugu rubripes	13	4
+hv1	Gallus gallus	16	1
+hv1	Gastropoda	8	1
+iglur_nonvertebrate	Arabidopsis thaliana	6	12
+iglur_nonvertebrate	Oryza sativa	6	8
+iglur_nonvertebrate	Physcomitrium patens	5	1
+innexin	Allotriocarida	9	2
+innexin	Caenorhabditis elegans	9	13
+innexin	Cornu aspersum	11	3
+innexin	Daphnia pulex	10	3
+innexin	Drosophila melanogaster	10	2
+innexin	Euthyneura	9	2
+innexin	Gastropoda	8	4
+itpr	Amphimedon queenslandica	5	3
+itpr	Clupeocephala	12	1
+itpr	Gastropoda	8	2
+itpr	Gnathostomata	10	1
+itpr	Monosiga brevicollis	4	1
+itpr	Oligohymenophorea	4	5
+itpr	Opisthokonta	3	1
+itpr	Paramecium tetraurelia	5	5
+itpr	Petromyzon marinus	10	1
+itpr	Tetrahymena thermophila	5	1
+k2p	Allotriocarida	9	2
+k2p	Arabidopsis thaliana	6	2
+k2p	Branchiostoma floridae	9	7
+k2p	Caenorhabditis elegans	9	18
+k2p	Ciona intestinalis	9	1
+k2p	Clupeocephala	12	3
+k2p	Daphnia pulex	10	2
+k2p	Gnathostomata	10	4
+k2p	Lottia gigantea	9	1
+k2p	Nematostella vectensis	7	5
+k2p	Opisthokonta	3	1
+k2p	Oryza sativa	6	1
+k2p	Petromyzon marinus	10	5
+k2p	Physcomitrium patens	5	1
+k2p	Strongylocentrotus purpuratus	8	7
+k2p	Vertebrata	9	1
+kainate	Clupeocephala	12	1
+kainate	Gnathostomata	10	2
+kainate	Petromyzon marinus	10	1
+kainate	Strongylocentrotus purpuratus	8	1
+kainate	Takifugu rubripes	13	1
+kca_sk	Caenorhabditis elegans	9	2
+kca_sk	Clupeocephala	12	1
+kca_sk	Cornu aspersum	11	1
+kca_sk	Daphnia pulex	10	1
+kca_sk	Gastropoda	8	1
+kca_sk	Gnathostomata	10	1
+kca_sk	Lottia gigantea	9	1
+kca_sk	Paramecium tetraurelia	5	4
+kca_sk	Petromyzon marinus	10	1
+kca_sk	Tetrahymena thermophila	5	1
+kca_slo	Clupeocephala	12	1
+kca_slo	Dictyostelium discoideum	3	1
+kca_slo	Gallus gallus	16	2
+kca_slo	Gastropoda	8	4
+kca_slo	Gnathostomata	10	2
+kca_slo	Hydra vulgaris	7	2
+kca_slo	Oligohymenophorea	4	2
+kca_slo	Panpulmonata	10	1
+kca_slo	Paramecium tetraurelia	5	4
+kca_slo	Petromyzon marinus	10	2
+kca_slo	Physcomitrium patens	5	1
+kca_slo	Tetrahymena thermophila	5	2
+kca_slo	Vertebrata	9	1
+kir	Amphimedon queenslandica	5	1
+kir	Caenorhabditis elegans	9	1
+kir	Callorhinchus milii	12	1
+kir	Chlamydomonas reinhardtii	4	1
+kir	Clupeocephala	12	3
+kir	Danio rerio	13	2
+kir	Gallus gallus	16	2
+kir	Gastropoda	8	2
+kir	Gnathostomata	10	3
+kir	Homo sapiens	18	1
+kir	Nematostella vectensis	7	2
+kir	Petromyzon marinus	10	4
+kir	Physcomitrium patens	5	1
+kir	Strongylocentrotus purpuratus	8	3
+kir	Torpedo marmorata	12	1
+kir	Trichoplax adhaerens	6	1
+kir	Vertebrata	9	1
+kir	cellular organisms	1	1
+kv_eag	Bilateria	6	1
+kv_eag	Clupeocephala	12	4
+kv_eag	Euteleostomi	11	1
+kv_eag	Gallus gallus	16	1
+kv_eag	Gnathostomata	10	2
+kv_eag	Hydra vulgaris	7	6
+kv_eag	Oligohymenophorea	4	1
+kv_eag	Paramecium tetraurelia	5	3
+kv_eag	Petromyzon marinus	10	4
+kv_eag	Strongylocentrotus purpuratus	8	1
+kv_eag	Tetrahymena thermophila	5	1
+kv_kcnq	Cornu aspersum	11	2
+kv_kcnq	Euthyneura	9	1
+kv_kcnq	Gnathostomata	10	2
+kv_kcnq	Hydra vulgaris	7	2
+kv_kcnq	Petromyzon marinus	10	2
+kv_kcnq	Strongylocentrotus purpuratus	8	1
+kv_modifier	Clupeocephala	12	1
+kv_modifier	Gnathostomata	10	3
+kv_modifier	Petromyzon marinus	10	2
+kv_modifier	Theria	16	1
+kv_shaker	Branchiostoma floridae	9	18
+kv_shaker	Clupeocephala	12	5
+kv_shaker	Cornu aspersum	11	2
+kv_shaker	Gastropoda	8	1
+kv_shaker	Gnathostomata	10	5
+kv_shaker	Hydra vulgaris	7	5
+kv_shaker	Nematostella vectensis	7	4
+kv_shaker	Petromyzon marinus	10	17
+kv_shaker	Takifugu rubripes	13	1
+lrrc8	Callorhinchus milii	12	1
+lrrc8	Clupeocephala	12	1
+lrrc8	Gnathostomata	10	3
+lrrc8	Latimeria chalumnae	13	1
+lrrc8	Monodelphis domestica	17	1
+lrrc8	Petromyzon marinus	10	8
+lrrc8	Vertebrata	9	1
+lrrc8	Xenopus tropicalis	14	3
+mcu	Lottia gigantea	9	1
+mscs	Arabidopsis thaliana	6	6
+mscs	Bacillus subtilis	4	1
+mscs	Embryophyta	4	2
+mscs	Escherichia coli K-12	4	1
+mscs	Mesangiospermae	5	1
+mscs	Monosiga brevicollis	4	1
+mscs	Oryza sativa	6	1
+mscs	Physcomitrium patens	5	8
+mscs	Schizosaccharomyces pombe	5	1
+mscs	Streptomyces lividans	4	1
+mscs	Synechocystis sp. PCC 6803	5	3
+mscs	Viridiplantae	3	1
+nachr	Allotriocarida	9	1
+nachr	Aplysia californica	10	19
+nachr	Bilateria	6	1
+nachr	Branchiostoma floridae	9	59
+nachr	Caenorhabditis elegans	9	30
+nachr	Chordata	8	2
+nachr	Ciona intestinalis	9	3
+nachr	Clupeocephala	12	4
+nachr	Cnidaria	6	2
+nachr	Danio rerio	13	3
+nachr	Daphnia pulex	10	3
+nachr	Drosophila melanogaster	10	2
+nachr	Euthyneura	9	5
+nachr	Gallus gallus	16	12
+nachr	Gastropoda	8	12
+nachr	Homo sapiens	18	1
+nachr	Hydra vulgaris	7	5
+nachr	Lottia gigantea	9	17
+nachr	Lymnaea stagnalis	11	4
+nachr	Nematostella vectensis	7	18
+nachr	Petromyzon marinus	10	3
+nachr	Strongylocentrotus purpuratus	8	33
+nachr	Takifugu rubripes	13	8
+nachr	Vertebrata	9	4
+nachr	Xenopus tropicalis	14	1
+nalcn	Caenorhabditis elegans	9	1
+nav	Amniota	14	2
+nav	Branchiostoma floridae	9	3
+nav	Ciona intestinalis	9	2
+nav	Clupeocephala	12	2
+nav	Danio rerio	13	1
+nav	Eumetazoa	5	2
+nav	Hydra vulgaris	7	1
+nav	Monodelphis domestica	17	1
+nav	Petromyzon marinus	10	3
+nav	Takifugu rubripes	13	4
+nav	Theria	16	1
+nav	Trichoplax adhaerens	6	1
+nav	Xenopus tropicalis	14	1
+nmda	Bilateria	6	1
+nmda	Chordata	8	2
+nmda	Clupeocephala	12	4
+nmda	Cornu aspersum	11	1
+nmda	Eumetazoa	5	1
+nmda	Gnathostomata	10	3
+nmda	Nematostella vectensis	7	1
+nmda	Petromyzon marinus	10	2
+orai	Capsaspora owczarzaki ATCC 30864	4	1
+orai	Gallus gallus	16	2
+orai	Lottia gigantea	9	1
+orai	Petromyzon marinus	10	1
+osca_tmem63	Arabidopsis thaliana	6	6
+osca_tmem63	Ascomycota	4	3
+osca_tmem63	Chlamydomonas reinhardtii	4	7
+osca_tmem63	Daphnia pulex	10	2
+osca_tmem63	Dictyostelium discoideum	3	2
+osca_tmem63	Embryophyta	4	3
+osca_tmem63	Gnathostomata	10	1
+osca_tmem63	Mesangiospermae	5	2
+osca_tmem63	Monosiga brevicollis	4	1
+osca_tmem63	Oryza sativa	6	1
+osca_tmem63	Paramecium tetraurelia	5	3
+osca_tmem63	Petromyzon marinus	10	1
+osca_tmem63	Physcomitrium patens	5	12
+osca_tmem63	Tetrahymena thermophila	5	5
+otop	Allotriocarida	9	1
+otop	Branchiostoma floridae	9	2
+otop	Caenorhabditis elegans	9	5
+otop	Cornu aspersum	11	2
+otop	Daphnia pulex	10	3
+otop	Drosophila melanogaster	10	1
+otop	Gastropoda	8	2
+otop	Gnathostomata	10	1
+otop	Latimeria chalumnae	13	1
+otop	Tetrapoda	13	1
+otop	Xenopus tropicalis	14	3
+p2x	Cornu aspersum	11	1
+p2x	Daphnia pulex	10	1
+p2x	Monodelphis domestica	17	1
+p2x	Petromyzon marinus	10	6
+p2x	Strongylocentrotus purpuratus	8	2
+p2x	Vertebrata	9	3
+p2x	Xenopus tropicalis	14	1
+p2x_nonmetazoan	Dictyostelium discoideum	3	3
+pannexin	Branchiostoma floridae	9	1
+piezo	Clupeocephala	12	1
+piezo	Drosophila melanogaster	10	1
+piezo	Gnathostomata	10	1
+piezo	Vertebrata	9	1
+plgic_invertebrate	Caenorhabditis elegans	9	3
+plgic_invertebrate	Daphnia pulex	10	1
+ryr	Clupeocephala	12	1
+ryr	Danio rerio	13	1
+ryr	Gnathostomata	10	1
+tmc	Cornu aspersum	11	1
+tmc	Torpedo marmorata	12	1
+tmem175	Branchiostoma floridae	9	2
+tmem175	Chordata	8	1
+tmem175	Gallus gallus	16	1
+tmem175	Hydra vulgaris	7	13
+tpc	Amphimedon queenslandica	5	2
+tpc	Embryophyta	4	1
+tpc	Eukaryota	2	2
+tpc	Metazoa	4	1
+tpc	Monosiga brevicollis	4	1
+tpc	Opisthokonta	3	2
+tpc	Paramecium tetraurelia	5	7
+tpc	Physcomitrium patens	5	6
+tpc	Strongylocentrotus purpuratus	8	2
+tpc	Takifugu rubripes	13	1
+tpc	Tetrahymena thermophila	5	1
+tric	Branchiostoma floridae	9	1
+tric	Caenorhabditis elegans	9	1
+tric	Gallus gallus	16	1
+tric	Gnathostomata	10	1
+trpa	Amphimedon queenslandica	5	1
+trpa	Branchiostoma floridae	9	1
+trpa	Cornu aspersum	11	1
+trpa	Euthyneura	9	1
+trpa	Hydra vulgaris	7	3
+trpa	Metazoa	4	3
+trpa	Strongylocentrotus purpuratus	8	9
+trpc	Allotriocarida	9	1
+trpc	Branchiostoma floridae	9	9
+trpc	Chordata	8	1
+trpc	Ciona intestinalis	9	3
+trpc	Clupeocephala	12	1
+trpc	Cnidaria	6	1
+trpc	Cornu aspersum	11	1
+trpc	Danio rerio	13	1
+trpc	Gastropoda	8	3
+trpc	Gnathostomata	10	1
+trpc	Nematostella vectensis	7	1
+trpc	Petromyzon marinus	10	1
+trpc	Strongylocentrotus purpuratus	8	12
+trpc	Takifugu rubripes	13	1
+trpm	Aplysia californica	10	1
+trpm	Branchiostoma floridae	9	1
+trpm	Caenorhabditis elegans	9	1
+trpm	Clupeocephala	12	1
+trpm	Danio rerio	13	1
+trpm	Daphnia pulex	10	1
+trpm	Euthyneura	9	1
+trpm	Gnathostomata	10	1
+trpm	Hydra vulgaris	7	3
+trpm	Monosiga brevicollis	4	1
+trpm	Opisthokonta	3	1
+trpm	Strongylocentrotus purpuratus	8	3
+trpm	Tetrapoda	13	1
+trpm	Vertebrata	9	2
+trpm	Xenopus tropicalis	14	1
+trpml	Amphimedon queenslandica	5	1
+trpml	Clupeocephala	12	2
+trpml	Cornu aspersum	11	1
+trpml	Hydra vulgaris	7	1
+trpn	Hydra vulgaris	7	2
+trpp	Cornu aspersum	11	1
+trpp	Gnathostomata	10	1
+trpp	Hydra vulgaris	7	2
+trpp	Nematostella vectensis	7	3
+trpp	Petromyzon marinus	10	1
+trpv	Caenorhabditis elegans	9	3
+trpv	Chondrichthyes	11	1
+trpv	Clupeocephala	12	1
+trpv	Cornu aspersum	11	1
+trpv	Eumetazoa	5	1
+trpv	Gallus gallus	16	1
+trpv	Latimeria chalumnae	13	1
+trpv	Ornithorhynchus anatinus	16	1
+trpv	Petromyzon marinus	10	3
+trpv	Sauria	15	1
+trpv	Strongylocentrotus purpuratus	8	2
+trpv	Tetrapoda	13	1
+trpv	Vertebrata	9	1
+trpv	Xenopus tropicalis	14	6
+vdac	Amphimedon queenslandica	5	2
+vdac	Aplysia californica	10	1
+vdac	Arabidopsis thaliana	6	3
+vdac	Chlamydomonas reinhardtii	4	1
+vdac	Cornu aspersum	11	1
+vdac	Drosophila melanogaster	10	3
+vdac	Gallus gallus	16	1
+vdac	Murinae	18	1
+vdac	Oryza sativa	6	4
+vdac	Physcomitrium patens	5	4
+vdac	Saccharomyces cerevisiae	5	1

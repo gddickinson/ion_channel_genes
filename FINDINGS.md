@@ -1031,3 +1031,37 @@ two-pore potassium channels that put K2P in the last eukaryotic common
 ancestor are, in plants, the TPK vacuolar K⁺ channels, which have the same
 two-pore-domain architecture. Whether they share descent with animal K2P
 channels or only their architecture is still a tree question *(pending: S17)*.
+
+## S11a — When were the ion-channel genes duplicated? (2026-10-03)
+
+**Most duplications of ion-channel genes are recent and happened inside one
+lineage.** Across 63 family trees, 1,374 duplications are well supported. Of
+those, 1,117 happened within a single species of the panel. They are
+concentrated in the sea lamprey, amphioxus (mostly nicotinic receptors), the
+nematode *C. elegans*, and the two ciliates, whose potassium channels of the
+CNG type multiplied many times (in *Paramecium*, alongside its known
+whole-genome duplications). Some lamprey copies may be redundant gene models
+rather than genes *(pending: a gene-model check)*.
+
+**The fish genome duplication left copies in 26 channel families.** 58
+supported duplications date to the ancestor of zebrafish and pufferfish, the
+window of the teleost whole-genome duplication. Cav, connexins, Shaker Kv and
+EAG channels kept the most. The two vertebrate genome duplications (2R) account
+for 76 duplications shared across vertebrates, spread over 34 families.
+
+**Gene trees alone mis-date a large share of the vertebrate ohnologues.** An
+independent synteny-based database (OHNOLOGS v2) lists 303 human pairs inside
+our families as 2R ohnologues. Our trees put 58 % of them in the 2R window, but
+41 % look older than vertebrates. Those errors cluster in Kir channels, sodium
+channels and GABA-A receptors. In each case an invertebrate or non-animal
+sequence sits among the vertebrate copies, which pushes the duplication back in
+time. So for the Nav channels the trees recover the tetrapod-specific tandem
+duplications (SCN1A/2A/3A/9A, SCN5A/10A/11A), but not their 2R origin. Any
+statement that two channels are 2R ohnologues should rest on synteny, not on a
+tree *(pending: S11b/S16 synteny test)*. No 2R pair crosses two of our family
+boundaries, which supports how the families were drawn.
+
+**The six potassium-channel family roots are still open.** Rooting by fewest
+duplications gives one root each for CNG, K2P, Slo, EAG and KCNQ, and a tie for
+Shaker. These are candidates only, to be compared with outgroup-free roots
+*(pending: S11b)*.

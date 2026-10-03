@@ -1,0 +1,26 @@
+criterion	window	in_ohnologs	pairs
+strict	2R	False	318
+strict	2R	True	176
+strict	bony_vertebrate	False	3
+strict	bony_vertebrate	True	1
+strict	none	False	97
+strict	none	True	2
+strict	older		4
+strict	older	False	529
+strict	older	True	124
+strict	younger		1
+strict	younger	False	24
+relaxed	2R	False	293
+relaxed	2R	True	201
+relaxed	bony_vertebrate	False	3
+relaxed	bony_vertebrate	True	1
+relaxed	none	False	91
+relaxed	none	True	8
+relaxed	older		4
+relaxed	older	False	484
+relaxed	older	True	169
+relaxed	younger		1
+relaxed	younger	False	23
+relaxed	younger	True	1
+strict	across_families	True	0
+relaxed	across_families	True	0

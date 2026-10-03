@@ -319,6 +319,18 @@ sharpest claim and needs D4's two bars.
 **Goal.** Which families expanded in which lineage; 2R/3R ohnologue status;
 the order of the internal repeat duplications that made the 4×6TM channels.
 
+**Split (2026-10-03).** **S11a** (done, D52): every tier-1 tree reconciled with
+the NCBI species tree; duplications dated, lineage expansions, 2R/3R windows vs
+OHNOLOGS v2 → `results/duplication/`. **S11b**: (1) the repeat-duplication order
+— decide the repeat unit (S6 pore modules alone are ~90 columns; a whole
+VSD+pore repeat cut by one stated rule gives more sites), the representatives
+(D8) and the test (e.g. an AU test of (I,III)(II,IV) vs (I,II)(III,IV) vs
+(I,IV)(II,III), TPC's two repeats as the outgroup) before building anything;
+(2) a non-reversible-model root (IQ-TREE `-m … NONREV`, `--root-test`,
+rootstrap) for CNG, K2P, KCNQ, Shaker, Slo, EAG, compared with S11a's
+reconciliation roots (`recon_trees.tsv` `root_split`), with its acceptance
+criterion fixed first. Both runs go detached.
+
 ---
 
 ## S12 — Structures
