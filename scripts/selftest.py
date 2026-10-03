@@ -532,6 +532,10 @@ try:
 except ImportError:
     print("  note figstyle title check not exercised: matplotlib not importable here")
 
+sys.path.insert(0, str(ROOT / "scripts"))
+import selftest_s8 as _s8                                          # noqa: E402
+_s8.run(check)
+
 print()
 if FAILURES:
     print(f"{len(FAILURES)} invariant(s) FAILED: {', '.join(FAILURES)}")

@@ -1,7 +1,7 @@
 """s8_report.py — renders `results/phylogeny/tier2_report.md` from the
 committed S8 tables only (D13): tier-2 units, representatives, inputs, the
-ITPR span check, and the tier-3 fold network. The tier-2 tree section is
-added by S8b once `tier2_trees.tsv` exists.
+ITPR span check, the tier-3 fold network, and (S8b, `s8_report_trees.py`)
+the tier-2 trees once `tier2_trees.tsv` exists.
 
     python3 scripts/s8_report.py
 """
@@ -110,7 +110,8 @@ def main() -> int:
          table(unasserted, ["a", "b", "median_tm"]), "",
          "Figure: `results/phylogeny/figures/fold_network.png`.", ""]
     if trees.exists():
-        L += ["## 6. Tier-2 trees", "", "(S8b)", ""]
+        from s8_report_trees import section
+        L += section(D)
     else:
         L += ["## 6. Tier-2 trees", "",
               "Running detached (`scripts/s8_tier2.py run`, log "

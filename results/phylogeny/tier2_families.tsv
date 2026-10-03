@@ -1,0 +1,60 @@
+unit	family	module	n_tips	sense	one_clade	ufboot	n_intruders	intruder_families
+ca_release	ryr		5	rooted	True	100	0	
+cysloop	gabaa		22	unrooted	False		4	glyr:2,plgic_invertebrate:2
+cysloop	glyr		2	unrooted	True	100	0	
+cysloop	ht3		11	unrooted	True	100	0	
+cysloop	nachr		237	unrooted	False		13	ht3:11,zac:2
+cysloop	plgic_invertebrate		2	unrooted	True	100	0	
+cysloop	plgic_prok		6	unrooted	True	87	0	
+cysloop	zac		2	unrooted	True	100	0	
+deg_enac	asic		84	unrooted	True	100	0	
+deg_enac	deg_invertebrate		7	unrooted	False		10	enac:10
+deg_enac	enac		10	unrooted	True	100	0	
+iglur	ampa		2	rooted	True	84	0	
+iglur	delta_glur		1	rooted	True		0	
+iglur	iglur_nonvertebrate		8	rooted	False		21	nmda:15,kainate:3,ampa:2,delta_glur:1
+iglur	kainate		3	rooted	True	89	0	
+iglur	nmda		15	rooted	False		7	kainate:3,ampa:2,delta_glur:1,iglur_nonvertebrate:1
+innexin_like	innexin		39	unrooted	True	99	0	
+innexin_like	lrrc8		12	unrooted	True	100	0	
+innexin_like	pannexin		8	unrooted	True	70	0	
+p2x	p2x		25	rooted	True	100	0	
+ploop	catsper		7	unrooted	False		12	tpc:12
+ploop	cav		49	unrooted	False		137	tpc:31,nav:20,nalcn:19,trpc:16,trpm:9,trpp:9,trpv:8,catsper:7,trpa:7,trpml:6,trpn:5
+ploop	cav	m1	12	unrooted	False		55	nav:15,tpc:12,cav:11,nalcn:10,catsper:7
+ploop	cav	m2	14	unrooted	False		172	cav:35,tpc:31,nav:20,nalcn:19,trpc:16,trpm:9,trpp:9,trpv:8,catsper:7,trpa:7,trpml:6,trpn:5
+ploop	cav	m3	12	unrooted	False		113	cav:36,tpc:31,nav:20,nalcn:19,catsper:7
+ploop	cav	m4	11	unrooted	False		95	tpc:31,cav:23,nalcn:19,nav:15,catsper:7
+ploop	cng		26	unrooted	False		23	kir:11,kv_eag:8,hcn:4
+ploop	hcn		4	unrooted	False		1	cng:1
+ploop	k2p		49	unrooted	False		84	cng:26,kca_slo:14,kir:11,kv_eag:8,kv_shaker:6,kv_kcnq:5,hcn:4,kca_sk:4,kcsa_prok:4,kv_modifier:1,trpc:1
+ploop	k2p	m1	22	unrooted	False		111	k2p:27,cng:26,kca_slo:14,kir:11,kv_eag:8,kv_shaker:6,kv_kcnq:5,hcn:4,kca_sk:4,kcsa_prok:4,kv_modifier:1,trpc:1
+ploop	k2p	m2	27	unrooted	False		35	kca_slo:14,kv_shaker:6,kv_kcnq:5,kca_sk:4,kcsa_prok:4,k2p:1,kv_modifier:1
+ploop	kca_sk		4	unrooted	True	89	0	
+ploop	kca_slo		14	unrooted	True	97	0	
+ploop	kcsa_prok		4	unrooted	False		32	kca_slo:14,kv_shaker:6,kv_kcnq:5,kca_sk:4,k2p:2,kv_modifier:1
+ploop	kir		11	unrooted	True	88	0	
+ploop	kv_eag		8	unrooted	False		18	cng:14,hcn:4
+ploop	kv_kcnq		5	unrooted	True	63	0	
+ploop	kv_modifier		1	unrooted	True		0	
+ploop	kv_shaker		6	unrooted	False		1	kv_modifier:1
+ploop	nalcn		19	unrooted	False		87	cav:34,tpc:31,nav:15,catsper:7
+ploop	nalcn	m1	5	unrooted	True	100	0	
+ploop	nalcn	m2	5	unrooted	True	100	0	
+ploop	nalcn	m3	5	unrooted	True	100	0	
+ploop	nalcn	m4	4	unrooted	True	100	0	
+ploop	nav		20	unrooted	False		105	cav:48,tpc:31,nalcn:19,catsper:7
+ploop	nav	m1	5	unrooted	True	100	0	
+ploop	nav	m2	5	unrooted	True	95	0	
+ploop	nav	m3	5	unrooted	True	98	0	
+ploop	nav	m4	5	unrooted	True	99	0	
+ploop	tpc		31	unrooted	False		61	cav:24,nalcn:15,nav:15,catsper:7
+ploop	tpc	m1	12	unrooted	True	95	0	
+ploop	tpc	m2	19	unrooted	False		6	nalcn:5,cav:1
+ploop	trpa		7	unrooted	True	98	0	
+ploop	trpc		17	unrooted	False		171	cav:49,tpc:31,nav:20,nalcn:19,trpm:9,trpp:9,trpv:8,catsper:7,trpa:7,trpml:6,trpn:5,k2p:1
+ploop	trpm		9	unrooted	True	100	0	
+ploop	trpml		6	unrooted	True	100	0	
+ploop	trpn		5	unrooted	True	83	0	
+ploop	trpp		9	unrooted	False		51	trpc:16,trpm:9,trpv:8,trpa:7,trpml:6,trpn:5
+ploop	trpv		8	unrooted	True	88	0	

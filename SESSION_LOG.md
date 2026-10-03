@@ -968,3 +968,24 @@ and the ingroup's basal split is identical under the two outgroups.
   `figstyle.save()` refuses an untitled figure (`legend_in=` for the review's
   numbered figures); self-test fails on a figure without a complete description
   or a stale README. All 19 figure scripts re-run and pass.
+
+### 2026-10-02 — S8b: tier-2 trees parsed
+
+- The detached tier-2 run had finished: 7/7 units, 0 failures, 9.1 run-hours
+  (Cys-loop 5.5 h, P-loop 2.2 h, DEG/ENaC 1.0 h).
+- `scripts/s8_parse.py` (`s8_tier2.py parse`): outgroup one clade + root UFBoot +
+  basal split; each family (per module for multi-module chains) tested as a
+  clade — rooted sense where rooted, unrooted otherwise — with the fewest other
+  tips in the way; nested clades above the kingdom-excluded tips. →
+  `tier2_trees.tsv`, `tier2_families.tsv`, `tier2_placement.tsv`, treefiles
+  `results/phylogeny/tier2/`. D48 unchanged.
+- Results: 3/7 rooted (P2X, Ca²⁺-release, iGluR); P-loop, DEG/ENaC, Cys-loop
+  outgroups split by the ingroup → unrooted. 34/54 family groups one clade; Nav
+  and NALCN repeats each one clade, Cav's scattered (90-column module).
+  The four animal `plgic_prok` proteins form a clade (100) with ELIC (69) and
+  GLIC (87), nested in no Cys-loop family → S21.
+- Report § 6 (`s8_report_trees.py`), figure `tier2_trees.png`
+  (`s8_figures_trees.py`), caption in `figure_notes.py`, self-test +5
+  (`selftest_s8.py` — `selftest.py` is over budget, emergent row).
+
+**Next: S9** — selectivity-filter atlas vs the tier-2 tree (Q5).

@@ -3,6 +3,7 @@
     python3 scripts/s8_tier2.py reps                 # D8 representatives → tier2_reps.tsv
     python3 scripts/s8_tier2.py prep [--only ploop]  # root tips, L-INS-i, D41 mask → tier2_inputs.tsv
     python3 scripts/s8_tier2.py run [--jobs 4 --threads 2]
+    python3 scripts/s8_tier2.py parse                # S8b → tier2_trees/families/placement.tsv
 
 Every rule here was fixed before any tier-2 tree was built (**D48**):
 
@@ -314,7 +315,12 @@ def main() -> int:
     p.add_argument("--only", default="")
     p.add_argument("--jobs", type=int, default=4)
     p.add_argument("--threads", type=int, default=2)
+    sub.add_parser("parse")
     a = ap.parse_args()
+    if a.cmd == "parse":
+        from s8_parse import cmd_parse
+        cmd_parse(a)
+        return 0
     {"reps": cmd_reps, "prep": cmd_prep, "run": cmd_run}[a.cmd](a)
     return 0
 

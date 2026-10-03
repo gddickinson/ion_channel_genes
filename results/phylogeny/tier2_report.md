@@ -112,6 +112,133 @@ Reading: small helical pore modules score 0.4–0.6 against almost any helical u
 
 Figure: `results/phylogeny/figures/fold_network.png`.
 
-## 6. Tier-2 trees
+## 6. Tier-2 trees (S8b)
 
-Running detached (`scripts/s8_tier2.py run`, log `<data root>/trees/s8/run.log`); parsed in S8b.
+**7 trees, 0 failures** (IQ-TREE 2, S7's `IQ_ARGS`; 9.1 run-hours summed, Cys-loop the longest at 5.5 h). Read with `scripts/s8_tier2.py parse` (`s8_parse.py`) under the D48 rules, none revisited after a tree was seen. Treefiles: `results/phylogeny/tier2/`.
+
+### 6.1 Roots
+
+**3 of 7 trees are rooted** on their declared outgroup (ca_release, iglur, p2x); **3 have an outgroup the ingroup splits** (cysloop, deg_enac, ploop) and are read unrooted, never re-rooted on a substitute; the innexin clan declares none. A single-tip outgroup (iGluR on GluR0) is a terminal edge with no support value.
+
+| unit | n_tips | informative | model | root_family | n_outgroup | outgroup_monophyletic | root_ufboot | root_clade_sizes | root_clade_ufboot | root_small_clade |
+|---|---|---|---|---|---|---|---|---|---|---|
+| ca_release | 30 | 96 | LG+G4 | itpr | 25 | True | 100 | 1,4 | ,61 | ryr:1 |
+| cysloop | 282 | 412 | LG+F+I+R8 | plgic_prok | 2 | False |  |  |  |  |
+| deg_enac | 101 | 451 | LG+R6 | deg_invertebrate | 7 | False |  |  |  |  |
+| iglur | 30 | 85 | Q.pfam+R3 | iglur_prok | 1 | True |  | 7,22 | 96,82 | iglur_nonvertebrate:7 |
+| innexin_like | 59 | 258 | Q.pfam+I+R5 |  | 0 |  |  |  |  |  |
+| p2x | 33 | 358 | LG+G4 | p2x_nonmetazoan | 8 | True | 100 | 1,24 | ,59 | p2x:1 |
+| ploop | 319 | 90 | LG+F+R6 | kcsa_prok | 4 | False |  |  |  |  |
+
+Where a root exists, the P2X and Ca²⁺-release trees' basal split isolates a single tip (one metazoan P2X against 24; one RyR module against four), the pattern S7d recorded at tier 1; the iGluR tree's separates seven of the eight non-vertebrate iGluR modules from the rest (UFBoot 96 / 82).
+
+### 6.2 Support
+
+Share of ingroup internal edges at UFBoot ≥ 95 and < 70:
+
+| unit | internal_edges | ufboot_median | frac_ge95 | frac_lt70 |
+|---|---|---|---|---|
+| ca_release | 3 | 60.0 | 0.0 | 1.0 |
+| cysloop | 278 | 86.0 | 0.3741 | 0.3058 |
+| deg_enac | 92 | 95.0 | 0.5109 | 0.2935 |
+| iglur | 27 | 73.0 | 0.1852 | 0.4815 |
+| innexin_like | 56 | 87.0 | 0.375 | 0.3214 |
+| p2x | 23 | 74.0 | 0.1304 | 0.4348 |
+| ploop | 309 | 64.0 | 0.1521 | 0.5728 |
+
+The P-loop pore-module tree is the weakest by construction — 319 tips on 90 informative columns (the D48 cap of 4 tips per site, met at the 0.3 threshold): its deep branching order is not resolved, and nothing in § 6.3 should be read as a statement about the order of the P-loop families' divergence.
+
+### 6.3 Families as clades
+
+Each family's tips tested as one clade — per module for families with several modules (four-repeat chains, K2P, TPC), whose repeats are not expected to group. Rooted sense where the tree is rooted, unrooted (one side of any edge) otherwise. **34 of 54 groups are one clade.** `n_intruders` is the fewest other tips that would have to join a group to make it one — a descriptive near-miss measure, never a pass.
+
+| unit | family | module | n_tips | sense | one_clade | ufboot | n_intruders | intruder_families |
+|---|---|---|---|---|---|---|---|---|
+| ca_release | ryr |  | 5 | rooted | True | 100 | 0 |  |
+| cysloop | gabaa |  | 22 | unrooted | False |  | 4 | glyr:2,plgic_invertebrate:2 |
+| cysloop | glyr |  | 2 | unrooted | True | 100 | 0 |  |
+| cysloop | ht3 |  | 11 | unrooted | True | 100 | 0 |  |
+| cysloop | nachr |  | 237 | unrooted | False |  | 13 | ht3:11,zac:2 |
+| cysloop | plgic_invertebrate |  | 2 | unrooted | True | 100 | 0 |  |
+| cysloop | plgic_prok |  | 6 | unrooted | True | 87 | 0 |  |
+| cysloop | zac |  | 2 | unrooted | True | 100 | 0 |  |
+| deg_enac | asic |  | 84 | unrooted | True | 100 | 0 |  |
+| deg_enac | deg_invertebrate |  | 7 | unrooted | False |  | 10 | enac:10 |
+| deg_enac | enac |  | 10 | unrooted | True | 100 | 0 |  |
+| iglur | ampa |  | 2 | rooted | True | 84 | 0 |  |
+| iglur | delta_glur |  | 1 | rooted | True |  | 0 |  |
+| iglur | iglur_nonvertebrate |  | 8 | rooted | False |  | 21 | nmda:15,kainate:3,ampa:2,delta_glur:1 |
+| iglur | kainate |  | 3 | rooted | True | 89 | 0 |  |
+| iglur | nmda |  | 15 | rooted | False |  | 7 | kainate:3,ampa:2,delta_glur:1,iglur_nonvertebrate:1 |
+| innexin_like | innexin |  | 39 | unrooted | True | 99 | 0 |  |
+| innexin_like | lrrc8 |  | 12 | unrooted | True | 100 | 0 |  |
+| innexin_like | pannexin |  | 8 | unrooted | True | 70 | 0 |  |
+| p2x | p2x |  | 25 | rooted | True | 100 | 0 |  |
+| ploop | catsper |  | 7 | unrooted | False |  | 12 | tpc:12 |
+| ploop | cav | m1 | 12 | unrooted | False |  | 55 | nav:15,tpc:12,cav:11,nalcn:10,catsper:7 |
+| ploop | cav | m2 | 14 | unrooted | False |  | 172 | cav:35,tpc:31,nav:20,nalcn:19,trpc:16,trpm:9,trpp:9,trpv:8,catsper:7,trpa:7,trpml:6,trpn:5 |
+| ploop | cav | m3 | 12 | unrooted | False |  | 113 | cav:36,tpc:31,nav:20,nalcn:19,catsper:7 |
+| ploop | cav | m4 | 11 | unrooted | False |  | 95 | tpc:31,cav:23,nalcn:19,nav:15,catsper:7 |
+| ploop | cng |  | 26 | unrooted | False |  | 23 | kir:11,kv_eag:8,hcn:4 |
+| ploop | hcn |  | 4 | unrooted | False |  | 1 | cng:1 |
+| ploop | k2p | m1 | 22 | unrooted | False |  | 111 | k2p:27,cng:26,kca_slo:14,kir:11,kv_eag:8,kv_shaker:6,kv_kcnq:5,hcn:4,kca_sk:4,kcsa_prok:4,kv_modifier:1,trpc:1 |
+| ploop | k2p | m2 | 27 | unrooted | False |  | 35 | kca_slo:14,kv_shaker:6,kv_kcnq:5,kca_sk:4,kcsa_prok:4,k2p:1,kv_modifier:1 |
+| ploop | kca_sk |  | 4 | unrooted | True | 89 | 0 |  |
+| ploop | kca_slo |  | 14 | unrooted | True | 97 | 0 |  |
+| ploop | kcsa_prok |  | 4 | unrooted | False |  | 32 | kca_slo:14,kv_shaker:6,kv_kcnq:5,kca_sk:4,k2p:2,kv_modifier:1 |
+| ploop | kir |  | 11 | unrooted | True | 88 | 0 |  |
+| ploop | kv_eag |  | 8 | unrooted | False |  | 18 | cng:14,hcn:4 |
+| ploop | kv_kcnq |  | 5 | unrooted | True | 63 | 0 |  |
+| ploop | kv_modifier |  | 1 | unrooted | True |  | 0 |  |
+| ploop | kv_shaker |  | 6 | unrooted | False |  | 1 | kv_modifier:1 |
+| ploop | nalcn | m1 | 5 | unrooted | True | 100 | 0 |  |
+| ploop | nalcn | m2 | 5 | unrooted | True | 100 | 0 |  |
+| ploop | nalcn | m3 | 5 | unrooted | True | 100 | 0 |  |
+| ploop | nalcn | m4 | 4 | unrooted | True | 100 | 0 |  |
+| ploop | nav | m1 | 5 | unrooted | True | 100 | 0 |  |
+| ploop | nav | m2 | 5 | unrooted | True | 95 | 0 |  |
+| ploop | nav | m3 | 5 | unrooted | True | 98 | 0 |  |
+| ploop | nav | m4 | 5 | unrooted | True | 99 | 0 |  |
+| ploop | tpc | m1 | 12 | unrooted | True | 95 | 0 |  |
+| ploop | tpc | m2 | 19 | unrooted | False |  | 6 | nalcn:5,cav:1 |
+| ploop | trpa |  | 7 | unrooted | True | 98 | 0 |  |
+| ploop | trpc |  | 17 | unrooted | False |  | 171 | cav:49,tpc:31,nav:20,nalcn:19,trpm:9,trpp:9,trpv:8,catsper:7,trpa:7,trpml:6,trpn:5,k2p:1 |
+| ploop | trpm |  | 9 | unrooted | True | 100 | 0 |  |
+| ploop | trpml |  | 6 | unrooted | True | 100 | 0 |  |
+| ploop | trpn |  | 5 | unrooted | True | 83 | 0 |  |
+| ploop | trpp |  | 9 | unrooted | False |  | 51 | trpc:16,trpm:9,trpv:8,trpa:7,trpml:6,trpn:5 |
+| ploop | trpv |  | 8 | unrooted | True | 88 | 0 |  |
+
+Reading, from the table: every four-repeat chain's repeats group by repeat within Nav and NALCN (each repeat one clade at UFBoot ≥ 95), while Cav's repeats are scattered across the four-repeat and TPC tips — at 90 columns that is a resolution limit, not a finding (S11 owns the repeat order). Near misses are mostly a related family nested inside: the silent Kv modifier inside Shaker, ENaC inside the invertebrate degenerins, HCN with one CNG tip, 5-HT3 and ZAC inside nAChR, and in the iGluR module tree the vertebrate non-NMDA families beside NMDA tips.
+
+### 6.4 The four animal `plgic_prok` tips (S7a row)
+
+D48's kingdom rule kept the four animal members the prokaryotic-pLGIC profile calls (*Branchiostoma*, *Aplysia*, *Lottia* ×2) out of the Cys-loop outgroup as ingroup tips. Each placed tip's nested clades, smallest first:
+
+| tip | level | clade_size | ufboot | composition |
+|---|---|---|---|---|
+| plgic_prok__A0A9J7KP96__Braflo | 1 | 4 | 100 | plgic_prok:3 |
+| plgic_prok__A0A9J7KP96__Braflo | 2 | 5 | 69 | plgic_prok:4 |
+| plgic_prok__A0A9J7KP96__Braflo | 3 | 6 | 87 | plgic_prok:5 |
+| plgic_prok__A0A9J7KP96__Braflo | 4 | 32 | 100 | gabaa:22,plgic_prok:5,glyr:2,plgic_invertebrate:2 |
+| plgic_prok__A0ABM1AAJ3__Aplcal | 1 | 3 | 99 | plgic_prok:2 |
+| plgic_prok__A0ABM1AAJ3__Aplcal | 2 | 4 | 100 | plgic_prok:3 |
+| plgic_prok__A0ABM1AAJ3__Aplcal | 3 | 5 | 69 | plgic_prok:4 |
+| plgic_prok__A0ABM1AAJ3__Aplcal | 4 | 6 | 87 | plgic_prok:5 |
+| plgic_prok__A0ABM1AAJ3__Aplcal | 5 | 32 | 100 | gabaa:22,plgic_prok:5,glyr:2,plgic_invertebrate:2 |
+| plgic_prok__V4A2P8__Lotgig | 1 | 2 | 58 | plgic_prok:1 |
+| plgic_prok__V4A2P8__Lotgig | 2 | 3 | 99 | plgic_prok:2 |
+| plgic_prok__V4A2P8__Lotgig | 3 | 4 | 100 | plgic_prok:3 |
+| plgic_prok__V4A2P8__Lotgig | 4 | 5 | 69 | plgic_prok:4 |
+| plgic_prok__V4A2P8__Lotgig | 5 | 6 | 87 | plgic_prok:5 |
+| plgic_prok__V4A2P8__Lotgig | 6 | 32 | 100 | gabaa:22,plgic_prok:5,glyr:2,plgic_invertebrate:2 |
+| plgic_prok__V4AGW4__Lotgig | 1 | 2 | 58 | plgic_prok:1 |
+| plgic_prok__V4AGW4__Lotgig | 2 | 3 | 99 | plgic_prok:2 |
+| plgic_prok__V4AGW4__Lotgig | 3 | 4 | 100 | plgic_prok:3 |
+| plgic_prok__V4AGW4__Lotgig | 4 | 5 | 69 | plgic_prok:4 |
+| plgic_prok__V4AGW4__Lotgig | 5 | 6 | 87 | plgic_prok:5 |
+| plgic_prok__V4AGW4__Lotgig | 6 | 32 | 100 | gabaa:22,plgic_prok:5,glyr:2,plgic_invertebrate:2 |
+
+**They are nested in no Cys-loop family.** The four form one clade, which joins the two prokaryotic tips (GLIC, ELIC) — the whole `plgic_prok` set (6 tips) is one side of an edge at UFBoot 87. Because they sit between GLIC and ELIC, the declared two-tip prokaryotic outgroup is split and the Cys-loop tree stays unrooted under D48 (not re-rooted on the six-tip clade, which would be choosing a root after reading the tree). Either a bacterial-type pLGIC lineage in these animals (horizontal transfer, or retained from an ancient lineage) or divergent sequences drawn to the long prokaryotic branches; the tree cannot tell the two apart — S21 (genomic context, contamination check) carries the question.
+
+Figure: `results/phylogeny/figures/tier2_trees.png`.

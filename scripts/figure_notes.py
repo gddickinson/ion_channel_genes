@@ -405,6 +405,44 @@ FIGURES: list[dict] = [
                 "vs potassium-channel pore, Hv1 vs the Kv voltage sensor, "
                 "innexins vs connexins.",
     },
+    {
+        "path": "results/phylogeny/figures/tier2_trees.png",
+        "task": "S8b", "script": "scripts/s8_figures.py",
+        "title": "Trees within each channel superfamily",
+        "shows": "Seven trees, one for each group of related channel families "
+                 "whose sequences can be lined up. A — the tree of the "
+                 "pentameric (Cys-loop) receptors, the largest full-length one. "
+                 "B — how well supported each tree's branches are. C — whether "
+                 "each family comes out as a single branch of its tree.",
+        "how": "Representative sequences were chosen by a fixed rule before any "
+               "tree was built, aligned with MAFFT, trimmed with trimAl, and the "
+               "tree estimated by maximum likelihood (IQ-TREE 2) with 1000 "
+               "ultrafast bootstrap replicates. Four of the trees use only the "
+               "pore region (each repeat of a four-repeat channel is its own "
+               "tip); the other three use whole proteins. A tree counts as "
+               "rooted only if its declared outgroup forms one branch.",
+        "read": "A: each horizontal line ending at the right is one sequence, "
+                "coloured by receptor group (blue nicotinic acetylcholine "
+                "receptors; grey 5-HT3 and ZAC; orange the anion-selective "
+                "GABA-A, glycine and invertebrate glutamate-gated chloride "
+                "receptors; green the bacterial GLIC and ELIC; violet, with "
+                "arrowheads, four animal proteins the bacterial profile "
+                "claimed). Horizontal distance is substitutions per site. The "
+                "tree is unrooted: the four animal proteins sit between GLIC "
+                "and ELIC, so the declared bacterial outgroup is not one branch "
+                "and the left edge is only where the program drew it. B: each "
+                "bar is one tree; dark blue = share of branches with bootstrap "
+                "support of 95 or more, light blue = 70 to 95, grey = below 70; "
+                "the text gives the number of sequences and of informative "
+                "alignment columns. The pore-only P-loop tree (319 sequences on "
+                "90 columns) is mostly unsupported. C: each bar counts families "
+                "(each repeat separately for chains with several): dark blue = "
+                "one branch with support of 95 or more, light blue = one branch "
+                "with less, pink = not one branch but at most 5 other "
+                "sequences in the way, red = more than 5; the fraction is "
+                "families that are one branch. ITPR/RyR shows only RyR, "
+                "because ITPR is that tree's outgroup.",
+    },
 ]
 
 

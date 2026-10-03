@@ -892,3 +892,34 @@ there is sequence signal)*.
 
 The superfamily trees (tier 2) were set up the same way, with sampling, roots
 and methods fixed in advance. Their results come in S8b.
+
+### S8b — trees within each superfamily (2026-10-02)
+
+Seven superfamily-level trees are now built and read. Within the superfamilies
+the families mostly hold together: 34 of 54 family groups come out as single
+branches, and where they do not it is usually because a close relative sits
+inside them — the silent Kv subunits inside the Shaker channels, ENaC inside the
+invertebrate degenerins, the 5-HT3 and ZAC receptors inside the nicotinic
+receptors. In the pore-only tree of the voltage-gated-like channels, each of the
+four repeats of the sodium channel and of NALCN groups with the same repeat in
+other species, as expected if the four-repeat chains arose once; calcium-channel
+repeats do not resolve, because a pore region of about 90 usable positions
+cannot carry 319 sequences *(pending: S11 — the order of the repeat
+duplications)*. That pore-only tree is mostly unsupported and says nothing
+reliable about how the potassium, sodium/calcium and TRP channels branched.
+
+Only three of the seven trees could be rooted on their declared outgroup (P2X,
+the IP3/ryanodine-receptor pore, the glutamate-receptor pore). In three others
+the outgroup did not come out as one branch: the bacterial potassium channels
+are split by eukaryotic K⁺ channels, ENaC sits inside the invertebrate
+degenerins chosen to root the DEG/ENaC tree, and the bacterial GLIC and ELIC are
+split by four animal proteins.
+
+Those four animal proteins — from amphioxus, the sea hare *Aplysia* and the
+limpet *Lottia* — are the clearest single result. The bacterial pentameric-channel
+profile had claimed them, and the tree agrees: they belong to no animal
+receptor family, but form a branch of their own beside the bacterial channels
+GLIC and ELIC. Animals may carry a bacterial-type pentameric channel, by
+horizontal gene transfer or from a lineage lost elsewhere, or these sequences
+may simply be pulled toward the long bacterial branches, or be contamination
+*(pending: S21 — genomic context and contamination check)*.

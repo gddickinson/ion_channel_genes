@@ -1,0 +1,8 @@
+unit	kind	n_tips	n_families	cols	informative	model	root_family	n_outgroup	outgroup_monophyletic	root_ufboot	rooted	root_clade_sizes	root_clade_ufboot	root_small_clade	internal_edges	ufboot_median	frac_ge95	frac_lt70	seconds
+ca_release	module	30	2	104	96	LG+G4	itpr	25	True	100	True	1,4	,61	ryr:1	3	60.0	0.0	1.0	149.1
+cysloop	full_length	282	7	415	412	LG+F+I+R8	plgic_prok	2	False		False				278	86.0	0.3741	0.3058	19788.4
+deg_enac	full_length	101	3	467	451	LG+R6	deg_invertebrate	7	False		False				92	95.0	0.5109	0.2935	3620.7
+iglur	module	30	6	88	85	Q.pfam+R3	iglur_prok	1	True		True	7,22	96,82	iglur_nonvertebrate:7	27	73.0	0.1852	0.4815	100.9
+innexin_like	module	59	3	265	258	Q.pfam+I+R5		0			False				56	87.0	0.375	0.3214	801.2
+p2x	full_length	33	2	387	358	LG+G4	p2x_nonmetazoan	8	True	100	True	1,24	,59	p2x:1	23	74.0	0.1304	0.4348	350.9
+ploop	module	319	23	90	90	LG+F+R6	kcsa_prok	4	False		False				309	64.0	0.1521	0.5728	7911.0

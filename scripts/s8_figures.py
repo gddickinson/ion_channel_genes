@@ -1,5 +1,6 @@
-"""S8 figure — the tier-3 fold network, measured (and, once S8b has parsed
-them, the tier-2 pore-module trees).
+"""S8 figures — the tier-3 fold network, measured (`fold_network.png`), and,
+once S8b has parsed them, the tier-2 trees (`tier2_trees.png`, drawn by
+`s8_figures_trees.py`).
 
 Drawn from the committed tables (D13), through `figstyle.py`:
 
@@ -141,6 +142,9 @@ def main() -> int:
     panel_matrix(fig.add_subplot(gs[0]), fig)
     panel_edges(fig.add_subplot(gs[1]))
     print("\n".join(map(str, fs.save(fig, OUT / "fold_network"))))
+    if (OUT.parent / "tier2_trees.tsv").exists():
+        from s8_figures_trees import figure
+        print("\n".join(map(str, figure(OUT.parent, OUT))))
     return 0
 
 
