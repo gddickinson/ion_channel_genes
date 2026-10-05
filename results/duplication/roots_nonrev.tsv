@@ -1,0 +1,12 @@
+family	role	n_tips	model	dlnl_nonrev	root_rootstrap	root_split	small_side_species	small_side	au_set	branches_tested	resolved	recon_optima_s7b	agrees_s11a	recon_optimum_nq_topology	s11a_root_in_au_set	control_recovered	declared_in_au_set	ml_root_tip	au_set_frac	max_rootstrap
+cng	root	313	NQ.pfam+R10	144.6	0.0	1|312	1	Monosiga brevicollis	409	623	False	1	False	False	True			A9VB25__Monbre	0.66	72.8
+k2p	root	380	NQ.pfam+R9	128.2	0.4	1|379	1	Daphnia pulex	456	757	False	1	False	False	False			E9H1C1__Dappul	0.6	38.1
+kv_kcnq	root	97	NQ.pfam+I+R5	3.41	43.5	1|96	1	Hydra vulgaris	132	191	False	1	False	False	True			A0ABM4BT50__Hydvul	0.69	43.5
+kv_shaker	root	311	NQ.pfam+I+R9	49.91	0.0	1|310	1	Homo sapiens	320	619	False	7	False	False	True			P48547__Homsap	0.52	60.6
+kca_slo	root	106	NQ.pfam+I+R7	36.2	21.7	36|70	25	Amphimedon queenslandica; Anolis carolinensis; Aplysia californica; Branchiostoma floridae …	148	209	False	1	False	False	True				0.71	21.7
+kv_eag	root	158	NQ.pfam+I+R7	-11.59	95.0	1|157	1	Cornu aspersum	161	313	False	1	False	False	True			GCA_964187895.1_OZ076465.1_64761788-65938210___Corasp	0.51	95.0
+enac	control	41	NQ.pfam+R4	-2.81	30.2	1|40	1	Petromyzon marinus	46	79	False	3	False	False	False	False	False	A0AAJ7X142__Petmar	0.58	30.2
+glyr	control	65	NQ.pfam+R4	8.88	0.0	1|64	1	Torpedo marmorata	78	127	False	11	False	False	True	False	True	GCA_977017645.1_OZ360232.1_52680552-52824349-__Tormar	0.61	43.2
+ht3	control	52	NQ.pfam+R5	5.86	0.0	1|51	1	Takifugu rubripes	68	101	False	1	False	False	False	False	False	A0A674P1E2__Takrub	0.67	30.2
+iglur_nonvertebrate	control	38	NQ.pfam+R5	9.01	0.0	1|37	1	Arabidopsis thaliana	46	73	False	1	False	False	True	False	True	O04660__Aratha	0.63	35.6
+nalcn	control	24	NQ.pfam+R4	22.31	32.0	7|17	6	Aplysia californica; Caenorhabditis elegans; Cornu aspersum; Daphnia pulex …	32	45	False	3	False	False	True	False	True		0.71	32.0

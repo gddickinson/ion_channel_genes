@@ -174,15 +174,15 @@ FIGURES = [
     },
     {
         "path": "results/duplication/figures/s11b_repeats_roots.png",
-        "task": "S11b", "script": "scripts/s11b_figures.py",
+        "task": "S11b/S11c", "script": "scripts/s11b_figures.py",
         "title": "In what order were the four repeats of sodium and calcium channels made?",
         "shows": "Sodium (Nav), calcium (Cav) and NALCN channels are one protein built from "
                  "four similar repeats (I–IV), each a six-helix channel unit; two-pore "
                  "channels (TPC) have two. A — a tree of the individual repeats from 16 "
                  "four-repeat proteins and 9 TPCs across the species groups. B — a test "
                  "of the three ways the four repeats can pair up. C — roots for six "
-                 "potassium-channel family trees found without any outgroup (filled in "
-                 "when those runs finish).",
+                 "potassium-channel family trees found without any outgroup, and for five "
+                 "control families whose root is already known.",
         "how": "Each repeat (helix S1 to helix S6, boundaries taken from annotated "
                "reference proteins) was cut from one representative protein per family "
                "and species group, all repeats were aligned together and a "
@@ -205,6 +205,10 @@ FIGURES = [
                 "(dashed line = 95 %, the bar for 'resolved'); blue where the root "
                 "matches the root from gene-tree / species-tree reconciliation (top "
                 "six) or the known outgroup root (bottom five controls), grey where it "
-                "does not; 'running' = not finished yet; numbers after names = tips.",
+                "does not; numbers after names = tips; '(Q.pfam fits better)' = the "
+                "ordinary reversible model fits the data better, so the root fails the "
+                "acceptance rule however high its bar. No family's root matches, and "
+                "none of the five controls recovers its known root — at these depths the "
+                "method places roots on single long branches.",
     },
 ]

@@ -182,7 +182,10 @@ def parse_family(row: dict, st, by_code) -> dict:
            "resolved": boot >= ROOTSTRAP_MIN and d_lnl > 0,
            "recon_optima_s7b": len(opt_s7b), "agrees_s11a": ml_split in opt_s7b,
            "recon_optimum_nq_topology": ml_split in opt_nq,
-           "s11a_root_in_au_set": bool(opt_s7b & au_set), "control_recovered": ""}
+           "s11a_root_in_au_set": bool(opt_s7b & au_set), "control_recovered": "",
+           "ml_root_tip": next(iter(small)) if len(small) == 1 else "",
+           "au_set_frac": round(len(au_set) / len(rt), 2),
+           "max_rootstrap": max(v for s, v in below.values() if len(s) < len(leaves))}
     if row["role"] == "control":
         og = {x for x in s7b.leaves() if x.startswith(L.OG_PREFIX)}
         rp = root_partition(s7b, og)
@@ -195,7 +198,8 @@ def parse_family(row: dict, st, by_code) -> dict:
 FIELDS = ["family", "role", "n_tips", "model", "dlnl_nonrev", "root_rootstrap", "root_split",
           "small_side_species", "small_side", "au_set", "branches_tested", "resolved",
           "recon_optima_s7b", "agrees_s11a", "recon_optimum_nq_topology",
-          "s11a_root_in_au_set", "control_recovered", "declared_in_au_set"]
+          "s11a_root_in_au_set", "control_recovered", "declared_in_au_set", "ml_root_tip",
+          "au_set_frac", "max_rootstrap"]
 
 
 def cmd_parse(_a) -> None:

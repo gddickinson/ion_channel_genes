@@ -66,5 +66,30 @@ Pairings: **H13** {I,III}|{II,IV} (a tandem duplication of a two-repeat, TPC-lik
 | iglur_nonvertebrate | control | 38 | 916 | Q.pfam+R5 | NQ.pfam+R5 |
 | nalcn | control | 24 | 1738 | LG+F+R4 | NQ.pfam+R4 |
 
-Runs not finished — results pending.
+**Controls** (declared root known):
+
+| family | n_tips | dlnl_nonrev | root_rootstrap | root_split | ml_root_tip | au_set | branches_tested | au_set_frac | max_rootstrap | control_recovered | declared_in_au_set |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| enac | 41 | -2.81 | 30.2 | 1|40 | A0AAJ7X142__Petmar | 46 | 79 | 0.58 | 30.2 | False | False |
+| glyr | 65 | 8.88 | 0.0 | 1|64 | GCA_977017645.1_OZ360232.1_52680552-52824349-__Tormar | 78 | 127 | 0.61 | 43.2 | False | True |
+| ht3 | 52 | 5.86 | 0.0 | 1|51 | A0A674P1E2__Takrub | 68 | 101 | 0.67 | 30.2 | False | False |
+| iglur_nonvertebrate | 38 | 9.01 | 0.0 | 1|37 | O04660__Aratha | 46 | 73 | 0.63 | 35.6 | False | True |
+| nalcn | 24 | 22.31 | 32.0 | 7|17 |  | 32 | 45 | 0.71 | 32.0 | False | True |
+
+**0 / 5 controls recover the declared root as the ML root; the declared root is inside the AU confidence set in 3 / 5.**
+
+**S7d's six:**
+
+| family | n_tips | dlnl_nonrev | root_rootstrap | root_split | small_side | au_set | au_set_frac | max_rootstrap | resolved | s11a_split | agrees_s11a | recon_optimum_nq_topology | s11a_root_in_au_set |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| cng | 313 | 144.6 | 0.0 | 1|312 | Monosiga brevicollis | 409 | 0.66 | 72.8 | False | 142|171 | False | False | True |
+| k2p | 380 | 128.2 | 0.4 | 1|379 | Daphnia pulex | 456 | 0.6 | 38.1 | False | 98|282 | False | False | False |
+| kv_kcnq | 97 | 3.41 | 43.5 | 1|96 | Hydra vulgaris | 132 | 0.69 | 43.5 | False | 29|68 | False | False | True |
+| kv_shaker | 311 | 49.91 | 0.0 | 1|310 | Homo sapiens | 320 | 0.52 | 60.6 | False |  | False | False | True |
+| kca_slo | 106 | 36.2 | 21.7 | 36|70 | Amphimedon queenslandica; Anolis carolinensis; Aplysia californica; Branchiostoma floridae … | 148 | 0.71 | 21.7 | False | 37|69 | False | False | True |
+| kv_eag | 158 | -11.59 | 95.0 | 1|157 | Cornu aspersum | 161 | 0.51 | 95.0 | False | 7|151 | False | False | True |
+
+**0 / 6 roots resolved under D53 (6); 0 / 6 agree with S11a's reconciliation root**; S11a's root lies inside the AU confidence set in 5 / 6. Disagreements are reported, not resolved.
+
+**What the roots look like** (descriptive): in 9 of 11 families the non-reversible ML root falls on a single terminal branch, and the AU confidence set holds 51%–71% of all branches in every family — the non-reversible signal barely discriminates among roots at these depths. The controls, whose roots are known, measure it directly.
 

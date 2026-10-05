@@ -1064,7 +1064,7 @@ boundaries, which supports how the families were drawn.
 **The six potassium-channel family roots are still open.** Rooting by fewest
 duplications gives one root each for CNG, K2P, Slo, EAG and KCNQ, and a tie for
 Shaker. These are candidates only, to be compared with outgroup-free roots
-*(pending: S11b)*.
+*(S11c: the outgroup-free method could not root them either; the candidates stand, unconfirmed)*.
 
 ## S11b — In what order were the four channel repeats made? (2026-10-03)
 
@@ -1084,4 +1084,24 @@ demonstrated one *(pending: emergent row — mixture model, denser sampling)*.
 The pore region alone (about 100 positions) cannot tell the three apart.
 
 **The roots of the six potassium-channel families are being re-tested without
-any outgroup** *(pending: S11c)*.
+any outgroup** *(S11c: it could not root them; see below)*.
+
+## S11c — Can the potassium-channel family trees be rooted without an outgroup? (2026-10-04)
+
+**No: at these depths the outgroup-free method cannot find a root, so the six
+family roots stay open.** Six potassium-channel families (CNG, K2P, KCNQ,
+Shaker, Slo, EAG) have had no trustworthy root since S7d. Their bacterial
+outgroups do not group together, and switching outgroups moves the root. A
+non-reversible substitution model can in principle locate a root with no
+outgroup at all. We re-inferred each family tree that way, and five families
+whose root is already known were run the same way as controls. **None of the
+five controls recovered its known root.** In every family about half to
+three-quarters of all possible root positions are statistically
+indistinguishable. In 9 of 11 trees the best root sits on a single sequence,
+usually deep inside a vertebrate group, such as one human Kv1 channel or one
+pufferfish gene. That is a long-branch artefact, not an ancestral split. The
+one high-support root (EAG, rootstrap 95) falls on a single garden-snail genome
+translation where the simpler model fits better. Our rule rejects it. The
+fewest-duplication roots from S11a are consistent with these data in 5 of the
+6 families, and they remain the only candidates. They are candidates only; the
+roots are not established *(open: no current method resolves them)*.

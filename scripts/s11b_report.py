@@ -96,7 +96,8 @@ def roots(summary: dict) -> list[str]:
     six = [r for r in res if r["role"] == "root"]
     L += ["**Controls** (declared root known):", ""]
     L += _table(ctl, ["family", "n_tips", "dlnl_nonrev", "root_rootstrap", "root_split",
-                      "au_set", "branches_tested", "control_recovered", "declared_in_au_set"])
+                      "ml_root_tip", "au_set", "branches_tested", "au_set_frac",
+                      "max_rootstrap", "control_recovered", "declared_in_au_set"])
     rec = sum(r["control_recovered"] == "True" for r in ctl)
     inau = sum(r.get("declared_in_au_set") == "True" for r in ctl)
     summary.update(controls=len(ctl), controls_recovered=rec, controls_declared_in_au=inau)
@@ -104,14 +105,26 @@ def roots(summary: dict) -> list[str]:
           f"the declared root is inside the AU confidence set in {inau} / {len(ctl)}.**", "",
           "**S7d's six:**", ""]
     L += _table(six, ["family", "n_tips", "dlnl_nonrev", "root_rootstrap", "root_split",
-                      "small_side", "au_set", "branches_tested", "resolved", "s11a_split",
+                      "small_side", "au_set", "au_set_frac", "max_rootstrap", "resolved",
+                      "s11a_split",
                       "agrees_s11a", "recon_optimum_nq_topology", "s11a_root_in_au_set"])
     nres = sum(r["resolved"] == "True" for r in six)
     nag = sum(r["agrees_s11a"] == "True" for r in six)
-    summary.update(six_done=len(six), six_resolved=nres, six_agree_s11a=nag)
+    ins = sum(r["s11a_root_in_au_set"] == "True" for r in six)
+    tip = sum(bool(r["ml_root_tip"]) for r in res)
+    fr = sorted(float(r["au_set_frac"]) for r in res)
+    summary.update(six_done=len(six), six_resolved=nres, six_agree_s11a=nag,
+                   six_s11a_in_au=ins, ml_root_single_tip=tip,
+                   au_set_frac_range=[fr[0], fr[-1]])
     L += ["", f"**{nres} / {len(six)} roots resolved under D53 (6); "
-          f"{nag} / {len(six)} agree with S11a's reconciliation root.** Disagreements are "
-          "reported, not resolved.", ""]
+          f"{nag} / {len(six)} agree with S11a's reconciliation root**; S11a's root lies "
+          f"inside the AU confidence set in {ins} / {len(six)}. Disagreements are reported, "
+          "not resolved.", "",
+          f"**What the roots look like** (descriptive): in {tip} of {len(res)} families the "
+          "non-reversible ML root falls on a single terminal branch, and the AU confidence "
+          f"set holds {fr[0]:.0%}–{fr[-1]:.0%} of all branches in every family — the "
+          "non-reversible signal barely discriminates among roots at these depths. The "
+          "controls, whose roots are known, measure it directly.", ""]
     return L
 
 

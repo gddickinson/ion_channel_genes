@@ -1,4 +1,16 @@
 {
  "repeat_verdict_repeat": "unresolved:H13,H12,H14",
- "repeat_verdict_pore": "unresolved:H13,H12,H14"
+ "repeat_verdict_pore": "unresolved:H13,H12,H14",
+ "controls": 5,
+ "controls_recovered": 0,
+ "controls_declared_in_au": 3,
+ "six_done": 6,
+ "six_resolved": 0,
+ "six_agree_s11a": 0,
+ "six_s11a_in_au": 5,
+ "ml_root_single_tip": 9,
+ "au_set_frac_range": [
+  0.51,
+  0.71
+ ]
 }

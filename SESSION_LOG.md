@@ -1121,3 +1121,20 @@ and the ingroup's basal split is identical under the two outgroups.
   denser sampling incl. CatSper and 1× prokaryotic channels).
 
 **Next: S11c** — parse the outgroup-free roots when the detached run ends.
+
+### 2026-10-04 — S11c: outgroup-free roots (non-reversible model)
+
+- Waited on the 11 detached IQ-TREE runs from S11b (NQ.pfam, rootstrap +
+  AU root test; ~14 h Shaker to 30.5 h CNG). Parsed under D53 (5)–(7),
+  unchanged: `roots_nonrev.tsv`; two descriptive columns added before
+  rendering (single-tip ML root, maximum rootstrap; AU-set fraction).
+- Checked the branch-ID mapping first: rootstrap values sum to 100 % over
+  distinct branches; the root test's best root can differ from where the
+  search left the tree's root (CNG) — the parse uses the root test's.
+- **0/6 resolved, 0/6 agree with S11a, 0/5 controls recovered** (declared
+  root in AU set 3/5); AU sets hold 51–71 % of root branches; 9/11 ML roots
+  on single terminal branches. EAG's rootstrap 95 rejected by the ΔlnL rule.
+  S11a's root in the AU set 5/6.
+- Report § 2, figure panel C and caption updated.
+
+**Next: S12** — structures.
