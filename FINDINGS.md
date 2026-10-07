@@ -1105,3 +1105,40 @@ translation where the simpler model fits better. Our rule rejects it. The
 fewest-duplication roots from S11a are consistent with these data in 5 of the
 6 families, and they remain the only candidates. They are candidates only; the
 roots are not established *(open: no current method resolves them)*.
+
+## S12 — How much of the census has a 3D structure, and does structure confirm the superfamilies? (2026-10-07)
+
+**Predicted structures now cover most ion channels, and they are trustworthy.
+Structure alone sorts the channels into their superfamilies almost perfectly.**
+Four in five of the 7,061 channel proteins in the final census have a
+predicted structure in the AlphaFold database, and just over half have one
+confident enough to use. Experimental structures exist for only about one
+protein in twenty. The gaps are the giants and the recent entries. The
+ryanodine and IP3 receptors, Piezo and the four-repeat sodium and calcium
+channels are mostly unmodelled. Where a family's reference protein has both
+a prediction and an experimental structure, the two agree in 50 of 52
+families. The two disagreements are both against small NMR structures
+(the proton channel Hv1 and the influenza M2 viroporin), not against
+cryo-EM.
+
+We took one confident model per family and lineage (268 structures) and asked
+whether a channel's most similar structure from another family sits in its own
+superfamily. It does for 156 of 161 proteins. That holds for every P-loop,
+Cys-loop, P2X, DEG/ENaC, innexin-clan and TMEM16-like protein, so structure
+reproduces the classification the sequence profiles built. The exception is
+instructive. **MscL and MscS, the two bacterial mechanosensitive channels the
+catalogue files together, never find each other.** Their nearest structures are
+CALHM, Orai and a viroporin. They are two unrelated folds that share a function
+and a name *(pending: S18 — whether to split them in the catalogue)*.
+
+The published fold links largely survive re-measurement. **The TMEM16 /
+OSCA / TMC fold passes the 0.5 bar once the cytoplasmic domains are trimmed
+away**, as S8a suspected. The P-loop–iGluR and connexin–innexin links hold
+under every reading. The Hv1 voltage-sensor link fails only against the NMR
+Hv1 structure. **The calcium-release channels never rank closest to the
+P-loop channels**, even now that a ryanodine-receptor pore is measured; their
+pore looks as much like a glutamate receptor's as a potassium channel's. One
+new lead: the structure-search tool links **P2X receptors to the proton-activated
+chloride channel PAC1** in all ten representative pairs. That is a third
+trimeric two-helix channel family alongside the PAC1–DEG/ENaC resemblance seen
+in S8a *(pending: S18 — shared extracellular domain or shared pore)*.

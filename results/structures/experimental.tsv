@@ -1,0 +1,77 @@
+node	superfamily	node_accession	exemplar	accession	pdb	chain	method	resolution	unit_start	unit_end	unit_len	observed	unit_cover	chains_tried	note	model_residues	tm_by_exp	tm_by_model	aligned	rmsd	model_check
+cftr	abc_channel	P13569	Hs_CFTR	P13569	9mxl	B	Electron Microscopy	2.1	1	1480	1480	1173	0.793	1		1088	0.9051	0.9746	1086	1.72	consistent_high
+bestrophin	bestrophin	O76090	Hs_BEST1	O76090	8d1i	A	Electron Microscopy	1.82	1	585	585	376	0.643	1		375	0.9853	0.9879	375	0.86	consistent_high
+itpr	ca_release	Q14573	Hs_ITPR2	Q14571	9ykk	A	Electron Microscopy	2.95	2395	2544	150	109	0.727	1							different_accession
+ryr	ca_release		Hs_RYR2	Q92736	7u9x	A	Electron Microscopy	2.58	4769	4870	102	102	1.0	1							no_model
+calhm	calhm	Q8IU99	Hs_CALHM1	Q8IU99	8gmp	A	Electron Microscopy	2.8	1	346	346	216	0.624	1		250	0.8178	0.7194	211	2.79	consistent_high
+clc_channel	clc	P35523	Hs_CLCN1	P35523	6qvc	A	Electron Microscopy	4.0	1	988	988	599	0.606	11		596	0.8799	0.8841	558	2.23	consistent_high
+clic	clic	O00299	Hs_CLIC1	O00299	4k0n	A	X-ray diffraction	1.25	1	241	241	234	0.971	1		230	0.9596	0.9762	226	0.47	consistent_high
+connexin	connexin	P17302	Hs_GJA1	P17302	7xqb	A	Electron Microscopy	3.0	1	382	382	202	0.529	25		222	0.8399	0.7667	177	1.33	consistent_high
+gabaa	cysloop	P14867	Hs_GABRA1	P14867	9eqg	A	Electron Microscopy	2.4	1	456	456	352	0.772	1		346	0.9611	0.9775	346	1.05	consistent_high
+glyr	cysloop	P23415	Hs_GLRA1	P23415	8dn3	A	Electron Microscopy	3.55	1	457	457	343	0.751	1		377	0.9287	0.8493	342	1.9	consistent_high
+ht3	cysloop	P46098	Hs_HTR3A	P46098	8axd	A	Electron Microscopy	2.98	1	478	478	397	0.831	1		392	0.9293	0.9408	385	1.55	consistent_high
+nachr	cysloop	P02708	Hs_CHRNA1	P02708	9dms	A	Electron Microscopy	1.92	1	457	457	399	0.873	1		384	0.9314	0.9669	384	1.42	consistent_high
+plgic_invertebrate	cysloop	G5EBR3	Ce_glc-1	G5EBR3	4tnw	A	X-ray diffraction	3.2	1	461	461	336	0.729	1		365	0.8941	0.828	333	2.42	consistent_high
+plgic_prok	cysloop	Q7NDN8	Gv_GLIC	Q7NDN8	6hzw	A	X-ray diffraction	2.22	1	359	359	311	0.866	1		315	0.9973	0.9847	311	0.34	consistent_high
+zac	cysloop	Q401N2	Hs_ZACN	Q401N2	9lez	A	Electron Microscopy	2.54	1	412	412	311	0.755	1		299	0.928	0.9643	297	1.14	consistent_high
+asic	deg_enac	P78348	Hs_ASIC1	P78348	9e4i	A	Electron Microscopy	2.33	1	528	528	413	0.782	1		440	0.8914	0.8394	399	2.54	consistent_high
+deg_invertebrate	deg_enac	P24612												0	no experimental chain covering ≥ 50 % of the unit: P24612:0,Q25011:0						no_experimental
+enac	deg_enac	P37088	Hs_SCNN1A	P37088	6wth	A	Electron Microscopy	3.06	1	669	669	381	0.57	1		453	0.9304	0.7839	359	0.81	consistent_high
+gphr	gphr	B7ZAQ6												0	no experimental chain covering ≥ 50 % of the unit: B7ZAQ6:0,P0CG08:0						no_experimental
+hv1	hv	Q96D96	Hs_HVCN1	Q96D96	5oqk	A	Solution NMR		101	218	118	118	1.0	1		101	0.4975	0.5496	92	3.54	inconsistent
+ampa	iglur	P42261												52	no experimental chain covering ≥ 50 % of the unit: P42261:0,P42262:52						no_experimental
+delta_glur	iglur	O43424	Hs_GRID2	O43424	9nwo	A	Electron Microscopy	3.57	567	653	87	87	1.0	1		69	0.7455	0.9223	69	0.89	consistent
+iglur_nonvertebrate	iglur	Q8GXJ4	At_GLR3.4	Q8GXJ4	7lzh	A	Electron Microscopy	3.57	614	693	80	57	0.713	1		63	0.786	0.7237	56	2.1	consistent
+iglur_prok	iglur	P73797												3	no experimental chain covering ≥ 50 % of the unit: P73797:3						no_experimental
+kainate	iglur	P39086												19	no experimental chain covering ≥ 50 % of the unit: P39086:19						no_experimental
+nmda	iglur	Q05586	Hs_GRIN1	Q05586	9oos	A	Electron Microscopy	3.03	560	648	89	76	0.854	2		70	0.902	0.977	70	0.45	consistent_high
+innexin	innexin_like	Q03412												0	no experimental chain covering ≥ 50 % of the unit: Q03412:0,P27716:0						no_experimental
+lrrc8	innexin_like	Q8IWT6	Hs_LRRC8A	Q8IWT6	9o5k	A	Electron Microscopy	3.19	25	337	313	234	0.748	1		229	0.9638	0.9846	229	0.72	consistent_high
+pannexin	innexin_like	Q96RD7	Hs_PANX1	Q96RD7	9oqk	A	Electron Microscopy	2.5	36	294	259	231	0.892	1		222	0.9423	0.9799	222	0.84	consistent_high
+clcc1	mclc	Q96S66												0	no experimental chain covering ≥ 50 % of the unit: Q96S66:0						no_experimental
+mcu	mcu	Q8NE86	Hs_MCU	Q8NE86	6o5b	A	Electron Microscopy	3.6	1	351	351	273	0.778	1		263	0.8711	0.9014	263	2.06	consistent_high
+mitok	mitok	Q96ER9												0	no experimental chain covering ≥ 50 % of the unit: Q96ER9:0						no_experimental
+mscl	msc	P0A742	Ec_MscL	P0A742	28yc	A	Electron Microscopy	3.12	1	136	136	98	0.721	1		123	0.58	0.4891	87	3.65	consistent
+mscs	msc	P0C0S1	Ec_MscS	P0C0S1	6rld	A	Electron Microscopy	2.9	1	286	286	265	0.927	15		268	0.8066	0.7983	247	3.28	consistent_high
+orai	orai	Q96D31												97	no experimental chain covering ≥ 50 % of the unit: Q96D31:0,Q96SN7:0,Q9U6B8:97						no_experimental
+otop	otopetrin	Q7RTM1												0	no experimental chain covering ≥ 50 % of the unit: Q7RTM1:0,Q7RTS6:0						no_experimental
+p2x	p2x	Q99572	Hs_P2RX7	Q99572	9e3m	A	Electron Microscopy	2.48	1	595	595	546	0.918	1		538	0.923	0.9361	533	2.03	consistent_high
+p2x_nonmetazoan	p2x	Q86JM7												0	no experimental chain covering ≥ 50 % of the unit: Q86JM7:0						no_experimental
+pacc	pac	Q9H813	Hs_PACC1	Q9H813	7sqh	A	Electron Microscopy	2.5	1	350	350	283	0.809	1		283	0.7623	0.7623	238	2.62	consistent
+piezo	piezo	Q92508	Hs_PIEZO1	Q92508	8zu3	A	Electron Microscopy	3.1	1	2521	2521	1280	0.508	1		1697	0.6659	0.5109	956	4.78	consistent
+catsper	ploop	Q8NEC5												0	no experimental chain covering ≥ 50 % of the unit: Q8NEC5:0,Q96P56:0						no_experimental
+cav	ploop	Q13936	Hs_CACNA1C	Q13936	8fhs	A	Electron Microscopy	3.3	269	401	133	133	1.0	1		124	0.9103	0.9748	124	0.72	consistent_high
+cng	ploop	P29973	Hs_CNGA1	P29973	9zpv	A	Electron Microscopy	2.07	292	396	105	105	1.0	1		105	0.9483	0.9483	105	0.98	consistent_high
+hcn	ploop	O60741	Hs_HCN1	O60741	8t4m	A	Electron Microscopy	3.16	295	394	100	100	1.0	1		100	0.9893	0.9893	100	0.38	consistent_high
+k2p	ploop	O95069	Hs_KCNK2	O95069	4twk	A	X-ray diffraction	2.6	60	194	135	135	1.0	1		129	0.8803	0.918	129	1.34	consistent_high
+kca_sk	ploop	Q9H2S1	Hs_KCNN2	Q9H2S1	9vuc	A	Electron Microscopy	2.96	309	393	85	85	1.0	1		81	0.9272	0.9714	81	0.56	consistent_high
+kca_slo	ploop	Q12791	Hs_KCNMA1	Q12791	9jo3	A	Electron Microscopy	2.8	299	391	93	93	1.0	1		93	0.9676	0.9676	93	0.65	consistent_high
+kcsa_prok	ploop	P0A334	Sl_KcsA	P0A334	1f6g	A	Solution NMR		28	111	84	84	1.0	1		84	0.946	0.946	84	0.88	consistent_high
+kir	ploop	P63252	Hs_KCNJ2	P63252	7zdz	A	Electron Microscopy	4.3	80	180	101	101	1.0	1		101	0.8877	0.8877	101	1.59	consistent_high
+kv_eag	ploop	Q12809	Hs_KCNH2	Q12809	8io4	A	Electron Microscopy	3.5	548	659	112	102	0.911	1		101	0.9567	0.9658	101	0.91	consistent_high
+kv_kcnq	ploop	P51787	Hs_KCNQ1	P51787	7xnn	B	Electron Microscopy	2.5	259	348	90	90	1.0	1		90	0.9667	0.9667	90	0.64	consistent_high
+kv_modifier	ploop	Q9BQ31												0	no experimental chain covering ≥ 50 % of the unit: Q9BQ31:0,Q8TDN2:0						no_experimental
+kv_shaker	ploop	Q09470	Hs_KCNB1	Q14721	9o10	A	Electron Microscopy	3.0	329	420	92	92	1.0	1							different_accession
+nalcn	ploop	Q8IZF0	Hs_NALCN	Q8IZF0	6xiw	A	Electron Microscopy	2.8	174	322	149	149	1.0	1		148	0.9818	0.9883	148	0.5	consistent_high
+nav	ploop	Q14524	Hs_SCN5A	Q14524	6lqa	B	Electron Microscopy	3.3	249	413	165	165	1.0	1		148	0.8804	0.9795	148	0.66	consistent_high
+tpc	ploop	Q9ULQ1	Hs_TPCN2	Q8NHX9	8ouo	A	Electron Microscopy	3.0	219	310	92	92	1.0	1							different_accession
+trpa	ploop	O75762	Hs_TRPA1	O75762	9vu1	A	Electron Microscopy	2.59	863	960	98	98	1.0	1		98	0.9907	0.9907	98	0.35	consistent_high
+trpc	ploop	Q13507	Hs_TRPC3	Q13507	9kdb	A	Electron Microscopy	2.67	647	747	101	101	1.0	1		101	0.9572	0.9572	100	0.71	consistent_high
+trpm	ploop	Q7Z2W7	Hs_TRPM8	Q7Z2W7	9zcu	A	Electron Microscopy	2.86	863	981	119	81	0.681	1		119	0.6125	0.4617	75	3.09	consistent
+trpml	ploop	Q9GZU1	Hs_MCOLN1	Q9GZU1	9ekv	A	Electron Microscopy	2.75	428	513	86	86	1.0	1		86	0.9658	0.9658	86	0.68	consistent_high
+trpn	ploop	Q9GRV5												0	no experimental chain covering ≥ 50 % of the unit: Q7KIQ2:0,Q9GRV5:0						no_experimental
+trpp	ploop	Q13563	Hs_PKD2	Q13563	8zkh	B	Electron Microscopy	2.3	599	676	78	78	1.0	1		78	0.97	0.97	78	0.56	consistent_high
+trpv	ploop	Q8NER1	Hs_TRPV1	Q8NER1	11cl	A	Electron Microscopy	2.1	570	682	113	88	0.779	1		73	0.8058	0.9646	73	0.61	consistent_high
+vdac	porin	P21796	Hs_VDAC1	P21796	6g6u	A	X-ray diffraction	2.74	1	283	283	282	0.996	1		282	0.9769	0.9769	282	1.04	consistent_high
+tmco1	tmco1	Q9UM00	Hs_TMCO1	Q9UM00	6w6l	6	Electron Microscopy	3.84	1	239	239	174	0.728	1		116	0.6205	0.9011	116	1.43	consistent
+tmem109	tmem109	Q9BVC6												0	no experimental chain covering ≥ 50 % of the unit: Q9BVC6:0,Q3UBX0:0						no_experimental
+ano_channel	tmem16_like	Q5XXA6												0	no experimental chain covering ≥ 50 % of the unit: Q5XXA6:0,Q9NQ90:0						no_experimental
+ano_scramblase	tmem16_like	Q4KMQ2												0	no experimental chain covering ≥ 50 % of the unit: Q4KMQ2:0						no_experimental
+osca_tmem63	tmem16_like	O94886	Hs_TMEM63A	O94886	9n93	A	Electron Microscopy	2.95	1	807	807	650	0.805	1		533	0.7902	0.959	529	1.61	consistent
+tmc	tmem16_like	Q8TDI8												0	no experimental chain covering ≥ 50 % of the unit: Q8TDI8:0,Q8TDI7:0						no_experimental
+tmem175	tmem175	Q9BSA9	Hs_TMEM175	Q9BSA9	7unl	A	Electron Microscopy	2.45	1	504	504	367	0.728	1		411	0.8493	0.7649	349	2.75	consistent_high
+tmem87	tmem87	Q8NBN3	Hs_TMEM87A	Q8NBN3	8hsi	A	Electron Microscopy	3.1	1	555	555	405	0.73	1		366	0.7982	0.8793	341	1.76	consistent
+tric	tric	Q9H6F2												0	no experimental chain covering ≥ 50 % of the unit: Q9H6F2:0,Q9NVV0:0						no_experimental
+tweety	tweety	Q9H313	Hs_TTYH1	Q9H313	7p5j	A	Electron Microscopy	4.0	1	450	450	399	0.887	1		407	0.9733	0.9545	396	1.04	consistent_high
+viroporin	viroporin	P05919	HIV1_Vpu	P05919	2n29	A	Solution NMR		1	82	82	54	0.659	1		42	0.3129	0.3511	25	2.12	inconsistent
+kv_shaker:VSD	ploop	Q09470	Hs_KCNB1	Q14721	9o10	A	Electron Microscopy	3.0	187	316	130	130	1.0	1							different_accession

@@ -1,0 +1,16 @@
+variant	a	b	claim	median_tm	n_pairs	rank_b_for_a	rank_a_for_b	best_other	best_other_tm	verdict
+s8a_afdb	tmem16_like	tmem16_like	TMEM16, OSCA/TMEM63 and TMC share a 10-TM fold with the conduction groove between TM4 and TM6 (structural studies)	0.4839	6	1	1	tmem16_like-tmem175	0.242	not_distinguished
+s8a_afdb	iglur	ploop	the iGluR pore module is an inverted P-loop, structurally equivalent to Kir	0.6364	138	1	1	ca_release-iglur	0.5573	supported
+s8a_afdb	innexin_like	connexin	innexin/pannexin/LRRC8 and connexin build convergent large pores with no detectable sequence relationship	0.5648	3	1	1	innexin_like-tweety	0.3938	supported
+s8a_afdb	ca_release	ploop	the ITPR/RYR pore module is a P-loop channel carrying PF00520	0.556	23	2	2	iglur-ploop	0.6364	not_distinguished
+s8a_afdb	hv	ploop:VSD	Hv1's voltage-sensor domain is homologous to the VSD of the P-loop channels, without the pore domain	0.5922	1	1	1	hv-tmco1	0.479	supported
+experimental	tmem16_like	tmem16_like	TMEM16, OSCA/TMEM63 and TMC share a 10-TM fold with the conduction groove between TM4 and TM6 (structural studies)	0.4886	6	1	1	tmem16_like-tmem175	0.2611	not_distinguished
+experimental	iglur	ploop	the iGluR pore module is an inverted P-loop, structurally equivalent to Kir	0.6147	138	1	1	ca_release-ploop	0.5888	supported
+experimental	innexin_like	connexin	innexin/pannexin/LRRC8 and connexin build convergent large pores with no detectable sequence relationship	0.5592	3	1	1	connexin-tweety	0.3975	supported
+experimental	ca_release	ploop	the ITPR/RYR pore module is a P-loop channel carrying PF00520	0.5888	46	1	2	iglur-ploop	0.6147	not_distinguished
+experimental	hv	ploop:VSD	Hv1's voltage-sensor domain is homologous to the VSD of the P-loop channels, without the pore domain	0.4148	1	1	1	ploop:VSD-tmco1	0.3986	not_distinguished
+tm_region	tmem16_like	tmem16_like	TMEM16, OSCA/TMEM63 and TMC share a 10-TM fold with the conduction groove between TM4 and TM6 (structural studies)	0.5334	6	1	1	clc-tmem16_like	0.2956	supported
+tm_region	iglur	ploop	the iGluR pore module is an inverted P-loop, structurally equivalent to Kir	0.6364	138	1	1	ca_release-iglur	0.5573	supported
+tm_region	innexin_like	connexin	innexin/pannexin/LRRC8 and connexin build convergent large pores with no detectable sequence relationship	0.6029	3	1	1	connexin-cysloop	0.437	supported
+tm_region	ca_release	ploop	the ITPR/RYR pore module is a P-loop channel carrying PF00520	0.556	23	2	2	iglur-ploop	0.6364	not_distinguished
+tm_region	hv	ploop:VSD	Hv1's voltage-sensor domain is homologous to the VSD of the P-loop channels, without the pore domain	0.5922	1	1	1	hv-tmco1	0.479	supported

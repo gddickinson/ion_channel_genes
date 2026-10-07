@@ -1138,3 +1138,28 @@ and the ingroup's basal split is identical under the two outgroups.
 - Report § 2, figure panel C and caption updated.
 
 **Next: S12** — structures.
+
+### 2026-10-07 — S12: structures
+
+- Rules fixed first as **D54** (coverage frame, experimental reference by
+  exemplar + SIFTS, model check, experimental and TM-region network
+  variants, dense set). Two addenda before any comparison: SIFTS maps many
+  cryo-EM chains to isoforms (renumbered to canonical by alignment); a
+  25-chain cap I had added was not in the rule and was removed (no pick
+  changed).
+- Refactored `s8_fold_network.cmd_edges` into a pure `edge_rows()`; S8a's
+  tables reproduce byte-identically. New `s12_*.py`, `selftest_s12.py`.
+- **Coverage**: 7,061 members — AFDB model 80.1 %, usable 58.1 %, any PDB
+  5.5 %; only 128 of 1,406 missing models exceed 2,700 aa.
+- **Experimental**: references for 56/75 families; 50/52 AFDB units
+  consistent (41 ≥ 0.8); failures Hv1 and M2, both NMR. RyR via RyR2 7U9X.
+- **Network re-readings**: TMEM16 edge supported with TM-region units and in
+  the dense set; Hv1–VSD falls on the NMR Hv1; Ca²⁺-release–P-loop never
+  distinguished. S8a's verdicts unchanged.
+- **Dense set**: 268 AFDB units, 35,778 pairs in 8.4 min (laptop; mini not
+  needed). Superfamily recovery 156/161 by both TM-align and Foldseek;
+  MscL/MscS 0/4. Foldseek detects 4/435 superfamily pairs; P2X–PAC 10/10.
+- Bulk under `<data root>/structures/s12/` (AFDB JSON + models, PDBe
+  updated mmCIF, units). Figure `results/structures/figures/structures.png`.
+
+**Next: S13** — selection tests on CFTR, SCN1A, KCNQ1, RYR1.

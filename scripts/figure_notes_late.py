@@ -211,4 +211,51 @@ FIGURES = [
                 "none of the five controls recovers its known root — at these depths the "
                 "method places roots on single long branches.",
     },
+    {
+        "path": "results/structures/figures/structures.png",
+        "task": "S12", "script": "scripts/s12_figures.py",
+        "title": "How much of the census has a 3D structure, and does structure confirm the superfamilies?",
+        "shows": "A — for every superfamily, the share of its census proteins that have a "
+                 "predicted structure in the AlphaFold database good enough to use, one "
+                 "that is not, or none; the black tick marks the share with any "
+                 "experimental structure. B — AlphaFold's predicted structure of each "
+                 "family's reference protein compared with an experimental structure of "
+                 "the same protein. C — whether a protein's most similar structure "
+                 "outside its own family lies in its own superfamily. D — the five "
+                 "published 'these superfamilies share a fold' links, measured four ways.",
+        "how": "A: every census protein (7,061 with a UniProt accession) looked up in the "
+               "AlphaFold database; 'usable' = the model's sequence is identical to the "
+               "census sequence and its average confidence (pLDDT, 0–100) is at least "
+               "70. B: one experimental structure per family from the protein data bank "
+               "(PDB), chosen by a fixed rule before comparison, cut to the same region "
+               "as the model (the pore module, or the whole protein) and superposed with "
+               "TM-align. C and D: one usable AlphaFold model per family and species "
+               "group (268 structures, 72 families), all pairs compared with TM-align "
+               "and Foldseek. D uses the rule fixed in S8a: a link is supported if its "
+               "median TM-score is at least 0.5 and each side is the other's closest "
+               "superfamily.",
+        "read": "A: dark blue = usable model, light blue = model too uncertain or of a "
+                "different sequence version, grey = no model; numbers on the right = "
+                "census proteins. The calcium-release channels (ca release: IP3 and "
+                "ryanodine receptors), Piezo and the voltage-gated sodium and calcium "
+                "channels are poorly covered — some chains exceed the database's "
+                "2,700-residue limit, most are simply not in it; only 5.5 % of all proteins "
+                "have any experimental structure. B: each mark is one family (circle "
+                "cryo-electron microscopy, square X-ray crystallography, triangle "
+                "solution NMR); TM-score 1 = identical shape, above 0.5 = same fold "
+                "(dashed lines at 0.5 and 0.8). 50 of 52 models agree with experiment; "
+                "the two below 0.5 (Hv1, influenza M2) are compared with NMR "
+                "structures. C: blue bar = share whose best TM-align partner from "
+                "another family is in the same superfamily, orange = the same by "
+                "Foldseek; 7 of 8 superfamilies are recovered almost completely, and "
+                "the mechanosensitive pair MscL/MscS (msc) not at all — they are two "
+                "unrelated folds the catalogue groups together. D: each edge has four "
+                "dots (black = S8a's primary reading, blue = experimental structures, "
+                "green = membrane region only, orange = dense set); filled = supported, "
+                "open = not distinguished, × = not measurable (the dense set has no "
+                "voltage-sensor unit); dashed line = the 0.5 bar. TMEM16/OSCA/TMC "
+                "passes once the cytoplasmic domains are removed; Hv1 fails on the NMR "
+                "structure; the calcium-release channels never rank closest to the "
+                "P-loop channels.",
+    },
 ]

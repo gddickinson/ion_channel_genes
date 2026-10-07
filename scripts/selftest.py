@@ -545,6 +545,8 @@ import selftest_s11 as _s11                                        # noqa: E402
 _s11.run(check)
 import selftest_s11b as _s11b                                      # noqa: E402
 _s11b.run(check)
+import selftest_s12 as _s12                                        # noqa: E402
+_s12.run(check)
 
 print()
 if FAILURES:

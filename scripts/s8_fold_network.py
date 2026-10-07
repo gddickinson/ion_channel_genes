@@ -267,8 +267,8 @@ def sf_medians(pairs: list[dict]) -> dict[tuple[str, str], float]:
     return {k: statistics.median(v) for k, v in acc.items()}
 
 
-def cmd_edges(_a) -> None:
-    pairs = read_tsv(NET_DIR / "pairs.tsv")
+def edge_rows(pairs: list[dict]) -> list[dict]:
+    """Every literature edge read by D48's rule from a pairs table (pure)."""
     med = sf_medians(pairs)
     nodes = {x for k in med for x in k}
     rows = []
@@ -300,8 +300,17 @@ def cmd_edges(_a) -> None:
                      "best_other": "-".join(bg[0][1]) if bg else "",
                      "best_other_tm": round(bg[0][0], 4) if bg else "",
                      "verdict": "supported" if ok else "not_distinguished"})
-        print(f"{a:14s} {b:12s} median TM {med[key]:.3f}  ranks {ra}/{rb}  "
-              f"→ {rows[-1]['verdict']}", flush=True)
+    return rows
+
+
+def cmd_edges(_a) -> None:
+    pairs = read_tsv(NET_DIR / "pairs.tsv")
+    med = sf_medians(pairs)
+    rows = edge_rows(pairs)
+    for r in rows:
+        if r["verdict"] != "unmeasured":
+            print(f"{r['a']:14s} {r['b']:12s} median TM {r['median_tm']:.3f}  ranks "
+                  f"{r['rank_b_for_a']}/{r['rank_a_for_b']}  → {r['verdict']}", flush=True)
     write_tsv(NET_DIR / "literature_edges.tsv", list(rows[0]), rows)
     write_network(rows, pairs)
     write_tsv(NET_DIR / "superfamily_medians.tsv", ["a", "b", "median_tm"],

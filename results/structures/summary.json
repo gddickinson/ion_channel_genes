@@ -1,0 +1,70 @@
+{
+  "coverage": {
+    "members": 7061,
+    "genome_loci": 336,
+    "model": 5655,
+    "exact": 5512,
+    "usable": 4103,
+    "with_pdb": 390,
+    "median_plddt": 76.2,
+    "no_model_over_2700aa": 128
+  },
+  "experimental": {
+    "nodes": 75,
+    "with_reference": 56,
+    "methods": {
+      "Electron Microscopy": 48,
+      "X-ray diffraction": 5,
+      "Solution NMR": 3
+    },
+    "checks": {
+      "consistent_high": 41,
+      "different_accession": 3,
+      "no_model": 1,
+      "no_experimental": 19,
+      "inconsistent": 2,
+      "consistent": 9
+    },
+    "median_tm": 0.917
+  },
+  "edges": {
+    "tmem16_like-tmem16_like": {
+      "s8a_afdb": "not_distinguished",
+      "experimental": "not_distinguished",
+      "tm_region": "supported",
+      "dense": "supported"
+    },
+    "iglur-ploop": {
+      "s8a_afdb": "supported",
+      "experimental": "supported",
+      "tm_region": "supported",
+      "dense": "supported"
+    },
+    "innexin_like-connexin": {
+      "s8a_afdb": "supported",
+      "experimental": "supported",
+      "tm_region": "supported",
+      "dense": "supported"
+    },
+    "ca_release-ploop": {
+      "s8a_afdb": "not_distinguished",
+      "experimental": "not_distinguished",
+      "tm_region": "not_distinguished",
+      "dense": "not_distinguished"
+    },
+    "hv-ploop:VSD": {
+      "s8a_afdb": "supported",
+      "experimental": "not_distinguished",
+      "tm_region": "supported",
+      "dense": "unmeasured"
+    }
+  },
+  "dense": {
+    "reps": 268,
+    "families": 72,
+    "recovery_reps": 161,
+    "tm_recovered": 156,
+    "foldseek_recovered": 156,
+    "sf_pairs_detected": "4/435"
+  }
+}
