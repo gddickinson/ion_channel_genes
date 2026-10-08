@@ -1142,3 +1142,18 @@ new lead: the structure-search tool links **P2X receptors to the proton-activate
 chloride channel PAC1** in all ten representative pairs. That is a third
 trimeric two-helix channel family alongside the PAC1–DEG/ENaC resemblance seen
 in S8a *(pending: S18 — shared extracellular domain or shared pore)*.
+
+**S13a — Which human disease genes can be tested for selection, and against what?**
+
+Before testing how tightly evolution holds the four channels with the largest
+clinical variant sets, we asked the gene trees what each gene's true orthologues
+are. **CFTR, KCNQ1 and RYR1 each have one clear orthologue in every jawed
+vertebrate we sampled** (14–18 sequences from shark to human). **SCN1A does not:
+its orthologues stop at the amniotes.** In our tree SCN1A, SCN2A, SCN3A and SCN9A
+form one cluster that duplicated after the land vertebrates split from fish, so a fish "SCN1A" is the ancestor of four human genes rather than
+the equivalent of one. Any comparison of SCN1A with fish is a comparison with that
+whole cluster. The same tree also limits the fair paralogue comparison. Only
+human, mouse and rat carry a clear orthologue of every human sodium-channel gene,
+so SCN1A can be compared with its nine paralogues only across primates and
+rodents. Codon sequences that provably encode the aligned proteins were found for
+138 of 139 sequences. *(pending: S13b — the selection results themselves)*

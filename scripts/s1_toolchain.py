@@ -50,6 +50,10 @@ TOOLS: list[tuple[str, list[str], str | None, str]] = [
     ("iqtree2",     ["--version"],  r"version ([\d.]+)",            "S7/S8"),
     ("datasets",    ["--version"],  r"version: ([\d.]+)",           "S4"),
     ("foldseek",    ["version"],    None,                           "S8/S12 (tier-3 network)"),
+    # codeml prints no version banner; the env's conda-meta records PAML 4.10.10.
+    ("codeml",      ["/nonexistent.ctl"], r"(ctl file open error)",  "S13"),
+    ("hyphy",       ["--version"],  r"HYPHY ([\d.]+)",              "S13"),
+    ("pal2nal.pl",  [],             r"\((v[\d.]+)\)",               "S13"),
 ]
 
 #: Python packages the pipeline imports.
@@ -74,7 +78,7 @@ def probe(name: str, argv: list[str], pattern: str | None) -> dict:
                 "path": "", "location": ""}
     try:
         p = subprocess.run([path, *argv], capture_output=True, text=True,
-                           timeout=60)
+                           stdin=subprocess.DEVNULL, timeout=60)
     except (OSError, subprocess.SubprocessError) as exc:
         return {"tool": name, "version": "", "status": f"ERROR: {exc}",
                 "path": path, "location": where}

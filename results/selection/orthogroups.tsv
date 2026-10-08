@@ -1,0 +1,20 @@
+family	human_tip	entry_name	is_anchor	n_tips	n_species	species	bounding_ufboot	n_common_tips
+cftr	P13569__Homsap	CFTR	1	14	14	Anocar,Calmil,Danrer,Galgal,Homsap,Latcha,Mondom,Musmus,Ornana,Petmar,Ratnor,Takrub,Tormar,Xentro		
+nav	P35498__Homsap	SCN1A	1	7	7	Anocar,Galgal,Homsap,Mondom,Musmus,Ornana,Ratnor	100.0	3
+nav	P35499__Homsap	SCN4A	0	17	13	Anocar,Calmil,Danrer,Galgal,Homsap,Latcha,Mondom,Musmus,Ornana,Ratnor,Takrub,Tormar,Xentro	99.0	3
+nav	Q01118__Homsap	SCN7A	0	5	4	Homsap,Mondom,Musmus,Ratnor	100.0	3
+nav	Q14524__Homsap	SCN5A	0	5	5	Homsap,Mondom,Musmus,Ornana,Ratnor	100.0	3
+nav	Q15858__Homsap	SCN9A	0	4	4	Homsap,Mondom,Musmus,Ratnor	98.0	3
+nav	Q99250__Homsap	SCN2A	0	5	5	Homsap,Mondom,Musmus,Ornana,Ratnor	100.0	3
+nav	Q9NY46__Homsap	SCN3A	0	7	7	Anocar,Galgal,Homsap,Mondom,Musmus,Ornana,Ratnor	100.0	3
+nav	Q9UI33__Homsap	SCNBA	0	5	5	Homsap,Mondom,Musmus,Ornana,Ratnor	100.0	3
+nav	Q9UQD0__Homsap	SCN8A	0	6	6	Anocar,Galgal,Homsap,Musmus,Ornana,Ratnor	100.0	3
+nav	Q9Y5Y9__Homsap	SCNAA	0	5	5	Homsap,Mondom,Musmus,Ornana,Ratnor	100.0	3
+kv_kcnq	O43525__Homsap	KCNQ3	0	11	11	Anocar,Calmil,Danrer,Galgal,Homsap,Mondom,Musmus,Ornana,Ratnor,Tormar,Xentro	100.0	8
+kv_kcnq	O43526__Homsap	KCNQ2	0	14	12	Anocar,Calmil,Danrer,Galgal,Homsap,Latcha,Mondom,Musmus,Ornana,Ratnor,Takrub,Xentro	100.0	9
+kv_kcnq	P51787__Homsap	KCNQ1	1	18	13	Anocar,Calmil,Danrer,Galgal,Homsap,Latcha,Musmus,Ornana,Petmar,Ratnor,Takrub,Tormar,Xentro	99.0	11
+kv_kcnq	P56696__Homsap	KCNQ4	0	13	13	Anocar,Calmil,Danrer,Galgal,Homsap,Latcha,Mondom,Musmus,Ornana,Ratnor,Takrub,Tormar,Xentro	100.0	8
+kv_kcnq	Q9NR82__Homsap	KCNQ5	0	13	11	Anocar,Danrer,Galgal,Homsap,Latcha,Mondom,Musmus,Ornana,Ratnor,Takrub,Xentro	99.0	9
+ryr	P21817__Homsap	RYR1	1	15	13	Anocar,Calmil,Danrer,Galgal,Homsap,Latcha,Mondom,Musmus,Ornana,Ratnor,Takrub,Tormar,Xentro	100.0	12
+ryr	Q15413__Homsap	RYR3	0	13	12	Anocar,Calmil,Danrer,Galgal,Homsap,Latcha,Mondom,Musmus,Ornana,Ratnor,Tormar,Xentro	98.0	12
+ryr	Q92736__Homsap	RYR2	0	16	13	Anocar,Calmil,Danrer,Galgal,Homsap,Latcha,Mondom,Musmus,Ornana,Petmar,Ratnor,Takrub,Tormar	96.0	12

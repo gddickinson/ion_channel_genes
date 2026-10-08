@@ -344,8 +344,36 @@ reference set, Foldseek all-vs-all for the fold network. Needs the drive.
 
 ## S13 — Selection
 
-**Goal.** ML selection tests on the families with real clinical variant sets.
-Pairs with S19.
+**Goal.** ML selection tests on the families with real clinical variant sets
+(CFTR, SCN1A, KCNQ1, RYR1). Pairs with S19, which reads S13's per-site layer.
+Rules: **D55** (fixed before any CDS or ω). Ported from the IP3R project's S9
+(`../ip3r_genes/scripts/s9_*.py`; its D36–D38).
+
+### S13a — design, inputs, detached run (completed 2026-10-08)
+
+1. `s13_sets.py` — orthogroups from S7b's trees (largest one-anchor edge side,
+   UFBoot ≥ 95), common species per family → `sets.tsv`, `orthogroups.tsv`.
+2. `s13_cds.py` — validated CDS per tip (UniProt xrefs → Ensembl / ENA /
+   RefSeq; S5 call blocks for genome tips) → `cds_status.tsv`,
+   `<data root>/selection/s13/cds.fasta`.
+3. `s13_codon.py` — L-INS-i, in-house codon map = PAL2NAL, site sets in human
+   numbering, family sets `-gt 0.5`; pruned, coded trees → `codon/`, `trees/`,
+   `tip_codes.tsv`, `site_map.tsv`, `codon_stats.tsv`.
+4. `s13_jobs.py` → `jobs.tsv` (79 jobs); `s13_run.py` runs them detached,
+   resumably (claim-locked job directories under `<data root>/selection/s13/jobs/`).
+
+### S13b — results
+
+**Completion criteria.** Every job in `jobs.tsv` done (`s13_run.py --status`);
+parsers for mlc (site classes, branch ω, BEB, per-branch dS), `2ML.dS`, FEL and
+RELAX JSON; `lrt.tsv` with the parameter beside every test and BH across all
+S13 LRTs; the stem-dS / ω₂-bound gate applied (D55 (8)); `omega.tsv` (per set
+and per orthogroup); `sites.tsv` (per human position: FEL dN/dS and p, M8 BEB
+posterior, occupancy) — the S19 input; `report.md` rendered from those tables
+(D13); `figures/selection.png` drawn by `s13_figures.py`, looked at (D11) and
+captioned in `figure_notes.py`. Wording of every claim chosen from the fitted
+parameter, not the p-value (IP3R D38). D55 is not changed after a likelihood
+is read.
 
 ---
 

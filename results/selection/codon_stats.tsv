@@ -1,0 +1,8 @@
+set	family	n_tips	aln_cols	codons_kept	masked_codons
+family_kv_kcnq	kv_kcnq	45	1606	790	0
+family_nav	nav	30	2215	1993	1
+family_ryr	ryr	35	5523	4967	0
+site_CFTR	cftr	14	1605	1480	0
+site_KCNQ1	kv_kcnq	18	954	676	0
+site_RYR1	ryr	14	5407	5038	0
+site_SCN1A	nav	7	2033	2009	0

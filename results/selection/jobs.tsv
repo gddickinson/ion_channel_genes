@@ -1,0 +1,80 @@
+name	tool	group	cost	settings
+bs_null_family_ryr	codeml	family_ryr	1390760	model=2;NSsites=2;fix_omega=1;omega=1
+bs_alt_w0.5_family_ryr	codeml	family_ryr	1390760	model=2;NSsites=2;fix_omega=0;omega=0.5
+bs_alt_w1.5_family_ryr	codeml	family_ryr	1390760	model=2;NSsites=2;fix_omega=0;omega=1.5
+bs_alt_w2.5_family_ryr	codeml	family_ryr	1390760	model=2;NSsites=2;fix_omega=0;omega=2.5
+bs_alt_w4.0_family_ryr	codeml	family_ryr	1390760	model=2;NSsites=2;fix_omega=0;omega=4.0
+relax_family_ryr	relax	family_ryr	1043070	test=Test;reference=Reference;models=Minimal
+bs_null_family_nav	codeml	family_nav	478320	model=2;NSsites=2;fix_omega=1;omega=1
+bs_alt_w0.5_family_nav	codeml	family_nav	478320	model=2;NSsites=2;fix_omega=0;omega=0.5
+bs_alt_w1.5_family_nav	codeml	family_nav	478320	model=2;NSsites=2;fix_omega=0;omega=1.5
+bs_alt_w2.5_family_nav	codeml	family_nav	478320	model=2;NSsites=2;fix_omega=0;omega=2.5
+bs_alt_w4.0_family_nav	codeml	family_nav	478320	model=2;NSsites=2;fix_omega=0;omega=4.0
+relax_family_nav	relax	family_nav	358740	test=Test;reference=Reference;models=Minimal
+m8_site_RYR1	codeml	site_RYR1	352660	NSsites=8
+m8a_site_RYR1	codeml	site_RYR1	352660	NSsites=8;fix_omega=1;omega=1
+two_null_family_ryr	codeml	family_ryr	347690	model=2
+two_alt_family_ryr	codeml	family_ryr	347690	model=2
+bs_null_family_kv_kcnq	codeml	family_kv_kcnq	284400	model=2;NSsites=2;fix_omega=1;omega=1
+bs_alt_w0.5_family_kv_kcnq	codeml	family_kv_kcnq	284400	model=2;NSsites=2;fix_omega=0;omega=0.5
+bs_alt_w1.5_family_kv_kcnq	codeml	family_kv_kcnq	284400	model=2;NSsites=2;fix_omega=0;omega=1.5
+bs_alt_w2.5_family_kv_kcnq	codeml	family_kv_kcnq	284400	model=2;NSsites=2;fix_omega=0;omega=2.5
+bs_alt_w4.0_family_kv_kcnq	codeml	family_kv_kcnq	284400	model=2;NSsites=2;fix_omega=0;omega=4.0
+m7_site_RYR1	codeml	site_RYR1	282128	NSsites=7
+relax_family_kv_kcnq	relax	family_kv_kcnq	213300	test=Test;reference=Reference;models=Minimal
+m2a_site_RYR1	codeml	site_RYR1	211596	NSsites=2
+m0_family_ryr	codeml	family_ryr	173845	
+m1a_site_RYR1	codeml	site_RYR1	141064	NSsites=1
+fel_site_RYR1	fel	site_RYR1	141064	pvalue=0.1;ci=No
+two_null_family_nav	codeml	family_nav	119580	model=2
+two_alt_family_nav	codeml	family_nav	119580	model=2
+m8_site_CFTR	codeml	site_CFTR	103600	NSsites=8
+m8a_site_CFTR	codeml	site_CFTR	103600	NSsites=8;fix_omega=1;omega=1
+m7_site_CFTR	codeml	site_CFTR	82880	NSsites=7
+two_null_family_kv_kcnq	codeml	family_kv_kcnq	71100	model=2
+two_alt_family_kv_kcnq	codeml	family_kv_kcnq	71100	model=2
+m0_site_RYR1	codeml	site_RYR1	70532	
+pair_site_RYR1	codeml	site_RYR1	70532	runmode=-2
+m8_site_SCN1A	codeml	site_SCN1A	70315	NSsites=8
+m8a_site_SCN1A	codeml	site_SCN1A	70315	NSsites=8;fix_omega=1;omega=1
+m2a_site_CFTR	codeml	site_CFTR	62160	NSsites=2
+m8_site_KCNQ1	codeml	site_KCNQ1	60840	NSsites=8
+m8a_site_KCNQ1	codeml	site_KCNQ1	60840	NSsites=8;fix_omega=1;omega=1
+m0_family_nav	codeml	family_nav	59790	
+m0_og_RYR3	codeml	og_RYR3	59604	
+m0_og_RYR2	codeml	og_RYR2	59604	
+m7_site_SCN1A	codeml	site_SCN1A	56252	NSsites=7
+m0_og_RYR1	codeml	og_RYR1	54637	
+m7_site_KCNQ1	codeml	site_KCNQ1	48672	NSsites=7
+m2a_site_SCN1A	codeml	site_SCN1A	42189	NSsites=2
+m1a_site_CFTR	codeml	site_CFTR	41440	NSsites=1
+fel_site_CFTR	fel	site_CFTR	41440	pvalue=0.1;ci=No
+m2a_site_KCNQ1	codeml	site_KCNQ1	36504	NSsites=2
+m0_family_kv_kcnq	codeml	family_kv_kcnq	35550	
+m1a_site_SCN1A	codeml	site_SCN1A	28126	NSsites=1
+fel_site_SCN1A	fel	site_SCN1A	28126	pvalue=0.1;ci=No
+m1a_site_KCNQ1	codeml	site_KCNQ1	24336	NSsites=1
+fel_site_KCNQ1	fel	site_KCNQ1	24336	pvalue=0.1;ci=No
+m0_site_CFTR	codeml	site_CFTR	20720	
+pair_site_CFTR	codeml	site_CFTR	20720	runmode=-2
+m0_site_CFTR_nocyc	codeml	site_CFTR	20720	
+m0_site_SCN1A	codeml	site_SCN1A	14063	
+pair_site_SCN1A	codeml	site_SCN1A	14063	runmode=-2
+m0_site_KCNQ1	codeml	site_KCNQ1	12168	
+pair_site_KCNQ1	codeml	site_KCNQ1	12168	runmode=-2
+m0_site_KCNQ1_nocyc	codeml	site_KCNQ1	12168	
+m0_og_KCNQ1	codeml	og_KCNQ1	8690	
+m0_og_KCNQ2	codeml	og_KCNQ2	7110	
+m0_og_KCNQ5	codeml	og_KCNQ5	7110	
+m0_og_KCNQ3	codeml	og_KCNQ3	6320	
+m0_og_KCNQ4	codeml	og_KCNQ4	6320	
+m0_og_SCN1A	codeml	og_SCN1A	5979	
+m0_og_SCN4A	codeml	og_SCN4A	5979	
+m0_og_SCN7A	codeml	og_SCN7A	5979	
+m0_og_SCN5A	codeml	og_SCN5A	5979	
+m0_og_SCN9A	codeml	og_SCN9A	5979	
+m0_og_SCN2A	codeml	og_SCN2A	5979	
+m0_og_SCN3A	codeml	og_SCN3A	5979	
+m0_og_SCNBA	codeml	og_SCNBA	5979	
+m0_og_SCN8A	codeml	og_SCN8A	5979	
+m0_og_SCNAA	codeml	og_SCNAA	5979	

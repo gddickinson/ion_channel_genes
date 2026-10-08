@@ -1163,3 +1163,32 @@ and the ingroup's basal split is identical under the two outgroups.
   updated mmCIF, units). Figure `results/structures/figures/structures.png`.
 
 **Next: S13** — selection tests on CFTR, SCN1A, KCNQ1, RYR1.
+
+### 2026-10-08 — S13a: selection design, inputs, detached run
+
+- S13 split (S13a/S13b): the codeml suite is a day or more of compute. Brief
+  was one line; the design is **D55**, fixed before any CDS or ω, ported
+  from the IP3R project's S9 (its D36–D38: validated CDS with every
+  disagreeing codon masked, branch-site restarts by construction, the fitted
+  parameter beside every LRT).
+- Sets from S7b's trees, never symbols: the anchors' vertebrate orthogroups
+  (largest one-anchor edge side at UFBoot ≥ 95) — CFTR 14, **SCN1A 7
+  (amniotes: the SCN1A/2A/3A/9A cluster duplicated within tetrapods)**,
+  KCNQ1 18, RYR1 15; paralogue contrasts at each family's common species
+  (Nav only human/mouse/rat; KCNQ 8; RyR 11) so ω is compared at one depth.
+  Two rule addenda on set membership, before any likelihood: merged edges
+  keep the larger UFBoot; a two-anchor family is refused (selftest found it).
+- CDS: 138/139 validated (Ensembl 93, RefSeq 25, ENA 13, S5 genome blocks 7;
+  8 codons masked). Human RYR1/RYR3/KCNQ2/KCNQ5/SCN5A needed 3–5 candidates
+  each — the isoform trap IP3R hit. Rat RYR1 dropped (89-codon fragment).
+- Codon alignments: in-house map = PAL2NAL on every row; site sets exactly
+  the human residues (CFTR 1,480; SCN1A 2,009; KCNQ1 676; RYR1 5,038).
+- 79 jobs; smoke test caught codeml exiting non-zero on a headerless tree
+  file (fixed). Launched detached on the laptop: `s13_run.py --workers 8`
+  (`run.log`) + a 2-worker driver for the small jobs (`run_small.log`),
+  sharing claim-locked job directories under `<data root>/selection/s13/`.
+  Mac mini not used.
+- Toolchain probe now lists codeml, HyPhy 2.5.101, PAL2NAL v14 (and gives
+  every probe a closed stdin — codeml waited on it).
+
+**Next: S13b** — wait for the suite, parse, report, figure.
