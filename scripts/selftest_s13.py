@@ -36,6 +36,19 @@ def run(check) -> None:
     check("S13: Benjamini–Hochberg on a known vector",
           [round(q, 4) for q in bh([0.01, 0.04, 0.03, 0.5])], [0.04, 0.0533, 0.0533, 0.5])
 
+    # -- HyPhy JSON: bare inf/nan repaired; a str path works as well as a Path
+    import json
+    import tempfile
+    from pathlib import Path
+    from s13_lib import load_hyphy_json
+    with tempfile.TemporaryDirectory() as d:
+        f = Path(d) / "x.json"
+        f.write_text('{"a": inf, "b": [-inf, nan], "c": 1}')
+        a, b = load_hyphy_json(f), load_hyphy_json(str(f))
+    check("S13: HyPhy JSON loads from a str or Path with inf/nan repaired",
+          (json.dumps(a) == json.dumps(b), a["a"], a["b"][0], a["b"][1] != a["b"][1], a["c"]),
+          (True, float("inf"), float("-inf"), True, 1))
+
     # -- trees: pruning keeps the larger UFBoot on a merged edge
     t = UTree.from_newick("((A:1,(B:1,(C:1,x:1)60:1)99:1)80:1,D:1,E:1);")
     p = prune(t, {"A", "B", "C", "D", "E"})

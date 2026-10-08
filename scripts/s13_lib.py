@@ -180,10 +180,10 @@ def bh(pvals: list[float]) -> list[float]:
 _NONFINITE = re.compile(r"(?<=[:\[,])(\s*)(-?)inf\b|(?<=[:\[,])(\s*)nan\b")
 
 
-def load_hyphy_json(path: Path) -> dict:
+def load_hyphy_json(path: Path | str) -> dict:
     """HyPhy JSON with its bare `inf` / `nan` literals made legal."""
     def sub(m: re.Match) -> str:
         if m.group(3) is not None:
             return f"{m.group(3)}NaN"
         return f"{m.group(1)}{m.group(2)}Infinity"
-    return json.loads(_NONFINITE.sub(sub, path.read_text()))
+    return json.loads(_NONFINITE.sub(sub, Path(path).read_text()))
