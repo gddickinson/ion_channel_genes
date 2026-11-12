@@ -72,18 +72,34 @@ def discovered_figures() -> list[tuple[str, str]]:
 
 
 # ------------------------------------------------------------ ledger parse
-def parse_ledger() -> list[dict]:
-    """Both roadmap ledger tables → ordered task dicts."""
-    text = (ROOT / "PUBLICATION_ROADMAP.md").read_text()
+def parse_ledger(text: str | None = None) -> list[dict]:
+    """Both roadmap ledger tables → ordered task dicts.
+
+    The column count comes from each table's header row, not from the row:
+    a results cell can hold a literal '|' (a bipartition such as
+    'CNG 142|171'), so any surplus cells are joined back into the last
+    (results) column instead of shifting the status column.
+    """
+    if text is None:
+        text = (ROOT / "PUBLICATION_ROADMAP.md").read_text()
     tasks: list[dict] = []
+    ncols = 0
     for line in text.splitlines():
+        if line.startswith("| ID "):
+            ncols = len(line.strip().strip("|").split("|"))
+            continue
         if not line.startswith("| S"):
             continue
         cells = [c.strip() for c in line.strip().strip("|").split("|")]
         # S14a / S14b / S14c are real rows, so the id pattern allows a suffix
         if len(cells) < 4 or not re.fullmatch(r"S\d+[a-z]?", cells[0]):
             continue
-        if len(cells) >= 6:          # analysis table has a Priority column
+        width = ncols if ncols in (5, 6) else (6 if len(cells) >= 6 else 5)
+        if len(cells) == 5:          # a row written without the Priority cell
+            width = 5
+        if len(cells) > width:
+            cells = cells[:width - 1] + ["|".join(cells[width - 1:])]
+        if width == 6:               # analysis table has a Priority column
             tid, title, depends, _prio, status, results = cells[:6]
         else:
             tid, title, depends, status, results = cells[:5]
