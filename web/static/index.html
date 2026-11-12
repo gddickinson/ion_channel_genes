@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ion channel census</title>
+<meta name="description" content="Read-only results dashboard of the ion channel census, classification and phylogeny project: committed tables, trees, figures and headline numbers, each with its source file and commit.">
+<link rel="icon" href="static/icon.svg">
+<link rel="stylesheet" href="static/style.css">
+<link rel="stylesheet" href="static/style_app.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/"><span class="mark"></span>Ion channel census</a>
+  <nav class="groups" aria-label="Main">
+    <a href="#/ledger" data-nav="ledger">Progress</a>
+    <a href="#/census" data-nav="census">Census</a>
+    <a href="#/trees" data-nav="trees">Trees</a>
+    <a href="#/figures" data-nav="figures">Figures</a>
+    <details><summary>Data</summary><div class="menu">
+      <a href="#/tables" data-nav="tables">Tables</a>
+      <a href="#/reports" data-nav="reports">Stage reports</a>
+      <a href="#/findings" data-nav="findings">Findings</a>
+    </div></details>
+    <a href="#/about" data-nav="about">About</a>
+  </nav>
+  <div class="right"><a class="small mute" href="https://github.com/gddickinson/ion_channel_genes" target="_blank" rel="noopener">GitHub</a></div>
+</header>
+<main id="app" tabindex="-1"></main>
+<footer class="foot">Ion channel census · <a href="https://github.com/gddickinson/ion_channel_genes">source on GitHub</a> · <span id="mode"></span></footer>
+<script type="module" src="static/main.js"></script>
+</body>
+</html>

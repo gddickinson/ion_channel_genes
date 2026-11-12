@@ -81,6 +81,34 @@ matplotlib — run those with `/opt/anaconda3/envs/piezo1/bin/python` (D18).
 
 ---
 
+## Results dashboard (web)
+
+A read-only dashboard of the committed results: headline numbers, the roadmap ledger, the presence matrix, every
+committed tree (drawn in the browser), the headline figures with their captions, every results table, the stage
+reports and `FINDINGS.md`. Live at **https://gddickinson.github.io/ion_channel_genes/** (published by
+`.github/workflows/pages.yml` on every push to `main`).
+
+- Every number is read at build time from a file under `results/` that git tracks; nothing is typed in or
+  recomputed. Each panel names its source file and the last commit that changed it, linked to GitHub.
+- Task status comes from the ledger's own markers (`completed` / `in_progress` / `pending`); panels whose task is not
+  finished say so, and FINDINGS' `(pending: task)` markers are highlighted.
+- The static export (`scripts/build_static.py`) refuses any source file with uncommitted changes. Tables longer than
+  1,500 rows show their first 1,500 rows, with a link to the full file.
+
+```bash
+pip install -r requirements-web.txt
+python run_web.py                          # http://127.0.0.1:8180, reads the working tree
+python scripts/build_static.py --out site  # the static site, as published
+python -m pytest -q tests                  # web + ledger-reader tests (node runs the JS tests if installed)
+```
+
+| | |
+|---|---|
+| ![Home: headline numbers with source file, key, commit and ledger status](docs/img/web_home.png) | ![Presence matrix: census family by panel species, coloured by genome verdict](docs/img/web_census.png) |
+| ![Tree viewer: a tier-1 family tree with UFBoot-coloured branches](docs/img/web_tree.png) | ![Table explorer: a committed results table with its row cap noted](docs/img/web_table.png) |
+
+---
+
 ## Results in figures
 
 One headline figure per completed task, in task order, each drawn by a script from that task's committed tables. Every figure has a plain-English description: what it shows, how it was made, and how to read its colours and marks. The descriptions live in `scripts/figure_notes.py` (edit them there, then run `python3 scripts/readme_figures.py`); the dashboard shows the same text.

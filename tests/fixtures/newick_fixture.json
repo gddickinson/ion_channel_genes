@@ -1,0 +1,89 @@
+{
+ "source": "scripts/s7_newick.py",
+ "trees": [
+  {
+   "path": "results/phylogeny/tier1/asic.treefile",
+   "leaves": 189,
+   "internal": 186,
+   "ge95": 108,
+   "total_length": 117.70408983129995,
+   "first_leaves": [
+    "O35240__Ratnor",
+    "Q6X1Y6__Musmus",
+    "Q9UHC3__Homsap",
+    "F7C3X2__Mondom",
+    "F6RDV3__Ornana"
+   ]
+  },
+  {
+   "path": "results/phylogeny/tier1/nachr.treefile",
+   "leaves": 728,
+   "internal": 725,
+   "ge95": 383,
+   "total_length": 379.70727721289967,
+   "first_leaves": [
+    "G5ECT0__Caeele",
+    "Q19351__Caeele",
+    "A0A168H3E7__Caeele",
+    "O16426__Caeele",
+    "G5EGR1__Caeele"
+   ]
+  },
+  {
+   "path": "results/phylogeny/tier1/reroot/cng.prok_cng.treefile",
+   "leaves": 338,
+   "internal": 335,
+   "ge95": 183,
+   "total_length": 263.77763608320004,
+   "first_leaves": [
+    "A0A8I5ZN27__Ratnor",
+    "E1AZ71__Musmus",
+    "Q14028__Homsap",
+    "F7EIJ8__Mondom",
+    "A0A6I8P9C4__Ornana"
+   ]
+  },
+  {
+   "path": "results/phylogeny/tier2/ploop.treefile",
+   "leaves": 319,
+   "internal": 316,
+   "ge95": 47,
+   "total_length": 331.1625433381002,
+   "first_leaves": [
+    "catsper__A0A1X7U8D4__Ampque",
+    "catsper__A7S9M8__Nemvec",
+    "catsper__A0A9J7KRC7__Braflo",
+    "catsper__Q86XQ3__Homsap",
+    "catsper__A0A6I8NAW1__Ornana"
+   ]
+  },
+  {
+   "path": "results/phylogeny/gost/gost.treefile",
+   "leaves": 115,
+   "internal": 112,
+   "ge95": 54,
+   "total_length": 74.85253580480001,
+   "first_leaves": [
+    "D3ZWZ9_Ratnor_nonchannel_gost",
+    "F4JY11_Aratha_nonchannel_gost",
+    "Q9LZ39_Aratha_nonchannel_gost",
+    "Q9C5T6_Aratha_nonchannel_gost",
+    "A0A0P0VA50_Orysat_nonchannel_gost"
+   ]
+  },
+  {
+   "path": "results/duplication/repeats/repeat.treefile",
+   "leaves": 82,
+   "internal": 79,
+   "ge95": 27,
+   "total_length": 86.05806600939997,
+   "first_leaves": [
+    "I__nav__B3RSS4__Triadh",
+    "II__nav__B3RSS4__Triadh",
+    "II__nav__A7SKR1__Nemvec",
+    "II__nav__A0A9J7HNZ5__Braflo",
+    "II__nav__A0AAV2H4T9__Lymsta"
+   ]
+  }
+ ]
+}

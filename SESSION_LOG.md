@@ -1192,3 +1192,21 @@ and the ingroup's basal split is identical under the two outgroups.
   every probe a closed stdin — codeml waited on it).
 
 **Next: S13b** — wait for the suite, parse, report, figure.
+
+### 2026-11-12 — web dashboard (not a ledger task)
+
+- Added a read-only results dashboard: `web/` (FastAPI app + plain ES-module front end), `run_web.py`
+  (port 8180), `scripts/build_static.py` and `.github/workflows/pages.yml` (GitHub Pages on push to `main`).
+  Pages: home (16 headline numbers, each declared as file + key and read at build time), progress (ledger),
+  presence matrix (S5 census v4), trees (85 committed treefiles, drawn in the browser), figures (24, captions
+  from `figure_notes.py`), tables (all committed TSVs + small JSON summaries, capped at 1,500 rows), stage
+  reports, FINDINGS. Every panel names its file and last commit; unfinished ledger tasks are labelled with the
+  ledger's own markers; the static export refuses uncommitted files. Static site 16.6 MB.
+- **Bug fixed** (own commit, regression test `tests/test_dashboard_ledger.py`): `scripts/dashboard.py:parse_ledger`
+  split rows on every `|`, so the bipartitions in the S11a/S11b results cells (`CNG 142|171`, `{I,III}|{II,IV}`)
+  shifted the columns and both completed tasks showed as **pending** (S11a would have been offered as the next
+  task). Column count now comes from each table's header row.
+- Not changed, for George: `results/census_v2/summary.json` says `revision: r3 (S2c ...)` while its counts are the
+  r5 union (1,275,990 records = `release.json` r5.union); the dashboard reads `release.json` for that headline.
+- Mac mini not used.
+
